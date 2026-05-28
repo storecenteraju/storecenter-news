@@ -1,0 +1,6 @@
+{
+  "name": "Store Center Portal",
+  "description": "Um portal de notícias moderno com automação e rewrite inteligente via IA para economia, política, tecnologia e negócios no Brasil.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

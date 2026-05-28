@@ -56,6 +56,19 @@ if (!fs.existsSync(DB_PATH)) {
 
 // API Routes
 
+// 0. Authentication Route
+app.post("/api/login", (req, res) => {
+  const { username, password } = req.body;
+  const adminUser = process.env.ADMIN_USER || "admin";
+  const adminPass = process.env.ADMIN_PASSWORD || "admin123";
+
+  if (username === adminUser && password === adminPass) {
+    res.json({ success: true, message: "Autenticado com sucesso" });
+  } else {
+    res.status(401).json({ success: false, error: "Usuário ou senha inválidos." });
+  }
+});
+
 // 1. Posts CRUD
 app.get("/api/posts", (req, res) => {
   const db = readDatabase();

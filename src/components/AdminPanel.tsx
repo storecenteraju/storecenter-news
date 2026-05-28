@@ -27,6 +27,7 @@ export default function AdminPanel({
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState('');
+  const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // Active Admin Tab
   const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel'>('posts');
@@ -91,14 +92,32 @@ export default function AdminPanel({
     }
   }, [siteSettings]);
 
-  // Handle Administrative Login (admin / admin123)
-  const handleLogin = (e: React.FormEvent) => {
+  // Handle Administrative Login via backend API
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (username === 'admin' && password === 'admin123') {
-      setIsAuthenticated(true);
-      setLoginError('');
-    } else {
-      setLoginError('Credenciais inválidas! Tente admin / admin123.');
+    setIsLoggingIn(true);
+    setLoginError('');
+    try {
+      const response = await fetch('/api/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({ username, password }),
+      });
+
+      const data = await response.json();
+      if (response.ok && data.success) {
+        setIsAuthenticated(true);
+        setLoginError('');
+      } else {
+        setLoginError(data.error || 'Credenciais inválidas! Verifique as variáveis de ambiente.');
+      }
+    } catch (err) {
+      console.error('Erro na autenticação:', err);
+      setLoginError('Ocorreu um erro ao conectar-se ao servidor de autenticação.');
+    } finally {
+      setIsLoggingIn(false);
     }
   };
 
@@ -436,10 +455,11 @@ export default function AdminPanel({
               <input 
                 type="text" 
                 required
+                disabled={isLoggingIn}
                 placeholder="Exemplo: admin" 
                 value={username}
                 onChange={e => setUsername(e.target.value)}
-                className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800"
+                className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800 disabled:opacity-60"
               />
             </div>
 
@@ -448,18 +468,27 @@ export default function AdminPanel({
               <input 
                 type="password" 
                 required
+                disabled={isLoggingIn}
                 placeholder="Sua senha de editor" 
                 value={password}
                 onChange={e => setPassword(e.target.value)}
-                className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800"
+                className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800 disabled:opacity-60"
               />
             </div>
 
             <button 
               type="submit"
-              className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest rounded-lg shadow-lg hover:shadow-xl transition-all cursor-pointer"
+              disabled={isLoggingIn}
+              className="w-full py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-widest rounded-lg shadow-lg hover:shadow-xl transition-all cursor-pointer disabled:opacity-60 flex items-center justify-center gap-2"
             >
-              Autenticar Redator
+              {isLoggingIn ? (
+                <>
+                  <Loader2 className="w-4 h-4 animate-spin text-white" />
+                  Autenticando...
+                </>
+              ) : (
+                'Autenticar Redator'
+              )}
             </button>
           </form>
 

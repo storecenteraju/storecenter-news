@@ -57,13 +57,21 @@ export default function PortalHome({
   const secondaryPosts = finalFilteredPosts.slice(1, 7);
   const remainingPosts = finalFilteredPosts.slice(7);
 
-  const formatPublishDate = (dateStr: string) => {
-    try {
-      const d = new Date(dateStr);
-      return d.toLocaleDateString('pt-BR', { day: '2-digit', month: 'short', year: 'numeric' });
-    } catch {
-      return dateStr;
+  const formatPublishDate = (dateStr?: string) => {
+    let d = new Date();
+    if (dateStr) {
+      const parsed = new Date(dateStr);
+      if (!isNaN(parsed.getTime())) {
+        d = parsed;
+      }
     }
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const day = pad(d.getDate());
+    const month = pad(d.getMonth() + 1);
+    const year = d.getFullYear();
+    const hor = pad(d.getHours());
+    const min = pad(d.getMinutes());
+    return `${day}/${month}/${year} ${hor}:${min}`;
   };
 
   return (
@@ -128,9 +136,9 @@ export default function PortalHome({
                   <div className="md:w-2/5 p-6 md:p-8 flex flex-col justify-between">
                     <div>
                       <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">
-                        <span className="flex items-center gap-1"><User class="w-3 h-3 text-blue-500" /> {featurePost.author}</span>
+                        <span className="flex items-center gap-1"><User className="w-3 h-3 text-blue-500" /> {featurePost.author}</span>
                         <span>&bull;</span>
-                        <span className="flex items-center gap-1"><Clock class="w-3 h-3" /> {formatPublishDate(featurePost.date)}</span>
+                        <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {formatPublishDate(featurePost.date)}</span>
                       </div>
                       
                       <h2 className="text-xl md:text-2xl font-black font-display text-slate-900 leading-tight mb-4 group-hover:text-blue-600 transition-colors">
@@ -144,10 +152,10 @@ export default function PortalHome({
 
                     <div className="flex items-center justify-between border-t border-slate-100 pt-4">
                       <span className="text-[10px] font-bold text-primary hover:text-blue-700 uppercase tracking-wider flex items-center gap-1.5">
-                        Ler Matéria Completa <ArrowRight class="w-3 h-3 transition-transform group-hover:translate-x-1" />
+                        Ler Matéria Completa <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                       </span>
                       <span className="flex items-center gap-1 text-[10px] font-semibold text-slate-400">
-                        <Eye class="w-3.5 h-3.5" /> {featurePost.views} lidas
+                        <Eye className="w-3.5 h-3.5" /> {featurePost.views} lidas
                       </span>
                     </div>
                   </div>
@@ -208,7 +216,7 @@ export default function PortalHome({
                           Página de Leitura &rsaquo;
                         </span>
                         <span className="flex items-center gap-1 text-[9px] font-semibold text-slate-400">
-                          <Eye class="w-3 h-3" /> {post.views} lidas
+                          <Eye className="w-3 h-3" /> {post.views} lidas
                         </span>
                       </div>
                     </div>

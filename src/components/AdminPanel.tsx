@@ -92,6 +92,23 @@ export default function AdminPanel({
     }
   }, [siteSettings]);
 
+  const formatDate = (dateStr?: string) => {
+    let d = new Date();
+    if (dateStr) {
+      const parsed = new Date(dateStr);
+      if (!isNaN(parsed.getTime())) {
+        d = parsed;
+      }
+    }
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const day = pad(d.getDate());
+    const month = pad(d.getMonth() + 1);
+    const year = d.getFullYear();
+    const hor = pad(d.getHours());
+    const min = pad(d.getMinutes());
+    return `${day}/${month}/${year} ${hor}:${min}`;
+  };
+
   // Handle Administrative Login via backend API
   const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -835,7 +852,7 @@ export default function AdminPanel({
                     <tr key={p.id} className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 max-w-sm">
                         <span className="font-bold text-slate-900 line-clamp-1">{p.title}</span>
-                        <span className="text-[10px] text-slate-400 block mt-0.5">Por {p.author} &bull; {new Date(p.date).toLocaleString('pt-BR')}</span>
+                        <span className="text-[10px] text-slate-400 block mt-0.5">Por {p.author} &bull; {formatDate(p.date)}</span>
                       </td>
                       <td className="p-3">
                         <span className="bg-slate-100 text-slate-800 text-[10px] font-black uppercase tracking-wider px-2 py-0.5 rounded">
@@ -1209,7 +1226,7 @@ export default function AdminPanel({
                     <div key={sch.id} className="bg-slate-50/70 border border-slate-200 rounded-lg p-4 flex justify-between gap-4">
                       <div>
                         <span className="bg-amber-100 text-amber-800 text-[9px] font-extrabold uppercase px-2 py-0.5 rounded">
-                          ⏰ {sch.publishAt ? new Date(sch.publishAt).toLocaleString('pt-BR') : 'Agendado'}
+                          ⏰ {sch.publishAt ? formatDate(sch.publishAt) : 'Agendado'}
                         </span>
                         <h4 className="text-xs font-bold text-slate-900 mt-1.5 line-clamp-1">{sch.title}</h4>
                         <span className="text-[10px] text-slate-400 font-semibold block uppercase">Categoria: {sch.category}</span>

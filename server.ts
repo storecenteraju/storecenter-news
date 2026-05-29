@@ -80,6 +80,7 @@ app.post("/api/posts", (req, res) => {
   const newPost = {
     id: String(Date.now()),
     views: 0,
+    date: req.body.date || new Date().toISOString(),
     ...req.body
   };
   

@@ -805,62 +805,62 @@ echo '</urlset>' . PHP_EOL;
   };
 
   return (
-    <div id="php-exporter-panel" class="bg-slate-900 text-slate-100 rounded-xl p-6 border border-slate-800 shadow-2xl">
-      <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-5 mb-6">
+    <div id="php-exporter-panel" className="bg-slate-900 text-slate-100 rounded-xl p-6 border border-slate-800 shadow-2xl">
+      <div className="flex flex-col md:flex-row md:items-center justify-between gap-4 border-b border-slate-800 pb-5 mb-6">
         <div>
-          <span class="bg-blue-900/45 text-blue-300 border border-blue-800 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded inline-block mb-2">Exportador PHP Oficial</span>
-          <h2 class="text-2xl font-bold font-display tracking-tight text-white flex items-center gap-2">
+          <span className="bg-blue-900/45 text-blue-300 border border-blue-800 text-xs font-bold uppercase tracking-widest px-3 py-1 rounded inline-block mb-2">Exportador PHP Oficial</span>
+          <h2 className="text-2xl font-bold font-display tracking-tight text-white flex items-center gap-2">
             <Server className="text-blue-500 w-6 h-6" /> Hospedagem cPanel & Banco SQL
           </h2>
-          <p class="text-xs text-slate-400 mt-1">Gere todos os arquivos de um sistema de notícias dinâmico e carregue diretamente no gerenciador do cPanel.</p>
+          <p className="text-xs text-slate-400 mt-1">Gere todos os arquivos de um sistema de notícias dinâmico e carregue diretamente no gerenciador do cPanel.</p>
         </div>
 
         <button 
           onClick={handleDownloadAll}
           className="flex items-center justify-center gap-2 bg-gradient-to-r from-blue-600 to-emerald-600 hover:from-blue-700 hover:to-emerald-700 text-white text-xs font-bold uppercase tracking-wider px-5 py-3 rounded-lg shadow-lg hover:shadow-xl transition-all cursor-pointer select-none"
         >
-          <Download class="w-4 h-4" /> Descarregar Todos os Arquivos
+          <Download className="w-4 h-4" /> Descarregar Todos os Arquivos
         </button>
       </div>
 
-      <div class="bg-amber-950/20 border border-amber-900/50 rounded-lg p-4 mb-6 flex gap-3 text-slate-400 text-xs leading-relaxed">
+      <div className="bg-amber-950/20 border border-amber-900/50 rounded-lg p-4 mb-6 flex gap-3 text-slate-400 text-xs leading-relaxed">
         <ShieldAlert className="text-amber-500 w-6 h-6 flex-shrink-0" />
         <div>
-          <strong class="text-amber-300 block mb-0.5">Seguro e Otimizado para cPanel / HostGator / Locaweb:</strong>
+          <strong className="text-amber-300 block mb-0.5">Seguro e Otimizado para cPanel / HostGator / Locaweb:</strong>
           Este sistema foi programado puramente em PHP moderno estruturado com PDO (evitando SQL Injection), com controle integrado de anúncios para o Google AdSense, meta-tags prontas para SEO (com slugs amigáveis), sitemap.xml automatizado via script e robots.txt correto. Não exige WordPress, oferecendo carregamento instantâneo.
         </div>
       </div>
 
-      <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
-        <div class="lg:col-span-1 space-y-1">
-          <p class="text-[10px] font-bold text-slate-500 uppercase tracking-widest px-3 mb-2">Estrutura de Pasta</p>
+      <div className="grid grid-cols-1 lg:grid-cols-4 gap-6">
+        <div className="lg:col-span-1 space-y-1">
+          <p className="text-[10px] font-bold text-slate-500 uppercase tracking-widest px-3 mb-2">Estrutura de Pasta</p>
           
           <div className="space-y-1 max-h-[380px] overflow-y-auto pr-2">
-            <div class="p-2 border border-blue-950 bg-blue-950/20 rounded flex items-center gap-2 text-[11px] font-bold text-blue-300">
-              <Database class="w-3.5 h-3.5" /> / Banco de Dados
+            <div className="p-2 border border-blue-950 bg-blue-950/20 rounded flex items-center gap-2 text-[11px] font-bold text-blue-300">
+              <Database className="w-3.5 h-3.5" /> / Banco de Dados
             </div>
             <button 
               onClick={() => setSelectedFile(0)}
-              class={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === 0 ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
+              className={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === 0 ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
             >
-              <FileText class="w-3.5 h-3.5" /> banco.sql
+              <FileText className="w-3.5 h-3.5" /> banco.sql
             </button>
 
-            <div class="p-2 pt-4 border-b border-slate-800 text-[11px] font-bold text-slate-500 flex items-center gap-1.5 uppercase">
-              <FolderPlus class="w-3.5 h-3.5" /> includes /
+            <div className="p-2 pt-4 border-b border-slate-800 text-[11px] font-bold text-slate-500 flex items-center gap-1.5 uppercase">
+              <FolderPlus className="w-3.5 h-3.5" /> includes /
             </div>
             {phpFiles.slice(1, 5).map((file, idx) => (
               <button 
                 key={file.name}
                 onClick={() => setSelectedFile(idx + 1)}
-                class={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === idx + 1 ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
+                className={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === idx + 1 ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
               >
-                <FileText class="w-3.5 h-3.5" /> {file.name}
+                <FileText className="w-3.5 h-3.5" /> {file.name}
               </button>
             ))}
 
-            <div class="p-2 pt-4 border-b border-slate-800 text-[11px] font-bold text-slate-500 flex items-center gap-1.5 uppercase">
-              <FolderPlus class="w-3.5 h-3.5" /> raiz /
+            <div className="p-2 pt-4 border-b border-slate-800 text-[11px] font-bold text-slate-500 flex items-center gap-1.5 uppercase">
+              <FolderPlus className="w-3.5 h-3.5" /> raiz /
             </div>
             {phpFiles.slice(5).map((file, idx) => {
               const fileIndex = idx + 5;
@@ -868,63 +868,63 @@ echo '</urlset>' . PHP_EOL;
                 <button 
                   key={file.name}
                   onClick={() => setSelectedFile(fileIndex)}
-                  class={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === fileIndex ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
+                  className={`w-full text-left p-2.5 rounded text-xs font-semibold flex items-center gap-2 transition-colors ${selectedFile === fileIndex ? 'bg-blue-600 text-white' : 'hover:bg-slate-800 text-slate-400'}`}
                 >
-                  <FileText class="w-3.5 h-3.5" /> {file.name}
+                  <FileText className="w-3.5 h-3.5" /> {file.name}
                 </button>
               );
             })}
           </div>
         </div>
 
-        <div class="lg:col-span-3">
-          <div class="bg-slate-950 border border-slate-800 rounded-lg overflow-hidden flex flex-col h-[400px]">
-            <div class="flex items-center justify-between px-4 py-2 bg-slate-900 border-b border-slate-800 text-xs">
-              <span class="font-mono text-slate-400">caminho: <code class="text-blue-400">{phpFiles[selectedFile].path}</code></span>
-              <div class="flex items-center gap-2">
+        <div className="lg:col-span-3">
+          <div className="bg-slate-950 border border-slate-800 rounded-lg overflow-hidden flex flex-col h-[400px]">
+            <div className="flex items-center justify-between px-4 py-2 bg-slate-900 border-b border-slate-800 text-xs">
+              <span className="font-mono text-slate-400">caminho: <code className="text-blue-400">{phpFiles[selectedFile].path}</code></span>
+              <div className="flex items-center gap-2">
                 <button 
                   onClick={() => handleCopyCode(phpFiles[selectedFile].content)}
-                  class="flex items-center gap-1 text-[11px] text-slate-300 hover:text-white bg-slate-800 px-2.5 py-1 rounded transition-colors cursor-pointer select-none"
+                  className="flex items-center gap-1 text-[11px] text-slate-300 hover:text-white bg-slate-800 px-2.5 py-1 rounded transition-colors cursor-pointer select-none"
                 >
-                  {copied ? <Check class="w-3 h-3 text-green-400" /> : <Copy class="w-3 h-3" />}
+                  {copied ? <Check className="w-3.5 h-3.5 text-green-400" /> : <Copy className="w-3.5 h-3.5" />}
                   {copied ? 'Copiado!' : 'Copiar Código'}
                 </button>
                 <button 
                   onClick={() => handleDownloadFile(phpFiles[selectedFile])}
-                  class="flex items-center gap-1 text-[11px] text-blue-300 hover:text-white bg-blue-950 border border-blue-900 px-2.5 py-1 rounded transition-all cursor-pointer select-none"
+                  className="flex items-center gap-1 text-[11px] text-blue-300 hover:text-white bg-blue-950 border border-blue-900 px-2.5 py-1 rounded transition-all cursor-pointer select-none"
                 >
-                  <Download class="w-3 h-3" /> Baixar .php/sql
+                  <Download className="w-3.5 h-3.5" /> Baixar .php/sql
                 </button>
               </div>
             </div>
             
-            <div class="p-4 overflow-auto font-mono text-xs leading-relaxed text-slate-300 whitespace-pre scrollbar-thin">
+            <div className="p-4 overflow-auto font-mono text-xs leading-relaxed text-slate-300 whitespace-pre scrollbar-thin">
               {phpFiles[selectedFile].content}
             </div>
           </div>
         </div>
       </div>
 
-      <div class="mt-8 pt-6 border-t border-slate-800 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-xs text-slate-400">
-        <div class="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
-          <h4 class="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
-            <span class="w-2 h-2 rounded-full bg-blue-500"></span> 1. Criar o Banco MySQL
+      <div className="mt-8 pt-6 border-t border-slate-800 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 text-xs text-slate-400">
+        <div className="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
+          <h4 className="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
+            <span className="w-2 h-2 rounded-full bg-blue-500"></span> 1. Criar o Banco MySQL
           </h4>
-          Acesse o painel cPanel, clique em <strong>Banco de Dados MySQL</strong>, crie um banco e importe o arquivo <code class="text-blue-300 bg-slate-900 px-1 rounded">banco.sql</code> na aba SQL de seu phpMyAdmin.
+          Acesse o painel cPanel, clique em <strong>Banco de Dados MySQL</strong>, crie um banco e importe o arquivo <code className="text-blue-300 bg-slate-900 px-1 rounded">banco.sql</code> na aba SQL de seu phpMyAdmin.
         </div>
         
-        <div class="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
-          <h4 class="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
-            <span class="w-2 h-2 rounded-full bg-emerald-500"></span> 2. Ajustar Conexão
+        <div className="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
+          <h4 className="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
+            <span className="w-2 h-2 rounded-full bg-emerald-500"></span> 2. Ajustar Conexão
           </h4>
-          Edite o arquivo <code class="text-blue-300 bg-slate-900 px-1 rounded">includes/conexao.php</code> colocando o host, o nome do banco, o usuário e a senha definida no seu banco de dados no cPanel.
+          Edite o arquivo <code className="text-blue-300 bg-slate-900 px-1 rounded">includes/conexao.php</code> colocando o host, o nome do banco, o usuário e a senha definida no seu banco de dados no cPanel.
         </div>
 
-        <div class="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
-          <h4 class="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
-            <span class="w-2 h-2 rounded-full bg-green-500"></span> 3. Pronto para hospedar!
+        <div className="bg-slate-950/40 p-4 rounded-lg border border-slate-800">
+          <h4 className="text-sm font-bold font-display text-white mb-2 flex items-center gap-1.5 uppercase">
+            <span className="w-2 h-2 rounded-full bg-green-500"></span> 3. Pronto para hospedar!
           </h4>
-          Envie todos os arquivos dinâmicos no diretório <code class="text-blue-300 bg-slate-900 px-1 rounded">public_html</code> pelo gerenciador de arquivos do cPanel ou via FTP-clinf. Seu site estará live instantaneamente!
+          Envie todos os arquivos dinâmicos no diretório <code className="text-blue-300 bg-slate-900 px-1 rounded">public_html</code> pelo gerenciador de arquivos do cPanel ou via FTP-clinf. Seu site estará live instantaneamente!
         </div>
       </div>
     </div>

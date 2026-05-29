@@ -38,20 +38,21 @@ export default function PostDetails({
     .filter(p => p.category === post.category && p.id !== post.id && (p.status === 'published' || p.status === 'scheduled'))
     .slice(0, 3);
 
-  const formatPublishDate = (dateStr: string) => {
-    try {
-      const d = new Date(dateStr);
-      return d.toLocaleDateString('pt-BR', { 
-        weekday: 'long',
-        day: '2-digit', 
-        month: 'long', 
-        year: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-      });
-    } catch {
-      return dateStr;
+  const formatPublishDate = (dateStr?: string) => {
+    let d = new Date();
+    if (dateStr) {
+      const parsed = new Date(dateStr);
+      if (!isNaN(parsed.getTime())) {
+        d = parsed;
+      }
     }
+    const pad = (n: number) => String(n).padStart(2, '0');
+    const day = pad(d.getDate());
+    const month = pad(d.getMonth() + 1);
+    const year = d.getFullYear();
+    const hor = pad(d.getHours());
+    const min = pad(d.getMinutes());
+    return `${day}/${month}/${year} ${hor}:${min}`;
   };
 
   // Split content logically to inject "Ad Meio Artigo" between paragraph 2 and 3
@@ -70,7 +71,7 @@ export default function PostDetails({
               onClick={onBack}
               className="hover:text-blue-600 hover:underline cursor-pointer flex items-center gap-1 font-bold shrink-0 uppercase"
             >
-              <ArrowLeft class="w-3.5 h-3.5" /> Voltar
+              <ArrowLeft className="w-3.5 h-3.5" /> Voltar
             </button>
             <span className="text-slate-300 font-normal shrink-0">&bull;</span>
             <span className="text-blue-600 font-extrabold uppercase shrink-0 select-none tracking-wide">{post.category}</span>
@@ -98,10 +99,10 @@ export default function PostDetails({
                   
                   <div className="flex items-center gap-2">
                     <button className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors" title="Favoritar">
-                      <Bookmark class="w-4 h-4" />
+                      <Bookmark className="w-4 h-4" />
                     </button>
                     <button className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors" title="Compartilhar">
-                      <Share2 class="w-4 h-4" />
+                      <Share2 className="w-4 h-4" />
                     </button>
                   </div>
                 </div>
@@ -127,7 +128,7 @@ export default function PostDetails({
 
                   <div className="flex flex-col sm:items-end text-right gap-1 font-medium">
                     <p className="uppercase text-[10px] tracking-wider text-slate-400">Publicação oficial</p>
-                    <p className="text-slate-600 flex items-center gap-1"><Clock class="w-3.5 h-3.5" /> {formatPublishDate(post.date)}</p>
+                    <p className="text-slate-600 flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {formatPublishDate(post.date)}</p>
                   </div>
                 </div>
               </header>
@@ -208,7 +209,7 @@ export default function PostDetails({
                     key={tg}
                     className="flex items-center gap-1 bg-slate-100 text-slate-700 text-[10px] font-bold px-3 py-1.5 uppercase rounded-full hover:bg-slate-200 transition-colors select-none"
                   >
-                    <Tag class="w-2.5 h-2.5" /> #{tg}
+                    <Tag className="w-2.5 h-2.5" /> #{tg}
                   </span>
                 ))}
               </div>

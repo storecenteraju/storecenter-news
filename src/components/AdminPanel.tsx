@@ -315,6 +315,7 @@ export default function AdminPanel({
 
   // Load the scraped post automatically into manual editor for approval
   const approveScrapedPost = (scraped: any) => {
+    setEditingPostId(null);
     setPostTitle(scraped.title);
     setPostSubtitle(scraped.subtitle);
     setPostContent(scraped.content);
@@ -324,6 +325,8 @@ export default function AdminPanel({
     setPostSeoDesc(scraped.seoDescription);
     setPostKeyword(scraped.keyword);
     setPostImagePrompt(scraped.imagePrompt);
+    setPostAuthor('Redação Store Center');
+    setPostImage(scraped.image || 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80');
     setPostStatus('published');
     setScrapedResult(null);
     
@@ -372,6 +375,7 @@ export default function AdminPanel({
 
   // Move compared article to editor for publication
   const approveComparisonPost = (compared: any) => {
+    setEditingPostId(null);
     setPostTitle(compared.title);
     setPostSubtitle(compared.subtitle);
     setPostContent(compared.content);
@@ -381,6 +385,8 @@ export default function AdminPanel({
     setPostSeoDesc(compared.seoDescription);
     setPostKeyword(compared.keyword);
     setPostImagePrompt(compared.imagePrompt);
+    setPostAuthor('Redação Store Center');
+    setPostImage(compared.image || 'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80');
     setPostStatus('published');
     setComparisonResult(null);
 
@@ -866,7 +872,32 @@ export default function AdminPanel({
                       </td>
                       <td className="p-3 font-mono text-slate-500 font-semibold">{p.views || 0}</td>
                       <td className="p-3 text-right">
-                        <div className="flex items-center justify-end gap-1">
+                        <div className="flex items-center justify-end gap-1.5">
+                          {p.status === 'draft' && (
+                            <button
+                              onClick={async () => {
+                                try {
+                                  const response = await fetch(`/api/posts/${p.id}`, {
+                                    method: 'PUT',
+                                    headers: { 'Content-Type': 'application/json' },
+                                    body: JSON.stringify({ status: 'published', date: new Date().toISOString() })
+                                  });
+                                  if (response.ok) {
+                                    onRefreshData();
+                                  } else {
+                                    alert("Erro ao publicar rascunho.");
+                                  }
+                                } catch (err) {
+                                  console.error(err);
+                                  alert("Erro ao comunicar com o servidor.");
+                                }
+                              }}
+                              title="Publicar no Ar"
+                              className="bg-emerald-600 hover:bg-emerald-700 text-white px-2.5 py-1.5 rounded transition-colors cursor-pointer text-[10px] font-extrabold uppercase tracking-wide flex items-center gap-1 shadow-sm select-none"
+                            >
+                              <CheckCircle2 className="w-3.5 h-3.5" /> Publicar
+                            </button>
+                          )}
                           <button 
                             onClick={() => startEditPost(p)}
                             title="Editar"

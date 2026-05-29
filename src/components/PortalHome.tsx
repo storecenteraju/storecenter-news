@@ -24,6 +24,36 @@ export default function PortalHome({
   onAdminClick
 }: PortalHomeProps) {
   
+  // A local block set to guarantee that under no circumstances can two articles show the same photo on screen at the same time
+  const displayedImagesOnRender = new Set<string>();
+
+  const getDeduplicatedImage = (post: Post) => {
+    const rawImage = post.image || '';
+    if (!rawImage) {
+      return `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(post.category || 'news')}&sig=${post.id}`;
+    }
+
+    let baseUrl = rawImage;
+    try {
+      if (rawImage.startsWith('http')) {
+        const urlObj = new URL(rawImage);
+        urlObj.searchParams.delete('sig');
+        urlObj.searchParams.delete('random');
+        baseUrl = urlObj.origin + urlObj.pathname;
+      }
+    } catch (e) {
+      // Ignore conversion fallbacks
+    }
+
+    if (displayedImagesOnRender.has(baseUrl)) {
+      const keyword = post.keyword || post.category || 'news';
+      return `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(post.category)},${encodeURIComponent(keyword)}&sig=${post.id}-${Math.floor(Math.random() * 100)}`;
+    }
+
+    displayedImagesOnRender.add(baseUrl);
+    return rawImage;
+  };
+
   // 1. Filter posts that are marked published
   const publishedPosts = posts.filter(p => p.status === 'published' || p.status === 'scheduled');
 
@@ -49,13 +79,72 @@ export default function PortalHome({
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
-  // Popular posts sorted by view count
-  const popularPosts = [...publishedPosts].sort((a, b) => b.views - a.views).slice(0, 5);
+  // Calculate top 10 most viewed of last 7 days (Top 10 Destaques)
+  const last7DaysPosts = publishedPosts.filter(p => {
+    if (!p.date) return false;
+    const postTime = new Date(p.date).getTime();
+    const nowTime = new Date().getTime();
+    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000;
+  });
+  const top10Last7Days = [...last7DaysPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+  const top10Last7DaysIds = new Set(top10Last7Days.map(p => p.id));
 
-  // Home Page layout splits the newest post into a hero spotlight
-  const featurePost = finalFilteredPosts[0];
-  const secondaryPosts = finalFilteredPosts.slice(1, 7);
-  const remainingPosts = finalFilteredPosts.slice(7);
+  // Top 10 most viewed posts of the portal (🔥 MAIS LIDAS DA SEMANA)
+  const top10PopularPosts = [...publishedPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+
+  // Home Page layout splits the newest post into a hero spotlight with category diversity hoisting (Rule #6)
+  let displayedDestaques: Post[] = [];
+  let displayedRemaining: Post[] = [];
+
+  if (selectedCategory === 'Home' && finalFilteredPosts.length > 0) {
+    const heroPost = finalFilteredPosts[0];
+    const requiredCategories = ['Economia', 'Política', 'Tecnologia', 'Negócios', 'Geopolítica'];
+    
+    const selectedIds = new Set<string>([heroPost.id]);
+    const selectedCats = new Set<string>([heroPost.category]);
+    
+    // 1. Find the newest post for any missing required category
+    const hoistedPosts: Post[] = [];
+    for (const reqCat of requiredCategories) {
+      if (selectedCats.has(reqCat)) continue;
+      
+      const found = finalFilteredPosts.slice(1).find(p => p.category === reqCat);
+      if (found) {
+        hoistedPosts.push(found);
+        selectedIds.add(found.id);
+        selectedCats.add(reqCat);
+      }
+    }
+    
+    // We want up to 7 highlights in total (1 hero + 6 secondary)
+    const highlights: Post[] = [heroPost];
+    
+    // Add hoisted posts next
+    for (const hp of hoistedPosts) {
+      if (highlights.length < 7) {
+        highlights.push(hp);
+      }
+    }
+    
+    // Fill remaining slots of the 7 highlights with standard chronological posts
+    for (const p of finalFilteredPosts.slice(1)) {
+      if (highlights.length >= 7) break;
+      if (!selectedIds.has(p.id)) {
+        highlights.push(p);
+        selectedIds.add(p.id);
+      }
+    }
+    
+    displayedDestaques = highlights;
+    displayedRemaining = finalFilteredPosts.filter(p => !selectedIds.has(p.id));
+  } else {
+    displayedDestaques = finalFilteredPosts;
+    displayedRemaining = [];
+  }
+
+  const featurePost = selectedCategory === 'Home' ? displayedDestaques[0] : finalFilteredPosts[0];
+  const secondaryPosts = selectedCategory === 'Home' ? displayedDestaques.slice(1) : finalFilteredPosts.slice(1, 7);
+  const remainingPosts = selectedCategory === 'Home' ? displayedRemaining : finalFilteredPosts.slice(7);
 
   const formatPublishDate = (dateStr?: string) => {
     let d = new Date();
@@ -76,8 +165,28 @@ export default function PortalHome({
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      <main className="max-w-7xl mx-auto px-4 py-8">
+      <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
         
+        {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE */}
+        <div className="mb-8 md:mb-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-blue-600 rounded-full animate-ping"></span> Publicidade Google AdSense (Topo do Portal)
+            </span>
+          </div>
+          {adTop ? (
+            <div 
+              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              dangerouslySetInnerHTML={{ __html: adTop.code }}
+            />
+          ) : (
+            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Superior de Alto Impacto (728x90)</span>
+              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Anúncio do patrocinador carregar-se-á dinamicamente</span>
+            </div>
+          )}
+        </div>
+
         {/* CATEGORY HEADER BANNER (IF FILTER APPLIED) */}
         {selectedCategory !== 'Home' && (
           <div className="bg-white border border-slate-200 p-6 rounded-lg mb-8 shadow-sm">
@@ -123,7 +232,7 @@ export default function PortalHome({
                 >
                   <div className="md:w-3/5 h-64 md:h-[420px] relative overflow-hidden">
                     <img 
-                      src={featurePost.image} 
+                      src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -141,6 +250,19 @@ export default function PortalHome({
                         <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {formatPublishDate(featurePost.date)}</span>
                       </div>
                       
+                      <div className="flex flex-wrap gap-1.5 mb-3">
+                        {(featurePost.views || 0) >= 500 && (
+                          <span className="bg-red-600 text-white text-[9px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded leading-none">
+                            🔥 MAIS LIDA
+                          </span>
+                        )}
+                        {top10Last7DaysIds.has(featurePost.id) && (
+                          <span className="bg-amber-500 text-white text-[9px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded leading-none">
+                            ⭐ DESTAQUE DA SEMANA
+                          </span>
+                        )}
+                      </div>
+
                       <h2 className="text-xl md:text-2xl font-black font-display text-slate-900 leading-tight mb-4 group-hover:text-blue-600 transition-colors">
                         {featurePost.title}
                       </h2>
@@ -154,13 +276,38 @@ export default function PortalHome({
                       <span className="text-[10px] font-bold text-primary hover:text-blue-700 uppercase tracking-wider flex items-center gap-1.5">
                         Ler Matéria Completa <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                       </span>
-                      <span className="flex items-center gap-1 text-[10px] font-semibold text-slate-400">
-                        <Eye className="w-3.5 h-3.5" /> {featurePost.views} lidas
-                      </span>
+                      {(featurePost.views || 0) >= 150 && (
+                        <span className="flex items-center gap-1 text-[10px] font-semibold text-slate-400">
+                          <Eye className="w-3.5 h-3.5" /> {(featurePost.views || 0)} lidas
+                        </span>
+                      )}
                     </div>
                   </div>
                 </section>
               )}
+
+              {/* IN-FEED ADSENSE SPONSOR CORNER (MEIO DO PORTAL) */}
+              <div className="my-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+                  <span className="text-[10px] font-black text-slate-400 tracking-widest uppercase flex items-center gap-1.5">
+                    📰 Anúncio Patrocinado Google AdSense (In-Feed Central)
+                  </span>
+                  <span className="text-[9px] font-mono font-bold text-slate-500">FORMATO FLUIDO</span>
+                </div>
+                {getAdBySlot('middle') ? (
+                  <div 
+                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+                    dangerouslySetInnerHTML={{ __html: getAdBySlot('middle')?.code || '' }}
+                  />
+                ) : (
+                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[110px]">
+                    <span className="text-xs font-bold text-slate-650">Espaço de Divulgação e Publicidade Responsiva</span>
+                    <span className="text-[10px] text-slate-400 mt-1 max-w-lg font-medium leading-relaxed">
+                      Este bloco adapta-se de forma dinâmica para banners de imagem, blocos de links ou anúncios fluídos com base nas configurações vigentes.
+                    </span>
+                  </div>
+                )}
+              </div>
 
               {/* RECENT FEED GRID (2 COLUMNS) */}
               <section className="space-y-6">
@@ -182,7 +329,7 @@ export default function PortalHome({
                       <div>
                         <div className="h-48 relative overflow-hidden bg-slate-100">
                           <img 
-                            src={post.image} 
+                            src={getDeduplicatedImage(post)} 
                             alt={post.title} 
                             referrerPolicy="no-referrer"
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
@@ -201,6 +348,19 @@ export default function PortalHome({
                             <span>{formatPublishDate(post.date)}</span>
                           </div>
 
+                          <div className="flex flex-wrap gap-1.5 mb-2">
+                            {(post.views || 0) >= 500 && (
+                              <span className="bg-red-600 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded">
+                                🔥 MAIS LIDA
+                              </span>
+                            )}
+                            {top10Last7DaysIds.has(post.id) && (
+                              <span className="bg-amber-500 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded">
+                                ⭐ DESTAQUE DA SEMANA
+                              </span>
+                            )}
+                          </div>
+
                           <h4 className="text-sm font-black font-display text-slate-900 leading-snug hover:text-blue-600 transition-colors line-clamp-2 md:line-clamp-3 mb-2">
                             {post.title}
                           </h4>
@@ -215,9 +375,11 @@ export default function PortalHome({
                         <span className="text-[10px] font-bold text-blue-600 group-hover:text-blue-700 uppercase tracking-wider flex items-center gap-1.5 min-w-[12px]">
                           Página de Leitura &rsaquo;
                         </span>
-                        <span className="flex items-center gap-1 text-[9px] font-semibold text-slate-400">
-                          <Eye className="w-3 h-3" /> {post.views} lidas
-                        </span>
+                        {(post.views || 0) >= 150 && (
+                          <span className="flex items-center gap-1 text-[9px] font-semibold text-slate-400">
+                            <Eye className="w-3 h-3" /> {(post.views || 0)} lidas
+                          </span>
+                        )}
                       </div>
                     </div>
                   ))}
@@ -238,13 +400,25 @@ export default function PortalHome({
                         className="py-4 flex gap-4 cursor-pointer hover:bg-slate-50 transition-colors rounded p-2"
                       >
                         <img 
-                          src={post.image} 
+                          src={getDeduplicatedImage(post)} 
                           alt="" 
                           referrerPolicy="no-referrer"
                           className="w-16 h-16 object-cover rounded flex-shrink-0"
                         />
                         <div>
-                          <span className="text-[9px] font-bold text-blue-600 tracking-wider uppercase block mb-0.5">{post.category}</span>
+                          <div className="flex flex-wrap items-center gap-1.5 mb-1">
+                            <span className="text-[9px] font-bold text-blue-600 tracking-wider uppercase">{post.category}</span>
+                            {(post.views || 0) >= 500 && (
+                              <span className="text-[8.5px] font-black text-red-600 uppercase flex items-center gap-0.5">
+                                🔥 MAIS LIDA
+                              </span>
+                            )}
+                            {top10Last7DaysIds.has(post.id) && (
+                              <span className="text-[8.5px] font-black text-amber-600 uppercase flex items-center gap-0.5">
+                                ⭐ DESTAQUE DA SEMANA
+                              </span>
+                            )}
+                          </div>
                           <h4 className="text-xs font-bold font-display text-slate-900 hover:text-blue-600 transition-colors line-clamp-1 leading-snug">{post.title}</h4>
                           <p className="text-slate-500 text-[10px] line-clamp-2 mt-0.5 leading-relaxed">{post.subtitle}</p>
                         </div>
@@ -259,16 +433,20 @@ export default function PortalHome({
             {/* COLUMN 4: RIGHT EDITORIAL SIDEBAR */}
             <div className="lg:col-span-1 space-y-8">
               
-              {/* ADSENSE SIDEBAR MOCKUP */}
-              <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm text-center">
-                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block mb-2">Publicidade AdSense</span>
+              {/* ADSENSE SIDEBAR BANNER CARD */}
+              <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
+                <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1">
+                    🎯 Banner Lateral
+                  </span>
+                </div>
                 {adSidebar ? (
                   <div 
-                    className="p-4 bg-slate-50/70 border border-slate-200 rounded text-center text-[10px] leading-normal font-mono text-slate-500 overflow-x-hidden text-ellipsis max-h-[250px] overflow-y-hidden"
+                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-200/50 rounded-xl min-h-[250px] md:min-h-[600px]"
                     dangerouslySetInnerHTML={{ __html: adSidebar.code }}
                   />
                 ) : (
-                  <div className="p-8 border border-dashed border-slate-200 rounded text-slate-400 text-[11px]">
+                  <div className="p-8 border border-dashed border-slate-200 rounded-xl bg-slate-50/50 text-slate-400 text-xs">
                     Configure anúncios AdSense na aba lateral do Painel Administrativo.
                   </div>
                 )}
@@ -276,18 +454,18 @@ export default function PortalHome({
 
               {/* AS MAIS LIDAS INDEX */}
               <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm space-y-4">
-                <h3 className="text-sm font-black font-display text-slate-950 border-l-4 border-blue-600 pl-3 uppercase tracking-tight">
-                  Mais Lidas da Semana
+                <h3 className="text-sm font-black font-display text-slate-950 border-l-4 border-red-600 pl-3 uppercase tracking-tight flex items-center gap-1.5">
+                  🔥 MAIS LIDAS DA SEMANA
                 </h3>
                 <div className="divide-y divide-slate-100">
-                  {popularPosts.map((pop, idx) => (
+                  {top10PopularPosts.map((pop, idx) => (
                     <div 
                       key={pop.id}
                       onClick={() => onPostClick(pop)}
                       className="py-3 flex gap-3 cursor-pointer select-none group"
                     >
-                      <div className="text-2xl font-black font-display text-slate-200 font-bold w-6 flex-shrink-0 text-right group-hover:text-blue-500 transition-colors">
-                        0{idx + 1}
+                      <div className="text-xl font-black font-display text-slate-300 font-bold w-6 flex-shrink-0 text-right group-hover:text-blue-500 transition-colors">
+                        {idx + 1 < 10 ? `0${idx + 1}` : idx + 1}
                       </div>
                       <div>
                         <span className="text-[9px] font-bold text-blue-600 uppercase tracking-widest mb-0.5 block">
@@ -313,6 +491,26 @@ export default function PortalHome({
 
           </div>
         )}
+
+        {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE */}
+        <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Publicidade Google AdSense (Rodapé do Portal)
+            </span>
+          </div>
+          {adFooter ? (
+            <div 
+              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              dangerouslySetInnerHTML={{ __html: adFooter.code }}
+            />
+          ) : (
+            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Inferior de Rodapé (728x90)</span>
+              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Banners de anúncios de rodapé do patrocinador carregar-se-ão dinamicamente</span>
+            </div>
+          )}
+        </div>
 
       </main>
 

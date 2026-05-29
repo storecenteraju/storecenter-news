@@ -29,9 +29,22 @@ export default function PostDetails({
     return ads.find(a => a.slot === slot && a.enabled);
   };
 
+  const adTop = getAdBySlot('top');
   const adMiddle = getAdBySlot('middle');
   const adBottom = getAdBySlot('bottom');
   const adSidebar = getAdBySlot('sidebar');
+  const adFooter = getAdBySlot('footer');
+
+  // Calculate most viewed of the last 7 days (Top 10)
+  const last7DaysPosts = posts.filter(p => {
+    if (!p.date) return false;
+    const postTime = new Date(p.date).getTime();
+    const nowTime = new Date().getTime();
+    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000;
+  });
+  const top10Last7Days = [...last7DaysPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+  const isDestaqueDaSemana = top10Last7Days.some(p => p.id === post.id);
+  const isMaisLida = (post.views || 0) >= 500;
 
   // Filter related posts (same category, excluding current)
   const relatedPosts = posts
@@ -78,10 +91,26 @@ export default function PostDetails({
             <span className="text-slate-300 font-normal shrink-0">&bull;</span>
             <span className="text-slate-400 font-medium truncate max-w-[200px] md:max-w-md select-none">{post.title}</span>
           </div>
+        </div>
 
-          <div className="flex items-center gap-4 shrink-0 font-bold">
-            <span className="text-slate-400 capitalize flex items-center gap-1">Palavra-Chave SEO: <code className="bg-slate-100 text-slate-700 font-mono px-1.5 py-0.5 rounded text-[10px]">{post.keyword || 'S/K'}</code></span>
+        {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE NO ARTIGO */}
+        <div className="mb-6 md:mb-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-blue-600 rounded-full animate-ping"></span> Publicidade Google AdSense (Topo do Artigo)
+            </span>
           </div>
+          {adTop ? (
+            <div 
+              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              dangerouslySetInnerHTML={{ __html: adTop.code }}
+            />
+          ) : (
+            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Superior de Alto Impacto (728x90)</span>
+              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Anúncio do patrocinador carregar-se-á dinamicamente</span>
+            </div>
+          )}
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
@@ -93,9 +122,21 @@ export default function PostDetails({
               {/* PRIMARY HEADER INFOGRAPH */}
               <header className="space-y-4 mb-8">
                 <div className="flex items-center justify-between">
-                  <span className="bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1.5 rounded shadow-sm inline-block">
-                    {post.category}
-                  </span>
+                  <div className="flex flex-wrap items-center gap-2">
+                    <span className="bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1.5 rounded shadow-sm inline-block">
+                      {post.category}
+                    </span>
+                    {isMaisLida && (
+                      <span className="bg-red-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-1.5 rounded shadow-sm flex items-center gap-1">
+                        🔥 MAIS LIDA
+                      </span>
+                    )}
+                    {isDestaqueDaSemana && (
+                      <span className="bg-amber-500 text-white text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-1.5 rounded shadow-sm flex items-center gap-1">
+                        ⭐ DESTAQUE DA SEMANA
+                      </span>
+                    )}
+                  </div>
                   
                   <div className="flex items-center gap-2">
                     <button className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors" title="Favoritar">
@@ -151,54 +192,31 @@ export default function PostDetails({
               </div>
 
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
-              {adMiddle && (
-                <div className="my-8 bg-slate-50 p-5 rounded-lg border border-dashed border-slate-200 text-center">
-                  <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block mb-2">Anúncio Google AdSense (Meio do Artigo)</span>
+              <div className="my-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
+                <div className="flex items-center justify-between border-b border-slate-150 pb-2">
+                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
+                    📢 Anúncio Google AdSense (Meio do Artigo)
+                  </span>
+                  <span className="text-[9px] font-mono font-bold text-slate-500">FORMATO RETANGULAR</span>
+                </div>
+                {adMiddle ? (
                   <div 
-                    className="font-mono text-[10px] text-slate-500 overflow-x-hidden text-ellipsis selection:bg-slate-200"
+                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50 border border-slate-100 rounded-xl"
                     dangerouslySetInnerHTML={{ __html: adMiddle.code }}
                   />
-                </div>
-              )}
+                ) : (
+                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+                    <span className="text-xs font-bold text-slate-600">Espaço Reservado - AdSense Meio do Artigo (In-Article)</span>
+                    <span className="text-[10px] text-slate-400 mt-1">Anúncio do meio do artigo carregar-se-á dinamicamente</span>
+                  </div>
+                )}
+              </div>
 
               {/* ARTICLE PARAGRAPH BLOCK 2 */}
               <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed mt-6">
                 {part2.split('\n\n').map((p, i) => (
                   <p key={i} className="whitespace-pre-wrap">{p}</p>
                 ))}
-              </div>
-
-              {/* SEO IMAGE PROMPT AND INSIGHT DETAILS BOXED */}
-              {post.imagePrompt && (
-                <div className="mt-8 bg-blue-50/50 border border-blue-100 p-5 rounded-xl text-xs text-slate-600 space-y-2">
-                  <div className="font-bold text-blue-900 border-b border-blue-100 pb-1.5 uppercase tracking-wide flex items-center gap-1.5 select-none">
-                    💡 Prompt Sugerido por IA para Imagem Destacada Unsplash / Midjourney
-                  </div>
-                  <p className="italic font-medium text-slate-700 bg-white/75 p-3 rounded border border-blue-50 font-mono">
-                    "{post.imagePrompt}"
-                  </p>
-                </div>
-              )}
-
-              {/* METADATA TARGETING SEO DETAILS (META TAGS COMPLIANCE) */}
-              <div className="mt-8 p-5 rounded-xl border border-slate-200 bg-slate-50 text-xs text-slate-500 space-y-2 select-none">
-                <div className="font-bold text-slate-800 border-b border-slate-200 pb-1.5 uppercase tracking-wider flex items-center gap-1.5">
-                  🔍 Otimização SEO Meta Tags (Pronto para Google Search Console)
-                </div>
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <div>
-                    <span className="block font-semibold text-slate-700 mb-0.5">Título SEO (max 60 carac.):</span>
-                    <p className="font-mono text-[11px] text-blue-700 select-all">{post.seoTitle || post.title}</p>
-                  </div>
-                  <div>
-                    <span className="block font-semibold text-slate-700 mb-0.5">Slug URL Amigável:</span>
-                    <p className="font-mono text-[11px] text-emerald-700 select-all">/{post.category.toLowerCase()}/{post.slug}</p>
-                  </div>
-                </div>
-                <div>
-                  <span className="block font-semibold text-slate-700 mb-0.5">Meta-Description (max 150 carac.):</span>
-                  <p className="font-mono text-[11px]" style={{ wordBreak: 'break-word' }}>{post.seoDescription || post.subtitle}</p>
-                </div>
               </div>
 
               {/* EXPLICIT METRICS */}
@@ -215,15 +233,25 @@ export default function PostDetails({
               </div>
 
               {/* BOTTOM AD BLOCK (IF ACTIVE) */}
-              {adBottom && (
-                <div className="mt-8 bg-slate-50 p-5 rounded-lg border border-dashed border-slate-200 text-center">
-                  <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block mb-1">Anúncio Google AdSense (Final do Artigo)</span>
+              <div className="mt-10 mb-2 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
+                <div className="flex items-center justify-between border-b border-slate-150 pb-2">
+                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
+                    📢 Anúncio Google AdSense (Final do Artigo)
+                  </span>
+                  <span className="text-[9px] font-mono font-bold text-slate-500">RECOMENDAÇÕES / NATIVO</span>
+                </div>
+                {adBottom ? (
                   <div 
-                    className="font-mono text-[10px] text-slate-500 overflow-x-hidden text-ellipsis select-all"
+                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50 border border-slate-100 rounded-xl"
                     dangerouslySetInnerHTML={{ __html: adBottom.code }}
                   />
-                </div>
-              )}
+                ) : (
+                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+                    <span className="text-xs font-bold text-slate-600">Espaço Reservado - AdSense Final do Artigo (Matched Content)</span>
+                    <span className="text-[10px] text-slate-400 mt-1">Anúncios nativos de rodapé carregar-se-ão dinamicamente</span>
+                  </div>
+                )}
+              </div>
 
             </article>
 
@@ -285,31 +313,60 @@ export default function PostDetails({
               </button>
             </div>
 
-            {/* AD BANNER IN POST SIDEBAR */}
-            <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm text-center">
-              <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block mb-2">Publicidade AdSense Lateral</span>
+            {/* ADSENSE SIDEBAR BANNER CARD */}
+            <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
+              <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1">
+                  🎯 Banner Lateral
+                </span>
+              </div>
               {adSidebar ? (
                 <div 
-                  className="p-4 bg-slate-50/70 border border-slate-200 rounded text-center text-[10px] leading-normal font-mono text-slate-500 overflow-x-hidden text-ellipsis max-h-[300px] overflow-y-hidden"
+                  className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-200/50 rounded-xl min-h-[250px] md:min-h-[500px]"
                   dangerouslySetInnerHTML={{ __html: adSidebar.code }}
                 />
               ) : (
-                <div className="p-16 border border-dashed border-slate-200 rounded text-slate-400 text-[11px]">
+                <div className="p-8 border border-dashed border-slate-200 rounded-xl bg-slate-50/50 text-slate-400 text-xs">
                   Anúncio AdSense Lateral
                 </div>
               )}
             </div>
 
             {/* CLICKS COUNTER FOR CURRENT READING METRIC */}
-            <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 text-slate-300 space-y-1.5 text-xs">
-              <div className="text-emerald-400 font-bold uppercase tracking-widest text-[10px] flex items-center gap-1">
-                <Eye className="w-3.5 h-3.5" /> Painel de Analytics Ativo
+            {(post.views || 0) >= 150 && (
+              <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 text-slate-300 space-y-1.5 text-xs">
+                <div className="text-emerald-400 font-bold uppercase tracking-widest text-[10px] flex items-center gap-1">
+                  <Eye className="w-3.5 h-3.5" /> Painel de Analytics Ativo
+                </div>
+                <p className="text-[10px] text-slate-300">Esta matéria já ultrapassou 150 leituras e está entre os conteúdos mais acessados do portal.</p>
+                <p className="text-[10px] text-slate-500 font-mono">
+                  ({(post.views || 0) + 1} visualizações computadas)
+                </p>
               </div>
-              <p className="text-[10px] text-slate-400">Este artigo registrou <strong className="text-white font-mono text-xs">{post.views + 1}</strong> visualizações orgânicas computadas no painel da redação.</p>
-            </div>
+            )}
 
           </div>
 
+        </div>
+
+        {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE NO ARTIGO */}
+        <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
+          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
+            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Publicidade Google AdSense (Rodapé do Artigo)
+            </span>
+          </div>
+          {adFooter ? (
+            <div 
+              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              dangerouslySetInnerHTML={{ __html: adFooter.code }}
+            />
+          ) : (
+            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
+              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Inferior de Rodapé (728x90)</span>
+              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Banners de anúncios de rodapé do patrocinador carregar-se-ão dinamicamente</span>
+            </div>
+          )}
         </div>
 
       </div>

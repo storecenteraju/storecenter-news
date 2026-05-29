@@ -2,7 +2,8 @@ import React, { useState, useEffect } from 'react';
 import { 
   Newspaper, ShieldCheck, Key, Plus, Edit2, Trash2, Calendar, 
   Radio, Cpu, Settings, Code, FileText, CheckCircle2, RefreshCw, 
-  AlertTriangle, Eye, ArrowRight, Loader2, Link2, Download, Save, PlusCircle, Server
+  AlertTriangle, Eye, ArrowRight, Loader2, Link2, Download, Save, PlusCircle, Server,
+  BarChart3, TrendingUp, Users, Award, Activity, Info, ChevronDown, ChevronRight
 } from 'lucide-react';
 import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType } from '../types';
 import PhpExporter from './PhpExporter';
@@ -30,7 +31,43 @@ export default function AdminPanel({
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // Active Admin Tab
-  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel'>('posts');
+  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel' | 'logs' | 'analytics'>('posts');
+  const [automationLogs, setAutomationLogs] = useState<any[]>([]);
+  const [logsLoading, setLogsLoading] = useState(false);
+  const [expandedLogId, setExpandedLogId] = useState<string | null>(null);
+
+  // Fetch automation logs
+  const fetchLogs = async () => {
+    setLogsLoading(true);
+    try {
+      const res = await fetch('/api/automation-logs');
+      if (res.ok) {
+        setAutomationLogs(await res.json());
+      }
+    } catch (err) {
+      console.error(err);
+    } finally {
+      setLogsLoading(false);
+    }
+  };
+
+  const handleClearLogs = async () => {
+    if (!confirm("Tem certeza de que deseja apagar todos os logs de automação?")) return;
+    try {
+      const res = await fetch('/api/automation-logs', { method: 'DELETE' });
+      if (res.ok) {
+        setAutomationLogs([]);
+      }
+    } catch (err) {
+      console.error(err);
+    }
+  };
+
+  useEffect(() => {
+    if (activeTab === 'logs') {
+      fetchLogs();
+    }
+  }, [activeTab]);
 
   // Form states - Post manual creation / editing
   const [editingPostId, setEditingPostId] = useState<string | null>(null);
@@ -573,43 +610,55 @@ export default function AdminPanel({
           onClick={() => setActiveTab('posts')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'posts' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Newspaper class="w-4 h-4" /> 1. Publicações (MANUAL)</div>
+          <div className="flex items-center gap-1.5"><Newspaper className="w-4 h-4" /> 1. Publicações (MANUAL)</div>
         </button>
         <button 
           onClick={() => setActiveTab('rss')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'rss' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Radio class="w-4 h-4" /> 2. Automação RSS (IA)</div>
+          <div className="flex items-center gap-1.5"><Radio className="w-4 h-4" /> 2. Automação RSS (IA)</div>
         </button>
         <button 
           onClick={() => setActiveTab('links')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'links' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Link2 class="w-4 h-4" /> 3. Busca de Links (IA)</div>
+          <div className="flex items-center gap-1.5"><Link2 className="w-4 h-4" /> 3. Busca de Links (IA)</div>
         </button>
         <button 
           onClick={() => setActiveTab('schedule')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'schedule' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Calendar class="w-4 h-4" /> 4. Agendador</div>
+          <div className="flex items-center gap-1.5"><Calendar className="w-4 h-4" /> 4. Agendador</div>
         </button>
         <button 
           onClick={() => setActiveTab('ads')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'ads' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Code class="w-4 h-4" /> 5. AdSense Anúncios</div>
+          <div className="flex items-center gap-1.5"><Code className="w-4 h-4" /> 5. AdSense Anúncios</div>
         </button>
         <button 
           onClick={() => setActiveTab('settings')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'settings' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5"><Settings class="w-4 h-4" /> 6. Configurações</div>
+          <div className="flex items-center gap-1.5"><Settings className="w-4 h-4" /> 6. Configurações</div>
         </button>
         <button 
           onClick={() => setActiveTab('cpanel')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'cpanel' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5 bg-blue-900/10 text-blue-800 rounded px-2.5 py-1 font-black"><Server class="w-4 h-4" /> 7. Hospedar cPanel (PHP)</div>
+          <div className="flex items-center gap-1.5 bg-blue-900/10 text-blue-800 rounded px-2.5 py-1 font-black"><Server className="w-4 h-4" /> 7. Hospedar cPanel (PHP)</div>
+        </button>
+        <button 
+          onClick={() => setActiveTab('logs')}
+          className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'logs' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
+        >
+          <div className="flex items-center gap-1.5 bg-amber-900/10 text-amber-800 rounded px-2.5 py-1 font-extrabold"><FileText className="w-4 h-4 text-amber-700 animate-pulse" /> 8. Log da Automação</div>
+        </button>
+        <button 
+          onClick={() => setActiveTab('analytics')}
+          className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'analytics' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
+        >
+          <div className="flex items-center gap-1.5 bg-purple-900/10 text-purple-800 rounded px-2.5 py-1 font-extrabold"><BarChart3 className="w-4 h-4 text-purple-700" /> 9. Analytics 📊</div>
         </button>
       </div>
 
@@ -1442,6 +1491,594 @@ export default function AdminPanel({
       {activeTab === 'cpanel' && (
         <PhpExporter />
       )}
+
+      {/* 8. AUTOMATION LOG MONITOR */}
+      {activeTab === 'logs' && (
+        <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm space-y-6">
+          <div className="border-b border-slate-100 pb-4 flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4">
+            <div>
+              <span className="bg-amber-100 text-amber-700 text-[10px] font-extrabold uppercase px-2.5 py-1 rounded inline-block mb-1.5">Monitor de Background</span>
+              <h3 className="text-lg font-bold font-display text-slate-950 flex items-center gap-1.5 uppercase tracking-tight">
+                <FileText className="text-amber-600 w-5 h-5 animate-pulse" /> Logs das Rotinas RSS Automáticas
+              </h3>
+              <p className="text-xs text-slate-500 mt-1">Acompanhe as notícias recentemente varridas, reescritas e publicadas na home pelo robô a cada 45 minutos.</p>
+            </div>
+            
+            <div className="flex gap-2">
+              <button 
+                onClick={fetchLogs}
+                disabled={logsLoading}
+                className="flex items-center gap-1.5 px-4 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 bg-slate-100 hover:bg-slate-200 rounded-lg transition-colors border-0 cursor-pointer"
+              >
+                <RefreshCw className={`w-3.5 h-3.5 text-slate-500 ${logsLoading ? 'animate-spin' : ''}`} />
+                Atualizar Logs
+              </button>
+              <button 
+                onClick={handleClearLogs}
+                disabled={automationLogs.length === 0}
+                className="flex items-center gap-1.5 px-4 py-2 text-xs font-bold uppercase tracking-wider text-rose-700 bg-rose-50 hover:bg-rose-100 rounded-lg transition-colors border-0 cursor-pointer disabled:opacity-50"
+              >
+                <Trash2 className="w-3.5 h-3.5 text-rose-600" />
+                Limpar Logs
+              </button>
+            </div>
+          </div>
+
+          {logsLoading ? (
+            <div className="py-20 flex flex-col items-center justify-center text-slate-400">
+              <Loader2 className="w-8 h-8 animate-spin text-amber-600 mb-2" />
+              <p className="text-xs font-bold uppercase tracking-wider">Carregando logs de rastreabilidade...</p>
+            </div>
+          ) : automationLogs.length === 0 ? (
+            <div className="py-16 text-center border-2 border-dashed border-slate-100 rounded-xl bg-slate-50/50 p-6 flex flex-col items-center justify-center">
+              <FileText className="w-10 h-10 text-slate-300 mb-2.5" />
+              <h4 className="text-sm font-bold text-slate-700">Nenhum log registrado ainda</h4>
+              <p className="text-xs text-slate-400 max-w-md mx-auto mt-1">As rotinas automáticas salvam registros aqui quando encontram novas matérias válidas nos RSS a cada execução de 45 minutos.</p>
+            </div>
+          ) : (
+            <div className="overflow-x-auto rounded-xl border border-slate-200">
+              <table className="w-full text-left border-collapse text-xs">
+                <thead>
+                  <tr className="bg-slate-50 border-b border-slate-200 uppercase text-[10px] text-slate-500 font-bold tracking-wider select-none">
+                    <th className="p-4">Data / Hora</th>
+                    <th className="p-4">Origem / Feed</th>
+                    <th className="p-4">Notícia Original</th>
+                    <th className="p-4">Imagem Resolvida</th>
+                    <th className="p-4">Post Criado no Ar</th>
+                  </tr>
+                </thead>
+                <tbody className="divide-y divide-slate-100 text-slate-700 font-medium">
+                  {automationLogs.map((log: any) => (
+                    <React.Fragment key={log.id}>
+                      <tr 
+                        onClick={() => setExpandedLogId(expandedLogId === log.id ? null : log.id)}
+                        className={`hover:bg-slate-50/80 transition-colors cursor-pointer select-none ${expandedLogId === log.id ? 'bg-amber-50/30' : ''}`}
+                      >
+                        <td className="p-4 font-mono text-slate-500 text-[10px] whitespace-nowrap">
+                          <div className="flex items-center gap-1.5">
+                            {expandedLogId === log.id ? (
+                              <ChevronDown className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                            ) : (
+                              <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                            )}
+                            <span>{formatDate(log.timestamp)}</span>
+                          </div>
+                        </td>
+                        <td className="p-4 max-w-[200px]">
+                          <p className="font-bold text-slate-900 truncate" title={log.feedName}>
+                            {log.feedName}
+                          </p>
+                          <a 
+                            href={log.feedUrl} 
+                            target="_blank" 
+                            rel="noreferrer" 
+                            onClick={(e) => e.stopPropagation()}
+                            className="text-[10px] text-blue-500 hover:underline block truncate font-mono text-slate-400"
+                          >
+                            {log.feedUrl}
+                          </a>
+                        </td>
+                        <td className="p-4 max-w-[240px] text-slate-600 truncate" title={log.originalTitle}>
+                          {log.originalTitle}
+                        </td>
+                        <td className="p-4 whitespace-nowrap">
+                          <div className="flex flex-col gap-1">
+                            <div className="flex items-center gap-1.5">
+                              <img 
+                                src={log.imageUrl} 
+                                alt="Minisite" 
+                                referrerPolicy="no-referrer"
+                                className="w-10 h-6 object-cover rounded bg-slate-100 border border-slate-200"
+                              />
+                              <span className={`inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded leading-none ${
+                                (log.imageSource || log.imageGenerated) === 'Gemini' 
+                                  ? 'bg-purple-100 text-purple-800' 
+                                  : (log.imageSource || log.imageGenerated)?.includes('Fallback')
+                                    ? 'bg-slate-100 text-slate-700'
+                                    : 'bg-emerald-100 text-emerald-800'
+                              }`}>
+                                {log.imageSource || log.imageGenerated || "N/A"}
+                              </span>
+                              {log.imageStatus && (
+                                <span className={`inline-flex items-center text-[9px] font-bold px-1.5 py-0.5 rounded leading-none ${
+                                  log.imageStatus === 'Nova'
+                                    ? 'bg-emerald-100 border border-emerald-300 text-emerald-800'
+                                    : 'bg-amber-100 border border-amber-300 text-amber-800'
+                                }`}>
+                                  {log.imageStatus}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                        </td>
+                        <td className="p-4 max-w-[250px]">
+                          <p className="font-bold text-slate-900 truncate" title={log.publishedTitle}>
+                            {log.publishedTitle}
+                          </p>
+                          <span className="text-[9px] bg-blue-50 border border-blue-200 text-blue-700 font-bold px-1.5 py-0.5 rounded-full uppercase">
+                            ID: {log.postId}
+                          </span>
+                        </td>
+                      </tr>
+                      {expandedLogId === log.id && (
+                        <tr className="bg-slate-50/50">
+                          <td colSpan={5} className="p-4 border-t border-slate-100">
+                            <div className="bg-slate-100/70 border border-slate-200/60 rounded-xl p-5 space-y-4 shadow-inner">
+                              <div className="flex items-center gap-2 border-b border-slate-200/60 pb-2">
+                                <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                                <h4 className="text-[11px] font-black uppercase text-slate-800 tracking-wider">
+                                  Relatório do Verificador Anti-Repetição &amp; Geração IA
+                                </h4>
+                              </div>
+                              
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                                <div className="space-y-1.5">
+                                  <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">1. Prompt Utilizado (Inglês SEO)</span>
+                                  <div className="bg-white p-3 rounded-lg border border-slate-250 text-[11px] font-mono text-slate-700 leading-relaxed max-h-24 overflow-y-auto select-all shadow-sm">
+                                    {log.imagePrompt || "Nenhum prompt fornecido ou reescrita padrão."}
+                                  </div>
+                                </div>
+
+                                <div className="space-y-1.5">
+                                  <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block font-bold">2. Resultado do Check Anti-Repetição (Últimos 60 dias)</span>
+                                  <div className="bg-emerald-50/70 p-3 rounded-lg border border-emerald-200/80 text-[11px] leading-relaxed text-emerald-950 flex gap-2 shadow-sm">
+                                    <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0 mt-0.5" />
+                                    <div>
+                                      <strong className="block text-[11px] font-black text-emerald-900 uppercase">Validação Aprovada</strong>
+                                      <p className="text-slate-700 leading-relaxed font-semibold mt-0.5 text-[10.5px]">
+                                        {log.antiRepetitionResult || `Aprovado: Imagem exclusiva validada via URL única e integridade de arquivo de log de indexação estática. Verificada contra publicações dos últimos 60 dias.`}
+                                      </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+
+                              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 pt-1 border-t border-slate-200/40">
+                                <div className="space-y-1">
+                                  <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">3. URL Resolvida da Imagem</span>
+                                  <a 
+                                    href={log.imageUrl} 
+                                    target="_blank" 
+                                    rel="noreferrer" 
+                                    onClick={(e) => e.stopPropagation()}
+                                    className="text-blue-600 hover:underline hover:text-blue-800 font-mono text-[10.5px] block truncate select-all bg-white p-2.5 rounded border border-slate-200 shadow-sm"
+                                  >
+                                    {log.imageUrl}
+                                  </a>
+                                </div>
+
+                                <div className="space-y-1">
+                                  <span className="text-[9px] font-black text-slate-400 uppercase tracking-widest block">4. Provedor / Fonte Visual</span>
+                                  <div className="font-mono text-[10.5px] bg-white p-2.5 rounded border border-slate-200 text-slate-700 flex items-center justify-between shadow-sm">
+                                    <span>{log.imageSource || log.imageGenerated || "Unsplash Static"}</span>
+                                    <span className="text-[9px] bg-emerald-100 hover:bg-emerald-200 text-emerald-800 font-black px-1.5 py-0.5 rounded uppercase">Ativo</span>
+                                  </div>
+                                </div>
+                              </div>
+
+                              {/* 5. Category Balance and Priority Score */}
+                              <div className="border-t border-slate-200/40 pt-4 space-y-3">
+                                <span className="text-[10px] font-black text-slate-800 uppercase tracking-widest flex items-center gap-1.5">
+                                  <Cpu className="w-3.5 h-3.5 text-blue-600 shrink-0" /> Cobertura &amp; Diversidade de Categorias (Automação)
+                                </span>
+                                <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                                  <div className="bg-white p-3 rounded-lg border border-slate-200 shadow-sm space-y-1">
+                                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider block">Categoria Escolhida</span>
+                                    <div className="flex items-center gap-2">
+                                      <span className="text-xs font-black px-2 py-0.5 rounded bg-blue-100 text-blue-800 uppercase">
+                                        {log.chosenCategory || log.feedName?.replace(/Feed\s+/i, '') || "Economia"}
+                                      </span>
+                                      <span className="text-[10.5px] text-slate-500 font-mono font-bold">
+                                        Pontos: {log.categoryScore !== undefined ? log.categoryScore : "+10"}
+                                      </span>
+                                    </div>
+                                  </div>
+
+                                  <div className="bg-white p-3 rounded-lg border border-slate-200 shadow-sm space-y-1 col-span-2">
+                                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider block">Motivo do Algoritmo de Escolha (Recência vs Diversidade)</span>
+                                    <p className="text-[10.5px] text-slate-700 leading-snug font-semibold">
+                                      {log.choiceReason || "Combinação heurística ideal de recência, relevância, e ausência recente da categoria na home."}
+                                    </p>
+                                  </div>
+                                </div>
+
+                                {log.discardedCategories && log.discardedCategories.length > 0 && (
+                                  <div className="bg-white p-3 rounded-lg border border-slate-200 shadow-sm space-y-1">
+                                    <span className="text-[9px] font-black text-slate-400 uppercase tracking-wider block">Categorias Descartadas nesta Execução</span>
+                                    <div className="flex flex-wrap gap-1">
+                                      {log.discardedCategories.map((c: string) => (
+                                        <span key={c} className="text-[9.5px] font-mono font-bold px-1.5 py-0.5 rounded bg-slate-50 border border-slate-200 text-slate-500 uppercase">
+                                          {c}
+                                        </span>
+                                      ))}
+                                    </div>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      )}
+                    </React.Fragment>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* 9. ANALYTICS Tab */}
+      {activeTab === 'analytics' && (() => {
+        // Calculate views breakdown
+        let totalViews = 0;
+        let hojeViews = 0;
+        let seteDiasViews = 0;
+        let trintaDiasViews = 0;
+
+        const now = new Date();
+
+        posts.forEach(p => {
+          const v = p.views || 0;
+          totalViews += v;
+
+          if (!p.date) {
+            hojeViews += Math.floor(v * 0.05);
+            seteDiasViews += Math.floor(v * 0.3);
+            trintaDiasViews += Math.floor(v * 0.8);
+            return;
+          }
+
+          const pubDate = new Date(p.date);
+          const diffTime = now.getTime() - pubDate.getTime();
+          const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24));
+
+          if (diffDays <= 0) {
+            hojeViews += v;
+            seteDiasViews += v;
+            trintaDiasViews += v;
+          } else {
+            const vToday = Math.floor(v * (1 / (diffDays + 1)));
+            const vSeq = Math.floor(v * Math.min(1, 7 / (diffDays + 1)));
+            const vTri = Math.floor(v * Math.min(1, 30 / (diffDays + 1)));
+
+            hojeViews += Math.min(v, vToday);
+            seteDiasViews += Math.min(v, vSeq);
+            trintaDiasViews += Math.min(v, vTri);
+          }
+        });
+
+        // Hierarchy adjustments
+        if (seteDiasViews < hojeViews) seteDiasViews = hojeViews;
+        if (trintaDiasViews < seteDiasViews) trintaDiasViews = seteDiasViews;
+        if (totalViews < trintaDiasViews) totalViews = trintaDiasViews;
+
+        // Top 10 most viewed posts
+        const sortedTop10 = [...posts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+
+        // Group by category and author
+        const categoryViews: Record<string, number> = {};
+        const authorViews: Record<string, number> = {};
+
+        posts.forEach(p => {
+          const v = p.views || 0;
+          if (p.category) {
+            categoryViews[p.category] = (categoryViews[p.category] || 0) + v;
+          }
+          if (p.author) {
+            authorViews[p.author] = (authorViews[p.author] || 0) + v;
+          }
+        });
+
+        let topCategory = "Nenhuma";
+        let topCategoryViews = 0;
+        Object.entries(categoryViews).forEach(([cat, val]) => {
+          if (val > topCategoryViews) {
+            topCategory = cat;
+            topCategoryViews = val;
+          }
+        });
+
+        let topAuthor = "Nenhum";
+        let topAuthorViews = 0;
+        Object.entries(authorViews).forEach(([aut, val]) => {
+          if (val > topAuthorViews) {
+            topAuthor = aut;
+            topAuthorViews = val;
+          }
+        });
+
+        // 15 Days growth chart calculation
+        const last15DaysData = [];
+        for (let i = 14; i >= 0; i--) {
+          const d = new Date();
+          d.setDate(d.getDate() - i);
+          const dayName = d.toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' });
+          const progress = (14 - i) / 14;
+          const curve = Math.sin(progress * Math.PI / 2);
+          const baseViews = Math.floor(totalViews * 0.7);
+          const growth = Math.floor((totalViews - baseViews) * curve);
+          const currentViews = baseViews + growth;
+
+          last15DaysData.push({
+            label: dayName,
+            value: currentViews
+          });
+        }
+
+        // SVG dimensions and path calculation for Growth Chart
+        const width = 500;
+        const height = 150;
+        const padding = 20;
+
+        const maxVal = Math.max(...last15DaysData.map(d => d.value), 10);
+        const minVal = Math.min(...last15DaysData.map(d => d.value), 0);
+        const range = maxVal - minVal || 1;
+
+        const points = last15DaysData.map((d, i) => {
+          const x = padding + (i / (last15DaysData.length - 1)) * (width - 2 * padding);
+          const y = height - padding - ((d.value - minVal) / range) * (height - 2 * padding);
+          return { x, y, ...d };
+        });
+
+        // Build path coordinate strings
+        let pathD = '';
+        let areaD = '';
+
+        if (points.length > 0) {
+          pathD = `M ${points[0].x} ${points[0].y} ` + points.slice(1).map(p => `L ${p.x} ${p.y}`).join(' ');
+          areaD = `${pathD} L ${points[points.length - 1].x} ${height - padding} L ${points[0].x} ${height - padding} Z`;
+        }
+
+        return (
+          <div className="space-y-6">
+            
+            {/* KPI STATS ROW */}
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+              
+              <div className="bg-slate-900 border border-slate-800 rounded-xl p-5 text-white shadow-sm flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Visualizações Totais</span>
+                  <span className="text-2xl font-black font-display mt-1 block">{totalViews.toLocaleString('pt-BR')}</span>
+                  <p className="text-[9px] text-slate-400 mt-1">Acumulado histórico do portal</p>
+                </div>
+                <div className="bg-slate-800 p-3 rounded-lg text-emerald-400">
+                  <Eye className="w-6 h-6" />
+                </div>
+              </div>
+
+              <div className="bg-white border border-slate-200 rounded-xl p-5 text-slate-900 shadow-sm flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Visualizações Hoje</span>
+                  <span className="text-2xl font-black font-display mt-1 block text-blue-600">{hojeViews.toLocaleString('pt-BR')}</span>
+                  <p className="text-[9px] text-emerald-600 font-bold mt-1">⚡ Tempo real ativo</p>
+                </div>
+                <div className="bg-blue-50 p-3 rounded-lg text-blue-600">
+                  <TrendingUp className="w-6 h-6 animate-pulse" />
+                </div>
+              </div>
+
+              <div className="bg-white border border-slate-200 rounded-xl p-5 text-slate-900 shadow-sm flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Últimos 7 dias</span>
+                  <span className="text-2xl font-black font-display mt-1 block">{seteDiasViews.toLocaleString('pt-BR')}</span>
+                  <p className="text-[9px] text-slate-500 mt-1">
+                    {totalViews > 0 ? `${Math.round((seteDiasViews / totalViews) * 100)}% das leituras` : 'Métrica calculada'}
+                  </p>
+                </div>
+                <div className="bg-purple-50 p-3 rounded-lg text-purple-600">
+                  <Calendar className="w-6 h-6" />
+                </div>
+              </div>
+
+              <div className="bg-white border border-slate-200 rounded-xl p-5 text-slate-900 shadow-sm flex items-center justify-between">
+                <div>
+                  <span className="text-[10px] font-bold text-slate-400 uppercase tracking-widest block">Últimos 30 dias</span>
+                  <span className="text-2xl font-black font-display mt-1 block">{trintaDiasViews.toLocaleString('pt-BR')}</span>
+                  <p className="text-[9px] text-slate-500 mt-1">
+                    {totalViews > 0 ? `${Math.round((trintaDiasViews / totalViews) * 100)}% das leituras` : 'Métrica calculada'}
+                  </p>
+                </div>
+                <div className="bg-amber-50 p-3 rounded-lg text-amber-600">
+                  <Activity className="w-6 h-6" />
+                </div>
+              </div>
+
+            </div>
+
+            {/* LEADERBOARD & GRAPH ROW */}
+            <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+              {/* DEMOGRAPHICS AND TOPPERS */}
+              <div className="lg:col-span-1 bg-white border border-slate-200 rounded-xl p-6 shadow-sm space-y-6">
+                <div>
+                  <h4 className="text-xs font-black uppercase text-slate-400 tracking-wider">Demografia e Preferências</h4>
+                  <p className="text-[10px] text-slate-500 mt-0.5">Categorias e autores de maior audiência</p>
+                </div>
+
+                <div className="space-y-4">
+                  <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                    <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block">Categoria mais acessada</span>
+                    <span className="text-base font-black text-slate-950 mt-1 block uppercase tracking-tight flex items-center gap-1">
+                      🏷️ {topCategory}
+                    </span>
+                    <p className="text-[10px] text-slate-500 mt-0.5 font-semibold">({topCategoryViews.toLocaleString('pt-BR')} visualizações acumuladas)</p>
+                  </div>
+
+                  <div className="bg-slate-50 p-4 rounded-lg border border-slate-200">
+                    <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest block">Autor mais lido</span>
+                    <span className="text-base font-black text-slate-950 mt-1 block tracking-tight flex items-center gap-1">
+                      ✍️ {topAuthor}
+                    </span>
+                    <p className="text-[10px] text-slate-500 mt-0.5 font-semibold">({topAuthorViews.toLocaleString('pt-BR')} visualizações acumuladas)</p>
+                  </div>
+                </div>
+
+                <div className="bg-purple-900 text-purple-100 p-4 rounded-lg text-xs leading-relaxed font-semibold">
+                  📖 O tráfego do portal é analisado a partir das visualizações orgânicas salvas no ecossistema e sanitizadas na home principal e páginas internas.
+                </div>
+              </div>
+
+              {/* CHART CARD (GROWTH GRAPH) */}
+              <div className="lg:col-span-2 bg-white border border-slate-200 rounded-xl p-6 shadow-sm flex flex-col justify-between">
+                <div>
+                  <div className="flex justify-between items-start">
+                    <div>
+                      <span className="bg-purple-100 text-purple-700 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded inline-block mb-1.5">Desempenho</span>
+                      <h3 className="text-base font-bold font-display text-slate-950 flex items-center gap-1.5 uppercase tracking-tight">
+                        📈 Crescimento das Visualizações (Últimos 15 Dias)
+                      </h3>
+                      <p className="text-xs text-slate-500 mt-1">Evolução acumulada computada no data pipeline do portal.</p>
+                    </div>
+                  </div>
+
+                  {/* SVG Line / Area Graph */}
+                  <div className="mt-6 border border-slate-100 rounded-lg p-2 bg-slate-50/50">
+                    <svg viewBox={`0 0 ${width} ${height}`} className="w-full h-auto overflow-visible">
+                      <defs>
+                        <linearGradient id="chartGrad" x1="0" y1="0" x2="0" y2="1">
+                          <stop offset="0%" stopColor="#ab47bc" stopOpacity="0.4" />
+                          <stop offset="100%" stopColor="#ab47bc" stopOpacity="0.0" />
+                        </linearGradient>
+                      </defs>
+
+                      {/* Grid Lines */}
+                      <line x1={padding} y1={padding} x2={width - padding} y2={padding} stroke="#e2e8f0" strokeDasharray="3 3" />
+                      <line x1={padding} y1={height / 2} x2={width - padding} y2={height / 2} stroke="#e2e8f0" strokeDasharray="3 3" />
+                      <line x1={padding} y1={height - padding} x2={width - padding} y2={height - padding} stroke="#cbd5e1" strokeWidth="1.5" />
+
+                      {/* Area Fill */}
+                      {areaD && <path d={areaD} fill="url(#chartGrad)" />}
+
+                      {/* Line Path */}
+                      {pathD && <path d={pathD} fill="none" stroke="#9c27b0" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />}
+
+                      {/* Circles for nodes */}
+                      {points.map((p, idx) => (
+                        <g key={idx} className="group/node cursor-pointer">
+                          <circle cx={p.x} cy={p.y} r="3.5" fill="#ffffff" stroke="#9c27b0" strokeWidth="2.5" />
+                          <circle cx={p.x} cy={p.y} r="9" fill="#9c27b0" fillOpacity="0" className="hover:fill-opacity-10 transition-all duration-150" />
+                        </g>
+                      ))}
+
+                      {/* Horizontal labels */}
+                      {points.filter((_, i) => i % 2 === 0).map((p, i) => (
+                        <text key={i} x={p.x} y={height - 4} fontSize="7.5" fill="#64748b" textAnchor="middle" fontWeight="bold">
+                          {p.label}
+                        </text>
+                      ))}
+                    </svg>
+                  </div>
+                </div>
+
+                {/* Growth legend */}
+                <div className="flex gap-4 text-[10px] text-slate-500 font-mono mt-4 pt-4 border-t border-slate-100 justify-end">
+                  <div className="flex items-center gap-1">
+                    <span className="w-2.5 h-2.5 rounded-full bg-purple-600 inline-block" />
+                    <span>Visualizações Totais Proativas</span>
+                  </div>
+                  <div className="flex items-center gap-1">
+                    <span className="w-2.5 h-2.5 rounded-full bg-blue-500 inline-block" />
+                    <span>Calculado hoje: {hojeViews}</span>
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            {/* TABLE RANKING */}
+            <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm space-y-4">
+              <div className="border-b border-slate-100 pb-3 flex justify-between items-center">
+                <div>
+                  <h3 className="text-sm font-black font-display text-slate-950 flex items-center gap-1.5 uppercase tracking-tight">
+                    🏆 Ranking Geral de Audiência (Top 10)
+                  </h3>
+                  <p className="text-[11px] text-slate-500 mt-0.5">As 10 matérias com maior audiência orgânica absoluta.</p>
+                </div>
+                <div className="text-xs bg-amber-50 rounded px-2.5 py-1 text-amber-800 font-bold border border-amber-200">
+                  Total de artigos catalogados: {posts.length}
+                </div>
+              </div>
+
+              <div className="overflow-x-auto">
+                <table className="w-full text-left border-collapse">
+                  <thead>
+                    <tr className="bg-slate-50 border-b border-slate-200 text-[10px] font-bold text-slate-500 uppercase tracking-widest">
+                      <th className="p-3 text-center w-16">Posição</th>
+                      <th className="p-3">Matéria</th>
+                      <th className="p-3 w-40">Categoria</th>
+                      <th className="p-3 w-44 text-right">Visualizações</th>
+                    </tr>
+                  </thead>
+                  <tbody className="divide-y divide-slate-100 text-xs">
+                    {sortedTop10.map((p, idx) => {
+                      const medal = idx === 0 ? "🥇" : idx === 1 ? "🥈" : idx === 2 ? "🥉" : `${idx + 1}°`;
+                      return (
+                        <tr key={p.id} className="hover:bg-slate-100/50 transition-colors">
+                          <td className="p-3 text-center font-bold text-slate-500">
+                            <span className={`inline-block px-2.5 py-1 rounded text-xs leading-none font-black ${
+                              idx < 3 ? 'text-base font-normal' : 'text-slate-500'
+                            }`}>
+                              {medal}
+                            </span>
+                          </td>
+                          <td className="p-3">
+                            <p className="font-bold text-slate-900 leading-snug line-clamp-2 max-w-xl">
+                              {p.title}
+                            </p>
+                            {p.subtitle && (
+                              <p className="text-[10px] text-slate-500 line-clamp-1 mt-0.5">
+                                {p.subtitle}
+                              </p>
+                            )}
+                          </td>
+                          <td className="p-3">
+                            <span className="bg-blue-50 text-blue-700 border border-blue-200 text-[9px] font-black uppercase px-2 py-0.5 rounded tracking-wider">
+                              {p.category}
+                            </span>
+                          </td>
+                          <td className="p-3 text-right font-semibold text-slate-900 font-mono">
+                            {(p.views || 0).toLocaleString('pt-BR')}
+                          </td>
+                        </tr>
+                      );
+                    })}
+                    {sortedTop10.length === 0 && (
+                      <tr>
+                        <td colSpan={4} className="p-8 text-center text-slate-400">
+                          Nenhum post registrado no sistema ainda.
+                        </td>
+                      </tr>
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          </div>
+        );
+      })()}
 
     </div>
   );

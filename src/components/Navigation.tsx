@@ -178,7 +178,7 @@ export default function Navigation({
         <div className="flex flex-col sm:flex-row items-center gap-4 w-full md:w-auto justify-end">
           <div className="text-center sm:text-right text-[11px] text-slate-500 font-medium">
             <p className="capitalize text-slate-900 font-semibold">{currentTime}</p>
-            <p className="text-slate-400 text-[10px]">Storecenter.com.br &bull; Pronto para cPanel</p>
+            <p className="text-slate-400 text-[10px]">Storecenter.com.br</p>
           </div>
 
           {currentView === 'admin' && (

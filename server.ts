@@ -396,6 +396,321 @@ Não coloque nenhuma decoração de markdown no início ou fim, como "\`\`\`json
   }
 });
 
+// 7. Auto Cron: Publish Scheduled Posts
+function cronPublishScheduled() {
+  console.log("[CRON] Executando rotina de verificação de posts agendados...");
+  const db = readDatabase();
+  const now = new Date();
+  let updatedCount = 0;
+  const publishedTitles: string[] = [];
+
+  const safePosts = db.posts || [];
+  db.posts = safePosts.map((p: any) => {
+    if (p.status === "scheduled" && p.publishAt) {
+      const pubTime = new Date(p.publishAt);
+      if (pubTime <= now) {
+        console.log(`[CRON] Publicando automaticamente post agendado: "${p.title}"`);
+        updatedCount++;
+        publishedTitles.push(p.title);
+        return {
+          ...p,
+          status: "published",
+          date: now.toISOString() // Update general publish date to now
+        };
+      }
+    }
+    return p;
+  });
+
+  if (updatedCount > 0) {
+    writeDatabase(db);
+    console.log(`[CRON] ${updatedCount} posts agendados foram publicados com sucesso!`);
+  } else {
+    console.log("[CRON] Nenhum post agendado com horário vencido no momento.");
+  }
+
+  return { updatedCount, publishedTitles };
+}
+
+// 8. Auto Cron: Fetch & Rewrite RSS Feeds
+async function cronRssAuto() {
+  console.log("[CRON] Executando rotina de coleta automatizada de feeds RSS...");
+  const db = readDatabase();
+  const activeFeeds = (db.feeds || []).filter((f: any) => f.status === "active");
+
+  if (activeFeeds.length === 0) {
+    console.log("[CRON] Nenhum feed RSS ativo cadastrado no banco.");
+    return { success: true, totalImported: 0, importedPosts: [], message: "Nenhum feed ativo cadastrado." };
+  }
+
+  let totalImported = 0;
+  const importedPosts: string[] = [];
+
+  for (const feed of activeFeeds) {
+    try {
+      console.log(`[CRON] Buscando novos artigos do feed "${feed.name}" (${feed.url})...`);
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 12000);
+      
+      const response = await fetch(feed.url, {
+        headers: {
+          "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 StoreCenterCrawler/1.0"
+        },
+        signal: controller.signal
+      });
+      clearTimeout(timeoutId);
+
+      if (!response.ok) {
+        console.error(`[CRON] Erro http ${response.status} ao carregar RSS: ${feed.url}`);
+        continue;
+      }
+
+      const xmlText = await response.text();
+      const items: any[] = [];
+
+      // 1. Try traditional RSS `<item>`
+      const itemMatches = xmlText.match(/<item[^>]*>([\s\S]*?)<\/item>/gi) || [];
+      for (const itemXml of itemMatches) {
+        const titleMatch = itemXml.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+        let title = titleMatch ? titleMatch[1].trim() : "";
+        title = cleanCdataAndHtml(title);
+
+        const linkMatch = itemXml.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+        let link = linkMatch ? linkMatch[1].trim() : "";
+        link = cleanCdataAndHtml(link);
+
+        const descMatch = itemXml.match(/<description[^>]*>([\s\S]*?)<\/description>/i);
+        let description = descMatch ? descMatch[1].trim() : "";
+        description = cleanCdataAndHtml(description);
+
+        if (title && link) {
+          items.push({ title, link, description });
+        }
+      }
+
+      // 2. Try Atom `<entry>` fallback
+      if (items.length === 0) {
+        const entryMatches = xmlText.match(/<entry[^>]*>([\s\S]*?)<\/entry>/gi) || [];
+        for (const entryXml of entryMatches) {
+          const titleMatch = entryXml.match(/<title[^>]*>([\s\S]*?)<\/title>/i);
+          let title = titleMatch ? titleMatch[1].trim() : "";
+          title = cleanCdataAndHtml(title);
+
+          const linkMatch = entryXml.match(/<link\s+[^>]*href=["']([^"']+)["']/i) || entryXml.match(/<link[^>]*>([\s\S]*?)<\/link>/i);
+          let link = linkMatch ? linkMatch[1].trim() : "";
+          link = cleanCdataAndHtml(link);
+
+          const descMatch = entryXml.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i) || entryXml.match(/<content[^>]*>([\s\S]*?)<\/content>/i);
+          let description = descMatch ? descMatch[1].trim() : "";
+          description = cleanCdataAndHtml(description);
+
+          if (title && link) {
+            items.push({ title, link, description });
+          }
+        }
+      }
+
+      console.log(`[CRON] Feed "${feed.name}" retornou ${items.length} notícias no XML.`);
+
+      // Duplicate checker by title, sourceUrl, or slug of existing posts
+      const newItems = items.filter(item => {
+        const titleLower = item.title.trim().toLowerCase();
+        const urlLower = item.link.trim().toLowerCase();
+        const generatedSlug = item.title
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)+/g, "");
+
+        const isDuplicate = (db.posts || []).some((p: any) => {
+          const pTitleLower = p.title?.trim().toLowerCase();
+          const pOrigTitleLower = p.rssOriginalTitle?.trim().toLowerCase();
+          const pUrlLower = p.sourceUrl?.trim().toLowerCase();
+          const pSlug = p.slug;
+
+          return (
+            pTitleLower === titleLower ||
+            pOrigTitleLower === titleLower ||
+            pUrlLower === urlLower ||
+            pSlug === generatedSlug
+          );
+        });
+        return !isDuplicate;
+      });
+
+      console.log(`[CRON] Encontrada(s) ${newItems.length} nova(s) notícia(s) inédita(s) do feed "${feed.name}".`);
+
+      // Slice to max 2 articles per feed per cron pass to avoid API token/rate issues
+      const itemsToImport = newItems.slice(0, 2);
+
+      for (const item of itemsToImport) {
+        console.log(`[CRON] Reescrevendo artigo inédito com IA: "${item.title}"`);
+        let rewritten: any = null;
+
+        if (ai) {
+          try {
+            const prompt = `Você é um Jornalista Sênior e mestre em SEO da Store Center News.
+Reescreva e amplie a seguinte notícia vinda de um feed RSS oficial de categoria "${feed.category}".
+Título Original: "${item.title}"
+Descrição/Resumo Original: "${item.description || "N/A"}"
+
+Regras importantes de redação e SEO:
+1. NÃO COPIE o texto original. Escreva uma matéria exclusiva, fluida, séria e profissional em português com suas próprias palavras (mínimo de 200 palavras).
+2. Forneça um título atraente com técnicas de SEO de alta performance.
+3. Forneça um subtítulo descritivo interessante.
+4. Divida o corpo do texto em pelo menos 2 a 3 parágrafos explicativos ricos em conteúdo e claros.
+5. Defina título SEO, descrição SEO amigável para buscadores de até 150 caracteres, tags, e uma palavra-chave principal.
+6. Crie um prompt detalhado em inglês para sugerir imagem destacada jornalística (no Unsplash ou similar) focado em termos visuais realistas e profissionais de fotografia.
+
+Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
+{
+  "title": "string",
+  "subtitle": "string",
+  "content": "string",
+  "seoTitle": "string",
+  "seoDescription": "string",
+  "tags": ["string"],
+  "category": "string",
+  "keyword": "string",
+  "imagePrompt": "string"
+}
+Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retorne apenas o objeto JSON plano.`;
+
+            const response = await ai.models.generateContent({
+              model: "gemini-3.5-flash",
+              contents: prompt,
+              config: {
+                responseMimeType: "application/json"
+              }
+            });
+
+            const text = response.text || "{}";
+            rewritten = JSON.parse(text.trim());
+          } catch (aiErr) {
+            console.error("[CRON] IA falhou, rodando fallback procedural:", aiErr);
+            rewritten = fallbackRewrite(item, feed);
+          }
+        } else {
+          rewritten = fallbackRewrite(item, feed);
+        }
+
+        const finalSlug = (rewritten.title || item.title)
+          .toLowerCase()
+          .normalize("NFD")
+          .replace(/[\u0300-\u036f]/g, "")
+          .replace(/[^a-z0-9]+/g, "-")
+          .replace(/(^-|-$)+/g, "");
+
+        const newPost = {
+          id: String(Date.now() + Math.floor(Math.random() * 100000)),
+          views: 0,
+          date: new Date().toISOString(),
+          title: rewritten.title || `[RSS] ${item.title}`,
+          subtitle: rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.",
+          slug: finalSlug,
+          content: rewritten.content || `Análise estendida sobre ${item.title}.`,
+          category: feed.category,
+          author: "Redação Store Center",
+          tags: rewritten.tags || [feed.category, "RSS"],
+          status: "draft", // Save as draft / rascunho for editorial approval
+          image: `https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&q=80`,
+          seoTitle: rewritten.seoTitle || rewritten.title,
+          seoDescription: rewritten.seoDescription || rewritten.subtitle,
+          keyword: rewritten.keyword || "",
+          imagePrompt: rewritten.imagePrompt || "",
+          sourceUrl: item.link,
+          rssOriginalTitle: item.title,
+          isAiGenerated: true
+        };
+
+        db.posts.unshift(newPost);
+        totalImported++;
+        importedPosts.push(newPost.title);
+      }
+
+      // Update feed scrapet timestamp
+      feed.lastScraped = new Date().toISOString();
+    } catch (feedErr) {
+      console.error(`[CRON] Erro executando leitura de feed do RSS "${feed.name}":`, feedErr);
+    }
+  }
+
+  if (totalImported > 0) {
+    writeDatabase(db);
+    console.log(`[CRON] ${totalImported} novos rascunhos de feed salvos com sucesso no banco!`);
+  }
+
+  return { success: true, totalImported, importedPosts };
+}
+
+function cleanCdataAndHtml(str: string): string {
+  if (!str) return "";
+  let cleaned = str.replace(/<!\[CDATA\[([\s\S]*?)]]>/g, "$1");
+  cleaned = cleaned.replace(/<\/?[^>]+(>|$)/g, "");
+  cleaned = cleaned
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+  return cleaned;
+}
+
+function fallbackRewrite(item: any, feed: any) {
+  const cleanTitle = item.title;
+  const description = item.description || "Tendência do mercado corporativo no Brasil";
+  const tags = [feed.category, "RSS Auto", "Destaque", "Nacional"];
+
+  const content = `Esta nova matéria foi gerada e processada automaticamente através de algoritmos de reescrita jornalística, baseada no feed RSS "${feed.name}" para a cobertura estruturada de ${feed.category}.\n\nAnálises setoriais recentes frentes a "${cleanTitle}" mostram impactos importantes tanto nos fluxos comerciais quanto no fomento tecnológico nacional de curto prazo.\n\nRepresentantes setoriais apontaram que a modernização contínua das regulações locais facilita a captação de investimento corporativo estrangeiro, o que tende a desatar nós logísticos históricos do país. Recomenda-se o acompanhamento dessas diretrizes regulatórias e fiscais adicionais para otimizar os planos de negócios corporativos neste trimestre no Brasil.`;
+
+  return {
+    title: `[RSS] ${cleanTitle}`,
+    subtitle: `${description.slice(0, 160)}${description.length > 160 ? "..." : ""}`,
+    content: content,
+    seoTitle: `${cleanTitle.slice(0, 50)} | Store Center`,
+    seoDescription: `Análise factual e insights cruciais do portal Store Center sobre ${cleanTitle}.`,
+    tags: tags,
+    category: feed.category,
+    keyword: `${feed.category} Brasil`,
+    imagePrompt: `Clean elegant office space, tablet displaying analytics, soft commercial depth focus photography.`,
+    isAiGenerated: true,
+    hasKey: false
+  };
+}
+
+// REST Cron Route: Publish Scheduled Posts
+app.get("/api/cron/publish-scheduled", (req, res) => {
+  try {
+    const result = cronPublishScheduled();
+    res.json({
+      success: true,
+      message: "Rotina executada com sucesso",
+      time: new Date().toISOString(),
+      ...result
+    });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
+// REST Cron Route: RSS Feed Auto-Scraper
+app.get("/api/cron/rss-auto", async (req, res) => {
+  try {
+    const result = await cronRssAuto();
+    res.json({
+      success: true,
+      time: new Date().toISOString(),
+      ...result
+    });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+});
+
 // Vite & Static Asset Handling based on standard applet constraints
 async function startServer() {
   if (process.env.NODE_ENV !== "production") {
@@ -411,6 +726,40 @@ async function startServer() {
       res.sendFile(path.join(distPath, "index.html"));
     });
   }
+
+  // Automatic Background Loops (Internal Crons)
+  const MINI_CRON_INTERVAL = 10 * 60 * 1000; // 10 minutes
+
+  // Scheduled publish: runs every 10 minutes
+  setInterval(() => {
+    try {
+      cronPublishScheduled();
+    } catch (err) {
+      console.error("[BACKGROUND CRON] Erro em cronPublishScheduled:", err);
+    }
+  }, MINI_CRON_INTERVAL);
+
+  // RSS Feed Scraper: runs every 10 minutes (staggered by 1 minute to prevent db locks)
+  setTimeout(() => {
+    setInterval(async () => {
+      try {
+        await cronRssAuto();
+      } catch (err) {
+        console.error("[BACKGROUND CRON] Erro em cronRssAuto:", err);
+      }
+    }, MINI_CRON_INTERVAL);
+  }, 60 * 1000);
+
+  // Immediate Initial Run: execute once after 5 seconds to load latest feeds and publish outstanding queue on dev spin-up
+  setTimeout(async () => {
+    try {
+      console.log("[CRON STARTUP] Rodando verificação inicial das rotinas em segundo plano...");
+      cronPublishScheduled();
+      await cronRssAuto();
+    } catch (err) {
+      console.error("[CRON STARTUP] Falha no disparo de rotina inicial:", err);
+    }
+  }, 5000);
 
   app.listen(PORT, "0.0.0.0", () => {
     console.log(`Express dev server running on port ${PORT}`);

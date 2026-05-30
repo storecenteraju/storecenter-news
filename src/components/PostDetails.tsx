@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
-import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost } from '../types';
+import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage } from '../types';
 
 interface PostDetailsProps {
   post: Post;
@@ -25,12 +25,7 @@ export default function PostDetails({
   }, [post.id]);
 
   const getCategoryFallback = (category?: string): string => {
-    const cat = String(category || '').trim();
-    if (cat === 'Economia') return '/economia.jpg';
-    if (cat === 'Tecnologia') return '/tecnologia.jpg';
-    if (cat === 'Geopolítica') return '/geopolitica.jpg';
-    if (cat === 'Negócios') return '/negocios.jpg';
-    return 'https://images.unsplash.com/photo-1546015719-7872d5619993?auto=format&fit=crop&w=1280&h=720&q=80';
+    return getCategoryFallbackImage(category);
   };
 
   // Determine top Ad configurations

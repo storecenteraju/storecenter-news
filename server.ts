@@ -85,7 +85,8 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
   const techKeywords = [
     "inteligência artificial", "inteligencia artificial", "ia", "artificial intelligence", "chatgpt", "gemini", "openai", "copilot", "computação",
     "tecnologia", "hardware", "software", "tecnológica", "algoritmo", "robô", "robótica", "cybersecurity", "cibersegurança", "chip", "semicondutor",
-    "cloud", "nuvem", "dispositivo", "sistema operacional", "app", "aplicativo", "blockchain", "cripto", "smartphones", "computador"
+    "cloud", "nuvem", "dispositivo", "sistema operacional", "app", "aplicativo", "blockchain", "cripto", "smartphones", "computador", "celular", "whatsapp",
+    "microsoft", "google", "apple", "meta", "facebook", "instagram", "discord", "amazon", "spacex", "foguete", "espaço", "nasa", "aeroespacial", "satélite", "satélites", "telecom"
   ];
   if (techKeywords.some(kw => text.includes(kw))) {
     return "Tecnologia";
@@ -93,7 +94,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
   const geopoliticaKeywords = [
     "geopolítica", "geopolitica", "guerra", "exército", "fronteira", "militar", "onu", "otan", "oriente médio", "conflito internacional", "estratégico global",
-    "estados unidos", "china", "rússia", "sanções", "acordo bilateral", "tratado internacional", "relações internacionais", "união europeia"
+    "estados unidos", "china", "rússia", "sanções", "acordo bilateral", "tratado internacional", "relações internacionais", "união europeia", "crise internacional", "pentágono", "força aérea", "mísseis", "míssil", "diplomacia", "embaixada", "conselho de segurança", "gaza", "israel", "ucrânia", "putin", "biden", "trump"
   ];
   if (geopoliticaKeywords.some(kw => text.includes(kw))) {
     return "Geopolítica";
@@ -101,7 +102,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
   const politicaKeywords = [
     "política", "politica", "governo", "congresso", "senado", "câmara", "ministro", "eleição", "eleições", "presidente", "projeto de lei", "pec", "votação", "stf", "supremo tribunal",
-    "parlamento", "deputado", "senador", "prefeitura", "prefeito", "partido político", "corrupção"
+    "parlamento", "deputado", "senador", "prefeitura", "prefeito", "partido político", "corrupção", "lula", "tarcísio", "candidato", "propaganda eleitoral", "urnas", "tse"
   ];
   if (politicaKeywords.some(kw => text.includes(kw))) {
     return "Política";
@@ -129,20 +130,27 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
   }
 
   const negociosKeywords = [
-    "negócios", "negocios", "empresa", "corporativo", "startup", "empreendedor", "varejo", "franquia", "fusão", "aquisição", "mercado livre", "faturamento", "comércio", "loja"
+    "negócios", "negocios", "empresa", "corporativo", "startup", "empreendedor", "varejo", "franquia", "fusão", "aquisição", "mercado livre", "faturamento", "comércio", "loja", "vendas", "e-commerce", "faturamentos", "marcas", "bens de consumo"
   ];
   if (negociosKeywords.some(kw => text.includes(kw))) {
     return "Negócios";
   }
 
   const economiaKeywords = [
-    "economia", "pib", "inflação", "selic", "copom", "banco central", "taxa de juros", "investimento", "bolsa de valores", "ações", "ibovespa", "dólar", "fgc", "tesouro", "tributo", "reforma tributária", "mercado financeiro"
+    "economia", "pib", "inflação", "selic", "copom", "banco central", "taxa de juros", "investimento", "bolsa de valores", "ações", "ibovespa", "dólar", "fgc", "tesouro", "tributo", "reforma tributária", "mercado financeiro", "investidores", "finanças", "crédito", "banco", "receita federal", "arrecadação", "tributação"
   ];
   if (economiaKeywords.some(kw => text.includes(kw))) {
     return "Economia";
   }
 
-  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Saúde", "Esporte", "Entretenimento"];
+  const nacionalKeywords = [
+    "brasil", "brasileiro", "brasileira", "nacional", "país", "estado", "estados", "município", "municípios", "ibge", "nordeste", "sudeste", "sul", "norte", "centro-oeste", "rio de janeiro", "são paulo", "minas gerais", "brasília", "unidade federativa", "uf"
+  ];
+  if (nacionalKeywords.some(kw => text.includes(kw))) {
+    return "Nacional";
+  }
+
+  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
   const orig = String(origCategory).trim();
   const matched = allowedCategories.find(c => c.toLowerCase() === orig.toLowerCase());
   return matched || "Economia";
@@ -199,9 +207,8 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       normalized.status = 'draft';
     }
 
-    if (!normalized.date) {
-      normalized.date = normalized.publishedAt || normalized.createdAt || normalized.date || new Date().toISOString();
-    }
+    // Prioritize publishedAt (most progressive), then date, then createdAt
+    normalized.date = normalized.publishedAt || normalized.date || normalized.createdAt || new Date().toISOString();
 
     if (normalized.status === 'scheduled') {
       if (!normalized.publishAt) {
@@ -213,11 +220,21 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       }
     }
 
-    if (normalized.isTestPost === 'true' || normalized.isTestPost === true) {
+    // Detect if test post by title check to prevent test posts leaking to home page
+    const titleLower = String(normalized.title || '').trim().toLowerCase();
+    const isTestByTitle = titleLower.includes('teste') || titleLower.includes('test post') || titleLower.includes('test_post');
+    if (normalized.isTestPost === 'true' || normalized.isTestPost === true || isTestByTitle) {
       normalized.isTestPost = true;
     } else {
       normalized.isTestPost = false;
     }
+
+    // Re-run the brand new autoCategorizeNews classification helper with advanced keyword groups!
+    normalized.category = autoCategorizeNews(
+      normalized.title || '',
+      normalized.content || '',
+      normalized.category || 'Economia'
+    );
 
     normalizedPosts.push(normalized);
   }
@@ -294,6 +311,7 @@ app.delete("/api/posts/:id", (req, res) => {
       id: deleted.id,
       title: deleted.title,
       sourceUrl: deleted.sourceUrl || '',
+      rssOriginalTitle: deleted.rssOriginalTitle || '',
       slug: deleted.slug,
       deletedAt: new Date().toISOString()
     });
@@ -2104,11 +2122,13 @@ async function cronRssAuto() {
           const delTitleLower = del.title?.trim().toLowerCase();
           const delUrlLower = del.sourceUrl?.trim().toLowerCase();
           const delSlug = del.slug;
+          const delOrigTitleLower = del.rssOriginalTitle?.trim().toLowerCase();
 
           return (
             delTitleLower === titleLower ||
             delUrlLower === urlLower ||
-            delSlug === generatedSlug
+            delSlug === generatedSlug ||
+            (delOrigTitleLower && delOrigTitleLower === titleLower)
           );
         });
 

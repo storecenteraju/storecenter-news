@@ -1,6 +1,6 @@
 import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
-import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost } from '../types';
+import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage } from '../types';
 
 interface PortalHomeProps {
   posts: Post[];
@@ -27,10 +27,14 @@ export default function PortalHome({
   // A local block set to guarantee that under no circumstances can two articles show the same photo on screen at the same time
   const displayedImagesOnRender = new Set<string>();
 
+  const getCategoryFallback = (category?: string): string => {
+    return getCategoryFallbackImage(category);
+  };
+
   const getDeduplicatedImage = (post: Post) => {
     const rawImage = post.image || '';
-    if (!rawImage) {
-      return `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(post.category || 'news')}&sig=${post.id}`;
+    if (!rawImage || rawImage.includes('unsplash.com/featured')) {
+      return getCategoryFallback(post.category);
     }
 
     let baseUrl = rawImage;
@@ -46,21 +50,12 @@ export default function PortalHome({
     }
 
     if (displayedImagesOnRender.has(baseUrl)) {
-      const keyword = post.keyword || post.category || 'news';
-      return `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(post.category)},${encodeURIComponent(keyword)}&sig=${post.id}-${Math.floor(Math.random() * 100)}`;
+      // If we already showed this exact image URL, let's use the category fallback image as alternative to prevent repetition!
+      return getCategoryFallback(post.category);
     }
 
     displayedImagesOnRender.add(baseUrl);
     return rawImage;
-  };
-
-  const getCategoryFallback = (category?: string): string => {
-    const cat = String(category || '').trim();
-    if (cat === 'Economia') return '/economia.jpg';
-    if (cat === 'Tecnologia') return '/tecnologia.jpg';
-    if (cat === 'Geopolítica') return '/geopolitica.jpg';
-    if (cat === 'Negócios') return '/negocios.jpg';
-    return 'https://images.unsplash.com/photo-1546015719-7872d5619993?auto=format&fit=crop&w=1280&h=720&q=80';
   };
 
   // 1. Filter posts that are marked published and are not test posts, and sort them descending by date

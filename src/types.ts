@@ -129,6 +129,31 @@ export function isPostUrgente(post: Post): boolean {
   return hasUrgenteKeyword || (diffHours >= 0 && diffHours <= 24);
 }
 
+export function getCategoryFallbackImage(category?: string): string {
+  const cat = String(category || '').trim();
+  switch (cat) {
+    case 'Economia':
+      return 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Tecnologia':
+      return 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Geopolítica':
+      return 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Negócios':
+      return 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Política':
+      return 'https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Saúde':
+      return 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Esporte':
+      return 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Entretenimento':
+      return 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1280&h=720&q=80';
+    case 'Nacional':
+    default:
+      return 'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1280&h=720&q=80';
+  }
+}
+
 export function normalizePost(post: any): Post {
   if (!post) return post;
   const p = { ...post };
@@ -150,10 +175,9 @@ export function normalizePost(post: any): Post {
     p.status = 'draft';
   }
 
-  // Normalize date
-  if (!p.date) {
-    p.date = p.publishedAt || p.createdAt || p.date || new Date().toISOString();
-  }
+  // Normalize date - prioritize publishedAt (most progressive), then date, then createdAt
+  const resolvedDate = p.publishedAt || p.date || p.createdAt || new Date().toISOString();
+  p.date = resolvedDate;
 
   // Normalize scheduling fields
   if (p.status === 'scheduled') {
@@ -179,8 +203,10 @@ export function normalizePost(post: any): Post {
     p.tags = (p.tags as string).split(',').map(t => t.trim()).filter(Boolean);
   }
 
-  // Ensure isTestPost is a boolean
-  if (p.isTestPost === 'true' || p.isTestPost === true) {
+  // Ensure isTestPost is a boolean, detecting by "teste" keyword in titles to prevent test posts leaking
+  const titleLower = String(p.title || '').trim().toLowerCase();
+  const isTestByTitle = titleLower.includes('teste') || titleLower.includes('test post') || titleLower.includes('test_post');
+  if (p.isTestPost === 'true' || p.isTestPost === true || isTestByTitle) {
     p.isTestPost = true;
   } else {
     p.isTestPost = false;

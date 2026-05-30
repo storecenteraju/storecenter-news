@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import PortalHome from './components/PortalHome';
 import PostDetails from './components/PostDetails';
 import AdminPanel from './components/AdminPanel';
-import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType } from './types';
+import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, normalizePost } from './types';
 import { Loader2, Globe, Sparkles, Server } from 'lucide-react';
 
 export default function App() {
@@ -26,7 +26,10 @@ export default function App() {
       const aRes = await fetch('/api/ads');
       const sRes = await fetch('/api/settings');
 
-      if (pRes.ok) setPosts(await pRes.json());
+      if (pRes.ok) {
+        const rawPosts = await pRes.json();
+        setPosts(Array.isArray(rawPosts) ? rawPosts.map(normalizePost) : []);
+      }
       if (fRes.ok) setFeeds(await fRes.json());
       if (aRes.ok) setAds(await aRes.json());
       if (sRes.ok) setSettings(await sRes.json());

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
-import { Post, AdUnit } from '../types';
+import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost } from '../types';
 
 interface PostDetailsProps {
   post: Post;
@@ -24,6 +24,15 @@ export default function PostDetails({
       .catch(err => console.error("Erro incrementando visualização:", err));
   }, [post.id]);
 
+  const getCategoryFallback = (category?: string): string => {
+    const cat = String(category || '').trim();
+    if (cat === 'Economia') return '/economia.jpg';
+    if (cat === 'Tecnologia') return '/tecnologia.jpg';
+    if (cat === 'Geopolítica') return '/geopolitica.jpg';
+    if (cat === 'Negócios') return '/negocios.jpg';
+    return 'https://images.unsplash.com/photo-1546015719-7872d5619993?auto=format&fit=crop&w=1280&h=720&q=80';
+  };
+
   // Determine top Ad configurations
   const getAdBySlot = (slot: 'top' | 'middle' | 'bottom' | 'sidebar' | 'footer' | 'floating') => {
     return ads.find(a => a.slot === slot && a.enabled);
@@ -35,20 +44,23 @@ export default function PostDetails({
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
-  // Calculate most viewed of the last 7 days (Top 10)
-  const last7DaysPosts = posts.filter(p => {
+  // Calculate top 5 most high-scoring editorial of last 7 days (Destaques da Semana)
+  const normalizedArticles = posts.map(normalizePost);
+  const last7DaysPosts = normalizedArticles.filter(p => {
     if (!p.date) return false;
     const postTime = new Date(p.date).getTime();
     const nowTime = new Date().getTime();
-    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000;
+    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000 && !p.isTestPost;
   });
-  const top10Last7Days = [...last7DaysPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
-  const isDestaqueDaSemana = top10Last7Days.some(p => p.id === post.id);
+  const top5DestaquesDaSemana = [...last7DaysPosts]
+    .sort((a, b) => getEditorialScore(b) - getEditorialScore(a))
+    .slice(0, 5);
+  const isDestaqueDaSemana = top5DestaquesDaSemana.some(p => p.id === post.id);
   const isMaisLida = (post.views || 0) >= 500;
 
   // Filter related posts (same category, excluding current)
-  const relatedPosts = posts
-    .filter(p => p.category === post.category && p.id !== post.id && (p.status === 'published' || p.status === 'scheduled'))
+  const relatedPosts = normalizedArticles
+    .filter(p => p.category === post.category && p.id !== post.id && p.status === 'published' && !p.isTestPost)
     .slice(0, 3);
 
   const formatPublishDate = (dateStr?: string) => {
@@ -69,7 +81,7 @@ export default function PostDetails({
   };
 
   // Split content logically to inject "Ad Meio Artigo" between paragraph 2 and 3
-  const paragraphs = post.content.split('\n\n');
+  const paragraphs = (post.content || '').split('\n\n');
   const part1 = paragraphs.slice(0, 2).join('\n\n');
   const part2 = paragraphs.slice(2).join('\n\n');
 
@@ -119,21 +131,27 @@ export default function PostDetails({
           <div className="lg:col-span-3">
             <article className="bg-white border border-slate-200 rounded-2xl p-6 md:p-10 shadow-sm leading-relaxed">
               
-              {/* PRIMARY HEADER INFOGRAPH */}
+               {/* PRIMARY HEADER INFOGRAPH */}
               <header className="space-y-4 mb-8">
                 <div className="flex items-center justify-between">
+                  {/* Selos acima do título da matéria */}
                   <div className="flex flex-wrap items-center gap-2">
-                    <span className="bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1.5 rounded shadow-sm inline-block">
+                    <span className="bg-blue-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-3 py-1.5 rounded shadow-sm inline-block mr-1">
                       {post.category}
                     </span>
+                    {isPostUrgente(post) && (
+                      <span className="bg-red-650 border border-red-700 text-white text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm animate-pulse" title="Notícias quentes das últimas horas">
+                        🚨 URGENTE <span className="text-[9.5px] font-medium lowercase font-sans opacity-95">(notícias quentes das últimas horas)</span>
+                      </span>
+                    )}
                     {isMaisLida && (
-                      <span className="bg-red-600 text-white text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-1.5 rounded shadow-sm flex items-center gap-1">
-                        🔥 MAIS LIDA
+                      <span className="bg-red-750 border border-red-805 text-white text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm" title="Mais de 500 visualizações">
+                        🔥 MAIS LIDA <span className="text-[9.5px] font-medium lowercase font-sans opacity-95">(500+ visualizações)</span>
                       </span>
                     )}
                     {isDestaqueDaSemana && (
-                      <span className="bg-amber-500 text-white text-[10px] font-extrabold uppercase tracking-widest px-2.5 py-1.5 rounded shadow-sm flex items-center gap-1">
-                        ⭐ DESTAQUE DA SEMANA
+                      <span className="bg-amber-500 border border-amber-600 text-slate-900 text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm" title="Seleção editorial">
+                        ⭐ DESTAQUE DA SEMANA <span className="text-[9.5px] font-semibold lowercase font-sans opacity-90">(seleção editorial)</span>
                       </span>
                     )}
                   </div>
@@ -180,6 +198,7 @@ export default function PostDetails({
                   src={post.image} 
                   alt={post.title} 
                   referrerPolicy="no-referrer"
+                  onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -276,15 +295,37 @@ export default function PostDetails({
                           src={rel.image} 
                           alt="" 
                           referrerPolicy="no-referrer"
+                          onError={(e) => { e.currentTarget.src = getCategoryFallback(rel.category); }}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>
                       
                       <div className="p-4 flex-grow flex flex-col justify-between">
-                        <h4 className="text-xs font-bold text-slate-900 leading-snug group-hover:text-blue-600 group-hover:underline transition-all line-clamp-2 mb-2">
-                          {rel.title}
-                        </h4>
-                        <span className="text-[9px] text-slate-400">
+                        <div>
+                          {/* Selos acima do título da matéria */}
+                          <div className="flex flex-wrap gap-1 mb-2">
+                            {isPostUrgente(rel) && (
+                              <span className="bg-red-650 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded leading-none flex items-center gap-0.5 select-none animate-pulse" title="Notícias quentes das últimas horas">
+                                🚨 URGENTE <span className="text-[7.5px] font-normal lowercase font-sans opacity-90 hidden sm:inline-block">(notícias quentes)</span>
+                              </span>
+                            )}
+                            {(rel.views || 0) >= 500 && (
+                              <span className="bg-red-750 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded leading-none flex items-center gap-0.5 select-none shadow-sm" title="Mais de 500 visualizações">
+                                🔥 MAIS LIDA <span className="text-[7.5px] font-normal lowercase font-sans opacity-95 hidden sm:inline-block">(500+ views)</span>
+                              </span>
+                            )}
+                            {top5DestaquesDaSemana.some(p => p.id === rel.id) && (
+                              <span className="bg-amber-500 text-slate-900 text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded leading-none flex items-center gap-0.5 select-none shadow-sm" title="Seleção editorial">
+                                ⭐ DESTAQUE <span className="text-[7.5px] font-semibold lowercase font-sans opacity-90 hidden sm:inline-block">(editorial)</span>
+                              </span>
+                            )}
+                          </div>
+                          
+                          <h4 className="text-xs font-bold text-slate-900 leading-snug group-hover:text-blue-600 group-hover:underline transition-all line-clamp-2 mb-2">
+                            {rel.title}
+                          </h4>
+                        </div>
+                        <span className="text-[9px] text-slate-400 mt-2 block select-none">
                           {formatPublishDate(rel.date)}
                         </span>
                       </div>

@@ -36,6 +36,12 @@ function readDatabase() {
       if (!parsed.automationLogs) {
         parsed.automationLogs = [];
       }
+      if (!parsed.deletedPostItems) {
+        parsed.deletedPostItems = [];
+      }
+      if (!parsed.posts) {
+        parsed.posts = [];
+      }
       return parsed;
     }
   } catch (err) {
@@ -56,6 +62,90 @@ function writeDatabase(data: any) {
 // Ensure database file exist on launch
 if (!fs.existsSync(DB_PATH)) {
   writeDatabase({ posts: [], feeds: [], ads: [], settings: {}, automationLogs: [] });
+}
+
+// Category Image Redirect Routes for Fallback Thumbnails
+app.get("/economia.jpg", (req, res) => {
+  res.redirect("https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1280&h=720&q=80");
+});
+app.get("/tecnologia.jpg", (req, res) => {
+  res.redirect("https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1280&h=720&q=80");
+});
+app.get("/geopolitica.jpg", (req, res) => {
+  res.redirect("https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1280&h=720&q=80");
+});
+app.get("/negocios.jpg", (req, res) => {
+  res.redirect("https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1280&h=720&q=80");
+});
+
+// Intelligent Auto-Categorization Helper
+function autoCategorizeNews(title: string, content: string, origCategory: string): string {
+  const text = (String(title) + " " + String(content)).toLowerCase();
+  
+  const techKeywords = [
+    "inteligência artificial", "inteligencia artificial", "ia", "artificial intelligence", "chatgpt", "gemini", "openai", "copilot", "computação",
+    "tecnologia", "hardware", "software", "tecnológica", "algoritmo", "robô", "robótica", "cybersecurity", "cibersegurança", "chip", "semicondutor",
+    "cloud", "nuvem", "dispositivo", "sistema operacional", "app", "aplicativo", "blockchain", "cripto", "smartphones", "computador"
+  ];
+  if (techKeywords.some(kw => text.includes(kw))) {
+    return "Tecnologia";
+  }
+
+  const geopoliticaKeywords = [
+    "geopolítica", "geopolitica", "guerra", "exército", "fronteira", "militar", "onu", "otan", "oriente médio", "conflito internacional", "estratégico global",
+    "estados unidos", "china", "rússia", "sanções", "acordo bilateral", "tratado internacional", "relações internacionais", "união europeia"
+  ];
+  if (geopoliticaKeywords.some(kw => text.includes(kw))) {
+    return "Geopolítica";
+  }
+
+  const politicaKeywords = [
+    "política", "politica", "governo", "congresso", "senado", "câmara", "ministro", "eleição", "eleições", "presidente", "projeto de lei", "pec", "votação", "stf", "supremo tribunal",
+    "parlamento", "deputado", "senador", "prefeitura", "prefeito", "partido político", "corrupção"
+  ];
+  if (politicaKeywords.some(kw => text.includes(kw))) {
+    return "Política";
+  }
+
+  const saudeKeywords = [
+    "saúde", "saude", "médico", "vacina", "vírus", "pandemia", "hospital", "hospitais", "anvisa", "medicamento", "remédio", "sus", "tratamento", "doença", "clínica"
+  ];
+  if (saudeKeywords.some(kw => text.includes(kw))) {
+    return "Saúde";
+  }
+
+  const esporteKeywords = [
+    "esporte", "esportes", "futebol", "campeonato", "copa do mundo", "olimpíadas", "olimpiadas", "atleta", "flamengo", "palmeiras", "tênis", "basquete", "vôlei", "nba", "fifa"
+  ];
+  if (esporteKeywords.some(kw => text.includes(kw))) {
+    return "Esporte";
+  }
+
+  const entertainmentKeywords = [
+    "entretenimento", "filme", "série", "cinema", "ator", "atriz", "música", "cantor", "show", "netflix", "oscar", "celebridade", "pop", "teatro"
+  ];
+  if (entertainmentKeywords.some(kw => text.includes(kw))) {
+    return "Entretenimento";
+  }
+
+  const negociosKeywords = [
+    "negócios", "negocios", "empresa", "corporativo", "startup", "empreendedor", "varejo", "franquia", "fusão", "aquisição", "mercado livre", "faturamento", "comércio", "loja"
+  ];
+  if (negociosKeywords.some(kw => text.includes(kw))) {
+    return "Negócios";
+  }
+
+  const economiaKeywords = [
+    "economia", "pib", "inflação", "selic", "copom", "banco central", "taxa de juros", "investimento", "bolsa de valores", "ações", "ibovespa", "dólar", "fgc", "tesouro", "tributo", "reforma tributária", "mercado financeiro"
+  ];
+  if (economiaKeywords.some(kw => text.includes(kw))) {
+    return "Economia";
+  }
+
+  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Saúde", "Esporte", "Entretenimento"];
+  const orig = String(origCategory).trim();
+  const matched = allowedCategories.find(c => c.toLowerCase() === orig.toLowerCase());
+  return matched || "Economia";
 }
 
 // API Routes
@@ -79,24 +169,92 @@ app.get("/api/posts", (req, res) => {
   res.json(db.posts || []);
 });
 
+app.post("/api/posts/cleanup-and-normalize", (req, res) => {
+  const db = readDatabase();
+  const originalCount = (db.posts || []).length;
+  
+  const seenIds = new Set<string>();
+  const normalizedPosts: any[] = [];
+
+  for (const p of (db.posts || [])) {
+    if (!p || !p.id) continue;
+    const pId = String(p.id);
+    if (seenIds.has(pId)) continue;
+    seenIds.add(pId);
+    
+    const normalized = { ...p };
+    const rawStatus = String(normalized.status || '').trim().toLowerCase();
+    
+    if (
+      rawStatus === 'published' || 
+      rawStatus === 'no ar' || 
+      rawStatus === 'no_ar' || 
+      normalized.published === true || 
+      normalized.published === 'true'
+    ) {
+      normalized.status = 'published';
+    } else if (rawStatus === 'scheduled') {
+      normalized.status = 'scheduled';
+    } else {
+      normalized.status = 'draft';
+    }
+
+    if (!normalized.date) {
+      normalized.date = normalized.publishedAt || normalized.createdAt || normalized.date || new Date().toISOString();
+    }
+
+    if (normalized.status === 'scheduled') {
+      if (!normalized.publishAt) {
+        normalized.publishAt = normalized.scheduledAt || normalized.publishAt;
+      }
+      if (normalized.publishAt && new Date(normalized.publishAt) <= new Date()) {
+        normalized.status = 'published';
+        normalized.date = normalized.publishAt;
+      }
+    }
+
+    if (normalized.isTestPost === 'true' || normalized.isTestPost === true) {
+      normalized.isTestPost = true;
+    } else {
+      normalized.isTestPost = false;
+    }
+
+    normalizedPosts.push(normalized);
+  }
+
+  db.posts = normalizedPosts;
+  writeDatabase(db);
+
+  res.json({
+    success: true,
+    originalCount,
+    finalCount: normalizedPosts.length,
+    message: "Base de dados normalizada e higienizada com sucesso!"
+  });
+});
+
 app.post("/api/posts", (req, res) => {
   const db = readDatabase();
   const newPost = {
     id: String(Date.now()),
     views: 0,
     date: req.body.date || new Date().toISOString(),
+    isTestPost: req.body.isTestPost || false,
     ...req.body
   };
   
   // Format slug if not provided
   if (!newPost.slug) {
-    newPost.slug = newPost.title
+    newPost.slug = (newPost.title || '')
       .toLowerCase()
       .normalize("NFD")
       .replace(/[\u0300-\u036f]/g, "")
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)+/g, "");
   }
+
+  // Apply intelligent auto-categorization
+  newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
 
   db.posts.unshift(newPost);
   writeDatabase(db);
@@ -105,9 +263,16 @@ app.post("/api/posts", (req, res) => {
 
 app.put("/api/posts/:id", (req, res) => {
   const db = readDatabase();
-  const index = db.posts.findIndex((p: any) => p.id === req.params.id);
+  const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
     db.posts[index] = { ...db.posts[index], ...req.body };
+    if (req.body.title || req.body.content) {
+      db.posts[index].category = autoCategorizeNews(
+        db.posts[index].title || '',
+        db.posts[index].content || '',
+        db.posts[index].category || 'Economia'
+      );
+    }
     writeDatabase(db);
     res.json(db.posts[index]);
   } else {
@@ -117,11 +282,24 @@ app.put("/api/posts/:id", (req, res) => {
 
 app.delete("/api/posts/:id", (req, res) => {
   const db = readDatabase();
-  const index = db.posts.findIndex((p: any) => p.id === req.params.id);
+  const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
-    const deleted = db.posts.splice(index, 1);
+    const deleted = db.posts.splice(index, 1)[0];
+    
+    if (!db.deletedPostItems) {
+      db.deletedPostItems = [];
+    }
+
+    db.deletedPostItems.push({
+      id: deleted.id,
+      title: deleted.title,
+      sourceUrl: deleted.sourceUrl || '',
+      slug: deleted.slug,
+      deletedAt: new Date().toISOString()
+    });
+
     writeDatabase(db);
-    res.json(deleted[0]);
+    res.json(deleted);
   } else {
     res.status(404).json({ error: "Post não encontrado" });
   }
@@ -130,7 +308,7 @@ app.delete("/api/posts/:id", (req, res) => {
 // Increment view counter
 app.post("/api/posts/:id/view", (req, res) => {
   const db = readDatabase();
-  const index = db.posts.findIndex((p: any) => p.id === req.params.id);
+  const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
     db.posts[index].views = (db.posts[index].views || 0) + 1;
     writeDatabase(db);
@@ -203,6 +381,64 @@ app.post("/api/ai/rss-scrape", async (req, res) => {
   const selectedCategory = category || "Economia";
   const source = sourceName || "Feed RSS Oficial";
 
+  const db = readDatabase();
+  const chosenTheme = selectLeastUsedVisualTheme(db);
+  const editorialAngle = EDITORIAL_ANGLES[(db.posts || []).length % EDITORIAL_ANGLES.length];
+
+  if (true) {
+    if (!ai) {
+      const proceduralPost = generateProceduralPost(
+        source === "Feed RSS Oficial" ? `Abrevimento sobre as novas tendências estruturais em ${selectedCategory}` : `Reformulação estratégica e normas operacionais da marca ${source}`,
+        selectedCategory,
+        source,
+        db
+      );
+      proceduralPost.title = "[RSS IA] " + proceduralPost.title;
+      return res.json({ success: true, post: proceduralPost });
+    }
+
+    try {
+      const prompt = buildNewsGenerationPrompt(
+        selectedCategory,
+        source,
+        `Nova Diretriz Setorial para o Mercado de ${selectedCategory}`,
+        `Novos acordos comerciais e marcos de governança regulatória otimizam as cadeias de inovação e impulsionam o ecossistema estratégico de ${selectedCategory} no país neste semestre.`,
+        chosenTheme,
+        editorialAngle
+      );
+
+      const response = await ai.models.generateContent({
+        model: "gemini-3.5-flash",
+        contents: prompt,
+        config: {
+          responseMimeType: "application/json"
+        }
+      });
+
+      const text = response.text || "{}";
+      const cleanedText = text.trim();
+      const resultObj = JSON.parse(cleanedText);
+      
+      resultObj.category = selectedCategory;
+      resultObj.isAiGenerated = true;
+      resultObj.hasKey = true;
+      resultObj.visualTheme = chosenTheme;
+      resultObj.editorialAngle = editorialAngle;
+
+      return res.json({ success: true, post: resultObj });
+    } catch (error: any) {
+      console.error("Erro no processamento Gemini RSS:", error);
+      const proceduralPost = generateProceduralPost(
+        source === "Feed RSS Oficial" ? `Abrevimento sobre as novas tendências estruturais em ${selectedCategory}` : `Reformulação estratégica e normas operacionais da marca ${source}`,
+        selectedCategory,
+        source,
+        db
+      );
+      proceduralPost.title = "[RSS IA Fallback] " + proceduralPost.title;
+      return res.json({ success: true, post: proceduralPost });
+    }
+  }
+
   // If Gemini API is not available, we use quality mock procedural generation
   if (!ai) {
     // Generate organic sounding mock news
@@ -238,7 +474,69 @@ app.post("/api/ai/rss-scrape", async (req, res) => {
     const generatedPost = {
       title: "[RSS IA] " + randomTitle,
       subtitle: `Análise profunda e dinâmica detalha as novas tendências de desenvolvimento estruturado que moldam o setor de ${selectedCategory} neste trimestre.`,
-      content: `Este artigo jornalístico foi simulado a partir de um feed automatizado de ${source} na categoria de ${selectedCategory}.\n\nA atividade produtiva recente demonstrou forte aceleração com a consolidação de novas frentes de investimento corporativo. Segundo reportado inicialmente, houve um direcionamento prioritário de capitais visando sanar gargalos históricos de logística e eficiência digital.\n\nEspecialistas do mercado financeiro e cientistas políticos apontam que a maturidade regulatória e a estabilidade das taxas regulatórias locais foram decisivas para elevar a nota de segurança institucional. Espera-se que, com a concretização desses planos de médio prazo, o setor registre alta contínua de produtividade, abrindo novas vagas de emprego técnico e alavancando os índices socioeconômicos do Brasil.`,
+      content: `### 1. Introdução
+
+Esta análise abrangente visa dissecar as nuances que cercam a recente guinada observada no setor de ${selectedCategory}. No atual ecossistema socioeconômico brasileiro, os fluxos de investimentos e as transições regulatórias têm ditado um ritmo acelerado de reestruturação que exige dos líderes de mercado uma postura cada vez mais ágil e fundamentada em dados concretos de performance.
+
+**Explicação Simplificada**:
+Imagine que o setor de ${selectedCategory} é como uma grande avenida movimentada que estava cheia de buracos e sem sinalização. O que está acontecendo agora é uma grande reforma: novas regras de trânsito estão sendo aplicadas, as pistas estão sendo duplicadas e modernos semáforos digitais estão sendo instalados para que o fluxo de veículos (neste caso, o comércio, a segurança jurídica e a prestação de serviços de excelência) corra com o máximo de velocidade e o mínimo de custos imprevistos para todo mundo.
+
+**Contexto Histórico**:
+Historicamente, o Brasil enfrentou sérias desconfianças e percalços burocráticos ao tentar regulamentar ou modernizar as infraestruturas de ${selectedCategory}. Por décadas, a falta de marcos jurídicos bem-definidos e a volatilidade política afastavam fundos de investimento soberanos internacionais de longo prazo. A dependência excessiva de subsídios públicos centralizados tornava o sistema refém da saúde fiscal do Estado, resultando em frequentes obras inacabadas ou projetos que nasciam obsoletos e desprovidos de sustentabilidade.
+
+### 2. O que aconteceu
+
+Nas últimas semanas, vivenciamos uma aceleração sem precedentes com o anúncio oficial do novo pacote estratégico nacional voltado exclusivamente para ${selectedCategory}. Diversos fóruns internacionais de cooperação bilateral começaram a posicionar o mercado brasileiro de ${selectedCategory} como referência priorizada de alocação de capitais de longo prazo no Cone Sul.
+
+A medida inicial, coordenada de forma sinérgica pelos ministérios associados e órgãos supervisores competentes, foca em destravar gargalos históricos de eficiência digital e automação. O investimento bilionário que está sendo aportado pavimenta o caminho para a eliminação total de processos puramente cartoriais de liberação técnica, substituindo-os por validação em tempo real descentralizada. Isso não apenas otimiza o ciclo de vida dos projetos em desenvolvimento, mas também reduz de maneira drástica as fricções operacionais cotidianas reportadas pelas construtoras e investidores regionais.
+
+### 3. Contexto do setor
+
+Atualmente, o mercado nacional e internacional de ${selectedCategory} passa por uma transformação disruptiva motivada pela adoção em massa de padrões sustentáveis de conformidade (ESG) e conectividade de quinta geração. O setor não é mais visto como uma atividade isolada, mas sim como um componente vital e integrado à logística de cidades inteligentes e cadeias de suprimento globais de alto valor agregado.
+
+Dentre os principais desafios identificados pelas maiores consultorias setoriais, destacam-se a formação de mão de obra altamente qualificada em canais avançados e a garantia de suprimento estável e limpo em cenários de stress hídrico ou flutuações de demanda industrial. Comitês reguladores em Brasília correm contra o relógio para ratificar a compatibilidade dos protocolos nacionais com os do bloco europeu, uma providência crítica para viabilizar as exportações sustentáveis sob as restrições progressivas de pegada de carbono.
+
+### 4. Impactos para empresas e consumidores
+
+As corporações de pequeno, médio e grande porte integradas à cadeia produtiva de ${selectedCategory} precisarão readequar seus orçamentos e cronogramas de investimento de curto prazo. Aquelas que agirem com presteza colherão os frutos de custos reduzidos e maior atratividade de marca, enquanto as retardatárias podem ser marginalizadas por uma concorrência muito mais agressiva e tecnologicamente integrada.
+
+**Impacto Econômico**:
+Do ponto de vista macroeconômico, as estimativas apontam para uma economia anual monumental que ajudará a aliviar o balanço de pagamentos. A atração extraordinária de capital externo reduz a pressão sobre as contas nacionais estruturais, contribuindo para uma valorização cambial e aumentando o PIB local em proporções raramente registradas em períodos semelhantes. Os fundos arrecadados por meio de outorgas competitivas estão sendo estrategicamente realocados na amortização da dívida líquida do setor público, pavimentando um caminho virtuoso e robusto de estabilidade econômica sistêmica de longo prazo.
+
+**Impacto para o Cidadão**:
+Para o cidadão comum, do campo ou da cidade, os reflexos serão sentidos de forma palpável na rotina cotidiana de variadas maneiras. Primeiramente, o aumento maciço nas vagas de emprego de alta especialização cria frentes de ascensão profissional e capacitação que antes eram inexistentes nessa escala. Em segundo lugar, a melhora na distribuição logística traduz-se diretamente na redução de preços finais de produtos de largo consumo na prateleira do supermercado.
+
+### 5. Dados e números relevantes
+
+Para ilustrar a escala e a profundidade dessa reestruturação sem precedentes históricos, organizamos em tópicos os números mais consolidados até este momento pelas agências independentes e institutos oficiais de pesquisa econômica aplicada:
+
+- **Redução Custo-País**: Estima-se um decréscimo drástico de até 18,5% nas perdas logísticas gerais ao longo dos principais corredores produtivos interestaduais de exportação nacional de ${selectedCategory}.
+- **Criação de Empregos**: Previsão de abertura direta e indireta de mais de 345.000 postos de trabalho qualificados até o final do biênio corrente, fomentando feiras de comércio e capacitações regionais intensivas.
+- **Eficiência de Processamento**: Redução consolidada de 65% no tempo médio decorrido para obtenção de licenciamento técnico preliminar junto às autarquias responsáveis.
+- **Investimento Verde**: Destinação mínima obrigatória de 25% de todo o valor aportado em subsídios ou parcerias para iniciativas estritamente ligadas à descarbonização profunda e reflorestamento de áreas de preservação permanente degradadas.
+
+### 6. Cenários futuros
+
+Olhando para a linha do horizonte dos próximos cinco a dez anos, os cenários traçados por painéis de prospectores apontam para dois caminhos distintos a depender da consistência política. No cenário mais provável e otimista, a perenidade das regras de atração de capital consolidará o Brasil no papel incontestável de polo tecnológico e de inovação do hemisfério sul para todo o ecossistema de ${selectedCategory}.
+
+Novos modelos cooperativos de negócios baseados em governança descentralizada deverão surgir, impulsionando a participação de startups tecnológicas locais no desenvolvimento de patentes inovadoras. Contudo, analistas de risco geopolítico alertam que qualquer retrocesso nas garantias regulatórias ou flexibilização das restrições de responsabilidade fiscal poderia reverter esses ganhos com rapidez drástica, resultando em fugas repentinas de capital líquido internacional e paralisia dos canteiros de obras estratégicos.
+
+### 7. Conclusão
+
+Em suma, a transição robusta que o setor de ${selectedCategory} enfrenta é uma das reformas mais vitais da história moderna da infraestrutura nacional. Ela corrige injustiças produtivas acumuladas há muitas décadas e reposiciona o país em um contexto de vanguarda global frente a desafios planetários graves de eficiência sistêmica.
+
+A coordenação coesa e assertiva dos entes governamentais e corporativos mostra que, quando há clareza de propósito e firme respeito aos contratos firmados, é possível transpor as mais densas barreiras históricas de atraso econômico. A manutenção da vigilância social para que esses benefícios atinjam a toda a pirâmide populacional é o grande compromisso cívico que resta consolidar.
+
+### 8. FAQ automático
+
+**Como as novas regras de ${selectedCategory} impactam as pequenas microempresas brasileiras?**
+As pequenas empresas do setor passarão a contar com canais de isenção ou simplificação tributária robusta para compra de equipamentos, além de licitações públicas exclusivas em nível municipal.
+
+**Quais as datas previstas para os primeiros efeitos reais serem sentidos na ponta do consumo?**
+As projeções indicam que a estabilização logística decorrente dessas reformas começará a se refletir nos preços médios cobrados dos consumidores no terceiro trimestre de 2026.
+
+**De onde provêm exatamente os recursos financeiros que custearão esses investimentos massivos?**
+Mais de 75% da verba total programada provém da emissão de títulos de crédito de sustentabilidade (Green Bonds) subscritos por bancos de fomento internacional da Europa e Ásia, sem incidência sobre os impostos ordinários dos contribuintes brasileiros.`,
       seoTitle: `${randomTitle} | Store Center`,
       seoDescription: `Saiba tudo sobre ${randomTitle}. Análise jornalística inédita baseada em feeds RSS atualizados do setor de ${selectedCategory}.`,
       tags: [selectedCategory, "Destaque", "Exclusivo", "Brasil"],
@@ -255,14 +553,47 @@ app.post("/api/ai/rss-scrape", async (req, res) => {
 
   try {
     const prompt = `Gere uma nova e exclusiva notícia jornalística em português baseada na categoria "${selectedCategory}". Ela deve simular que foi aglutinada a partir de posts recentes no feed RSS corporativo "${source}".
-Siga estas regras estritamente:
-1. Crie um título voltado para SEO que seja atraente e inédito.
-2. Crie um subtítulo explicativo e relevante.
-3. Crie um corpo de texto formal, jornalístico estruturado em 3 seções (parágrafos), explicando o assunto em detalhes, de forma coerente e fluida (mínimo de 250 palavras).
+
+Siga estas regras estritamente para que o texto gerado seja extremamente longo, detalhado e siga a estrutura perfeitamente:
+1. Crie um título voltado para SEO que seja atraente, impactante e inédito.
+2. Crie um subtítulo explicativo, descritivo e relevante.
+3. NÃO copie o texto original. Escreva uma matéria exclusiva, fluida, séria, formal e profissional em português com suas próprias palavras. O corpo do texto ("content") DEVE contar com no MÍNIMO de 800 palavras no total (nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
+Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
+
+### 1. Introdução
+- Faça uma abertura contextualizada e elegante do assunto.
+- Adicione as seguintes subseções obrigatórias integradas na introdução:
+  * **Explicação Simplificada**: Uma explicação curta, ultra acessível e sem jargões complexos voltada para que qualquer leigo entenda perfeitamente o assunto.
+  * **Contexto Histórico**: Um resgate de como esse segmento, setor ou problema se desenvolveu historicamente no Brasil ou no mundo até chegar a este ponto crítico atual.
+
+### 2. O que aconteceu
+- Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor. Descreva o acontecimento principal notificado no feed e todos os desdobramentos de interesse público relevantes.
+
+### 3. Contexto do setor
+- Explique o panorama atual da indústria, do segmento ou do mercado afetado. Quais discussões burocráticas, desafios corporativos, marcos regulatórios ou avanços operacionais envolvem esta área específica no cenário global ou nacional.
+
+### 4. Impactos para empresas e consumidores
+- Desenvolva profundamente as repercussões cotidianas e estratégicas de curto e longo prazo.
+- Detalhe obrigatoriamente sob as seguintes perspectivas integradas:
+  * **Impacto Econômico**: Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
+  * **Impacto para o Cidadão**: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
+
+### 5. Dados e números relevantes
+- Apresente de forma didática em formato de lista (bullet points) as estatísticas de mercado relevantes, dados oficiais de agências públicas, percentuais, projeções de orçamento ou indicadores numéricos cruciais ligados à notícia de forma muito rica e fundamentada.
+
+### 6. Cenários futuros
+- Projete previsões realistas, tendências consolidadas ou desdobramentos esperados a médio e longo prazo, sinalizando os desfechos prováveis e o que ficar de olho nos próximos anos.
+
+### 7. Conclusão
+- Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da transformação descrita sob a ótica jornalística setorial.
+
+### 8. FAQ automático
+- Crie uma seção curta de perguntas frequentes e respostas automáticas (pelo menos 3 a 5 perguntas elaboradas em negrito e respondidas de forma assertiva e dinamicamente instrutiva, ideais para rich snippets de SEO).
+
 4. Forneça tags de busca (3 a 5 palavras-chave curtas).
 5. Forneça o título SEO de até 60 caracteres.
-6. Forneça mada-descrição SEO de até 150 caracteres.
-7. Escreva um prompt detalhado em inglês para geração de imagem destacada (focado em fotografia profissional, neutra e realista).
+6. Forneça meta-descrição SEO de até 150 caracteres.
+7. Escreva um prompt detalhado em inglês para geração de imagem destacada (focado em fotografia profissional, neutra e realista, de altíssima fidelidade e sem nenhuma legenda, texto ou marca d'água).
 8. Defina uma palavra-chave principal útil para SEO.
 
 Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
@@ -323,9 +654,83 @@ app.post("/api/ai/links-compare", async (req, res) => {
     }
   });
 
+  const db = readDatabase();
+  const chosenTheme = selectLeastUsedVisualTheme(db);
+  const editorialAngle = EDITORIAL_ANGLES[(db.posts || []).length % EDITORIAL_ANGLES.length];
+
+  if (true) {
+    const hasConflicts = links.length > 2;
+    const conflictsDesc = hasConflicts 
+      ? "Nota de Comparação: Foram observadas pequenas divergências pontuais sobre estimativas e cronogramas entre as fontes fornecidas. Optamos por registrar o cenário mais consolidado."
+      : "Sem conflitos corporativos detectados entre as fontes analisadas.";
+
+    if (!ai) {
+      const proceduralPost = generateProceduralPost(
+        `Consolidação Comparativa de Inovação em ${selectedCategory}`,
+        selectedCategory,
+        sourcesAnalyzed.join(", "),
+        db
+      );
+      proceduralPost.title = "[IA Multi-Fontes] " + proceduralPost.title;
+      return res.json({
+        success: true,
+        result: {
+          ...proceduralPost,
+          conflicts: conflictsDesc,
+          sourcesAnalyzed: sourcesAnalyzed
+        }
+      });
+    }
+
+    try {
+      const prompt = buildMultiLinkNewsComparisonPrompt(
+        links,
+        selectedCategory,
+        chosenTheme,
+        editorialAngle
+      );
+
+      const response = await ai.models.generateContent({
+        model: "gemini-3.5-flash",
+        contents: prompt,
+        config: {
+          responseMimeType: "application/json"
+        }
+      });
+
+      const text = response.text || "{}";
+      const cleanedText = text.trim();
+      const resultObj = JSON.parse(cleanedText);
+      
+      resultObj.category = selectedCategory;
+      resultObj.sourcesAnalyzed = sourcesAnalyzed;
+      resultObj.hasKey = true;
+      resultObj.visualTheme = chosenTheme;
+      resultObj.editorialAngle = editorialAngle;
+
+      return res.json({ success: true, result: resultObj });
+    } catch (error: any) {
+      console.error("Erro na comparação de links Gemini:", error);
+      const proceduralPost = generateProceduralPost(
+        `Consolidação Comparativa de Inovação em ${selectedCategory}`,
+        selectedCategory,
+        sourcesAnalyzed.join(", "),
+        db
+      );
+      proceduralPost.title = "[IA Multi-Fontes Fallback] " + proceduralPost.title;
+      return res.json({
+        success: true,
+        result: {
+          ...proceduralPost,
+          conflicts: conflictsDesc,
+          sourcesAnalyzed: sourcesAnalyzed
+        }
+      });
+    }
+  }
+
   if (!ai) {
     // If Gemini key is missing, give a fully functional procedural comparison mockup
-    // but inform cleanly they can add the credentials to run authentic scrapes.
     const hasConflicts = links.length > 2;
     const conflictsDesc = hasConflicts 
       ? "Nota de Comparação: Foram observadas pequenas divergências de valores estimados sobre o montante final dos investimentos entre as fontes fornecidas (uma cita R$ 15 bilhões e outra R$ 17.2 bilhões). Optamos por registrar o valor conservador e citar a margem."
@@ -334,7 +739,69 @@ app.post("/api/ai/links-compare", async (req, res) => {
     const generatedPost = {
       title: "[IA Multi-Fontes] Aliança estratégica redesenha operações tecnológicas no mercado",
       subtitle: `Investidores combinam frentes de atuação para acelerar novos polos de inovação no país.`,
-      content: `Este artigo de análise comparativa foi gerado com base na leitura e consolidação dos links fornecidos (${sourcesAnalyzed.join(", ")}).\n\nA integração de dados permitiu sintetizar as principais frentes de transformação no cenário de ${selectedCategory}.\n\nPrimeiramente, as fontes apontam para a necessidade de aportes urgentes em infraestrutura de dados e telecomunicações de alta velocidade. Esse direcionamento uniu consórcios públicos e privados nacionais.\n\nEm segundo lugar, a consolidação desses dados revela um mercado em plena expansão, que deve acelerar no segundo semestre deste ano. O principal desafio relatado reside na contratação e retenção de pessoal especializado de alto nível técnico, o que tende a inflacionar os salários das carreiras tecnológicas em curto prazo. Para combater esse desequilíbrio, as entidades anunciaram programas de formação integrados com centros acadêmicos regionais.`,
+      content: `### 1. Introdução
+
+Esta análise abrangente visa dissecar as nuances que cercam a recente guinada observada no setor de ${selectedCategory}, consolidada a partir de relatórios analíticos de vanguarda tecnológica. No atual ecossistema de negócios brasileiros, os fluxos de investimentos e as transições regulatórias têm ditado um ritmo acelerado de reestruturação setorial que exige dos líderes de mercado uma postura de resiliência e adaptação baseada em dados reais de escalabilidade.
+
+**Explicação Simplificada**:
+Imagine que o setor de ${selectedCategory} é como um grande quebra-cabeça com várias peças espalhadas de marcas concorrentes. O que as empresas estão fazendo agora é juntar essas peças estratégicas em uma única aliança unificada para que possam construir uma base sólida e ultraeficiente de serviços digitais rápidos, reduzindo custos desnecessários na conta mensal das pessoas físicas e jurídicas.
+
+**Contexto Histórico**:
+historicamente, as tentativas de unificação de estratégias em infraestrutura partilhada enfrentaram sérias barreiras de truste e disputas por propriedade intelectual no Brasil. Por décadas, a falta de canais neutros de interoperabilidade e a fragmentação tecnológica empurravam empresas nacionais para investimentos replicados de custos insustentáveis, forçando o consumidor final a pagar caro por múltiplas assinaturas ou serviços instáveis que sequer atendiam padrões de conformidade global.
+
+### 2. O que aconteceu
+
+A análise cruzada das maiores bases de dados do setor aponta para o fechamento de um acordo inédito e histórico entre os três maiores consórcios de inovação e operações estratégicas ligadas a ${selectedCategory}. Pela primeira vez na história recente das telecomunicações corporativas do hemisfério sul, as marcas operadoras compartilharão suas estruturas passivas para acelerar a expansão das redes de ultra banda larga.
+
+Essa convergência visa suprimir as barreiras geográficas em mais de setecentos munícipios interioranos no decorrer dos próximos meses, gerando investimentos substanciais que serão injetados de forma direta nos polos universitários locais produtores de patentes tecnológicas.
+
+### 3. Contexto do setor
+
+Atualmente, o mercado nacional e internacional de ${selectedCategory} enfrenta um gargalo sistêmico relacionado à obsolescência de componentes de roteamento de dados físicos e escassez estrutural de fibra óptica de alta frequência. Com os desafios modernos da regulação de privacidade cibernética global e das normas rígidas de governança ambiental corporativa, as decisões de expansão tornaram-se mais complexas e dependentes de metodologias de análise quantitativa verde validadas.
+
+Diversas associações patronais brasileiras vêm pressionando o governo federal a desonerar a importação de componentes semicondutores essenciais para reativar as linhas produtivas estagnadas desde a última crise de abastecimento global de suprimentos industriais.
+
+### 4. Impactos para empresas e consumidores
+
+Adversidades históricas de integração serão solucionadas com esse esforço colaborativo, abrindo canais sem precedentes para que pequenas, médias e grandes corporações escalem suas operações em nuvem com alta consistência técnica a custos sensivelmente reduzidos.
+
+**Impacto Econômico**:
+Do ponto de vista macroeconômico, a amortização dos custos de investimento das novas implementações industriais tem o potencial imediato de injetar dezenas de bilhões de reais na economia real brasileira nos próximos anos. A coordenação logística reduz o tempo médio de ativação de novas plantas comerciais do setor e eleva de modo robusto a produtividade do capital alocado pelas empresas estatais e fundos independentes.
+
+**Impacto para o Cidadão**:
+Para o cidadão cotidiano, os efeitos benéficos dessas mudanças operacionais serão sentidos rapidamente tanto na qualidade técnica de conexão e estabilidade de fornecimento, quanto na gradativa expansão de serviços inteligentes de atendimento social. As taxas médias de cobrança devem registrar retração gradual ao passo que as operadoras locais eliminam os desperdícios que anteriormente sobrecarregavam as tarifas dos consumidores finais.
+
+### 5. Dados e números relevantes
+
+Com o intuito de consolidar estatisticamente todas as informações reunidas das fontes setoriais de alta relevância mercadológica, estruturamos os seguintes dados informativos:
+
+- **Redução de Desperdício Operacional**: Estima-se que o compartilhamento e fusão de estruturas produtivas trará ganhos de eficiência de até 32,5% em custos logísticos redundantes.
+- **Percentagem de Cobertura Interiorana**: O acordo inicial viabilizará a disponibilização de serviços de telecomunicação avançados e robustos para 82% das cidades atualmente desprovidas de conectividade regular.
+- **Arrecadação de Tributos Setoriais**: Projeta-se que o reaquecimento de negócios na cadeia produtiva gere um incremento anual de R$ 4,7 bilhões na arrecadação tributária do setor.
+- **Sustentabilidade Aplicada**: Compromisso assinado de neutralizar 100% das emissões diretas de gases estufa decorrentes da operação de data centers conjuntos destas marcas até o final de 2028.
+
+### 6. Cenários futuros
+
+Especialistas em inteligência de mercado projetam dois cenários mais prováveis para o decorrer da próxima década. Se o ritmo de investimento compartilhado se mantiver equilibrado e imune a choques externos de juros monetários, o Brasil consolidar-se-á como a grande vitrina de inovação verde em infraestrutura tecnológica.
+
+Contudo, se houver barreiras monopolistas impostas ou quebras repentinas de contrato motivadas por instabilidades societárias internas, o avanço tecnológico perderá considerável tração, devolvendo o setor ao antigo cenário de estagnação operacional de outrora.
+
+### 7. Conclusão
+
+Em termos conceituais, estamos diante de um dos marcos de transformação colaborativa corporativa mais substanciais de história moderna do nosso ecossistema produtivo nacional da década. A substituição do modelo de concorrência destrutiva redundante por modelos inteligentes de cooperação produtiva é digna de reconhecimento técnico internacional.
+
+Agora, restará aos órgãos fiscais competentes monitorar de perto para garantir que estes expressivos ganhos de produtividade e economia operacional sejam de fato convertidos em benefícios claros, justos e acessíveis para o bolso final do cidadão ordinário.
+
+### 8. FAQ automático
+
+**Como se dará o compartilhamento prático das de infraestrutura de dados entre os consórcios participantes?**
+As marcas manterão suas bases comerciais concorrentes isoladas, porém operarão data centers e canais físicos comuns de tráfego, compartilhando faturamento de manutenção proporcional.
+
+**Essa aliança comercial dependerá de aprovação de instâncias regulatórias do governo como CADE ou ANATEL?**
+Sim, o projeto unificado já foi submetido à análise prévia e aguarda validação conclusiva com pareceres unânimes e técnicos favoráveis até o próximo trimestre fiscal brasileiro.
+
+**O consumidor residencial brasileiro precisará realizar alguma troca física de equipamentos para obter as novidades?**
+Absolutamente não. Toda a modernização logística do ecossistema ocorrerá de forma plenamente automatizada em nível de transmissão de sinal, sem custos de troca física para os utilizadores domésticos ordinários.`,
       seoTitle: `Consolidação jornalística sobre inovação | Store Center`,
       seoDescription: `Uma análise comparativa inédita unindo dados essenciais de tendências corporativas do Brasil. Leia as fontes analisadas com exclusividade.`,
       tags: [selectedCategory, "Tecnologia", "Análise", "Futuro"],
@@ -353,11 +820,43 @@ app.post("/api/ai/links-compare", async (req, res) => {
     const prompt = `Você é um Jornalista Sênior da Store Center News. Foram fornecidos os seguintes links de notícias para você ler e consolidar:
 ${links.map((link, i) => `Link ${i + 1}: ${link}`).join("\n")}
 
-Instruções fundamentais:
+Instruções fundamentais de redação de altíssimo nível, extensas e ricas:
 1. Realize uma simulação realista de leitura dessas fontes.
 2. Identifique contradições ou divergências entre as fontes (ex: dados estatísticos diferentes, datas divergentes, nomes escritos de forma diferente). Se houver divergência, apresente um aviso detalhado no campo "conflicts". Se as fontes forem consistentes e concordantes, informe "Sem conflitos" no campo "conflicts".
 3. NÃO invente fatos ou números que extrapolem grosseiramente o universo típico destas notícias. Seja factual e sério.
-4. Escreva uma nova matéria jornalística unificada em português de altíssima qualidade técnica, totalmente reescrita (SEM plágio ou cópia direta do texto das fontes) com estilo ágil, limpo e dinâmico. O texto do corpo ("content") deve ser detalhado e amplo, estruturado em pelo menos 3 seções relevantes ou parágrafos com cabeçalhos de divisão marcados com '###'.
+4. Escreva uma nova matéria jornalística unificada em português de altíssima qualidade técnica, totalmente reescrita (SEM plágio ou cópia direta do texto das fontes) com estilo ágil, limpo, formal, aprofundado e dinâmico. O texto do corpo ("content") DEVE contar com no MÍNIMO de 800 palavras no total (absolutamente nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
+Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
+
+### 1. Introdução
+- Faça uma abertura contextualizada e elegante do assunto.
+- Adicione as seguintes subseções obrigatórias integradas na introdução:
+  * **Explicação Simplificada**: Uma explicação curta, ultra acessível e sem jargões complexos voltada para que qualquer leigo entenda perfeitamente o assunto.
+  * **Contexto Histórico**: Um resgate de como esse segmento, setor ou problema se desenvolveu historicamente no Brasil ou no mundo até chegar a este ponto crítico atual.
+
+### 2. O que aconteceu
+- Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor. Descreva o acontecimento principal notificado no feed e todos os desdobramentos de interesse público relevantes.
+
+### 3. Contexto do setor
+- Explique o panorama atual da indústria, do segmento ou do mercado afetado. Quais discussões burocráticas, desafios corporativos, marcos regulatórios ou avanços operacionais envolvem esta área específica no cenário global ou nacional.
+
+### 4. Impactos para empresas e consumidores
+- Desenvolva profundamente as repercussões cotidianas e estratégicas de curto e longo prazo.
+- Detalhe obrigatoriamente sob as seguintes perspectivas integradas:
+  * Repercussão Econômica (contexto de impacto econômico): Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
+  * Impacto para o Cidadão: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
+
+### 5. Dados e números relevantes
+- Apresente de forma didática em formato de lista (bullet points) as estatísticas de mercado relevantes, dados oficiais de agências públicas, percentuais, projeções de orçamento ou indicadores numéricos cruciais de forma muito rica e fundamentada.
+
+### 6. Cenários futuros
+- Projete previsões realistas, tendências consolidadas ou desdobramentos esperados a médio e longo prazo, sinalizando os desfechos prováveis e o que ficar de olho nos próximos anos.
+
+### 7. Conclusão
+- Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da transformação descrita sob a ótica jornalística de alto nível.
+
+### 8. FAQ automático
+- Crie uma seção curta de perguntas frequentes e respostas automáticas (pelo menos 3 a 5 perguntas elaboradas em negrito e respondidas de forma assertiva e dinamicamente instrutiva, ideais para rich snippets de SEO).
+
 5. Defina título SEO, descrição SEO amigável para buscadores de até 150 caracteres, slug-ready tags úteis e uma palavra-chave principal.
 6. Crie um prompt detalhado em inglês para sugerir imagem destacada jornalística no Unsplash/Imagen em estilo realista.
 
@@ -444,6 +943,463 @@ const cleanText = (txt: string) => {
   }
   return res.trim();
 };
+
+const REQUIRED_VISUAL_THEMES = [
+  "fotografia corporativa",
+  "pessoas",
+  "indústrias",
+  "agronegócio",
+  "tecnologia",
+  "comércio",
+  "logística",
+  "energia",
+  "infraestrutura"
+];
+
+const EDITORIAL_ANGLES = [
+  "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)",
+  "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)",
+  "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)",
+  "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)",
+  "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)",
+  "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+];
+
+function selectLeastUsedVisualTheme(db: any): string {
+  const thirtyDaysAgo = new Date();
+  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
+
+  const postsLast30Days = (db.posts || []).filter((p: any) => {
+    return p.date && new Date(p.date) >= thirtyDaysAgo;
+  });
+
+  const counts: Record<string, number> = {};
+  REQUIRED_VISUAL_THEMES.forEach(t => { counts[t] = 0; });
+
+  postsLast30Days.forEach((p: any) => {
+    let theme = p.visualTheme;
+    if (!theme) {
+      const text = `${p.title || ""} ${p.category || ""} ${p.imagePrompt || ""}`.toLowerCase();
+      if (text.includes("agronegócio") || text.includes("agro") || text.includes("lavoura") || text.includes("campo") || text.includes("fazenda")) {
+        theme = "agronegócio";
+      } else if (text.includes("energia") || text.includes("elétr") || text.includes("solar") || text.includes("eólic")) {
+        theme = "energia";
+      } else if (text.includes("logística") || text.includes("transp") || text.includes("porto") || text.includes("rota")) {
+        theme = "logística";
+      } else if (text.includes("tecnologia") || text.includes("ia ") || text.includes("software") || text.includes("digital")) {
+        theme = "tecnologia";
+      } else if (text.includes("indústria") || text.includes("fábrica") || text.includes("manufat") || text.includes("industria")) {
+        theme = "indústrias";
+      } else if (text.includes("comércio") || text.includes("varejo") || text.includes("vendas") || text.includes("lojas") || text.includes("comercio")) {
+        theme = "comércio";
+      } else if (text.includes("infraestrutura") || text.includes("pontes") || text.includes("estradas") || text.includes("saneamento")) {
+        theme = "infraestrutura";
+      } else if (text.includes("pessoas") || text.includes("equipe") || text.includes("povo") || text.includes("cidadão")) {
+        theme = "pessoas";
+      } else {
+        theme = "fotografia corporativa";
+      }
+    }
+    if (counts[theme] !== undefined) {
+      counts[theme]++;
+    }
+  });
+
+  const sorted = REQUIRED_VISUAL_THEMES.map(t => ({ theme: t, count: counts[t] }))
+    .sort((a, b) => a.count - b.count);
+
+  console.log("[Alternador Visual] Contagem dos últimos 30 dias:", counts);
+  console.log("[Alternador Visual] Selecionado o tema menos utilizado:", sorted[0].theme);
+  return sorted[0].theme;
+}
+
+function generateProceduralPost(
+  itemTitle: string,
+  category: string,
+  source: string,
+  db: any
+) {
+  const cleanTitle = cleanText(itemTitle);
+  const chosenTheme = selectLeastUsedVisualTheme(db);
+  const editorialAngles = EDITORIAL_ANGLES;
+  
+  const angleIndex = (db.posts || []).length % editorialAngles.length;
+  const chosenAngle = editorialAngles[angleIndex];
+
+  const intros = [
+    `A recente repercussão envolvendo a iniciativa focando em "${cleanTitle}" gerou debates urgentes e reacendeu as atenções para os rumos estratégicos do panorama nacional em ${category}. Diante desse novo cenário pragmático, analistas apontam que as transformações em andamento exigem respostas governamentais e corporativas coordenadas para destravar gargalos históricos.`,
+    `A divulgação oficial de diretrizes estruturadas acerca de "${cleanTitle}" representa um verdadeiro divisor de águas econômico no mercado de ${category}. Sob a forte influência de novas demandas regulatórias, os agentes operacionais de vanguarda buscam adaptar de forma ágil seus portfólios corporativos a fim de capitalizar oportunidades inéditas nos próximos trimestres.`,
+    `Com a consolidação de novas bases operacionais, a discussão pública sobre "${cleanTitle}" assume papel de relevância primária nas agendas ministeriais e corporativas envolvidas com ${category}. Este movimento reflete a necessidade premente de superação de velhos gargalos de infraestrutura por meio de parcerias de alta governança.`
+  ];
+
+  const simplifiedExplanations = [
+    `Para compreender este assunto de forma simples, imagine que o setor de ${category} está passando por uma grande reforma operacional para substituir encanamentos ou fiações antigas por conexões de fibra de alta performance. O objetivo é assegurar que os serviços cheguem mais ágeis e baratos para o utilizador final, cortando etapas meramente burocráticas e intermediários ineficientes no processo de distribuição.`,
+    `Explicando de maneira amigável: imagine que as empresas do ramo de ${category} estão redesenhando suas rotas de entrega para acabar com redundâncias logísticas caras. Elas decidiram compartilhar parte de suas estradas e armazéns para que os caminhões não viajem vazios, barateando de forma direta as tarifas e produtos cobrados de você na conta de fim de mês.`,
+    `Numa linguagem clara e simples, o que as novas diretrizes estão buscando é integrar plataformas tecnológicas que antes operavam isoladas no setor de ${category}. É como se todos os bancos e cartórios decidissem conversar na mesma língua digital, poupando ao cidadão comum o trabalho exaustivo de apresentar dezenas de papeis físicos repetidos para conseguir uma simples liberação.`
+  ];
+
+  const historicalContexts = [
+    `Historicamente, o contexto brasileiro de modernização de ${category} sempre esbarrou em marcos legais fragmentados e na forte insegurança jurídica enfrentada por fundos de desenvolvimento externos. Desde o final da década de 1990, diversas tentativas de parcerias de infraestrutura nacional foram interrompidas por litígios societários insolúveis ou por alterações repentinas de diretrizes tributárias na administração direta do governo federal.`,
+    `No plano histórico de longo prazo, o segmento de ${category} acumulou décadas de obsolescência devido a uma mentalidade de investimentos puramente estatais de natureza centralizada no país. A incapacidade fiscal do Estado de acompanhar a rápida escalada tecnológica global no início do século XXI cavou um fosso regulatório profundo, deixando o parque fabril e operacional refém de altos custos de manutenção operacional.`,
+    `O resgate retrospectivo mostra que a regulação integrada em ${category} foi preterida em prol de soluções paliativas de abrangência meramente regional por mais de trinta anos. Sem uma coordenadoria técnica federal que unificasse os parâmetros industriais e ambientais, as concessionárias locais ergueram sistemas fechados de baixa interoperabilidade, encarecendo de forma crônica a prestação de serviços essenciais na ponta da cadeia produtiva.`
+  ];
+
+  const whatHappeneds = [
+    `A manifestação fática recente trazida à tona nos canais de comunicação com base no feed "${source}" detalha um realinhamento substancial de ativos entre concessionárias que planejam duplicar sua capacidade física instalada nos próximos dezoito meses. O centro dos acontecimentos reside na ratificação de termos de cooperação mútua para compartilhamento passivo de roteadores de alta performance e redes de transmissão integradas de alta capacidade.`,
+    `O fato concreto de maior impacto reside no anúncio oficial por órgãos ministeriais de um programa abrangente de desonerações tributárias focalizado em ${category}. Visando otimizar a infraestrutura urbana e industrial nacional, o pacote governamental viabilizará subsídios específicos para a modernização de sistemas computacionais de controle de tráfego de dados e controle ambiental descentralizado.`,
+    `Os desdobramentos operacionais urgentes compartilhados recentemente no fórum indicam um avanço firme na digitalização de validações técnicas sob coordenação de órgãos reguladores de ${category}. O plano executivo nacional elimina mais de quarenta processos puramente analógicos de concessão de alvarás de funcionamento industrial, reduzindo o tempo de implantação de novos canteiros comerciais.`
+  ];
+
+  const sectorContexts = [
+    `Ao analisar de forma detida o panorama macroeconômico atual da indústria de ${category}, percebe-se uma pressão intensa no cumprimento de compromissos sustentáveis associados a padrões internacionais de descarbonização (ESG). Esse direcionamento exige a substituição urgente de fornecedores de componentes poluentes por produtores neutros de cadeias de valor limpas, uma barreira técnica para marcas corporativas desprovidas de capital de fomento de longo prazo.`,
+    `O ecossistema contemporâneo corporativo de ${category} enfrenta um cenário de escassez inflacionária de matérias-primas semicondutoras de alta densidade no mercado ocidental. Com as novas diretrizes alfandegárias de fricção tarifária geopolítica entre as superpotências comerciais, as grandes empresas brasileiras têm redirecionado seus orçamentos para fornecedores locais, impulsionando startups nacionais especializadas na engenharia reversa de componentes industriais de ponta.`,
+    `As discussões burocráticas em Brasília agora convergem para a ratificação de um marco operacional unificado de segurança de dados em ${category}. A padronização de protocolos de conformidade digital com as melhores práticas recomendadas pela OCDE é vista como pré-requisito indispensável para que o país receba novos fluxos de capital de risco internacional e acelere a sua modernização estrutural.`
+  ];
+
+  const businessImpacts = [
+    `No que tange às empresas estabelecidas de micro, pequeno e grande porte do setor de ${category}, o redesenho regulatório implica na necessidade premente de reinvestimento e treinamento de equipes comerciais para lidar com ferramentas digitais inteligentes em nuvem. As marcas que adiarem a sua respectiva transição operacional tendem a sofrer perda dolorosa de fatia de mercado de forma rápida frente a competidores ágeis e desonerados fiscalmente.`,
+    `As repercussões de governança operacional forçarão companhias de ${category} a remodelar seus balanços de custos logísticos para o biênio vindouro. Aquelas que já operam com margens estreitas de rentabilidade líquida passarão por processos imprevistos de reorganização e consolidação societária, culminando em fusões defensivas de sobrevivência mercadológica.`,
+    `Sob o aspecto puramente operacional empresarial, o fim de barreiras de interoperabilidade em ${category} equalizará as condições de competição entre marcas menores e conglomerados tradicionais de grande orçamento. A desburocratização permite que tecnologias disruptivas de novas startups entrem de forma célere na disputa comercial pelos canais oficiais de distribuição nacional.`
+  ];
+
+  const econImpacts = [
+    `Do ponto de vista puramente econômico sistêmico, o fluxo extraordinário de investimentos projeta injetar dezenas de bilhões de reais na cadeia produtiva industrial brasileira até o encerramento do próximo ciclo fiscal plurianual. A coordenação unificada de ativos otimiza o ciclo de rotação do capital gerador de riquezas e eleva de modo consistente as expectativas de arrecadação de impostos verdes por parte do tesouro público federal, aliviando o déficit público de longo prazo.`,
+    `A amortização projetada dos custos estruturais do mercado de ${category} tem o poder de desencadear um efeito multiplicador robusto sobre indicadores macroeconômicos como a taxa de emprego e a produtividade da indústria manufatureira. A atração de capital produtivo de investidores externos diminui a dependência de créditos governamentais, estruturando um ecossistema econômico maduro e autônomo.`,
+    `As finanças públicas e privadas colherão os frutos de custos logísticos otimizados no longo prazo no Brasil. A desoneração e padronização reduzem sensivelmente o 'Custo-Brasil' do setor de ${category}, permitindo que o superávit comercial do país permaneça em alta constante e estimule a valorização da moeda doméstica frente a moedas fortes internacionais.`
+  ];
+
+  const citizenImpacts = [
+    `Para o cidadão comum, morador das grandes metrópoles ou do interior produtivo do país, os reflexos palpáveis virão na forma de uma oferta imensamente mais estável de serviços especializados com tarifas reduzidas. Outro fator de altíssima relevância reside na geração de milhares de novos empregos técnicos locais na montagem de canteiros operacionais, dinamizando o comércio varejista regional de alimentos e insumos de construção civil.`,
+    `A rotina diária real do cidadão brasileiro será beneficiada de modo direto no seu orçamento doméstico com a redução de tarifas geradas pela eficiência operacional de ${category}. Adicionalmente, as obrigações ambientais assinadas de reflorestamento e proteção climática garantirão uma qualidade de vida comunitária significativamente melhor, diminuindo os índices de estresse sanitário em zonas suburbanas periféricas.`,
+    `Os direitos do consumidor serão amplamente assegurados graças à implementação de mecanismos eficientes de acompanhamento em tempo real dos serviços públicos e privados em ${category}. O cidadão passa a ser um agente fiscalizador ativo do ecossistema, desfrutando de canais integrados de mediação célere desenvolvidos para evitar abusos e falhas de fornecimento.`
+  ];
+
+  const futureOutlooks = [
+    `Para a linha do horizonte dos próximos cinco a dez anos, os cenários traçados por painéis de prospectores apontam que a perenidade das regras de atração de capital consolidará o Brasil em um papel central de liderança logística e tecnológica no hemisfério sul para todo o setor de ${category}. Novas startups voltadas para soluções verdes ganharão escala internacional de mercado em ritmo acelerado.`,
+    `Análises prospectivas revelam que, se o ritmo das reformas de governança compartilhada se mantiver equilibrado, o setor de ${category} atingirá maturidade operacional plena até o encerramento de 2029. Caso surjam instabilidades jurídicas imprevistas nas cortes de supervisão administrativa, o mercado nacional correrá sério risco de estagnação prolongada e congelamento dos aportes privados já anunciados.`,
+    `A tendência de desenvolvimento sustentável em ${category} indica que a digitalização e a eletrificação operacional da frota industrial e de logística serão as grandes alavancas de rentabilidade nos anos vindouros. Empresas que dominarem a análise preditiva computacional e a gestão neutra de resíduos comandarão a preferência dos novos investidores da matriz econômica verde.`
+  ];
+
+  const conclusions = [
+    `Em suma, as transformações que moldam a dinâmica atual de ${category} constituem parte indispensável do quebra-cabeça de infraestrutura do país na década. Superar o legado de desconfiança e obsolescência exige persistência jurídica, clareza nas metas socioambientais e respeito incontestável à segurança dos contratos assinados para garantir que os benefícios de eficiência produtiva cheguem a toda a pirâmide social brasileira de modo equilibrado.`,
+    `Em conclusão final, o amadurecimento corporativo e regulatório construído ao redor das novas diretrizes de ${category} representa uma oportunidade fantástica e histórica do Brasil de erguer um modelo virtuoso de cooperação público-privada. A vigilância social dedicada para converter os ganhos logísticos em redução efetiva do custo de vida do cidadão ordinário é o dever fundamental que se apresenta para consolidar a justiça do mercado moderno.`,
+    `Podemos consolidar que as ações unificadas direcionadas a mitigar as perdas no ecossistema operacional de ${category} estabelecem um benchmark sofisticado e maduro de governança econômica de alto nível internacional. Cabe agora aos órgãos civis organizados fiscalizar de perto a destinação das frentes tributárias geradas de modo que o capital acumulado seja de fato revertido no fomento universitário de novos inovadores brasileiros.`
+  ];
+
+  const faqLists = [
+    [
+      { q: "Quais são as principais metas operacionais de eficiência estipuladas?", a: "O projeto determina redução de despesas duplicadas em até 35% e mitigação das perdas de processamento físico de forma imediata na distribuição." },
+      { q: "O consumidor final precisará atualizar aparelhos na sua residência?", a: "Não, todas as alterações planejadas são efetuadas no nível passivo de transmissões centrais, eliminando qualquer ônus de aquisição pessoal." },
+      { q: "Quais garantias regulatórias dão base ao andamento dessas reformas corporativas?", a: "O comitê gestor instituiu pareceres unificados irrevogáveis integrando as normas clássicas federais e estaduais sobre concessões sustentáveis." }
+    ],
+    [
+      { q: "De onde emergem os aportes financeiros para a execução do plano?", a: "Mais de 70% das frentes de captação foram estruturadas através de emissão preferencial de Green Bonds soberanos em bolsas de investimento internacionais." },
+      { q: "Como as cooperativas locais participarão das novas concessões públicas?", a: "Está prevista a reserva exclusiva de cotas comerciais na ordem de 15% nos editais municipais de distribuição para fomento de pequenos negócios." },
+      { q: "As novas proteções ambientais exigirão maior contrapartida comercial?", a: "Pelo contrário. Práticas como reciclagem de polímeros e neutralização de carbono dão direito a créditos tributários diretos para as marcas parceiras." }
+    ],
+    [
+      { q: "Qual o cronograma esperado para a estabilização completa dos custos?", a: "Analistas independentes projetam que os primeiros efeitos práticos de barateamento sejam consolidados a partir do terceiro trimestre de 2026." },
+      { q: "Haverá canais exclusivos de transição digital para pequenos comerciantes?", a: "Sim, os ministérios articulados disponibilizarão uma plataforma online simplificada e sem custos tributários para cadastramento de patentes microcorporativas." },
+      { q: "Como o comitê gerencia as eventuais disputas por compartilhamento de malha?", a: "Foi criada uma câmara neutra de conciliação de truste, com decisões rápidas colegiadas baseadas nas diretrizes de governança da ANATEL e CADE." }
+    ]
+  ];
+
+  const seed = (cleanTitle.length + category.length) % 3;
+  const seed1 = (cleanTitle.length * 7) % 3;
+  const seed2 = (category.length * 11) % 3;
+  const seed3 = (cleanTitle.length + 5) % 3;
+  const seed4 = (category.length + 8) % 3;
+
+  const titlePrefixes = [
+    `Liderança e Visão: Como "${cleanTitle}" redefine os rumos em `,
+    `Pragmatismo Econômico: Os novos pilares estruturados de "${cleanTitle}" no setor de `,
+    `Fronteira Operacional: O papel de vanguarda de "${cleanTitle}" em `
+  ];
+
+  const generatedTitle = `${titlePrefixes[seed]}${category}`;
+  const generatedSubtitle = `Aprofundamento sobre o impacto estratégico de ${cleanTitle} sob a ótica de ${chosenAngle.toLowerCase()}.`;
+
+  const selectedIntro = intros[seed];
+  const selectedExplanation = simplifiedExplanations[seed1];
+  const selectedContext = historicalContexts[seed2];
+  const selectedEvent = whatHappeneds[seed3];
+  const selectedSector = sectorContexts[seed4];
+  const selectedBusiness = businessImpacts[seed];
+  const selectedEcon = econImpacts[seed1];
+  const selectedCitizen = citizenImpacts[seed2];
+  const selectedFuture = futureOutlooks[seed3];
+  const selectedConclusion = conclusions[seed4];
+  const selectedFaq = faqLists[seed];
+
+  const statsPool: Record<string, string[]> = {
+    "Economia": [
+      "Incremento Direto no PIB: O reaquecimento das atividades logísticas e fiscais deve impulsionar o PIB real em 2,4% adicionais.",
+      "Atração de Capital Estrangeiro: Anunciada a carteira de subscrição primária de investimentos privados somando R$ 18,3 bilhões.",
+      "Redução de Tarifas: Prospecção técnica detalhada calcula recuo médio de 12,8% nos custos gerais de taxas administrativas públicas.",
+      "Geração Líquida de Receitas Verdes: Arrecadação via outorgas de conservação projeta superávit fiscal primário de R$ 3,1 bilhões."
+    ],
+    "Tecnologia": [
+      "Eficiência de Redes de Transmissão: Incremento verificado na vazão física de tráfego de servidores operando 42% mais rápido.",
+      "Consumo Energético de Data Centers: Redução de 29% no gasto elétrico fabril bruto pós-implantação de algoritmos preditivos de resfriamento.",
+      "Investimento em Inovação Local: Destinação orçamentária robusta na ordem de R$ 9,5 bilhões direcionada à formação acadêmica verde.",
+      "Patentes Tecnológicas Registradas: Previsão de homologação de 450 novas patentes simplificadas de interoperabilidade de dados."
+    ],
+    "Política": [
+      "Agilidade Coletiva de Homologações: Tempo médio para emissão de licenças técnicas junto a órgãos ambientais reduziu em 55%.",
+      "Consenso de Projetos Legislativos: Aprovação unânime de 8 comissões setoriais antes do encaminhamento à sanção presidencial definitiva.",
+      "Parcerias Unificadas Firmadas: Formalização de 32 consórcios municipais compartilhando serviços fiscais de trânsito comercial.",
+      "Transparência Administrativa Verificada: Elevação de 94% no indicador unificado de medições de metas públicas por auditorias civis."
+    ],
+    "Geopolítica": [
+      "Subscrições de Green Bonds Estrangeiros: Adesão maciça de 14 carteiras institucionais europeias na aquisição de debêntures brasileiras.",
+      "Margem Competitiva no Cone Sul: Brasil consolida 68% de preferência na alocação de infraestrutura logística de dutos de comércio.",
+      "Mitigação Climática Bilateral: Acordo internacional prevê o plantio de 25 milhões de mudas nativas para neutralizar as exportações.",
+      "Intercâmbio de Engenharia Reversa: Cooperação técnica firmada compartilhando 12 diretrizes inovadoras de fabricação primária."
+    ]
+  };
+
+  const selectedStats = statsPool[category] || statsPool["Economia"];
+
+  const buildStatsBlock = selectedStats.map(stat => {
+    const [titlePart, descPart] = stat.split(": ");
+    return `- **${titlePart}**: ${descPart}`;
+  }).join("\n");
+
+  const builtFaqBlock = selectedFaq.map(qna => {
+    return `**${qna.q}**\n${qna.a}`;
+  }).join("\n\n");
+
+  const finalContent = `### 1. Introdução
+${selectedIntro}
+
+**Explicação Simplificada**:
+${selectedExplanation}
+
+**Contexto Histórico**:
+${selectedContext}
+
+### 2. O que aconteceu
+${selectedEvent}
+
+### 3. Contexto do setor
+${selectedSector}
+
+### 4. Impactos para empresas e consumidores
+${selectedBusiness}
+
+**Impacto Econômico**:
+${selectedEcon}
+
+**Impacto para o Cidadão**:
+${selectedCitizen}
+
+### 5. Dados e números relevantes
+Para solidificar estatisticamente a reestruturação operada sob as lentes de ${category.toLowerCase()}, organizamos os indicadores consolidados fundamentados:
+
+${buildStatsBlock}
+
+### 6. Cenários futuros
+${selectedFuture}
+
+### 7. Conclusão
+${selectedConclusion}
+
+### 8. FAQ automático
+Nesta seção, sanamos de modo assertivo e dinâmico as dúvidas cruciais sobre as consequências práticas deste acontecimento setorial:
+
+${builtFaqBlock}`;
+
+  const imageKeywordsMap: Record<string, string[]> = {
+    "fotografia corporativa": ["office", "corporate", "team", "business meeting", "professional", "suits"],
+    "pessoas": ["community", "people", "diverse", "happy customers", "working group", "interaction"],
+    "indústrias": ["factory", "industrial", "automotive manufacturing", "machinery", "assembly line", "industry"],
+    "agronegócio": ["agribusiness", "farming", "crop", "tractor", "modern agriculture", "harvest", "soyfield"],
+    "tecnologia": ["technology", "ai server", "smart coding", "modern microchip", "data center tech", "digital interface"],
+    "comércio": ["commerce", "store", "commerce interaction", "supermarket grocery", "retail street shop", "retail"],
+    "logística": ["logistics", "shipping", "container port", "cargo truck highway", "freight depot", "distribution center"],
+    "energia": ["energy", "solar panels", "wind turbines", "hydroelectric turbine", "power grid power station", "clean energy"],
+    "infraestrutura": ["infrastructure", "modern bridge", "road construction", "highway underpass", "skyscraper steel frame"]
+  };
+
+  const imageQueriesMap: Record<string, string> = {
+    "fotografia corporativa": "A professional horizontal photo showing a corporate board meeting, modern office space with natural lighting, soft background depth focus.",
+    "pessoas": "A professional wide-angle photo showing a group of diverse real-world people interacting happily and naturally, journalistic style, daylight.",
+    "indústrias": "A realistic horizontal wide-angle photo representing the inside of a clean, highly automated modern production factory, machinery and high tech assembly.",
+    "agronegócio": "A professional wide-angle photo of a modern tractor harvesting in a vast healthy green field, bright clear blue sky, agribusiness style.",
+    "tecnologia": "A detailed high dynamic range horizontal photo of an ambient-lit server room data center, servers glowing with blue and green LEDs, high tech technology focus.",
+    "comércio": "A realistic horizontal photo showing modern retail store shelves, commerce and retail interaction, professional market style photography.",
+    "logística": "A professional horizontal photo of a container shipping port with massive cranes and a cargo ship, or a logistics distribution warehouse, high detail.",
+    "energia": "A realistic horizontal photo representing clean energy with modern solar panels or sleek wind turbines rotating during a beautiful glowing sunset.",
+    "infraestrutura": "A professional horizontal journalistic photo of a landmark modern bridge or majestic highway construction, highway logistics and civil engineering."
+  };
+
+  const selectedKeywords = imageKeywordsMap[chosenTheme] || ["business"];
+  const selectedImageQuery = imageQueriesMap[chosenTheme] || "A professional horizontal photo representing business.";
+
+  const tags = [category, "Exclusivo", "Análise", chosenTheme.replace(/\b\w/g, c => c.toUpperCase())];
+
+  return {
+    title: generatedTitle,
+    subtitle: generatedSubtitle,
+    content: finalContent,
+    seoTitle: `${generatedTitle.slice(0, 50)} | Store Center`,
+    seoDescription: `${generatedSubtitle.slice(0, 140)}...`,
+    tags: tags,
+    category: category,
+    keyword: `${category} ${chosenTheme}`,
+    imagePrompt: selectedImageQuery,
+    isAiGenerated: true,
+    hasKey: false,
+    visualTheme: chosenTheme,
+    editorialAngle: chosenAngle
+  };
+}
+
+function buildNewsGenerationPrompt(
+  selectedCategory: string,
+  source: string,
+  title: string,
+  description: string,
+  chosenTheme: string,
+  editorialAngle: string
+): string {
+  return `Você é um Jornalista Sênior da Store Center News, renomado pelo estilo jornalístico reflexivo, aprofundado, dinâmico e livre de clichês (zero jargões genéricos de IA, evite frases solenes vazias ou introduções repetitivas).
+
+Gere uma nova e exclusiva notícia jornalística em português baseada na categoria "${selectedCategory}". Ela deve ser inspirada nas seguintes informações originais:
+- Título Original: "${title}"
+- Resumo Original: "${description || "N/A"}"
+- Feed de Origem: "${source}"
+
+Siga estas diretrizes exclusivas de redação para garantir unicidade absoluta e conformidade profissional:
+
+ÂNGULO EDITORIAL EXCLUSIVO DESTA MATÉRIA:
+Trabalhe a cobertura focando prioritariamente sob o ângulo: **${editorialAngle}**. Todo o desenvolvimento analítico das seções deve ser tecido ao redor dessa perspectiva editorial para conferir personalidade única e profundidade histórica.
+
+ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
+1. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
+2. O corpo do texto (retornado na propriedade "content") DEVE conter no MÍNIMO 850 palavras no total para garantir profundidade máxima e espaço analítico detalhado (nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
+3. EVITE REPETIÇÃO DE ESTRUTURAS OU FRASES BOILERPLATE. Não use introduções enfadonhas tradicionais ("No cenário de...", "Esta análise visa...", "Abordaremos a seguir..."). Cada parágrafo deve começar com uma estrutura ativa diferente (ex: ganchos históricos, citações simuladas de especialistas ou dados recémcoletados).
+4. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
+
+Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
+
+### 1. Introdução
+- Faça uma abertura contextualizada e elegante do assunto, direcionada pelo ângulo editorial.
+- Adicione as seguintes subseções obrigatórias integradas na introdução:
+  * **Explicação Simplificada**: Uma explicação curta, ultra acessível e sem jargões complexos direcionada para que qualquer pessoa consiga entender o núcleo do assunto perfeitamente de forma simples.
+  * **Contexto Histórico**: Um resgate de como esse segmento, setor ou problema se desenvolveu historicamente no Brasil ou no mundo até chegar a este ponto crítico atual.
+
+### 2. O que aconteceu
+- Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor. Descreva o acontecimento principal e todos os desdobramentos de interesse público e corporativo.
+
+### 3. Contexto do setor
+- Explique o panorama atual da indústria ou segmento de mercado afetado, costurado com o foco em ${selectedCategory}. Quais discussões burocráticas, desafios corporativos, marcos regulatórios ou avanços operacionais envolvem esta área.
+
+### 4. Impactos para empresas e consumidores
+- Desenvolva profundamente as repercussões cotidianas e estratégias de curto e longo prazo.
+- Detalhe obrigatoriamente sob as seguintes perspectivas integradas sob os seguintes rótulos em negrito:
+  * **Impacto Econômico**: Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
+  * **Impacto para o Cidadão**: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
+
+### 5. Dados e números relevantes
+- Apresente de forma didática em formato de lista (bullet points) as estatísticas de mercado relevantes, dados oficiais de agências públicas, percentuais, estimativas ou projeções orçamentárias detalhadas sobre ${selectedCategory}.
+
+### 6. Cenários futuros
+- Projete previsões realistas, tendências consolidadas ou desdobramentos esperados a médio e longo prazo, sinalizando o que o setor e a sociedade devem ficar de olho nos próximos meses e anos.
+
+### 7. Conclusão
+- Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da transformação descrita sob a ótica jornalística setorial sofisticada.
+
+### 8. FAQ automático
+- Crie uma seção curta de perguntas frequentes e respostas automáticas (pelo menos 3 a 5 perguntas elaboradas em negrito e respondidas de forma assertiva e dinamicamente instrutiva, ideais para rich snippets de SEO).
+
+Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
+{
+  "title": "string",
+  "subtitle": "string",
+  "content": "string",
+  "seoTitle": "string",
+  "seoDescription": "string",
+  "tags": ["string"],
+  "category": "string",
+  "keyword": "string",
+  "imagePrompt": "string"
+}
+Não coloque nenhuma decoração de markdown no início ou fim, como "\`\`\`json". Retorne apenas o objeto JSON plano.`;
+}
+
+function buildMultiLinkNewsComparisonPrompt(
+  links: string[],
+  selectedCategory: string,
+  chosenTheme: string,
+  editorialAngle: string
+): string {
+  return `Você é um Jornalista Sênior da Store Center News, renomado pelo estilo jornalístico reflexivo, aprofundado, dinâmico e livre de clichês (zero jargões genéricos de IA, evite frases solenes vazias ou introduções repetitivas).
+
+Foram fornecidos os seguintes links de notícias para você ler e consolidar:
+${links.map((link, i) => `Link ${i + 1}: ${link}`).join("\n")}
+
+Siga estas diretrizes exclusivas de redação para garantir unicidade absoluta e conformidade profissional:
+
+ÂNGULO EDITORIAL EXCLUSIVO DESTA MATÉRIA:
+Trabalhe a consolidação comparativa focando prioritariamente sob o ângulo: **${editorialAngle}**. Todo o desenvolvimento analítico das seções deve ser tecido ao redor dessa perspectiva editorial para conferir personalidade única e profundidade histórica.
+
+ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
+1. Realize uma simulação realista de leitura dessas fontes.
+2. Identifique contradições ou divergências entre as fontes (ex: dados estatísticos diferentes, datas divergentes, nomes escritos de forma diferente). Se houver divergência, apresente um aviso detalhado no campo "conflicts". Se as fontes forem consistentes e concordantes, informe "Sem conflitos" no campo "conflicts".
+3. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
+4. O corpo do texto (retornado na propriedade "content") DEVE conter no MÍNIMO 850 palavras no total para garantir profundidade máxima e espaço analítico detalhado (nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
+5. EVITE REPETIÇÃO DE ESTRUTURAS OU FRASES BOILERPLATE. Não use introduções enfadonhas tradicionais ("No cenário de...", "Esta análise visa...", "Abordaremos a seguir..."). Cada parágrafo deve começar com uma estrutura ativa diferente (ex: ganchos históricos, citações simuladas de especialistas ou dados recém-coletados).
+6. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
+
+Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
+
+### 1. Introdução
+- Faça uma abertura contextualizada e elegante do assunto, direcionada pelo ângulo editorial e consolidando os links.
+- Adicione as seguintes subseções obrigatórias integradas na introdução:
+  * **Explicação Simplificada**: Uma explicação curta, ultra acessível e sem jargões complexos direcionada para que qualquer pessoa consiga entender o núcleo do assunto de modo claro.
+  * **Contexto Histórico**: Um resgate de como esse segmento, setor ou problema se desenvolveu historicamente no Brasil ou no mundo até chegar a este ponto crítico atual.
+
+### 2. O que aconteceu
+- Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor, cruzando as informações obtidas nos links e identificando os marcos operacionais anunciados.
+
+### 3. Contexto do setor
+- Explique o panorama atual da indústria ou segmento de mercado afetado, costurado com o foco em ${selectedCategory}. Quais discussões burocráticas, desafios corporativos, marcos regulatórios ou avanços operacionais envolvem esta área.
+
+### 4. Impactos para empresas e consumidores
+- Desenvolva profundamente as repercussões cotidianas e estratégicas de curto e longo prazo.
+- Detalhe obrigatoriamente sob as seguintes perspectivas integradas sob os seguintes rótulos em negrito:
+  * **Impacto Econômico**: Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
+  * **Impacto para o Cidadão**: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
+
+### 5. Dados e números relevantes
+- Apresente de forma didática em formato de lista (bullet points) as estatísticas de mercado relevantes, dados oficiais de agências públicas, percentuais, estimativas ou projeções orçamentárias detalhadas sobre ${selectedCategory}.
+
+### 6. Cenários futuros
+- Projete previsões realistas, tendências consolidadas ou desdobramentos esperados a médio e longo prazo, sinalizando o que o setor e a sociedade devem ficar de olho nos próximos meses e anos.
+
+### 7. Conclusão
+- Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da de forma jornalística setorial sofisticada.
+
+### 8. FAQ automático
+- Crie uma seção curta de perguntas frequentes e respostas automáticas (pelo menos 3 a 5 perguntas elaboradas em negrito e respondidas de forma assertiva e dinamicamente instrutiva, ideais para rich snippets de SEO).
+
+Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
+{
+  "title": "string",
+  "subtitle": "string",
+  "content": "string",
+  "seoTitle": "string",
+  "seoDescription": "string",
+  "tags": ["string"],
+  "category": "string",
+  "keyword": "string",
+  "conflicts": "string",
+  "imagePrompt": "string"
+}
+Não coloque nenhuma decoração de markdown no início ou fim, como "\`\`\`json". Retorne apenas o objeto JSON plano.`;
+}
+
 
 // Deterministic hash generator for files/URLs to verify integrity
 const getStringHash = (str: string): string => {
@@ -781,7 +1737,8 @@ async function getUniqueArticleImage(
   imagePromptText: string,
   category: string,
   title: string,
-  db: any
+  db: any,
+  chosenTheme?: string
 ): Promise<{
   url: string;
   provider: "Gemini" | "Unsplash" | "Pexels" | "Pixabay" | "Unsplash Fallback" | "Pexels Fallback" | "Pixabay Fallback" | "IA Dynamic Engine";
@@ -789,15 +1746,15 @@ async function getUniqueArticleImage(
   imageHash: string;
   antiRepetitionReport: string;
 }> {
-  const sixtyDaysAgo = new Date();
-  sixtyDaysAgo.setDate(sixtyDaysAgo.getDate() - 60);
+  const thirtyDaysAgo = new Date();
+  thirtyDaysAgo.setDate(thirtyDaysAgo.getDate() - 30);
 
-  // Retrieve matching posts from last 60 days
+  // Retrieve matching posts from last 30 days
   const recentPosts = (db.posts || []).filter(
-    (p: any) => p.date && new Date(p.date) >= sixtyDaysAgo
+    (p: any) => p.date && new Date(p.date) >= thirtyDaysAgo
   );
 
-  // Build sets of already used base URLs and hashes in the last 60 days
+  // Build sets of already used base URLs and hashes in the last 30 days
   const usedBaseUrls = new Set<string>();
   const usedHashes = new Set<string>();
 
@@ -812,7 +1769,7 @@ async function getUniqueArticleImage(
   const titleLower = title.toLowerCase();
   const searchPromptLower = imagePromptText.toLowerCase();
   const combinedText = title + " " + imagePromptText;
-  const detectedTheme = detectSubTheme(combinedText, category);
+  const detectedTheme = chosenTheme || detectSubTheme(combinedText, category);
 
   // Helper inside loop to run URL, file hash, and semantic visual similarity analysis
   const runAntiRepetitionCheck = (candUrl: string, candTheme: string): { val: boolean; report: string } => {
@@ -821,28 +1778,28 @@ async function getUniqueArticleImage(
 
     // 1. URL Check
     if (usedBaseUrls.has(candBase)) {
-      return { val: false, report: `Conflito de URL Base recentemente utilizada.` };
+      return { val: false, report: `Conflito de URL Base recentemente utilizada nos últimos 30 dias.` };
     }
 
     // 2. Hash Check
     if (usedHashes.has(candHash)) {
-      return { val: false, report: `Conflito de Assinatura Hash do arquivo.` };
+      return { val: false, report: `Conflito de Assinatura Hash do arquivo nos últimos 30 dias.` };
     }
 
     // 3. Visual Similarity Check (Semantic Match on thematic sub-category)
     const hasThematicCollision = recentPosts.some((p: any) => {
       if (!p.image) return false;
-      const recentTheme = detectSubTheme(p.title + " " + (p.imagePrompt || "") + " " + (p.category || ""), p.category);
+      const recentTheme = p.visualTheme || detectSubTheme(p.title + " " + (p.imagePrompt || "") + " " + (p.category || ""), p.category);
       return candTheme && recentTheme === candTheme;
     });
 
     if (hasThematicCollision) {
-      return { val: false, report: `Semelhança visual/temática detectada com post recente sobre '${candTheme}'.` };
+      return { val: false, report: `Semelhança visual/temática detectada com post recente sobre '${candTheme}' nos últimos 30 dias.` };
     }
 
     return { 
       val: true, 
-      report: `Aprovado: URL inédito. Hash único (${candHash}). Segmento visual '${candTheme}' livre nos últimos 60 dias.` 
+      report: `Aprovado: URL inédito. Hash único (${candHash}). Segmento visual '${candTheme}' livre nos últimos 30 dias.` 
     };
   };
 
@@ -1143,6 +2100,22 @@ async function cronRssAuto() {
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/(^-|-$)+/g, "");
 
+        const isPreviouslyDeleted = (db.deletedPostItems || []).some((del: any) => {
+          const delTitleLower = del.title?.trim().toLowerCase();
+          const delUrlLower = del.sourceUrl?.trim().toLowerCase();
+          const delSlug = del.slug;
+
+          return (
+            delTitleLower === titleLower ||
+            delUrlLower === urlLower ||
+            delSlug === generatedSlug
+          );
+        });
+
+        if (isPreviouslyDeleted) {
+          return false;
+        }
+
         const isDuplicate = (db.posts || []).some((p: any) => {
           const pTitleLower = p.title?.trim().toLowerCase();
           const pOrigTitleLower = p.rssOriginalTitle?.trim().toLowerCase();
@@ -1260,34 +2233,19 @@ async function cronRssAuto() {
     console.log(`[CRON] Importando vencedor: "${item.title}" em [${winner.category}] com ${winner.compositeScore} pontos.`);
 
     let rewritten: any = null;
+    const chosenTheme = selectLeastUsedVisualTheme(db);
+    const editorialAngle = EDITORIAL_ANGLES[(db.posts || []).length % EDITORIAL_ANGLES.length];
+
     if (ai) {
       try {
-        const prompt = `Você é um Jornalista Sênior e mestre em SEO da Store Center News.
-Reescreva e amplie a seguinte notícia vinda de um feed RSS oficial de categoria "${winner.category}".
-Título Original: "${item.title}"
-Descrição/Resumo Original: "${item.description || "N/A"}"
-
-Regras importantes de redação e SEO:
-1. NÃO COPIE o texto original. Escreva uma matéria exclusiva, fluida, séria e profissional em português com suas próprias palavras (mínimo de 200 palavras).
-2. Forneça um título atraente com técnicas de SEO de alta performance.
-3. Forneça um subtítulo descritivo interessante.
-4. Divida o corpo do texto em pelo menos 2 a 3 parágrafos explicativos ricos em conteúdo e claros.
-5. Defina título SEO, descrição SEO amigável para buscadores de até 150 caracteres, tags, e uma palavra-chave principal.
-6. Crie um prompt detalhado em inglês para sugerir imagem destacada jornalística (em formato horizontal, realista, profissional de fotografia e sem nenhum texto ou marca d'água).
-
-Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
-{
-  "title": "string",
-  "subtitle": "string",
-  "content": "string",
-  "seoTitle": "string",
-  "seoDescription": "string",
-  "tags": ["string"],
-  "category": "string",
-  "keyword": "string",
-  "imagePrompt": "string"
-}
-Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retorne apenas o objeto JSON plano.`;
+        const prompt = buildNewsGenerationPrompt(
+          winner.category,
+          feed.name,
+          item.title,
+          item.description || "Tendência e inovação estratégica no mercado corporativo.",
+          chosenTheme,
+          editorialAngle
+        );
 
         const response = await ai.models.generateContent({
           model: "gemini-3.5-flash",
@@ -1299,12 +2257,18 @@ Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retor
 
         const text = response.text || "{}";
         rewritten = JSON.parse(text.trim());
+        rewritten.visualTheme = chosenTheme;
+        rewritten.editorialAngle = editorialAngle;
       } catch (aiErr) {
         console.error("[CRON] Gemini API falhou, usando fallback procedural:", aiErr);
         rewritten = fallbackRewrite(item, feed);
+        rewritten.visualTheme = chosenTheme;
+        rewritten.editorialAngle = editorialAngle;
       }
     } else {
       rewritten = fallbackRewrite(item, feed);
+      rewritten.visualTheme = chosenTheme;
+      rewritten.editorialAngle = editorialAngle;
     }
 
     const sanitizedTitle = cleanText(rewritten.title || item.title);
@@ -1319,13 +2283,16 @@ Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retor
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
 
-    // Fetch high fidelity images
+    // Fetch high fidelity images (passing our selected non-repeating theme)
     const imageRes = await getUniqueArticleImage(
       rewritten.imagePrompt || "",
       winner.category,
       sanitizedTitle,
-      db
+      db,
+      chosenTheme
     );
+
+    const scraperCategory = autoCategorizeNews(sanitizedTitle, rewritten.content || sanitizedSubtitle || '', winner.category);
 
     const newPost = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),
@@ -1335,9 +2302,9 @@ Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retor
       subtitle: sanitizedSubtitle,
       slug: finalSlug,
       content: rewritten.content || `Análise estendida sobre ${sanitizedTitle}.`,
-      category: winner.category,
+      category: scraperCategory,
       author: "Redação Store Center",
-      tags: rewritten.tags || [winner.category],
+      tags: rewritten.tags || [scraperCategory],
       status: "published",
       image: imageRes.url,
       seoTitle: sanitizedSeoTitle,
@@ -1346,7 +2313,9 @@ Não insira decorações de markdown como "\`\`\`json" ou texto adicional. Retor
       imagePrompt: rewritten.imagePrompt || "",
       sourceUrl: item.link,
       rssOriginalTitle: item.title,
-      isAiGenerated: true
+      isAiGenerated: true,
+      visualTheme: chosenTheme,
+      editorialAngle: editorialAngle
     };
 
     db.posts.unshift(newPost);
@@ -1405,21 +2374,15 @@ function cleanCdataAndHtml(str: string): string {
 
 function fallbackRewrite(item: any, feed: any) {
   const cleanTitle = cleanText(item.title);
-  const description = item.description || "Tendência do mercado corporativo no Brasil";
-  const tags = [feed.category, "RSS Auto", "Destaque", "Nacional"];
-
-  const content = `Esta nova matéria foi gerada e processada automaticamente através de algoritmos de reescrita jornalística, baseada no feed RSS "${feed.name}" para a cobertura estruturada de ${feed.category}.\n\nAnálises setoriais recentes frentes a "${cleanTitle}" mostram impactos importantes tanto nos fluxos comerciais quanto no fomento tecnológico nacional de curto prazo.\n\nRepresentantes setoriais apontaram que a modernização contínua das regulações locais facilita a captação de investimento corporativo estrangeiro, o que tende a desatar nós logísticos históricos do país. Recomenda-se o acompanhamento dessas diretrizes regulatórias e fiscais adicionais para otimizar os planos de negócios corporativos neste trimestre no Brasil.`;
-
+  const db = readDatabase();
+  const proceduralPost = generateProceduralPost(
+    cleanTitle,
+    feed.category,
+    feed.name,
+    db
+  );
   return {
-    title: cleanTitle,
-    subtitle: `${description.slice(0, 160)}${description.length > 160 ? "..." : ""}`,
-    content: content,
-    seoTitle: `${cleanTitle.slice(0, 50)} | Store Center`,
-    seoDescription: `Análise factual e insights cruciais do portal Store Center sobre ${cleanTitle}.`,
-    tags: tags,
-    category: feed.category,
-    keyword: `${feed.category} Brasil`,
-    imagePrompt: `Clean elegant office space, tablet displaying analytics, soft commercial depth focus photography.`,
+    ...proceduralPost,
     isAiGenerated: true,
     hasKey: false
   };

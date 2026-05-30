@@ -2,7 +2,7 @@
   "posts": [
     {
       "id": "1780063158393",
-      "views": 0,
+      "views": 2,
       "date": "2026-05-29T13:58:49.310Z",
       "title": "Banco Central aperta o cerco e impõe novas regras para uso do FGC por instituições financeiras",
       "subtitle": "Normas visam impedir que bancos utilizem a garantia do Fundo Garantidor de Créditos como chamariz para captações de alto risco",
@@ -935,7 +935,7 @@
         "LGPD",
         "Regulação"
       ],
-      "author": "Mariana Souza",
+      "author": "Redação Store Center",
       "date": "2026-05-26T14:30:00.000Z",
       "status": "published",
       "image": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=800&q=80",
@@ -958,7 +958,7 @@
         "Energias Renováveis",
         "Nordeste"
       ],
-      "author": "Renato Alencar",
+      "author": "Redação Store Center",
       "date": "2026-05-25T08:15:00.000Z",
       "status": "published",
       "image": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&q=80",
@@ -981,14 +981,14 @@
         "Bioeconomia",
         "Sustentabilidade"
       ],
-      "author": "Mariana Souza",
+      "author": "Redação Store Center",
       "date": "2026-05-24T11:20:00.000Z",
       "status": "published",
       "image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80",
       "seoTitle": "BioTechCaffé capta US$ 45 milhões na série B | Negócios",
       "seoDescription": "A startup brasileira que transforma borra de café em bioplástico biodegradável capta rodada milionária com fundos globais. Leia mais.",
       "keyword": "BioTechCaffé startup",
-      "views": 156,
+      "views": 164,
       "imagePrompt": "A sleek modern biochemical laboratory setting with coffee beans and green plants around high tech glass apparatus, high dynamic range, beautiful interior lighting."
     }
   ],

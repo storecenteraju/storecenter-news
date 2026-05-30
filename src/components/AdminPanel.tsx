@@ -3,9 +3,9 @@ import {
   Newspaper, ShieldCheck, Key, Plus, Edit2, Trash2, Calendar, 
   Radio, Cpu, Settings, Code, FileText, CheckCircle2, RefreshCw, 
   AlertTriangle, Eye, ArrowRight, Loader2, Link2, Download, Save, PlusCircle, Server,
-  BarChart3, TrendingUp, Users, Award, Activity, Info, ChevronDown, ChevronRight
+  BarChart3, TrendingUp, Users, Award, Activity, Info, ChevronDown, ChevronRight, FlaskConical
 } from 'lucide-react';
-import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType } from '../types';
+import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, isPostUrgente, normalizePost } from '../types';
 import PhpExporter from './PhpExporter';
 
 interface AdminPanelProps {
@@ -31,7 +31,10 @@ export default function AdminPanel({
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // Active Admin Tab
-  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel' | 'logs' | 'analytics'>('posts');
+  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel' | 'logs' | 'analytics' | 'diagnostic'>('posts');
+  const [diagSearch, setDiagSearch] = useState('');
+  const [isNormalizing, setIsNormalizing] = useState(false);
+  const [diagFilter, setDiagFilter] = useState<'all' | 'visible' | 'invisible' | 'test'>('all');
   const [automationLogs, setAutomationLogs] = useState<any[]>([]);
   const [logsLoading, setLogsLoading] = useState(false);
   const [expandedLogId, setExpandedLogId] = useState<string | null>(null);
@@ -80,6 +83,8 @@ export default function AdminPanel({
   const [postTags, setPostTags] = useState('');
   const [postStatus, setPostStatus] = useState<'published' | 'draft' | 'scheduled'>('published');
   const [postPublishAt, setPostPublishAt] = useState('');
+  const [postIsTestPost, setPostIsTestPost] = useState(false);
+  const [postIsUrgente, setPostIsUrgente] = useState(false);
   
   // SEO variables
   const [postSeoTitle, setPostSeoTitle] = useState('');
@@ -175,6 +180,42 @@ export default function AdminPanel({
     }
   };
 
+  const handleToggleTestPost = async (id: string, currentVal?: boolean) => {
+    try {
+      const response = await fetch(`/api/posts/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ isTestPost: !currentVal })
+      });
+      if (response.ok) {
+        onRefreshData();
+      } else {
+        alert("Erro ao alterar status de teste.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Erro ao conectar ao servidor.");
+    }
+  };
+
+  const handleToggleUrgente = async (id: string, currentVal?: boolean) => {
+    try {
+      const response = await fetch(`/api/posts/${id}`, {
+        method: 'PUT',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ isUrgente: !currentVal })
+      });
+      if (response.ok) {
+        onRefreshData();
+      } else {
+        alert("Erro ao alterar status de urgente.");
+      }
+    } catch (err) {
+      console.error(err);
+      alert("Erro ao conectar ao servidor.");
+    }
+  };
+
   // Pre-load form for editing an article
   const startEditPost = (post: Post) => {
     setEditingPostId(post.id);
@@ -187,6 +228,8 @@ export default function AdminPanel({
     setPostTags(post.tags.join(', '));
     setPostStatus(post.status);
     setPostPublishAt(post.publishAt || '');
+    setPostIsTestPost(post.isTestPost || false);
+    setPostIsUrgente(post.isUrgente || false);
     setPostSeoTitle(post.seoTitle || '');
     setPostSeoDesc(post.seoDescription || '');
     setPostKeyword(post.keyword || '');
@@ -208,6 +251,8 @@ export default function AdminPanel({
     setPostTags('');
     setPostStatus('published');
     setPostPublishAt('');
+    setPostIsTestPost(false);
+    setPostIsUrgente(false);
     setPostSeoTitle('');
     setPostSeoDesc('');
     setPostKeyword('');
@@ -233,6 +278,8 @@ export default function AdminPanel({
       tags: postTags.split(',').map(t => t.trim()).filter(Boolean),
       status: postStatus,
       publishAt: postStatus === 'scheduled' ? postPublishAt : undefined,
+      isTestPost: postIsTestPost,
+      isUrgente: postIsUrgente,
       seoTitle: postSeoTitle || postTitle.slice(0, 55),
       seoDescription: postSeoDesc || postSubtitle.slice(0, 145),
       keyword: postKeyword,
@@ -474,10 +521,11 @@ export default function AdminPanel({
     }
   };
 
-  // Calculate sum counts for KPI
-  const viewCount = posts.reduce((acc, curr) => acc + (curr.views || 0), 0);
-  const scheduledCount = posts.filter(p => p.status === 'scheduled').length;
-  const draftCount = posts.filter(p => p.status === 'draft').length;
+  // Calculate sum counts for KPI (ignoring test posts)
+  const nonTestPostsSummary = posts.filter(p => !p.isTestPost);
+  const viewCount = nonTestPostsSummary.reduce((acc, curr) => acc + (curr.views || 0), 0);
+  const scheduledCount = nonTestPostsSummary.filter(p => p.status === 'scheduled').length;
+  const draftCount = nonTestPostsSummary.filter(p => p.status === 'draft').length;
 
   // Render Login Screen if not authenticated
   if (!isAuthenticated) {
@@ -659,6 +707,12 @@ export default function AdminPanel({
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'analytics' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
           <div className="flex items-center gap-1.5 bg-purple-900/10 text-purple-800 rounded px-2.5 py-1 font-extrabold"><BarChart3 className="w-4 h-4 text-purple-700" /> 9. Analytics 📊</div>
+        </button>
+        <button 
+          onClick={() => setActiveTab('diagnostic')}
+          className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'diagnostic' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
+        >
+          <div className="flex items-center gap-1.5 bg-red-900/10 text-red-800 rounded px-2.5 py-1 font-extrabold"><Activity className="w-4 h-4 text-red-700 hover:scale-110 transition-transform" /> 10. Diagnóstico 🔍</div>
         </button>
       </div>
 
@@ -860,6 +914,38 @@ export default function AdminPanel({
                     />
                   </div>
                 )}
+
+                <div className="border-t border-slate-250 mt-3 pt-3 space-y-3">
+                  <label className="flex items-start gap-2 font-bold text-slate-700 text-[10px] uppercase tracking-wide cursor-pointer select-none">
+                    <input 
+                      type="checkbox" 
+                      checked={postIsTestPost}
+                      onChange={e => setPostIsTestPost(e.target.checked)}
+                      className="w-4 h-4 rounded border-slate-300 text-amber-600 focus:ring-amber-500 cursor-pointer mt-0.5"
+                    />
+                    <div>
+                      <span>⚠️ Marcar como Matéria de Teste</span>
+                      <p className="text-[9px] text-slate-400 font-semibold normal-case mt-0.5 leading-normal">
+                        Matérias de teste não aparecem em nenhuma página pública e são ignoradas nos relatórios gráficos.
+                      </p>
+                    </div>
+                  </label>
+
+                  <label className="flex items-start gap-2 font-bold text-slate-700 text-[10px] uppercase tracking-wide cursor-pointer select-none border-t border-slate-100 pt-3">
+                    <input 
+                      type="checkbox" 
+                      checked={postIsUrgente}
+                      onChange={e => setPostIsUrgente(e.target.checked)}
+                      className="w-4 h-4 rounded border-slate-300 text-red-600 focus:ring-red-500 cursor-pointer mt-0.5"
+                    />
+                    <div>
+                      <span>🚨 Marcar como Matéria URGENTE</span>
+                      <p className="text-[9px] text-slate-400 font-semibold normal-case mt-0.5 leading-normal">
+                        Exibe o selo vermelho piscante de "Urgente" na matéria (notícias quentes das últimas horas).
+                      </p>
+                    </div>
+                  </label>
+                </div>
               </div>
 
               <div className="flex gap-2">
@@ -903,10 +989,22 @@ export default function AdminPanel({
                   </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-100 font-medium">
-                  {posts.map(p => (
+                    {posts.map(p => (
                     <tr key={p.id} className="hover:bg-slate-50 transition-colors">
                       <td className="p-3 max-w-sm">
-                        <span className="font-bold text-slate-900 line-clamp-1">{p.title}</span>
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          {p.isTestPost && (
+                            <span className="bg-amber-100 border border-amber-200 text-amber-800 text-[8.5px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded flex items-center gap-0.5 select-none animate-pulse">
+                              <FlaskConical className="w-2.5 h-2.5" /> TESTE
+                            </span>
+                          )}
+                          {isPostUrgente(p) && (
+                            <span className="bg-red-100 border border-red-200 text-red-800 text-[8.5px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded flex items-center gap-0.5 select-none animate-pulse">
+                              🚨 URGENTE
+                            </span>
+                          )}
+                          <span className="font-bold text-slate-900 line-clamp-1">{p.title}</span>
+                        </div>
                         <span className="text-[10px] text-slate-400 block mt-0.5">Por {p.author} &bull; {formatDate(p.date)}</span>
                       </td>
                       <td className="p-3">
@@ -921,7 +1019,7 @@ export default function AdminPanel({
                       </td>
                       <td className="p-3 font-mono text-slate-500 font-semibold">{p.views || 0}</td>
                       <td className="p-3 text-right">
-                        <div className="flex items-center justify-end gap-1.5">
+                        <div className="flex items-center justify-end gap-1.5 flex-wrap">
                           {p.status === 'draft' && (
                             <button
                               onClick={async () => {
@@ -947,19 +1045,45 @@ export default function AdminPanel({
                               <CheckCircle2 className="w-3.5 h-3.5" /> Publicar
                             </button>
                           )}
+                          
+                          <button 
+                            onClick={() => handleToggleTestPost(p.id, p.isTestPost)}
+                            title={p.isTestPost ? "Remover de teste" : "Marcar como teste"}
+                            className={`px-2 py-1.5 rounded transition-all text-[10px] font-extrabold uppercase tracking-wider flex items-center gap-1 select-none cursor-pointer border ${
+                              p.isTestPost 
+                                ? 'bg-amber-100 border-amber-300 text-amber-800 hover:bg-amber-200' 
+                                : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+                            }`}
+                          >
+                            <FlaskConical className="w-3.5 h-3.5 text-amber-600" /> {p.isTestPost ? 'Marcar Real' : 'Marcar Teste'}
+                          </button>
+
+                          <button 
+                            onClick={() => handleToggleUrgente(p.id, p.isUrgente)}
+                            title={p.isUrgente ? "Remover urgente" : "Marcar como urgente"}
+                            className={`px-2 py-1.5 rounded transition-all text-[10px] font-extrabold uppercase tracking-wider flex items-center gap-1 select-none cursor-pointer border ${
+                              p.isUrgente 
+                                ? 'bg-red-100 border-red-300 text-red-800 hover:bg-red-200' 
+                                : 'bg-slate-50 border-slate-200 text-slate-600 hover:bg-slate-100'
+                            }`}
+                          >
+                            <span className="text-red-650">🚨</span> {p.isUrgente ? 'Normalizar' : 'Tornar Urgente'}
+                          </button>
+
                           <button 
                             onClick={() => startEditPost(p)}
                             title="Editar"
                             className="bg-slate-100 hover:bg-slate-200 text-slate-700 p-2 rounded transition-colors cursor-pointer"
                           >
-                            <Edit2 class="w-3.5 h-3.5" />
+                            <Edit2 className="w-3.5 h-3.5" />
                           </button>
+                          
                           <button 
                             onClick={() => handleDeletePost(p.id)}
-                            title="Excluir"
-                            className="bg-red-50 hover:bg-red-100 text-red-600 p-2 rounded transition-colors cursor-pointer"
+                            title="Excluir Permanentemente"
+                            className="bg-red-50 hover:bg-red-100 border border-red-100 text-red-600 p-2 rounded transition-colors cursor-pointer"
                           >
-                            <Trash2 class="w-3.5 h-3.5" />
+                            <Trash2 className="w-3.5 h-3.5" />
                           </button>
                         </div>
                       </td>
@@ -1730,6 +1854,9 @@ export default function AdminPanel({
 
       {/* 9. ANALYTICS Tab */}
       {activeTab === 'analytics' && (() => {
+        // Filter out test posts for all analytics computations
+        const analyticsPosts = posts.filter(p => !p.isTestPost);
+
         // Calculate views breakdown
         let totalViews = 0;
         let hojeViews = 0;
@@ -1738,7 +1865,7 @@ export default function AdminPanel({
 
         const now = new Date();
 
-        posts.forEach(p => {
+        analyticsPosts.forEach(p => {
           const v = p.views || 0;
           totalViews += v;
 
@@ -1774,13 +1901,13 @@ export default function AdminPanel({
         if (totalViews < trintaDiasViews) totalViews = trintaDiasViews;
 
         // Top 10 most viewed posts
-        const sortedTop10 = [...posts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
+        const sortedTop10 = [...analyticsPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
 
         // Group by category and author
         const categoryViews: Record<string, number> = {};
         const authorViews: Record<string, number> = {};
 
-        posts.forEach(p => {
+        analyticsPosts.forEach(p => {
           const v = p.views || 0;
           if (p.category) {
             categoryViews[p.category] = (categoryViews[p.category] || 0) + v;
@@ -2079,6 +2206,252 @@ export default function AdminPanel({
           </div>
         );
       })()}
+
+      {activeTab === 'diagnostic' && (
+        <div className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm space-y-6">
+          <div className="flex flex-col md:flex-row md:items-center justify-between border-b border-slate-100 pb-4 gap-4">
+            <div>
+              <h2 className="text-xl font-black text-slate-900 tracking-tight flex items-center gap-2">
+                <Activity className="w-5 h-5 text-red-600 animate-pulse" />
+                Painel de Diagnóstico e Auditoria de Matérias
+              </h2>
+              <p className="text-xs text-slate-500 mt-0.5">
+                Audite em tempo real as configurações e estados de visualização de todas as matérias cadastradas no banco de dados.
+              </p>
+            </div>
+            
+            <button
+              onClick={async () => {
+                if (!confirm("Deseja rodar a normalização? Isto corrigirá status 'NO AR', removerá ids duplicados e preencherá datas ausentes em todas as matérias.")) return;
+                setIsNormalizing(true);
+                try {
+                  const res = await fetch('/api/posts/cleanup-and-normalize', { method: 'POST' });
+                  if (res.ok) {
+                    const data = await res.json();
+                    alert(`${data.message}\nTotal original: ${data.originalCount}\nTotal após limpeza: ${data.finalCount}`);
+                    onRefreshData();
+                  } else {
+                    alert("Erro ao executar normalização de banco de dados.");
+                  }
+                } catch (err: any) {
+                  alert("Erro operacional: " + err.message);
+                } finally {
+                  setIsNormalizing(false);
+                }
+              }}
+              disabled={isNormalizing || posts.length === 0}
+              className={`flex items-center gap-2 px-4 py-2.5 rounded-lg text-xs font-black uppercase tracking-wider text-white ${
+                isNormalizing ? 'bg-slate-400 cursor-not-allowed' : 'bg-red-600 hover:bg-red-700 active:scale-95 transition-all'
+              } shadow-sm cursor-pointer`}
+            >
+              {isNormalizing ? (
+                <> <Loader2 className="w-4 h-4 animate-spin" /> Processando Normalização... </>
+              ) : (
+                <> <RefreshCw className="w-4 h-4" /> Normalizar Banco de Dados (Corrigir Tudo) </>
+              )}
+            </button>
+          </div>
+
+          {/* Quick Filters Info */}
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 bg-slate-50 p-4 rounded-xl border border-slate-100 font-sans">
+            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
+              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Total Geral</span>
+              <div className="text-2xl font-black text-slate-900 mt-1 font-mono">{posts.length}</div>
+            </div>
+            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
+              <span className="text-[10px] uppercase font-bold text-green-500 tracking-wider">No Ar (Visível na Home)</span>
+              <div className="text-2xl font-black text-green-600 mt-1 font-mono">
+                {posts.filter(p => {
+                  const norm = normalizePost(p);
+                  return norm.status === 'published' && !norm.isTestPost;
+                }).length}
+              </div>
+            </div>
+            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
+              <span className="text-[10px] uppercase font-bold text-amber-500 tracking-wider">Rascunhos / Agendados</span>
+              <div className="text-2xl font-black text-amber-600 mt-1 font-mono">
+                {posts.filter(p => {
+                  const norm = normalizePost(p);
+                  return norm.status !== 'published';
+                }).length}
+              </div>
+            </div>
+            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
+              <span className="text-[10px] uppercase font-bold text-red-500 tracking-wider">Matérias de Teste</span>
+              <div className="text-2xl font-black text-red-600 mt-1 font-mono">
+                {posts.filter(p => p.isTestPost === true || (p as any).isTestPost === 'true').length}
+              </div>
+            </div>
+          </div>
+
+          {/* Search Bar / Filters */}
+          <div className="flex flex-col md:flex-row gap-3 pt-2 font-sans">
+            <div className="relative flex-1">
+              <input
+                type="text"
+                placeholder="Pesquisar por título ou ID..."
+                value={diagSearch}
+                onChange={(e) => setDiagSearch(e.target.value)}
+                className="w-full text-xs font-semibold px-4 py-2.5 rounded-lg border border-slate-200 focus:outline-none focus:ring-2 focus:ring-red-500 bg-slate-50/50"
+              />
+            </div>
+            
+            <div className="flex gap-1 bg-slate-100 p-1 rounded-lg shrink-0">
+              {(['all', 'visible', 'invisible', 'test'] as const).map((mode) => (
+                <button
+                  key={mode}
+                  onClick={() => setDiagFilter(mode)}
+                  className={`px-3 py-1.5 rounded text-[10.5px] font-bold uppercase tracking-wider transition-all select-none cursor-pointer ${
+                    diagFilter === mode 
+                      ? 'bg-white text-slate-900 shadow-sm' 
+                      : 'text-slate-500 hover:text-slate-800'
+                  }`}
+                >
+                  {mode === 'all' && 'Todos'}
+                  {mode === 'visible' && 'Visíveis na Home'}
+                  {mode === 'invisible' && 'Invisíveis'}
+                  {mode === 'test' && 'Apenas Teste'}
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* Diagnostics Table */}
+          <div className="overflow-x-auto border border-slate-200 rounded-xl shadow-xs bg-slate-50/20 font-sans">
+            <table className="w-full text-left border-collapse">
+              <thead>
+                <tr className="bg-slate-50 border-b border-slate-200 text-[10px] font-extrabold uppercase tracking-widest text-slate-600">
+                  <th className="p-3.5">ID</th>
+                  <th className="p-3.5">Título</th>
+                  <th className="p-3.5">Status Real (Banco)</th>
+                  <th className="p-3.5">Data Publicação / Campos</th>
+                  <th className="p-3.5">Categoria</th>
+                  <th className="p-3.5 text-center">Visível na Home</th>
+                  <th className="p-3.5 text-center">Visível na Categoria</th>
+                  <th className="p-3.5 text-right">Ações</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-slate-150">
+                {posts
+                  .filter(p => {
+                    // Title/ID Search Match
+                    if (diagSearch) {
+                      const searchStr = diagSearch.toLowerCase();
+                      const matchTitle = (p.title || '').toLowerCase().includes(searchStr);
+                      const matchId = String(p.id || '').toLowerCase().includes(searchStr);
+                      if (!matchTitle && !matchId) return false;
+                    }
+
+                    // Mode Match
+                    const norm = normalizePost(p);
+                    const isHomeVisible = norm.status === 'published' && !norm.isTestPost;
+                    if (diagFilter === 'visible') return isHomeVisible;
+                    if (diagFilter === 'invisible') return !isHomeVisible;
+                    if (diagFilter === 'test') return p.isTestPost === true || (p as any).isTestPost === 'true';
+                    return true;
+                  })
+                  .map((p) => {
+                    const norm = normalizePost(p);
+                    const isHomeVisible = norm.status === 'published' && !norm.isTestPost;
+                    const isCategoryVisible = norm.status === 'published' && !norm.isTestPost;
+
+                    // Compute dynamic reason for Home invisibility
+                    let homeReason = "Sim (No Ar)";
+                    if (p.isTestPost === true || (p as any).isTestPost === 'true') {
+                      homeReason = "Não (Post de Teste)";
+                    } else if (norm.status === 'draft') {
+                      homeReason = "Não (Status: Rascunho)";
+                    } else if (norm.status === 'scheduled') {
+                      const dateStr = p.publishAt || (p as any).scheduledAt || p.date || '';
+                      homeReason = `Não (Agendado: ${dateStr})`;
+                    }
+
+                    return (
+                      <tr key={p.id} className="hover:bg-slate-50/50 bg-white transition-colors text-xs font-medium">
+                        <td className="p-3 font-mono font-bold text-slate-500 select-all">
+                          {p.id}
+                        </td>
+                        <td className="p-3 max-w-xs md:max-w-md">
+                          <div className="font-bold text-slate-900 truncate" title={p.title}>
+                            {p.title}
+                          </div>
+                          {p.isTestPost ? (
+                            <span className="inline-flex items-center gap-1 text-[9px] bg-red-50 text-red-700 border border-red-200 px-1.5 py-0.5 rounded mt-1 font-semibold uppercase">
+                              <FlaskConical className="w-2.5 h-2.5" /> Matéria de Teste
+                            </span>
+                          ) : null}
+                        </td>
+                        <td className="p-3">
+                          <code className="bg-slate-100 text-slate-800 border border-slate-200 font-mono text-[10px] px-2 py-0.5 rounded uppercase font-black">
+                            {p.status || 'undefined'}
+                          </code>
+                          {(p as any).published === true || (p as any).published === 'true' ? (
+                            <span className="text-[9px] text-green-600 block mt-1 font-bold">
+                              [published=true]
+                            </span>
+                          ) : null}
+                        </td>
+                        <td className="p-3 font-mono text-[10px] text-slate-600 leading-relaxed">
+                          <div><span className="text-[9px] font-black uppercase text-slate-400">Geral/Date:</span> {p.date || 'vazio'}</div>
+                          {p.publishAt && <div><span className="text-[9px] font-black uppercase text-slate-400">Scheduled:</span> {p.publishAt}</div>}
+                          {(p as any).createdAt && <div><span className="text-[9px] font-black uppercase text-slate-400">Created:</span> {(p as any).createdAt}</div>}
+                          {(p as any).publishedAt && <div><span className="text-[9px] font-black uppercase text-slate-400">PublishedAt:</span> {(p as any).publishedAt}</div>}
+                        </td>
+                        <td className="p-3">
+                          <span className="bg-blue-50 text-blue-700 border border-blue-200 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded">
+                            {p.category || 'Nenhuma'}
+                          </span>
+                        </td>
+                        <td className="p-3 text-center">
+                          <div className="flex flex-col items-center justify-center">
+                            <span className={`px-2.5 py-1 rounded text-[10px] font-black uppercase border tracking-wider flex items-center gap-1 shrink-0 ${
+                              isHomeVisible 
+                                ? 'bg-green-50 text-green-700 border-green-200' 
+                                : 'bg-amber-50 text-amber-700 border-amber-200'
+                            }`}>
+                              {isHomeVisible ? 'SIM' : 'NÃO'}
+                            </span>
+                            <span className="text-[9px] text-slate-400 mt-1 block max-w-[124px] truncate text-center" title={homeReason}>
+                              {homeReason}
+                            </span>
+                          </div>
+                        </td>
+                        <td className="p-3 text-center">
+                          <span className={`px-2.5 py-1 rounded text-[10px] font-black uppercase border tracking-wider ${
+                            isCategoryVisible 
+                              ? 'bg-green-50 text-green-700 border-green-200' 
+                              : 'bg-amber-50 text-amber-700 border-amber-200'
+                          }`}>
+                            {isCategoryVisible ? 'SIM' : 'NÃO'}
+                          </span>
+                        </td>
+                        <td className="p-3 text-right">
+                          <div className="flex items-center justify-end gap-1.5">
+                            <button
+                              onClick={() => handleDeletePost(p.id)}
+                              className="p-1.5 text-red-600 hover:bg-red-50 hover:text-red-700 rounded border border-transparent hover:border-red-200 transition-all cursor-pointer"
+                              title="Excluir Definitivamente"
+                            >
+                              <Trash2 className="w-4 h-4" />
+                            </button>
+                          </div>
+                        </td>
+                      </tr>
+                    );
+                  })}
+
+                {posts.length === 0 && (
+                  <tr>
+                    <td colSpan={8} className="p-8 text-center text-slate-400 font-bold uppercase tracking-wider text-xs bg-white">
+                      Nenhuma matéria cadastrada na base de dados.
+                    </td>
+                  </tr>
+                )}
+              </tbody>
+            </table>
+          </div>
+        </div>
+      )}
 
     </div>
   );

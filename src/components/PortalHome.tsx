@@ -1,6 +1,6 @@
 import React from 'react';
-import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle } from 'lucide-react';
-import { Post, CategoryType, AdUnit } from '../types';
+import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
+import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost } from '../types';
 
 interface PortalHomeProps {
   posts: Post[];
@@ -54,13 +54,25 @@ export default function PortalHome({
     return rawImage;
   };
 
-  // 1. Filter posts that are marked published
-  const publishedPosts = posts.filter(p => p.status === 'published' || p.status === 'scheduled');
+  const getCategoryFallback = (category?: string): string => {
+    const cat = String(category || '').trim();
+    if (cat === 'Economia') return '/economia.jpg';
+    if (cat === 'Tecnologia') return '/tecnologia.jpg';
+    if (cat === 'Geopolítica') return '/geopolitica.jpg';
+    if (cat === 'Negócios') return '/negocios.jpg';
+    return 'https://images.unsplash.com/photo-1546015719-7872d5619993?auto=format&fit=crop&w=1280&h=720&q=80';
+  };
+
+  // 1. Filter posts that are marked published and are not test posts, and sort them descending by date
+  const publishedPosts = posts
+    .map(normalizePost)
+    .filter(p => p.status === 'published' && !p.isTestPost)
+    .sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
 
   // 2. Filter by Search Query
   const searchQueryMatched = publishedPosts.filter(p => {
     if (!searchQuery) return true;
-    const txt = (p.title + ' ' + p.subtitle + ' ' + p.content + ' ' + p.category).toLowerCase();
+    const txt = (p.title + ' ' + p.subtitle + ' ' + (p.content || '') + ' ' + p.category).toLowerCase();
     return txt.includes(searchQuery.toLowerCase());
   });
 
@@ -79,15 +91,17 @@ export default function PortalHome({
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
-  // Calculate top 10 most viewed of last 7 days (Top 10 Destaques)
+  // Calculate top 5 most high-scoring editorial of last 7 days (Destaques da Semana)
   const last7DaysPosts = publishedPosts.filter(p => {
     if (!p.date) return false;
     const postTime = new Date(p.date).getTime();
     const nowTime = new Date().getTime();
     return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000;
   });
-  const top10Last7Days = [...last7DaysPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
-  const top10Last7DaysIds = new Set(top10Last7Days.map(p => p.id));
+  const top5DestaquesDaSemana = [...last7DaysPosts]
+    .sort((a, b) => getEditorialScore(b) - getEditorialScore(a))
+    .slice(0, 5);
+  const top5DestaquesDaSemanaIds = new Set(top5DestaquesDaSemana.map(p => p.id));
 
   // Top 10 most viewed posts of the portal (🔥 MAIS LIDAS DA SEMANA)
   const top10PopularPosts = [...publishedPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);
@@ -235,6 +249,7 @@ export default function PortalHome({
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
+                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category); }}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <span className="absolute top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
@@ -244,21 +259,21 @@ export default function PortalHome({
                   
                   <div className="md:w-2/5 p-6 md:p-8 flex flex-col justify-between">
                     <div>
-                      <div className="flex items-center gap-2 text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-3">
-                        <span className="flex items-center gap-1"><User className="w-3 h-3 text-blue-500" /> {featurePost.author}</span>
-                        <span>&bull;</span>
-                        <span className="flex items-center gap-1"><Clock className="w-3 h-3" /> {formatPublishDate(featurePost.date)}</span>
-                      </div>
-                      
-                      <div className="flex flex-wrap gap-1.5 mb-3">
-                        {(featurePost.views || 0) >= 500 && (
-                          <span className="bg-red-600 text-white text-[9px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded leading-none">
-                            🔥 MAIS LIDA
+                      {/* Selos acima do título da matéria */}
+                      <div className="flex flex-wrap gap-2 mb-3.5">
+                        {isPostUrgente(featurePost) && (
+                          <span className="bg-red-650 border border-red-700 text-white text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm animate-pulse" title="Notícias quentes das últimas horas">
+                            🚨 URGENTE <span className="text-[9.5px] font-medium lowercase font-sans opacity-90">(notícias quentes das últimas horas)</span>
                           </span>
                         )}
-                        {top10Last7DaysIds.has(featurePost.id) && (
-                          <span className="bg-amber-500 text-white text-[9px] font-extrabold uppercase tracking-wider px-2 py-0.5 rounded leading-none">
-                            ⭐ DESTAQUE DA SEMANA
+                        {(featurePost.views || 0) >= 500 && (
+                          <span className="bg-red-750 border border-red-805 text-white text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm" title="Mais de 500 visualizações">
+                            🔥 MAIS LIDA <span className="text-[9.5px] font-medium lowercase font-sans opacity-95">(500+ visualizações)</span>
+                          </span>
+                        )}
+                        {top5DestaquesDaSemanaIds.has(featurePost.id) && (
+                          <span className="bg-amber-500 border border-amber-600 text-slate-900 text-[10px] font-black uppercase tracking-wider px-3 py-1.5 rounded inline-flex items-center gap-1.5 select-none shadow-sm" title="Seleção editorial">
+                            ⭐ DESTAQUE DA SEMANA <span className="text-[9.5px] font-semibold lowercase font-sans opacity-90">(seleção editorial)</span>
                           </span>
                         )}
                       </div>
@@ -270,9 +285,16 @@ export default function PortalHome({
                       <p className="text-slate-600 text-xs leading-relaxed mb-6 font-medium line-clamp-4">
                         {featurePost.subtitle}
                       </p>
+
+                      {/* Autor e data separados e colocados embaixo */}
+                      <div className="flex flex-wrap items-center gap-2.5 text-[10px] font-extrabold text-slate-400 uppercase tracking-widest pt-3 border-t border-slate-100 select-none">
+                        <span className="flex items-center gap-1.5"><User className="w-3.5 h-3.5 text-blue-500" /> {featurePost.author}</span>
+                        <span>&bull;</span>
+                        <span className="flex items-center gap-1.5"><Clock className="w-3.5 h-3.5" /> {formatPublishDate(featurePost.date)}</span>
+                      </div>
                     </div>
 
-                    <div className="flex items-center justify-between border-t border-slate-100 pt-4">
+                    <div className="flex items-center justify-between border-t border-slate-100 pt-4 mt-4">
                       <span className="text-[10px] font-bold text-primary hover:text-blue-700 uppercase tracking-wider flex items-center gap-1.5">
                         Ler Matéria Completa <ArrowRight className="w-3 h-3 transition-transform group-hover:translate-x-1" />
                       </span>
@@ -332,31 +354,32 @@ export default function PortalHome({
                             src={getDeduplicatedImage(post)} 
                             alt={post.title} 
                             referrerPolicy="no-referrer"
+                            onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
-                          {selectedCategory === 'Home' && (
+                          {(selectedCategory === 'Home' || !selectedCategory) && (
                             <span className="absolute top-3 left-3 bg-slate-950 text-white text-[9px] font-extrabold uppercase tracking-widest px-2.5 py-1 rounded">
                               {post.category}
                             </span>
                           )}
                         </div>
 
-                        <div className="p-5">
-                          <div className="flex items-center gap-2 text-[9px] font-bold text-slate-400 uppercase tracking-widest mb-2.5">
-                            <span>{post.author}</span>
-                            <span>&bull;</span>
-                            <span>{formatPublishDate(post.date)}</span>
-                          </div>
-
-                          <div className="flex flex-wrap gap-1.5 mb-2">
-                            {(post.views || 0) >= 500 && (
-                              <span className="bg-red-600 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded">
-                                🔥 MAIS LIDA
+                        <div className="p-5 flex flex-col">
+                          {/* Selos acima do título da matéria */}
+                          <div className="flex flex-wrap gap-1 mb-2.5">
+                            {isPostUrgente(post) && (
+                              <span className="bg-red-650 text-white text-[8.5px] font-black uppercase tracking-wider px-2 py-1 rounded inline-flex items-center gap-1 select-none shadow-sm animate-pulse" title="Notícias quentes das últimas horas">
+                                🚨 URGENTE <span className="text-[7.5px] font-normal lowercase font-sans opacity-90 hidden sm:inline-block">(notícias quentes das últimas horas)</span>
                               </span>
                             )}
-                            {top10Last7DaysIds.has(post.id) && (
-                              <span className="bg-amber-500 text-white text-[8px] font-black uppercase tracking-wider px-1.5 py-0.5 rounded">
-                                ⭐ DESTAQUE DA SEMANA
+                            {(post.views || 0) >= 500 && (
+                              <span className="bg-red-750 text-white text-[8.5px] font-black uppercase tracking-wider px-2 py-1 rounded inline-flex items-center gap-1 select-none shadow-sm" title="Mais de 500 visualizações">
+                                🔥 MAIS LIDA <span className="text-[7.5px] font-normal lowercase font-sans opacity-95 hidden sm:inline-block">(500+ visualizações)</span>
+                              </span>
+                            )}
+                            {top5DestaquesDaSemanaIds.has(post.id) && (
+                              <span className="bg-amber-500 text-slate-900 text-[8.5px] font-black uppercase tracking-wider px-2 py-1 rounded inline-flex items-center gap-1 select-none shadow-sm" title="Seleção editorial">
+                                ⭐ DESTAQUE DA SEMANA <span className="text-[7.5px] font-medium lowercase font-sans opacity-90 hidden sm:inline-block">(seleção editorial)</span>
                               </span>
                             )}
                           </div>
@@ -365,13 +388,20 @@ export default function PortalHome({
                             {post.title}
                           </h4>
 
-                          <p className="text-slate-600 text-[11px] leading-relaxed line-clamp-2">
+                          <p className="text-slate-600 text-[11px] leading-relaxed line-clamp-2 mb-3">
                             {post.subtitle}
                           </p>
+
+                          {/* Metadata de autor e data separada dos selos */}
+                          <div className="flex items-center gap-2 text-[9px] font-bold text-slate-400 uppercase tracking-widest pt-2.5 border-t border-slate-100/60 select-none">
+                            <span>{post.author}</span>
+                            <span>&bull;</span>
+                            <span>{formatPublishDate(post.date)}</span>
+                          </div>
                         </div>
                       </div>
 
-                      <div className="px-5 pb-5 pt-3 border-t border-slate-100/60 flex items-center justify-between mt-auto">
+                      <div className="px-5 pb-5 pt-3 flex items-center justify-between mt-auto">
                         <span className="text-[10px] font-bold text-blue-600 group-hover:text-blue-700 uppercase tracking-wider flex items-center gap-1.5 min-w-[12px]">
                           Página de Leitura &rsaquo;
                         </span>
@@ -403,23 +433,29 @@ export default function PortalHome({
                           src={getDeduplicatedImage(post)} 
                           alt="" 
                           referrerPolicy="no-referrer"
+                          onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
                           className="w-16 h-16 object-cover rounded flex-shrink-0"
                         />
                         <div>
-                          <div className="flex flex-wrap items-center gap-1.5 mb-1">
-                            <span className="text-[9px] font-bold text-blue-600 tracking-wider uppercase">{post.category}</span>
-                            {(post.views || 0) >= 500 && (
-                              <span className="text-[8.5px] font-black text-red-600 uppercase flex items-center gap-0.5">
-                                🔥 MAIS LIDA
+                          <div className="flex flex-wrap items-center gap-1 mb-1">
+                            <span className="text-[9px] font-bold text-blue-600 tracking-wider uppercase mr-1">{post.category}</span>
+                            {isPostUrgente(post) && (
+                              <span className="text-[8px] font-black text-red-600 uppercase flex items-center gap-0.5" title="🚨 URGENTE (notícias quentes das últimas horas)">
+                                🚨 URGENTE <span className="text-[7px] font-normal lowercase font-sans opacity-80">(quentes)</span>
                               </span>
                             )}
-                            {top10Last7DaysIds.has(post.id) && (
-                              <span className="text-[8.5px] font-black text-amber-600 uppercase flex items-center gap-0.5">
-                                ⭐ DESTAQUE DA SEMANA
+                            {(post.views || 0) >= 500 && (
+                              <span className="text-[8px] font-black text-red-700 uppercase flex items-center gap-0.5" title="🔥 MAIS LIDA (500+ visualizações)">
+                                🔥 MAIS LIDA <span className="text-[7px] font-normal lowercase font-sans opacity-80">(500+ views)</span>
+                              </span>
+                            )}
+                            {top5DestaquesDaSemanaIds.has(post.id) && (
+                              <span className="text-[8px] font-black text-amber-600 uppercase flex items-center gap-0.5" title="⭐ DESTAQUE DA SEMANA (seleção editorial)">
+                                ⭐ DESTAQUE <span className="text-[7px] font-normal lowercase font-sans opacity-80">(editorial)</span>
                               </span>
                             )}
                           </div>
-                          <h4 className="text-xs font-bold font-display text-slate-900 hover:text-blue-600 transition-colors line-clamp-1 leading-snug">{post.title}</h4>
+                          <h4 className="text-xs font-black font-display text-slate-900 hover:text-blue-600 transition-colors line-clamp-1 leading-snug">{post.title}</h4>
                           <p className="text-slate-500 text-[10px] line-clamp-2 mt-0.5 leading-relaxed">{post.subtitle}</p>
                         </div>
                       </div>

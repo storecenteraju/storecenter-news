@@ -207,22 +207,14 @@ export default function PortalHome({
       <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
         
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE */}
-        <div className="mb-8 md:mb-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Topo do Portal)
-            </span>
-          </div>
+        <div className="mb-8 md:mb-10 max-w-7xl mx-auto flex justify-center">
           {adTop ? (
             <div 
-              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
               dangerouslySetInnerHTML={{ __html: adTop.code }}
             />
           ) : (
-            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Superior de Alto Impacto (728x90)</span>
-              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Anúncio do patrocinador carregar-se-á dinamicamente</span>
-            </div>
+            <div className="w-full min-h-[90px]"></div>
           )}
         </div>
 
@@ -250,9 +242,9 @@ export default function PortalHome({
         {finalFilteredPosts.length === 0 && (
           <div className="bg-white rounded-xl border border-slate-200 p-16 text-center shadow-sm max-w-2xl mx-auto my-12">
             <AlertCircle className="w-12 h-12 text-slate-300 mx-auto mb-4" />
-            <span className="font-bold text-slate-800 text-lg block mb-1">Corta de Pautas</span>
+            <span className="font-bold text-slate-800 text-lg block mb-1">Nenhuma notícia disponível</span>
             <p className="text-xs text-slate-500 mb-6 max-w-sm mx-auto">
-              Nenhuma notícia para "{searchQuery || selectedCategory}" foi redigida ou publicada ainda. Acesse o Painel Admin para criar ou reescrever uma via IA!
+              Nenhuma notícia disponível no momento.
             </p>
           </div>
         )}
@@ -334,25 +326,14 @@ export default function PortalHome({
               )}
 
               {/* IN-FEED ADSENSE SPONSOR CORNER (MEIO DO PORTAL) */}
-              <div className="my-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
-                <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <span className="text-[10px] font-black text-white select-none tracking-widest uppercase flex items-center gap-1.5">
-                    Anúncio Patrocinado Google AdSense (In-Feed Central)
-                  </span>
-                  <span className="text-[9px] font-mono font-bold text-white select-none">FORMATO FLUIDO</span>
-                </div>
+              <div className="my-8 w-full flex justify-center">
                 {getAdBySlot('middle') ? (
                   <div 
-                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+                    className="w-full flex justify-center items-center overflow-x-auto min-h-[100px]"
                     dangerouslySetInnerHTML={{ __html: getAdBySlot('middle')?.code || '' }}
                   />
                 ) : (
-                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[110px]">
-                    <span className="text-xs font-bold text-slate-650">Espaço de Divulgação e Publicidade Responsiva</span>
-                    <span className="text-[10px] text-slate-400 mt-1 max-w-lg font-medium leading-relaxed">
-                      Este bloco adapta-se de forma dinâmica para banners de imagem, blocos de links ou anúncios fluídos com base nas configurações vigentes.
-                    </span>
-                  </div>
+                  <div className="w-full min-h-[100px]"></div>
                 )}
               </div>
 
@@ -495,22 +476,13 @@ export default function PortalHome({
             <div className="lg:col-span-1 space-y-8">
               
               {/* ADSENSE SIDEBAR BANNER CARD */}
-              <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
-                <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1">
-                    Banner Lateral
-                  </span>
-                </div>
+              <div className="w-full flex justify-center items-center">
                 {adSidebar ? (
                   <div 
-                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-200/50 rounded-xl min-h-[250px] md:min-h-[600px]"
+                    className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-x-auto min-h-[250px] md:min-h-[600px]"
                     dangerouslySetInnerHTML={{ __html: adSidebar.code }}
                   />
-                ) : (
-                  <div className="p-8 border border-dashed border-slate-200 rounded-xl bg-slate-50/50 text-slate-400 text-xs">
-                    Configure anúncios AdSense na aba lateral do Painel Administrativo.
-                  </div>
-                )}
+                ) : null}
               </div>
 
               {/* AS MAIS LIDAS INDEX */}
@@ -554,22 +526,14 @@ export default function PortalHome({
         )}
 
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE */}
-        <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Rodapé do Portal)
-            </span>
-          </div>
+        <div className="mt-12 max-w-7xl mx-auto flex justify-center">
           {adFooter ? (
             <div 
-              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
               dangerouslySetInnerHTML={{ __html: adFooter.code }}
             />
           ) : (
-            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Inferior de Rodapé (728x90)</span>
-              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Banners de anúncios de rodapé do patrocinador carregar-se-ão dinamicamente</span>
-            </div>
+            <div className="w-full min-h-[90px]"></div>
           )}
         </div>
 
@@ -594,7 +558,7 @@ export default function PortalHome({
               </svg>
               <span className="text-base font-extrabold font-display text-white tracking-widest uppercase">STORECENTER</span>
             </div>
-            <p className="leading-relaxed">{siteSettings?.siteDescription || 'Portal de notícias rápidas e automatizadas via inteligência artificial.'}</p>
+            <p className="leading-relaxed">{siteSettings?.siteDescription || 'Líder regional em jornalismo independente e cobertura setorial especializada.'}</p>
           </div>
 
           <div>

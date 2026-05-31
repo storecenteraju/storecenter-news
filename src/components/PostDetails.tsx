@@ -176,22 +176,14 @@ export default function PostDetails({
         </div>
 
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE NO ARTIGO */}
-        <div className="mb-6 md:mb-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Topo do Artigo)
-            </span>
-          </div>
+        <div className="mb-6 md:mb-8 max-w-7xl mx-auto flex justify-center">
           {adTop ? (
             <div 
-              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
               dangerouslySetInnerHTML={{ __html: adTop.code }}
             />
           ) : (
-            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Superior de Alto Impacto (728x90)</span>
-              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Anúncio do patrocinador carregar-se-á dinamicamente</span>
-            </div>
+            <div className="w-full min-h-[90px]"></div>
           )}
         </div>
 
@@ -286,23 +278,14 @@ export default function PostDetails({
               </div>
 
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
-              <div className="my-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
-                <div className="flex items-center justify-between border-b border-slate-150 pb-2">
-                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1.5">
-                    Anúncio Google AdSense (Meio do Artigo)
-                  </span>
-                  <span className="text-[9px] font-mono font-bold text-white select-none">FORMATO RETANGULAR</span>
-                </div>
+              <div className="my-10 w-full flex justify-center">
                 {adMiddle ? (
                   <div 
-                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50 border border-slate-100 rounded-xl"
+                    className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
                     dangerouslySetInnerHTML={{ __html: adMiddle.code }}
                   />
                 ) : (
-                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-                    <span className="text-xs font-bold text-slate-600">Espaço Reservado - AdSense Meio do Artigo (In-Article)</span>
-                    <span className="text-[10px] text-slate-400 mt-1">Anúncio do meio do artigo carregar-se-á dinamicamente</span>
-                  </div>
+                  <div className="w-full min-h-[90px]"></div>
                 )}
               </div>
 
@@ -327,23 +310,14 @@ export default function PostDetails({
               </div>
 
               {/* BOTTOM AD BLOCK (IF ACTIVE) */}
-              <div className="mt-10 mb-2 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
-                <div className="flex items-center justify-between border-b border-slate-150 pb-2">
-                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1.5">
-                    Anúncio Google AdSense (Final do Artigo)
-                  </span>
-                  <span className="text-[9px] font-mono font-bold text-white select-none">RECOMENDAÇÕES / NATIVO</span>
-                </div>
+              <div className="mt-10 mb-2 w-full flex justify-center">
                 {adBottom ? (
                   <div 
-                    className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50 border border-slate-100 rounded-xl"
+                    className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
                     dangerouslySetInnerHTML={{ __html: adBottom.code }}
                   />
                 ) : (
-                  <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-                    <span className="text-xs font-bold text-slate-600">Espaço Reservado - AdSense Final do Artigo (Matched Content)</span>
-                    <span className="text-[10px] text-slate-400 mt-1">Anúncios nativos de rodapé carregar-se-ão dinamicamente</span>
-                  </div>
+                  <div className="w-full min-h-[90px]"></div>
                 )}
               </div>
 
@@ -458,22 +432,13 @@ export default function PostDetails({
             </div>
 
             {/* ADSENSE SIDEBAR BANNER CARD */}
-            <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
-              <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1">
-                  Banner Lateral
-                </span>
-              </div>
+            <div className="w-full flex justify-center items-center">
               {adSidebar ? (
                 <div 
-                  className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-200/50 rounded-xl min-h-[250px] md:min-h-[500px]"
+                  className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-x-auto min-h-[250px] md:min-h-[500px]"
                   dangerouslySetInnerHTML={{ __html: adSidebar.code }}
                 />
-              ) : (
-                <div className="p-8 border border-dashed border-slate-200 rounded-xl bg-slate-50/50 text-slate-400 text-xs">
-                  Anúncio AdSense Lateral
-                </div>
-              )}
+              ) : null}
             </div>
 
             {/* CLICKS COUNTER FOR CURRENT READING METRIC */}
@@ -522,22 +487,14 @@ export default function PostDetails({
         </div>
 
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE NO ARTIGO */}
-        <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
-          <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Rodapé do Artigo)
-            </span>
-          </div>
+        <div className="mt-12 max-w-7xl mx-auto flex justify-center">
           {adFooter ? (
             <div 
-              className="flex justify-center items-center overflow-x-auto p-4 bg-slate-50/50 border border-slate-100 rounded-xl"
+              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
               dangerouslySetInnerHTML={{ __html: adFooter.code }}
             />
           ) : (
-            <div className="border border-dashed border-slate-200 rounded-xl p-8 bg-slate-50/50 flex flex-col items-center justify-center min-h-[90px]">
-              <span className="text-xs font-bold text-slate-600">Espaço de Divulgação Inferior de Rodapé (728x90)</span>
-              <span className="text-[10.5px] text-slate-400 mt-1 font-medium">Banners de anúncios de rodapé do patrocinador carregar-se-ão dinamicamente</span>
-            </div>
+            <div className="w-full min-h-[90px]"></div>
           )}
         </div>
 

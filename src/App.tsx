@@ -5,6 +5,7 @@ import PostDetails from './components/PostDetails';
 import AdminPanel from './components/AdminPanel';
 import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, normalizePost } from './types';
 import { Loader2, Globe, Sparkles, Server } from 'lucide-react';
+import dbBackup from '../db.json';
 
 export default function App() {
   const [currentView, setView] = useState<'portal' | 'admin'>('portal');
@@ -26,15 +27,65 @@ export default function App() {
       const aRes = await fetch('/api/ads');
       const sRes = await fetch('/api/settings');
 
+      let fetchedPosts = null;
+      let fetchedFeeds = null;
+      let fetchedAds = null;
+      let fetchedSettings = null;
+
       if (pRes.ok) {
-        const rawPosts = await pRes.json();
-        setPosts(Array.isArray(rawPosts) ? rawPosts.map(normalizePost) : []);
+        const ct = pRes.headers.get("content-type");
+        if (ct && ct.includes("application/json")) {
+          fetchedPosts = await pRes.json();
+        }
       }
-      if (fRes.ok) setFeeds(await fRes.json());
-      if (aRes.ok) setAds(await aRes.json());
-      if (sRes.ok) setSettings(await sRes.json());
+      if (fRes.ok) {
+        const ct = fRes.headers.get("content-type");
+        if (ct && ct.includes("application/json")) {
+          fetchedFeeds = await fRes.json();
+        }
+      }
+      if (aRes.ok) {
+        const ct = aRes.headers.get("content-type");
+        if (ct && ct.includes("application/json")) {
+          fetchedAds = await aRes.json();
+        }
+      }
+      if (sRes.ok) {
+        const ct = sRes.headers.get("content-type");
+        if (ct && ct.includes("application/json")) {
+          fetchedSettings = await sRes.json();
+        }
+      }
+
+      if (Array.isArray(fetchedPosts) && fetchedPosts.length > 0) {
+        setPosts(fetchedPosts.map(normalizePost));
+      } else {
+        setPosts(dbBackup.posts.map(normalizePost));
+      }
+
+      if (Array.isArray(fetchedFeeds) && fetchedFeeds.length > 0) {
+        setFeeds(fetchedFeeds);
+      } else {
+        setFeeds(dbBackup.feeds as any);
+      }
+
+      if (Array.isArray(fetchedAds) && fetchedAds.length > 0) {
+        setAds(fetchedAds);
+      } else {
+        setAds(dbBackup.ads as any);
+      }
+
+      if (fetchedSettings && typeof fetchedSettings === 'object') {
+        setSettings(fetchedSettings);
+      } else {
+        setSettings(dbBackup.settings as any);
+      }
     } catch (err) {
-      console.error("Erro consultando base Express:", err);
+      console.error("Erro consultando base Express. Usando db.json local como backup:", err);
+      setPosts(dbBackup.posts.map(normalizePost));
+      setFeeds(dbBackup.feeds as any);
+      setAds(dbBackup.ads as any);
+      setSettings(dbBackup.settings as any);
     } finally {
       setLoading(false);
     }
@@ -127,13 +178,15 @@ export default function App() {
       )}
 
       {/* QUICK ASSIST FLOATING TOOLBAR */}
-      <div className="fixed bottom-4 right-4 z-50 flex items-center gap-2 select-none">
-        <div className="bg-slate-950/90 hover:bg-slate-950 text-white backdrop-blur border border-slate-800 rounded-full px-4 py-2.5 shadow-xl flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-wider">
-          <Sparkles className="w-3.5 h-3.5 text-blue-400" /> 
-          <span>Gemini AI {process.env.GEMINI_API_KEY ? 'Ativo' : 'Simulação'}</span>
-          <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+      {currentView === 'admin' && (
+        <div className="fixed bottom-4 right-4 z-50 flex items-center gap-2 select-none">
+          <div className="bg-slate-950/90 hover:bg-slate-950 text-white backdrop-blur border border-slate-800 rounded-full px-4 py-2.5 shadow-xl flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-wider">
+            <Sparkles className="w-3.5 h-3.5 text-blue-400" /> 
+            <span>Gemini AI {process.env.GEMINI_API_KEY ? 'Ativo' : 'Simulação'}</span>
+            <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
+          </div>
         </div>
-      </div>
+      )}
 
     </div>
   );

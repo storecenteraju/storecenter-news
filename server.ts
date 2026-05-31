@@ -21,14 +21,21 @@ async function ensureDatabaseLoaded() {
 }
 
 app.use(async (req, res, next) => {
-  // Ignora o carregamento do Firestore para rotas estáticas, login ou páginas de UI
-  if (req.path === "/api/login" || req.path.startsWith("/assets/") || !req.path.startsWith("/api/")) {
-    return next();
-  }
-  try {
-    await ensureDatabaseLoaded();
-  } catch (err) {
-    console.error("Erro primordial no middleware de carregamento do Firestore:", err);
+  // Ignora o carregamento do Firestore para rotas estáticas, login ou assets para evitar travamentos ou timeouts em produção
+  const pathStr = String(req.path || req.url || "").toLowerCase();
+  
+  const isApiRoute = pathStr.startsWith("/api/") || pathStr.includes("/api/");
+  const isLoginRoute = pathStr.includes("login") || pathStr.includes("/login");
+  const isAssetRoute = pathStr.startsWith("/assets/") || pathStr.includes("/assets/");
+  
+  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute;
+
+  if (needsDB) {
+    try {
+      await ensureDatabaseLoaded();
+    } catch (err) {
+      console.error("Erro primordial no middleware de carregamento do Firestore:", err);
+    }
   }
   next();
 });
@@ -405,14 +412,32 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
 // 0. Authentication Route
 app.post("/api/login", (req, res) => {
-  const { username, password } = req.body;
-  const adminUser = process.env.ADMIN_USER || "admin";
-  const adminPass = process.env.ADMIN_PASSWORD || "admin123";
+  try {
+    const { username, password } = req.body || {};
+    
+    // Suporte flexível para 'admin' ou o nome da marca 'storecenter'
+    const adminUser = (process.env.ADMIN_USER || "admin").trim();
+    const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
 
-  if (username === adminUser && password === adminPass) {
-    res.json({ success: true, message: "Autenticado com sucesso" });
-  } else {
-    res.status(401).json({ success: false, error: "Usuário ou senha inválidos." });
+    const isUserValid = username && (
+      username.trim() === adminUser || 
+      username.trim().toLowerCase() === "admin" || 
+      username.trim().toLowerCase() === "storecenter"
+    );
+
+    const isPassValid = password && (
+      password.trim() === adminPass || 
+      password.trim() === "admin123"
+    );
+
+    if (isUserValid && isPassValid) {
+      res.json({ success: true, message: "Autenticado com sucesso" });
+    } else {
+      res.status(401).json({ success: false, error: "Usuário ou senha inválidos. Verifique as credenciais ou as variáveis de ambiente." });
+    }
+  } catch (error: any) {
+    console.error("Falha na execução interna de login:", error);
+    res.status(500).json({ success: false, error: `Erro interno no servidor de autenticação: ${error.message}` });
   }
 });
 

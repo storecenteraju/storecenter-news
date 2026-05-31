@@ -1,11 +1,27 @@
 ---
 deployment:
   tasks:
+    - export DEPLOYPATH=/home/storecen/public_html/news/
+    - /bin/mkdir -p $DEPLOYPATH
+    - echo "=== INICIO DO DEPLOY ===" > ${DEPLOYPATH}deploy_log.txt
+    - date >> ${DEPLOYPATH}deploy_log.txt 2>&1
+    - echo "--- INFO DO SISTEMA ---" >> ${DEPLOYPATH}deploy_log.txt
+    - echo "Usuario:" $(whoami) >> ${DEPLOYPATH}deploy_log.txt 2>&1
+    - echo "CWD:" $(pwd) >> ${DEPLOYPATH}deploy_log.txt 2>&1
     - export PATH=$HOME/.nvm/versions/node/$(node -v 2>/dev/null || echo "v20.0.0")/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/opt/cpanel/ea-nodejs20/bin:/opt/cpanel/ea-nodejs18/bin:$PATH
     - '[ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" || true'
     - '[ -s "$HOME/.bashrc" ] && . "$HOME/.bashrc" || true'
-    - npm install
-    - npm run build
-    - export DEPLOYPATH=/home/storecen/public_html/news/
-    - /bin/mkdir -p $DEPLOYPATH
-    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='node_modules' dist/ $DEPLOYPATH
+    - echo "--- VERIFICANDO NODE & NPM ---" >> ${DEPLOYPATH}deploy_log.txt
+    - node -v >> ${DEPLOYPATH}deploy_log.txt 2>&1 || echo "Node nao encontrado" >> ${DEPLOYPATH}deploy_log.txt
+    - npm -v >> ${DEPLOYPATH}deploy_log.txt 2>&1 || echo "NPM nao encontrado" >> ${DEPLOYPATH}deploy_log.txt
+    - echo "--- EXECUTANDO NPM INSTALL ---" >> ${DEPLOYPATH}deploy_log.txt
+    - npm install >> ${DEPLOYPATH}deploy_log.txt 2>&1 || echo "Erro ou falha no npm install (possivel estouro de memoria LVE)" >> ${DEPLOYPATH}deploy_log.txt
+    - echo "--- EXECUTANDO NPM RUN BUILD ---" >> ${DEPLOYPATH}deploy_log.txt
+    - npm run build >> ${DEPLOYPATH}deploy_log.txt 2>&1 || echo "Erro ou falha no npm run build" >> ${DEPLOYPATH}deploy_log.txt
+    - echo "--- CONTEUDO DA PASTA DIST ANTES DO COPIA ---" >> ${DEPLOYPATH}deploy_log.txt
+    - ls -la dist/ >> ${DEPLOYPATH}deploy_log.txt 2>&1 || echo "Pasta dist nao existe" >> ${DEPLOYPATH}deploy_log.txt
+    - echo "--- EXECUTANDO RSYNC ---" >> ${DEPLOYPATH}deploy_log.txt
+    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='node_modules' dist/ $DEPLOYPATH >> ${DEPLOYPATH}deploy_log.txt 2>&1
+    - echo "--- CONTEUDO FINAL EM PUBLIC_HTML/NEWS/ ---" >> ${DEPLOYPATH}deploy_log.txt
+    - ls -la $DEPLOYPATH >> ${DEPLOYPATH}deploy_log.txt 2>&1
+    - echo "=== FIM DO DEPLOY ===" >> ${DEPLOYPATH}deploy_log.txt

@@ -21,6 +21,10 @@ async function ensureDatabaseLoaded() {
 }
 
 app.use(async (req, res, next) => {
+  // Ignora o carregamento do Firestore para rotas estáticas, login ou páginas de UI
+  if (req.path === "/api/login" || req.path.startsWith("/assets/") || !req.path.startsWith("/api/")) {
+    return next();
+  }
   try {
     await ensureDatabaseLoaded();
   } catch (err) {
@@ -198,15 +202,24 @@ async function syncAllToFirestore(data: any) {
 
 async function loadDatabaseFromFirestore() {
   try {
-    console.log("[FIREBASE] Carregando do Firestore...");
-    const [postsSnap, feedsSnap, adsSnap, settingsSnap, logsSnap, deletedSnap] = await Promise.all([
-      getDocs(collection(dbStore, "posts")),
-      getDocs(collection(dbStore, "feeds")),
-      getDocs(collection(dbStore, "ads")),
-      getDocs(collection(dbStore, "settings")),
-      getDocs(collection(dbStore, "automationLogs")),
-      getDocs(collection(dbStore, "deletedPostItems"))
+    console.log("[FIREBASE] Carregando do Firestore com guard de timeout de 4s...");
+    
+    // Timeout-guarded Promise.all para prevenir travamentos em ambientes serverless como o Vercel
+    const snaps = await Promise.race([
+      Promise.all([
+        getDocs(collection(dbStore, "posts")),
+        getDocs(collection(dbStore, "feeds")),
+        getDocs(collection(dbStore, "ads")),
+        getDocs(collection(dbStore, "settings")),
+        getDocs(collection(dbStore, "automationLogs")),
+        getDocs(collection(dbStore, "deletedPostItems"))
+      ]),
+      new Promise<never>((_, reject) => 
+        setTimeout(() => reject(new Error("Timeout de 4000ms tentando acessar o Firestore")), 4000)
+      )
     ]);
+
+    const [postsSnap, feedsSnap, adsSnap, settingsSnap, logsSnap, deletedSnap] = snaps;
 
     const posts: any[] = [];
     postsSnap.forEach(docSnap => posts.push(docSnap.data()));

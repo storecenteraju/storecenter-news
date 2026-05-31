@@ -1,7 +1,6 @@
 import express from "express";
 import path from "path";
 import fs from "fs";
-import { createServer as createViteServer } from "vite";
 import { GoogleGenAI, Type } from "@google/genai";
 import dotenv from "dotenv";
 
@@ -12,6 +11,23 @@ const PORT = 3000;
 const DB_PATH = path.join(process.cwd(), "db.json");
 
 app.use(express.json());
+
+let isDatabaseLoaded = false;
+async function ensureDatabaseLoaded() {
+  if (!isDatabaseLoaded) {
+    await loadDatabaseFromFirestore();
+    isDatabaseLoaded = true;
+  }
+}
+
+app.use(async (req, res, next) => {
+  try {
+    await ensureDatabaseLoaded();
+  } catch (err) {
+    console.error("Erro primordial no middleware de carregamento do Firestore:", err);
+  }
+  next();
+});
 
 // Initialize Gemini SDK with User-Agent telemetry
 const apiKey = process.env.GEMINI_API_KEY;
@@ -29,7 +45,27 @@ if (apiKey) {
 
 import { initializeApp } from "firebase/app";
 import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "firebase/firestore";
-import firebaseConfig from "./firebase-applet-config.json" assert { type: "json" };
+
+let rawFirebaseConfig: any = {};
+try {
+  const configPath = path.join(process.cwd(), "firebase-applet-config.json");
+  if (fs.existsSync(configPath)) {
+    const raw = fs.readFileSync(configPath, "utf8");
+    rawFirebaseConfig = JSON.parse(raw);
+  }
+} catch (e) {
+  console.log("[FIREBASE] firebase-applet-config.json não encontrado ou falhou ao ler. Usando defaults...");
+}
+
+const firebaseConfig = {
+  projectId: process.env.FIREBASE_PROJECT_ID || rawFirebaseConfig.projectId || "ai-studio-applet-webapp-b9f98",
+  appId: process.env.FIREBASE_APP_ID || rawFirebaseConfig.appId || "1:1071766746842:web:34efca770cd1d39db8d7e3",
+  apiKey: process.env.FIREBASE_API_KEY || rawFirebaseConfig.apiKey || "AIzaSyC5Vgu6ILN8VLr1WkeJab_SudIK23NzcGM",
+  authDomain: process.env.FIREBASE_AUTH_DOMAIN || rawFirebaseConfig.authDomain || "ai-studio-applet-webapp-b9f98.firebaseapp.com",
+  firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-3c537543-715d-410d-acfe-18a611de2057",
+  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || rawFirebaseConfig.storageBucket || "ai-studio-applet-webapp-b9f98.firebasestorage.app",
+  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || rawFirebaseConfig.messagingSenderId || "1071766746842",
+};
 
 const firebaseApp = initializeApp(firebaseConfig);
 const dbStore = getFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
@@ -2765,7 +2801,8 @@ async function startServer() {
   }
 
   if (process.env.NODE_ENV !== "production") {
-    const vite = await createViteServer({
+    const { createServer } = await import("vite");
+    const vite = await createServer({
       server: { middlewareMode: true },
       appType: "spa",
     });
@@ -2818,4 +2855,9 @@ async function startServer() {
   });
 }
 
-startServer();
+if (!process.env.VERCEL) {
+  startServer();
+}
+
+export { app };
+export default app;

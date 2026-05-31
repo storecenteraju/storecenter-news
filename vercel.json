@@ -1,41 +1,18 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "api/index.ts",
-      "use": "@vercel/node",
-      "config": {
-        "includeFiles": [
-          "db.json",
-          "firebase-applet-config.json"
-        ]
-      }
-    },
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "dist"
-      }
+  "functions": {
+    "api/index.ts": {
+      "includeFiles": "firebase-applet-config.json"
     }
-  ],
-  "routes": [
+  },
+  "rewrites": [
     {
-      "src": "/api/(.*)",
-      "dest": "api/index.ts"
+      "source": "/api/(.*)",
+      "destination": "/api/index.ts"
     },
     {
-      "src": "/assets/(.*)",
-      "dest": "dist/assets/$1"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "dist/$1",
-      "continue": true
-    },
-    {
-      "src": "/(.*)",
-      "dest": "dist/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ],
   "crons": [

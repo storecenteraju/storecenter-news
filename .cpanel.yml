@@ -1,6 +1,11 @@
 ---
 deployment:
   tasks:
+    - export PATH=$HOME/.nvm/versions/node/$(node -v 2>/dev/null || echo "v20.0.0")/bin:$HOME/bin:/usr/local/bin:/usr/bin:/bin:/opt/cpanel/ea-nodejs20/bin:/opt/cpanel/ea-nodejs18/bin:$PATH
+    - '[ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh" || true'
+    - '[ -s "$HOME/.bashrc" ] && . "$HOME/.bashrc" || true'
+    - npm install
+    - npm run build
     - export DEPLOYPATH=/home/storecen/public_html/news/
     - /bin/mkdir -p $DEPLOYPATH
-    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' ./ $DEPLOYPATH
+    - /bin/rsync -av --delete --exclude='.git' --exclude='.cpanel.yml' --exclude='node_modules' dist/ $DEPLOYPATH

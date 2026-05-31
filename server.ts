@@ -55,7 +55,7 @@ if (apiKey) {
 }
 
 import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "firebase/firestore";
+import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc, getDocsFromServer, getDocFromServer } from "firebase/firestore";
 
 let rawFirebaseConfig: any = {};
 try {
@@ -169,7 +169,7 @@ async function syncAutomationLog(log: any) {
 
 async function syncClearAutomationLogs() {
   try {
-    const snap = await getDocs(collection(dbStore, "automationLogs"));
+    const snap = await getDocsFromServer(collection(dbStore, "automationLogs"));
     for (const d of snap.docs) {
       await deleteDoc(doc(dbStore, "automationLogs", d.id));
     }
@@ -214,12 +214,12 @@ async function loadDatabaseFromFirestore() {
     // Timeout-guarded Promise.all para prevenir travamentos em ambientes serverless como o Vercel
     const snaps = await Promise.race([
       Promise.all([
-        getDocs(collection(dbStore, "posts")),
-        getDocs(collection(dbStore, "feeds")),
-        getDocs(collection(dbStore, "ads")),
-        getDocs(collection(dbStore, "settings")),
-        getDocs(collection(dbStore, "automationLogs")),
-        getDocs(collection(dbStore, "deletedPostItems"))
+        getDocsFromServer(collection(dbStore, "posts")),
+        getDocsFromServer(collection(dbStore, "feeds")),
+        getDocsFromServer(collection(dbStore, "ads")),
+        getDocsFromServer(collection(dbStore, "settings")),
+        getDocsFromServer(collection(dbStore, "automationLogs")),
+        getDocsFromServer(collection(dbStore, "deletedPostItems"))
       ]),
       new Promise<never>((_, reject) => 
         setTimeout(() => reject(new Error("Timeout de 4000ms tentando acessar o Firestore")), 4000)
@@ -273,7 +273,11 @@ async function loadDatabaseFromFirestore() {
         automationLogs,
         deletedPostItems
       };
-      fs.writeFileSync(DB_PATH, JSON.stringify(dbCache, null, 2), "utf-8");
+      try {
+        fs.writeFileSync(DB_PATH, JSON.stringify(dbCache, null, 2), "utf-8");
+      } catch (writeErr: any) {
+        console.warn("[FIREBASE] Sistema de arquivos é somente-leitura em produção. Mantendo banco atualizado em memória:", writeErr.message);
+      }
       console.log("[FIREBASE] Carregado com sucesso!");
     }
   } catch (err) {
@@ -410,34 +414,100 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
 // API Routes
 
-// 0. Authentication Route
+// 0. Diagnostic Health Route for Live Production Verification
+app.get("/api/health", async (req, res) => {
+  try {
+    let firestoreStatus = "Conectando...";
+    let firestoreError = null;
+    try {
+      const snap = await getDocsFromServer(collection(dbStore, "settings"));
+      firestoreStatus = `Conectado com sucesso. Coleção 'settings' ativa (Total de settings: ${snap.size})`;
+    } catch (fsErr: any) {
+      firestoreStatus = "Erro de conexão";
+      firestoreError = fsErr.message || String(fsErr);
+    }
+
+    res.json({
+      status: "online",
+      ambiente: process.env.VERCEL ? "Vercel Serverless" : "AI Studio Preview Container",
+      verificacao_firestore: {
+        status: firestoreStatus,
+        erro: firestoreError,
+        databaseId: firebaseConfig.firestoreDatabaseId
+      },
+      variaveis_servidor: {
+        ADMIN_USER: process.env.ADMIN_USER ? "Configurada no Vercel (OK)" : "Ausente (Utilizando fallback 'admin')",
+        ADMIN_PASSWORD: process.env.ADMIN_PASSWORD ? "Configurada no Vercel (OK)" : "Ausente (Utilizando fallback 'admin123')",
+        CRON_SECRET: process.env.CRON_SECRET ? "Configurada no Vercel (OK)" : "Ausente (Execução de cron aberta ao preview)",
+        GEMINI_API_KEY: process.env.GEMINI_API_KEY ? "Configurada no Vercel (OK)" : "Ausente (A geração de matéria usará fallbacks)"
+      },
+      database_cache: {
+        posts: dbCache?.posts?.length || 0,
+        feeds: dbCache?.feeds?.length || 0,
+        settings: dbCache?.settings ? "Carregados (OK)" : "Vazio",
+        automationLogs: dbCache?.automationLogs?.length || 0
+      },
+      horario_servidor: new Date().toISOString()
+    });
+  } catch (err: any) {
+    res.status(500).json({ status: "offline", error: err.message });
+  }
+});
+
+// 0. Authentication Route with explicit diagnostic errors
 app.post("/api/login", (req, res) => {
   try {
     const { username, password } = req.body || {};
+    
+    if (!username || !password) {
+      return res.status(400).json({ 
+        success: false, 
+        error: "Dados ausentes. O usuário e a senha devem ser preenchidos." 
+      });
+    }
     
     // Suporte flexível para 'admin' ou o nome da marca 'storecenter'
     const adminUser = (process.env.ADMIN_USER || "admin").trim();
     const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
 
-    const isUserValid = username && (
-      username.trim() === adminUser || 
-      username.trim().toLowerCase() === "admin" || 
-      username.trim().toLowerCase() === "storecenter"
-    );
+    const typedUser = username.trim();
+    const typedPass = password.trim();
 
-    const isPassValid = password && (
-      password.trim() === adminPass || 
-      password.trim() === "admin123"
-    );
+    const matchesEnvUser = typedUser === adminUser;
+    const matchesDefaultUser = typedUser.toLowerCase() === "admin";
+    const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
 
-    if (isUserValid && isPassValid) {
-      res.json({ success: true, message: "Autenticado com sucesso" });
-    } else {
-      res.status(401).json({ success: false, error: "Usuário ou senha inválidos. Verifique as credenciais ou as variáveis de ambiente." });
+    const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
+    
+    // A senha é válida se for a principal cadastrada ou se for o fallback admin123 para o fallback admin
+    const matchesEnvPass = typedPass === adminPass;
+    const matchesDefaultPass = typedPass === "admin123";
+    const isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+
+    if (!isUserValid) {
+      return res.status(401).json({ 
+        success: false, 
+        error: `O usuário '${typedUser}' não está cadastrado neste painel admin.` 
+      });
     }
+
+    if (!isPassValid) {
+      return res.status(401).json({ 
+        success: false, 
+        error: "A senha especificada está inválida para este usuário." 
+      });
+    }
+
+    res.json({ 
+      success: true, 
+      message: "Autenticado com sucesso" 
+    });
   } catch (error: any) {
     console.error("Falha na execução interna de login:", error);
-    res.status(500).json({ success: false, error: `Erro interno no servidor de autenticação: ${error.message}` });
+    res.status(500).json({ 
+      success: false, 
+      error: `Servidor de autenticação indisponível: ${error.message}` 
+    });
   }
 });
 
@@ -2639,11 +2709,19 @@ async function cronRssAuto() {
     totalImported++;
     importedPosts.push(newPost.title);
 
+    // Sync newly created post to Firestore immediately!
+    try {
+      await syncPost(newPost);
+      console.log(`[FIREBASE] Post RSS "${newPost.title}" sincronizado com sucesso no Firestore.`);
+    } catch (fsErr: any) {
+      console.error(`[FIREBASE] Erro ao sincronizar post RSS "${newPost.title}" no Firestore:`, fsErr);
+    }
+
     // Save logs including the brand new category-diversity statistics
     if (!db.automationLogs) {
       db.automationLogs = [];
     }
-    db.automationLogs.unshift({
+    const logEntry = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),
       feedName: feed.name,
       feedUrl: feed.url,
@@ -2662,7 +2740,16 @@ async function cronRssAuto() {
       categoryScore: winner.categoryScore,
       choiceReason: winner.reasonsSummary + ` | Pontuação Total do Candidato: ${winner.compositeScore}`,
       discardedCategories: discardedCategoriesArray
-    });
+    };
+    db.automationLogs.unshift(logEntry);
+
+    // Sync newly created automation log to Firestore immediately!
+    try {
+      await syncAutomationLog(logEntry);
+      console.log(`[FIREBASE] Log de automação do post "${newPost.title}" sincronizado com sucesso no Firestore.`);
+    } catch (fsErr: any) {
+      console.error(`[FIREBASE] Erro ao sincronizar log de automação para "${newPost.title}" no Firestore:`, fsErr);
+    }
   }
 
   if (totalImported > 0) {
@@ -2705,17 +2792,33 @@ function fallbackRewrite(item: any, feed: any) {
   };
 }
 
+function isAuthorizedCron(req: express.Request): boolean {
+  const cronSecret = process.env.CRON_SECRET;
+  if (!cronSecret) return true; // If no cron secret is configured, allow execution
+  
+  // 1. Check Query Secret ?secret=VALUE
+  const reqSecret = req.query.secret;
+  if (reqSecret === cronSecret) return true;
+  
+  // 2. Check Authorization Header (Vercel automatic Cron Header)
+  const authHeader = req.headers.authorization;
+  if (authHeader) {
+    const token = authHeader.replace(/^Bearer\s+/i, "").trim();
+    if (token === cronSecret) return true;
+  }
+  
+  return false;
+}
+
 // REST Cron Route: Publish Scheduled Posts
 app.get("/api/cron/publish-scheduled", async (req, res) => {
-  const cronSecret = process.env.CRON_SECRET;
-  const reqSecret = req.query.secret;
-  if (cronSecret && reqSecret !== cronSecret) {
+  if (!isAuthorizedCron(req)) {
     return res.status(401).json({
       status: "error",
       "quantidade de posts criados": 0,
       "quantidade de posts publicados": 0,
       "horário da execução": new Date().toISOString(),
-      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida."
+      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida ou ausente."
     });
   }
 
@@ -2750,15 +2853,13 @@ app.get("/api/cron/publish-scheduled", async (req, res) => {
 
 // REST Cron Route: RSS Feed Auto-Scraper
 app.get("/api/cron/rss-auto", async (req, res) => {
-  const cronSecret = process.env.CRON_SECRET;
-  const reqSecret = req.query.secret;
-  if (cronSecret && reqSecret !== cronSecret) {
+  if (!isAuthorizedCron(req)) {
     return res.status(401).json({
       status: "error",
       "quantidade de posts criados": 0,
       "quantidade de posts publicados": 0,
       "horário da execução": new Date().toISOString(),
-      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida."
+      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida ou ausente."
     });
   }
 

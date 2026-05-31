@@ -165,16 +165,23 @@ export default function AdminPanel({
         body: JSON.stringify({ username, password }),
       });
 
-      const data = await response.json();
-      if (response.ok && data.success) {
-        setIsAuthenticated(true);
-        setLoginError('');
+      const contentType = response.headers.get('content-type');
+      if (contentType && contentType.includes('application/json')) {
+        const data = await response.json();
+        if (response.ok && data.success) {
+          setIsAuthenticated(true);
+          setLoginError('');
+        } else {
+          setLoginError(data.error || 'Credenciais inválidas! Verifique as variáveis de ambiente.');
+        }
       } else {
-        setLoginError(data.error || 'Credenciais inválidas! Verifique as variáveis de ambiente.');
+        const text = await response.text();
+        console.error('Resposta não-JSON do servidor:', text);
+        setLoginError(`Erro do servidor (${response.status}): ${text.substring(0, 100)}...`);
       }
-    } catch (err) {
+    } catch (err: any) {
       console.error('Erro na autenticação:', err);
-      setLoginError('Ocorreu um erro ao conectar-se ao servidor de autenticação.');
+      setLoginError(`Erro de conexão com o servidor de autenticação: ${err.message || String(err)}`);
     } finally {
       setIsLoggingIn(false);
     }
@@ -599,12 +606,6 @@ export default function AdminPanel({
               )}
             </button>
           </form>
-
-          <div className="border-t border-slate-100 pt-4 text-center">
-            <p className="text-[10px] text-slate-400 font-semibold uppercase tracking-wider">
-              Acesso Inicial: <code className="bg-slate-100 text-slate-600 px-1 rounded">admin</code> e <code className="bg-slate-100 text-slate-600 px-1 rounded">admin123</code>
-            </p>
-          </div>
         </div>
       </div>
     );

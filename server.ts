@@ -27,35 +27,231 @@ if (apiKey) {
   });
 }
 
-// Helper to read DB
-function readDatabase() {
+import { initializeApp } from "firebase/app";
+import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc } from "firebase/firestore";
+import firebaseConfig from "./firebase-applet-config.json" assert { type: "json" };
+
+const firebaseApp = initializeApp(firebaseConfig);
+const dbStore = getFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
+
+let dbCache: any = {
+  posts: [],
+  feeds: [],
+  ads: [],
+  settings: {},
+  automationLogs: [],
+  deletedPostItems: []
+};
+
+// Granular Sync Helpers to keep Firestore updated
+async function syncPost(post: any) {
   try {
-    if (fs.existsSync(DB_PATH)) {
-      const raw = fs.readFileSync(DB_PATH, "utf-8");
-      const parsed = JSON.parse(raw);
-      if (!parsed.automationLogs) {
-        parsed.automationLogs = [];
-      }
-      if (!parsed.deletedPostItems) {
-        parsed.deletedPostItems = [];
-      }
-      if (!parsed.posts) {
-        parsed.posts = [];
-      }
-      return parsed;
+    if (post && post.id) {
+      await setDoc(doc(dbStore, "posts", String(post.id)), post);
     }
   } catch (err) {
-    console.error("Erro lendo db.json:", err);
+    console.error("[FIREBASE] Erro ao sincronizar post no Firestore:", err);
   }
-  return { posts: [], feeds: [], ads: [], settings: {}, automationLogs: [] };
+}
+
+async function syncDeletePost(postId: string) {
+  try {
+    await deleteDoc(doc(dbStore, "posts", String(postId)));
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao deletar post do Firestore:", err);
+  }
+}
+
+async function syncDeletedPostItem(item: any) {
+  try {
+    if (item && item.id) {
+      await setDoc(doc(dbStore, "deletedPostItems", String(item.id)), item);
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao salvar item deletado no Firestore:", err);
+  }
+}
+
+async function syncFeed(feed: any) {
+  try {
+    if (feed && feed.id) {
+      await setDoc(doc(dbStore, "feeds", String(feed.id)), feed);
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao sincronizar feed no Firestore:", err);
+  }
+}
+
+async function syncDeleteFeed(feedId: string) {
+  try {
+    await deleteDoc(doc(dbStore, "feeds", String(feedId)));
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao deletar feed do Firestore:", err);
+  }
+}
+
+async function syncAllAds(ads: any[]) {
+  try {
+    for (const ad of ads) {
+      if (ad && ad.id) {
+        await setDoc(doc(dbStore, "ads", String(ad.id)), ad);
+      }
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao sincronizar anuncios no Firestore:", err);
+  }
+}
+
+async function syncSettings(settings: any) {
+  try {
+    await setDoc(doc(dbStore, "settings", "main"), settings);
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao sincronizar configuracoes no Firestore:", err);
+  }
+}
+
+async function syncAutomationLog(log: any) {
+  try {
+    if (log && log.id) {
+      await setDoc(doc(dbStore, "automationLogs", String(log.id)), log);
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao sincronizar log no Firestore:", err);
+  }
+}
+
+async function syncClearAutomationLogs() {
+  try {
+    const snap = await getDocs(collection(dbStore, "automationLogs"));
+    for (const d of snap.docs) {
+      await deleteDoc(doc(dbStore, "automationLogs", d.id));
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao limpar logs no Firestore:", err);
+  }
+}
+
+async function syncAllToFirestore(data: any) {
+  try {
+    console.log("[FIREBASE] Sincronizando dados completos com o Firestore...");
+    for (const p of (data.posts || [])) {
+      if (p && p.id) await setDoc(doc(dbStore, "posts", String(p.id)), p);
+    }
+    for (const f of (data.feeds || [])) {
+      if (f && f.id) await setDoc(doc(dbStore, "feeds", String(f.id)), f);
+    }
+    for (const ad of (data.ads || [])) {
+      if (ad && ad.id) await setDoc(doc(dbStore, "ads", String(ad.id)), ad);
+    }
+    if (data.settings) {
+      await setDoc(doc(dbStore, "settings", "main"), data.settings);
+    }
+    const logsToSave = (data.automationLogs || []).slice(0, 50);
+    for (const log of logsToSave) {
+      if (log && log.id) await setDoc(doc(dbStore, "automationLogs", String(log.id)), log);
+    }
+    const deletedToSave = (data.deletedPostItems || []).slice(0, 50);
+    for (const del of deletedToSave) {
+      if (del && del.id) await setDoc(doc(dbStore, "deletedPostItems", String(del.id)), del);
+    }
+    console.log("[FIREBASE] Sincronizacao completa com sucesso!");
+  } catch (err) {
+    console.error("[FIREBASE] Erro na sincronizacao completa:", err);
+  }
+}
+
+async function loadDatabaseFromFirestore() {
+  try {
+    console.log("[FIREBASE] Carregando do Firestore...");
+    const [postsSnap, feedsSnap, adsSnap, settingsSnap, logsSnap, deletedSnap] = await Promise.all([
+      getDocs(collection(dbStore, "posts")),
+      getDocs(collection(dbStore, "feeds")),
+      getDocs(collection(dbStore, "ads")),
+      getDocs(collection(dbStore, "settings")),
+      getDocs(collection(dbStore, "automationLogs")),
+      getDocs(collection(dbStore, "deletedPostItems"))
+    ]);
+
+    const posts: any[] = [];
+    postsSnap.forEach(docSnap => posts.push(docSnap.data()));
+    posts.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+
+    const feeds: any[] = [];
+    feedsSnap.forEach(docSnap => feeds.push(docSnap.data()));
+
+    const ads: any[] = [];
+    adsSnap.forEach(docSnap => ads.push(docSnap.data()));
+
+    let settings: any = {};
+    settingsSnap.forEach(docSnap => {
+      if (docSnap.id === "main") settings = docSnap.data();
+    });
+
+    const automationLogs: any[] = [];
+    logsSnap.forEach(docSnap => automationLogs.push(docSnap.data()));
+    automationLogs.sort((a, b) => new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime());
+
+    const deletedPostItems: any[] = [];
+    deletedSnap.forEach(docSnap => deletedPostItems.push(docSnap.data()));
+    deletedPostItems.sort((a, b) => new Date(b.deletedAt || 0).getTime() - new Date(a.deletedAt || 0).getTime());
+
+    if (posts.length === 0 && feeds.length === 0 && fs.existsSync(DB_PATH)) {
+      console.log("[FIREBASE] Base do Firestore vazia. Migrando db.json local...");
+      const raw = fs.readFileSync(DB_PATH, "utf-8");
+      const localData = JSON.parse(raw);
+      dbCache = {
+        posts: localData.posts || [],
+        feeds: localData.feeds || [],
+        ads: localData.ads || [],
+        settings: localData.settings || {},
+        automationLogs: localData.automationLogs || [],
+        deletedPostItems: localData.deletedPostItems || []
+      };
+      await syncAllToFirestore(dbCache);
+    } else {
+      dbCache = {
+        posts,
+        feeds,
+        ads,
+        settings,
+        automationLogs,
+        deletedPostItems
+      };
+      fs.writeFileSync(DB_PATH, JSON.stringify(dbCache, null, 2), "utf-8");
+      console.log("[FIREBASE] Carregado com sucesso!");
+    }
+  } catch (err) {
+    console.error("[FIREBASE] Erro ao carregar, usando db.json local:", err);
+    if (fs.existsSync(DB_PATH)) {
+      const raw = fs.readFileSync(DB_PATH, "utf-8");
+      dbCache = JSON.parse(raw);
+    }
+  }
+}
+
+// Helper to read DB
+function readDatabase() {
+  if (!dbCache || !dbCache.posts) {
+    dbCache = { posts: [], feeds: [], ads: [], settings: {}, automationLogs: [], deletedPostItems: [] };
+  }
+  return dbCache;
 }
 
 // Helper to write DB
 function writeDatabase(data: any) {
+  dbCache = data;
   try {
     fs.writeFileSync(DB_PATH, JSON.stringify(data, null, 2), "utf-8");
-  } catch (err) {
+  } catch (err: any) {
     console.error("Erro gravando db.json:", err);
+    if (!dbCache.automationLogs) dbCache.automationLogs = [];
+    dbCache.automationLogs.unshift({
+      id: "err-" + String(Date.now()),
+      timestamp: new Date().toISOString(),
+      type: "error",
+      errorType: "salvamento",
+      message: `Falha critica ao gravar base local (fs.writeFileSync): ${err.message || err}`
+    });
   }
 }
 
@@ -2436,31 +2632,97 @@ function fallbackRewrite(item: any, feed: any) {
 }
 
 // REST Cron Route: Publish Scheduled Posts
-app.get("/api/cron/publish-scheduled", (req, res) => {
+app.get("/api/cron/publish-scheduled", async (req, res) => {
+  const cronSecret = process.env.CRON_SECRET;
+  const reqSecret = req.query.secret;
+  if (cronSecret && reqSecret !== cronSecret) {
+    return res.status(401).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida."
+    });
+  }
+
   try {
     const result = cronPublishScheduled();
+    
+    // Sync newly published posts to Firestore
+    const db = readDatabase();
+    for (const p of db.posts) {
+      if (result.publishedTitles.includes(p.title)) {
+        await syncPost(p);
+      }
+    }
+
     res.json({
-      success: true,
-      message: "Rotina executada com sucesso",
-      time: new Date().toISOString(),
-      ...result
+      status: "success",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": result.updatedCount || 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": null
     });
   } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+    res.status(500).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": error.message || String(error)
+    });
   }
 });
 
 // REST Cron Route: RSS Feed Auto-Scraper
 app.get("/api/cron/rss-auto", async (req, res) => {
+  const cronSecret = process.env.CRON_SECRET;
+  const reqSecret = req.query.secret;
+  if (cronSecret && reqSecret !== cronSecret) {
+    return res.status(401).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida."
+    });
+  }
+
   try {
     const result = await cronRssAuto();
     res.json({
-      success: true,
-      time: new Date().toISOString(),
-      ...result
+      status: "success",
+      "quantidade de posts criados": result.totalImported || 0,
+      "quantidade de posts publicados": result.totalImported || 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": null
     });
   } catch (error: any) {
-    res.status(500).json({ success: false, error: error.message });
+    // Save error trace to Firestore database for administrator traceability
+    try {
+      const db = readDatabase();
+      const errLog = {
+        id: "err-" + String(Date.now()),
+        timestamp: new Date().toISOString(),
+        type: "error",
+        errorType: "cron_failure",
+        message: `Falha crítica generalizada na execução do cron RSS: ${error.message || error}`
+      };
+      if (!db.automationLogs) db.automationLogs = [];
+      db.automationLogs.unshift(errLog);
+      writeDatabase(db);
+      await syncAutomationLog(errLog);
+    } catch (dbErr) {
+      console.error("Erro ao salvar log de erro do cron:", dbErr);
+    }
+
+    res.status(500).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": error.message || String(error)
+    });
   }
 });
 
@@ -2488,6 +2750,13 @@ app.delete("/api/automation-logs", (req, res) => {
 
 // Vite & Static Asset Handling based on standard applet constraints
 async function startServer() {
+  // Inicializa o banco de dados carregando-o do Firestore
+  try {
+    await loadDatabaseFromFirestore();
+  } catch (err) {
+    console.error("[STARTUP] Erro primordial ao carregar do Firestore:", err);
+  }
+
   // Executa limpeza de posts [RSS] legados no banco de dados na inicialização
   try {
     fixExistingRssPosts();

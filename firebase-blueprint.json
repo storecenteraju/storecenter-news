@@ -1,0 +1,130 @@
+{
+  "entities": {
+    "Post": {
+      "title": "Post",
+      "description": "Represents a curated or manually written article on the platform.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "subtitle": { "type": "string" },
+        "slug": { "type": "string" },
+        "content": { "type": "string" },
+        "category": { "type": "string" },
+        "tags": { "type": "array" },
+        "author": { "type": "string" },
+        "date": { "type": "string" },
+        "status": { "type": "string" },
+        "publishAt": { "type": "string" },
+        "image": { "type": "string" },
+        "seoTitle": { "type": "string" },
+        "seoDescription": { "type": "string" },
+        "keyword": { "type": "string" },
+        "imagePrompt": { "type": "string" },
+        "views": { "type": "number" },
+        "isTestPost": { "type": "boolean" },
+        "isUrgente": { "type": "boolean" }
+      },
+      "required": ["id", "title", "content", "category", "status"]
+    },
+    "RSSFeed": {
+      "title": "RSSFeed",
+      "description": "An RSS Feed source monitored by the background automatic scraper.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "url": { "type": "string" },
+        "category": { "type": "string" },
+        "status": { "type": "string" },
+        "lastScraped": { "type": "string" }
+      },
+      "required": ["id", "name", "url", "category", "status"]
+    },
+    "AdUnit": {
+      "title": "AdUnit",
+      "description": "An advertisement snippet container.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "slot": { "type": "string" },
+        "code": { "type": "string" },
+        "enabled": { "type": "boolean" }
+      },
+      "required": ["id", "name", "slot", "code", "enabled"]
+    },
+    "SiteSettings": {
+      "title": "SiteSettings",
+      "description": "Global general configuration properties for the portal site.",
+      "type": "object",
+      "properties": {
+        "siteName": { "type": "string" },
+        "siteDescription": { "type": "string" },
+        "footerText": { "type": "string" },
+        "analyticsId": { "type": "string" },
+        "contactEmail": { "type": "string" }
+      }
+    },
+    "AutomationLog": {
+      "title": "AutomationLog",
+      "description": "Keeps trace of scraper operations, feed item conversions, and errors.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "feedName": { "type": "string" },
+        "feedUrl": { "type": "string" },
+        "originalTitle": { "type": "string" },
+        "publishedTitle": { "type": "string" },
+        "postId": { "type": "string" },
+        "imageUrl": { "type": "string" },
+        "imageSource": { "type": "string" },
+        "imagePrompt": { "type": "string" },
+        "type": { "type": "string" },
+        "errorType": { "type": "string" },
+        "message": { "type": "string" }
+      },
+      "required": ["id", "timestamp"]
+    },
+    "DeletedPostItem": {
+      "title": "DeletedPostItem",
+      "description": "Represents an article metadata tracing historical entries deleted to avoid imports duplication.",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "title": { "type": "string" },
+        "sourceUrl": { "type": "string" },
+        "slug": { "type": "string" },
+        "deletedAt": { "type": "string" }
+      },
+      "required": ["id", "deletedAt"]
+    }
+  },
+  "firestore": {
+    "posts/{postId}": {
+      "schema": "Post",
+      "description": "Stores site news and articles."
+    },
+    "feeds/{feedId}": {
+      "schema": "RSSFeed",
+      "description": "Monitored RSS feeds."
+    },
+    "ads/{adId}": {
+      "schema": "AdUnit",
+      "description": "Advertiser containers."
+    },
+    "settings/main": {
+      "schema": "SiteSettings",
+      "description": "Main portal configuration."
+    },
+    "automationLogs/{logId}": {
+      "schema": "AutomationLog",
+      "description": "Chronological traceability logs."
+    },
+    "deletedPostItems/{deletedId}": {
+      "schema": "DeletedPostItem",
+      "description": "History of deleted posts."
+    }
+  }
+}

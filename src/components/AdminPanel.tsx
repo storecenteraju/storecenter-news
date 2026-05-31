@@ -1648,6 +1648,117 @@ export default function AdminPanel({
             </div>
           </div>
 
+          {/* AUTOMATION STATS AND MONITOR CONTROL DASHBOARD (POINT 8) */}
+          {!logsLoading && automationLogs.length > 0 && (
+            (() => {
+              const successfullyImportedLogs = automationLogs.filter((log: any) => log.type !== 'error');
+              const errorLogs = automationLogs.filter((log: any) => log.type === 'error');
+              const lastLog = automationLogs[0];
+              const lastSuccessLog = successfullyImportedLogs[0];
+              
+              const ultimaExecucao = lastLog ? formatDate(lastLog.timestamp) : "Nunca executado";
+              
+              let proximoAgendamento = "Agendado a cada 45 minutos (via Vercel Cron)";
+              if (lastLog) {
+                const lastTime = new Date(lastLog.timestamp).getTime();
+                const nextTime = new Date(lastTime + 45 * 60 * 1000);
+                proximoAgendamento = formatDate(nextTime.toISOString());
+              }
+              
+              const lastRunSuccessLogs = lastSuccessLog
+                ? successfullyImportedLogs.filter((log: any) => {
+                    const diff = Math.abs(new Date(log.timestamp).getTime() - new Date(lastSuccessLog.timestamp).getTime());
+                    return diff <= 60000;
+                  })
+                : [];
+              
+              const iaRssErrors = errorLogs.filter((log: any) => log.errorType === 'ia' || log.errorType === 'rss' || log.errorType === 'cron_failure');
+              const salvamentoErrors = errorLogs.filter((log: any) => log.errorType === 'salvamento');
+
+              return (
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-2">
+                  <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col justify-between">
+                    <div>
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block mb-1">Status de Escalonamento (Vercel Cron)</span>
+                      <div className="space-y-2 mt-2">
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="text-slate-500 font-semibold">Última Execução:</span>
+                          <span className="font-mono font-bold text-slate-800">{ultimaExecucao}</span>
+                        </div>
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="text-slate-500 font-semibold">Próxima Prevista:</span>
+                          <span className="font-mono font-bold text-blue-600">{proximoAgendamento}</span>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="border-t border-slate-200/60 pt-2 mt-3 flex items-center gap-1.5 text-[10px] text-slate-500 font-semibold">
+                      <Calendar className="w-3.5 h-3.5 text-slate-400" />
+                      <span>Frequência ativa: 45 minutos</span>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col justify-between">
+                    <div>
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block mb-1">Posts Gerados na Última Execução</span>
+                      <div className="mt-2 space-y-1 max-h-24 overflow-y-auto">
+                        {lastRunSuccessLogs.length === 0 ? (
+                          <span className="text-xs text-slate-500 font-semibold italic">Nenhum post gerado recentemente</span>
+                        ) : (
+                          lastRunSuccessLogs.map((log: any, idx: number) => (
+                            <div key={log.id || idx} className="flex items-center gap-2 text-xs bg-white border border-slate-150 p-1.5 rounded shadow-xs truncate">
+                              <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 shrink-0 animate-pulse"></span>
+                              <p className="font-bold text-slate-800 truncate" title={log.publishedTitle}>
+                                {log.publishedTitle}
+                              </p>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                    </div>
+                    <div className="border-t border-slate-200/60 pt-2 mt-3 text-[10px] text-slate-500 font-semibold flex justify-between items-center">
+                      <span>Total de itens no ar:</span>
+                      <span className="font-bold bg-slate-200/75 px-1.5 py-0.5 rounded text-slate-800">{successfullyImportedLogs.length} posts</span>
+                    </div>
+                  </div>
+
+                  <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col justify-between md:col-span-2 lg:col-span-1">
+                    <div>
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block mb-1">Integridade das Rotinas e Banco</span>
+                      <div className="space-y-2 mt-2">
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="text-slate-500 font-semibold">Erros da IA ou RSS:</span>
+                          {iaRssErrors.length === 0 ? (
+                            <span className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-[9.5px] font-black px-1.5 py-0.5 rounded uppercase">0 Falhas</span>
+                          ) : (
+                            <span className="bg-rose-50 border border-rose-200 text-rose-800 text-[9.5px] font-black px-1.5 py-0.5 rounded uppercase">
+                              {iaRssErrors.length} {iaRssErrors.length === 1 ? "Erro" : "Erros"}
+                            </span>
+                          )}
+                        </div>
+                        <div className="flex justify-between items-center text-xs">
+                          <span className="text-slate-500 font-semibold">Erros de Salvamento (Firestore):</span>
+                          {salvamentoErrors.length === 0 ? (
+                            <span className="bg-emerald-50 border border-emerald-200 text-emerald-800 text-[9.5px] font-black px-1.5 py-0.5 rounded uppercase font-bold">0 Falhas</span>
+                          ) : (
+                            <span className="bg-red-50 border border-red-200 text-red-850 text-[9.5px] font-black px-1.5 py-0.5 rounded uppercase font-bold animate-bounce">
+                              {salvamentoErrors.length} {salvamentoErrors.length === 1 ? "Falha" : "Falhas"}
+                            </span>
+                          )}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="border-t border-slate-200/60 pt-2 mt-3 text-[10px] flex justify-between items-center font-semibold">
+                      <span className="text-slate-500">Estado de Sincronia:</span>
+                      <span className={`${errorLogs.length === 0 ? 'text-emerald-600' : 'text-amber-500'} font-black uppercase tracking-wider`}>
+                        {errorLogs.length === 0 ? 'Excelente (100%)' : 'Atenção Requerida'}
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              );
+            })()
+          )}
+
           {logsLoading ? (
             <div className="py-20 flex flex-col items-center justify-center text-slate-400">
               <Loader2 className="w-8 h-8 animate-spin text-amber-600 mb-2" />
@@ -1674,86 +1785,142 @@ export default function AdminPanel({
                 <tbody className="divide-y divide-slate-100 text-slate-700 font-medium">
                   {automationLogs.map((log: any) => (
                     <React.Fragment key={log.id}>
-                      <tr 
-                        onClick={() => setExpandedLogId(expandedLogId === log.id ? null : log.id)}
-                        className={`hover:bg-slate-50/80 transition-colors cursor-pointer select-none ${expandedLogId === log.id ? 'bg-amber-50/30' : ''}`}
-                      >
-                        <td className="p-4 font-mono text-slate-500 text-[10px] whitespace-nowrap">
-                          <div className="flex items-center gap-1.5">
-                            {expandedLogId === log.id ? (
-                              <ChevronDown className="w-3.5 h-3.5 text-amber-500 shrink-0" />
-                            ) : (
-                              <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                            )}
-                            <span>{formatDate(log.timestamp)}</span>
-                          </div>
-                        </td>
-                        <td className="p-4 max-w-[200px]">
-                          <p className="font-bold text-slate-900 truncate" title={log.feedName}>
-                            {log.feedName}
-                          </p>
-                          <a 
-                            href={log.feedUrl} 
-                            target="_blank" 
-                            rel="noreferrer" 
-                            onClick={(e) => e.stopPropagation()}
-                            className="text-[10px] text-blue-500 hover:underline block truncate font-mono text-slate-400"
-                          >
-                            {log.feedUrl}
-                          </a>
-                        </td>
-                        <td className="p-4 max-w-[240px] text-slate-600 truncate" title={log.originalTitle}>
-                          {log.originalTitle}
-                        </td>
-                        <td className="p-4 whitespace-nowrap">
-                          <div className="flex flex-col gap-1">
+                      {log.type === 'error' ? (
+                        <tr 
+                          onClick={() => setExpandedLogId(expandedLogId === log.id ? null : log.id)}
+                          className={`hover:bg-rose-50/40 bg-rose-50/10 transition-colors cursor-pointer select-none ${expandedLogId === log.id ? 'bg-rose-50/60' : ''}`}
+                        >
+                          <td className="p-4 font-mono text-rose-600 text-[10px] whitespace-nowrap font-bold">
                             <div className="flex items-center gap-1.5">
-                              <img 
-                                src={log.imageUrl} 
-                                alt="Minisite" 
-                                referrerPolicy="no-referrer"
-                                className="w-10 h-6 object-cover rounded bg-slate-100 border border-slate-200"
-                              />
-                              <span className={`inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded leading-none ${
-                                (log.imageSource || log.imageGenerated) === 'Gemini' 
-                                  ? 'bg-purple-100 text-purple-800' 
-                                  : (log.imageSource || log.imageGenerated)?.includes('Fallback')
-                                    ? 'bg-slate-100 text-slate-700'
-                                    : 'bg-emerald-100 text-emerald-800'
-                              }`}>
-                                {log.imageSource || log.imageGenerated || "N/A"}
-                              </span>
-                              {log.imageStatus && (
-                                <span className={`inline-flex items-center text-[9px] font-bold px-1.5 py-0.5 rounded leading-none ${
-                                  log.imageStatus === 'Nova'
-                                    ? 'bg-emerald-100 border border-emerald-300 text-emerald-800'
-                                    : 'bg-amber-100 border border-amber-300 text-amber-800'
-                                }`}>
-                                  {log.imageStatus}
-                                </span>
+                              {expandedLogId === log.id ? (
+                                <ChevronDown className="w-3.5 h-3.5 text-rose-500 shrink-0" />
+                              ) : (
+                                <ChevronRight className="w-3.5 h-3.5 text-rose-400 shrink-0" />
                               )}
+                              <span>{formatDate(log.timestamp)}</span>
                             </div>
-                          </div>
-                        </td>
-                        <td className="p-4 max-w-[250px]">
-                          <p className="font-bold text-slate-900 truncate" title={log.publishedTitle}>
-                            {log.publishedTitle}
-                          </p>
-                          <span className="text-[9px] bg-blue-50 border border-blue-200 text-blue-700 font-bold px-1.5 py-0.5 rounded-full uppercase">
-                            ID: {log.postId}
-                          </span>
-                        </td>
-                      </tr>
+                          </td>
+                          <td className="p-4 max-w-[200px]">
+                            <p className="font-bold text-rose-950 truncate" title={log.feedName || "Sistema / Cron"}>
+                              {log.feedName || "Sistema / Cron"}
+                            </p>
+                            {log.feedUrl && (
+                              <span className="text-[10px] text-slate-400 font-mono truncate block">{log.feedUrl}</span>
+                            )}
+                          </td>
+                          <td colSpan={2} className="p-4 text-rose-700 font-medium max-w-[350px] truncate" title={log.message}>
+                            <span className="bg-rose-100 border border-rose-200 text-rose-850 text-[9px] font-black px-1.5 py-0.5 rounded uppercase mr-2.5 inline-block">
+                              FALHA
+                            </span>
+                            {log.message}
+                          </td>
+                          <td className="p-4 text-slate-400 italic">
+                            Operação cancelada
+                          </td>
+                        </tr>
+                      ) : (
+                        <tr 
+                          onClick={() => setExpandedLogId(expandedLogId === log.id ? null : log.id)}
+                          className={`hover:bg-slate-50/80 transition-colors cursor-pointer select-none ${expandedLogId === log.id ? 'bg-amber-50/30' : ''}`}
+                        >
+                          <td className="p-4 font-mono text-slate-500 text-[10px] whitespace-nowrap">
+                            <div className="flex items-center gap-1.5">
+                              {expandedLogId === log.id ? (
+                                <ChevronDown className="w-3.5 h-3.5 text-amber-500 shrink-0" />
+                              ) : (
+                                <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                              )}
+                              <span>{formatDate(log.timestamp)}</span>
+                            </div>
+                          </td>
+                          <td className="p-4 max-w-[200px]">
+                            <p className="font-bold text-slate-900 truncate" title={log.feedName}>
+                              {log.feedName}
+                            </p>
+                            <a 
+                              href={log.feedUrl} 
+                              target="_blank" 
+                              rel="noreferrer" 
+                              onClick={(e) => e.stopPropagation()}
+                              className="text-[10px] text-blue-500 hover:underline block truncate font-mono text-slate-400"
+                            >
+                              {log.feedUrl}
+                            </a>
+                          </td>
+                          <td className="p-4 max-w-[240px] text-slate-600 truncate" title={log.originalTitle}>
+                            {log.originalTitle}
+                          </td>
+                          <td className="p-4 whitespace-nowrap">
+                            <div className="flex flex-col gap-1">
+                              <div className="flex items-center gap-1.5">
+                                <img 
+                                  src={log.imageUrl} 
+                                  alt="Minisite" 
+                                  referrerPolicy="no-referrer"
+                                  className="w-10 h-6 object-cover rounded bg-slate-100 border border-slate-200"
+                                />
+                                <span className={`inline-flex items-center text-[10px] font-black px-2 py-0.5 rounded leading-none ${
+                                  (log.imageSource || log.imageGenerated) === 'Gemini' 
+                                    ? 'bg-purple-100 text-purple-800' 
+                                    : (log.imageSource || log.imageGenerated)?.includes('Fallback')
+                                      ? 'bg-slate-100 text-slate-700'
+                                      : 'bg-emerald-100 text-emerald-800'
+                                }`}>
+                                  {log.imageSource || log.imageGenerated || "N/A"}
+                                </span>
+                                {log.imageStatus && (
+                                  <span className={`inline-flex items-center text-[9px] font-bold px-1.5 py-0.5 rounded leading-none ${
+                                    log.imageStatus === 'Nova'
+                                      ? 'bg-emerald-100 border border-emerald-300 text-emerald-800'
+                                      : 'bg-amber-100 border border-amber-300 text-amber-800'
+                                  }`}>
+                                    {log.imageStatus}
+                                  </span>
+                                )}
+                              </div>
+                            </div>
+                          </td>
+                          <td className="p-4 max-w-[250px]">
+                            <p className="font-bold text-slate-900 truncate" title={log.publishedTitle}>
+                              {log.publishedTitle}
+                            </p>
+                            <span className="text-[9px] bg-blue-50 border border-blue-200 text-blue-700 font-bold px-1.5 py-0.5 rounded-full uppercase">
+                              ID: {log.postId}
+                            </span>
+                          </td>
+                        </tr>
+                      )}
                       {expandedLogId === log.id && (
                         <tr className="bg-slate-50/50">
                           <td colSpan={5} className="p-4 border-t border-slate-100">
-                            <div className="bg-slate-100/70 border border-slate-200/60 rounded-xl p-5 space-y-4 shadow-inner">
-                              <div className="flex items-center gap-2 border-b border-slate-200/60 pb-2">
-                                <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
-                                <h4 className="text-[11px] font-black uppercase text-slate-800 tracking-wider">
-                                  Relatório do Verificador Anti-Repetição &amp; Geração IA
-                                </h4>
+                            {log.type === 'error' ? (
+                              <div className="bg-rose-50/80 border border-rose-200 rounded-xl p-5 space-y-3 shadow-inner">
+                                <div className="flex items-center gap-2 border-b border-rose-250 pb-2 text-rose-800">
+                                  <AlertTriangle className="w-4 h-4 text-rose-600 shrink-0" />
+                                  <h4 className="text-[11px] font-black uppercase tracking-wider">
+                                    Relatório de Erro de Execução
+                                  </h4>
+                                </div>
+                                <div className="text-[11px] leading-relaxed text-slate-700 space-y-1.5">
+                                  <span className="text-[9px] font-black text-rose-500 uppercase tracking-widest block font-bold">Detalhes da Ocorrência:</span>
+                                  <div className="bg-white p-3.5 rounded-lg border border-rose-200 font-mono text-rose-950 leading-relaxed shadow-sm">
+                                    {log.message}
+                                  </div>
+                                  {log.feedUrl && (
+                                    <span className="text-[9.5px] block text-slate-400 mt-1 font-mono">
+                                      URL de Origem Configurada: <a href={log.feedUrl} target="_blank" rel="noreferrer" className="text-blue-500 hover:underline">{log.feedUrl}</a>
+                                    </span>
+                                  )}
+                                </div>
                               </div>
+                            ) : (
+                              <div className="bg-slate-100/70 border border-slate-200/60 rounded-xl p-5 space-y-4 shadow-inner">
+                                <div className="flex items-center gap-2 border-b border-slate-200/60 pb-2">
+                                  <ShieldCheck className="w-4 h-4 text-emerald-600 shrink-0" />
+                                  <h4 className="text-[11px] font-black uppercase text-slate-800 tracking-wider">
+                                    Relatório do Verificador Anti-Repetição &amp; Geração IA
+                                  </h4>
+                                </div>
                               
                               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                                 <div className="space-y-1.5">
@@ -1840,6 +2007,7 @@ export default function AdminPanel({
                                 )}
                               </div>
                             </div>
+                            )}
                           </td>
                         </tr>
                       )}

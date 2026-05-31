@@ -156,6 +156,7 @@ export default function App() {
                 siteSettings={settings}
                 onCategorySelect={setSelectedCategory}
                 onAdminClick={() => setView('admin')}
+                onSearchChange={setSearchQuery}
               />
             )
           ) : (

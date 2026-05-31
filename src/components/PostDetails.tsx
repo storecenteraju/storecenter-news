@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
 import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
+import AdSenseSlot from './AdSenseSlot';
 
 interface PostDetailsProps {
   post: Post;
@@ -176,16 +177,11 @@ export default function PostDetails({
         </div>
 
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE NO ARTIGO */}
-        <div className="mb-6 md:mb-8 max-w-7xl mx-auto flex justify-center">
-          {adTop ? (
-            <div 
-              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-              dangerouslySetInnerHTML={{ __html: adTop.code }}
-            />
-          ) : (
-            <div className="w-full min-h-[90px]"></div>
-          )}
-        </div>
+        {adTop && (
+          <div className="mb-4 md:mb-6 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
+            <AdSenseSlot code={adTop.code} minHeight="90px" />
+          </div>
+        )}
 
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           
@@ -278,16 +274,11 @@ export default function PostDetails({
               </div>
 
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
-              <div className="my-10 w-full flex justify-center">
-                {adMiddle ? (
-                  <div 
-                    className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-                    dangerouslySetInnerHTML={{ __html: adMiddle.code }}
-                  />
-                ) : (
-                  <div className="w-full min-h-[90px]"></div>
-                )}
-              </div>
+              {adMiddle && (
+                <div className="my-6 md:my-10 w-full flex justify-center overflow-hidden">
+                  <AdSenseSlot code={adMiddle.code} minHeight="90px" />
+                </div>
+              )}
 
               {/* ARTICLE PARAGRAPH BLOCK 2 */}
               <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed mt-6">
@@ -310,16 +301,11 @@ export default function PostDetails({
               </div>
 
               {/* BOTTOM AD BLOCK (IF ACTIVE) */}
-              <div className="mt-10 mb-2 w-full flex justify-center">
-                {adBottom ? (
-                  <div 
-                    className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-                    dangerouslySetInnerHTML={{ __html: adBottom.code }}
-                  />
-                ) : (
-                  <div className="w-full min-h-[90px]"></div>
-                )}
-              </div>
+              {adBottom && (
+                <div className="mt-6 mb-2 md:mt-10 w-full flex justify-center overflow-hidden">
+                  <AdSenseSlot code={adBottom.code} minHeight="90px" />
+                </div>
+              )}
 
               {/* ACTION BACK BUTTON AT THE END OF THE CORE ARTICLE */}
               <div className="mt-12 pt-6 border-t border-slate-150 flex flex-col sm:flex-row items-center justify-between gap-4 select-none">
@@ -432,14 +418,11 @@ export default function PostDetails({
             </div>
 
             {/* ADSENSE SIDEBAR BANNER CARD */}
-            <div className="w-full flex justify-center items-center">
-              {adSidebar ? (
-                <div 
-                  className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-x-auto min-h-[250px] md:min-h-[500px]"
-                  dangerouslySetInnerHTML={{ __html: adSidebar.code }}
-                />
-              ) : null}
-            </div>
+            {adSidebar && (
+              <div className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-hidden">
+                <AdSenseSlot code={adSidebar.code} minHeight="250px" />
+              </div>
+            )}
 
             {/* CLICKS COUNTER FOR CURRENT READING METRIC */}
             {(post.views || 0) >= 150 && (
@@ -487,16 +470,11 @@ export default function PostDetails({
         </div>
 
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE NO ARTIGO */}
-        <div className="mt-12 max-w-7xl mx-auto flex justify-center">
-          {adFooter ? (
-            <div 
-              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-              dangerouslySetInnerHTML={{ __html: adFooter.code }}
-            />
-          ) : (
-            <div className="w-full min-h-[90px]"></div>
-          )}
-        </div>
+        {adFooter && (
+          <div className="mt-6 md:mt-12 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
+            <AdSenseSlot code={adFooter.code} minHeight="90px" />
+          </div>
+        )}
 
       </div>
     </div>

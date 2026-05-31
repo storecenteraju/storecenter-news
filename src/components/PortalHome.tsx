@@ -1,6 +1,7 @@
 import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
 import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
+import AdSenseSlot from './AdSenseSlot';
 
 interface PortalHomeProps {
   posts: Post[];
@@ -11,6 +12,7 @@ interface PortalHomeProps {
   siteSettings: any;
   onCategorySelect?: (cat: CategoryType | 'Home') => void;
   onAdminClick?: () => void;
+  onSearchChange?: (val: string) => void;
 }
 
 export default function PortalHome({
@@ -21,7 +23,8 @@ export default function PortalHome({
   onPostClick,
   siteSettings,
   onCategorySelect,
-  onAdminClick
+  onAdminClick,
+  onSearchChange
 }: PortalHomeProps) {
   
   // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
@@ -204,23 +207,18 @@ export default function PortalHome({
 
   return (
     <div className="bg-slate-50 min-h-screen">
-      <main className="max-w-7xl mx-auto px-4 py-6 md:py-10">
+      <main className="max-w-7xl mx-auto px-4 py-4 md:py-10">
         
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE */}
-        <div className="mb-8 md:mb-10 max-w-7xl mx-auto flex justify-center">
-          {adTop ? (
-            <div 
-              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-              dangerouslySetInnerHTML={{ __html: adTop.code }}
-            />
-          ) : (
-            <div className="w-full min-h-[90px]"></div>
-          )}
-        </div>
+        {adTop && (
+          <div className="mb-4 md:mb-8 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
+            <AdSenseSlot code={adTop.code} minHeight="90px" />
+          </div>
+        )}
 
         {/* CATEGORY HEADER BANNER (IF FILTER APPLIED) */}
         {selectedCategory !== 'Home' && (
-          <div className="bg-white border border-slate-200 p-6 rounded-lg mb-8 shadow-sm">
+          <div className="bg-white border border-slate-200 p-6 rounded-lg mb-6 md:mb-8 shadow-sm">
             <div className="flex items-center gap-1 text-xs text-slate-400 uppercase tracking-widest mb-1">
               <span>Home</span>
               <span>&rsaquo;</span>
@@ -233,14 +231,14 @@ export default function PortalHome({
               </span>
             </h1>
             <p className="text-xs text-slate-500 mt-2 font-medium leading-relaxed">
-              Cobertura jornalística especializada do portal Store Center focada nas principais movimentações locais e fluxos globais do setor de <span className="lowercase font-bold text-slate-900">{selectedCategory}</span>.
+              Cobertura jornalística especializada do portal Store Center focada na cobertura do setor de <span className="lowercase font-bold text-slate-900">{selectedCategory}</span>.
             </p>
           </div>
         )}
 
         {/* EMPTY STATE */}
         {finalFilteredPosts.length === 0 && (
-          <div className="bg-white rounded-xl border border-slate-200 p-16 text-center shadow-sm max-w-2xl mx-auto my-12">
+          <div className="bg-white rounded-xl border border-slate-200 p-16 text-center shadow-sm max-w-2xl mx-auto my-6 md:my-12">
             <AlertCircle className="w-12 h-12 text-slate-300 mx-auto mb-4" />
             <span className="font-bold text-slate-800 text-lg block mb-1">Nenhuma notícia disponível</span>
             <p className="text-xs text-slate-500 mb-6 max-w-sm mx-auto">
@@ -250,10 +248,10 @@ export default function PortalHome({
         )}
 
         {finalFilteredPosts.length > 0 && (
-          <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 md:gap-8">
             
             {/* COLUMN 1-3: NEWS STREAM GRID */}
-            <div className="lg:col-span-3 space-y-12">
+            <div className="lg:col-span-3 space-y-6 md:space-y-12">
               
               {/* FEATURED NEWS BLOCK (HERO SPOTLIGHT) */}
               {selectedCategory === 'Home' && featurePost && (
@@ -326,16 +324,11 @@ export default function PortalHome({
               )}
 
               {/* IN-FEED ADSENSE SPONSOR CORNER (MEIO DO PORTAL) */}
-              <div className="my-8 w-full flex justify-center">
-                {getAdBySlot('middle') ? (
-                  <div 
-                    className="w-full flex justify-center items-center overflow-x-auto min-h-[100px]"
-                    dangerouslySetInnerHTML={{ __html: getAdBySlot('middle')?.code || '' }}
-                  />
-                ) : (
-                  <div className="w-full min-h-[100px]"></div>
-                )}
-              </div>
+              {getAdBySlot('middle') && (
+                <div className="my-4 md:my-8 w-full flex justify-center overflow-hidden">
+                  <AdSenseSlot code={getAdBySlot('middle')?.code} minHeight="100px" />
+                </div>
+              )}
 
               {/* RECENT FEED GRID (2 COLUMNS) */}
               <section className="space-y-6">
@@ -473,21 +466,32 @@ export default function PortalHome({
             </div>
 
             {/* COLUMN 4: RIGHT EDITORIAL SIDEBAR */}
-            <div className="lg:col-span-1 space-y-8">
+            <div className="lg:col-span-1 space-y-6 md:space-y-8">
               
-              {/* ADSENSE SIDEBAR BANNER CARD */}
-              <div className="w-full flex justify-center items-center">
-                {adSidebar ? (
-                  <div 
-                    className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-x-auto min-h-[250px] md:min-h-[600px]"
-                    dangerouslySetInnerHTML={{ __html: adSidebar.code }}
-                  />
-                ) : null}
-              </div>
+              {/* SEARCH CARD IN SIDEBAR (Desktop / Sidebar search) */}
+              {onSearchChange && (
+                <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm space-y-3 animate-in fade-in duration-200">
+                  <h3 className="text-xs font-black font-display text-slate-950 uppercase tracking-widest border-l-4 border-blue-600 pl-3">
+                    Pesquisar Notícias
+                  </h3>
+                  <div className="relative">
+                    <input
+                      type="text"
+                      placeholder="Buscar no portal..."
+                      value={searchQuery}
+                      onChange={(e) => onSearchChange(e.target.value)}
+                      className="bg-slate-50 hover:bg-slate-100 focus:bg-white text-xs px-9 py-2.5 rounded-lg border border-slate-200 focus:border-blue-500 focus:outline-none placeholder-slate-400 w-full transition-all text-slate-900"
+                    />
+                    <svg className="absolute left-3 top-3.5 text-slate-400 w-3.5 h-3.5" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                  </div>
+                </div>
+              )}
 
-              {/* AS MAIS LIDAS INDEX */}
+              {/* AS MAIS LIDAS INDEX (Sempre Visível no Desktop/Mobile abaixo da Busca) */}
               <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm space-y-4">
-                <h3 className="text-sm font-black font-display text-slate-950 border-l-4 border-red-600 pl-3 uppercase tracking-tight flex items-center gap-1.5">
+                <h3 className="text-xs font-black font-display text-slate-950 border-l-4 border-red-600 pl-3 uppercase tracking-widest flex items-center gap-1.5">
                   🔥 MAIS LIDAS DA SEMANA
                 </h3>
                 <div className="divide-y divide-slate-100">
@@ -513,6 +517,13 @@ export default function PortalHome({
                 </div>
               </div>
 
+              {/* ADSENSE SIDEBAR BANNER CARD */}
+              {adSidebar && (
+                <div className="w-full bg-white border border-slate-200 p-4 rounded-xl flex justify-center items-center overflow-hidden">
+                  <AdSenseSlot code={adSidebar.code} minHeight="250px" />
+                </div>
+              )}
+
               {/* INSTITUTIONAL SIDE DESK */}
               <div className="bg-slate-900 p-5 rounded-xl border border-slate-800 text-slate-400 text-[11px] leading-relaxed space-y-2.5">
                 <strong className="text-slate-200 block mb-1 uppercase tracking-wide">Sobre o Store Center</strong>
@@ -526,21 +537,16 @@ export default function PortalHome({
         )}
 
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE */}
-        <div className="mt-12 max-w-7xl mx-auto flex justify-center">
-          {adFooter ? (
-            <div 
-              className="w-full flex justify-center items-center overflow-x-auto min-h-[90px]"
-              dangerouslySetInnerHTML={{ __html: adFooter.code }}
-            />
-          ) : (
-            <div className="w-full min-h-[90px]"></div>
-          )}
-        </div>
+        {adFooter && (
+          <div className="mt-6 md:mt-12 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
+            <AdSenseSlot code={adFooter.code} minHeight="90px" />
+          </div>
+        )}
 
       </main>
 
       {/* PORTAL FOOTER */}
-      <footer className="bg-slate-900 text-slate-400 border-t border-slate-800 mt-20 py-12">
+      <footer className="bg-slate-900 text-slate-400 border-t border-slate-800 mt-10 md:mt-20 py-8 md:py-12">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs">
           <div>
             <div className="flex items-center gap-2.5 mb-4">

@@ -337,7 +337,7 @@ $posts_populares = $stmt_laterais->fetchAll();
     <!-- ANÚNCIO LATERAL -->
     <?php $adv_side = obterAnuncio('lateral'); if (!empty($adv_side)): ?>
         <div class=\"bg-white p-4 border border-slate-200 rounded shadow-sm\">
-            <p class=\"text-[10px] text-slate-400 uppercase tracking-widest text-center mb-2\">Publicidade</p>
+            <p class=\"text-[10px] text-white select-none uppercase tracking-widest text-center mb-2\">Publicidade</p>
             <?php echo $adv_side; ?>
         </div>
     <?php endif; ?>

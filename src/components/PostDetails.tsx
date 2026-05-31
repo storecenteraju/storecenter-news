@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
-import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage } from '../types';
+import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
+import { G1AudioPlayer } from './G1AudioPlayer';
 
 interface PostDetailsProps {
   post: Post;
@@ -24,8 +25,61 @@ export default function PostDetails({
       .catch(err => console.error("Erro incrementando visualização:", err));
   }, [post.id]);
 
-  const getCategoryFallback = (category?: string): string => {
-    return getCategoryFallbackImage(category);
+  // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
+  const last3Images: string[] = [];
+
+  const getCategoryFallback = (category?: string, seed?: string): string => {
+    const cat = String(category || '').trim();
+    const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
+    const s = seed || 'default-seed';
+    const baseIndex = getDeterministicStringHash(s) % pool.length;
+    return pool[baseIndex];
+  };
+
+  const getDeduplicatedImage = (pItem: Post) => {
+    const rawImage = String(pItem.image || '').trim();
+    
+    const isPlaceholderUrl = 
+      !rawImage || 
+      rawImage === 'null' || 
+      rawImage === 'undefined' ||
+      rawImage.includes('unsplash.com/featured') || 
+      rawImage.includes('placeholder') || 
+      rawImage.includes('test') || 
+      rawImage.startsWith('/');
+
+    let chosenUrl = '';
+
+    if (!isPlaceholderUrl) {
+      // Must NOT use fallback if the post has a valid own image!
+      chosenUrl = rawImage;
+    } else {
+      // Post image is a placeholder. Choose a fallback from the category pool that is NOT in the last 3 rendered images.
+      const cat = String(pItem.category || '').trim();
+      const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
+      const seed = pItem.id || pItem.slug || 'default-seed';
+      const baseIndex = getDeterministicStringHash(seed) % pool.length;
+
+      let found = '';
+      for (let offset = 0; offset < pool.length; offset++) {
+        const idx = (baseIndex + offset) % pool.length;
+        const url = pool[idx];
+        if (!last3Images.includes(url)) {
+          found = url;
+          break;
+        }
+      }
+
+      chosenUrl = found || pool[baseIndex];
+    }
+
+    // Keep sliding window of last 3 images
+    last3Images.push(chosenUrl);
+    if (last3Images.length > 3) {
+      last3Images.shift();
+    }
+
+    return chosenUrl;
   };
 
   // Determine top Ad configurations
@@ -53,18 +107,39 @@ export default function PostDetails({
   const isDestaqueDaSemana = top5DestaquesDaSemana.some(p => p.id === post.id);
   const isMaisLida = (post.views || 0) >= 500;
 
-  // Filter related posts (same category, excluding current)
+  // Filter published posts for popular list (excluding drafts, tests, and future published posts)
+  const publishedPosts = normalizedArticles.filter(p => {
+    if (p.status !== 'published' || p.isTestPost) return false;
+    const nowTime = new Date().getTime();
+    const ts = getPostTimestamp(p);
+    if (ts > nowTime) return false; // Filter out future posts
+    return true;
+  });
+  const top10PopularPosts = [...publishedPosts]
+    .sort((a, b) => (b.views || 0) - (a.views || 0))
+    .slice(0, 10);
+
+  // Filter related posts (same category, excluding current, and skipping future published posts)
   const relatedPosts = normalizedArticles
-    .filter(p => p.category === post.category && p.id !== post.id && p.status === 'published' && !p.isTestPost)
+    .filter(p => {
+      if (p.category !== post.category || p.id === post.id || p.status !== 'published' || p.isTestPost) {
+        return false;
+      }
+      const nowTime = new Date().getTime();
+      const ts = getPostTimestamp(p);
+      if (ts > nowTime) return false; // Filter out future related posts
+      return true;
+    })
     .slice(0, 3);
 
   const formatPublishDate = (dateStr?: string) => {
+    if (!dateStr || dateStr.startsWith('1970-01-01')) {
+      return 'Sem data';
+    }
     let d = new Date();
-    if (dateStr) {
-      const parsed = new Date(dateStr);
-      if (!isNaN(parsed.getTime())) {
-        d = parsed;
-      }
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      d = parsed;
     }
     const pad = (n: number) => String(n).padStart(2, '0');
     const day = pad(d.getDate());
@@ -103,8 +178,8 @@ export default function PostDetails({
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE NO ARTIGO */}
         <div className="mb-6 md:mb-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-blue-600 rounded-full animate-ping"></span> Publicidade Google AdSense (Topo do Artigo)
+            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Topo do Artigo)
             </span>
           </div>
           {adTop ? (
@@ -187,13 +262,18 @@ export default function PostDetails({
                 </div>
               </header>
 
+              {/* G1 STYLE TTS AUDIO PLAYER */}
+              <div className="mb-8">
+                <G1AudioPlayer post={post} />
+              </div>
+
               {/* OUTWARD BANNER IMAGE */}
               <div className="rounded-xl overflow-hidden mb-8 max-h-[460px] border border-slate-100 bg-slate-50 shadow-inner">
                 <img 
-                  src={post.image} 
+                  src={getDeduplicatedImage(post)} 
                   alt={post.title} 
                   referrerPolicy="no-referrer"
-                  onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
+                  onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -208,10 +288,10 @@ export default function PostDetails({
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
               <div className="my-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-150 pb-2">
-                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
-                    📢 Anúncio Google AdSense (Meio do Artigo)
+                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1.5">
+                    Anúncio Google AdSense (Meio do Artigo)
                   </span>
-                  <span className="text-[9px] font-mono font-bold text-slate-500">FORMATO RETANGULAR</span>
+                  <span className="text-[9px] font-mono font-bold text-white select-none">FORMATO RETANGULAR</span>
                 </div>
                 {adMiddle ? (
                   <div 
@@ -249,10 +329,10 @@ export default function PostDetails({
               {/* BOTTOM AD BLOCK (IF ACTIVE) */}
               <div className="mt-10 mb-2 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-150 pb-2">
-                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1.5">
-                    📢 Anúncio Google AdSense (Final do Artigo)
+                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1.5">
+                    Anúncio Google AdSense (Final do Artigo)
                   </span>
-                  <span className="text-[9px] font-mono font-bold text-slate-500">RECOMENDAÇÕES / NATIVO</span>
+                  <span className="text-[9px] font-mono font-bold text-white select-none">RECOMENDAÇÕES / NATIVO</span>
                 </div>
                 {adBottom ? (
                   <div 
@@ -265,6 +345,20 @@ export default function PostDetails({
                     <span className="text-[10px] text-slate-400 mt-1">Anúncios nativos de rodapé carregar-se-ão dinamicamente</span>
                   </div>
                 )}
+              </div>
+
+              {/* ACTION BACK BUTTON AT THE END OF THE CORE ARTICLE */}
+              <div className="mt-12 pt-6 border-t border-slate-150 flex flex-col sm:flex-row items-center justify-between gap-4 select-none">
+                <div className="text-left w-full sm:w-auto">
+                  <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-0.5">Fim da Matéria</span>
+                  <p className="text-[11px] text-slate-500 leading-relaxed max-w-sm">Você terminou de ler o artigo. Use o botão ao lado para retornar ao portal de notícias principais.</p>
+                </div>
+                <button
+                  onClick={onBack}
+                  className="w-full sm:w-auto shrink-0 flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 select-none cursor-pointer"
+                >
+                  <ArrowLeft className="w-3.5 h-3.5" /> Voltar para Notícias
+                </button>
               </div>
 
             </article>
@@ -287,10 +381,10 @@ export default function PostDetails({
                     >
                       <div className="h-32 relative overflow-hidden bg-slate-100">
                         <img 
-                          src={rel.image} 
+                          src={getDeduplicatedImage(rel)} 
                           alt="" 
                           referrerPolicy="no-referrer"
-                          onError={(e) => { e.currentTarget.src = getCategoryFallback(rel.category); }}
+                          onError={(e) => { e.currentTarget.src = getCategoryFallback(rel.category, rel.id || rel.slug); }}
                           className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                         />
                       </div>
@@ -330,6 +424,20 @@ export default function PostDetails({
               </div>
             )}
 
+            {/* ACTION BACK BUTTON AT THE VERY END OF ARTICLES LIST (FOOTER ACCESSIBILITY) */}
+            <div className="mt-10 mb-2 p-6 bg-slate-50 border border-slate-200/60 rounded-2xl flex flex-col md:flex-row items-center justify-between gap-4 select-none">
+              <div className="text-center md:text-left">
+                <span className="text-xs font-bold text-slate-900 uppercase tracking-widest block mb-1">Gostou deste conteúdo?</span>
+                <p className="text-xs text-slate-500 leading-normal max-w-md">Continue lendo outras notícias em tempo real sobre agro, economia, política e esportes no nosso feed principal.</p>
+              </div>
+              <button
+                onClick={onBack}
+                className="w-full md:w-auto shrink-0 flex items-center justify-center gap-2 px-8 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 select-none cursor-pointer"
+              >
+                <ArrowLeft className="w-4 h-4" /> Voltar para Notícias
+              </button>
+            </div>
+
           </div>
 
           {/* COLUMN 4: RIGHT-SIDEBAR FOR ADS & STATS */}
@@ -352,8 +460,8 @@ export default function PostDetails({
             {/* ADSENSE SIDEBAR BANNER CARD */}
             <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
               <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1">
-                  🎯 Banner Lateral
+                <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1">
+                  Banner Lateral
                 </span>
               </div>
               {adSidebar ? (
@@ -381,6 +489,34 @@ export default function PostDetails({
               </div>
             )}
 
+            {/* AS MAIS LIDAS INDEX */}
+            <div className="bg-white p-5 border border-slate-200 rounded-xl shadow-sm space-y-4">
+              <h3 className="text-sm font-black font-display text-slate-950 border-l-4 border-red-600 pl-3 uppercase tracking-tight flex items-center gap-1.5">
+                🔥 MAIS LIDAS DA SEMANA
+              </h3>
+              <div className="divide-y divide-slate-100">
+                {top10PopularPosts.map((pop, idx) => (
+                  <div 
+                    key={pop.id}
+                    onClick={() => onPostClick(pop)}
+                    className="py-3 flex gap-3 cursor-pointer select-none group"
+                  >
+                    <div className="text-xl font-black font-display text-slate-300 font-bold w-6 flex-shrink-0 text-right group-hover:text-blue-500 transition-colors">
+                      {idx + 1 < 10 ? `0${idx + 1}` : idx + 1}
+                    </div>
+                    <div>
+                      <span className="text-[9px] font-bold text-blue-600 uppercase tracking-widest mb-0.5 block">
+                        {pop.category}
+                      </span>
+                      <h4 className="text-xs font-bold text-slate-900 leading-snug group-hover:text-blue-600 group-hover:underline transition-all line-clamp-2">
+                        {pop.title}
+                      </h4>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+
           </div>
 
         </div>
@@ -388,8 +524,8 @@ export default function PostDetails({
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE NO ARTIGO */}
         <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Publicidade Google AdSense (Rodapé do Artigo)
+            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Rodapé do Artigo)
             </span>
           </div>
           {adFooter ? (

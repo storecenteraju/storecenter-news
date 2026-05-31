@@ -1,6 +1,6 @@
 import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
-import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage } from '../types';
+import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
 
 interface PortalHomeProps {
   posts: Post[];
@@ -24,45 +24,74 @@ export default function PortalHome({
   onAdminClick
 }: PortalHomeProps) {
   
-  // A local block set to guarantee that under no circumstances can two articles show the same photo on screen at the same time
-  const displayedImagesOnRender = new Set<string>();
+  // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
+  const last3Images: string[] = [];
 
-  const getCategoryFallback = (category?: string): string => {
-    return getCategoryFallbackImage(category);
+  const getCategoryFallback = (category?: string, seed?: string): string => {
+    const cat = String(category || '').trim();
+    const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
+    const s = seed || 'default-seed';
+    const baseIndex = getDeterministicStringHash(s) % pool.length;
+    return pool[baseIndex];
   };
 
   const getDeduplicatedImage = (post: Post) => {
-    const rawImage = post.image || '';
-    if (!rawImage || rawImage.includes('unsplash.com/featured')) {
-      return getCategoryFallback(post.category);
-    }
+    const rawImage = String(post.image || '').trim();
+    
+    const isPlaceholderUrl = 
+      !rawImage || 
+      rawImage === 'null' || 
+      rawImage === 'undefined' ||
+      rawImage.includes('unsplash.com/featured') || 
+      rawImage.includes('placeholder') || 
+      rawImage.includes('test') || 
+      rawImage.startsWith('/');
 
-    let baseUrl = rawImage;
-    try {
-      if (rawImage.startsWith('http')) {
-        const urlObj = new URL(rawImage);
-        urlObj.searchParams.delete('sig');
-        urlObj.searchParams.delete('random');
-        baseUrl = urlObj.origin + urlObj.pathname;
+    let chosenUrl = '';
+
+    if (!isPlaceholderUrl) {
+      // Must NOT use fallback if the post has a valid own image!
+      chosenUrl = rawImage;
+    } else {
+      // Post image is a placeholder. Choose a fallback from the category pool that is NOT in the last 3 rendered images.
+      const cat = String(post.category || '').trim();
+      const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
+      const seed = post.id || post.slug || 'default-seed';
+      const baseIndex = getDeterministicStringHash(seed) % pool.length;
+
+      let found = '';
+      for (let offset = 0; offset < pool.length; offset++) {
+        const idx = (baseIndex + offset) % pool.length;
+        const url = pool[idx];
+        if (!last3Images.includes(url)) {
+          found = url;
+          break;
+        }
       }
-    } catch (e) {
-      // Ignore conversion fallbacks
+
+      chosenUrl = found || pool[baseIndex];
     }
 
-    if (displayedImagesOnRender.has(baseUrl)) {
-      // If we already showed this exact image URL, let's use the category fallback image as alternative to prevent repetition!
-      return getCategoryFallback(post.category);
+    // Keep sliding window of last 3 images
+    last3Images.push(chosenUrl);
+    if (last3Images.length > 3) {
+      last3Images.shift();
     }
 
-    displayedImagesOnRender.add(baseUrl);
-    return rawImage;
+    return chosenUrl;
   };
 
-  // 1. Filter posts that are marked published and are not test posts, and sort them descending by date
+  // 1. Filter posts that are marked published, are not test posts, and are not scheduled/published in the future
   const publishedPosts = posts
     .map(normalizePost)
-    .filter(p => p.status === 'published' && !p.isTestPost)
-    .sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+    .filter(p => {
+      if (p.status !== 'published' || p.isTestPost) return false;
+      const nowTime = new Date().getTime();
+      const ts = getPostTimestamp(p);
+      if (ts > nowTime) return false; // Filter out future posts
+      return true;
+    })
+    .sort((a, b) => getPostTimestamp(b) - getPostTimestamp(a));
 
   // 2. Filter by Search Query
   const searchQueryMatched = publishedPosts.filter(p => {
@@ -156,12 +185,13 @@ export default function PortalHome({
   const remainingPosts = selectedCategory === 'Home' ? displayedRemaining : finalFilteredPosts.slice(7);
 
   const formatPublishDate = (dateStr?: string) => {
+    if (!dateStr || dateStr.startsWith('1970-01-01')) {
+      return 'Sem data';
+    }
     let d = new Date();
-    if (dateStr) {
-      const parsed = new Date(dateStr);
-      if (!isNaN(parsed.getTime())) {
-        d = parsed;
-      }
+    const parsed = new Date(dateStr);
+    if (!isNaN(parsed.getTime())) {
+      d = parsed;
     }
     const pad = (n: number) => String(n).padStart(2, '0');
     const day = pad(d.getDate());
@@ -179,8 +209,8 @@ export default function PortalHome({
         {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE */}
         <div className="mb-8 md:mb-10 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-blue-600 rounded-full animate-ping"></span> Publicidade Google AdSense (Topo do Portal)
+            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Topo do Portal)
             </span>
           </div>
           {adTop ? (
@@ -244,7 +274,7 @@ export default function PortalHome({
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
-                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category); }}
+                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
                       className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                     />
                     <span className="absolute top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
@@ -306,10 +336,10 @@ export default function PortalHome({
               {/* IN-FEED ADSENSE SPONSOR CORNER (MEIO DO PORTAL) */}
               <div className="my-8 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <span className="text-[10px] font-black text-slate-400 tracking-widest uppercase flex items-center gap-1.5">
-                    📰 Anúncio Patrocinado Google AdSense (In-Feed Central)
+                  <span className="text-[10px] font-black text-white select-none tracking-widest uppercase flex items-center gap-1.5">
+                    Anúncio Patrocinado Google AdSense (In-Feed Central)
                   </span>
-                  <span className="text-[9px] font-mono font-bold text-slate-500">FORMATO FLUIDO</span>
+                  <span className="text-[9px] font-mono font-bold text-white select-none">FORMATO FLUIDO</span>
                 </div>
                 {getAdBySlot('middle') ? (
                   <div 
@@ -349,7 +379,7 @@ export default function PortalHome({
                             src={getDeduplicatedImage(post)} 
                             alt={post.title} 
                             referrerPolicy="no-referrer"
-                            onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
+                            onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
                             className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                           />
                           {(selectedCategory === 'Home' || !selectedCategory) && (
@@ -428,7 +458,7 @@ export default function PortalHome({
                           src={getDeduplicatedImage(post)} 
                           alt="" 
                           referrerPolicy="no-referrer"
-                          onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category); }}
+                          onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
                           className="w-16 h-16 object-cover rounded flex-shrink-0"
                         />
                         <div>
@@ -467,8 +497,8 @@ export default function PortalHome({
               {/* ADSENSE SIDEBAR BANNER CARD */}
               <div className="bg-white p-5 border border-slate-200 rounded-2xl shadow-sm text-center space-y-3">
                 <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-                  <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-1">
-                    🎯 Banner Lateral
+                  <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-1">
+                    Banner Lateral
                   </span>
                 </div>
                 {adSidebar ? (
@@ -526,8 +556,8 @@ export default function PortalHome({
         {/* BOTTOM ADSENSE BANNER CONTAINER - RODAPÉ DESTAQUE */}
         <div className="mt-12 bg-white border border-slate-200 p-6 rounded-2xl shadow-sm text-center space-y-3 max-w-7xl mx-auto">
           <div className="flex items-center justify-between border-b border-slate-100 pb-2">
-            <span className="text-[10px] font-black text-slate-400 uppercase tracking-widest flex items-center gap-2">
-              <span className="inline-block w-2 h-2 bg-emerald-500 rounded-full animate-pulse"></span> Publicidade Google AdSense (Rodapé do Portal)
+            <span className="text-[10px] font-black text-white select-none uppercase tracking-widest flex items-center gap-2">
+              <span className="inline-block w-2 h-2 bg-white rounded-full"></span> Publicidade Google AdSense (Rodapé do Portal)
             </span>
           </div>
           {adFooter ? (

@@ -57,15 +57,15 @@ export default function Navigation({
     { label: "Taxa Selic", value: 10.50, change: 0.00, prefix: "", suffix: "%", isInt: false, category: "Índices & Indicadores" },
     { label: "IPCA (Inflação anual)", value: 3.69, change: 0.05, prefix: "", suffix: "%", isInt: false, category: "Índices & Indicadores" },
 
-    // Ações & Corporativo (8)
-    { label: "Ações Petrobras (PETR4)", value: 37.42, change: 0.52, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ações Vale (VALE3)", value: 64.15, change: -1.15, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ações Itaú (ITUB4)", value: 32.80, change: -0.22, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ações Bradesco (BBDC4)", value: 13.92, change: 0.14, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ações Banco do Brasil", value: 27.55, change: 0.82, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ações Ambev (ABEV3)", value: 11.45, change: -0.50, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Ouro (Grama PR)", value: 385.20, change: 0.94, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" },
-    { label: "Suíno Vivo (kg)", value: 6.85, change: -0.55, prefix: "R$ ", suffix: "", isInt: false, category: "Ações & Corporativo" }
+    // Principais Ações (Brasil) (8)
+    { label: "Petrobras (PETR4)", value: 37.42, change: 0.52, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Vale (VALE3)", value: 64.15, change: -1.15, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Itaú Unibanco (ITUB4)", value: 32.80, change: -0.22, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Bradesco (BBDC4)", value: 13.92, change: 0.14, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Banco do Brasil (BBAS3)", value: 27.55, change: 0.82, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Ambev (ABEV3)", value: 11.45, change: -0.50, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Eletrobras (ELET3)", value: 38.60, change: 0.45, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" },
+    { label: "Weg S.A. (WEGE3)", value: 39.15, change: 1.10, prefix: "R$ ", suffix: "", isInt: false, category: "Principais Ações (Brasil)" }
   ]);
 
   useEffect(() => {
@@ -115,7 +115,7 @@ export default function Navigation({
     'Entretenimento'
   ];
 
-  const marketCategories = ["Moedas & Cripto", "Agronegócio", "Índices & Indicadores", "Ações & Corporativo"];
+  const marketCategories = ["Moedas & Cripto", "Agronegócio", "Índices & Indicadores", "Principais Ações (Brasil)"];
 
   // Fetch middle, bottom, or sidebar active AdSense to display in popup
   const activeAd = ads.find(a => a.enabled && (a.slot === 'middle' || a.slot === 'bottom' || a.slot === 'sidebar')) || ads.find(a => a.enabled);
@@ -147,17 +147,45 @@ export default function Navigation({
       {/* INNER BRAND CONTAINER */}
       <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3 cursor-pointer select-none group" onClick={() => { setSelectedCategory('Home'); setView('portal'); }}>
-          <svg viewBox="0 0 100 100" className="w-12 h-12 drop-shadow-[2px_3px_2px_rgba(0,0,0,0.3)] text-slate-900 shrink-0 transition-transform group-hover:scale-105" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path d="M23 25 C23 25 12 25 12 27 L12 73 C12 81 14 82 23 82" strokeWidth="6.5" strokeLinecap="round" strokeLinejoin="round" />
-            <path d="M23 25 L23 82" strokeWidth="6.5" strokeLinecap="round" />
-            <rect x="22" y="15" width="62" height="67" rx="6" ry="6" fill="#FFFFFF" strokeWidth="6.5" strokeLinejoin="round" />
-            <rect x="31" y="24" width="20" height="23" rx="1" fill="currentColor" stroke="none" />
-            <line x1="58" y1="27" x2="75" y2="27" strokeWidth="4.5" strokeLinecap="round" />
-            <line x1="58" y1="35" x2="75" y2="35" strokeWidth="4.5" strokeLinecap="round" />
-            <line x1="58" y1="43" x2="75" y2="43" strokeWidth="4.5" strokeLinecap="round" />
-            <line x1="31" y1="56" x2="75" y2="56" strokeWidth="4.5" strokeLinecap="round" />
-            <line x1="31" y1="65" x2="75" y2="65" strokeWidth="4.5" strokeLinecap="round" />
-            <line x1="31" y1="74" x2="75" y2="74" strokeWidth="4.5" strokeLinecap="round" />
+          <svg viewBox="0 0 120 100" className="w-12 h-12 shrink-0 transition-transform group-hover:scale-105" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <filter id="shadowNav" x="-10%" y="-10%" width="130%" height="130%">
+                <feDropShadow dx="1.5" dy="2" stdDeviation="2" floodColor="#001a4d" floodOpacity="0.32" />
+              </filter>
+              <filter id="glowNav" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="0" dy="1.5" stdDeviation="2" floodColor="#0055ff" floodOpacity="0.4" />
+              </filter>
+              <linearGradient id="bubbleGradNav" x1="0%" y1="0%" x2="0%" y2="100%">
+                <stop offset="0%" stopColor="#2563eb" />
+                <stop offset="40%" stopColor="#1d4ed8" />
+                <stop offset="100%" stopColor="#1e3a8a" />
+              </linearGradient>
+              <linearGradient id="paperGradNav" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor="#ffffff" />
+                <stop offset="100%" stopColor="#f8fafc" />
+              </linearGradient>
+            </defs>
+            
+            <g filter="url(#shadowNav)">
+              <rect x="36" y="8" width="68" height="76" rx="10" fill="url(#paperGradNav)" stroke="#1e40af" strokeWidth="4" strokeLinejoin="round" />
+              <rect x="42" y="14" width="56" height="64" rx="6" fill="none" stroke="#3b82f6" strokeWidth="1.5" opacity="0.3" />
+              <rect x="48" y="20" width="22" height="22" rx="4" fill="#1d4ed8" />
+              <path d="M 48 36 L 56 28 L 62 34 L 66 30 L 70 36 Z" fill="#3b82f6" opacity="0.8" />
+              <rect x="76" y="21" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+              <rect x="76" y="28" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+              <rect x="76" y="35" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+              <rect x="76" y="42" width="12" height="3" rx="1.5" fill="#1e3a8a" opacity="0.5" />
+              <rect x="48" y="50" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+              <rect x="48" y="57" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+              <rect x="48" y="64" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+              <rect x="48" y="71" width="30" height="3" rx="1.5" fill="#1e3a8a" opacity="0.6" />
+            </g>
+            
+            <g filter="url(#glowNav)">
+              <path d="M 12 40 h 68 a 10 10 0 0 1 10 10 v 22 a 10 10 0 0 1 -10 10 H 66 l -12 12 v -12 H 22 a 10 10 0 0 1 -10 -10 v -22 a 10 10 0 0 1 10 -10 z" fill="url(#bubbleGradNav)" stroke="#ffffff" strokeWidth="3" strokeLinejoin="round" />
+              <path d="M 14 42 h 64 a 8 8 0 0 1 8 8 v 3" fill="none" stroke="#60a5fa" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+              <text x="46" y="66" fontFamily="sans-serif" fontWeight="900" fontStyle="italic" fontSize="19.5" fill="#ffffff" textAnchor="middle" letterSpacing="-0.5">NEWS</text>
+            </g>
           </svg>
           <div>
             <div className="flex items-center gap-2">
@@ -233,7 +261,7 @@ export default function Navigation({
             className="flex items-center gap-1.5 shrink-0 bg-blue-600 hover:bg-blue-700 text-white font-bold px-3 py-1.5 rounded text-[9px] uppercase tracking-wider transition-colors shadow-sm focus:outline-none cursor-pointer border-0"
           >
             <ArrowUpDown className="w-3 h-3 text-white animate-pulse" />
-            Variações Financeiras & Agro
+            Variações Financeira / Agro e Ações
           </button>
           
           <div className="relative w-full overflow-hidden flex items-center">
@@ -292,8 +320,8 @@ export default function Navigation({
               <div className="flex items-center gap-2">
                 <ArrowUpDown className="w-5 h-5 text-blue-600 animate-bounce" />
                 <div>
-                  <h3 className="font-black font-display text-slate-950 text-base uppercase tracking-tight">Variações Financeiras & Agronegócio</h3>
-                  <p className="text-xs text-slate-500">Cotações em tempo real do mercado financeiro e comodidades brasileiras</p>
+                  <h3 className="font-black font-display text-slate-950 text-base uppercase tracking-tight">Variações Financeira / Agro e Ações</h3>
+                  <p className="text-xs text-slate-500">Cotações em tempo real do mercado financeiro, agronegócio e principais ações do Brasil</p>
                 </div>
               </div>
               <button 
@@ -347,7 +375,7 @@ export default function Navigation({
 
               {/* SPACE FOR ADSENSE PUBLICITY (at the bottom of the list) */}
               <div className="border-t border-slate-100 pt-6 mt-4">
-                <span className="text-[9px] font-bold text-slate-400 uppercase tracking-widest text-center block mb-2.5">
+                <span className="text-[9px] font-bold text-white select-none uppercase tracking-widest text-center block mb-2.5">
                   Publicidade Google AdSense
                 </span>
                 {activeAd ? (

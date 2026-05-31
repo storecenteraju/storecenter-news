@@ -129,29 +129,145 @@ export function isPostUrgente(post: Post): boolean {
   return hasUrgenteKeyword || (diffHours >= 0 && diffHours <= 24);
 }
 
-export function getCategoryFallbackImage(category?: string): string {
-  const cat = String(category || '').trim();
-  switch (cat) {
-    case 'Economia':
-      return 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Tecnologia':
-      return 'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Geopolítica':
-      return 'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Negócios':
-      return 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Política':
-      return 'https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Saúde':
-      return 'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Esporte':
-      return 'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Entretenimento':
-      return 'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=1280&h=720&q=80';
-    case 'Nacional':
-    default:
-      return 'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=1280&h=720&q=80';
+export const CATEGORY_FALLBACK_POOLS: Record<string, string[]> = {
+  'Economia': [
+    'https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1559526324-4b87b5e36e44?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Tecnologia': [
+    'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1472438971485-d6c69433dcb9?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Geopolítica': [
+    'https://images.unsplash.com/photo-1524661135-423995f22d0b?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1516979187457-637abb4f9353?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Negócios': [
+    'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1444653389962-8149286c578a?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Política': [
+    'https://images.unsplash.com/photo-1540910419892-4a36d2c3266c?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1517048676732-d65bc937f952?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1555848962-6e79363ec18f?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Saúde': [
+    'https://images.unsplash.com/photo-1505751172876-fa1923c5c528?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1584515903407-3c15adfc17af?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1581594549595-35e6edbf75c7?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1579684389782-64d84b5e901a?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Esporte': [
+    'https://images.unsplash.com/photo-1461896836934-ffe607ba8211?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1517649763962-0c623066013b?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1519766304817-4f37bda74a27?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1526676059637-250353088f1c?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Entretenimento': [
+    'https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
+  'Nacional': [
+    'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1526304640581-d334cdbbf45e?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1541872703-74c5e44368f9?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&h=480&q=80'
+  ]
+};
+
+export function getDeterministicStringHash(str: string): number {
+  let hash = 0;
+  for (let i = 0; i < str.length; i++) {
+    hash = str.charCodeAt(i) + ((hash << 5) - hash);
   }
+  return Math.abs(hash);
+}
+
+export function getResolvedPostDate(post: any): string {
+  if (!post) return '1970-01-01T00:00:00.000Z';
+  
+  // Priority rule specified: 1. publishedAt, 2. updatedAt, 3. createdAt, 4. date
+  const candidates = [post.publishedAt, post.updatedAt, post.createdAt, post.date];
+  const now = new Date();
+  
+  for (const val of candidates) {
+    if (val) {
+      const parsed = new Date(val);
+      if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
+        const isScheduled = String(post.status || '').trim().toLowerCase() === 'scheduled';
+        if (!isScheduled && parsed.getTime() > now.getTime()) {
+          continue; // Try next priority candidates first
+        }
+        return parsed.toISOString();
+      }
+    }
+  }
+
+  // Fallback: If all candidates exist but were invalid or future caps, return the first valid candidate ISO
+  for (const val of candidates) {
+    if (val) {
+      const parsed = new Date(val);
+      if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
+        return parsed.toISOString();
+      }
+    }
+  }
+
+  return '1970-01-01T00:00:00.000Z';
+}
+
+export function getPostTimestamp(post: any): number {
+  if (!post) return 0;
+  // Priority rule specified: 1. publishedAt, 2. updatedAt, 3. createdAt, 4. date
+  const candidates = [post.publishedAt, post.updatedAt, post.createdAt, post.date];
+  for (const val of candidates) {
+    if (val) {
+      const parsed = new Date(val);
+      const t = parsed.getTime();
+      if (!isNaN(t) && t > 0) {
+        return t;
+      }
+    }
+  }
+  return 0; // Se a data for inválida, usar 0
+}
+
+export function getCategoryFallbackImage(category?: string, seedStr?: string, avoidUrls: Set<string> = new Set()): string {
+  const cat = String(category || '').trim();
+  const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
+  
+  const seed = seedStr || 'default-seed';
+  const baseIndex = getDeterministicStringHash(seed) % pool.length;
+  
+  for (let offset = 0; offset < pool.length; offset++) {
+    const idx = (baseIndex + offset) % pool.length;
+    const url = pool[idx];
+    if (!avoidUrls.has(url)) {
+      return url;
+    }
+  }
+  
+  return pool[baseIndex];
 }
 
 export function normalizePost(post: any): Post {
@@ -175,9 +291,8 @@ export function normalizePost(post: any): Post {
     p.status = 'draft';
   }
 
-  // Normalize date - prioritize publishedAt (most progressive), then date, then createdAt
-  const resolvedDate = p.publishedAt || p.date || p.createdAt || new Date().toISOString();
-  p.date = resolvedDate;
+  // Normalize date using our strict priority-based validator
+  p.date = getResolvedPostDate(p);
 
   // Normalize scheduling fields
   if (p.status === 'scheduled') {
@@ -185,9 +300,12 @@ export function normalizePost(post: any): Post {
       p.publishAt = p.scheduledAt || p.publishAt;
     }
     // If the scheduled date has already passed, treat it as published!
-    if (p.publishAt && new Date(p.publishAt) <= new Date()) {
-      p.status = 'published';
-      p.date = p.publishAt; // Set published date to match its scheduled publish time
+    if (p.publishAt) {
+      const parsedPublish = new Date(p.publishAt);
+      if (!isNaN(parsedPublish.getTime()) && parsedPublish <= new Date()) {
+        p.status = 'published';
+        p.date = parsedPublish.toISOString(); // Set published date to match its scheduled publish time
+      }
     }
   }
 

@@ -207,8 +207,35 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       normalized.status = 'draft';
     }
 
-    // Prioritize publishedAt (most progressive), then date, then createdAt
-    normalized.date = normalized.publishedAt || normalized.date || normalized.createdAt || new Date().toISOString();
+    // Priority order: 1. publishedAt, 2. updatedAt, 3. createdAt, 4. date
+    const resolveDateBackend = (post: any) => {
+      const candidates = [post.publishedAt, post.updatedAt, post.createdAt, post.date];
+      const now = new Date();
+      for (const val of candidates) {
+        if (val) {
+          const parsed = new Date(val);
+          if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
+            const isScheduled = String(post.status || '').trim().toLowerCase() === 'scheduled';
+            if (!isScheduled && parsed.getTime() > now.getTime()) {
+              continue; // Skip future date for non-scheduled posts
+            }
+            return parsed.toISOString();
+          }
+        }
+      }
+      // If we only have future uncapped/invalid candidate dates, clamp to now
+      for (const val of candidates) {
+        if (val) {
+          const parsed = new Date(val);
+          if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
+            return now.toISOString();
+          }
+        }
+      }
+      return now.toISOString();
+    };
+
+    normalized.date = resolveDateBackend(normalized);
 
     if (normalized.status === 'scheduled') {
       if (!normalized.publishAt) {

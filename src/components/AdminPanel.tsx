@@ -2252,37 +2252,113 @@ export default function AdminPanel({
             </button>
           </div>
 
-          {/* Quick Filters Info */}
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-4 bg-slate-50 p-4 rounded-xl border border-slate-100 font-sans">
-            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
-              <span className="text-[10px] uppercase font-bold text-slate-400 tracking-wider">Total Geral</span>
-              <div className="text-2xl font-black text-slate-900 mt-1 font-mono">{posts.length}</div>
-            </div>
-            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
-              <span className="text-[10px] uppercase font-bold text-green-500 tracking-wider">No Ar (Visível na Home)</span>
-              <div className="text-2xl font-black text-green-600 mt-1 font-mono">
-                {posts.filter(p => {
-                  const norm = normalizePost(p);
-                  return norm.status === 'published' && !norm.isTestPost;
-                }).length}
+          {/* Real-time Diagnostics Dashboard */}
+          {(() => {
+            const normalizedDiagPosts = posts.map(normalizePost);
+            
+            // 1. Published posts count (status === 'published' && !isTestPost)
+            const publishedList = normalizedDiagPosts.filter(p => p.status === 'published' && !p.isTestPost);
+            const totalPublished = publishedList.length;
+
+            // 2. Draft posts count (status === 'draft')
+            const totalDraft = normalizedDiagPosts.filter(p => p.status === 'draft').length;
+
+            // 3. Hidden posts due to "teste" (contains "teste", "test post", "test_post" or isTestPost)
+            const totalOcultadosTeste = normalizedDiagPosts.filter(p => p.isTestPost).length;
+
+            // 4. Broken images (empty image, null/undefined text, or old local paths)
+            const totalImgQuebrada = posts.filter(p => {
+              const img = String(p.image || '').trim();
+              return !img || img === '' || img === 'null' || img === 'undefined' || img.startsWith('/');
+            }).length;
+
+            // 5. Using fallback (image matches the characteristics above or uses the old featured unsplash)
+            const totalUsandoFallback = posts.filter(p => {
+              const img = String(p.image || '').trim();
+              return !img || img === '' || img === 'null' || img === 'undefined' || img.includes('unsplash.com/featured') || img.startsWith('/');
+            }).length;
+
+            // 6 & 7. Most recent and oldest dates
+            const validDates = normalizedDiagPosts
+              .filter(p => p.date)
+              .map(p => new Date(p.date).getTime())
+              .filter(t => !isNaN(t));
+            
+            const dateMostRecent = validDates.length > 0 ? new Date(Math.max(...validDates)) : null;
+            const dateMostAntiga = validDates.length > 0 ? new Date(Math.min(...validDates)) : null;
+
+            const formatDiagDate = (d: Date | null) => {
+              if (!d) return 'Nenhuma data';
+              const pad = (n: number) => String(n).padStart(2, '0');
+              const day = pad(d.getDate());
+              const month = pad(d.getMonth() + 1);
+              const year = d.getFullYear();
+              const hor = pad(d.getHours());
+              const min = pad(d.getMinutes());
+              return `${day}/${month}/${year} ${hor}:${min}`;
+            };
+
+            return (
+              <div className="space-y-4 font-sans">
+                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-7 gap-4">
+                  
+                  {/* Metric 1 */}
+                  <div className="bg-emerald-50/70 p-4 rounded-xl border border-emerald-100 shadow-sm">
+                    <span className="text-[9px] uppercase font-black text-emerald-700 tracking-wider block">1. Total Publicados</span>
+                    <div className="text-2xl font-black text-emerald-800 mt-1.5 font-mono">{totalPublished}</div>
+                    <span className="text-[9px] text-emerald-600 font-medium block mt-1">Status ideal (no ar)</span>
+                  </div>
+
+                  {/* Metric 2 */}
+                  <div className="bg-amber-50/70 p-4 rounded-xl border border-amber-100 shadow-sm">
+                    <span className="text-[9px] uppercase font-black text-amber-700 tracking-wider block">2. Total Rascunhos</span>
+                    <div className="text-2xl font-black text-amber-800 mt-1.5 font-mono">{totalDraft}</div>
+                    <span className="text-[9px] text-amber-600 font-medium block mt-1">Status 'draft'</span>
+                  </div>
+
+                  {/* Metric 3 */}
+                  <div className="bg-red-50/70 p-4 rounded-xl border border-red-100 shadow-sm">
+                    <span className="text-[9px] uppercase font-black text-red-700 tracking-wider block">3. Ocultados por "Teste"</span>
+                    <div className="text-2xl font-black text-red-800 mt-1.5 font-mono">{totalOcultadosTeste}</div>
+                    <span className="text-[9px] text-red-650 font-medium block mt-1">Filtro de segurança anti-leak</span>
+                  </div>
+
+                  {/* Metric 4 */}
+                  <div className="bg-indigo-50/70 p-4 rounded-xl border border-indigo-100 shadow-sm">
+                    <span className="text-[9px] uppercase font-black text-indigo-700 tracking-wider block">4. Imagens Quebradas</span>
+                    <div className="text-2xl font-black text-indigo-800 mt-1.5 font-mono">{totalImgQuebrada}</div>
+                    <span className="text-[9px] text-indigo-650 font-medium block mt-1">Imagens vazias ou locais</span>
+                  </div>
+
+                  {/* Metric 5 */}
+                  <div className="bg-cyan-50/70 p-4 rounded-xl border border-cyan-100 shadow-sm">
+                    <span className="text-[9px] uppercase font-black text-cyan-700 tracking-wider block">5. Usando Fallback</span>
+                    <div className="text-2xl font-black text-cyan-800 mt-1.5 font-mono">{totalUsandoFallback}</div>
+                    <span className="text-[9px] text-cyan-650 font-medium block mt-1">Pool de diversificação de mídia</span>
+                  </div>
+
+                  {/* Metric 6 */}
+                  <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 shadow-sm col-span-1 sm:col-span-1">
+                    <span className="text-[9px] uppercase font-black text-slate-500 tracking-wider block">6. Matéria Mais Recente</span>
+                    <div className="text-xs font-bold text-slate-800 mt-2 font-mono leading-tight">
+                      {formatDiagDate(dateMostRecent)}
+                    </div>
+                    <span className="text-[9px] text-slate-400 font-medium block mt-1">Superior da pilha cronológica</span>
+                  </div>
+
+                  {/* Metric 7 */}
+                  <div className="bg-slate-50 p-4 rounded-xl border border-slate-200 shadow-sm col-span-1 sm:col-span-1">
+                    <span className="text-[9px] uppercase font-black text-slate-500 tracking-wider block">7. Matéria Mais Antiga</span>
+                    <div className="text-xs font-bold text-slate-800 mt-2 font-mono leading-tight">
+                      {formatDiagDate(dateMostAntiga)}
+                    </div>
+                    <span className="text-[9px] text-slate-400 font-medium block mt-1">Base da pilha cronológica</span>
+                  </div>
+
+                </div>
               </div>
-            </div>
-            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
-              <span className="text-[10px] uppercase font-bold text-amber-500 tracking-wider">Rascunhos / Agendados</span>
-              <div className="text-2xl font-black text-amber-600 mt-1 font-mono">
-                {posts.filter(p => {
-                  const norm = normalizePost(p);
-                  return norm.status !== 'published';
-                }).length}
-              </div>
-            </div>
-            <div className="bg-white p-3 rounded-lg border border-slate-200/60 shadow-xs">
-              <span className="text-[10px] uppercase font-bold text-red-500 tracking-wider">Matérias de Teste</span>
-              <div className="text-2xl font-black text-red-600 mt-1 font-mono">
-                {posts.filter(p => p.isTestPost === true || (p as any).isTestPost === 'true').length}
-              </div>
-            </div>
-          </div>
+            );
+          })()}
 
           {/* Search Bar / Filters */}
           <div className="flex flex-col md:flex-row gap-3 pt-2 font-sans">

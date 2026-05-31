@@ -91,3 +91,4 @@ Se sua hospedagem convencional não permitir configuração livre de crons:
    - `https://seu-dominio.com.br/api/cron/publish-scheduled` (definido a cada 5 minutos)
    - `https://seu-dominio.com.br/api/cron/rss-auto` (definido a cada 45 minutos)
 3. Defina o cronômetro para disparar de acordo com o planejado.
+4. Forçar novo deploy Vercel

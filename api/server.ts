@@ -78,8 +78,16 @@ const firebaseConfig = {
   messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || rawFirebaseConfig.messagingSenderId || "1071766746842",
 };
 
-const firebaseApp = initializeApp(firebaseConfig);
-const dbStore = getFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
+let firebaseApp: any = null;
+let dbStore: any = null;
+
+try {
+  firebaseApp = initializeApp(firebaseConfig);
+  dbStore = getFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
+  console.log("[FIREBASE] Inicializado com sucesso.");
+} catch (firebaseInitErr: any) {
+  console.error("[FIREBASE] Erro ao inicializar o Firebase/Firestore SDK:", firebaseInitErr?.message || firebaseInitErr);
+}
 
 let dbCache: any = {
   posts: [],
@@ -93,6 +101,10 @@ let dbCache: any = {
 // Granular Sync Helpers to keep Firestore updated
 async function syncPost(post: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncPost ignorado: Firestore indisponível.");
+      return;
+    }
     if (post && post.id) {
       await setDoc(doc(dbStore, "posts", String(post.id)), post);
     }
@@ -103,6 +115,10 @@ async function syncPost(post: any) {
 
 async function syncDeletePost(postId: string) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncDeletePost ignorado: Firestore indisponível.");
+      return;
+    }
     await deleteDoc(doc(dbStore, "posts", String(postId)));
   } catch (err) {
     console.error("[FIREBASE] Erro ao deletar post do Firestore:", err);
@@ -111,6 +127,10 @@ async function syncDeletePost(postId: string) {
 
 async function syncDeletedPostItem(item: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncDeletedPostItem ignorado: Firestore indisponível.");
+      return;
+    }
     if (item && item.id) {
       await setDoc(doc(dbStore, "deletedPostItems", String(item.id)), item);
     }
@@ -121,6 +141,10 @@ async function syncDeletedPostItem(item: any) {
 
 async function syncFeed(feed: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncFeed ignorado: Firestore indisponível.");
+      return;
+    }
     if (feed && feed.id) {
       await setDoc(doc(dbStore, "feeds", String(feed.id)), feed);
     }
@@ -131,6 +155,10 @@ async function syncFeed(feed: any) {
 
 async function syncDeleteFeed(feedId: string) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncDeleteFeed ignorado: Firestore indisponível.");
+      return;
+    }
     await deleteDoc(doc(dbStore, "feeds", String(feedId)));
   } catch (err) {
     console.error("[FIREBASE] Erro ao deletar feed do Firestore:", err);
@@ -139,6 +167,10 @@ async function syncDeleteFeed(feedId: string) {
 
 async function syncAllAds(ads: any[]) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncAllAds ignorado: Firestore indisponível.");
+      return;
+    }
     for (const ad of ads) {
       if (ad && ad.id) {
         await setDoc(doc(dbStore, "ads", String(ad.id)), ad);
@@ -151,6 +183,10 @@ async function syncAllAds(ads: any[]) {
 
 async function syncSettings(settings: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncSettings ignorado: Firestore indisponível.");
+      return;
+    }
     await setDoc(doc(dbStore, "settings", "main"), settings);
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar configuracoes no Firestore:", err);
@@ -159,6 +195,10 @@ async function syncSettings(settings: any) {
 
 async function syncAutomationLog(log: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncAutomationLog ignorado: Firestore indisponível.");
+      return;
+    }
     if (log && log.id) {
       await setDoc(doc(dbStore, "automationLogs", String(log.id)), log);
     }
@@ -169,6 +209,10 @@ async function syncAutomationLog(log: any) {
 
 async function syncClearAutomationLogs() {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncClearAutomationLogs ignorado: Firestore indisponível.");
+      return;
+    }
     const snap = await getDocsFromServer(collection(dbStore, "automationLogs"));
     for (const d of snap.docs) {
       await deleteDoc(doc(dbStore, "automationLogs", d.id));
@@ -180,6 +224,10 @@ async function syncClearAutomationLogs() {
 
 async function syncAllToFirestore(data: any) {
   try {
+    if (!dbStore) {
+      console.warn("[FIREBASE] syncAllToFirestore ignorado: Firestore indisponível.");
+      return;
+    }
     console.log("[FIREBASE] Sincronizando dados completos com o Firestore...");
     for (const p of (data.posts || [])) {
       if (p && p.id) await setDoc(doc(dbStore, "posts", String(p.id)), p);
@@ -209,6 +257,9 @@ async function syncAllToFirestore(data: any) {
 
 async function loadDatabaseFromFirestore() {
   try {
+    if (!dbStore) {
+      throw new Error("Firestore não está inicializado.");
+    }
     console.log("[FIREBASE] Carregando do Firestore com guard de timeout de 4s...");
     
     // Timeout-guarded Promise.all para prevenir travamentos em ambientes serverless como o Vercel

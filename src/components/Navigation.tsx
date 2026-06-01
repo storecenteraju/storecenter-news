@@ -147,7 +147,7 @@ export default function Navigation({
       {/* INNER BRAND CONTAINER */}
       <div className="max-w-7xl mx-auto px-4 py-5 flex flex-col md:flex-row items-center justify-between gap-4">
         <div className="flex items-center gap-3 cursor-pointer select-none group" onClick={() => { setSelectedCategory('Home'); setView('portal'); }}>
-          <svg viewBox="0 0 120 100" className="w-12 h-12 shrink-0 transition-transform group-hover:scale-105" xmlns="http://www.w3.org/2000/svg">
+          <svg viewBox="0 0 120 100" className="w-12 h-12 shrink-0 transition-transform group-hover:scale-105" data-logo-version="2.0.1" xmlns="http://www.w3.org/2000/svg">
             <defs>
               <filter id="shadowNav" x="-10%" y="-10%" width="130%" height="130%">
                 <feDropShadow dx="1.5" dy="2" stdDeviation="2" floodColor="#001a4d" floodOpacity="0.32" />

@@ -550,7 +550,8 @@ export default function PortalHome({
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <svg viewBox="0 0 120 100" className="w-8 h-8 shrink-0" xmlns="http://www.w3.org/2000/svg">
+              {/* LOGO DE ALTA FIDELIDADE ATUALIZADO V2 - FORCE REBUILD */}
+              <svg viewBox="0 0 120 100" className="w-8 h-8 shrink-0" data-logo-version="2.0.1" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                   <filter id="shadowFooter" x="-10%" y="-10%" width="130%" height="130%">
                     <feDropShadow dx="1.5" dy="2" stdDeviation="2" floodColor="#001a4d" floodOpacity="0.32" />

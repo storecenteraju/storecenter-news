@@ -1847,7 +1847,7 @@ export default function AdminPanel({
         </div>
       )}
 
-      {/* MINHA CONTA */}
+      {/* SEÇÃO: MINHA CONTA - Restaurada conforme commit anterior */}
       {activeTab === 'account' && (
         <div className="max-w-2xl space-y-6">
           <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm">

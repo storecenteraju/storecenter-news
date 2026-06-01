@@ -229,6 +229,26 @@ async function syncSettings(settings: any) {
   }
 }
 
+async function persistSettingsOrThrow(settings: any) {
+  if (!dbStore) {
+    throw new Error("Firestore indisponivel para persistir configuracoes.");
+  }
+  await setDoc(doc(dbStore, "settings", "main"), settings || {});
+}
+
+async function refreshSettingsFromFirestore() {
+  if (!dbStore) {
+    return;
+  }
+  const settingsSnap = await getDocFromServer(doc(dbStore, "settings", "main"));
+  if (settingsSnap.exists()) {
+    if (!dbCache) {
+      dbCache = { posts: [], feeds: [], ads: [], settings: {}, automationLogs: [], deletedPostItems: [] };
+    }
+    dbCache.settings = { ...(dbCache.settings || {}), ...settingsSnap.data() };
+  }
+}
+
 async function syncAutomationLog(log: any) {
   try {
     if (!dbStore) {
@@ -573,7 +593,7 @@ app.get("/api/health", async (req, res) => {
 });
 
 // 0. Authentication Route with explicit diagnostic errors
-app.post("/api/login", (req, res) => {
+app.post("/api/login", async (req, res) => {
   try {
     const { username, password } = req.body || {};
     
@@ -587,6 +607,7 @@ app.post("/api/login", (req, res) => {
     const typedUser = username.trim();
     const typedPass = password.trim();
 
+    await refreshSettingsFromFirestore();
     const db = readDatabase();
     const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
@@ -659,6 +680,7 @@ app.post("/api/settings/change-password", async (req, res) => {
     const typedPass = currentPassword.trim();
     const typedNewPass = newPassword.trim();
 
+    await refreshSettingsFromFirestore();
     const db = readDatabase();
     const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
@@ -725,10 +747,8 @@ app.post("/api/settings/change-password", async (req, res) => {
       db.settings.customPasswords = {};
     }
 
+    await persistSettingsOrThrow(db.settings);
     writeDatabase(db);
-
-    // Sync with Firestore
-    await syncSettings(db.settings);
 
     res.json({
       success: true,

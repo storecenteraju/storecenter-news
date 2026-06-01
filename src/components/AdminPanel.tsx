@@ -1844,6 +1844,104 @@ export default function AdminPanel({
               </button>
             </form>
           </div>
+
+          <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm">
+            <div className="border-b border-slate-100 pb-3 mb-5">
+              <h3 className="text-sm font-bold font-display text-slate-900 uppercase">Minha Conta</h3>
+              <p className="text-xs text-slate-500 mt-1">Gerencie as credenciais de acesso para a redação de forma segura.</p>
+            </div>
+
+            <div className="mb-4 bg-slate-50 border border-slate-100 rounded-lg p-4 text-xs">
+              <div className="flex justify-between items-center">
+                <span className="text-slate-500 font-semibold uppercase text-[10px] tracking-wider">Usuário Ativo:</span>
+                <span className="font-mono text-blue-700 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full font-bold uppercase">{username || 'Desconhecido'}</span>
+              </div>
+            </div>
+
+            <form onSubmit={handleChangePassword} className="space-y-4 text-xs">
+              {passwordError && (
+                <div className="bg-rose-50 border border-rose-200 text-rose-600 rounded p-3 text-xs font-semibold leading-normal">
+                  {passwordError}
+                </div>
+              )}
+              {passwordSuccess && (
+                <div className="bg-green-50 border border-green-200 text-green-600 rounded p-3 text-xs font-semibold leading-normal">
+                  {passwordSuccess}
+                </div>
+              )}
+
+              <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Novo Usuário</label>
+                <input 
+                  type="text" 
+                  disabled={isChangingPassword}
+                  placeholder="Novo usuário de login"
+                  value={newUsername}
+                  onChange={e => setNewUsername(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Senha Atual</label>
+                <input 
+                  type="password" 
+                  required
+                  disabled={isChangingPassword}
+                  placeholder="Insira sua senha atual"
+                  value={currentPassword}
+                  onChange={e => setCurrentPassword(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Nova Senha</label>
+                  <input 
+                    type="password" 
+                    required
+                    disabled={isChangingPassword}
+                    placeholder="Mínimo 8 caracteres"
+                    value={newPassword}
+                    onChange={e => setNewPassword(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Confirmar Nova Senha</label>
+                  <input 
+                    type="password" 
+                    required
+                    disabled={isChangingPassword}
+                    placeholder="Repita a nova senha"
+                    value={confirmNewPassword}
+                    onChange={e => setConfirmNewPassword(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                  />
+                </div>
+              </div>
+
+              <button 
+                type="submit" 
+                disabled={isChangingPassword}
+                className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold uppercase tracking-wider rounded shadow transition cursor-pointer select-none flex items-center gap-1.5"
+              >
+                {isChangingPassword ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    Salvando Credenciais...
+                  </>
+                ) : (
+                  <>
+                    <Key className="w-3.5 h-3.5" />
+                    Salvar Alterações
+                  </>
+                )}
+              </button>
+            </form>
+          </div>
         </div>
       )}
 

@@ -139,6 +139,16 @@ async function syncPost(post: any) {
   }
 }
 
+async function persistPostOrThrow(post: any) {
+  if (!dbStore) {
+    throw new Error("Firestore indisponivel para persistir publicacao.");
+  }
+  if (!post || !post.id) {
+    throw new Error("Publicacao sem ID nao pode ser persistida.");
+  }
+  await setDoc(doc(dbStore, "posts", String(post.id)), post);
+}
+
 async function syncDeletePost(postId: string) {
   try {
     if (!dbStore) {
@@ -841,6 +851,7 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
 });
 
 app.post("/api/posts", async (req, res) => {
+  try {
   const db = readDatabase();
   const newPost = {
     id: String(Date.now()),
@@ -863,31 +874,45 @@ app.post("/api/posts", async (req, res) => {
   // Apply intelligent auto-categorization
   newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
 
+  await persistPostOrThrow(newPost);
   db.posts.unshift(newPost);
   writeDatabase(db);
-  // Sincroniza granularmente com o Firestore
-  await syncPost(newPost);
   res.status(211).json(newPost);
+  } catch (error: any) {
+    console.error("[PERSISTENCE] Falha ao persistir publicacao manual:", error);
+    res.status(500).json({
+      error: "Publicacao nao foi salva no banco persistente.",
+      details: error?.message || String(error)
+    });
+  }
 });
 
 app.put("/api/posts/:id", async (req, res) => {
+  try {
   const db = readDatabase();
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
-    db.posts[index] = { ...db.posts[index], ...req.body };
+    const updatedPost = { ...db.posts[index], ...req.body };
     if (req.body.title || req.body.content) {
-      db.posts[index].category = autoCategorizeNews(
-        db.posts[index].title || '',
-        db.posts[index].content || '',
-        db.posts[index].category || 'Economia'
+      updatedPost.category = autoCategorizeNews(
+        updatedPost.title || '',
+        updatedPost.content || '',
+        updatedPost.category || 'Economia'
       );
     }
+    await persistPostOrThrow(updatedPost);
+    db.posts[index] = updatedPost;
     writeDatabase(db);
-    // Sincroniza granularmente com o Firestore
-    await syncPost(db.posts[index]);
     res.json(db.posts[index]);
   } else {
     res.status(404).json({ error: "Post não encontrado" });
+  }
+  } catch (error: any) {
+    console.error("[PERSISTENCE] Falha ao persistir edicao de publicacao:", error);
+    res.status(500).json({
+      error: "Publicacao nao foi salva no banco persistente.",
+      details: error?.message || String(error)
+    });
   }
 });
 

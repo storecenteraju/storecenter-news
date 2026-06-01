@@ -1,28 +1,17 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.ts": {
-      "includeFiles": "firebase-applet-config.json"
-    }
-  },
-  "rewrites": [
+  "builds": [
     {
-      "source": "/api/(.*)",
-      "destination": "/api/index.ts"
+      "src": "api/server.ts",
+      "use": "@vercel/node"
     },
     {
-      "source": "/(.*)",
-      "destination": "/index.html"
+      "src": "package.json",
+      "use": "@vercel/static-build"
     }
   ],
-  "crons": [
-    {
-      "path": "/api/cron/rss-auto",
-      "schedule": "*/45 * * * *"
-    },
-    {
-      "path": "/api/cron/publish-scheduled",
-      "schedule": "*/5 * * * *"
-    }
+  "routes": [
+    { "src": "/api/(.*)", "dest": "/api/server.ts" },
+    { "src": "/(.*)", "dest": "/index.html" }
   ]
 }

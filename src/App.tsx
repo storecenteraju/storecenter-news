@@ -183,7 +183,7 @@ export default function App() {
         <div className="fixed bottom-4 right-4 z-50 flex items-center gap-2 select-none">
           <div className="bg-slate-950/90 hover:bg-slate-950 text-white backdrop-blur border border-slate-800 rounded-full px-4 py-2.5 shadow-xl flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-wider">
             <Sparkles className="w-3.5 h-3.5 text-blue-400" /> 
-            <span>Gemini AI {(import.meta as any).env?.VITE_GEMINI_API_KEY ? 'Ativo' : 'Simulação'}</span>
+            <span>Gemini AI {process.env.GEMINI_API_KEY ? 'Ativo' : 'Simulação'}</span>
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           </div>
         </div>

@@ -139,16 +139,6 @@ async function syncPost(post: any) {
   }
 }
 
-async function persistPostOrThrow(post: any) {
-  if (!dbStore) {
-    throw new Error("Firestore indisponivel para persistir publicacao.");
-  }
-  if (!post || !post.id) {
-    throw new Error("Publicacao sem ID nao pode ser persistida.");
-  }
-  await setDoc(doc(dbStore, "posts", String(post.id)), post);
-}
-
 async function syncDeletePost(postId: string) {
   try {
     if (!dbStore) {
@@ -226,26 +216,6 @@ async function syncSettings(settings: any) {
     await setDoc(doc(dbStore, "settings", "main"), settings);
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar configuracoes no Firestore:", err);
-  }
-}
-
-async function persistSettingsOrThrow(settings: any) {
-  if (!dbStore) {
-    throw new Error("Firestore indisponivel para persistir configuracoes.");
-  }
-  await setDoc(doc(dbStore, "settings", "main"), settings || {});
-}
-
-async function refreshSettingsFromFirestore() {
-  if (!dbStore) {
-    return;
-  }
-  const settingsSnap = await getDocFromServer(doc(dbStore, "settings", "main"));
-  if (settingsSnap.exists()) {
-    if (!dbCache) {
-      dbCache = { posts: [], feeds: [], ads: [], settings: {}, automationLogs: [], deletedPostItems: [] };
-    }
-    dbCache.settings = { ...(dbCache.settings || {}), ...settingsSnap.data() };
   }
 }
 
@@ -593,7 +563,7 @@ app.get("/api/health", async (req, res) => {
 });
 
 // 0. Authentication Route with explicit diagnostic errors
-app.post("/api/login", async (req, res) => {
+app.post("/api/login", (req, res) => {
   try {
     const { username, password } = req.body || {};
     
@@ -607,7 +577,6 @@ app.post("/api/login", async (req, res) => {
     const typedUser = username.trim();
     const typedPass = password.trim();
 
-    await refreshSettingsFromFirestore();
     const db = readDatabase();
     const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
@@ -680,7 +649,6 @@ app.post("/api/settings/change-password", async (req, res) => {
     const typedPass = currentPassword.trim();
     const typedNewPass = newPassword.trim();
 
-    await refreshSettingsFromFirestore();
     const db = readDatabase();
     const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
@@ -747,8 +715,10 @@ app.post("/api/settings/change-password", async (req, res) => {
       db.settings.customPasswords = {};
     }
 
-    await persistSettingsOrThrow(db.settings);
     writeDatabase(db);
+
+    // Sync with Firestore
+    await syncSettings(db.settings);
 
     res.json({
       success: true,
@@ -871,7 +841,6 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
 });
 
 app.post("/api/posts", async (req, res) => {
-  try {
   const db = readDatabase();
   const newPost = {
     id: String(Date.now()),
@@ -894,45 +863,31 @@ app.post("/api/posts", async (req, res) => {
   // Apply intelligent auto-categorization
   newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
 
-  await persistPostOrThrow(newPost);
   db.posts.unshift(newPost);
   writeDatabase(db);
+  // Sincroniza granularmente com o Firestore
+  await syncPost(newPost);
   res.status(211).json(newPost);
-  } catch (error: any) {
-    console.error("[PERSISTENCE] Falha ao persistir publicacao manual:", error);
-    res.status(500).json({
-      error: "Publicacao nao foi salva no banco persistente.",
-      details: error?.message || String(error)
-    });
-  }
 });
 
 app.put("/api/posts/:id", async (req, res) => {
-  try {
   const db = readDatabase();
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
-    const updatedPost = { ...db.posts[index], ...req.body };
+    db.posts[index] = { ...db.posts[index], ...req.body };
     if (req.body.title || req.body.content) {
-      updatedPost.category = autoCategorizeNews(
-        updatedPost.title || '',
-        updatedPost.content || '',
-        updatedPost.category || 'Economia'
+      db.posts[index].category = autoCategorizeNews(
+        db.posts[index].title || '',
+        db.posts[index].content || '',
+        db.posts[index].category || 'Economia'
       );
     }
-    await persistPostOrThrow(updatedPost);
-    db.posts[index] = updatedPost;
     writeDatabase(db);
+    // Sincroniza granularmente com o Firestore
+    await syncPost(db.posts[index]);
     res.json(db.posts[index]);
   } else {
     res.status(404).json({ error: "Post não encontrado" });
-  }
-  } catch (error: any) {
-    console.error("[PERSISTENCE] Falha ao persistir edicao de publicacao:", error);
-    res.status(500).json({
-      error: "Publicacao nao foi salva no banco persistente.",
-      details: error?.message || String(error)
-    });
   }
 });
 

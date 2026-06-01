@@ -810,6 +810,30 @@ app.put("/api/settings", (req, res) => {
   res.json(db.settings);
 });
 
+// Manual RSS Trigger Endpoint for Admin Panel
+app.post("/api/ai/rss-auto-manual", async (req, res) => {
+  try {
+    const result = await cronRssAuto();
+    res.json({
+      status: "success",
+      "quantidade de posts criados": result.totalImported || 0,
+      "quantidade de posts publicados": result.totalImported || 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": null,
+      "detalhes": result.importedDetails || []
+    });
+  } catch (error: any) {
+    res.status(500).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": error.message || String(error),
+      "detalhes": []
+    });
+  }
+});
+
 // 5. AI Rewrite: RSS Feeds simulation
 app.post("/api/ai/rss-scrape", async (req, res) => {
   const { category, sourceName } = req.body;
@@ -2643,6 +2667,7 @@ async function cronRssAuto() {
 
   let totalImported = 0;
   const importedPosts: string[] = [];
+  const importedDetails: any[] = [];
 
   const chosenWinners: any[] = [];
   const usedCategoriesThisRun = new Set<string>();
@@ -2759,6 +2784,13 @@ async function cronRssAuto() {
     db.posts.unshift(newPost);
     totalImported++;
     importedPosts.push(newPost.title);
+    importedDetails.push({
+      feed: feed.name,
+      title: sanitizedTitle,
+      category: scraperCategory,
+      slug: finalSlug,
+      sourceUrl: item.link
+    });
 
     // Sync newly created post to Firestore immediately!
     try {
@@ -2808,7 +2840,7 @@ async function cronRssAuto() {
     console.log(`[CRON] ${totalImported} nova(s) matéria(s) publicada(s) com sucesso com balanceamento inteligente.`);
   }
 
-  return { success: true, totalImported, importedPosts };
+  return { success: true, totalImported, importedPosts, importedDetails };
 }
 
 function cleanCdataAndHtml(str: string): string {
@@ -2921,7 +2953,8 @@ app.get("/api/cron/rss-auto", async (req, res) => {
       "quantidade de posts criados": result.totalImported || 0,
       "quantidade de posts publicados": result.totalImported || 0,
       "horário da execução": new Date().toISOString(),
-      "erro detalhado, se existir": null
+      "erro detalhado, se existir": null,
+      "detalhes": result.importedDetails || []
     });
   } catch (error: any) {
     // Save error trace to Firestore database for administrator traceability

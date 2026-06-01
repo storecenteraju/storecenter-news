@@ -3,7 +3,8 @@ import {
   Newspaper, ShieldCheck, Key, Plus, Edit2, Trash2, Calendar, 
   Radio, Cpu, Settings, Code, FileText, CheckCircle2, RefreshCw, 
   AlertTriangle, Eye, ArrowRight, Loader2, Link2, Download, Save, PlusCircle, Server,
-  BarChart3, TrendingUp, Users, Award, Activity, Info, ChevronDown, ChevronRight, FlaskConical
+  BarChart3, TrendingUp, Users, Award, Activity, Info, ChevronDown, ChevronRight, FlaskConical,
+  Zap, CheckCircle
 } from 'lucide-react';
 import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, isPostUrgente, normalizePost } from '../types';
 import PhpExporter from './PhpExporter';
@@ -101,6 +102,10 @@ export default function AdminPanel({
   const [scrapingFeedId, setScrapingFeedId] = useState<string | null>(null);
   const [scrapingLoading, setScrapingLoading] = useState(false);
   const [scrapedResult, setScrapedResult] = useState<any>(null);
+
+  // States for manual Cron RSS execution ("GERAR NOTÍCIA AGORA")
+  const [manualCronLoading, setManualCronLoading] = useState(false);
+  const [manualCronResult, setManualCronResult] = useState<any | null>(null);
 
   // Link comparisons state
   const [comparativeLinks, setComparativeLinks] = useState<string[]>(['', '']);
@@ -401,6 +406,35 @@ export default function AdminPanel({
     } finally {
       setScrapingLoading(false);
       setScrapingFeedId(null);
+    }
+  };
+
+  // Trigger automated RSS scraper, rewriter, and publisher immediately
+  const handleExecuteManualCron = async () => {
+    setManualCronLoading(true);
+    setManualCronResult(null);
+
+    try {
+      const response = await fetch('/api/ai/rss-auto-manual', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' }
+      });
+
+      const data = await response.json();
+      setManualCronResult(data);
+      if (data.status === "success") {
+        onRefreshData(); // Refresh the general posts view in the portal
+      }
+    } catch (err: any) {
+      console.error(err);
+      setManualCronResult({
+        status: "error",
+        "erro detalhado, se existir": err.message || String(err),
+        "quantidade de posts criados": 0,
+        "detalhes": []
+      });
+    } finally {
+      setManualCronLoading(false);
     }
   };
 
@@ -1171,6 +1205,124 @@ export default function AdminPanel({
             <h3 className="text-sm font-bold font-display text-slate-900 border-b border-slate-100 pb-3 uppercase">
               Canais RSS Configurados e Varredura
             </h3>
+
+            {/* MANUAL AUTOMATION TRIGGER BOX (GERAR NOTÍCIA AGORA) */}
+            <div className="bg-gradient-to-r from-amber-500/10 via-orange-500/10 to-blue-500/10 border border-amber-500/20 rounded-xl p-5 space-y-4">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+                <div className="space-y-1">
+                  <span className="bg-amber-100 text-amber-800 text-[10px] font-extrabold uppercase px-2 py-0.5 rounded-full">Fluxo de Automação Geral</span>
+                  <h4 className="text-sm font-bold text-slate-900 flex items-center gap-1.5 font-display mt-1">
+                    <Zap className="w-4 h-4 text-amber-500 fill-amber-500" /> Automação RSS Direta por IA
+                  </h4>
+                  <p className="text-[11px] text-slate-500 leading-relaxed">
+                    Executa em segundo plano a varredura completa de todos os feeds ativos, seleciona a matéria inédita de melhor pontuação de diversidade, reescreve com IA e publica automaticamente como <strong>published</strong>.
+                  </p>
+                </div>
+                <div className="shrink-0">
+                  <button
+                    onClick={handleExecuteManualCron}
+                    disabled={manualCronLoading || scrapingLoading}
+                    className="w-full sm:w-auto bg-slate-900 hover:bg-slate-800 text-white font-extrabold text-[11px] uppercase tracking-wider px-5 py-3 rounded-lg shadow-md hover:shadow-lg transition-all flex items-center justify-center gap-2 disabled:opacity-50 cursor-pointer text-center select-none"
+                  >
+                    {manualCronLoading ? (
+                      <>
+                        <Loader2 className="w-4 h-4 animate-spin text-amber-400" />
+                        IA Gerando Post...
+                      </>
+                    ) : (
+                      <>
+                        <Zap className="w-4 h-4 text-amber-400 fill-amber-400" />
+                        GERAR NOTÍCIA AGORA
+                      </>
+                    )}
+                  </button>
+                </div>
+              </div>
+
+              {/* MANUAL ACTION FEEDBACK DETAILS */}
+              {manualCronResult && (
+                <div className="mt-4 border-t border-slate-200/60 pt-4 space-y-3 text-xs">
+                  <div className={`p-4 rounded-lg flex items-start gap-2.5 ${manualCronResult.status === "success" ? "bg-emerald-50 text-emerald-950 border border-emerald-250/50" : "bg-red-55/10 text-red-900 border border-red-200/50"}`}>
+                    <div className="font-semibold w-full">
+                      {manualCronResult.status === "success" ? (
+                        <div className="flex items-center gap-2">
+                          <CheckCircle className="w-4 h-4 text-emerald-600 shrink-0" />
+                          <span className="font-bold">Execução Concluída com Sucesso!</span>
+                        </div>
+                      ) : (
+                        <div className="flex items-center gap-2">
+                          <AlertTriangle className="w-4 h-4 text-red-600 shrink-0" />
+                          <span className="font-bold">Erro na Execução da Automação RSS</span>
+                        </div>
+                      )}
+                    </div>
+                  </div>
+
+                  {manualCronResult.status === "success" && (
+                    <div className="bg-white border border-slate-200 rounded-lg p-3.5 space-y-3 shadow-sm">
+                      <div className="grid grid-cols-2 gap-4 text-[11px] border-b border-slate-100 pb-2.5">
+                        <div>
+                          <span className="text-slate-400 font-bold block uppercase tracking-wider text-[9px]">Sorteio / Criação:</span>
+                          <span className="text-slate-900 font-extrabold text-xs">{manualCronResult["quantidade de posts criados"]} post(s) criados e publicados</span>
+                        </div>
+                        <div>
+                          <span className="text-slate-400 font-bold block uppercase tracking-wider text-[9px]">Horário da Execução:</span>
+                          <span className="text-slate-700 font-medium font-mono text-[11px]">{new Date(manualCronResult["horário da execução"]).toLocaleString("pt-BR")}</span>
+                        </div>
+                      </div>
+
+                      {manualCronResult.detalhes && manualCronResult.detalhes.length > 0 ? (
+                        <div className="space-y-3 pt-1">
+                          <span className="text-slate-500 font-bold block uppercase tracking-wider text-[9px] mb-2">Matéria Gerada com Sucesso:</span>
+                          {manualCronResult.detalhes.map((det: any, index: number) => (
+                            <div key={index} className="bg-slate-50/70 border border-slate-200 rounded p-3.5 space-y-2">
+                              <div className="flex items-center gap-2">
+                                <span className="bg-blue-100 text-blue-800 text-[9px] font-extrabold uppercase px-2 py-0.5 rounded">
+                                  {det.category}
+                                </span>
+                                <span className="text-slate-400 text-[10px]">via Source: <strong>{det.feed}</strong></span>
+                              </div>
+                              <div className="text-slate-950 font-bold text-sm leading-snug">
+                                {det.title}
+                              </div>
+                              <div className="flex items-center gap-3 text-[11px] text-slate-500 pt-1.5 border-t border-slate-100">
+                                <a 
+                                  href={`/post/${det.slug}`} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer" 
+                                  className="text-blue-600 hover:text-blue-800 underline font-extrabold flex items-center gap-0.5"
+                                >
+                                  Ver Matéria no Portal
+                                </a>
+                                <span className="text-slate-300">|</span>
+                                <a 
+                                  href={det.sourceUrl} 
+                                  target="_blank" 
+                                  rel="noopener noreferrer" 
+                                  className="text-slate-500 hover:text-slate-700 underline font-semibold max-w-[150px] truncate"
+                                >
+                                  Ver Fonte Original
+                                </a>
+                              </div>
+                            </div>
+                          ))}
+                        </div>
+                      ) : (
+                        <div className="text-slate-500 italic text-[11px]">
+                          Nenhum post inédito elegível foi importado. Todos os candidatos já se encontram publicados ou foram de categorias restringidas nesta execução.
+                        </div>
+                      )}
+                    </div>
+                  )}
+
+                  {manualCronResult["erro detalhado, se existir"] && (
+                    <div className="bg-rose-50 border border-rose-200 text-rose-950 p-3.5 rounded-lg font-mono text-[11px] break-words">
+                      <strong>Erro Reportado:</strong> {manualCronResult["erro detalhado, se existir"]}
+                    </div>
+                  )}
+                </div>
+              )}
+            </div>
 
             {/* AI LOADING PROGRESS BOXED */}
             {scrapingLoading && (

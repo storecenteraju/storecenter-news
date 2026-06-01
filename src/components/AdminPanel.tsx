@@ -41,7 +41,7 @@ export default function AdminPanel({
   const [isChangingPassword, setIsChangingPassword] = useState(false);
 
   // Active Admin Tab
-  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel' | 'logs' | 'analytics' | 'diagnostic'>('posts');
+  const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'account' | 'cpanel' | 'logs' | 'analytics' | 'diagnostic'>('posts');
   const [diagSearch, setDiagSearch] = useState('');
   const [isNormalizing, setIsNormalizing] = useState(false);
   const [diagFilter, setDiagFilter] = useState<'all' | 'visible' | 'invisible' | 'test'>('all');
@@ -801,28 +801,34 @@ export default function AdminPanel({
           <div className="flex items-center gap-1.5"><Settings className="w-4 h-4" /> 6. Configurações</div>
         </button>
         <button 
+          onClick={() => setActiveTab('account')}
+          className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'account' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
+        >
+          <div className="flex items-center gap-1.5"><Key className="w-4 h-4 text-slate-700" /> 7. Minha Conta</div>
+        </button>
+        <button 
           onClick={() => setActiveTab('cpanel')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'cpanel' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5 bg-blue-900/10 text-blue-800 rounded px-2.5 py-1 font-black"><Server className="w-4 h-4" /> 7. Hospedar cPanel (PHP)</div>
+          <div className="flex items-center gap-1.5 bg-blue-900/10 text-blue-800 rounded px-2.5 py-1 font-black"><Server className="w-4 h-4" /> 8. Hospedar cPanel (PHP)</div>
         </button>
         <button 
           onClick={() => setActiveTab('logs')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'logs' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5 bg-amber-900/10 text-amber-800 rounded px-2.5 py-1 font-extrabold"><FileText className="w-4 h-4 text-amber-700 animate-pulse" /> 8. Log da Automação</div>
+          <div className="flex items-center gap-1.5 bg-amber-900/10 text-amber-800 rounded px-2.5 py-1 font-extrabold"><FileText className="w-4 h-4 text-amber-700 animate-pulse" /> 9. Log da Automação</div>
         </button>
         <button 
           onClick={() => setActiveTab('analytics')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'analytics' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5 bg-purple-900/10 text-purple-800 rounded px-2.5 py-1 font-extrabold"><BarChart3 className="w-4 h-4 text-purple-700" /> 9. Analytics 📊</div>
+          <div className="flex items-center gap-1.5 bg-purple-900/10 text-purple-800 rounded px-2.5 py-1 font-extrabold"><BarChart3 className="w-4 h-4 text-purple-700" /> 10. Analytics 📊</div>
         </button>
         <button 
           onClick={() => setActiveTab('diagnostic')}
           className={`px-4 py-3 text-xs font-extrabold uppercase tracking-widest cursor-pointer select-none shrink-0 ${activeTab === 'diagnostic' ? 'border-b-2 border-primary text-primary' : 'text-slate-500 hover:text-slate-800'}`}
         >
-          <div className="flex items-center gap-1.5 bg-red-900/10 text-red-800 rounded px-2.5 py-1 font-extrabold"><Activity className="w-4 h-4 text-red-700 hover:scale-110 transition-transform" /> 10. Diagnóstico 🔍</div>
+          <div className="flex items-center gap-1.5 bg-red-900/10 text-red-800 rounded px-2.5 py-1 font-extrabold"><Activity className="w-4 h-4 text-red-700 hover:scale-110 transition-transform" /> 11. Diagnóstico 🔍</div>
         </button>
       </div>
 
@@ -1838,7 +1844,12 @@ export default function AdminPanel({
               </button>
             </form>
           </div>
+        </div>
+      )}
 
+      {/* MINHA CONTA */}
+      {activeTab === 'account' && (
+        <div className="max-w-2xl space-y-6">
           <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm">
             <div className="border-b border-slate-100 pb-3 mb-5">
               <h3 className="text-sm font-bold font-display text-slate-900 uppercase">Minha Conta</h3>

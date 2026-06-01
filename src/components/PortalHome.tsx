@@ -550,17 +550,45 @@ export default function PortalHome({
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8 text-xs">
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <svg viewBox="0 0 100 100" className="w-8 h-8 text-white shrink-0" fill="none" stroke="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path d="M23 25 C23 25 12 25 12 27 L12 73 C12 81 14 82 23 82" strokeWidth="6.5" strokeLinecap="round" strokeLinejoin="round" />
-                <path d="M23 25 L23 82" strokeWidth="6.5" strokeLinecap="round" />
-                <rect x="22" y="15" width="62" height="67" rx="6" ry="6" fill="#0f172a" strokeWidth="6.5" strokeLinejoin="round" />
-                <rect x="31" y="24" width="20" height="23" rx="1" fill="currentColor" stroke="none" />
-                <line x1="58" y1="27" x2="75" y2="27" strokeWidth="4.5" strokeLinecap="round" />
-                <line x1="58" y1="35" x2="75" y2="35" strokeWidth="4.5" strokeLinecap="round" />
-                <line x1="58" y1="43" x2="75" y2="43" strokeWidth="4.5" strokeLinecap="round" strokeLinejoin="round" />
-                <line x1="31" y1="56" x2="75" y2="56" strokeWidth="4.5" strokeLinecap="round" />
-                <line x1="31" y1="65" x2="75" y2="65" strokeWidth="4.5" strokeLinecap="round" />
-                <line x1="31" y1="74" x2="75" y2="74" strokeWidth="4.5" strokeLinecap="round" />
+              <svg viewBox="0 0 120 100" className="w-8 h-8 shrink-0" xmlns="http://www.w3.org/2000/svg">
+                <defs>
+                  <filter id="shadowFooter" x="-10%" y="-10%" width="130%" height="130%">
+                    <feDropShadow dx="1.5" dy="2" stdDeviation="2" floodColor="#001a4d" floodOpacity="0.32" />
+                  </filter>
+                  <filter id="glowFooter" x="-20%" y="-20%" width="140%" height="140%">
+                    <feDropShadow dx="0" dy="1.5" stdDeviation="2" floodColor="#0055ff" floodOpacity="0.4" />
+                  </filter>
+                  <linearGradient id="bubbleGradFooter" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stopColor="#2563eb" />
+                    <stop offset="40%" stopColor="#1d4ed8" />
+                    <stop offset="100%" stopColor="#1e3a8a" />
+                  </linearGradient>
+                  <linearGradient id="paperGradFooter" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#ffffff" />
+                    <stop offset="100%" stopColor="#f8fafc" />
+                  </linearGradient>
+                </defs>
+                
+                <g filter="url(#shadowFooter)">
+                  <rect x="36" y="8" width="68" height="76" rx="10" fill="url(#paperGradFooter)" stroke="#1e40af" strokeWidth="4" strokeLinejoin="round" />
+                  <rect x="42" y="14" width="56" height="64" rx="6" fill="none" stroke="#3b82f6" strokeWidth="1.5" opacity="0.3" />
+                  <rect x="48" y="20" width="22" height="22" rx="4" fill="#1d4ed8" />
+                  <path d="M 48 36 L 56 28 L 62 34 L 66 30 L 70 36 Z" fill="#3b82f6" opacity="0.8" />
+                  <rect x="76" y="21" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+                  <rect x="76" y="28" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+                  <rect x="76" y="35" width="16" height="3" rx="1.5" fill="#1e3a8a" opacity="0.85" />
+                  <rect x="76" y="42" width="12" height="3" rx="1.5" fill="#1e3a8a" opacity="0.5" />
+                  <rect x="48" y="50" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+                  <rect x="48" y="57" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+                  <rect x="48" y="64" width="44" height="3" rx="1.5" fill="#1e3a8a" opacity="0.8" />
+                  <rect x="48" y="71" width="30" height="3" rx="1.5" fill="#1e3a8a" opacity="0.6" />
+                </g>
+                
+                <g filter="url(#glowFooter)">
+                  <path d="M 12 40 h 68 a 10 10 0 0 1 10 10 v 22 a 10 10 0 0 1 -10 10 H 66 l -12 12 v -12 H 22 a 10 10 0 0 1 -10 -10 v -22 a 10 10 0 0 1 10 -10 z" fill="url(#bubbleGradFooter)" stroke="#ffffff" strokeWidth="3" strokeLinejoin="round" />
+                  <path d="M 14 42 h 64 a 8 8 0 0 1 8 8 v 3" fill="none" stroke="#60a5fa" strokeWidth="1.5" strokeLinecap="round" opacity="0.7" />
+                  <text x="46" y="66" fontFamily="sans-serif" fontWeight="900" fontStyle="italic" fontSize="19.5" fill="#ffffff" textAnchor="middle" letterSpacing="-0.5">NEWS</text>
+                </g>
               </svg>
               <span className="text-base font-extrabold font-display text-white tracking-widest uppercase">STORECENTER</span>
             </div>

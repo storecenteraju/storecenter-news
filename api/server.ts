@@ -583,45 +583,48 @@ app.post("/api/login", (req, res) => {
       });
     }
     
-    // Suporte flexível para 'admin' ou o nome da marca 'storecenter'
-    const adminUser = (process.env.ADMIN_USER || "admin").trim();
-    const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
-
     const typedUser = username.trim();
     const typedPass = password.trim();
 
-    const matchesEnvUser = typedUser === adminUser;
-    const matchesDefaultUser = typedUser.toLowerCase() === "admin";
-    const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
-
-    const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
-    
-    if (!isUserValid) {
-      return res.status(401).json({ 
-        success: false, 
-        error: `O usuário '${typedUser}' não está cadastrado neste painel admin.` 
-      });
-    }
-
     const db = readDatabase();
-    const customPassMap = db.settings?.customPasswords || {};
-    const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+    const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
-    // A senha é válida se for a principal cadastrada ou se for o fallback admin123 para o fallback admin
-    const matchesEnvPass = typedPass === adminPass;
-    const matchesDefaultPass = typedPass === "admin123";
+    let isAuthenticated = false;
 
-    let isPassValid = false;
-    if (hasCustomPass) {
-      isPassValid = typedPass === hasCustomPass;
+    if (hasCustomCreds) {
+      if (typedUser.toLowerCase() === db.settings.customUser.toLowerCase() && typedPass === db.settings.customPassword) {
+        isAuthenticated = true;
+      }
     } else {
-      isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+      // Suporte flexível para 'admin' ou o nome da marca 'storecenter'
+      const adminUser = (process.env.ADMIN_USER || "admin").trim();
+      const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
+
+      const matchesEnvUser = typedUser === adminUser;
+      const matchesDefaultUser = typedUser.toLowerCase() === "admin";
+      const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
+
+      const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
+
+      if (isUserValid) {
+        const customPassMap = db.settings?.customPasswords || {};
+        const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+
+        const matchesEnvPass = typedPass === adminPass;
+        const matchesDefaultPass = typedPass === "admin123";
+
+        if (hasCustomPass) {
+          isAuthenticated = typedPass === hasCustomPass;
+        } else {
+          isAuthenticated = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+        }
+      }
     }
 
-    if (!isPassValid) {
+    if (!isAuthenticated) {
       return res.status(401).json({ 
         success: false, 
-        error: "A senha especificada está inválida para este usuário." 
+        error: "A senha especificada ou usuário estão inválidos." 
       });
     }
 
@@ -641,70 +644,86 @@ app.post("/api/login", (req, res) => {
 // 0.1 Change Password Route with validation & secure database persistence
 app.post("/api/settings/change-password", async (req, res) => {
   try {
-    const { username, currentPassword, newPassword } = req.body || {};
+    const { username, newUsername, currentPassword, newPassword } = req.body || {};
 
     if (!username || !currentPassword || !newPassword) {
       return res.status(400).json({
         success: false,
-        error: "Dados ausentes. O usuário, senha atual e nova senha devem ser preenchidos."
+        error: "Dados ausentes. O usuário atual, a senha atual e a nova senha devem ser preenchidos."
       });
     }
 
     const typedUser = username.trim();
+    const typedNewUser = newUsername ? newUsername.trim() : "";
     const typedPass = currentPassword.trim();
-
-    const adminUser = (process.env.ADMIN_USER || "admin").trim();
-    const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
-
-    const matchesEnvUser = typedUser === adminUser;
-    const matchesDefaultUser = typedUser.toLowerCase() === "admin";
-    const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
-
-    const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
-
-    if (!isUserValid) {
-      return res.status(401).json({
-        success: false,
-        error: `O usuário '${typedUser}' não está cadastrado neste painel admin.`
-      });
-    }
+    const typedNewPass = newPassword.trim();
 
     const db = readDatabase();
-    const customPassMap = db.settings?.customPasswords || {};
-    const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+    const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
 
-    const matchesEnvPass = typedPass === adminPass;
-    const matchesDefaultPass = typedPass === "admin123";
+    let isCurrentAuthValid = false;
 
-    let isPassValid = false;
-    if (hasCustomPass) {
-      isPassValid = typedPass === hasCustomPass;
+    if (hasCustomCreds) {
+      if (typedUser.toLowerCase() === db.settings.customUser.toLowerCase() && typedPass === db.settings.customPassword) {
+        isCurrentAuthValid = true;
+      }
     } else {
-      isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+      const adminUser = (process.env.ADMIN_USER || "admin").trim();
+      const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
+
+      const matchesEnvUser = typedUser === adminUser;
+      const matchesDefaultUser = typedUser.toLowerCase() === "admin";
+      const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
+
+      if (matchesEnvUser || matchesDefaultUser || matchesBrandUser) {
+        const customPassMap = db.settings?.customPasswords || {};
+        const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+
+        const matchesEnvPass = typedPass === adminPass;
+        const matchesDefaultPass = typedPass === "admin123";
+
+        if (hasCustomPass) {
+          isCurrentAuthValid = typedPass === hasCustomPass;
+        } else {
+          isCurrentAuthValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+        }
+      }
     }
 
-    if (!isPassValid) {
+    if (!isCurrentAuthValid) {
       return res.status(401).json({
         success: false,
         error: "A senha atual informada está incorreta."
       });
     }
 
-    if (newPassword.length < 8) {
+    if (typedNewPass.length < 8) {
       return res.status(400).json({
         success: false,
         error: "A nova senha deve possuir pelo menos 8 caracteres."
       });
     }
 
+    const finalNewUser = typedNewUser || typedUser;
+
+    if (!finalNewUser) {
+      return res.status(400).json({
+        success: false,
+        error: "O novo usuário não pode ser vazio."
+      });
+    }
+
     if (!db.settings) {
       db.settings = {};
     }
-    if (!db.settings.customPasswords) {
+
+    db.settings.customUser = finalNewUser;
+    db.settings.customPassword = typedNewPass;
+    
+    if (db.settings.customPasswords) {
       db.settings.customPasswords = {};
     }
 
-    db.settings.customPasswords[typedUser.toLowerCase()] = newPassword.trim();
     writeDatabase(db);
 
     // Sync with Firestore
@@ -712,13 +731,14 @@ app.post("/api/settings/change-password", async (req, res) => {
 
     res.json({
       success: true,
-      message: `Senha do usuário '${typedUser}' alterada com sucesso!`
+      message: `Credenciais do usuário '${finalNewUser}' alteradas com sucesso!`,
+      newUser: finalNewUser
     });
   } catch (error: any) {
-    console.error("Erro interno ao alterar senha:", error);
+    console.error("Erro interno ao alterar credenciais:", error);
     res.status(500).json({
       success: false,
-      error: `Erro ao alterar senha no servidor: ${error.message}`
+      error: `Erro ao alterar credenciais no servidor: ${error.message}`
     });
   }
 });

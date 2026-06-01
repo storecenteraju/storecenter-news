@@ -32,6 +32,7 @@ export default function AdminPanel({
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
   // Change Password State
+  const [newUsername, setNewUsername] = useState('');
   const [currentPassword, setCurrentPassword] = useState('');
   const [newPassword, setNewPassword] = useState('');
   const [confirmNewPassword, setConfirmNewPassword] = useState('');
@@ -570,7 +571,7 @@ export default function AdminPanel({
     }
   };
 
-  // Change account password helper
+  // Change account credentials helper
   const handleChangePassword = async (e: React.FormEvent) => {
     e.preventDefault();
     setPasswordError('');
@@ -579,6 +580,11 @@ export default function AdminPanel({
     // Frontend validation
     if (!currentPassword) {
       setPasswordError('A senha atual é obrigatória.');
+      return;
+    }
+    const targetNewUser = newUsername.trim() || username;
+    if (!targetNewUser) {
+      setPasswordError('O novo usuário não pode ser vazio.');
       return;
     }
     if (newPassword.length < 8) {
@@ -597,6 +603,7 @@ export default function AdminPanel({
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
           username,
+          newUsername: targetNewUser,
           currentPassword,
           newPassword
         })
@@ -604,18 +611,20 @@ export default function AdminPanel({
 
       const data = await response.json();
       if (!response.ok || !data.success) {
-        setPasswordError(data.error || 'Erro ao alterar a senha.');
+        setPasswordError(data.error || 'Erro ao alterar as credenciais.');
       } else {
-        setPasswordSuccess('Senha alterada com sucesso! Redirecionando para o login...');
+        setPasswordSuccess('Credenciais alteradas com sucesso! Redirecionando para o login...');
         
-        // Clear password fields
+        // Clear credential fields
         setCurrentPassword('');
         setNewPassword('');
         setConfirmNewPassword('');
+        setNewUsername('');
         
         // Force recheck login after a brief delay
         setTimeout(() => {
           // Clear credentials causing logout & requiring new login
+          setUsername('');
           setPassword('');
           setIsAuthenticated(false);
           setPasswordSuccess('');
@@ -1856,6 +1865,18 @@ export default function AdminPanel({
               )}
 
               <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Novo Usuário</label>
+                <input 
+                  type="text" 
+                  disabled={isChangingPassword}
+                  placeholder="Novo usuário de login"
+                  value={newUsername}
+                  onChange={e => setNewUsername(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+
+              <div>
                 <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Senha Atual</label>
                 <input 
                   type="password" 
@@ -1904,12 +1925,12 @@ export default function AdminPanel({
                 {isChangingPassword ? (
                   <>
                     <Loader2 className="w-3.5 h-3.5 animate-spin" />
-                    Salvando...
+                    Salvando Credenciais...
                   </>
                 ) : (
                   <>
                     <Key className="w-3.5 h-3.5" />
-                    Alterar Senha do Editor
+                    Salvar Alterações
                   </>
                 )}
               </button>

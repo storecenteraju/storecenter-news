@@ -1,4 +1,5 @@
 # Store Center - Automatização por Cron Jobs (CMS Admin)
+Teste de sincronização Vercel
 
 Este portal possui rotinas totalmente automatizadas de agendamento de posts e coleta/reescrita de notícias via feeds RSS utilizando Inteligência Artificial (Gemini).
 
@@ -93,4 +94,4 @@ Se sua hospedagem convencional não permitir configuração livre de crons:
    - `https://seu-dominio.com.br/api/cron/rss-auto` (definido a cada 45 minutos)
 3. Defina o cronômetro para disparar de acordo com o planejado.
 4. Forçar novo deploy Vercel
-5. Teste de sincronização Vercel
+

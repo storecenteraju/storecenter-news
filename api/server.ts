@@ -9,6 +9,16 @@ dotenv.config();
 const app = express();
 const PORT = 3000;
 const DB_PATH = path.join(process.cwd(), "db.json");
+const BACKUP_PATH = path.join(process.cwd(), "db_backup.json");
+
+if (fs.existsSync(DB_PATH) && !fs.existsSync(BACKUP_PATH)) {
+  try {
+    fs.copyFileSync(DB_PATH, BACKUP_PATH);
+    console.log("[BACKUP] Backup automatico de db.json criado com sucesso em db_backup.json!");
+  } catch (backupErr) {
+    console.error("[BACKUP] Erro ao criar backup automatico de db.json:", backupErr);
+  }
+}
 
 app.use(express.json());
 
@@ -316,20 +326,76 @@ async function loadDatabaseFromFirestore() {
       };
       await syncAllToFirestore(dbCache);
     } else {
+      // Safe merge: Check if there are any local posts / feeds that are not present in Firestore
+      let localPosts: any[] = [];
+      let localFeeds: any[] = [];
+      let localAds: any[] = [];
+      let localSettings: any = {};
+      let localLogs: any[] = [];
+      let localDeleted: any[] = [];
+
+      if (fs.existsSync(DB_PATH)) {
+        try {
+          const raw = fs.readFileSync(DB_PATH, "utf-8");
+          const localData = JSON.parse(raw);
+          localPosts = localData.posts || [];
+          localFeeds = localData.feeds || [];
+          localAds = localData.ads || [];
+          localSettings = localData.settings || {};
+          localLogs = localData.automationLogs || [];
+          localDeleted = localData.deletedPostItems || [];
+        } catch (readErr) {
+          console.error("[FIREBASE] Erro ao ler base local para mesclagem:", readErr);
+        }
+      }
+
+      // Check for missing posts in Firestore
+      const firestorePostIds = new Set(posts.map(p => String(p.id)));
+      const missingPosts = localPosts.filter(p => p && p.id && !firestorePostIds.has(String(p.id)));
+      if (missingPosts.length > 0) {
+        console.log(`[FIREBASE] Detectados ${missingPosts.length} posts locais nao existentes no Firestore. Sincronizando...`);
+        for (const p of missingPosts) {
+          try {
+            await setDoc(doc(dbStore, "posts", String(p.id)), p);
+            posts.push(p);
+          } catch (syncErr) {
+            console.error(`[FIREBASE] Erro de sincronizacao de post local ${p.id} para o Firestore:`, syncErr);
+          }
+        }
+        // Resort posts
+        posts.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+      }
+
+      // Check for missing feeds in Firestore
+      const firestoreFeedIds = new Set(feeds.map(f => String(f.id)));
+      const missingFeeds = localFeeds.filter(f => f && f.id && !firestoreFeedIds.has(String(f.id)));
+      if (missingFeeds.length > 0) {
+        console.log(`[FIREBASE] Detectados ${missingFeeds.length} feeds locais nao existentes no Firestore. Sincronizando...`);
+        for (const f of missingFeeds) {
+          try {
+            await setDoc(doc(dbStore, "feeds", String(f.id)), f);
+            feeds.push(f);
+          } catch (syncErr) {
+            console.error(`[FIREBASE] Erro de sincronizacao de feed local ${f.id} para o Firestore:`, syncErr);
+          }
+        }
+      }
+
       dbCache = {
         posts,
         feeds,
-        ads,
-        settings,
-        automationLogs,
-        deletedPostItems
+        ads: ads.length > 0 ? ads : (localAds.length > 0 ? localAds : []),
+        settings: (settings && Object.keys(settings).length > 0) ? settings : localSettings,
+        automationLogs: automationLogs.length > 0 ? automationLogs : localLogs,
+        deletedPostItems: deletedPostItems.length > 0 ? deletedPostItems : localDeleted
       };
+
       try {
         fs.writeFileSync(DB_PATH, JSON.stringify(dbCache, null, 2), "utf-8");
       } catch (writeErr: any) {
-        console.warn("[FIREBASE] Sistema de arquivos é somente-leitura em produção. Mantendo banco atualizado em memória:", writeErr.message);
+        console.warn("[FIREBASE] Sistema de arquivos e somente-leitura em producao. Mantendo banco atualizado em memoria:", writeErr.message);
       }
-      console.log("[FIREBASE] Carregado com sucesso!");
+      console.log("[FIREBASE] Carregado e mesclado com sucesso!");
     }
   } catch (err) {
     console.error("[FIREBASE] Erro ao carregar, usando db.json local:", err);
@@ -668,7 +734,7 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
   });
 });
 
-app.post("/api/posts", (req, res) => {
+app.post("/api/posts", async (req, res) => {
   const db = readDatabase();
   const newPost = {
     id: String(Date.now()),
@@ -693,10 +759,12 @@ app.post("/api/posts", (req, res) => {
 
   db.posts.unshift(newPost);
   writeDatabase(db);
+  // Sincroniza granularmente com o Firestore
+  await syncPost(newPost);
   res.status(211).json(newPost);
 });
 
-app.put("/api/posts/:id", (req, res) => {
+app.put("/api/posts/:id", async (req, res) => {
   const db = readDatabase();
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
@@ -709,13 +777,15 @@ app.put("/api/posts/:id", (req, res) => {
       );
     }
     writeDatabase(db);
+    // Sincroniza granularmente com o Firestore
+    await syncPost(db.posts[index]);
     res.json(db.posts[index]);
   } else {
     res.status(404).json({ error: "Post não encontrado" });
   }
 });
 
-app.delete("/api/posts/:id", (req, res) => {
+app.delete("/api/posts/:id", async (req, res) => {
   const db = readDatabase();
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
@@ -725,16 +795,21 @@ app.delete("/api/posts/:id", (req, res) => {
       db.deletedPostItems = [];
     }
 
-    db.deletedPostItems.push({
+    const deletedItem = {
       id: deleted.id,
       title: deleted.title,
       sourceUrl: deleted.sourceUrl || '',
       rssOriginalTitle: deleted.rssOriginalTitle || '',
       slug: deleted.slug,
       deletedAt: new Date().toISOString()
-    });
+    };
+
+    db.deletedPostItems.push(deletedItem);
 
     writeDatabase(db);
+    // Sincroniza granularmente com o Firestore
+    await syncDeletePost(deleted.id);
+    await syncDeletedPostItem(deletedItem);
     res.json(deleted);
   } else {
     res.status(404).json({ error: "Post não encontrado" });
@@ -742,12 +817,14 @@ app.delete("/api/posts/:id", (req, res) => {
 });
 
 // Increment view counter
-app.post("/api/posts/:id/view", (req, res) => {
+app.post("/api/posts/:id/view", async (req, res) => {
   const db = readDatabase();
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
     db.posts[index].views = (db.posts[index].views || 0) + 1;
     writeDatabase(db);
+    // Sincroniza granularmente com o Firestore
+    await syncPost(db.posts[index]);
     res.json({ views: db.posts[index].views });
   } else {
     res.status(404).json({ error: "Post não encontrado" });
@@ -760,7 +837,7 @@ app.get("/api/feeds", (req, res) => {
   res.json(db.feeds || []);
 });
 
-app.post("/api/feeds", (req, res) => {
+app.post("/api/feeds", async (req, res) => {
   const db = readDatabase();
   const newFeed = {
     id: "feed-" + String(Date.now()),
@@ -769,15 +846,19 @@ app.post("/api/feeds", (req, res) => {
   };
   db.feeds.push(newFeed);
   writeDatabase(db);
+  // Sincroniza granularmente com o Firestore
+  await syncFeed(newFeed);
   res.json(newFeed);
 });
 
-app.delete("/api/feeds/:id", (req, res) => {
+app.delete("/api/feeds/:id", async (req, res) => {
   const db = readDatabase();
   const index = db.feeds.findIndex((f: any) => f.id === req.params.id);
   if (index !== -1) {
     const deleted = db.feeds.splice(index, 1);
     writeDatabase(db);
+    // Sincroniza granularmente com o Firestore
+    await syncDeleteFeed(req.params.id);
     res.json(deleted[0]);
   } else {
     res.status(404).json({ error: "Feed não encontrado" });
@@ -790,10 +871,12 @@ app.get("/api/ads", (req, res) => {
   res.json(db.ads || []);
 });
 
-app.put("/api/ads", (req, res) => {
+app.put("/api/ads", async (req, res) => {
   const db = readDatabase();
   db.ads = req.body;
   writeDatabase(db);
+  // Sincroniza granularmente com o Firestore
+  await syncAllAds(db.ads);
   res.json(db.ads);
 });
 
@@ -803,10 +886,12 @@ app.get("/api/settings", (req, res) => {
   res.json(db.settings || {});
 });
 
-app.put("/api/settings", (req, res) => {
+app.put("/api/settings", async (req, res) => {
   const db = readDatabase();
   db.settings = { ...db.settings, ...req.body };
   writeDatabase(db);
+  // Sincroniza granularmente com o Firestore
+  await syncSettings(db.settings);
   res.json(db.settings);
 });
 

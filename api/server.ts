@@ -25,8 +25,13 @@ app.use(express.json());
 let isDatabaseLoaded = false;
 async function ensureDatabaseLoaded() {
   if (!isDatabaseLoaded) {
-    await loadDatabaseFromFirestore();
-    isDatabaseLoaded = true;
+    try {
+      await loadDatabaseFromFirestore();
+      isDatabaseLoaded = true;
+    } catch (err) {
+      console.error("[LOAD] Falha ao carregar banco do Firestore. Tentara carregar novamente nas próximas requisicoes.", err);
+      throw err;
+    }
   }
 }
 
@@ -107,6 +112,17 @@ let dbCache: any = {
   automationLogs: [],
   deletedPostItems: []
 };
+
+// Initial startup load of db.json into cache
+try {
+  if (fs.existsSync(DB_PATH)) {
+    const raw = fs.readFileSync(DB_PATH, "utf-8");
+    dbCache = JSON.parse(raw);
+    console.log("[STARTUP] db.json local carregado com sucesso para dbCache inicial.");
+  }
+} catch (startupErr) {
+  console.error("[STARTUP] Falha ao ler db.json local no startup:", startupErr);
+}
 
 // Granular Sync Helpers to keep Firestore updated
 async function syncPost(post: any) {
@@ -270,7 +286,7 @@ async function loadDatabaseFromFirestore() {
     if (!dbStore) {
       throw new Error("Firestore não está inicializado.");
     }
-    console.log("[FIREBASE] Carregando do Firestore com guard de timeout de 4s...");
+    console.log("[FIREBASE] Carregando do Firestore com guard de timeout de 15s...");
     
     // Timeout-guarded Promise.all para prevenir travamentos em ambientes serverless como o Vercel
     const snaps = await Promise.race([
@@ -283,7 +299,7 @@ async function loadDatabaseFromFirestore() {
         getDocsFromServer(collection(dbStore, "deletedPostItems"))
       ]),
       new Promise<never>((_, reject) => 
-        setTimeout(() => reject(new Error("Timeout de 4000ms tentando acessar o Firestore")), 4000)
+        setTimeout(() => reject(new Error("Timeout de 15000ms tentando acessar o Firestore")), 15000)
       )
     ]);
 
@@ -326,9 +342,8 @@ async function loadDatabaseFromFirestore() {
       };
       await syncAllToFirestore(dbCache);
     } else {
-      // Safe merge: Check if there are any local posts / feeds that are not present in Firestore
-      let localPosts: any[] = [];
-      let localFeeds: any[] = [];
+      // PROD RULE: If Firestore has data, we DO NOT write or merge missing local template posts from db.json back to Firestore.
+      // This prevents deleted default posts from coming back on redeployment and protects against db.json pollution.
       let localAds: any[] = [];
       let localSettings: any = {};
       let localLogs: any[] = [];
@@ -338,46 +353,12 @@ async function loadDatabaseFromFirestore() {
         try {
           const raw = fs.readFileSync(DB_PATH, "utf-8");
           const localData = JSON.parse(raw);
-          localPosts = localData.posts || [];
-          localFeeds = localData.feeds || [];
           localAds = localData.ads || [];
           localSettings = localData.settings || {};
           localLogs = localData.automationLogs || [];
           localDeleted = localData.deletedPostItems || [];
         } catch (readErr) {
-          console.error("[FIREBASE] Erro ao ler base local para mesclagem:", readErr);
-        }
-      }
-
-      // Check for missing posts in Firestore
-      const firestorePostIds = new Set(posts.map(p => String(p.id)));
-      const missingPosts = localPosts.filter(p => p && p.id && !firestorePostIds.has(String(p.id)));
-      if (missingPosts.length > 0) {
-        console.log(`[FIREBASE] Detectados ${missingPosts.length} posts locais nao existentes no Firestore. Sincronizando...`);
-        for (const p of missingPosts) {
-          try {
-            await setDoc(doc(dbStore, "posts", String(p.id)), p);
-            posts.push(p);
-          } catch (syncErr) {
-            console.error(`[FIREBASE] Erro de sincronizacao de post local ${p.id} para o Firestore:`, syncErr);
-          }
-        }
-        // Resort posts
-        posts.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
-      }
-
-      // Check for missing feeds in Firestore
-      const firestoreFeedIds = new Set(feeds.map(f => String(f.id)));
-      const missingFeeds = localFeeds.filter(f => f && f.id && !firestoreFeedIds.has(String(f.id)));
-      if (missingFeeds.length > 0) {
-        console.log(`[FIREBASE] Detectados ${missingFeeds.length} feeds locais nao existentes no Firestore. Sincronizando...`);
-        for (const f of missingFeeds) {
-          try {
-            await setDoc(doc(dbStore, "feeds", String(f.id)), f);
-            feeds.push(f);
-          } catch (syncErr) {
-            console.error(`[FIREBASE] Erro de sincronizacao de feed local ${f.id} para o Firestore:`, syncErr);
-          }
+          console.error("[FIREBASE] Erro ao ler base local para defaults:", readErr);
         }
       }
 
@@ -393,16 +374,26 @@ async function loadDatabaseFromFirestore() {
       try {
         fs.writeFileSync(DB_PATH, JSON.stringify(dbCache, null, 2), "utf-8");
       } catch (writeErr: any) {
-        console.warn("[FIREBASE] Sistema de arquivos e somente-leitura em producao. Mantendo banco atualizado em memoria:", writeErr.message);
+        console.warn("[FIREBASE] Sistema de arquivos ou permissao somente-leitura. Mantendo banco atualizado em memoria:", writeErr.message);
       }
-      console.log("[FIREBASE] Carregado e mesclado com sucesso!");
+      console.log("[FIREBASE] Carregado com sucesso direto do Firestore!");
     }
   } catch (err) {
-    console.error("[FIREBASE] Erro ao carregar, usando db.json local:", err);
-    if (fs.existsSync(DB_PATH)) {
-      const raw = fs.readFileSync(DB_PATH, "utf-8");
-      dbCache = JSON.parse(raw);
+    console.error("[FIREBASE] Erro ao carregar do Firestore:", err);
+    // Em caso de falha, garantimos que dbCache tem o baseline carregado se ainda estiver vazio
+    if (!dbCache || !dbCache.posts || dbCache.posts.length === 0) {
+      if (fs.existsSync(DB_PATH)) {
+        try {
+          const raw = fs.readFileSync(DB_PATH, "utf-8");
+          dbCache = JSON.parse(raw);
+          console.log("[FIREBASE] Carregado dados locais provisórios devido a falha na conexão.");
+        } catch (readErr) {
+          console.error("[FIREBASE] Erro crítico ao ler backup db.json local:", readErr);
+        }
+      }
     }
+    // Lançamos o erro para impedir que isDatabaseLoaded seja marcado como true e retente na próxima requisição
+    throw err;
   }
 }
 

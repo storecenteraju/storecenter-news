@@ -596,16 +596,26 @@ app.post("/api/login", (req, res) => {
 
     const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
     
-    // A senha é válida se for a principal cadastrada ou se for o fallback admin123 para o fallback admin
-    const matchesEnvPass = typedPass === adminPass;
-    const matchesDefaultPass = typedPass === "admin123";
-    const isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
-
     if (!isUserValid) {
       return res.status(401).json({ 
         success: false, 
         error: `O usuário '${typedUser}' não está cadastrado neste painel admin.` 
       });
+    }
+
+    const db = readDatabase();
+    const customPassMap = db.settings?.customPasswords || {};
+    const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+
+    // A senha é válida se for a principal cadastrada ou se for o fallback admin123 para o fallback admin
+    const matchesEnvPass = typedPass === adminPass;
+    const matchesDefaultPass = typedPass === "admin123";
+
+    let isPassValid = false;
+    if (hasCustomPass) {
+      isPassValid = typedPass === hasCustomPass;
+    } else {
+      isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
     }
 
     if (!isPassValid) {
@@ -624,6 +634,91 @@ app.post("/api/login", (req, res) => {
     res.status(500).json({ 
       success: false, 
       error: `Servidor de autenticação indisponível: ${error.message}` 
+    });
+  }
+});
+
+// 0.1 Change Password Route with validation & secure database persistence
+app.post("/api/settings/change-password", async (req, res) => {
+  try {
+    const { username, currentPassword, newPassword } = req.body || {};
+
+    if (!username || !currentPassword || !newPassword) {
+      return res.status(400).json({
+        success: false,
+        error: "Dados ausentes. O usuário, senha atual e nova senha devem ser preenchidos."
+      });
+    }
+
+    const typedUser = username.trim();
+    const typedPass = currentPassword.trim();
+
+    const adminUser = (process.env.ADMIN_USER || "admin").trim();
+    const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
+
+    const matchesEnvUser = typedUser === adminUser;
+    const matchesDefaultUser = typedUser.toLowerCase() === "admin";
+    const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
+
+    const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
+
+    if (!isUserValid) {
+      return res.status(401).json({
+        success: false,
+        error: `O usuário '${typedUser}' não está cadastrado neste painel admin.`
+      });
+    }
+
+    const db = readDatabase();
+    const customPassMap = db.settings?.customPasswords || {};
+    const hasCustomPass = customPassMap[typedUser.toLowerCase()];
+
+    const matchesEnvPass = typedPass === adminPass;
+    const matchesDefaultPass = typedPass === "admin123";
+
+    let isPassValid = false;
+    if (hasCustomPass) {
+      isPassValid = typedPass === hasCustomPass;
+    } else {
+      isPassValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
+    }
+
+    if (!isPassValid) {
+      return res.status(401).json({
+        success: false,
+        error: "A senha atual informada está incorreta."
+      });
+    }
+
+    if (newPassword.length < 8) {
+      return res.status(400).json({
+        success: false,
+        error: "A nova senha deve possuir pelo menos 8 caracteres."
+      });
+    }
+
+    if (!db.settings) {
+      db.settings = {};
+    }
+    if (!db.settings.customPasswords) {
+      db.settings.customPasswords = {};
+    }
+
+    db.settings.customPasswords[typedUser.toLowerCase()] = newPassword.trim();
+    writeDatabase(db);
+
+    // Sync with Firestore
+    await syncSettings(db.settings);
+
+    res.json({
+      success: true,
+      message: `Senha do usuário '${typedUser}' alterada com sucesso!`
+    });
+  } catch (error: any) {
+    console.error("Erro interno ao alterar senha:", error);
+    res.status(500).json({
+      success: false,
+      error: `Erro ao alterar senha no servidor: ${error.message}`
     });
   }
 });

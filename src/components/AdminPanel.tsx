@@ -31,6 +31,14 @@ export default function AdminPanel({
   const [loginError, setLoginError] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
 
+  // Change Password State
+  const [currentPassword, setCurrentPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [confirmNewPassword, setConfirmNewPassword] = useState('');
+  const [passwordError, setPasswordError] = useState('');
+  const [passwordSuccess, setPasswordSuccess] = useState('');
+  const [isChangingPassword, setIsChangingPassword] = useState(false);
+
   // Active Admin Tab
   const [activeTab, setActiveTab] = useState<'posts' | 'rss' | 'links' | 'schedule' | 'ads' | 'settings' | 'cpanel' | 'logs' | 'analytics' | 'diagnostic'>('posts');
   const [diagSearch, setDiagSearch] = useState('');
@@ -559,6 +567,64 @@ export default function AdminPanel({
       }
     } catch (err) {
       console.error(err);
+    }
+  };
+
+  // Change account password helper
+  const handleChangePassword = async (e: React.FormEvent) => {
+    e.preventDefault();
+    setPasswordError('');
+    setPasswordSuccess('');
+
+    // Frontend validation
+    if (!currentPassword) {
+      setPasswordError('A senha atual é obrigatória.');
+      return;
+    }
+    if (newPassword.length < 8) {
+      setPasswordError('A nova senha deve possuir pelo menos 8 caracteres.');
+      return;
+    }
+    if (newPassword !== confirmNewPassword) {
+      setPasswordError('A confirmação não coincide com a nova senha.');
+      return;
+    }
+
+    setIsChangingPassword(true);
+    try {
+      const response = await fetch('/api/settings/change-password', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          username,
+          currentPassword,
+          newPassword
+        })
+      });
+
+      const data = await response.json();
+      if (!response.ok || !data.success) {
+        setPasswordError(data.error || 'Erro ao alterar a senha.');
+      } else {
+        setPasswordSuccess('Senha alterada com sucesso! Redirecionando para o login...');
+        
+        // Clear password fields
+        setCurrentPassword('');
+        setNewPassword('');
+        setConfirmNewPassword('');
+        
+        // Force recheck login after a brief delay
+        setTimeout(() => {
+          // Clear credentials causing logout & requiring new login
+          setPassword('');
+          setIsAuthenticated(false);
+          setPasswordSuccess('');
+        }, 2000);
+      }
+    } catch (err: any) {
+      setPasswordError(`Erro de rede ao conectar ao servidor: ${err.message || String(err)}`);
+    } finally {
+      setIsChangingPassword(false);
     }
   };
 
@@ -1692,75 +1758,163 @@ export default function AdminPanel({
 
       {/* 6. GENERAL CONFIGS */}
       {activeTab === 'settings' && (
-        <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm max-w-2xl">
-          <div className="border-b border-slate-100 pb-3 mb-5">
-            <h3 className="text-sm font-bold font-display text-slate-900 uppercase">Configurações Gerais do Portal</h3>
-            <p className="text-xs text-slate-500 mt-1">Ajuste as strings globais do site e tags institucionais.</p>
-          </div>
-
-          <form onSubmit={handleSaveSettings} className="space-y-4 text-xs">
-            <div>
-              <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Nome do Veículo Oficial</label>
-              <input 
-                type="text" 
-                required
-                value={siteName}
-                onChange={e => setSiteName(e.target.value)}
-                className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs font-semibold"
-              />
+        <div className="max-w-2xl space-y-6">
+          <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm">
+            <div className="border-b border-slate-100 pb-3 mb-5">
+              <h3 className="text-sm font-bold font-display text-slate-900 uppercase">Configurações Gerais do Portal</h3>
+              <p className="text-xs text-slate-500 mt-1">Ajuste as strings globais do site e tags institucionais.</p>
             </div>
 
-            <div>
-              <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Descrição Comercial (Meta-Tag description principal)</label>
-              <textarea 
-                rows={3}
-                required
-                value={siteDescr}
-                onChange={e => setSiteDescr(e.target.value)}
-                className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs"
-              />
-            </div>
-
-            <div className="grid grid-cols-2 gap-4">
+            <form onSubmit={handleSaveSettings} className="space-y-4 text-xs">
               <div>
-                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">E-mail de Contato da Redação</label>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Nome do Veículo Oficial</label>
                 <input 
-                  type="email" 
-                  value={contactEmail}
-                  onChange={e => setContactEmail(e.target.value)}
+                  type="text" 
+                  required
+                  value={siteName}
+                  onChange={e => setSiteName(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs font-semibold"
+                />
+              </div>
+
+              <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Descrição Comercial (Meta-Tag description principal)</label>
+                <textarea 
+                  rows={3}
+                  required
+                  value={siteDescr}
+                  onChange={e => setSiteDescr(e.target.value)}
                   className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs"
                 />
               </div>
 
+              <div className="grid grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">E-mail de Contato da Redação</label>
+                  <input 
+                    type="email" 
+                    value={contactEmail}
+                    onChange={e => setContactEmail(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">ID Google Analytics</label>
+                  <input 
+                    type="text" 
+                    placeholder="UA-XXXXXXXX-Y ou G-XXXXXXXX"
+                    value={analyticsId}
+                    onChange={e => setAnalyticsId(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs font-mono"
+                  />
+                </div>
+              </div>
+
               <div>
-                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">ID Google Analytics</label>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Texto de Copyright no Rodapé</label>
                 <input 
                   type="text" 
-                  placeholder="UA-XXXXXXXX-Y ou G-XXXXXXXX"
-                  value={analyticsId}
-                  onChange={e => setAnalyticsId(e.target.value)}
-                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs font-mono"
+                  value={footerText}
+                  onChange={e => setFooterText(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs"
                 />
+              </div>
+
+              <button 
+                type="submit" 
+                className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-wider rounded shadow transition cursor-pointer select-none"
+              >
+                Guardar Configurações
+              </button>
+            </form>
+          </div>
+
+          <div className="bg-white p-6 border border-slate-200 rounded-xl shadow-sm">
+            <div className="border-b border-slate-100 pb-3 mb-5">
+              <h3 className="text-sm font-bold font-display text-slate-900 uppercase">Minha Conta</h3>
+              <p className="text-xs text-slate-500 mt-1">Gerencie as credenciais de acesso para a redação de forma segura.</p>
+            </div>
+
+            <div className="mb-4 bg-slate-50 border border-slate-100 rounded-lg p-4 text-xs">
+              <div className="flex justify-between items-center">
+                <span className="text-slate-500 font-semibold uppercase text-[10px] tracking-wider">Usuário Ativo:</span>
+                <span className="font-mono text-blue-700 bg-blue-50 border border-blue-100 px-3 py-1 rounded-full font-bold uppercase">{username || 'Desconhecido'}</span>
               </div>
             </div>
 
-            <div>
-              <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Texto de Copyright no Rodapé</label>
-              <input 
-                type="text" 
-                value={footerText}
-                onChange={e => setFooterText(e.target.value)}
-                className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs"
-              />
-            </div>
+            <form onSubmit={handleChangePassword} className="space-y-4 text-xs">
+              {passwordError && (
+                <div className="bg-rose-50 border border-rose-200 text-rose-600 rounded p-3 text-xs font-semibold leading-normal">
+                  {passwordError}
+                </div>
+              )}
+              {passwordSuccess && (
+                <div className="bg-green-50 border border-green-200 text-green-600 rounded p-3 text-xs font-semibold leading-normal">
+                  {passwordSuccess}
+                </div>
+              )}
 
-            <button 
-              type="submit" 
-              className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 text-white font-bold uppercase tracking-wider rounded shadow transition cursor-pointer select-none"
-            >
-              Guardar Configurações
-            </button>
-          </form>
+              <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Senha Atual</label>
+                <input 
+                  type="password" 
+                  required
+                  disabled={isChangingPassword}
+                  placeholder="Insira sua senha atual"
+                  value={currentPassword}
+                  onChange={e => setCurrentPassword(e.target.value)}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                />
+              </div>
+
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Nova Senha</label>
+                  <input 
+                    type="password" 
+                    required
+                    disabled={isChangingPassword}
+                    placeholder="Mínimo 8 caracteres"
+                    value={newPassword}
+                    onChange={e => setNewPassword(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                  />
+                </div>
+
+                <div>
+                  <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Confirmar Nova Senha</label>
+                  <input 
+                    type="password" 
+                    required
+                    disabled={isChangingPassword}
+                    placeholder="Repita a nova senha"
+                    value={confirmNewPassword}
+                    onChange={e => setConfirmNewPassword(e.target.value)}
+                    className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 text-slate-800 text-xs focus:ring-1 focus:ring-blue-500 focus:outline-none"
+                  />
+                </div>
+              </div>
+
+              <button 
+                type="submit" 
+                disabled={isChangingPassword}
+                className="px-6 py-2.5 bg-blue-600 hover:bg-blue-700 disabled:opacity-50 text-white font-bold uppercase tracking-wider rounded shadow transition cursor-pointer select-none flex items-center gap-1.5"
+              >
+                {isChangingPassword ? (
+                  <>
+                    <Loader2 className="w-3.5 h-3.5 animate-spin" />
+                    Salvando...
+                  </>
+                ) : (
+                  <>
+                    <Key className="w-3.5 h-3.5" />
+                    Alterar Senha do Editor
+                  </>
+                )}
+              </button>
+            </form>
+          </div>
         </div>
       )}
 

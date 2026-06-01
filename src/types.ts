@@ -324,7 +324,12 @@ export function normalizePost(post: any): Post {
   // Ensure isTestPost is a boolean, detecting by "teste" keyword in titles to prevent test posts leaking
   const titleLower = String(p.title || '').trim().toLowerCase();
   const isTestByTitle = titleLower.includes('teste') || titleLower.includes('test post') || titleLower.includes('test_post');
-  if (p.isTestPost === 'true' || p.isTestPost === true || isTestByTitle) {
+  
+  if (p.isTestPost === 'true' || p.isTestPost === true) {
+    p.isTestPost = true;
+  } else if (p.isTestPost === 'false' || p.isTestPost === false) {
+    p.isTestPost = false;
+  } else if (isTestByTitle) {
     p.isTestPost = true;
   } else {
     p.isTestPost = false;

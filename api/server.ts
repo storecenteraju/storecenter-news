@@ -3082,6 +3082,10 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/LEIA TAMBÉM:?/gi, "")
     .replace(/Veja também:?/gi, "")
     .replace(/Publicidade/gi, "")
+    .replace(/Entenda\s+o\s+que\s+faz\s+.*?(subir|cair)/gi, "")
+    .replace(/Entenda\s+.*?(\.|$)/gi, "")
+    .replace(/▶️/g, "")
+    .replace(/[🗒️🔴🟢🟡]/g, "")
     .replace(/\s+/g, " ")
     .trim();
 

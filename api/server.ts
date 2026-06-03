@@ -3073,31 +3073,31 @@ function fallbackRewrite(item: any, feed: any) {
     item.content ||
     "";
 
-  const summary = cleanCdataAndHtml(String(rawSummary)).slice(0, 700);
+  let summary = cleanCdataAndHtml(String(rawSummary));
 
-  const safeSubtitle = summary
-    ? summary.slice(0, 180)
-    : `Atualização identificada no feed ${sourceName}, com acompanhamento editorial do Store Center.`;
+  // Remove chamadas e ruídos comuns vindos dos portais de origem
+  summary = summary
+    .replace(/🗒️.*?g1/gi, "")
+    .replace(/Tem alguma sugestão de reportagem\?.*?g1/gi, "")
+    .replace(/LEIA TAMBÉM:?/gi, "")
+    .replace(/Veja também:?/gi, "")
+    .replace(/Publicidade/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
 
-  const sourceLine = sourceUrl
-    ? `Fonte consultada: ${sourceUrl}`
-    : `Fonte consultada: ${sourceName}`;
+  const shortSummary = summary.slice(0, 850);
 
-  const content = `### O que foi informado
+  const safeSubtitle = shortSummary
+    ? shortSummary.slice(0, 180)
+    : `Nova atualização identificada pela redação do Store Center na categoria ${category}.`;
 
-${summary || `O feed ${sourceName} publicou uma nova atualização relacionada ao tema: "${cleanTitle}".`}
+  const content = `O Store Center acompanha uma nova atualização relacionada a: ${cleanTitle}.
 
-### Leitura do Store Center
+Segundo as informações recebidas pelo feed RSS, ${shortSummary || `o tema foi identificado como relevante para a categoria ${category}, mas o material original trouxe poucos detalhes no resumo disponível.`}
 
-Esta publicação resume as informações recebidas pelo RSS e evita acrescentar dados que não estejam claros na fonte original. O objetivo é registrar o assunto com linguagem simples, direta e útil para o leitor.
+A atualização chama atenção porque envolve um tema de interesse público e pode ter reflexos para empresas, consumidores ou para o ambiente econômico, dependendo dos próximos desdobramentos.
 
-### Pontos de atenção
-
-- O tema foi identificado automaticamente a partir do feed RSS.
-- Não foram adicionadas projeções, números ou declarações que não estejam no material recebido.
-- A apuração deve ser acompanhada conforme novas informações forem publicadas pela fonte original.
-
-${sourceLine}`;
+A redação do Store Center seguirá acompanhando novas informações sobre o caso. Esta versão foi produzida a partir dos dados disponíveis no feed, sem acrescentar números, declarações ou projeções que não estejam no material recebido.`;
 
   return {
     title: cleanTitle,
@@ -3105,10 +3105,11 @@ ${sourceLine}`;
     content,
     seoTitle: `${cleanTitle.slice(0, 55)} | Store Center`,
     seoDescription: safeSubtitle.slice(0, 150),
-    tags: [category, sourceName, "RSS", "Atualização"],
+    tags: [category, "RSS", "Atualização", "Store Center"],
     category,
     keyword: cleanTitle,
     imagePrompt: `Imagem editorial jornalística horizontal sobre: ${cleanTitle}. Sem texto na imagem, estilo realista, alta qualidade, 16:9.`,
+    sourceUrl,
     isAiGenerated: true,
     hasKey: false
   };

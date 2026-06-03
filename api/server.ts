@@ -3110,6 +3110,48 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Esporte";
   }
 
+  const geoText = (cleanTitle + " " + summary).toLowerCase();
+  if (
+    geoText.includes("eua") ||
+    geoText.includes("estados unidos") ||
+    geoText.includes("china") ||
+    geoText.includes("trump") ||
+    geoText.includes("tarifa") ||
+    geoText.includes("sobretaxa") ||
+    geoText.includes("importação") ||
+    geoText.includes("importacao") ||
+    geoText.includes("exportação") ||
+    geoText.includes("exportacao") ||
+    geoText.includes("trabalho forçado") ||
+    geoText.includes("trabalho forcado") ||
+    geoText.includes("governo brasileiro") ||
+    geoText.includes("relações comerciais") ||
+    geoText.includes("relacoes comerciais")
+  ) {
+    category = "Geopolítica";
+  }
+
+  const geoText = (cleanTitle + " " + summary).toLowerCase();
+  if (
+    geoText.includes("eua") ||
+    geoText.includes("estados unidos") ||
+    geoText.includes("china") ||
+    geoText.includes("trump") ||
+    geoText.includes("tarifa") ||
+    geoText.includes("sobretaxa") ||
+    geoText.includes("importação") ||
+    geoText.includes("importacao") ||
+    geoText.includes("exportação") ||
+    geoText.includes("exportacao") ||
+    geoText.includes("trabalho forçado") ||
+    geoText.includes("trabalho forcado") ||
+    geoText.includes("governo brasileiro") ||
+    geoText.includes("relações comerciais") ||
+    geoText.includes("relacoes comerciais")
+  ) {
+    category = "Geopolítica";
+  }
+
   const autoText = (cleanTitle + " " + summary).toLowerCase();
   if (
     autoText.includes("chevrolet") ||

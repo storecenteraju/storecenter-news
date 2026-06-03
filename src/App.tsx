@@ -130,7 +130,7 @@ export default function App() {
         <div className="flex-grow flex flex-col items-center justify-center p-24 select-none">
           <Loader2 className="w-12 h-12 text-blue-600 animate-spin mb-4" />
           <p className="text-sm font-bold font-display uppercase tracking-widest text-slate-900">Carregando Store Center</p>
-          <p className="text-xs text-slate-400 mt-1">Carregando canais de notÃ­cias e anÃºncios AdSense...</p>
+          <p className="text-xs text-slate-400 mt-1">Carregando canais de notícias e anúncios AdSense...</p>
         </div>
       ) : (
         <div className="flex-grow">
@@ -192,4 +192,5 @@ export default function App() {
     </div>
   );
 }
+
 

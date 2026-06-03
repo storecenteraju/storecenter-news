@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+﻿import React, { useState, useEffect } from 'react';
 import Navigation from './components/Navigation';
 import PortalHome from './components/PortalHome';
 import PostDetails from './components/PostDetails';
@@ -130,7 +130,7 @@ export default function App() {
         <div className="flex-grow flex flex-col items-center justify-center p-24 select-none">
           <Loader2 className="w-12 h-12 text-blue-600 animate-spin mb-4" />
           <p className="text-sm font-bold font-display uppercase tracking-widest text-slate-900">Carregando Store Center</p>
-          <p className="text-xs text-slate-400 mt-1">Carregando canais de notícias e anúncios AdSense...</p>
+          <p className="text-xs text-slate-400 mt-1">Carregando canais de notÃ­cias e anÃºncios AdSense...</p>
         </div>
       ) : (
         <div className="flex-grow">
@@ -183,7 +183,7 @@ export default function App() {
         <div className="fixed bottom-4 right-4 z-50 flex items-center gap-2 select-none">
           <div className="bg-slate-950/90 hover:bg-slate-950 text-white backdrop-blur border border-slate-800 rounded-full px-4 py-2.5 shadow-xl flex items-center gap-2 text-[10px] font-extrabold uppercase tracking-wider">
             <Sparkles className="w-3.5 h-3.5 text-blue-400" /> 
-            <span>Gemini AI {process.env.GEMINI_API_KEY ? 'Ativo' : 'Simulação'}</span>
+            <span>Gemini AI Simulação</span>
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping"></span>
           </div>
         </div>
@@ -192,3 +192,4 @@ export default function App() {
     </div>
   );
 }
+

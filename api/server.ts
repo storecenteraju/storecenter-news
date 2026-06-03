@@ -3094,6 +3094,24 @@ function fallbackRewrite(item: any, feed: any) {
 
   category = autoCategorizeNews(cleanTitle, summary, category);
 
+  const sportsText = (cleanTitle + " " + summary).toLowerCase();
+  if (
+    sportsText.includes("copa do mundo") ||
+    sportsText.includes("fifa") ||
+    sportsText.includes("futebol") ||
+    sportsText.includes("gol") ||
+    sportsText.includes("gols") ||
+    sportsText.includes("seleção") ||
+    sportsText.includes("selecao") ||
+    sportsText.includes("campeonato") ||
+    sportsText.includes("jogador") ||
+    sportsText.includes("partida")
+  ) {
+    category = "Esporte";
+  }
+
+  summary = summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim();
+
   const shortSummary = summary.slice(0, 850);
 
   const safeSubtitle = shortSummary

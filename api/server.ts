@@ -1911,7 +1911,7 @@ ${builtFaqBlock}`;
     imagePrompt: selectedImageQuery,
     isAiGenerated: true,
     hasKey: false,
-    visualTheme: chosenTheme,
+    visualTheme: correctedFinalCategory,
     editorialAngle: chosenAngle
   };
 }
@@ -2970,15 +2970,101 @@ async function cronRssAuto() {
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
+    const finalCategoryBase = rewritten.category || winner.category || scraperCategory || "Economia";
+    const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.content || ""}`.toLowerCase();
+    let correctedFinalCategory = finalCategoryBase;
+
+    if (
+      finalClassifierText.includes("tilápia") ||
+      finalClassifierText.includes("tilapia") ||
+      finalClassifierText.includes("peixe") ||
+      finalClassifierText.includes("pescado") ||
+      finalClassifierText.includes("exportações") ||
+      finalClassifierText.includes("exportacoes") ||
+      finalClassifierText.includes("importações") ||
+      finalClassifierText.includes("importacoes") ||
+      finalClassifierText.includes("balança comercial") ||
+      finalClassifierText.includes("balanca comercial") ||
+      finalClassifierText.includes("mdic") ||
+      finalClassifierText.includes("comércio exterior") ||
+      finalClassifierText.includes("comercio exterior")
+    ) {
+      correctedFinalCategory = "Economia";
+    } else if (
+      finalClassifierText.includes("eua") ||
+      finalClassifierText.includes("estados unidos") ||
+      finalClassifierText.includes("china") ||
+      finalClassifierText.includes("trump") ||
+      finalClassifierText.includes("tarifa") ||
+      finalClassifierText.includes("sobretaxa") ||
+      finalClassifierText.includes("trabalho forçado") ||
+      finalClassifierText.includes("trabalho forcado")
+    ) {
+      correctedFinalCategory = "Geopolítica";
+    }
+
     const finalCategory = rewritten.category || winner.category || scraperCategory || "Economia";
 
-    // Fetch high fidelity images (passing our selected non-repeating theme)
+    // Fetch high fidelity images by final corrected subject
+    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.imagePrompt || ""}`.toLowerCase();
+    let finalImagePrompt = rewritten.imagePrompt || "";
+
+    if (
+      finalImageText.includes("tilápia") ||
+      finalImageText.includes("tilapia") ||
+      finalImageText.includes("peixe") ||
+      finalImageText.includes("pescado")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: seafood market tilapia fish export economy trade Brazil, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("exportações") ||
+      finalImageText.includes("exportacoes") ||
+      finalImageText.includes("importações") ||
+      finalImageText.includes("importacoes") ||
+      finalImageText.includes("balança comercial") ||
+      finalImageText.includes("balanca comercial") ||
+      finalImageText.includes("comércio exterior") ||
+      finalImageText.includes("comercio exterior") ||
+      finalImageText.includes("tarifa") ||
+      finalImageText.includes("sobretaxa")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: international trade economy cargo port export import Brazil, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("emprego") ||
+      finalImageText.includes("salário") ||
+      finalImageText.includes("salario") ||
+      finalImageText.includes("carreira") ||
+      finalImageText.includes("vaga")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("vazamento") ||
+      finalImageText.includes("dados") ||
+      finalImageText.includes("ifood") ||
+      finalImageText.includes("ciber") ||
+      finalImageText.includes("hacker")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("chevrolet") ||
+      finalImageText.includes("onix") ||
+      finalImageText.includes("carro") ||
+      finalImageText.includes("montadora")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("copa do mundo") ||
+      finalImageText.includes("fifa") ||
+      finalImageText.includes("futebol")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: soccer stadium football match fans world cup, realistic editorial photo, no text";
+    }
+
     const imageRes = await getUniqueArticleImage(
-      rewritten.imagePrompt || "",
-      winner.category,
+      finalImagePrompt,
+      correctedFinalCategory,
       sanitizedTitle,
-      db,
-      chosenTheme
+      db
     );
 
     const scraperCategory = autoCategorizeNews(sanitizedTitle, rewritten.content || sanitizedSubtitle || '', winner.category);
@@ -2993,17 +3079,17 @@ async function cronRssAuto() {
       content: rewritten.content || `Análise estendida sobre ${sanitizedTitle}.`,
       category: scraperCategory,
       author: "Redação Store Center",
-      tags: rewritten.tags || [finalCategory],
+      tags: rewritten.tags || [correctedFinalCategory],
       status: "published",
       image: imageRes.url,
       seoTitle: sanitizedSeoTitle,
       seoDescription: sanitizedSeoDescription,
       keyword: rewritten.keyword || "",
-      imagePrompt: rewritten.imagePrompt || "",
+      imagePrompt: finalImagePrompt || rewritten.imagePrompt || "",
       sourceUrl: item.link,
       rssOriginalTitle: item.title,
       isAiGenerated: true,
-      visualTheme: chosenTheme,
+      visualTheme: correctedFinalCategory,
       editorialAngle: editorialAngle
     };
 
@@ -3045,7 +3131,7 @@ async function cronRssAuto() {
       postId: newPost.id,
       timestamp: new Date().toISOString(),
       // Diversity logging attributes to fulfill rule #8 completely:
-      chosenCategory: finalCategory,
+      chosenCategory: correctedFinalCategory,
       categoryScore: winner.categoryScore,
       choiceReason: winner.reasonsSummary + ` | Pontuação Total do Candidato: ${winner.compositeScore}`,
       discardedCategories: discardedCategoriesArray

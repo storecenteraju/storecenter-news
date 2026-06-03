@@ -3110,6 +3110,29 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Esporte";
   }
 
+  const autoText = (cleanTitle + " " + summary).toLowerCase();
+  if (
+    autoText.includes("chevrolet") ||
+    autoText.includes("onix") ||
+    autoText.includes("carro") ||
+    autoText.includes("hatch") ||
+    autoText.includes("sedã") ||
+    autoText.includes("seda") ||
+    autoText.includes("suv") ||
+    autoText.includes("veículo") ||
+    autoText.includes("veiculo") ||
+    autoText.includes("automóvel") ||
+    autoText.includes("automovel") ||
+    autoText.includes("montadora") ||
+    autoText.includes("gm ") ||
+    autoText.includes("fiat") ||
+    autoText.includes("volkswagen") ||
+    autoText.includes("toyota") ||
+    autoText.includes("hyundai")
+  ) {
+    category = "Negócios";
+  }
+
   summary = summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim();
 
   const shortSummary = summary.slice(0, 850);

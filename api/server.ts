@@ -2970,6 +2970,7 @@ async function cronRssAuto() {
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
+    const finalCategory = rewritten.category || winner.category || scraperCategory || "Economia";
 
     // Fetch high fidelity images (passing our selected non-repeating theme)
     const imageRes = await getUniqueArticleImage(
@@ -2992,7 +2993,7 @@ async function cronRssAuto() {
       content: rewritten.content || `Análise estendida sobre ${sanitizedTitle}.`,
       category: scraperCategory,
       author: "Redação Store Center",
-      tags: rewritten.tags || [scraperCategory],
+      tags: rewritten.tags || [finalCategory],
       status: "published",
       image: imageRes.url,
       seoTitle: sanitizedSeoTitle,
@@ -3044,7 +3045,7 @@ async function cronRssAuto() {
       postId: newPost.id,
       timestamp: new Date().toISOString(),
       // Diversity logging attributes to fulfill rule #8 completely:
-      chosenCategory: winner.category,
+      chosenCategory: finalCategory,
       categoryScore: winner.categoryScore,
       choiceReason: winner.reasonsSummary + ` | Pontuação Total do Candidato: ${winner.compositeScore}`,
       discardedCategories: discardedCategoriesArray
@@ -3134,7 +3135,16 @@ function fallbackRewrite(item: any, feed: any) {
     geoText.includes("trabalho forcado") ||
     geoText.includes("governo brasileiro") ||
     geoText.includes("relações comerciais") ||
-    geoText.includes("relacoes comerciais")
+    geoText.includes("relacoes comerciais") ||
+    geoText.includes("comércio exterior") ||
+    geoText.includes("comercio exterior") ||
+    geoText.includes("balança comercial") ||
+    geoText.includes("balanca comercial") ||
+    geoText.includes("mdic") ||
+    geoText.includes("exportações") ||
+    geoText.includes("exportacoes") ||
+    geoText.includes("importações") ||
+    geoText.includes("importacoes")
   ) {
     category = "Geopolítica";
   }
@@ -3269,7 +3279,12 @@ A redação do Store Center seguirá acompanhando novas informações sobre o ca
     imageText.includes("importação") ||
     imageText.includes("importacao") ||
     imageText.includes("exportação") ||
-    imageText.includes("exportacao")
+    imageText.includes("exportacao") ||
+    imageText.includes("comércio exterior") ||
+    imageText.includes("comercio exterior") ||
+    imageText.includes("balança comercial") ||
+    imageText.includes("balanca comercial") ||
+    imageText.includes("mdic")
   ) {
     imageTopic = "international trade geopolitics cargo ships diplomacy world map";
   }

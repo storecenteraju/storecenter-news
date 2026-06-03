@@ -3063,7 +3063,7 @@ function cleanCdataAndHtml(str: string): string {
 function fallbackRewrite(item: any, feed: any) {
   const cleanTitle = cleanText(item.title || "Atualização do RSS");
   const sourceName = feed?.name || "Feed RSS";
-  const category = feed?.category || "Economia";
+  let category = feed?.category || "Economia";
   const sourceUrl = item.link || item.guid || "";
 
   const rawSummary =
@@ -3088,6 +3088,8 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/[🗒️🔴🟢🟡]/g, "")
     .replace(/\s+/g, " ")
     .trim();
+
+  category = autoCategorizeNews(cleanTitle, summary, category);
 
   const shortSummary = summary.slice(0, 850);
 

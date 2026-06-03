@@ -3082,6 +3082,9 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/LEIA TAMBÉM:?/gi, "")
     .replace(/Veja também:?/gi, "")
     .replace(/Publicidade/gi, "")
+    // Remove legendas e créditos de imagem que vêm grudados no resumo RSS
+    .replace(/^.{0,280}?\b(Getty Images|AP Photo|Reuters|AFP|Associated Press|Estadão Conteúdo|Agência Brasil|Foto:?|Crédito:?|Imagem:?|Divulgação)\b\s*/i, "")
+    .replace(/\b(Getty Images|AP Photo|Reuters|AFP|Associated Press|Estadão Conteúdo|Agência Brasil)\b/gi, "")
     .replace(/Entenda\s+o\s+que\s+faz\s+.*?(subir|cair)/gi, "")
     .replace(/Entenda\s+.*?(\.|$)/gi, "")
     .replace(/▶️/g, "")

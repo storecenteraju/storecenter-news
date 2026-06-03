@@ -3061,16 +3061,54 @@ function cleanCdataAndHtml(str: string): string {
 }
 
 function fallbackRewrite(item: any, feed: any) {
-  const cleanTitle = cleanText(item.title);
-  const db = readDatabase();
-  const proceduralPost = generateProceduralPost(
-    cleanTitle,
-    feed.category,
-    feed.name,
-    db
-  );
+  const cleanTitle = cleanText(item.title || "Atualização do RSS");
+  const sourceName = feed?.name || "Feed RSS";
+  const category = feed?.category || "Economia";
+  const sourceUrl = item.link || item.guid || "";
+
+  const rawSummary =
+    item.contentSnippet ||
+    item.description ||
+    item.summary ||
+    item.content ||
+    "";
+
+  const summary = cleanCdataAndHtml(String(rawSummary)).slice(0, 700);
+
+  const safeSubtitle = summary
+    ? summary.slice(0, 180)
+    : `Atualização identificada no feed ${sourceName}, com acompanhamento editorial do Store Center.`;
+
+  const sourceLine = sourceUrl
+    ? `Fonte consultada: ${sourceUrl}`
+    : `Fonte consultada: ${sourceName}`;
+
+  const content = `### O que foi informado
+
+${summary || `O feed ${sourceName} publicou uma nova atualização relacionada ao tema: "${cleanTitle}".`}
+
+### Leitura do Store Center
+
+Esta publicação resume as informações recebidas pelo RSS e evita acrescentar dados que não estejam claros na fonte original. O objetivo é registrar o assunto com linguagem simples, direta e útil para o leitor.
+
+### Pontos de atenção
+
+- O tema foi identificado automaticamente a partir do feed RSS.
+- Não foram adicionadas projeções, números ou declarações que não estejam no material recebido.
+- A apuração deve ser acompanhada conforme novas informações forem publicadas pela fonte original.
+
+${sourceLine}`;
+
   return {
-    ...proceduralPost,
+    title: cleanTitle,
+    subtitle: safeSubtitle,
+    content,
+    seoTitle: `${cleanTitle.slice(0, 55)} | Store Center`,
+    seoDescription: safeSubtitle.slice(0, 150),
+    tags: [category, sourceName, "RSS", "Atualização"],
+    category,
+    keyword: cleanTitle,
+    imagePrompt: `Imagem editorial jornalística horizontal sobre: ${cleanTitle}. Sem texto na imagem, estilo realista, alta qualidade, 16:9.`,
     isAiGenerated: true,
     hasKey: false
   };

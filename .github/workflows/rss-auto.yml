@@ -1,0 +1,14 @@
+﻿name: Store Center RSS Auto
+
+on:
+  schedule:
+    - cron: "0 * * * *"
+  workflow_dispatch:
+
+jobs:
+  rss-auto:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Executar RSS automático do Store Center
+        run: |
+          curl -L --fail --show-error "https://www.storecenter.com.br/api/cron/rss-auto"

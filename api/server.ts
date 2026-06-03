@@ -2432,6 +2432,30 @@ async function getUniqueArticleImage(
   const combinedText = title + " " + imagePromptText;
   const detectedTheme = chosenTheme || detectSubTheme(combinedText, category);
 
+  if (searchPromptLower.includes("force_dynamic_rss")) {
+    const cleanDynamicQuery = imagePromptText
+      .replace(/FORCE_DYNAMIC_RSS:?/gi, "")
+      .replace(/[^a-zA-ZÀ-ÿ0-9\s,.-]/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .slice(0, 160);
+
+    const finalDynamicQuery = cleanDynamicQuery || `${category} ${title}`;
+    const randomSig = `${Date.now()}-${Math.floor(Math.random() * 100000)}`;
+    const dynamicUrl = `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(finalDynamicQuery)}&sig=${randomSig}`;
+    const dynamicHash = getStringHash(dynamicUrl);
+
+    console.log(`[getUniqueArticleImage] RSS imagem dinâmica por assunto: ${dynamicUrl}`);
+
+    return {
+      url: dynamicUrl,
+      provider: "IA Dynamic Engine",
+      imageStatus: "Nova",
+      imageHash: dynamicHash,
+      antiRepetitionReport: `RSS imagem dinâmica por assunto: ${finalDynamicQuery}`
+    };
+  }
+
   // Helper inside loop to run URL, file hash, and semantic visual similarity analysis
   const runAntiRepetitionCheck = (candUrl: string, candTheme: string): { val: boolean; report: string } => {
     const candBase = getBaseUrl(candUrl);
@@ -3131,6 +3155,24 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Esporte";
   }
 
+  const jobsText = (cleanTitle + " " + summary).toLowerCase();
+  if (
+    !jobsText.includes("trabalho forçado") &&
+    !jobsText.includes("trabalho forcado") &&
+    (
+      jobsText.includes("emprego") ||
+      jobsText.includes("salário") ||
+      jobsText.includes("salario") ||
+      jobsText.includes("carreira") ||
+      jobsText.includes("vaga") ||
+      jobsText.includes("crescimento profissional") ||
+      jobsText.includes("curso de informática") ||
+      jobsText.includes("curso de informatica")
+    )
+  ) {
+    category = "Negócios";
+  }
+
   const autoText = (cleanTitle + " " + summary).toLowerCase();
   if (
     autoText.includes("chevrolet") ||
@@ -3170,6 +3212,68 @@ A atualização chama atenção porque envolve um tema de interesse público e p
 
 A redação do Store Center seguirá acompanhando novas informações sobre o caso. Esta versão foi produzida a partir dos dados disponíveis no feed, sem acrescentar números, declarações ou projeções que não estejam no material recebido.`;
 
+  const imageText = (cleanTitle + " " + summary).toLowerCase();
+  let imageTopic = `${category} editorial news`;
+
+  if (
+    imageText.includes("vazamento") ||
+    imageText.includes("dados") ||
+    imageText.includes("usuário") ||
+    imageText.includes("usuario") ||
+    imageText.includes("usuários") ||
+    imageText.includes("usuarios") ||
+    imageText.includes("ciber") ||
+    imageText.includes("segurança digital") ||
+    imageText.includes("seguranca digital") ||
+    imageText.includes("hacker") ||
+    imageText.includes("ifood") ||
+    imageText.includes("aplicativo") ||
+    imageText.includes("app ")
+  ) {
+    imageTopic = "cybersecurity data breach smartphone app privacy servers digital security";
+  } else if (
+    imageText.includes("emprego") ||
+    imageText.includes("salário") ||
+    imageText.includes("salario") ||
+    imageText.includes("carreira") ||
+    imageText.includes("vaga") ||
+    imageText.includes("crescimento profissional") ||
+    imageText.includes("curso de informática") ||
+    imageText.includes("curso de informatica")
+  ) {
+    imageTopic = "young professionals career growth job interview modern office workplace laptops";
+  } else if (
+    imageText.includes("chevrolet") ||
+    imageText.includes("onix") ||
+    imageText.includes("carro") ||
+    imageText.includes("hatch") ||
+    imageText.includes("suv") ||
+    imageText.includes("montadora")
+  ) {
+    imageTopic = "modern car showroom automotive industry vehicle launch";
+  } else if (
+    imageText.includes("copa do mundo") ||
+    imageText.includes("fifa") ||
+    imageText.includes("futebol") ||
+    imageText.includes("gol") ||
+    imageText.includes("gols")
+  ) {
+    imageTopic = "soccer stadium football match fans world cup";
+  } else if (
+    imageText.includes("eua") ||
+    imageText.includes("estados unidos") ||
+    imageText.includes("china") ||
+    imageText.includes("trump") ||
+    imageText.includes("tarifa") ||
+    imageText.includes("sobretaxa") ||
+    imageText.includes("importação") ||
+    imageText.includes("importacao") ||
+    imageText.includes("exportação") ||
+    imageText.includes("exportacao")
+  ) {
+    imageTopic = "international trade geopolitics cargo ships diplomacy world map";
+  }
+
   return {
     title: cleanTitle,
     subtitle: safeSubtitle,
@@ -3179,7 +3283,7 @@ A redação do Store Center seguirá acompanhando novas informações sobre o ca
     tags: [category, "RSS", "Atualização", "Store Center"],
     category,
     keyword: cleanTitle,
-    imagePrompt: `Imagem editorial jornalística horizontal sobre: ${cleanTitle}. Categoria: ${category}. Contexto visual: ${cleanTitle}. Sem texto na imagem, estilo realista, alta qualidade, 16:9.`,
+    imagePrompt: `FORCE_DYNAMIC_RSS: ${imageTopic}. Editorial realistic news photo, horizontal 16:9, no text, no logos.`,
     sourceUrl,
     isAiGenerated: true,
     hasKey: false

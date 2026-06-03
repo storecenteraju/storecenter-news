@@ -3179,7 +3179,7 @@ A redação do Store Center seguirá acompanhando novas informações sobre o ca
     tags: [category, "RSS", "Atualização", "Store Center"],
     category,
     keyword: cleanTitle,
-    imagePrompt: `Imagem editorial jornalística horizontal sobre: ${cleanTitle}. Sem texto na imagem, estilo realista, alta qualidade, 16:9.`,
+    imagePrompt: `Imagem editorial jornalística horizontal sobre: ${cleanTitle}. Categoria: ${category}. Contexto visual: ${cleanTitle}. Sem texto na imagem, estilo realista, alta qualidade, 16:9.`,
     sourceUrl,
     isAiGenerated: true,
     hasKey: false

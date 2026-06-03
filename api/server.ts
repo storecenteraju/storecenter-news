@@ -3093,7 +3093,7 @@ function fallbackRewrite(item: any, feed: any) {
 
   const content = `O Store Center acompanha uma nova atualização relacionada a: ${cleanTitle}.
 
-Segundo as informações recebidas pelo feed RSS, ${shortSummary || `o tema foi identificado como relevante para a categoria ${category}, mas o material original trouxe poucos detalhes no resumo disponível.`}
+A informação publicada no feed aponta que ${shortSummary || `o tema foi identificado como relevante para a categoria ${category}, mas o material original trouxe poucos detalhes no resumo disponível.`}
 
 A atualização chama atenção porque envolve um tema de interesse público e pode ter reflexos para empresas, consumidores ou para o ambiente econômico, dependendo dos próximos desdobramentos.
 

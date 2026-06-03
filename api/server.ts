@@ -989,7 +989,17 @@ app.put("/api/ads", async (req, res) => {
 // 4. Site Settings
 app.get("/api/settings", (req, res) => {
   const db = readDatabase();
-  res.json(db.settings || {});
+  const settings = db.settings || {};
+
+  // Nunca expor credenciais em rota pública
+  const {
+    customUser,
+    customPassword,
+    customPasswords,
+    ...safeSettings
+  } = settings;
+
+  res.json(safeSettings);
 });
 
 app.put("/api/settings", async (req, res) => {

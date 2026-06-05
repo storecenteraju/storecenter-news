@@ -2432,6 +2432,21 @@ async function getUniqueArticleImage(
   const combinedText = title + " " + imagePromptText;
   const detectedTheme = chosenTheme || detectSubTheme(combinedText, category);
 
+  if (searchPromptLower.includes("force_football_rss")) {
+    const footballUrl = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1280&h=720&q=80";
+    const footballHash = getStringHash(footballUrl);
+
+    console.log(`[getUniqueArticleImage] RSS imagem fixa de futebol: ${footballUrl}`);
+
+    return {
+      url: footballUrl,
+      provider: "IA Dynamic Engine",
+      imageStatus: "Nova",
+      imageHash: footballHash,
+      antiRepetitionReport: "RSS imagem fixa de futebol para Copa/FIFA/selecao"
+    };
+  }
+
   if (searchPromptLower.includes("force_dynamic_rss")) {
     const cleanDynamicQuery = imagePromptText
       .replace(/FORCE_DYNAMIC_RSS:?/gi, "")
@@ -3145,9 +3160,14 @@ async function cronRssAuto() {
     } else if (
       finalImageText.includes("copa do mundo") ||
       finalImageText.includes("fifa") ||
-      finalImageText.includes("futebol")
+      finalImageText.includes("futebol") ||
+      finalImageText.includes("seleção") ||
+      finalImageText.includes("selecao") ||
+      finalImageText.includes("ranking") ||
+      finalImageText.includes("jogador") ||
+      finalImageText.includes("partida")
     ) {
-      finalImagePrompt = "FORCE_DYNAMIC_RSS: soccer stadium football match fans world cup, realistic editorial photo, no text";
+      finalImagePrompt = "FORCE_FOOTBALL_RSS: soccer stadium football match fans world cup, no cycling, no bicycles, no cyclists, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Geopolítica") {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Economia") {
@@ -3698,4 +3718,5 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
 

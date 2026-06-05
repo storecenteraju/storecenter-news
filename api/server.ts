@@ -3151,6 +3151,16 @@ async function cronRssAuto() {
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text";
     } else if (
+      finalImageText.includes("abelha") ||
+      finalImageText.includes("abelhas") ||
+      finalImageText.includes("mel") ||
+      finalImageText.includes("apicultura") ||
+      finalImageText.includes("colmeia") ||
+      finalImageText.includes("apicultor") ||
+      finalImageText.includes("apicultora")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text";
+    } else if (
       finalImageText.includes("chevrolet") ||
       finalImageText.includes("onix") ||
       finalImageText.includes("carro") ||
@@ -3718,5 +3728,6 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
 
 

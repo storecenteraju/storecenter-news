@@ -1014,6 +1014,20 @@ app.put("/api/settings", async (req, res) => {
 // Manual RSS Trigger Endpoint for Admin Panel
 app.post("/api/ai/rss-auto-manual", async (req, res) => {
   try {
+    const dryRun = ["1", "true", "sim", "yes"].includes(String(req.query.dryRun || req.query.dryrun || "").toLowerCase());
+    if (dryRun) {
+      return res.json({
+        status: "success",
+        dryRun: true,
+        "quantidade de posts criados": 0,
+        "quantidade de posts publicados": 0,
+        "horário da execução": new Date().toISOString(),
+        "erro detalhado, se existir": null,
+        "detalhes": [],
+        "mensagem": "DRY RUN seguro: cron bloqueado antes de publicar."
+      });
+    }
+
     const result = await cronRssAuto();
     res.json({
       status: "success",
@@ -2631,7 +2645,8 @@ function fixExistingRssPosts() {
 }
 
 // 8. Auto Cron: Fetch & Rewrite RSS Feeds
-async function cronRssAuto() {
+async function cronRssAuto(options: { dryRun?: boolean } = {}) {
+  const dryRun = options.dryRun === true;
   console.log("[CRON] Executando rotina de coleta automatizada de feeds RSS com priorização e diversidade de categorias...");
   const db = readDatabase();
   const activeFeeds = (db.feeds || []).filter((f: any) => f.status === "active");
@@ -3221,6 +3236,27 @@ async function cronRssAuto() {
       editorialAngle: editorialAngle
     };
 
+    if (dryRun) {
+      console.log(`[CRON] DRY RUN: materia RSS simulada sem salvar: "${newPost.title}"`);
+      return {
+        success: true,
+        dryRun: true,
+        totalImported: 0,
+        importedPosts: [],
+        importedDetails: [{
+          feed: feed.name,
+          title: sanitizedTitle,
+          category: correctedFinalCategory,
+          imagePrompt: finalImagePrompt,
+          imageUrl: imageRes.url,
+          sourceUrl: item.link,
+          slug: finalSlug
+        }],
+        previewPost: newPost,
+        message: "DRY RUN: teste local sem publicar e sem salvar no banco."
+      };
+    }
+
     db.posts.unshift(newPost);
     totalImported++;
     importedPosts.push(newPost.title);
@@ -3591,6 +3627,20 @@ app.get("/api/cron/rss-auto", async (req, res) => {
   }
 
   try {
+    const dryRun = ["1", "true", "sim", "yes"].includes(String(req.query.dryRun || req.query.dryrun || "").toLowerCase());
+    if (dryRun) {
+      return res.json({
+        status: "success",
+        dryRun: true,
+        "quantidade de posts criados": 0,
+        "quantidade de posts publicados": 0,
+        "horário da execução": new Date().toISOString(),
+        "erro detalhado, se existir": null,
+        "detalhes": [],
+        "mensagem": "DRY RUN seguro: cron bloqueado antes de publicar."
+      });
+    }
+
     const result = await cronRssAuto();
     res.json({
       status: "success",
@@ -3728,6 +3778,11 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
+
+
+
+
 
 
 

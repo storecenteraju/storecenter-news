@@ -1,4 +1,4 @@
-import express from "express";
+﻿import express from "express";
 import path from "path";
 import fs from "fs";
 import { GoogleGenAI, Type } from "@google/genai";
@@ -1911,7 +1911,7 @@ ${builtFaqBlock}`;
     imagePrompt: selectedImageQuery,
     isAiGenerated: true,
     hasKey: false,
-    visualTheme: correctedFinalCategory,
+    visualTheme: chosenTheme,
     editorialAngle: chosenAngle
   };
 }
@@ -2970,11 +2970,47 @@ async function cronRssAuto() {
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
-    const finalCategoryBase = rewritten.category || winner.category || scraperCategory || "Economia";
     const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.content || ""}`.toLowerCase();
-    let correctedFinalCategory = finalCategoryBase;
+    const scraperCategory = autoCategorizeNews(
+      sanitizedTitle,
+      rewritten.content || sanitizedSubtitle || "",
+      rewritten.category || winner.category || "Economia"
+    );
+    let correctedFinalCategory = rewritten.category || scraperCategory || winner.category || "Economia";
 
     if (
+      finalClassifierText.includes("ifood") ||
+      finalClassifierText.includes("vazamento") ||
+      finalClassifierText.includes("dados vazados") ||
+      finalClassifierText.includes("dado vazado") ||
+      finalClassifierText.includes("hacker") ||
+      finalClassifierText.includes("cibersegurança") ||
+      finalClassifierText.includes("ciberseguranca")
+    ) {
+      correctedFinalCategory = "Tecnologia";
+    } else if (
+      finalClassifierText.includes("copa do mundo") ||
+      finalClassifierText.includes("fifa") ||
+      finalClassifierText.includes("futebol")
+    ) {
+      correctedFinalCategory = "Esporte";
+    } else if (
+      finalClassifierText.includes("chevrolet") ||
+      finalClassifierText.includes("onix") ||
+      finalClassifierText.includes("carro") ||
+      finalClassifierText.includes("montadora")
+    ) {
+      correctedFinalCategory = "Negócios";
+    } else if (
+      finalClassifierText.includes("emprego") ||
+      finalClassifierText.includes("salário") ||
+      finalClassifierText.includes("salario") ||
+      finalClassifierText.includes("carreira") ||
+      finalClassifierText.includes("vaga") ||
+      finalClassifierText.includes("trabalho")
+    ) {
+      correctedFinalCategory = "Negócios";
+    } else if (
       finalClassifierText.includes("tilápia") ||
       finalClassifierText.includes("tilapia") ||
       finalClassifierText.includes("peixe") ||
@@ -2991,6 +3027,27 @@ async function cronRssAuto() {
     ) {
       correctedFinalCategory = "Economia";
     } else if (
+      finalClassifierText.includes("zelle") ||
+      finalClassifierText.includes("pix") ||
+      finalClassifierText.includes("pagamento") ||
+      finalClassifierText.includes("banco central") ||
+      finalClassifierText.includes("cvm") ||
+      finalClassifierText.includes("fundos de investimento") ||
+      finalClassifierText.includes("investimentos") ||
+      finalClassifierText.includes("orçamento") ||
+      finalClassifierText.includes("orcamento") ||
+      finalClassifierText.includes("bolsa família") ||
+      finalClassifierText.includes("bolsa familia") ||
+      finalClassifierText.includes("bpc") ||
+      finalClassifierText.includes("benefício") ||
+      finalClassifierText.includes("beneficio") ||
+      finalClassifierText.includes("alimento") ||
+      finalClassifierText.includes("desperdício") ||
+      finalClassifierText.includes("desperdicio") ||
+      finalClassifierText.includes("fome")
+    ) {
+      correctedFinalCategory = "Economia";
+    } else if (
       finalClassifierText.includes("eua") ||
       finalClassifierText.includes("estados unidos") ||
       finalClassifierText.includes("china") ||
@@ -3003,11 +3060,9 @@ async function cronRssAuto() {
       correctedFinalCategory = "Geopolítica";
     }
 
-    const finalCategory = rewritten.category || winner.category || scraperCategory || "Economia";
-
     // Fetch high fidelity images by final corrected subject
-    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.imagePrompt || ""}`.toLowerCase();
-    let finalImagePrompt = rewritten.imagePrompt || "";
+    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.content || ""} ${rewritten.imagePrompt || ""}`.toLowerCase();
+    let finalImagePrompt = "";
 
     if (
       finalImageText.includes("tilápia") ||
@@ -3023,26 +3078,61 @@ async function cronRssAuto() {
       finalImageText.includes("importacoes") ||
       finalImageText.includes("balança comercial") ||
       finalImageText.includes("balanca comercial") ||
+      finalImageText.includes("mdic") ||
       finalImageText.includes("comércio exterior") ||
       finalImageText.includes("comercio exterior") ||
       finalImageText.includes("tarifa") ||
       finalImageText.includes("sobretaxa")
     ) {
-      finalImagePrompt = "FORCE_DYNAMIC_RSS: international trade economy cargo port export import Brazil, realistic editorial photo, no text";
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("zelle") ||
+      finalImageText.includes("pix") ||
+      finalImageText.includes("pagamento") ||
+      finalImageText.includes("banco central")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("cvm") ||
+      finalImageText.includes("fundos de investimento") ||
+      finalImageText.includes("investimentos") ||
+      finalImageText.includes("agências reguladoras") ||
+      finalImageText.includes("agencias reguladoras") ||
+      finalImageText.includes("orçamento") ||
+      finalImageText.includes("orcamento")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("bolsa família") ||
+      finalImageText.includes("bolsa familia") ||
+      finalImageText.includes("bpc") ||
+      finalImageText.includes("benefício") ||
+      finalImageText.includes("beneficio") ||
+      finalImageText.includes("inss")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("alimento") ||
+      finalImageText.includes("desperdício") ||
+      finalImageText.includes("desperdicio") ||
+      finalImageText.includes("fome") ||
+      finalImageText.includes("geladeira")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text";
     } else if (
       finalImageText.includes("emprego") ||
-      finalImageText.includes("salário") ||
-      finalImageText.includes("salario") ||
       finalImageText.includes("carreira") ||
-      finalImageText.includes("vaga")
+      finalImageText.includes("vaga") ||
+      finalImageText.includes("salário") ||
+      finalImageText.includes("salario")
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text";
     } else if (
       finalImageText.includes("vazamento") ||
-      finalImageText.includes("dados") ||
       finalImageText.includes("ifood") ||
+      finalImageText.includes("hacker") ||
       finalImageText.includes("ciber") ||
-      finalImageText.includes("hacker")
+      finalImageText.includes("dados vazados")
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text";
     } else if (
@@ -3058,6 +3148,16 @@ async function cronRssAuto() {
       finalImageText.includes("futebol")
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: soccer stadium football match fans world cup, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Geopolítica") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Economia") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Negócios") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: business people office meeting corporate market Brazil, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Tecnologia") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text";
+    } else {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text";
     }
 
     const imageRes = await getUniqueArticleImage(
@@ -3067,8 +3167,6 @@ async function cronRssAuto() {
       db
     );
 
-    const scraperCategory = autoCategorizeNews(sanitizedTitle, rewritten.content || sanitizedSubtitle || '', winner.category);
-
     const newPost = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),
       views: 0,
@@ -3077,9 +3175,9 @@ async function cronRssAuto() {
       subtitle: sanitizedSubtitle,
       slug: finalSlug,
       content: rewritten.content || `Análise estendida sobre ${sanitizedTitle}.`,
-      category: scraperCategory,
+      category: correctedFinalCategory,
       author: "Redação Store Center",
-      tags: rewritten.tags || [correctedFinalCategory],
+      tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => String(tag) !== correctedFinalCategory).slice(0, 4) : [])],
       status: "published",
       image: imageRes.url,
       seoTitle: sanitizedSeoTitle,
@@ -3089,7 +3187,7 @@ async function cronRssAuto() {
       sourceUrl: item.link,
       rssOriginalTitle: item.title,
       isAiGenerated: true,
-      visualTheme: correctedFinalCategory,
+      visualTheme: chosenTheme,
       editorialAngle: editorialAngle
     };
 
@@ -3099,7 +3197,7 @@ async function cronRssAuto() {
     importedDetails.push({
       feed: feed.name,
       title: sanitizedTitle,
-      category: scraperCategory,
+      category: correctedFinalCategory,
       slug: finalSlug,
       sourceUrl: item.link
     });
@@ -3600,3 +3698,4 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+

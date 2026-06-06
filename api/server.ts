@@ -469,7 +469,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     return "Nacional";
   }
 
-  if (hasAny(["copa do mundo", "fifa", "futebol", "libertadores", "brasileirão", "brasileirao", "série a", "serie a", "ingressos da copa"])) {
+  if (hasAny(["copa do mundo", "fifa", "futebol", "libertadores", "brasileirão", "brasileirao", "série a", "serie a", "ingressos da copa", "roland garros", "grand slam", "tenista", "tênis", "tenis", "wimbledon", "us open", "aberto da austrália", "aberto da australia"])) {
     return "Esporte";
   }
 
@@ -3142,7 +3142,16 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     } else if (
       finalClassifierText.includes("copa do mundo") ||
       finalClassifierText.includes("fifa") ||
-      finalClassifierText.includes("futebol")
+      finalClassifierText.includes("futebol") ||
+      finalClassifierText.includes("roland garros") ||
+      finalClassifierText.includes("grand slam") ||
+      finalClassifierText.includes("tenista") ||
+      finalClassifierText.includes("tênis") ||
+      finalClassifierText.includes("tenis") ||
+      finalClassifierText.includes("wimbledon") ||
+      finalClassifierText.includes("us open") ||
+      finalClassifierText.includes("aberto da austrália") ||
+      finalClassifierText.includes("aberto da australia")
     ) {
       correctedFinalCategory = "Esporte";
     } else if (
@@ -3329,6 +3338,18 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalImageText.includes("montadora")
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text";
+    } else if (
+      finalImageText.includes("roland garros") ||
+      finalImageText.includes("grand slam") ||
+      finalImageText.includes("tenista") ||
+      finalImageText.includes("tênis") ||
+      finalImageText.includes("tenis") ||
+      finalImageText.includes("wimbledon") ||
+      finalImageText.includes("us open") ||
+      finalImageText.includes("aberto da austrália") ||
+      finalImageText.includes("aberto da australia")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: professional tennis court clay court Roland Garros tennis player championship, realistic editorial sports photo, no text";
     } else if (
       finalImageText.includes("copa do mundo") ||
       finalImageText.includes("fifa") ||

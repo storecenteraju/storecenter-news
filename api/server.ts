@@ -3825,7 +3825,6 @@ async function startServer() {
 
   // Automatic Background Loops (Internal Crons)
   const PUBLISH_CRON_INTERVAL = 5 * 60 * 1000; // 5 minutes
-  const RSS_CRON_INTERVAL = 45 * 60 * 1000; // 45 minutes as requested!
 
   // Scheduled publish: runs every 5 minutes
   setInterval(() => {
@@ -3836,23 +3835,17 @@ async function startServer() {
     }
   }, PUBLISH_CRON_INTERVAL);
 
-  // RSS Feed Scraper: runs every 45 minutes (staggered by 2 minutes to prevent db write locks on launch)
-  setTimeout(() => {
-    setInterval(async () => {
-      try {
-        await cronRssAuto();
-      } catch (err) {
-        console.error("[BACKGROUND CRON] Erro em cronRssAuto:", err);
-      }
-    }, RSS_CRON_INTERVAL);
-  }, 120 * 1000);
+  // RSS automático interno desativado.
+  // O RSS agora deve publicar apenas por:
+  // 1) GitHub Actions chamando /api/cron/rss-auto
+  // 2) Botão manual "Gerar notícia agora" no painel admin.
+  // Isso evita duplicidade e publicação fora do horário na Vercel.
 
-  // Immediate Initial Run: execute once after 5 seconds to load latest feeds and publish outstanding queue on dev spin-up
+  // Immediate Initial Run: execute once after 5 seconds only for scheduled posts
   setTimeout(async () => {
     try {
-      console.log("[CRON STARTUP] Rodando verificação inicial das rotinas em segundo plano...");
+      console.log("[CRON STARTUP] Rodando verificação inicial apenas de posts agendados...");
       cronPublishScheduled();
-      await cronRssAuto();
     } catch (err) {
       console.error("[CRON STARTUP] Falha no disparo de rotina inicial:", err);
     }

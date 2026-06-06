@@ -444,80 +444,149 @@ app.get("/negocios.jpg", (req, res) => {
 
 // Intelligent Auto-Categorization Helper
 function autoCategorizeNews(title: string, content: string, origCategory: string): string {
-  const text = (String(title) + " " + String(content)).toLowerCase();
-  
-  const techKeywords = [
-    "inteligência artificial", "inteligencia artificial", "ia", "artificial intelligence", "chatgpt", "gemini", "openai", "copilot", "computação",
-    "tecnologia", "hardware", "software", "tecnológica", "algoritmo", "robô", "robótica", "cybersecurity", "cibersegurança", "chip", "semicondutor",
-    "cloud", "nuvem", "dispositivo", "sistema operacional", "app", "aplicativo", "blockchain", "cripto", "smartphones", "computador", "celular", "whatsapp",
-    "microsoft", "google", "apple", "meta", "facebook", "instagram", "discord", "amazon", "spacex", "foguete", "espaço", "nasa", "aeroespacial", "satélite", "satélites", "telecom"
-  ];
-  if (techKeywords.some(kw => text.includes(kw))) {
-    return "Tecnologia";
-  }
+  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
 
-  const geopoliticaKeywords = [
-    "geopolítica", "geopolitica", "guerra", "exército", "fronteira", "militar", "onu", "otan", "oriente médio", "conflito internacional", "estratégico global",
-    "estados unidos", "china", "rússia", "sanções", "acordo bilateral", "tratado internacional", "relações internacionais", "união europeia", "crise internacional", "pentágono", "força aérea", "mísseis", "míssil", "diplomacia", "embaixada", "conselho de segurança", "gaza", "israel", "ucrânia", "putin", "biden", "trump"
-  ];
-  if (geopoliticaKeywords.some(kw => text.includes(kw))) {
-    return "Geopolítica";
-  }
+  const normalize = (value: string) => String(value || "")
+    .toLowerCase()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "");
 
-  const politicaKeywords = [
-    "política", "politica", "governo", "congresso", "senado", "câmara", "ministro", "eleição", "eleições", "presidente", "projeto de lei", "pec", "votação", "stf", "supremo tribunal",
-    "parlamento", "deputado", "senador", "prefeitura", "prefeito", "partido político", "corrupção", "lula", "tarcísio", "candidato", "propaganda eleitoral", "urnas", "tse"
-  ];
-  if (politicaKeywords.some(kw => text.includes(kw))) {
-    return "Política";
-  }
+  const text = normalize(String(title || "") + " " + String(content || ""));
+  const originalCategoryText = normalize(String(origCategory || ""));
 
-  const saudeKeywords = [
-    "saúde", "saude", "médico", "vacina", "vírus", "pandemia", "hospital", "hospitais", "anvisa", "medicamento", "remédio", "sus", "tratamento", "doença", "clínica"
-  ];
-  if (saudeKeywords.some(kw => text.includes(kw))) {
-    return "Saúde";
-  }
+  const normalizeCategory = (value: string): string => {
+    const clean = normalize(value).trim();
+    return allowedCategories.find(cat => {
+      const normCat = normalize(cat);
+      return clean === normCat || clean.includes(normCat);
+    }) || "";
+  };
 
-  const esporteKeywords = [
-    "esporte", "esportes", "futebol", "campeonato", "copa do mundo", "olimpíadas", "olimpiadas", "atleta", "flamengo", "palmeiras", "tênis", "basquete", "vôlei", "nba", "fifa"
-  ];
-  if (esporteKeywords.some(kw => text.includes(kw))) {
-    return "Esporte";
-  }
+  const hasAny = (terms: string[]) => terms.some(term => text.includes(normalize(term)));
 
-  const entertainmentKeywords = [
-    "entretenimento", "filme", "série", "cinema", "ator", "atriz", "música", "cantor", "show", "netflix", "oscar", "celebridade", "pop", "teatro"
-  ];
-  if (entertainmentKeywords.some(kw => text.includes(kw))) {
-    return "Entretenimento";
-  }
-
-  const negociosKeywords = [
-    "negócios", "negocios", "empresa", "corporativo", "startup", "empreendedor", "varejo", "franquia", "fusão", "aquisição", "mercado livre", "faturamento", "comércio", "loja", "vendas", "e-commerce", "faturamentos", "marcas", "bens de consumo"
-  ];
-  if (negociosKeywords.some(kw => text.includes(kw))) {
-    return "Negócios";
-  }
-
-  const economiaKeywords = [
-    "economia", "pib", "inflação", "selic", "copom", "banco central", "taxa de juros", "investimento", "bolsa de valores", "ações", "ibovespa", "dólar", "fgc", "tesouro", "tributo", "reforma tributária", "mercado financeiro", "investidores", "finanças", "crédito", "banco", "receita federal", "arrecadação", "tributação"
-  ];
-  if (economiaKeywords.some(kw => text.includes(kw))) {
-    return "Economia";
-  }
-
-  const nacionalKeywords = [
-    "brasil", "brasileiro", "brasileira", "nacional", "país", "estado", "estados", "município", "municípios", "ibge", "nordeste", "sudeste", "sul", "norte", "centro-oeste", "rio de janeiro", "são paulo", "minas gerais", "brasília", "unidade federativa", "uf"
-  ];
-  if (nacionalKeywords.some(kw => text.includes(kw))) {
+  // Regras de alta confiança: assuntos muito claros não devem depender de pontuação.
+  if (hasAny(["cnh", "carteira nacional de habilitação", "carteira nacional de habilitacao", "habilitação", "habilitacao", "detran", "condutor", "condutores", "trânsito", "transito"])) {
     return "Nacional";
   }
 
-  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
-  const orig = String(origCategory).trim();
-  const matched = allowedCategories.find(c => c.toLowerCase() === orig.toLowerCase());
-  return matched || "Economia";
+  if (hasAny(["copa do mundo", "fifa", "futebol", "libertadores", "brasileirão", "brasileirao", "série a", "serie a", "ingressos da copa"])) {
+    return "Esporte";
+  }
+
+  if (hasAny(["ifood"]) && hasAny(["vazamento", "dados vazados", "dado vazado", "hacker", "cibersegurança", "ciberseguranca", "privacidade"])) {
+    return "Tecnologia";
+  }
+
+  if (hasAny(["tilápia", "tilapia", "peixe", "pescado", "exportações", "exportacoes", "importações", "importacoes", "balança comercial", "balanca comercial", "mdic", "comércio exterior", "comercio exterior"])) {
+    return "Economia";
+  }
+
+  const score: Record<string, number> = {};
+  allowedCategories.forEach(cat => { score[cat] = 0; });
+
+  const orig = normalizeCategory(originalCategoryText);
+  if (orig) {
+    score[orig] += 3;
+  }
+
+  const addTerms = (category: string, terms: string[], weight = 2) => {
+    terms.forEach(term => {
+      const cleanTerm = normalize(term);
+      if (cleanTerm && text.includes(cleanTerm)) {
+        score[category] += weight;
+      }
+    });
+  };
+
+  addTerms("Economia", [
+    "economia", "pib", "inflação", "inflacao", "selic", "copom", "banco central", "taxa de juros",
+    "investimento", "investimentos", "bolsa de valores", "ações", "acoes", "ibovespa", "dólar", "dolar",
+    "tesouro", "tributo", "reforma tributária", "reforma tributaria", "mercado financeiro", "finanças",
+    "financas", "crédito", "credito", "banco", "receita federal", "arrecadação", "arrecadacao", "tributação",
+    "tributacao", "inss", "previdência", "previdencia", "bolsa família", "bolsa familia", "bpc", "benefício",
+    "beneficio", "tarifa", "sobretaxa", "preço", "preco", "preços", "precos"
+  ], 2);
+
+  addTerms("Negócios", [
+    "negócios", "negocios", "empresa", "empresas", "corporativo", "startup", "empreendedor", "varejo",
+    "franquia", "fusão", "fusao", "aquisição", "aquisicao", "mercado livre", "faturamento", "comércio",
+    "comercio", "loja", "vendas", "e-commerce", "marcas", "bens de consumo", "indústria", "industria",
+    "montadora", "chevrolet", "onix", "postos", "shell", "dívida", "divida", "credores", "recuperação judicial",
+    "recuperacao judicial", "avião", "aviao", "aviação", "aviacao", "companhia aérea", "companhia aerea",
+    "voo", "voos", "rota aérea", "rota aerea"
+  ], 2);
+
+  addTerms("Tecnologia", [
+    "inteligência artificial", "inteligencia artificial", "artificial intelligence", "chatgpt", "gemini",
+    "openai", "copilot", "computação", "computacao", "tecnologia", "hardware", "software", "algoritmo",
+    "robô", "robo", "robótica", "robotica", "cybersecurity", "cibersegurança", "ciberseguranca",
+    "chip", "semicondutor", "cloud", "nuvem", "sistema operacional", "blockchain", "cripto", "smartphones",
+    "computador", "microsoft", "meta", "spacex", "foguete", "nasa", "satélite", "satelite", "telecom"
+  ], 3);
+
+  addTerms("Tecnologia", [
+    "app", "aplicativo", "celular", "whatsapp", "google", "apple", "facebook", "instagram", "amazon"
+  ], 1);
+
+  addTerms("Geopolítica", [
+    "geopolítica", "geopolitica", "guerra", "exército", "exercito", "fronteira", "militar", "onu", "otan",
+    "oriente médio", "oriente medio", "conflito internacional", "estados unidos", "eua", "china", "rússia",
+    "russia", "sanções", "sancoes", "acordo bilateral", "tratado internacional", "relações internacionais",
+    "relacoes internacionais", "união europeia", "uniao europeia", "crise internacional", "pentágono",
+    "pentagono", "força aérea", "forca aerea", "míssil", "missil", "mísseis", "misseis", "diplomacia",
+    "embaixada", "conselho de segurança", "conselho de seguranca", "gaza", "israel", "ucrânia", "ucrania",
+    "putin", "biden", "trump"
+  ], 2);
+
+  addTerms("Política", [
+    "política", "politica", "governo", "congresso", "senado", "câmara", "camara", "ministro", "ministra",
+    "eleição", "eleicao", "eleições", "eleicoes", "presidente", "projeto de lei", "pec", "votação",
+    "votacao", "stf", "supremo tribunal", "parlamento", "deputado", "senador", "prefeitura", "prefeito",
+    "partido político", "partido politico", "corrupção", "corrupcao", "lula", "tarcísio", "tarcisio",
+    "candidato", "propaganda eleitoral", "urnas", "tse"
+  ], 2);
+
+  addTerms("Nacional", [
+    "brasil", "brasileiro", "brasileira", "nacional", "país", "pais", "estado", "estados", "município",
+    "municipio", "municípios", "municipios", "ibge", "nordeste", "sudeste", "sul", "norte", "centro-oeste",
+    "rio de janeiro", "são paulo", "sao paulo", "minas gerais", "brasília", "brasilia", "unidade federativa"
+  ], 1);
+
+  addTerms("Saúde", [
+    "saúde", "saude", "médico", "medico", "vacina", "vírus", "virus", "pandemia", "hospital", "hospitais",
+    "anvisa", "medicamento", "remédio", "remedio", "sus", "tratamento", "doença", "doenca", "clínica", "clinica"
+  ], 3);
+
+  addTerms("Esporte", [
+    "esporte", "esportes", "campeonato", "olimpíadas", "olimpiadas", "atleta", "flamengo", "palmeiras",
+    "tênis", "tenis", "basquete", "vôlei", "volei", "nba"
+  ], 3);
+
+  addTerms("Entretenimento", [
+    "entretenimento", "filme", "série", "serie", "cinema", "ator", "atriz", "música", "musica", "cantor",
+    "show", "netflix", "oscar", "celebridade", "pop", "teatro"
+  ], 3);
+
+  let bestCategory = orig || "Economia";
+  let bestScore = score[bestCategory] || 0;
+
+  allowedCategories.forEach(cat => {
+    if (score[cat] > bestScore) {
+      bestCategory = cat;
+      bestScore = score[cat];
+    }
+  });
+
+  if (bestScore <= 0) {
+    return orig || "Economia";
+  }
+
+  // Se a categoria original do feed for plausível e estiver quase empatada, mantém o sinal do RSS.
+  if (orig && score[orig] >= bestScore - 1) {
+    return orig;
+  }
+
+  return bestCategory;
 }
 
 // API Routes
@@ -3010,7 +3079,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       rewritten.content || sanitizedSubtitle || "",
       rewritten.category || winner.category || "Economia"
     );
-    let correctedFinalCategory = rewritten.category || scraperCategory || winner.category || "Economia";
+    let correctedFinalCategory = scraperCategory || winner.category || rewritten.category || "Economia";
 
     if (
       finalClassifierText.includes("ifood") ||
@@ -3798,6 +3867,7 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
 
 
 

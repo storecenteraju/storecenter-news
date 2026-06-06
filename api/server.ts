@@ -3071,6 +3071,9 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalClassifierText.includes("bpc") ||
       finalClassifierText.includes("benefício") ||
       finalClassifierText.includes("beneficio") ||
+      finalClassifierText.includes("inss") ||
+      finalClassifierText.includes("previdência") ||
+      finalClassifierText.includes("previdencia") ||
       finalClassifierText.includes("alimento") ||
       finalClassifierText.includes("desperdício") ||
       finalClassifierText.includes("desperdicio") ||
@@ -3778,6 +3781,7 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
 
 
 

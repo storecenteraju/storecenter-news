@@ -444,7 +444,7 @@ app.get("/negocios.jpg", (req, res) => {
 
 // Intelligent Auto-Categorization Helper
 function autoCategorizeNews(title: string, content: string, origCategory: string): string {
-  const allowedCategories = ["Economia", "Política", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
+  const allowedCategories = ["Economia", "Política", "Judiciário", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
 
   const normalize = (value: string) => String(value || "")
     .toLowerCase()
@@ -479,6 +479,10 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
   if (hasAny(["tilápia", "tilapia", "peixe", "pescado", "exportações", "exportacoes", "importações", "importacoes", "balança comercial", "balanca comercial", "mdic", "comércio exterior", "comercio exterior"])) {
     return "Economia";
+  }
+
+  if (hasAny(["stf", "supremo tribunal", "cnj", "conselho nacional de justiça", "conselho nacional de justica", "fachin", "dino", "moraes", "juiz", "juízes", "juizes", "magistrado", "magistrados", "tribunal", "judiciário", "judiciario", "justiça", "justica", "penduricalho", "penduricalhos"])) {
+    return "Judiciário";
   }
 
   const score: Record<string, number> = {};
@@ -538,10 +542,18 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     "putin", "biden", "trump"
   ], 2);
 
+  addTerms("Judiciário", [
+    "judiciário", "judiciario", "justiça", "justica", "stf", "supremo tribunal", "cnj",
+    "conselho nacional de justiça", "conselho nacional de justica", "tribunal", "tribunais",
+    "juiz", "juízes", "juizes", "magistrado", "magistrados", "ministro do stf", "fachin",
+    "dino", "moraes", "penduricalho", "penduricalhos", "remuneração da magistratura",
+    "remuneracao da magistratura"
+  ], 4);
+
   addTerms("Política", [
     "política", "politica", "governo", "congresso", "senado", "câmara", "camara", "ministro", "ministra",
     "eleição", "eleicao", "eleições", "eleicoes", "presidente", "projeto de lei", "pec", "votação",
-    "votacao", "stf", "supremo tribunal", "parlamento", "deputado", "senador", "prefeitura", "prefeito",
+    "votacao", "parlamento", "deputado", "senador", "prefeitura", "prefeito",
     "partido político", "partido politico", "corrupção", "corrupcao", "lula", "tarcísio", "tarcisio",
     "candidato", "propaganda eleitoral", "urnas", "tse"
   ], 2);
@@ -3082,6 +3094,29 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     let correctedFinalCategory = scraperCategory || winner.category || rewritten.category || "Economia";
 
     if (
+      finalClassifierText.includes("stf") ||
+      finalClassifierText.includes("supremo tribunal") ||
+      finalClassifierText.includes("cnj") ||
+      finalClassifierText.includes("conselho nacional de justiça") ||
+      finalClassifierText.includes("conselho nacional de justica") ||
+      finalClassifierText.includes("fachin") ||
+      finalClassifierText.includes("dino") ||
+      finalClassifierText.includes("moraes") ||
+      finalClassifierText.includes("juiz") ||
+      finalClassifierText.includes("juízes") ||
+      finalClassifierText.includes("juizes") ||
+      finalClassifierText.includes("magistrado") ||
+      finalClassifierText.includes("magistrados") ||
+      finalClassifierText.includes("tribunal") ||
+      finalClassifierText.includes("judiciário") ||
+      finalClassifierText.includes("judiciario") ||
+      finalClassifierText.includes("justiça") ||
+      finalClassifierText.includes("justica") ||
+      finalClassifierText.includes("penduricalho") ||
+      finalClassifierText.includes("penduricalhos")
+    ) {
+      correctedFinalCategory = "Judiciário";
+    } else if (
       finalClassifierText.includes("ifood") ||
       finalClassifierText.includes("vazamento") ||
       finalClassifierText.includes("dados vazados") ||
@@ -3205,6 +3240,29 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text";
     } else if (
+      finalImageText.includes("stf") ||
+      finalImageText.includes("supremo tribunal") ||
+      finalImageText.includes("cnj") ||
+      finalImageText.includes("conselho nacional de justiça") ||
+      finalImageText.includes("conselho nacional de justica") ||
+      finalImageText.includes("fachin") ||
+      finalImageText.includes("dino") ||
+      finalImageText.includes("moraes") ||
+      finalImageText.includes("juiz") ||
+      finalImageText.includes("juízes") ||
+      finalImageText.includes("juizes") ||
+      finalImageText.includes("magistrado") ||
+      finalImageText.includes("magistrados") ||
+      finalImageText.includes("tribunal") ||
+      finalImageText.includes("judiciário") ||
+      finalImageText.includes("judiciario") ||
+      finalImageText.includes("justiça") ||
+      finalImageText.includes("justica") ||
+      finalImageText.includes("penduricalho") ||
+      finalImageText.includes("penduricalhos")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text";
+    } else if (
       finalImageText.includes("zelle") ||
       finalImageText.includes("pix") ||
       finalImageText.includes("pagamento") ||
@@ -3282,6 +3340,8 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalImageText.includes("partida")
     ) {
       finalImagePrompt = "FORCE_FOOTBALL_RSS: soccer stadium football match fans world cup, no cycling, no bicycles, no cyclists, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Judiciário") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian justice court supreme court legal documents judges courtroom, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Geopolítica") {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Economia") {
@@ -3862,18 +3922,3 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

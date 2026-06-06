@@ -106,6 +106,7 @@ export default function Navigation({
     'Home',
     'Economia',
     'Política',
+    'Judiciário',
     'Negócios',
     'Tecnologia',
     'Geopolítica',

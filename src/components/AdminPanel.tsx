@@ -882,6 +882,7 @@ export default function AdminPanel({
                   >
                     <option value="Economia">Economia</option>
                     <option value="Política">Política</option>
+                    <option value="Judiciário">Judiciário</option>
                     <option value="Negócios">Negócios</option>
                     <option value="Tecnologia">Tecnologia</option>
                     <option value="Geopolítica">Geopolítica</option>
@@ -1257,6 +1258,7 @@ export default function AdminPanel({
                 >
                   <option value="Economia">Economia</option>
                   <option value="Política">Política</option>
+                  <option value="Judiciário">Judiciário</option>
                   <option value="Negócios">Negócios</option>
                   <option value="Tecnologia">Tecnologia</option>
                   <option value="Geopolítica">Geopolítica</option>
@@ -1559,6 +1561,7 @@ export default function AdminPanel({
                   >
                     <option value="Economia">Economia</option>
                     <option value="Política">Política</option>
+                    <option value="Judiciário">Judiciário</option>
                     <option value="Negócios">Negócios</option>
                     <option value="Tecnologia">Tecnologia</option>
                     <option value="Geopolítica">Geopolítica</option>

@@ -7,7 +7,8 @@ export type CategoryType =
   | 'Nacional'
   | 'Esporte'
   | 'Saúde'
-  | 'Entretenimento';
+  | 'Entretenimento'
+  | 'Judiciário';
 
 export interface Post {
   id: string;
@@ -186,6 +187,13 @@ export const CATEGORY_FALLBACK_POOLS: Record<string, string[]> = {
     'https://images.unsplash.com/photo-1470225620780-dba8ba36b745?auto=format&fit=crop&w=800&h=480&q=80',
     'https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?auto=format&fit=crop&w=800&h=480&q=80'
   ],
+  'Judiciário': [
+    'https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1453945619913-79ec89a82c51?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1521587760476-6c12a4b040da?auto=format&fit=crop&w=800&h=480&q=80',
+    'https://images.unsplash.com/photo-1589994965851-a8f479c573a9?auto=format&fit=crop&w=800&h=480&q=80'
+  ],
   'Nacional': [
     'https://images.unsplash.com/photo-1488085061387-422e29b40080?auto=format&fit=crop&w=800&h=480&q=80',
     'https://images.unsplash.com/photo-1518156677180-95a2893f3e9f?auto=format&fit=crop&w=800&h=480&q=80',
@@ -337,6 +345,3 @@ export function normalizePost(post: any): Post {
 
   return p as Post;
 }
-
-
-

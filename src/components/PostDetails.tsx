@@ -44,7 +44,6 @@ export default function PostDetails({
       !rawImage || 
       rawImage === 'null' || 
       rawImage === 'undefined' ||
-      rawImage.includes('unsplash.com/featured') || 
       rawImage.includes('placeholder') || 
       rawImage.includes('test') || 
       rawImage.startsWith('/');
@@ -480,3 +479,4 @@ export default function PostDetails({
     </div>
   );
 }
+

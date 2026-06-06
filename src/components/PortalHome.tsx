@@ -45,7 +45,6 @@ export default function PortalHome({
       !rawImage || 
       rawImage === 'null' || 
       rawImage === 'undefined' ||
-      rawImage.includes('unsplash.com/featured') || 
       rawImage.includes('placeholder') || 
       rawImage.includes('test') || 
       rawImage.startsWith('/');
@@ -580,3 +579,4 @@ export default function PortalHome({
     </div>
   );
 }
+

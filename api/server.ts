@@ -3718,6 +3718,7 @@ app.get("/api/cron/rss-auto", async (req, res) => {
   try {
     const dryRun = ["1", "true", "sim", "yes"].includes(String(req.query.dryRun || req.query.dryrun || "").toLowerCase());
     if (dryRun) {
+      const result = await cronRssAuto({ dryRun: true });
       return res.json({
         status: "success",
         dryRun: true,
@@ -3725,8 +3726,9 @@ app.get("/api/cron/rss-auto", async (req, res) => {
         "quantidade de posts publicados": 0,
         "horário da execução": new Date().toISOString(),
         "erro detalhado, se existir": null,
-        "detalhes": [],
-        "mensagem": "DRY RUN seguro: cron bloqueado antes de publicar."
+        "detalhes": result.importedDetails || [],
+        previewPost: result.previewPost || null,
+        "mensagem": result.message || "DRY RUN: teste executado sem salvar e sem publicar."
       });
     }
 
@@ -3867,6 +3869,8 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
+
 
 
 

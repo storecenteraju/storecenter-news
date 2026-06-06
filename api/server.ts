@@ -860,8 +860,11 @@ app.post("/api/posts", async (req, res) => {
       .replace(/(^-|-$)+/g, "");
   }
 
-  // Apply intelligent auto-categorization
-  newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
+  // Apply auto-categorization only when category was not manually provided
+  const hasManualPostCategory = typeof req.body.category === "string" && req.body.category.trim() !== "";
+  if (!hasManualPostCategory) {
+    newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
+  }
 
   db.posts.unshift(newPost);
   writeDatabase(db);
@@ -875,7 +878,8 @@ app.put("/api/posts/:id", async (req, res) => {
   const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
   if (index !== -1) {
     db.posts[index] = { ...db.posts[index], ...req.body };
-    if (req.body.title || req.body.content) {
+    const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
+    if (!hasManualEditCategory && (req.body.title || req.body.content)) {
       db.posts[index].category = autoCategorizeNews(
         db.posts[index].title || '',
         db.posts[index].content || '',
@@ -3794,6 +3798,8 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
+
 
 
 

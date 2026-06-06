@@ -1,4 +1,4 @@
-﻿import express from "express";
+import express from "express";
 import path from "path";
 import fs from "fs";
 import { GoogleGenAI, Type } from "@google/genai";
@@ -3019,6 +3019,19 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     ) {
       correctedFinalCategory = "Tecnologia";
     } else if (
+      finalClassifierText.includes("cnh") ||
+      finalClassifierText.includes("carteira nacional de habilitação") ||
+      finalClassifierText.includes("carteira nacional de habilitacao") ||
+      finalClassifierText.includes("habilitação") ||
+      finalClassifierText.includes("habilitacao") ||
+      finalClassifierText.includes("detran") ||
+      finalClassifierText.includes("condutor") ||
+      finalClassifierText.includes("condutores") ||
+      finalClassifierText.includes("trânsito") ||
+      finalClassifierText.includes("transito")
+    ) {
+      correctedFinalCategory = "Nacional";
+    } else if (
       finalClassifierText.includes("copa do mundo") ||
       finalClassifierText.includes("fifa") ||
       finalClassifierText.includes("futebol")
@@ -3781,6 +3794,7 @@ if (!process.env.VERCEL) {
 
 export { app };
 export default app;
+
 
 
 

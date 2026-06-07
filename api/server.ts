@@ -3402,7 +3402,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       author: "Redação Store Center",
       tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => String(tag) !== correctedFinalCategory).slice(0, 4) : [])],
       status: "published",
-      image: imageRes.url,
+      image: finalResolvedImageUrl,
       seoTitle: sanitizedSeoTitle,
       seoDescription: sanitizedSeoDescription,
       keyword: rewritten.keyword || "",

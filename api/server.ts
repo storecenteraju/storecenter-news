@@ -3408,6 +3408,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       !rawSourceImageUrl.toLowerCase().includes("pixel");
 
     const finalResolvedImageUrl = isUsableSourceImage ? rawSourceImageUrl : imageRes.url;
+    const finalImageSource = isUsableSourceImage ? "RSS Original" : imageRes.provider;
 
     const newPost = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),
@@ -3445,7 +3446,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
           title: sanitizedTitle,
           category: correctedFinalCategory,
           imagePrompt: finalImagePrompt,
-          imageUrl: imageRes.url,
+          imageUrl: finalResolvedImageUrl,
           sourceUrl: item.link,
           slug: finalSlug
         }],
@@ -3482,9 +3483,9 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       feedName: feed.name,
       feedUrl: feed.url,
       originalTitle: item.title,
-      imageGenerated: imageRes.provider,
-      imageUrl: imageRes.url,
-      imageSource: imageRes.provider,
+      imageGenerated: finalImageSource,
+      imageUrl: finalResolvedImageUrl,
+      imageSource: finalImageSource,
       imagePrompt: newPost.imagePrompt || rewritten.imagePrompt || "Prompt não especificado",
       antiRepetitionResult: imageRes.antiRepetitionReport,
       imageStatus: imageRes.imageStatus,

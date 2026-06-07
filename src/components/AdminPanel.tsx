@@ -908,11 +908,48 @@ export default function AdminPanel({
                 <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">URL da Imagem Destacada</label>
                 <input 
                   type="text" 
-                  placeholder="Link da imagem (Unsplash)"
+                  placeholder="Link da imagem (Unsplash) ou imagem enviada do computador"
                   value={postImage}
                   onChange={e => setPostImage(e.target.value)}
                   className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800"
                 />
+
+                <div className="mt-2 flex flex-wrap items-center gap-2">
+                  <label className="inline-flex items-center justify-center px-3 py-2 rounded-lg bg-blue-600 text-white text-[10px] font-black uppercase tracking-widest cursor-pointer hover:bg-blue-700 transition-colors">
+                    Subir imagem do computador
+                    <input
+                      type="file"
+                      accept="image/*"
+                      className="hidden"
+                      onChange={e => {
+                        const file = e.target.files?.[0];
+                        if (!file) return;
+
+                        if (!file.type.startsWith('image/')) {
+                          alert('Escolha um arquivo de imagem válido.');
+                          return;
+                        }
+
+                        if (file.size > 5 * 1024 * 1024) {
+                          alert('Imagem muito grande. Use uma imagem com até 5 MB.');
+                          return;
+                        }
+
+                        const reader = new FileReader();
+                        reader.onload = () => {
+                          setPostImage(String(reader.result || ''));
+                        };
+                        reader.readAsDataURL(file);
+                      }}
+                    />
+                  </label>
+
+                  {postImage?.startsWith('data:image/') && (
+                    <span className="text-[10px] font-bold text-emerald-700 bg-emerald-50 border border-emerald-200 px-2 py-1 rounded">
+                      Imagem enviada e pronta para salvar
+                    </span>
+                  )}
+                </div>
               </div>
 
               <div>

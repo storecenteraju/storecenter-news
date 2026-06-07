@@ -20,7 +20,7 @@ if (fs.existsSync(DB_PATH) && !fs.existsSync(BACKUP_PATH)) {
   }
 }
 
-app.use(express.json());
+app.use(express.json({ limit: '10mb' }));
 
 let isDatabaseLoaded = false;
 async function ensureDatabaseLoaded() {
@@ -481,7 +481,11 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     return "Economia";
   }
 
-  if (hasAny(["stf", "supremo tribunal", "cnj", "conselho nacional de justiça", "conselho nacional de justica", "fachin", "dino", "moraes", "juiz", "juízes", "juizes", "magistrado", "magistrados", "tribunal", "judiciário", "judiciario", "justiça", "justica", "penduricalho", "penduricalhos"])) {
+  if (hasAny(["dinossauro", "dinossauros", "fóssil", "fossil", "fósseis", "fosseis", "paleontólogo", "paleontologo", "paleontologia", "pré-história", "pre-historia", "feira do livro", "livro infantil", "livros infantis"])) {
+    return "Entretenimento";
+  }
+
+  if (hasAny(["stf", "supremo tribunal", "cnj", "conselho nacional de justiça", "conselho nacional de justica", "fachin", "flávio dino", "flavio dino", "ministro dino", "moraes", "juiz", "juízes", "juizes", "magistrado", "magistrados", "tribunal", "judiciário", "judiciario", "justiça", "justica", "penduricalho", "penduricalhos"])) {
     return "Judiciário";
   }
 
@@ -546,7 +550,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     "judiciário", "judiciario", "justiça", "justica", "stf", "supremo tribunal", "cnj",
     "conselho nacional de justiça", "conselho nacional de justica", "tribunal", "tribunais",
     "juiz", "juízes", "juizes", "magistrado", "magistrados", "ministro do stf", "fachin",
-    "dino", "moraes", "penduricalho", "penduricalhos", "remuneração da magistratura",
+    "flávio dino", "flavio dino", "ministro dino", "moraes", "penduricalho", "penduricalhos", "remuneração da magistratura",
     "remuneracao da magistratura"
   ], 4);
 
@@ -3100,7 +3104,9 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalClassifierText.includes("conselho nacional de justiça") ||
       finalClassifierText.includes("conselho nacional de justica") ||
       finalClassifierText.includes("fachin") ||
-      finalClassifierText.includes("dino") ||
+      finalClassifierText.includes("flávio dino") ||
+      finalClassifierText.includes("flavio dino") ||
+      finalClassifierText.includes("ministro dino") ||
       finalClassifierText.includes("moraes") ||
       finalClassifierText.includes("juiz") ||
       finalClassifierText.includes("juízes") ||
@@ -3255,7 +3261,9 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalImageText.includes("conselho nacional de justiça") ||
       finalImageText.includes("conselho nacional de justica") ||
       finalImageText.includes("fachin") ||
-      finalImageText.includes("dino") ||
+      finalImageText.includes("flávio dino") ||
+      finalImageText.includes("flavio dino") ||
+      finalImageText.includes("ministro dino") ||
       finalImageText.includes("moraes") ||
       finalImageText.includes("juiz") ||
       finalImageText.includes("juízes") ||

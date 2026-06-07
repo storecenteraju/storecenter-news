@@ -3390,6 +3390,17 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       db
     );
 
+    const rawSourceImageUrl = String(item.sourceImageUrl || "").trim();
+    const isUsableSourceImage =
+      /^https?:\/\//i.test(rawSourceImageUrl) &&
+      !rawSourceImageUrl.toLowerCase().includes("logo") &&
+      !rawSourceImageUrl.toLowerCase().includes("avatar") &&
+      !rawSourceImageUrl.toLowerCase().includes("icon") &&
+      !rawSourceImageUrl.toLowerCase().includes("placeholder") &&
+      !rawSourceImageUrl.toLowerCase().includes("pixel");
+
+    const finalResolvedImageUrl = isUsableSourceImage ? rawSourceImageUrl : imageRes.url;
+
     const newPost = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),
       views: 0,

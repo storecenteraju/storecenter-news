@@ -2866,8 +2866,16 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
         let description = descMatch ? descMatch[1].trim() : "";
         description = cleanCdataAndHtml(description);
 
+        const enclosureMatch = itemXml.match(/<enclosure[^>]+url=["']([^"']+)["'][^>]*>/i);
+        const mediaContentMatch = itemXml.match(/<media:content[^>]+url=["']([^"']+)["'][^>]*>/i);
+        const mediaThumbMatch = itemXml.match(/<media:thumbnail[^>]+url=["']([^"']+)["'][^>]*>/i);
+        const imgInContentMatch = itemXml.match(/<img[^>]+src=["']([^"']+)["'][^>]*>/i);
+
+        let sourceImageUrl = enclosureMatch?.[1] || mediaContentMatch?.[1] || mediaThumbMatch?.[1] || imgInContentMatch?.[1] || "";
+        sourceImageUrl = cleanCdataAndHtml(sourceImageUrl);
+
         if (title && link) {
-          items.push({ title, link, description });
+          items.push({ title, link, description, sourceImageUrl });
         }
       }
 

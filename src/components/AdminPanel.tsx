@@ -930,15 +930,48 @@ export default function AdminPanel({
                           return;
                         }
 
-                        if (file.size > 5 * 1024 * 1024) {
-                          alert('Imagem muito grande. Use uma imagem com até 5 MB.');
+                        if (file.size > 10 * 1024 * 1024) {
+                          alert('Imagem muito grande. Use uma imagem com até 10 MB.');
                           return;
                         }
 
                         const reader = new FileReader();
+                        const img = new Image();
+
                         reader.onload = () => {
-                          setPostImage(String(reader.result || ''));
+                          img.onload = () => {
+                            const maxWidth = 1280;
+                            const maxHeight = 720;
+                            const scale = Math.min(maxWidth / img.width, maxHeight / img.height, 1);
+
+                            const canvas = document.createElement('canvas');
+                            canvas.width = Math.round(img.width * scale);
+                            canvas.height = Math.round(img.height * scale);
+
+                            const ctx = canvas.getContext('2d');
+                            if (!ctx) {
+                              alert('Não foi possível processar a imagem.');
+                              return;
+                            }
+
+                            ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+                            const compressedImage = canvas.toDataURL('image/jpeg', 0.78);
+
+                            if (compressedImage.length > 2500000) {
+                              alert('A imagem ainda ficou grande após compressão. Tente uma imagem menor.');
+                              return;
+                            }
+
+                            setPostImage(compressedImage);
+                          };
+
+                          img.onerror = () => {
+                            alert('Não foi possível carregar essa imagem. Tente outro arquivo.');
+                          };
+
+                          img.src = String(reader.result || '');
                         };
+
                         reader.readAsDataURL(file);
                       }}
                     />

@@ -3283,6 +3283,23 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     let finalImagePrompt = "";
 
     if (
+      correctedFinalCategory === "Saúde" ||
+      finalImageText.includes("saúde") ||
+      finalImageText.includes("saude") ||
+      finalImageText.includes("médico") ||
+      finalImageText.includes("medico") ||
+      finalImageText.includes("médicos") ||
+      finalImageText.includes("medicos") ||
+      finalImageText.includes("hospital") ||
+      finalImageText.includes("paciente") ||
+      finalImageText.includes("sus") ||
+      finalImageText.includes("vacina") ||
+      finalImageText.includes("ebola") ||
+      finalImageText.includes("vigilância epidemiológica") ||
+      finalImageText.includes("vigilancia epidemiologica")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text";
+    } else if (
       finalImageText.includes("tilápia") ||
       finalImageText.includes("tilapia") ||
       finalImageText.includes("peixe") ||

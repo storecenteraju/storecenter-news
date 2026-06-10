@@ -3147,6 +3147,25 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     ) {
       correctedFinalCategory = "Saúde";
     } else if (
+      finalClassifierText.includes("polícia militar") ||
+      finalClassifierText.includes("policia militar") ||
+      finalClassifierText.includes("tenente-coronel") ||
+      finalClassifierText.includes("feminicídio") ||
+      finalClassifierText.includes("feminicidio") ||
+      finalClassifierText.includes("fraude processual") ||
+      finalClassifierText.includes("acusado") ||
+      finalClassifierText.includes("acusada") ||
+      finalClassifierText.includes("preso") ||
+      finalClassifierText.includes("presa") ||
+      finalClassifierText.includes("prisão") ||
+      finalClassifierText.includes("prisao") ||
+      finalClassifierText.includes("crime") ||
+      finalClassifierText.includes("delegacia") ||
+      finalClassifierText.includes("inquérito") ||
+      finalClassifierText.includes("inquerito")
+    ) {
+      correctedFinalCategory = "Direito";
+    } else if (
       finalClassifierText.includes("stf") ||
       finalClassifierText.includes("supremo tribunal") ||
       finalClassifierText.includes("cnj") ||
@@ -3435,6 +3454,8 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalImageText.includes("partida")
     ) {
       finalImagePrompt = "FORCE_FOOTBALL_RSS: soccer stadium football match fans world cup, no cycling, no bicycles, no cyclists, realistic editorial photo, no text";
+    } else if (correctedFinalCategory === "Direito") {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Judiciário") {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian justice court supreme court legal documents judges courtroom, realistic editorial photo, no text";
     } else if (correctedFinalCategory === "Geopolítica") {

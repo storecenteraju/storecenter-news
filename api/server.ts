@@ -3119,6 +3119,34 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     let correctedFinalCategory = scraperCategory || winner.category || rewritten.category || "Economia";
 
     if (
+      finalClassifierText.includes("saúde") ||
+      finalClassifierText.includes("saude") ||
+      finalClassifierText.includes("secretaria de saúde") ||
+      finalClassifierText.includes("secretaria de saude") ||
+      finalClassifierText.includes("ebola") ||
+      finalClassifierText.includes("vírus") ||
+      finalClassifierText.includes("virus") ||
+      finalClassifierText.includes("surto") ||
+      finalClassifierText.includes("epidemia") ||
+      finalClassifierText.includes("pandemia") ||
+      finalClassifierText.includes("vigilância epidemiológica") ||
+      finalClassifierText.includes("vigilancia epidemiologica") ||
+      finalClassifierText.includes("hospital") ||
+      finalClassifierText.includes("paciente") ||
+      finalClassifierText.includes("médico") ||
+      finalClassifierText.includes("medico") ||
+      finalClassifierText.includes("vacina") ||
+      finalClassifierText.includes("anvisa") ||
+      finalClassifierText.includes("sus") ||
+      finalClassifierText.includes("doença") ||
+      finalClassifierText.includes("doenca") ||
+      finalClassifierText.includes("tratamento") ||
+      finalClassifierText.includes("organização mundial da saúde") ||
+      finalClassifierText.includes("organizacao mundial da saude") ||
+      finalClassifierText.includes("oms")
+    ) {
+      correctedFinalCategory = "Saúde";
+    } else if (
       finalClassifierText.includes("stf") ||
       finalClassifierText.includes("supremo tribunal") ||
       finalClassifierText.includes("cnj") ||

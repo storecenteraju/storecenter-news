@@ -3097,10 +3097,11 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
-    const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.content || ""}`.toLowerCase();
+    const sanitizedContent = cleanText(rewritten.content || "");
+    const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent}`.toLowerCase();
     const scraperCategory = autoCategorizeNews(
       sanitizedTitle,
-      rewritten.content || sanitizedSubtitle || "",
+      sanitizedContent || sanitizedSubtitle || "",
       rewritten.category || winner.category || "Economia"
     );
     let correctedFinalCategory = scraperCategory || winner.category || rewritten.category || "Economia";
@@ -3238,7 +3239,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     }
 
     // Fetch high fidelity images by final corrected subject
-    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${rewritten.content || ""} ${rewritten.imagePrompt || ""}`.toLowerCase();
+    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent} ${rewritten.imagePrompt || ""}`.toLowerCase();
     let finalImagePrompt = "";
 
     if (
@@ -3417,7 +3418,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       title: sanitizedTitle,
       subtitle: sanitizedSubtitle,
       slug: finalSlug,
-      content: rewritten.content || `Análise estendida sobre ${sanitizedTitle}.`,
+      content: sanitizedContent || `Análise estendida sobre ${sanitizedTitle}.`,
       category: correctedFinalCategory,
       author: "Redação Store Center",
       tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => String(tag) !== correctedFinalCategory).slice(0, 4) : [])],

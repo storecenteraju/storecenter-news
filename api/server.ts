@@ -1701,10 +1701,22 @@ function cronPublishScheduled() {
 
 const cleanText = (txt: string) => {
   if (!txt) return "";
-  let res = txt.replace("[RSS]", "").replace("RSS", "").trim();
-  if (res.startsWith(":") || res.startsWith("-")) {
+
+  let res = String(txt)
+    .replace("[RSS]", "")
+    .replace("RSS", "")
+    .replace(/\b[A-Za-zÀ-ÿ0-9_.-]{2,50}\s+photography\b\.?/gi, "")
+    .replace(/^\s*(foto|imagem|crédito|credito|divulgação|divulgacao|reprodução|reproducao)\s*[:\-–]\s*[^.|\n]{0,160}/gi, "")
+    .replace(/\s+(foto|imagem|crédito|credito|divulgação|divulgacao|reprodução|reproducao)\s*[:\-–]\s*[^.|\n]{0,160}/gi, " ")
+    .replace(/notícias relacionadas\s*:\s*[\s\S]*?(?=(A aprovação|A proposta|O projeto|O texto|A medida|Para o relator|Segundo|De acordo|$))/gi, " ")
+    .replace(/noticias relacionadas\s*:\s*[\s\S]*?(?=(A aprovação|A proposta|O projeto|O texto|A medida|Para o relator|Segundo|De acordo|$))/gi, " ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+
+  if (res.startsWith(":") || res.startsWith("-") || res.startsWith("–")) {
     res = res.substring(1).trim();
   }
+
   return res.trim();
 };
 

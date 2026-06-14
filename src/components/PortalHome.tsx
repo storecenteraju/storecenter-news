@@ -210,21 +210,21 @@ export default function PortalHome({
                   onClick={() => onPostClick(featurePost)}
                   className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row cursor-pointer"
                 >
-                  <div className="md:w-3/5 aspect-video md:h-auto relative overflow-hidden bg-slate-950">
+                  <div className="md:w-3/5 aspect-video md:h-auto relative overflow-hidden bg-slate-200">
                     <img
                       src={getDeduplicatedImage(featurePost)}
                       alt=""
                       referrerPolicy="no-referrer"
                       onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="absolute inset-0 w-full h-full object-cover scale-125 blur-xl opacity-80"
+                      className="absolute inset-0 w-full h-full object-cover scale-150 blur-2xl opacity-90"
                     />
-                    <div className="absolute inset-0 bg-slate-950/15" />
+                    <div className="absolute inset-0 bg-white/10" />
                     <img 
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
                       onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="relative z-10 w-full h-full object-contain transition-transform duration-500"
+                      className="relative z-10 w-full h-full object-contain p-2 transition-transform duration-500"
                     />
                     <span className="absolute z-20 top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
                       {featurePost.category}

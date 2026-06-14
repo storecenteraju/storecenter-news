@@ -3319,6 +3319,11 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       correctedFinalCategory = "Geopolítica";
     }
 
+    // Categoria travada pela fonte RSS/URL/feed: evita que palavras soltas mudem a editoria original
+    if (winner.category) {
+      correctedFinalCategory = winner.category;
+    }
+
     // Fetch high fidelity images by final corrected subject
     const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent} ${rewritten.imagePrompt || ""}`.toLowerCase();
     let finalImagePrompt = "";

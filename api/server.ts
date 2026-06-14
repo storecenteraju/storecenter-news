@@ -3845,18 +3845,75 @@ function fallbackRewrite(item: any, feed: any) {
     shortSummary += ".";
   }
 
-  const safeSubtitle = shortSummary
-    ? shortSummary.slice(0, 180)
-    : `Nova atualização identificada pela redação do Store Center na categoria ${category}.`;
+  const subtitleSource = shortSummary || `Nova atualização identificada pela redação do Store Center na categoria ${category}.`;
+  let safeSubtitle = subtitleSource.slice(0, 220).trim();
 
-  const content = `O Store Center acompanha uma nova atualização relacionada a: ${cleanTitle}.
+  if (subtitleSource.length > 220) {
+    const subtitleEnd = Math.max(
+      safeSubtitle.lastIndexOf("."),
+      safeSubtitle.lastIndexOf("!"),
+      safeSubtitle.lastIndexOf("?")
+    );
 
-A informação publicada no feed aponta que ${shortSummary || `o tema foi identificado como relevante para a categoria ${category}, mas o material original trouxe poucos detalhes no resumo disponível.`}
+    if (subtitleEnd > 80) {
+      safeSubtitle = safeSubtitle.slice(0, subtitleEnd + 1).trim();
+    } else {
+      const subtitleSpace = safeSubtitle.lastIndexOf(" ");
+      if (subtitleSpace > 80) {
+        safeSubtitle = safeSubtitle.slice(0, subtitleSpace).trim();
+      }
 
-A atualização chama atenção porque envolve um tema de interesse público e pode ter reflexos para empresas, consumidores ou para o ambiente econômico, dependendo dos próximos desdobramentos.
+      if (safeSubtitle && !/[.!?]$/.test(safeSubtitle)) {
+        safeSubtitle += ".";
+      }
+    }
+  } else if (safeSubtitle && !/[.!?]$/.test(safeSubtitle)) {
+    safeSubtitle += ".";
+  }
 
-A redação do Store Center seguirá acompanhando novas informações sobre o caso. Esta versão foi produzida a partir dos dados disponíveis no feed, sem acrescentar números, declarações ou projeções que não estejam no material recebido.`;
+  const categoryContext: Record<string, string> = {
+    "Economia": "O caso precisa ser observado pelo impacto que pode ter no bolso do cidadão, nas empresas, na arrecadação pública ou nas decisões de consumo.",
+    "Política": "O episódio se conecta ao ambiente político porque envolve decisões públicas, disputas de narrativa e possíveis efeitos sobre a relação entre governo, oposição e sociedade.",
+    "Geopolítica": "O tema ganha peso porque envolve interesses internacionais, alianças, imagem pública e possíveis reflexos além do fato imediato.",
+    "Esporte": "No esporte, o resultado ou a declaração não fica restrito ao campo: também mexe com confiança, pressão da torcida, bastidores e próximos passos da equipe.",
+    "Saúde": "Na saúde, a atenção maior está nos efeitos práticos para pacientes, profissionais, rede pública, prevenção e resposta das autoridades.",
+    "Tecnologia": "Na tecnologia, o ponto principal é entender como a mudança afeta usuários, empresas, segurança, inovação e dependência de plataformas digitais.",
+    "Nacional": "O assunto merece atenção porque toca em rotina, serviços públicos, segurança, comportamento social ou decisões que afetam diretamente a população.",
+    "Direito": "No campo jurídico, o caso chama atenção porque envolve responsabilidade, investigação, interpretação de regras e possíveis desdobramentos legais.",
+    "Negócios": "No ambiente de negócios, a leitura passa por mercado, concorrência, emprego, consumo, reputação e capacidade de adaptação das empresas.",
+    "Cultura": "Na cultura, o interesse está em como o fato dialoga com comportamento, memória, identidade, entretenimento e percepção pública."
+  };
 
+  const centralQuestion: Record<string, string> = {
+    "Economia": "A pergunta central é: esse fato é apenas um episódio isolado ou indica uma mudança com impacto real para consumidores, empresas e contas públicas?",
+    "Política": "A pergunta central é: quem ganha força, quem perde espaço e quais efeitos essa movimentação pode gerar no debate público?",
+    "Geopolítica": "A pergunta central é: esse movimento altera apenas o discurso ou pode influenciar decisões estratégicas entre países e instituições?",
+    "Esporte": "A pergunta central é: o episódio fortalece o grupo ou aumenta a pressão para os próximos compromissos?",
+    "Saúde": "A pergunta central é: as medidas adotadas são suficientes para proteger a população e dar resposta rápida ao problema?",
+    "Tecnologia": "A pergunta central é: a novidade representa avanço real ou cria novos riscos para usuários e empresas?",
+    "Nacional": "A pergunta central é: como esse fato chega à vida prática da população e o que ainda precisa ser esclarecido?",
+    "Direito": "A pergunta central é: quais responsabilidades podem ser apuradas e que efeito o caso pode ter daqui em diante?",
+    "Negócios": "A pergunta central é: o mercado está diante de uma oportunidade, de um alerta ou de uma mudança estrutural?",
+    "Cultura": "A pergunta central é: por que esse tema ganhou atenção agora e o que ele revela sobre o momento atual?"
+  };
+
+  const contextLine = categoryContext[category] || "O assunto merece atenção porque pode ter impacto público e ainda exige acompanhamento dos próximos desdobramentos.";
+  const questionLine = centralQuestion[category] || "A pergunta central é: o que esse fato muda na prática e quais pontos ainda precisam ser acompanhados?";
+  const sourceInfo = shortSummary || `o material original trouxe poucos detalhes no resumo disponível, mas indicou relevância para a categoria ${category}.`;
+
+  const content = `${cleanTitle} entrou no radar do Store Center por reunir elementos que vão além de uma simples atualização de rotina.
+
+Segundo as informações disponíveis no feed, ${sourceInfo}
+
+${questionLine}
+
+O ponto mais importante, neste momento, é separar o fato principal do ruído em volta dele. Nem toda atualização representa uma mudança imediata, mas alguns sinais merecem atenção: quem é afetado, qual decisão pode vir em seguida, que tipo de resposta será cobrada e quais consequências podem aparecer nos próximos dias.
+
+${contextLine}
+
+Na prática, o leitor deve observar três pontos: o que foi confirmado até agora, o que ainda depende de novas informações e quem pode ser diretamente impactado pelo caso. Essa leitura ajuda a evitar conclusão apressada e permite acompanhar o assunto com mais clareza.
+
+O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria foi estruturada a partir dos dados disponíveis no feed, sem acrescentar números, declarações ou acusações que não estejam no material recebido.`;
   const imageText = (cleanTitle + " " + summary).toLowerCase();
   let imageTopic = `${category} editorial news`;
 

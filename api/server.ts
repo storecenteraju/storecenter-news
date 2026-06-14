@@ -3432,6 +3432,19 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text";
     } else if (
+      finalImageText.includes("agro") ||
+      finalImageText.includes("agronegócio") ||
+      finalImageText.includes("agronegocio") ||
+      finalImageText.includes("produtor rural") ||
+      finalImageText.includes("produtores rurais") ||
+      finalImageText.includes("tecnologia rural") ||
+      finalImageText.includes("automação no campo") ||
+      finalImageText.includes("automacao no campo") ||
+      finalImageText.includes("robôs") ||
+      finalImageText.includes("robos")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text";
+    } else if (
       finalImageText.includes("alimento") ||
       finalImageText.includes("desperdício") ||
       finalImageText.includes("desperdicio") ||

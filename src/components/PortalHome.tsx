@@ -211,14 +211,22 @@ export default function PortalHome({
                   className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row cursor-pointer"
                 >
                   <div className="md:w-3/5 aspect-video md:h-auto relative overflow-hidden bg-slate-950">
+                    <img
+                      src={getDeduplicatedImage(featurePost)}
+                      alt=""
+                      referrerPolicy="no-referrer"
+                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
+                      className="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-45"
+                    />
+                    <div className="absolute inset-0 bg-slate-950/45" />
                     <img 
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
                       onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
+                      className="relative z-10 w-full h-full object-contain transition-transform duration-500"
                     />
-                    <span className="absolute top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
+                    <span className="absolute z-20 top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
                       {featurePost.category}
                     </span>
                   </div>

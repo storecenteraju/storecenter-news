@@ -3812,7 +3812,30 @@ function fallbackRewrite(item: any, feed: any) {
 
   summary = summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim();
 
-  const shortSummary = summary.slice(0, 850);
+  let shortSummary = summary.slice(0, 850).trim();
+
+  if (summary.length > 850) {
+    const lastSentenceEnd = Math.max(
+      shortSummary.lastIndexOf("."),
+      shortSummary.lastIndexOf("!"),
+      shortSummary.lastIndexOf("?")
+    );
+
+    if (lastSentenceEnd > 280) {
+      shortSummary = shortSummary.slice(0, lastSentenceEnd + 1).trim();
+    } else {
+      const lastSpace = shortSummary.lastIndexOf(" ");
+      if (lastSpace > 280) {
+        shortSummary = shortSummary.slice(0, lastSpace).trim();
+      }
+
+      if (shortSummary && !/[.!?]$/.test(shortSummary)) {
+        shortSummary += ".";
+      }
+    }
+  } else if (shortSummary && !/[.!?]$/.test(shortSummary)) {
+    shortSummary += ".";
+  }
 
   const safeSubtitle = shortSummary
     ? shortSummary.slice(0, 180)

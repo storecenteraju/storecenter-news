@@ -3925,7 +3925,7 @@ ${contextLine}
 
 Na prática, o leitor deve observar três pontos: o que foi confirmado até agora, o que ainda depende de novas informações e quem pode ser diretamente impactado pelo caso. Essa leitura ajuda a evitar conclusão apressada e permite acompanhar o assunto com mais clareza.
 
-O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria foi estruturada a partir dos dados disponíveis no feed, sem acrescentar números, declarações ou acusações que não estejam no material recebido.`;
+O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria foi estruturada a partir dos dados disponíveis no material de origem, sem acrescentar números, declarações ou acusações que não estejam no material recebido.`;
   const imageText = (cleanTitle + " " + summary).toLowerCase();
   let imageTopic = `${category} editorial news`;
 

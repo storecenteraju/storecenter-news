@@ -210,13 +210,13 @@ export default function PortalHome({
                   onClick={() => onPostClick(featurePost)}
                   className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row cursor-pointer"
                 >
-                  <div className="md:w-3/5 h-64 md:h-[420px] relative overflow-hidden">
+                  <div className="md:w-3/5 aspect-video md:h-auto relative overflow-hidden bg-slate-950">
                     <img 
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 
                       referrerPolicy="no-referrer"
                       onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                      className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                     />
                     <span className="absolute top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
                       {featurePost.category}
@@ -299,13 +299,13 @@ export default function PortalHome({
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
                       <div>
-                        <div className="h-48 relative overflow-hidden bg-slate-100">
+                        <div className="aspect-video relative overflow-hidden bg-slate-950">
                           <img 
                             src={getDeduplicatedImage(post)} 
                             alt={post.title} 
                             referrerPolicy="no-referrer"
                             onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
-                            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
                           />
                           {(selectedCategory === 'Home' || !selectedCategory) && (
                             <span className="absolute top-3 left-3 bg-slate-950 text-white text-[9px] font-extrabold uppercase tracking-widest px-2.5 py-1 rounded">

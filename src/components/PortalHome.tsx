@@ -216,9 +216,9 @@ export default function PortalHome({
                       alt=""
                       referrerPolicy="no-referrer"
                       onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="absolute inset-0 w-full h-full object-cover scale-110 blur-xl opacity-45"
+                      className="absolute inset-0 w-full h-full object-cover scale-125 blur-xl opacity-80"
                     />
-                    <div className="absolute inset-0 bg-slate-950/45" />
+                    <div className="absolute inset-0 bg-slate-950/15" />
                     <img 
                       src={getDeduplicatedImage(featurePost)} 
                       alt={featurePost.title} 

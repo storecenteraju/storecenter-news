@@ -3902,10 +3902,20 @@ function fallbackRewrite(item: any, feed: any) {
   const contextLine = categoryContext[category] || "O assunto merece atenção porque pode ter impacto público e ainda exige acompanhamento dos próximos desdobramentos.";
   const questionLine = centralQuestion[category] || "A pergunta central é: o que esse fato muda na prática e quais pontos ainda precisam ser acompanhados?";
   const sourceInfo = shortSummary || `o material original trouxe poucos detalhes no resumo disponível, mas indicou relevância para a categoria ${category}.`;
+  const sourceLeadOptions = [
+    "O material recebido pelo RSS aponta:",
+    "A publicação original informa:",
+    "O conteúdo enviado pelo feed destaca:",
+    "As informações captadas da fonte indicam:",
+    "O texto de origem relata:",
+    "A matéria monitorada pelo Store Center mostra:",
+    "O resumo recebido pelo sistema destaca:"
+  ];
+  const sourceLead = sourceLeadOptions[(cleanTitle.length + sourceInfo.length + category.length) % sourceLeadOptions.length];
 
   const content = `${cleanTitle} entrou no radar do Store Center por reunir elementos que vão além de uma simples atualização de rotina.
 
-Segundo as informações disponíveis no feed, ${sourceInfo}
+${sourceLead} ${sourceInfo}
 
 ${questionLine}
 

@@ -1710,6 +1710,9 @@ const cleanText = (txt: string) => {
     .replace(/\s+(foto|imagem|crédito|credito|divulgação|divulgacao|reprodução|reproducao)\s*[:\-–]\s*[^.|\n]{0,160}/gi, " ")
     .replace(/notícias relacionadas\s*:\s*[\s\S]*?(?=(A aprovação|A proposta|O projeto|O texto|A medida|Para o relator|Segundo|De acordo|$))/gi, " ")
     .replace(/noticias relacionadas\s*:\s*[\s\S]*?(?=(A aprovação|A proposta|O projeto|O texto|A medida|Para o relator|Segundo|De acordo|$))/gi, " ")
+    .replace(/\bAs cinco profissões mais desejadas do mundo e quanto elas pagam\b/gi, " ")
+    .replace(/\bAs cinco profissoes mais desejadas do mundo e quanto elas pagam\b/gi, " ")
+    .replace(/\b(Leia também|Leia tambem|Veja também|Veja tambem|Também no g1|Tambem no g1)\s*:?\s*/gi, " ")
     .replace(/\s{2,}/g, " ")
     .trim();
 

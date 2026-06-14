@@ -3903,13 +3903,13 @@ function fallbackRewrite(item: any, feed: any) {
   const questionLine = centralQuestion[category] || "A pergunta central é: o que esse fato muda na prática e quais pontos ainda precisam ser acompanhados?";
   const sourceInfo = shortSummary || `o material original trouxe poucos detalhes no resumo disponível, mas indicou relevância para a categoria ${category}.`;
   const sourceLeadOptions = [
-    "O material recebido pelo RSS aponta:",
+    "O material recebido da fonte aponta:",
     "A publicação original informa:",
-    "O conteúdo enviado pelo feed destaca:",
-    "As informações captadas da fonte indicam:",
-    "O texto de origem relata:",
+    "O conteúdo de origem destaca:",
+    "As informações captadas na matéria indicam:",
+    "O texto original relata:",
     "A matéria monitorada pelo Store Center mostra:",
-    "O resumo recebido pelo sistema destaca:"
+    "O resumo analisado pelo sistema destaca:"
   ];
   const sourceLead = sourceLeadOptions[(cleanTitle.length + sourceInfo.length + category.length) % sourceLeadOptions.length];
 

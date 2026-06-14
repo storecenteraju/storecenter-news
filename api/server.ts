@@ -1706,6 +1706,7 @@ const cleanText = (txt: string) => {
     .replace("[RSS]", "")
     .replace("RSS", "")
     .replace(/\b[A-Za-zÀ-ÿ0-9_.-]{2,50}\s+photography\b\.?/gi, "")
+    .replace(/\b(reprodução|reproducao)\s*\/\s*(TV\s+[A-Z0-9]{2,12}|G1|GLOBO|CNN|BBC|DW|REUTERS|AFP|AP|ESTADÃO|AGÊNCIA\s+BRASIL)\b/gi, "")
     .replace(/^\s*(foto|imagem|crédito|credito|divulgação|divulgacao|reprodução|reproducao)\s*[:\-–]\s*[^.|\n]{0,160}/gi, "")
     .replace(/\s+(foto|imagem|crédito|credito|divulgação|divulgacao|reprodução|reproducao)\s*[:\-–]\s*[^.|\n]{0,160}/gi, " ")
     .replace(/notícias relacionadas\s*:\s*[\s\S]*?(?=(A aprovação|A proposta|O projeto|O texto|A medida|Para o relator|Segundo|De acordo|$))/gi, " ")

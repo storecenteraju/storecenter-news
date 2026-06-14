@@ -3731,6 +3731,7 @@ function fallbackRewrite(item: any, feed: any) {
   // Remove chamadas e ruídos comuns vindos dos portais de origem
   summary = summary
     .replace(/🗒️.*?g1/gi, "")
+    .replace(/\b(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\s+([A-ZÁÉÍÓÚÂÊÔÃÕÇ][a-záéíóúâêôãõç])/g, "$1. $2")
     .replace(/Tem alguma sugestão de reportagem\?.*?g1/gi, "")
     .replace(/LEIA TAMBÉM:?/gi, "")
     .replace(/Veja também:?/gi, "")

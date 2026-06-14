@@ -1713,6 +1713,10 @@ const cleanText = (txt: string) => {
     .replace(/\bAs cinco profissões mais desejadas do mundo e quanto elas pagam\b/gi, " ")
     .replace(/\bAs cinco profissoes mais desejadas do mundo e quanto elas pagam\b/gi, " ")
     .replace(/\b(Leia também|Leia tambem|Veja também|Veja tambem|Também no g1|Tambem no g1)\s*:?\s*/gi, " ")
+    .replace(/[\uFFFD�]?\s*Favorite o g1 no Google e acompanhe as principais notícias do dia/gi, " ")
+    .replace(/Clique aqui para seguir o canal[^.]{0,180}?(WhatsApp|Whatsapp)/gi, " ")
+    .replace(/Acompanhe os sorteios no site do g1/gi, " ")
+    .replace(/Acompanhe os sorteios no canal do g1 no YouTube/gi, " ")
     .replace(/\s{2,}/g, " ")
     .trim();
 

@@ -1718,6 +1718,7 @@ const cleanText = (txt: string) => {
     .replace(/Acompanhe os sorteios no site do g1/gi, " ")
     .replace(/Acompanhe os sorteios no canal do g1 no YouTube/gi, " ")
     .replace(/[\uFFFD�]/g, " ")
+    .replace(/[^\p{L}\p{N}\s.,;:!?'"“”‘’()\-–—/%$€£ºª+]/gu, " ")
     .replace(/O g1 passou a transmitir, desde abril, todos os sorteios das Loterias Caixa, ao vivo\./gi, " ")
     .replace(/A transmissão começa momentos antes de cada dia de concursos, no site e no canal do g1 no YouTube\./gi, " ")
     .replace(/\s{2,}/g, " ")

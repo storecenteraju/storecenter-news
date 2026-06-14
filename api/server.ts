@@ -3505,16 +3505,63 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
     );
 
     const rawSourceImageUrl = String(item.sourceImageUrl || "").trim();
-    const isUsableSourceImage =
-      /^https?:\/\//i.test(rawSourceImageUrl) &&
-      !rawSourceImageUrl.toLowerCase().includes("logo") &&
-      !rawSourceImageUrl.toLowerCase().includes("avatar") &&
-      !rawSourceImageUrl.toLowerCase().includes("icon") &&
-      !rawSourceImageUrl.toLowerCase().includes("placeholder") &&
-      !rawSourceImageUrl.toLowerCase().includes("pixel");
+    const isUsableImageUrl = (url: string) => {
+      const value = String(url || "").trim();
+      const lower = value.toLowerCase();
 
-    const finalResolvedImageUrl = isUsableSourceImage ? rawSourceImageUrl : imageRes.url;
-    const finalImageSource = isUsableSourceImage ? "RSS Original" : imageRes.provider;
+      return (
+        /^https?:\/\//i.test(value) &&
+        !lower.includes("logo") &&
+        !lower.includes("avatar") &&
+        !lower.includes("icon") &&
+        !lower.includes("placeholder") &&
+        !lower.includes("pixel")
+      );
+    };
+
+    const isUsableSourceImage = isUsableImageUrl(rawSourceImageUrl);
+
+    let pageImageUrl = "";
+    if (!isUsableSourceImage && item.link) {
+      let pageTimeout: ReturnType<typeof setTimeout> | undefined;
+
+      try {
+        const pageController = new AbortController();
+        pageTimeout = setTimeout(() => pageController.abort(), 8000);
+
+        const pageResponse = await fetch(item.link, {
+          headers: {
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 StoreCenterCrawler/1.0"
+          },
+          signal: pageController.signal
+        });
+
+        if (pageResponse.ok) {
+          const pageHtml = await pageResponse.text();
+          const ogMatch =
+            pageHtml.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["'][^>]*>/i) ||
+            pageHtml.match(/<meta[^>]+content=["']([^"']+)["'][^>]+property=["']og:image["'][^>]*>/i) ||
+            pageHtml.match(/<meta[^>]+name=["']twitter:image["'][^>]+content=["']([^"']+)["'][^>]*>/i) ||
+            pageHtml.match(/<meta[^>]+content=["']([^"']+)["'][^>]+name=["']twitter:image["'][^>]*>/i) ||
+            pageHtml.match(/<link[^>]+rel=["']image_src["'][^>]+href=["']([^"']+)["'][^>]*>/i) ||
+            pageHtml.match(/<link[^>]+href=["']([^"']+)["'][^>]+rel=["']image_src["'][^>]*>/i);
+
+          if (ogMatch?.[1]) {
+            const foundImage = cleanCdataAndHtml(ogMatch[1].trim());
+            pageImageUrl = /^https?:\/\//i.test(foundImage) ? foundImage : new URL(foundImage, item.link).href;
+          }
+        }
+      } catch (pageImgErr) {
+        console.warn("[CRON] Não foi possível capturar og:image da matéria:", item.link, pageImgErr);
+      } finally {
+        if (pageTimeout) clearTimeout(pageTimeout);
+      }
+    }
+
+    const isUsablePageImage = isUsableImageUrl(pageImageUrl);
+
+    const finalResolvedImageUrl = isUsableSourceImage ? rawSourceImageUrl : (isUsablePageImage ? pageImageUrl : imageRes.url);
+    const finalImageSource = isUsableSourceImage ? "RSS Original" : (isUsablePageImage ? "Página Original" : imageRes.provider);
 
     const newPost = {
       id: String(Date.now() + Math.floor(Math.random() * 100000)),

@@ -2863,6 +2863,23 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       const xmlText = await response.text();
       const items: any[] = [];
 
+      const normalizeRssItemCategory = (rawCategory: string, sourceUrl: string) => {
+        const text = `${rawCategory || ""} ${sourceUrl || ""}`.toLowerCase();
+
+        if (text.includes("/saude/") || text.includes("saúde") || text.includes("saude")) return "Saúde";
+        if (text.includes("/justica/") || text.includes("justiça") || text.includes("justica") || text.includes("direito")) return "Direito";
+        if (text.includes("/politica/") || text.includes("política") || text.includes("politica")) return "Política";
+        if (text.includes("/economia/") || text.includes("economia")) return "Economia";
+        if (text.includes("/internacional/") || text.includes("internacional") || text.includes("mundo")) return "Geopolítica";
+        if (text.includes("/esportes/") || text.includes("/esporte/") || text.includes("esporte")) return "Esporte";
+        if (text.includes("/cultura/") || text.includes("cultura")) return "Cultura";
+        if (text.includes("/geral/") || text.includes("geral") || text.includes("brasil")) return "Nacional";
+        if (text.includes("/educacao/") || text.includes("educação") || text.includes("educacao")) return "Nacional";
+        if (text.includes("/tecnologia/") || text.includes("tecnologia")) return "Tecnologia";
+
+        return "";
+      };
+
       // Parse RSS <item>
       const itemMatches = xmlText.match(/<item[^>]*>([\s\S]*?)<\/item>/gi) || [];
       for (const itemXml of itemMatches) {
@@ -2886,8 +2903,13 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
         let sourceImageUrl = enclosureMatch?.[1] || mediaContentMatch?.[1] || mediaThumbMatch?.[1] || imgInContentMatch?.[1] || "";
         sourceImageUrl = cleanCdataAndHtml(sourceImageUrl);
 
+        const categoryMatch = itemXml.match(/<category[^>]*>([\s\S]*?)<\/category>/i) || itemXml.match(/<dc:subject[^>]*>([\s\S]*?)<\/dc:subject>/i);
+        let rawCategory = categoryMatch ? categoryMatch[1].trim() : "";
+        rawCategory = cleanCdataAndHtml(rawCategory);
+        const sourceCategory = normalizeRssItemCategory(rawCategory, link);
+
         if (title && link) {
-          items.push({ title, link, description, sourceImageUrl });
+          items.push({ title, link, description, sourceImageUrl, rawCategory, sourceCategory });
         }
       }
 
@@ -2960,7 +2982,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
 
       // Grade feedCandidateItems and push to global pool
       feedCandidateItems.forEach((item, index) => {
-        const cat = feed.category || "Economia";
+        const cat = item.sourceCategory || normalizeRssItemCategory(item.rawCategory || "", item.link || "") || feed.category || "Economia";
         
         // Recency Score (index-based)
         let recencyScore = 0;

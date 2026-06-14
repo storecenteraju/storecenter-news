@@ -1,10 +1,6 @@
 name: Store Center RSS Auto
 
 on:
-  schedule:
-    - cron: "7,52 0-23/3 * * *"
-    - cron: "37 1-23/3 * * *"
-    - cron: "22 2-23/3 * * *"
   workflow_dispatch:
 
 jobs:

@@ -70,8 +70,8 @@ if (apiKey) {
   });
 }
 
-import { initializeApp } from "firebase/app";
-import { getFirestore, collection, getDocs, doc, setDoc, deleteDoc, getDocsFromServer, getDocFromServer } from "firebase/firestore";
+import { applicationDefault, cert, getApps, initializeApp as initializeAdminApp } from "firebase-admin/app";
+import { getFirestore as getAdminFirestore } from "firebase-admin/firestore";
 
 let rawFirebaseConfig: any = {};
 try {
@@ -86,23 +86,43 @@ try {
 
 const firebaseConfig = {
   projectId: process.env.FIREBASE_PROJECT_ID || rawFirebaseConfig.projectId || "ai-studio-applet-webapp-b9f98",
-  appId: process.env.FIREBASE_APP_ID || rawFirebaseConfig.appId || "1:1071766746842:web:34efca770cd1d39db8d7e3",
-  apiKey: process.env.FIREBASE_API_KEY || rawFirebaseConfig.apiKey || "AIzaSyC5Vgu6ILN8VLr1WkeJab_SudIK23NzcGM",
-  authDomain: process.env.FIREBASE_AUTH_DOMAIN || rawFirebaseConfig.authDomain || "ai-studio-applet-webapp-b9f98.firebaseapp.com",
   firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-3c537543-715d-410d-acfe-18a611de2057",
-  storageBucket: process.env.FIREBASE_STORAGE_BUCKET || rawFirebaseConfig.storageBucket || "ai-studio-applet-webapp-b9f98.firebasestorage.app",
-  messagingSenderId: process.env.FIREBASE_MESSAGING_SENDER_ID || rawFirebaseConfig.messagingSenderId || "1071766746842",
 };
 
 let firebaseApp: any = null;
 let dbStore: any = null;
 
 try {
-  firebaseApp = initializeApp(firebaseConfig);
-  dbStore = getFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
-  console.log("[FIREBASE] Inicializado com sucesso.");
+  const encodedServiceAccount = process.env.FIREBASE_SERVICE_ACCOUNT_JSON?.trim();
+  const credentialsPath = process.env.GOOGLE_APPLICATION_CREDENTIALS?.trim();
+
+  if (!encodedServiceAccount && !credentialsPath) {
+    throw new Error("FIREBASE_SERVICE_ACCOUNT_JSON ou GOOGLE_APPLICATION_CREDENTIALS não configurado.");
+  }
+
+  let credential;
+  if (encodedServiceAccount) {
+    const serviceAccountJson = encodedServiceAccount.startsWith("{")
+      ? encodedServiceAccount
+      : Buffer.from(encodedServiceAccount, "base64").toString("utf8");
+    const serviceAccount = JSON.parse(serviceAccountJson);
+    if (!serviceAccount.project_id || !serviceAccount.client_email || !serviceAccount.private_key) {
+      throw new Error("Credencial Firebase Admin incompleta.");
+    }
+    credential = cert(serviceAccount);
+  } else {
+    credential = applicationDefault();
+  }
+
+  const appName = "storecenter-admin";
+  firebaseApp = getApps().find((app) => app.name === appName) || initializeAdminApp({
+    credential,
+    projectId: firebaseConfig.projectId,
+  }, appName);
+  dbStore = getAdminFirestore(firebaseApp, firebaseConfig.firestoreDatabaseId);
+  console.log("[FIREBASE] Admin SDK inicializado com sucesso.");
 } catch (firebaseInitErr: any) {
-  console.error("[FIREBASE] Erro ao inicializar o Firebase/Firestore SDK:", firebaseInitErr?.message || firebaseInitErr);
+  console.error("[FIREBASE] Erro ao inicializar o Firebase Admin SDK:", firebaseInitErr?.message || firebaseInitErr);
 }
 
 let dbCache: any = {
@@ -133,7 +153,7 @@ async function syncPost(post: any) {
       return false;
     }
     if (post && post.id) {
-      await setDoc(doc(dbStore, "posts", String(post.id)), post);
+      await dbStore.collection("posts").doc(String(post.id)).set(post);
       return true;
     }
     return false;
@@ -149,7 +169,7 @@ async function syncDeletePost(postId: string) {
       console.warn("[FIREBASE] syncDeletePost ignorado: Firestore indisponível.");
       return;
     }
-    await deleteDoc(doc(dbStore, "posts", String(postId)));
+    await dbStore.collection("posts").doc(String(postId)).delete();
   } catch (err) {
     console.error("[FIREBASE] Erro ao deletar post do Firestore:", err);
   }
@@ -162,7 +182,7 @@ async function syncDeletedPostItem(item: any) {
       return;
     }
     if (item && item.id) {
-      await setDoc(doc(dbStore, "deletedPostItems", String(item.id)), item);
+      await dbStore.collection("deletedPostItems").doc(String(item.id)).set(item);
     }
   } catch (err) {
     console.error("[FIREBASE] Erro ao salvar item deletado no Firestore:", err);
@@ -176,7 +196,7 @@ async function syncFeed(feed: any) {
       return;
     }
     if (feed && feed.id) {
-      await setDoc(doc(dbStore, "feeds", String(feed.id)), feed);
+      await dbStore.collection("feeds").doc(String(feed.id)).set(feed);
     }
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar feed no Firestore:", err);
@@ -189,7 +209,7 @@ async function syncDeleteFeed(feedId: string) {
       console.warn("[FIREBASE] syncDeleteFeed ignorado: Firestore indisponível.");
       return;
     }
-    await deleteDoc(doc(dbStore, "feeds", String(feedId)));
+    await dbStore.collection("feeds").doc(String(feedId)).delete();
   } catch (err) {
     console.error("[FIREBASE] Erro ao deletar feed do Firestore:", err);
   }
@@ -203,7 +223,7 @@ async function syncAllAds(ads: any[]) {
     }
     for (const ad of ads) {
       if (ad && ad.id) {
-        await setDoc(doc(dbStore, "ads", String(ad.id)), ad);
+        await dbStore.collection("ads").doc(String(ad.id)).set(ad);
       }
     }
   } catch (err) {
@@ -217,7 +237,7 @@ async function syncSettings(settings: any) {
       console.warn("[FIREBASE] syncSettings ignorado: Firestore indisponível.");
       return;
     }
-    await setDoc(doc(dbStore, "settings", "main"), settings);
+    await dbStore.collection("settings").doc("main").set(settings);
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar configuracoes no Firestore:", err);
   }
@@ -230,7 +250,7 @@ async function syncAutomationLog(log: any) {
       return;
     }
     if (log && log.id) {
-      await setDoc(doc(dbStore, "automationLogs", String(log.id)), log);
+      await dbStore.collection("automationLogs").doc(String(log.id)).set(log);
     }
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar log no Firestore:", err);
@@ -243,9 +263,9 @@ async function syncClearAutomationLogs() {
       console.warn("[FIREBASE] syncClearAutomationLogs ignorado: Firestore indisponível.");
       return;
     }
-    const snap = await getDocsFromServer(collection(dbStore, "automationLogs"));
+    const snap = await dbStore.collection("automationLogs").get();
     for (const d of snap.docs) {
-      await deleteDoc(doc(dbStore, "automationLogs", d.id));
+      await dbStore.collection("automationLogs").doc(d.id).delete();
     }
   } catch (err) {
     console.error("[FIREBASE] Erro ao limpar logs no Firestore:", err);
@@ -260,24 +280,24 @@ async function syncAllToFirestore(data: any) {
     }
     console.log("[FIREBASE] Sincronizando dados completos com o Firestore...");
     for (const p of (data.posts || [])) {
-      if (p && p.id) await setDoc(doc(dbStore, "posts", String(p.id)), p);
+      if (p && p.id) await dbStore.collection("posts").doc(String(p.id)).set(p);
     }
     for (const f of (data.feeds || [])) {
-      if (f && f.id) await setDoc(doc(dbStore, "feeds", String(f.id)), f);
+      if (f && f.id) await dbStore.collection("feeds").doc(String(f.id)).set(f);
     }
     for (const ad of (data.ads || [])) {
-      if (ad && ad.id) await setDoc(doc(dbStore, "ads", String(ad.id)), ad);
+      if (ad && ad.id) await dbStore.collection("ads").doc(String(ad.id)).set(ad);
     }
     if (data.settings) {
-      await setDoc(doc(dbStore, "settings", "main"), data.settings);
+      await dbStore.collection("settings").doc("main").set(data.settings);
     }
     const logsToSave = (data.automationLogs || []).slice(0, 50);
     for (const log of logsToSave) {
-      if (log && log.id) await setDoc(doc(dbStore, "automationLogs", String(log.id)), log);
+      if (log && log.id) await dbStore.collection("automationLogs").doc(String(log.id)).set(log);
     }
     const deletedToSave = (data.deletedPostItems || []).slice(0, 50);
     for (const del of deletedToSave) {
-      if (del && del.id) await setDoc(doc(dbStore, "deletedPostItems", String(del.id)), del);
+      if (del && del.id) await dbStore.collection("deletedPostItems").doc(String(del.id)).set(del);
     }
     console.log("[FIREBASE] Sincronizacao completa com sucesso!");
   } catch (err) {
@@ -307,12 +327,12 @@ async function loadDatabaseFromFirestore() {
     // Timeout-guarded Promise.all para prevenir travamentos em ambientes serverless como o Vercel
     const snaps = await Promise.race([
       Promise.all([
-        getDocsFromServer(collection(dbStore, "posts")),
-        getDocsFromServer(collection(dbStore, "feeds")),
-        getDocsFromServer(collection(dbStore, "ads")),
-        getDocsFromServer(collection(dbStore, "settings")),
-        getDocsFromServer(collection(dbStore, "automationLogs")),
-        getDocsFromServer(collection(dbStore, "deletedPostItems"))
+        dbStore.collection("posts").get(),
+        dbStore.collection("feeds").get(),
+        dbStore.collection("ads").get(),
+        dbStore.collection("settings").get(),
+        dbStore.collection("automationLogs").get(),
+        dbStore.collection("deletedPostItems").get()
       ]),
       new Promise<never>((_, reject) => 
         setTimeout(() => reject(new Error("Timeout de 15000ms tentando acessar o Firestore")), 15000)
@@ -697,7 +717,7 @@ app.get("/api/health", async (req, res) => {
     let firestoreStatus = "Conectando...";
     let firestoreError = null;
     try {
-      const snap = await getDocsFromServer(collection(dbStore, "settings"));
+      const snap = await dbStore.collection("settings").get();
       firestoreStatus = `Conectado com sucesso. Coleção 'settings' ativa (Total de settings: ${snap.size})`;
     } catch (fsErr: any) {
       firestoreStatus = "Erro de conexão";
@@ -716,6 +736,7 @@ app.get("/api/health", async (req, res) => {
         ADMIN_USER: process.env.ADMIN_USER ? "Configurada (OK)" : "Ausente (login por ambiente desativado)",
         ADMIN_PASSWORD: process.env.ADMIN_PASSWORD ? "Configurada (OK)" : "Ausente (login por ambiente desativado)",
         CRON_SECRET: process.env.CRON_SECRET ? "Configurada (OK)" : "Ausente (execução de cron bloqueada)",
+        FIREBASE_ADMIN_CREDENTIALS: process.env.FIREBASE_SERVICE_ACCOUNT_JSON || process.env.GOOGLE_APPLICATION_CREDENTIALS ? "Configurada (OK)" : "Ausente (Firestore administrativo desativado)",
         GEMINI_API_KEY: process.env.GEMINI_API_KEY ? "Configurada no Vercel (OK)" : "Ausente (A geração de matéria usará fallbacks)"
       },
       database_cache: {

@@ -1,8 +1,16 @@
 # Store Center - Automatização por Cron Jobs (CMS Admin)
 
-Este portal possui rotinas de agendamento de posts e coleta/reescrita de notícias via feeds RSS. O agendador interno do Express está pausado; a retomada controlada do RSS é feita pelo GitHub Actions, uma vez por dia, com no máximo uma matéria por execução.
+Este portal possui rotinas de agendamento de posts e coleta/reescrita de notícias via feeds RSS. O agendador interno do Express está pausado; a retomada controlada do RSS é feita pelo GitHub Actions em 10 horários distribuídos ao longo do dia, com no máximo uma matéria por execução.
 
 O endpoint de publicação falha de forma segura quando `CRON_SECRET` não está configurado e só aceita autenticação `Authorization: Bearer`.
+
+O backend usa o Firebase Admin SDK com uma conta de serviço em `FIREBASE_SERVICE_ACCOUNT_JSON`. O navegador não acessa o Firestore diretamente; `firestore.rules` bloqueia toda leitura e gravação feita pelos SDKs cliente. Nunca versione a chave da conta de serviço.
+
+### Ordem segura de implantação do Firestore
+
+1. Criar uma chave de conta de serviço no Firebase e armazená-la como variável sensível `FIREBASE_SERVICE_ACCOUNT_JSON` na hospedagem.
+2. Publicar e validar o backend com o Admin SDK pelo endpoint `/api/health`.
+3. Somente depois publicar `firestore.rules` com `firebase deploy --only firestore:rules`.
 
 ---
 

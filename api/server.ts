@@ -3647,6 +3647,12 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: professional tennis court clay court Roland Garros tennis player championship, realistic editorial sports photo, no text";
     } else if (
+      finalImageText.includes("futebol feminino") ||
+      finalImageText.includes("feminino a2") ||
+      finalImageText.includes("feminino a3")
+    ) {
+      finalImagePrompt = "FORCE_FOOTBALL_RSS: Brazilian women's football championship stadium match, realistic editorial sports photo, no text, no logos";
+    } else if (
       finalImageText.includes("copa do mundo") ||
       finalImageText.includes("fifa") ||
       finalImageText.includes("futebol") ||
@@ -3958,6 +3964,15 @@ function buildCuriosityTitle(originalTitle: string, category: string): string {
     .replace(/[\s;,:\-–—]+$/, "")
     .trim();
 
+  const sportsFinal = category === "Esporte"
+    ? base.match(/^(.{2,45}?)\s+bate\s+.+?\s+e\s+está\s+na\s+final\s+(.+)$/i)
+    : null;
+  if (sportsFinal) {
+    const team = sportsFinal[1].trim();
+    const competition = truncateAtWord(sportsFinal[2], 42);
+    return `${team} está na final ${competition}: quem será o adversário?`;
+  }
+
   const acquisitionOpportunity = base.match(/^(.{2,60}?)\s+dizem\s+que\s+(?:a\s+)?aquisição\s+d[ao]\s+(.{2,45}?)\s+é\s+["'“”‘’]?oportunidade["'“”‘’]?\s+de\s+entrar\s+(?:nos?|nas?)\s+(.+)$/i);
   if (acquisitionOpportunity) {
     const people = acquisitionOpportunity[1].replace(/^os\s+/i, "").trim();
@@ -4051,6 +4066,7 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/\b(Getty Images|AP Photo|Reuters|AFP|Associated Press|Estadão Conteúdo|Agência Brasil)\b/gi, "")
     .replace(/Entenda\s+o\s+que\s+faz\s+.*?(subir|cair)/gi, "")
     .replace(/Entenda\s+.*?(\.|$)/gi, "")
+    .replace(/(?:^|\s)segundo\s+tempo\.\s*/gi, " ")
     .replace(/▶️/g, "")
     .replace(/[🗒️🔴🟢🟡]/g, "")
     .replace(/\s+/g, " ")
@@ -4220,6 +4236,12 @@ function fallbackRewrite(item: any, feed: any) {
     imageText.includes("montadora")
   ) {
     imageTopic = "modern car showroom automotive industry vehicle launch";
+  } else if (
+    imageText.includes("futebol feminino") ||
+    imageText.includes("feminino a2") ||
+    imageText.includes("feminino a3")
+  ) {
+    imageTopic = "Brazilian women's football championship stadium match";
   } else if (
     imageText.includes("copa do mundo") ||
     imageText.includes("fifa") ||

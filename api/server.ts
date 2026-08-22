@@ -4473,6 +4473,16 @@ app.get("/api/cron/publish-scheduled", async (req, res) => {
     });
   }
 
+  if (!isDatabaseLoaded) {
+    return res.status(503).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": "Firestore indisponível. Execução abortada para não publicar com dados provisórios."
+    });
+  }
+
   try {
     const result = cronPublishScheduled();
     
@@ -4511,6 +4521,16 @@ app.post("/api/cron/rss-auto", async (req, res) => {
       "quantidade de posts publicados": 0,
       "horário da execução": new Date().toISOString(),
       "erro detalhado, se existir": "Não autorizado. Chave secreta de cron inválida ou ausente."
+    });
+  }
+
+  if (!isDatabaseLoaded) {
+    return res.status(503).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": "Firestore indisponível. RSS abortado para evitar duplicações e falso sucesso."
     });
   }
 

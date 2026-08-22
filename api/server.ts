@@ -1225,9 +1225,11 @@ app.post("/api/ai/rss-auto-manual", async (req, res) => {
       status: "success",
       "quantidade de posts criados": result.totalImported || 0,
       "quantidade de posts publicados": result.totalImported || 0,
+      "quantidade de matérias anteriores corrigidas": result.upgradedLegacyPosts?.length || 0,
       "horário da execução": new Date().toISOString(),
       "erro detalhado, se existir": null,
-      "detalhes": result.importedDetails || []
+      "detalhes": result.importedDetails || [],
+      "matérias anteriores corrigidas": result.upgradedLegacyPosts || []
     });
   } catch (error: any) {
     res.status(500).json({
@@ -1836,6 +1838,12 @@ const cleanText = (txt: string) => {
 
   return res.trim();
 };
+
+const cleanArticleContent = (txt: string) => String(txt || "")
+  .split(/\n\s*\n+/)
+  .map((paragraph) => cleanText(paragraph))
+  .filter(Boolean)
+  .join("\n\n");
 
 const REQUIRED_VISUAL_THEMES = [
   "fotografia corporativa",
@@ -2904,6 +2912,8 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     return { success: true, totalImported: 0, importedPosts: [], message: "Nenhum feed ativo cadastrado." };
   }
 
+  const upgradedLegacyPosts = dryRun ? [] : await upgradeLegacyRssPosts(db, activeFeeds);
+
   // 1. Calculate historical category balance to rank categories
   const DESIRED_CATEGORIES = ["Economia", "Política", "Tecnologia", "Negócios", "Geopolítica", "Nacional", "Saúde", "Esporte", "Entretenimento"];
   
@@ -3278,7 +3288,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
-    const sanitizedContent = cleanText(rewritten.content || "");
+    const sanitizedContent = cleanArticleContent(rewritten.content || "");
     const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent}`.toLowerCase();
     const scraperCategory = autoCategorizeNews(
       sanitizedTitle,
@@ -3766,6 +3776,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       keyword: rewritten.keyword || "",
       imagePrompt: finalImagePrompt || rewritten.imagePrompt || "",
       sourceUrl: item.link,
+      sourceName: feed.name || "Fonte RSS",
       rssOriginalTitle: item.title,
       isAiGenerated: true,
       visualTheme: chosenTheme,
@@ -3856,12 +3867,12 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     }
   }
 
-  if (totalImported > 0) {
+  if (totalImported > 0 || upgradedLegacyPosts.length > 0) {
     writeDatabase(db);
-    console.log(`[CRON] ${totalImported} nova(s) matéria(s) publicada(s) com sucesso com balanceamento inteligente.`);
+    console.log(`[CRON] ${totalImported} nova(s) matéria(s) publicada(s) e ${upgradedLegacyPosts.length} matéria(s) legada(s) corrigida(s).`);
   }
 
-  return { success: true, totalImported, importedPosts, importedDetails };
+  return { success: true, totalImported, importedPosts, importedDetails, upgradedLegacyPosts };
 }
 
 let activeRssCron: Promise<any> | null = null;
@@ -3894,8 +3905,115 @@ function cleanCdataAndHtml(str: string): string {
   return cleaned;
 }
 
+function truncateAtWord(value: string, maxLength: number): string {
+  const normalized = String(value || "").replace(/\s+/g, " ").trim();
+  if (normalized.length <= maxLength) return normalized;
+
+  const clipped = normalized.slice(0, maxLength + 1);
+  const lastSpace = clipped.lastIndexOf(" ");
+  return (lastSpace > Math.floor(maxLength * 0.6) ? clipped.slice(0, lastSpace) : clipped.slice(0, maxLength))
+    .replace(/[\s,;:\-–—]+$/, "")
+    .trim();
+}
+
+function splitCompleteSentences(value: string): string[] {
+  const normalized = String(value || "")
+    .replace(/\b(Cade|STF|STJ|Senado|Câmara|Congresso)\s+(A|O|Os|As|Uma|Um)\s+/g, "$1. $2 ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!normalized) return [];
+
+  const matches = normalized.match(/[^.!?]+(?:[.!?]+|$)/g) || [];
+  return matches.map((sentence) => sentence.trim()).filter(Boolean);
+}
+
+function buildCompleteExcerpt(value: string, maxLength = 260): string {
+  const sentences = splitCompleteSentences(value);
+  let excerpt = "";
+
+  for (const sentence of sentences) {
+    const candidate = excerpt ? `${excerpt} ${sentence}` : sentence;
+    if (candidate.length > maxLength) break;
+    excerpt = candidate;
+    if (excerpt.length >= 100) break;
+  }
+
+  if (!excerpt && sentences[0]) excerpt = truncateAtWord(sentences[0], maxLength);
+  if (excerpt && !/[.!?]$/.test(excerpt)) excerpt += ".";
+  return excerpt;
+}
+
+function buildCuriosityTitle(originalTitle: string, category: string): string {
+  let base = cleanText(originalTitle || "Atualização do RSS")
+    .replace(/\s*[;,:\-–—]\s*(saiba|veja|entenda|confira)\b[\s\S]*$/i, "")
+    .replace(/\s+(saiba|veja|entenda|confira)\s+(mais|o que|como|por que|os detalhes)[\s\S]*$/i, "")
+    .replace(/[\s;,:\-–—]+$/, "")
+    .trim();
+
+  const acquisitionOpportunity = base.match(/^(.{2,60}?)\s+dizem\s+que\s+(?:a\s+)?aquisição\s+d[ao]\s+(.{2,45}?)\s+é\s+["'“”‘’]?oportunidade["'“”‘’]?\s+de\s+entrar\s+(?:nos?|nas?)\s+(.+)$/i);
+  if (acquisitionOpportunity) {
+    const people = acquisitionOpportunity[1].replace(/^os\s+/i, "").trim();
+    const target = acquisitionOpportunity[2].trim();
+    const sectors = truncateAtWord(acquisitionOpportunity[3].replace(/^setores?\s+de\s+/i, ""), 45);
+    return truncateAtWord(`Por que ${people} veem a compra da ${target} como oportunidade em ${sectors}?`, 118);
+  }
+
+  if (base.endsWith("?")) return truncateAtWord(base, 118);
+
+  const suffixByCategory: Record<string, string> = {
+    "Economia": "por que isso importa para a economia?",
+    "Negócios": "o que está em jogo no mercado?",
+    "Política": "o que pode mudar agora?",
+    "Judiciário": "qual pode ser o próximo passo?",
+    "Direito": "o que ainda precisa ser esclarecido?",
+    "Tecnologia": "o que muda para usuários e empresas?",
+    "Geopolítica": "por que esse movimento importa?",
+    "Esporte": "o que muda para os próximos jogos?",
+    "Saúde": "o que a população precisa saber?",
+    "Nacional": "como isso afeta a população?"
+  };
+  const suffix = suffixByCategory[category] || "por que esse assunto merece atenção?";
+  const roomForBase = Math.max(55, 118 - suffix.length - 2);
+  base = truncateAtWord(base, roomForBase);
+  return `${base}: ${suffix}`;
+}
+
+function buildSpecificQuestion(title: string, summary: string, category: string): string {
+  const text = `${title} ${summary}`.toLowerCase();
+
+  if (text.includes("cade") && /(aquisição|aquisicao|compra|fusão|fusao|operação|operacao)/.test(text)) {
+    return "O Cade aprovará a operação sem restrições — e quais condições ainda podem ser exigidas para o negócio avançar?";
+  }
+  if (/(aquisição|aquisicao|compra|fusão|fusao)/.test(text)) {
+    return "Quais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?";
+  }
+  if (/(preço|preco|tarifa|imposto|juros|inflação|inflacao|salário|salario)/.test(text)) {
+    return "Quando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?";
+  }
+  if (/(projeto|proposta|votação|votacao|senado|câmara|camara|congresso)/.test(text)) {
+    return "Qual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?";
+  }
+  if (/(lança|lanca|lançamento|lancamento|novo produto|nova versão|nova versao)/.test(text)) {
+    return "O lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?";
+  }
+
+  const questionByCategory: Record<string, string> = {
+    "Economia": "Qual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?",
+    "Negócios": "Quem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?",
+    "Política": "Quem passa a ter mais força depois desse movimento — e qual será o próximo passo?",
+    "Judiciário": "Qual decisão pode vir agora — e quem será diretamente afetado por ela?",
+    "Direito": "O que ainda precisa ser comprovado — e quais responsabilidades podem ser definidas?",
+    "Tecnologia": "A novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?",
+    "Geopolítica": "Esse movimento muda decisões concretas — ou permanece apenas no campo do discurso?",
+    "Esporte": "O resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?",
+    "Saúde": "A resposta anunciada será suficiente — e quando os efeitos poderão ser percebidos?",
+    "Nacional": "O que muda na vida prática da população — e qual informação ainda falta?"
+  };
+  return questionByCategory[category] || "O que esse fato muda na prática — e qual informação ainda falta para entender todo o cenário?";
+}
+
 function fallbackRewrite(item: any, feed: any) {
-  const cleanTitle = cleanText(item.title || "Atualização do RSS");
+  const originalTitle = cleanText(item.title || "Atualização do RSS");
   const sourceName = feed?.name || "Feed RSS";
   let category = feed?.category || "Economia";
   const sourceUrl = item.link || item.guid || "";
@@ -3927,9 +4045,9 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/\s+/g, " ")
     .trim();
 
-  category = autoCategorizeNews(cleanTitle, summary, category);
+  category = autoCategorizeNews(originalTitle, summary, category);
 
-  const geoText = (cleanTitle + " " + summary).toLowerCase();
+  const geoText = (originalTitle + " " + summary).toLowerCase();
   if (
     geoText.includes("eua") ||
     geoText.includes("estados unidos") ||
@@ -3959,7 +4077,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Geopolítica";
   }
 
-  const sportsText = (cleanTitle + " " + summary).toLowerCase();
+  const sportsText = (originalTitle + " " + summary).toLowerCase();
   if (
     sportsText.includes("copa do mundo") ||
     sportsText.includes("fifa") ||
@@ -3975,7 +4093,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Esporte";
   }
 
-  const jobsText = (cleanTitle + " " + summary).toLowerCase();
+  const jobsText = (originalTitle + " " + summary).toLowerCase();
   if (
     !jobsText.includes("trabalho forçado") &&
     !jobsText.includes("trabalho forcado") &&
@@ -3993,7 +4111,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Negócios";
   }
 
-  const autoText = (cleanTitle + " " + summary).toLowerCase();
+  const autoText = (originalTitle + " " + summary).toLowerCase();
   if (
     autoText.includes("chevrolet") ||
     autoText.includes("onix") ||
@@ -4018,9 +4136,9 @@ function fallbackRewrite(item: any, feed: any) {
 
   summary = summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim();
 
-  let shortSummary = summary.slice(0, 850).trim();
+  let shortSummary = summary.slice(0, 1200).trim();
 
-  if (summary.length > 850) {
+  if (summary.length > 1200) {
     const lastSentenceEnd = Math.max(
       shortSummary.lastIndexOf("."),
       shortSummary.lastIndexOf("!"),
@@ -4043,86 +4161,24 @@ function fallbackRewrite(item: any, feed: any) {
     shortSummary += ".";
   }
 
-  const subtitleSource = shortSummary || `Nova atualização identificada pela redação do Store Center na categoria ${category}.`;
-  let safeSubtitle = subtitleSource.slice(0, 220).trim();
-
-  if (subtitleSource.length > 220) {
-    const subtitleEnd = Math.max(
-      safeSubtitle.lastIndexOf("."),
-      safeSubtitle.lastIndexOf("!"),
-      safeSubtitle.lastIndexOf("?")
-    );
-
-    if (subtitleEnd > 80) {
-      safeSubtitle = safeSubtitle.slice(0, subtitleEnd + 1).trim();
-    } else {
-      const subtitleSpace = safeSubtitle.lastIndexOf(" ");
-      if (subtitleSpace > 80) {
-        safeSubtitle = safeSubtitle.slice(0, subtitleSpace).trim();
-      }
-
-      if (safeSubtitle && !/[.!?]$/.test(safeSubtitle)) {
-        safeSubtitle += ".";
-      }
-    }
-  } else if (safeSubtitle && !/[.!?]$/.test(safeSubtitle)) {
-    safeSubtitle += ".";
-  }
-
-  const categoryContext: Record<string, string> = {
-    "Economia": "O caso precisa ser observado pelo impacto que pode ter no bolso do cidadão, nas empresas, na arrecadação pública ou nas decisões de consumo.",
-    "Política": "O episódio se conecta ao ambiente político porque envolve decisões públicas, disputas de narrativa e possíveis efeitos sobre a relação entre governo, oposição e sociedade.",
-    "Geopolítica": "O tema ganha peso porque envolve interesses internacionais, alianças, imagem pública e possíveis reflexos além do fato imediato.",
-    "Esporte": "No esporte, o resultado ou a declaração não fica restrito ao campo: também mexe com confiança, pressão da torcida, bastidores e próximos passos da equipe.",
-    "Saúde": "Na saúde, a atenção maior está nos efeitos práticos para pacientes, profissionais, rede pública, prevenção e resposta das autoridades.",
-    "Tecnologia": "Na tecnologia, o ponto principal é entender como a mudança afeta usuários, empresas, segurança, inovação e dependência de plataformas digitais.",
-    "Nacional": "O assunto merece atenção porque toca em rotina, serviços públicos, segurança, comportamento social ou decisões que afetam diretamente a população.",
-    "Direito": "No campo jurídico, o caso chama atenção porque envolve responsabilidade, investigação, interpretação de regras e possíveis desdobramentos legais.",
-    "Negócios": "No ambiente de negócios, a leitura passa por mercado, concorrência, emprego, consumo, reputação e capacidade de adaptação das empresas.",
-    "Cultura": "Na cultura, o interesse está em como o fato dialoga com comportamento, memória, identidade, entretenimento e percepção pública."
-  };
-
-  const centralQuestion: Record<string, string> = {
-    "Economia": "A pergunta central é: esse fato é apenas um episódio isolado ou indica uma mudança com impacto real para consumidores, empresas e contas públicas?",
-    "Política": "A pergunta central é: quem ganha força, quem perde espaço e quais efeitos essa movimentação pode gerar no debate público?",
-    "Geopolítica": "A pergunta central é: esse movimento altera apenas o discurso ou pode influenciar decisões estratégicas entre países e instituições?",
-    "Esporte": "A pergunta central é: o episódio fortalece o grupo ou aumenta a pressão para os próximos compromissos?",
-    "Saúde": "A pergunta central é: as medidas adotadas são suficientes para proteger a população e dar resposta rápida ao problema?",
-    "Tecnologia": "A pergunta central é: a novidade representa avanço real ou cria novos riscos para usuários e empresas?",
-    "Nacional": "A pergunta central é: como esse fato chega à vida prática da população e o que ainda precisa ser esclarecido?",
-    "Direito": "A pergunta central é: quais responsabilidades podem ser apuradas e que efeito o caso pode ter daqui em diante?",
-    "Negócios": "A pergunta central é: o mercado está diante de uma oportunidade, de um alerta ou de uma mudança estrutural?",
-    "Cultura": "A pergunta central é: por que esse tema ganhou atenção agora e o que ele revela sobre o momento atual?"
-  };
-
-  const contextLine = categoryContext[category] || "O assunto merece atenção porque pode ter impacto público e ainda exige acompanhamento dos próximos desdobramentos.";
-  const questionLine = centralQuestion[category] || "A pergunta central é: o que esse fato muda na prática e quais pontos ainda precisam ser acompanhados?";
-  const sourceInfo = shortSummary || `o material original trouxe poucos detalhes no resumo disponível, mas indicou relevância para a categoria ${category}.`;
-  const sourceLeadOptions = [
-    "O material recebido da fonte aponta:",
-    "A publicação original informa:",
-    "O conteúdo de origem destaca:",
-    "As informações captadas na matéria indicam:",
-    "O texto original relata:",
-    "A matéria monitorada pelo Store Center mostra:",
-    "O resumo analisado pelo sistema destaca:"
+  const safeSubtitle = buildCompleteExcerpt(shortSummary, 260) || `O que já foi confirmado e qual pergunta ainda precisa ser respondida neste assunto de ${category}.`;
+  const curiosityTitle = buildCuriosityTitle(originalTitle, category);
+  const sentences = splitCompleteSentences(shortSummary).slice(0, 8);
+  const lead = sentences.slice(0, 2).join(" ") || safeSubtitle;
+  const details = sentences.slice(2).join(" ");
+  const specificQuestion = buildSpecificQuestion(originalTitle, shortSummary, category);
+  const contentParts = [
+    "O que aconteceu",
+    lead,
+    ...(details ? ["O que já foi informado", details] : []),
+    "A pergunta que fica",
+    specificQuestion,
+    "O que observar agora",
+    "A resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.",
+    `Esta matéria foi elaborada a partir do resumo distribuído por ${sourceName}. O link para a publicação original está disponível ao final do texto.`
   ];
-  const sourceLead = sourceLeadOptions[(cleanTitle.length + sourceInfo.length + category.length) % sourceLeadOptions.length];
-
-  const content = `${cleanTitle} entrou no radar do Store Center por reunir elementos que vão além de uma simples atualização de rotina.
-
-${sourceLead} ${sourceInfo}
-
-${questionLine}
-
-O ponto mais importante, neste momento, é separar o fato principal do ruído em volta dele. Nem toda atualização representa uma mudança imediata, mas alguns sinais merecem atenção: quem é afetado, qual decisão pode vir em seguida, que tipo de resposta será cobrada e quais consequências podem aparecer nos próximos dias.
-
-${contextLine}
-
-Na prática, o leitor deve observar três pontos: o que foi confirmado até agora, o que ainda depende de novas informações e quem pode ser diretamente impactado pelo caso. Essa leitura ajuda a evitar conclusão apressada e permite acompanhar o assunto com mais clareza.
-
-O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria foi estruturada a partir dos dados disponíveis no material de origem, sem acrescentar números, declarações ou acusações que não estejam no material recebido.`;
-  const imageText = (cleanTitle + " " + summary).toLowerCase();
+  const content = contentParts.join("\n\n");
+  const imageText = (originalTitle + " " + summary).toLowerCase();
   let imageTopic = `${category} editorial news`;
 
   if (
@@ -4190,19 +4246,75 @@ O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria f
   }
 
   return {
-    title: cleanTitle,
+    title: curiosityTitle,
     subtitle: safeSubtitle,
     content,
-    seoTitle: `${cleanTitle.slice(0, 55)} | Store Center`,
+    seoTitle: `${truncateAtWord(curiosityTitle, 55)} | Store Center`,
     seoDescription: safeSubtitle.slice(0, 150),
-    tags: [category, "RSS", "Atualização", "Store Center"],
+    tags: [category, "RSS", "Store Center"],
     category,
-    keyword: cleanTitle,
+    keyword: originalTitle,
     imagePrompt: `FORCE_DYNAMIC_RSS: ${imageTopic}. Editorial realistic news photo, horizontal 16:9, no text, no logos.`,
     sourceUrl,
     isAiGenerated: true,
     hasKey: false
   };
+}
+
+async function upgradeLegacyRssPosts(db: any, activeFeeds: any[]): Promise<string[]> {
+  const upgradedTitles: string[] = [];
+  const legacyMarker = /entrou no radar do Store Center por reunir elementos[\s\S]*?A pergunta central é:/i;
+  const sourceBlock = /(?:O material recebido da fonte aponta|A publicação original informa|O conteúdo de origem destaca|As informações captadas na matéria indicam|O texto original relata|A matéria monitorada pelo Store Center mostra|O resumo analisado pelo sistema destaca):\s*([\s\S]*?)\s+A pergunta central é:/i;
+
+  for (const post of (db.posts || [])) {
+    if (!post?.rssOriginalTitle || !post?.sourceUrl || !legacyMarker.test(String(post.content || ""))) continue;
+
+    const extractedSummary = String(post.content || "").match(sourceBlock)?.[1]?.trim() || String(post.subtitle || "").trim();
+    if (!extractedSummary) continue;
+
+    let matchingFeed = activeFeeds.find((feed: any) => {
+      try {
+        return new URL(String(feed.url || "")).hostname === new URL(String(post.sourceUrl)).hostname;
+      } catch {
+        return false;
+      }
+    });
+    matchingFeed ||= {
+      name: post.sourceName || "Fonte RSS",
+      category: post.category || "Economia"
+    };
+
+    const rewritten = fallbackRewrite({
+      title: post.rssOriginalTitle,
+      contentSnippet: extractedSummary,
+      link: post.sourceUrl
+    }, matchingFeed);
+    const upgradedPost = {
+      ...post,
+      title: cleanText(rewritten.title),
+      subtitle: cleanText(rewritten.subtitle),
+      content: cleanArticleContent(rewritten.content),
+      slug: cleanText(rewritten.title)
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "")
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)+/g, ""),
+      seoTitle: cleanText(rewritten.seoTitle),
+      seoDescription: cleanText(rewritten.seoDescription),
+      tags: Array.from(new Set([post.category || rewritten.category, "RSS", "Store Center"])),
+      sourceName: matchingFeed.name || post.sourceName || "Fonte RSS",
+      editorialVersion: 2
+    };
+
+    if (await syncPost(upgradedPost)) {
+      Object.assign(post, upgradedPost);
+      upgradedTitles.push(upgradedPost.title);
+      console.log(`[CRON] Matéria RSS legada corrigida: "${upgradedPost.title}".`);
+    }
+  }
+
+  return upgradedTitles;
 }
 
 function isAuthorizedCron(req: express.Request): boolean {
@@ -4292,9 +4404,11 @@ app.post("/api/cron/rss-auto", async (req, res) => {
       status: "success",
       "quantidade de posts criados": result.totalImported || 0,
       "quantidade de posts publicados": result.totalImported || 0,
+      "quantidade de matérias anteriores corrigidas": result.upgradedLegacyPosts?.length || 0,
       "horário da execução": new Date().toISOString(),
       "erro detalhado, se existir": null,
-      "detalhes": result.importedDetails || []
+      "detalhes": result.importedDetails || [],
+      "matérias anteriores corrigidas": result.upgradedLegacyPosts || []
     });
   } catch (error: any) {
     // Save error trace to Firestore database for administrator traceability

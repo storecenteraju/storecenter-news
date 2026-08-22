@@ -33,9 +33,13 @@ export interface Post {
   imageSubjectType?: 'person' | 'group' | 'generic';
   imageCredit?: string;
   imageLicense?: string;
+  sourceUrl?: string;
+  sourceName?: string;
+  rssOriginalTitle?: string;
   views: number;
   isTestPost?: boolean;
   isUrgente?: boolean;
+  isDestaque?: boolean;
 }
 
 export interface RSSFeed {
@@ -128,15 +132,17 @@ export function isPostUrgente(post: Post): boolean {
   if (post.isUrgente) return true;
   if (!post.date) return false;
 
-  // Check if title or tags contains urgent keywords
-  const hasUrgenteKeyword = String((post.title || '') + ' ' + (post.tags || []).join(' ')).toLowerCase().includes('urgente');
+  // Recency alone does not make a story urgent. It must carry an explicit
+  // breaking-news signal and still be recent enough to justify the badge.
+  const urgencyText = String((post.title || '') + ' ' + (post.tags || []).join(' ')).toLowerCase();
+  const hasUrgencySignal = /\b(urgente|última hora|ultima hora|ao vivo|alerta)\b/.test(urgencyText);
 
-  // Check if published in the last 24 hours (notícias quentes)
+  // Keep the explicit signal valid only while the story is still recent.
   const postTime = new Date(post.date).getTime();
   const now = new Date().getTime();
   const diffHours = (now - postTime) / (1000 * 60 * 60);
 
-  return hasUrgenteKeyword || (diffHours >= 0 && diffHours <= 24);
+  return hasUrgencySignal && diffHours >= 0 && diffHours <= 12;
 }
 
 export const CATEGORY_FALLBACK_POOLS: Record<string, string[]> = {

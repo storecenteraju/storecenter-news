@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
-import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
+import { Post, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
 import AdSenseSlot from './AdSenseSlot';
 import EditorialImage from './EditorialImage';
@@ -73,16 +73,10 @@ export default function PostDetails({
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
-  // Calculate top 5 most high-scoring editorial of last 7 days (Destaques da Semana)
+  // "Destaque da semana" is an explicit editorial choice.
   const normalizedArticles = posts.map(normalizePost);
-  const last7DaysPosts = normalizedArticles.filter(p => {
-    if (!p.date) return false;
-    const postTime = new Date(p.date).getTime();
-    const nowTime = new Date().getTime();
-    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000 && !p.isTestPost;
-  });
-  const top5DestaquesDaSemana = [...last7DaysPosts]
-    .sort((a, b) => getEditorialScore(b) - getEditorialScore(a))
+  const top5DestaquesDaSemana = normalizedArticles
+    .filter(p => p.isDestaque === true && !p.isTestPost)
     .slice(0, 5);
   const isDestaqueDaSemana = top5DestaquesDaSemana.some(p => p.id === post.id);
   const isMaisLida = (post.views || 0) >= 500;
@@ -134,6 +128,22 @@ export default function PostDetails({
   const paragraphs = (post.content || '').split('\n\n');
   const part1 = paragraphs.slice(0, 2).join('\n\n');
   const part2 = paragraphs.slice(2).join('\n\n');
+  const sectionHeadings = new Set(["O que aconteceu", "O que já foi informado", "A pergunta que fica", "O que observar agora"]);
+  const renderArticleParagraphs = (text: string) => text.split('\n\n').map((paragraph, index) => (
+    sectionHeadings.has(paragraph.trim())
+      ? <h2 key={index} className="text-lg font-black text-slate-950 mt-8 mb-2">{paragraph}</h2>
+      : <p key={index} className="whitespace-pre-wrap">{paragraph}</p>
+  ));
+
+  const safeSourceUrl = /^https?:\/\//i.test(String(post.sourceUrl || '')) ? String(post.sourceUrl) : '';
+  let sourceLabel = String(post.sourceName || '').trim();
+  if (!sourceLabel && safeSourceUrl) {
+    try {
+      sourceLabel = new URL(safeSourceUrl).hostname.replace(/^www\./, '');
+    } catch {
+      sourceLabel = 'publicação original';
+    }
+  }
 
   return (
     <div className="bg-slate-50 min-h-screen py-8">
@@ -223,7 +233,7 @@ export default function PostDetails({
                   </div>
 
                   <div className="flex flex-col sm:items-end text-right gap-1 font-medium">
-                    <p className="uppercase text-[10px] tracking-wider text-slate-400">Publicação oficial</p>
+                    <p className="uppercase text-[10px] tracking-wider text-slate-400">Conteúdo editorial</p>
                     <p className="text-slate-600 flex items-center gap-1"><Clock className="w-3.5 h-3.5" /> {formatPublishDate(post.date)}</p>
                   </div>
                 </div>
@@ -251,9 +261,7 @@ export default function PostDetails({
 
               {/* ARTICLE PARAGRAPH BLOCK 1 */}
               <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed">
-                {part1.split('\n\n').map((p, i) => (
-                  <p key={i} className="whitespace-pre-wrap">{p}</p>
-                ))}
+                {renderArticleParagraphs(part1)}
               </div>
 
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
@@ -265,10 +273,25 @@ export default function PostDetails({
 
               {/* ARTICLE PARAGRAPH BLOCK 2 */}
               <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed mt-6">
-                {part2.split('\n\n').map((p, i) => (
-                  <p key={i} className="whitespace-pre-wrap">{p}</p>
-                ))}
+                {renderArticleParagraphs(part2)}
               </div>
+
+              {safeSourceUrl && (
+                <aside className="mt-8 rounded-xl border border-blue-100 bg-blue-50/70 p-4 text-sm text-slate-700">
+                  <p className="font-bold text-slate-900">Transparência editorial</p>
+                  <p className="mt-1 leading-relaxed">
+                    Esta matéria foi produzida a partir de informações distribuídas por{' '}
+                    <a
+                      href={safeSourceUrl}
+                      target="_blank"
+                      rel="noopener noreferrer nofollow"
+                      className="font-bold text-blue-700 underline hover:text-blue-900"
+                    >
+                      {sourceLabel || 'a fonte original'}
+                    </a>.
+                  </p>
+                </aside>
+              )}
 
               {/* EXPLICIT METRICS */}
               <div className="flex flex-wrap items-center gap-3 border-t border-slate-100 mt-10 pt-6">

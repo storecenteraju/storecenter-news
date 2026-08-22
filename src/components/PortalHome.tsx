@@ -1,6 +1,6 @@
 import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
-import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
+import { Post, CategoryType, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import AdSenseSlot from './AdSenseSlot';
 import EditorialImage from './EditorialImage';
 
@@ -97,17 +97,10 @@ export default function PortalHome({
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
-  // Calculate top 5 most high-scoring editorial of last 7 days (Destaques da Semana)
-  const last7DaysPosts = publishedPosts.filter(p => {
-    if (!p.date) return false;
-    const postTime = new Date(p.date).getTime();
-    const nowTime = new Date().getTime();
-    return (nowTime - postTime) <= 7 * 24 * 60 * 60 * 1000;
-  });
-  const top5DestaquesDaSemana = [...last7DaysPosts]
-    .sort((a, b) => getEditorialScore(b) - getEditorialScore(a))
-    .slice(0, 5);
-  const top5DestaquesDaSemanaIds = new Set(top5DestaquesDaSemana.map(p => p.id));
+  // "Destaque da semana" is an editorial decision, never a consequence of recency.
+  const top5DestaquesDaSemanaIds = new Set(
+    publishedPosts.filter(p => p.isDestaque === true).slice(0, 5).map(p => p.id)
+  );
 
   // Top 10 most viewed posts of the portal (🔥 MAIS LIDAS DA SEMANA)
   const top10PopularPosts = [...publishedPosts].sort((a, b) => (b.views || 0) - (a.views || 0)).slice(0, 10);

@@ -509,6 +509,10 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     return "Esporte";
   }
 
+  if (hasAny(["supercomputador", "computação de alto desempenho", "computacao de alto desempenho", "modelo de ia", "modelos de ia", "inteligência artificial", "inteligencia artificial"])) {
+    return "Tecnologia";
+  }
+
   if (hasAny(["ifood"]) && hasAny(["vazamento", "dados vazados", "dado vazado", "hacker", "cibersegurança", "ciberseguranca", "privacidade"])) {
     return "Tecnologia";
   }
@@ -3308,7 +3312,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
     const sanitizedContent = cleanArticleContent(rewritten.content || "");
-    const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent}`.toLowerCase();
+    const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle}`.toLowerCase();
     const scraperCategory = autoCategorizeNews(
       sanitizedTitle,
       sanitizedContent || sanitizedSubtitle || "",
@@ -3488,13 +3492,11 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       correctedFinalCategory = "Geopolítica";
     }
 
-    // Categoria travada pela fonte RSS/URL/feed: evita que palavras soltas mudem a editoria original
-    if (winner.category) {
-      correctedFinalCategory = winner.category;
-    }
+    // The final category follows the title and subtitle. Generic feeds often mix
+    // subjects, so locking the post to the feed label creates false categories.
 
     // Fetch high fidelity images by final corrected subject
-    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${sanitizedContent} ${rewritten.imagePrompt || ""}`.toLowerCase();
+    const finalImageText = `${sanitizedTitle} ${sanitizedSubtitle} ${correctedFinalCategory}`.toLowerCase();
     let finalImagePrompt = "";
 
     if (
@@ -3769,7 +3771,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       content: sanitizedContent || `Análise estendida sobre ${sanitizedTitle}.`,
       category: correctedFinalCategory,
       author: "Redação Store Center",
-      tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => String(tag) !== correctedFinalCategory).slice(0, 4) : [])],
+      tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => !DESIRED_CATEGORIES.includes(String(tag)) && String(tag) !== "Atualização").slice(0, 3) : [])],
       status: "published",
       image: finalResolvedImageUrl,
       imageSource: finalImageSource,
@@ -3931,6 +3933,7 @@ function truncateAtWord(value: string, maxLength: number): string {
 function splitCompleteSentences(value: string): string[] {
   const normalized = String(value || "")
     .replace(/\b(Cade|STF|STJ|Senado|Câmara|Congresso)\s+(A|O|Os|As|Uma|Um)\s+/g, "$1. $2 ")
+    .replace(/\b(AC|AL|AP|AM|BA|CE|DF|ES|GO|MA|MT|MS|MG|PA|PB|PR|PE|PI|RJ|RN|RS|RO|RR|SC|SP|SE|TO)\s+(A|O|Os|As|Uma|Um)\s+/g, "$1. $2 ")
     .replace(/\s+/g, " ")
     .trim();
   if (!normalized) return [];
@@ -3938,7 +3941,11 @@ function splitCompleteSentences(value: string): string[] {
   const matches = normalized.match(/[^.!?]+(?:[.!?]+|$)/g) || [];
   return matches
     .map((sentence) => sentence.trim())
-    .filter((sentence) => Boolean(sentence) && !/^[a-záéíóúâêôãõç]/.test(sentence));
+    .filter((sentence) => (
+      Boolean(sentence) &&
+      !/^[a-záéíóúâêôãõç]/.test(sentence) &&
+      !/\b(divulgação|reprodução|foto|imagem|crédito)\b/i.test(sentence)
+    ));
 }
 
 function buildCompleteExcerpt(value: string, maxLength = 260): string {
@@ -3982,6 +3989,9 @@ function buildCuriosityTitle(originalTitle: string, category: string): string {
   }
 
   if (base.endsWith("?")) return truncateAtWord(base, 118);
+  if (/^(como|por que|o que|quem|quando|onde|qual|quais)\b/i.test(base)) {
+    return `${truncateAtWord(base, 117)}?`;
+  }
 
   const suffixByCategory: Record<string, string> = {
     "Economia": "por que isso importa para a economia?",
@@ -4007,10 +4017,10 @@ function buildSpecificQuestion(title: string, summary: string, category: string)
   if (category === "Esporte" && /(final|semifinal|decisão|decisao|classificad|vaga)/.test(text)) {
     return "Quem será o próximo adversário — e o que pode decidir a disputa pelo título?";
   }
-  if (text.includes("cade") && /(aquisição|aquisicao|compra|fusão|fusao|operação|operacao)/.test(text)) {
+  if (text.includes("cade") && /\b(aquisição|aquisicao|compra|fusão|fusao|operação|operacao)\b/.test(text)) {
     return "O Cade aprovará a operação sem restrições — e quais condições ainda podem ser exigidas para o negócio avançar?";
   }
-  if (/(aquisição|aquisicao|compra|fusão|fusao)/.test(text)) {
+  if (/\b(aquisição|aquisicao|compra|fusão|fusao)\b/.test(text)) {
     return "Quais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?";
   }
   if (/(preço|preco|tarifa|imposto|juros|inflação|inflacao|salário|salario)/.test(text)) {
@@ -4067,6 +4077,7 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/Entenda\s+o\s+que\s+faz\s+.*?(subir|cair)/gi, "")
     .replace(/Entenda\s+.*?(\.|$)/gi, "")
     .replace(/(?:^|\s)segundo\s+tempo\.\s*/gi, " ")
+    .replace(/\(\s*(saiba|veja|confira)\s+mais[^)]*\)/gi, " ")
     .replace(/▶️/g, "")
     .replace(/[🗒️🔴🟢🟡]/g, "")
     .replace(/\s+/g, " ")
@@ -4074,7 +4085,8 @@ function fallbackRewrite(item: any, feed: any) {
 
   category = autoCategorizeNews(originalTitle, summary, category);
 
-  const geoText = (originalTitle + " " + summary).toLowerCase();
+  const primaryTopicText = `${originalTitle} ${summary.slice(0, 450)}`.toLowerCase();
+  const geoText = primaryTopicText;
   if (
     geoText.includes("eua") ||
     geoText.includes("estados unidos") ||
@@ -4104,7 +4116,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Geopolítica";
   }
 
-  const sportsText = (originalTitle + " " + summary).toLowerCase();
+  const sportsText = primaryTopicText;
   if (
     sportsText.includes("copa do mundo") ||
     sportsText.includes("fifa") ||
@@ -4120,7 +4132,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Esporte";
   }
 
-  const jobsText = (originalTitle + " " + summary).toLowerCase();
+  const jobsText = primaryTopicText;
   if (
     !jobsText.includes("trabalho forçado") &&
     !jobsText.includes("trabalho forcado") &&
@@ -4134,7 +4146,7 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Negócios";
   }
 
-  const autoText = (originalTitle + " " + summary).toLowerCase();
+  const autoText = primaryTopicText;
   if (
     autoText.includes("chevrolet") ||
     autoText.includes("onix") ||

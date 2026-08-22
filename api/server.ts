@@ -895,7 +895,10 @@ app.post("/api/settings/change-password", async (req, res) => {
 // 1. Posts CRUD
 app.get("/api/posts", (req, res) => {
   const db = readDatabase();
-  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
+  res.setHeader("Cache-Control", isDatabaseLoaded
+    ? "public, s-maxage=300, stale-while-revalidate=3600"
+    : "no-store, max-age=0");
+  res.setHeader("X-Store-Center-Data-Source", isDatabaseLoaded ? "firestore" : "local-fallback");
   res.json(db.posts || []);
 });
 
@@ -1106,7 +1109,9 @@ app.post("/api/posts/:id/view", async (req, res) => {
 // 2. RSS Feeds CRUD
 app.get("/api/feeds", (req, res) => {
   const db = readDatabase();
-  res.setHeader("Cache-Control", "public, s-maxage=60, stale-while-revalidate=3600");
+  res.setHeader("Cache-Control", isDatabaseLoaded
+    ? "public, s-maxage=60, stale-while-revalidate=600"
+    : "no-store, max-age=0");
   res.json(db.feeds || []);
 });
 
@@ -1166,7 +1171,9 @@ app.delete("/api/feeds/:id", async (req, res) => {
 // 3. Ads Config
 app.get("/api/ads", (req, res) => {
   const db = readDatabase();
-  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
+  res.setHeader("Cache-Control", isDatabaseLoaded
+    ? "public, s-maxage=300, stale-while-revalidate=3600"
+    : "no-store, max-age=0");
   res.json(db.ads || []);
 });
 
@@ -1182,7 +1189,9 @@ app.put("/api/ads", async (req, res) => {
 // 4. Site Settings
 app.get("/api/settings", (req, res) => {
   const db = readDatabase();
-  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
+  res.setHeader("Cache-Control", isDatabaseLoaded
+    ? "public, s-maxage=300, stale-while-revalidate=3600"
+    : "no-store, max-age=0");
   const settings = db.settings || {};
 
   // Nunca expor credenciais em rota pública

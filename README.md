@@ -16,7 +16,7 @@ O endpoint de publicação falha de forma segura quando `CRON_SECRET` não está
 ### 2. Coletor Automático de RSS com IA
 - **Rota:** `/api/cron/rss-auto`
 - **Método:** `POST`
-- **Intervalo inicial:** diariamente às 08:15 (horário de Brasília), pelo GitHub Actions.
+- **Intervalo editorial:** 10 execuções por dia, distribuídas a cada 2h24 pelo GitHub Actions, com no máximo 1 matéria por execução.
 - **Limite:** máximo de 1 notícia por execução durante a retomada gradual.
 - **Fluxo Automático:** RSS → Gemini → SEO → Tags → Imagem → Publicar diretamente:
   1. Varre os feeds RSS ativos cadastrados no banco de dados.
@@ -65,7 +65,7 @@ curl -sS -X POST -H "Authorization: Bearer SEU_CRON_SECRET" "https://seu-dominio
 ---
 
 ### B) Opção 2: GitHub Actions
-O workflow versionado dispara `POST /api/cron/rss-auto` diariamente às 08:15 de Brasília, usa o secret `CRON_SECRET`, impede execuções concorrentes e permite uma simulação manual (`dry_run`) sem publicar.
+O workflow versionado dispara `POST /api/cron/rss-auto` 10 vezes por dia, em intervalos de 2h24, usa o secret `CRON_SECRET`, impede execuções concorrentes e publica no máximo 1 matéria por execução. A execução manual oferece uma simulação (`dry_run`) sem publicar.
 
 ---
 

@@ -2120,7 +2120,7 @@ export default function AdminPanel({
               
               const ultimaExecucao = lastLog ? formatDate(lastLog.timestamp) : "Nunca executado";
               
-              const proximoAgendamento = "Diariamente às 08:15 (Brasília)";
+              const proximoAgendamento = "10 vezes ao dia, a cada 2h24 (Brasília)";
               
               const lastRunSuccessLogs = lastSuccessLog
                 ? successfullyImportedLogs.filter((log: any) => {
@@ -2150,7 +2150,7 @@ export default function AdminPanel({
                     </div>
                     <div className="border-t border-slate-200/60 pt-2 mt-3 flex items-center gap-1.5 text-[10px] text-slate-500 font-semibold">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
-                      <span>Retomada gradual: 1 execução e até 1 matéria por dia</span>
+                      <span>Publicação contínua: até 1 matéria por execução, 10 vezes ao dia</span>
                     </div>
                   </div>
 

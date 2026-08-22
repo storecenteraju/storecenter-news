@@ -24,16 +24,25 @@ if (fs.existsSync(DB_PATH) && !fs.existsSync(BACKUP_PATH)) {
 app.use(express.json({ limit: '10mb' }));
 
 let isDatabaseLoaded = false;
+let databaseLoadPromise: Promise<void> | null = null;
 async function ensureDatabaseLoaded() {
-  if (!isDatabaseLoaded) {
-    try {
-      await loadDatabaseFromFirestore();
-      isDatabaseLoaded = true;
-    } catch (err) {
-      console.error("[LOAD] Falha ao carregar banco do Firestore. Tentara carregar novamente nas próximas requisicoes.", err);
-      throw err;
-    }
+  if (isDatabaseLoaded) return;
+
+  if (!databaseLoadPromise) {
+    databaseLoadPromise = loadDatabaseFromFirestore()
+      .then(() => {
+        isDatabaseLoaded = true;
+      })
+      .catch((err) => {
+        console.error("[LOAD] Falha ao carregar banco do Firestore. Tentara carregar novamente nas próximas requisicoes.", err);
+        throw err;
+      })
+      .finally(() => {
+        databaseLoadPromise = null;
+      });
   }
+
+  await databaseLoadPromise;
 }
 
 app.use(async (req, res, next) => {
@@ -43,8 +52,9 @@ app.use(async (req, res, next) => {
   const isApiRoute = pathStr.startsWith("/api/") || pathStr.includes("/api/");
   const isLoginRoute = pathStr.includes("login") || pathStr.includes("/login");
   const isAssetRoute = pathStr.startsWith("/assets/") || pathStr.includes("/assets/");
+  const isHealthRoute = pathStr === "/api/health";
   
-  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute;
+  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute;
 
   if (needsDB) {
     try {
@@ -86,7 +96,7 @@ try {
 
 const firebaseConfig = {
   projectId: process.env.FIREBASE_PROJECT_ID || rawFirebaseConfig.projectId || "ai-studio-applet-webapp-b9f98",
-  firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-3c537543-715d-410d-acfe-18a611de2057",
+  firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-fef3ad45-6066-4367-9e43-1a32c77e76bb",
 };
 
 let firebaseApp: any = null;
@@ -718,22 +728,16 @@ function isAuthorizedAdminSession(req: express.Request): boolean {
 // 0. Diagnostic Health Route for Live Production Verification
 app.get("/api/health", async (req, res) => {
   try {
-    let firestoreStatus = "Conectando...";
-    let firestoreError = null;
-    try {
-      const snap = await dbStore.collection("settings").get();
-      firestoreStatus = `Conectado com sucesso. Coleção 'settings' ativa (Total de settings: ${snap.size})`;
-    } catch (fsErr: any) {
-      firestoreStatus = "Erro de conexão";
-      firestoreError = fsErr.message || String(fsErr);
-    }
+    const firestoreStatus = dbStore
+      ? (isDatabaseLoaded ? "Admin SDK inicializado e cache carregado" : "Admin SDK inicializado; cache ainda não carregado")
+      : "Admin SDK indisponível";
 
     res.json({
       status: "online",
       ambiente: process.env.VERCEL ? "Vercel Serverless" : "AI Studio Preview Container",
       verificacao_firestore: {
         status: firestoreStatus,
-        erro: firestoreError,
+        erro: null,
         databaseId: firebaseConfig.firestoreDatabaseId
       },
       variaveis_servidor: {
@@ -891,6 +895,7 @@ app.post("/api/settings/change-password", async (req, res) => {
 // 1. Posts CRUD
 app.get("/api/posts", (req, res) => {
   const db = readDatabase();
+  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
   res.json(db.posts || []);
 });
 
@@ -1101,6 +1106,7 @@ app.post("/api/posts/:id/view", async (req, res) => {
 // 2. RSS Feeds CRUD
 app.get("/api/feeds", (req, res) => {
   const db = readDatabase();
+  res.setHeader("Cache-Control", "public, s-maxage=60, stale-while-revalidate=3600");
   res.json(db.feeds || []);
 });
 
@@ -1160,6 +1166,7 @@ app.delete("/api/feeds/:id", async (req, res) => {
 // 3. Ads Config
 app.get("/api/ads", (req, res) => {
   const db = readDatabase();
+  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
   res.json(db.ads || []);
 });
 
@@ -1175,6 +1182,7 @@ app.put("/api/ads", async (req, res) => {
 // 4. Site Settings
 app.get("/api/settings", (req, res) => {
   const db = readDatabase();
+  res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=86400");
   const settings = db.settings || {};
 
   // Nunca expor credenciais em rota pública

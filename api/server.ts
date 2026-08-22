@@ -505,7 +505,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
     return "Nacional";
   }
 
-  if (hasAny(["copa do mundo", "fifa", "futebol", "libertadores", "brasileirão", "brasileirao", "série a", "serie a", "ingressos da copa", "roland garros", "grand slam", "tenista", "tênis", "tenis", "wimbledon", "us open", "aberto da austrália", "aberto da australia"])) {
+  if (hasAny(["copa do mundo", "fifa", "futebol", "libertadores", "brasileirão", "brasileirao", "campeonato brasileiro", "campeonato feminino", "partida", "semifinal", "final do campeonato", "final do feminino", "gol do jogo", "série a", "serie a", "ingressos da copa", "roland garros", "grand slam", "tenista", "tênis", "tenis", "wimbledon", "us open", "aberto da austrália", "aberto da australia"])) {
     return "Esporte";
   }
 
@@ -2339,6 +2339,25 @@ const getBaseUrl = (url: string): string => {
   return url.split("?")[0];
 };
 
+const hasEmploymentSignal = (text: string): boolean => {
+  const normalized = String(text || "").toLowerCase();
+  return (
+    normalized.includes("emprego") ||
+    normalized.includes("salário") ||
+    normalized.includes("salario") ||
+    normalized.includes("carreira") ||
+    normalized.includes("mercado de trabalho") ||
+    normalized.includes("carteira assinada") ||
+    normalized.includes("contratação") ||
+    normalized.includes("contratacao") ||
+    normalized.includes("contratações") ||
+    normalized.includes("contratacoes") ||
+    normalized.includes("trabalhador") ||
+    normalized.includes("trabalhadora") ||
+    /\bvagas?\s+(?:de\s+emprego|abertas?|disponíveis|disponiveis|para\s+(?:trabalhar|contratação|contratacao))\b/.test(normalized)
+  );
+};
+
 // Sub-theme classifier ensuring thematic diversity and avoiding "dollar site" syndrome
 const detectSubTheme = (text: string, category: string): string => {
   const t = text.toLowerCase();
@@ -2346,7 +2365,7 @@ const detectSubTheme = (text: string, category: string): string => {
     if (t.includes("inflação") || t.includes("inflacao") || t.includes("preço") || t.includes("supermercado") || t.includes("carrinho") || t.includes("aliment") || t.includes("mercearia") || t.includes("precos")) {
       return "inflação";
     }
-    if (t.includes("emprego") || t.includes("vaga") || t.includes("trabalh") || t.includes("carteira") || t.includes("contrata")) {
+    if (hasEmploymentSignal(t)) {
       return "emprego";
     }
     if (t.includes("imposto") || t.includes("irpf") || t.includes("tribut") || t.includes("receita federal") || t.includes("declara")) {
@@ -3414,14 +3433,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       finalClassifierText.includes("montadora")
     ) {
       correctedFinalCategory = "Negócios";
-    } else if (
-      finalClassifierText.includes("emprego") ||
-      finalClassifierText.includes("salário") ||
-      finalClassifierText.includes("salario") ||
-      finalClassifierText.includes("carreira") ||
-      finalClassifierText.includes("vaga") ||
-      finalClassifierText.includes("trabalho")
-    ) {
+    } else if (hasEmploymentSignal(finalClassifierText)) {
       correctedFinalCategory = "Negócios";
     } else if (
       finalClassifierText.includes("tilápia") ||
@@ -3595,13 +3607,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       finalImageText.includes("geladeira")
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text";
-    } else if (
-      finalImageText.includes("emprego") ||
-      finalImageText.includes("carreira") ||
-      finalImageText.includes("vaga") ||
-      finalImageText.includes("salário") ||
-      finalImageText.includes("salario")
-    ) {
+    } else if (hasEmploymentSignal(finalImageText)) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text";
     } else if (
       finalImageText.includes("vazamento") ||
@@ -3924,7 +3930,9 @@ function splitCompleteSentences(value: string): string[] {
   if (!normalized) return [];
 
   const matches = normalized.match(/[^.!?]+(?:[.!?]+|$)/g) || [];
-  return matches.map((sentence) => sentence.trim()).filter(Boolean);
+  return matches
+    .map((sentence) => sentence.trim())
+    .filter((sentence) => Boolean(sentence) && !/^[a-záéíóúâêôãõç]/.test(sentence));
 }
 
 function buildCompleteExcerpt(value: string, maxLength = 260): string {
@@ -3981,6 +3989,9 @@ function buildCuriosityTitle(originalTitle: string, category: string): string {
 function buildSpecificQuestion(title: string, summary: string, category: string): string {
   const text = `${title} ${summary}`.toLowerCase();
 
+  if (category === "Esporte" && /(final|semifinal|decisão|decisao|classificad|vaga)/.test(text)) {
+    return "Quem será o próximo adversário — e o que pode decidir a disputa pelo título?";
+  }
   if (text.includes("cade") && /(aquisição|aquisicao|compra|fusão|fusao|operação|operacao)/.test(text)) {
     return "O Cade aprovará a operação sem restrições — e quais condições ainda podem ser exigidas para o negócio avançar?";
   }
@@ -4098,11 +4109,7 @@ function fallbackRewrite(item: any, feed: any) {
     !jobsText.includes("trabalho forçado") &&
     !jobsText.includes("trabalho forcado") &&
     (
-      jobsText.includes("emprego") ||
-      jobsText.includes("salário") ||
-      jobsText.includes("salario") ||
-      jobsText.includes("carreira") ||
-      jobsText.includes("vaga") ||
+      hasEmploymentSignal(jobsText) ||
       jobsText.includes("crescimento profissional") ||
       jobsText.includes("curso de informática") ||
       jobsText.includes("curso de informatica")
@@ -4198,11 +4205,7 @@ function fallbackRewrite(item: any, feed: any) {
   ) {
     imageTopic = "cybersecurity data breach smartphone app privacy servers digital security";
   } else if (
-    imageText.includes("emprego") ||
-    imageText.includes("salário") ||
-    imageText.includes("salario") ||
-    imageText.includes("carreira") ||
-    imageText.includes("vaga") ||
+    hasEmploymentSignal(imageText) ||
     imageText.includes("crescimento profissional") ||
     imageText.includes("curso de informática") ||
     imageText.includes("curso de informatica")

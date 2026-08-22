@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Capa editorial abstrata de notícias">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#0f172a"/><stop offset=".6" stop-color="#1d4ed8"/><stop offset="1" stop-color="#c2410c"/></linearGradient></defs>
+  <rect width="1280" height="720" fill="url(#b)"/><circle cx="1010" cy="360" r="245" fill="none" stroke="#bfdbfe" stroke-width="16" opacity=".55"/><path d="M765 360h490M1010 115c-90 85-130 165-130 245s40 160 130 245M1010 115c90 85 130 165 130 245s-40 160-130 245" fill="none" stroke="#bfdbfe" stroke-width="12" opacity=".5"/>
+  <g fill="#fff"><rect x="110" y="190" width="500" height="52" rx="18"/><rect x="110" y="285" width="420" height="30" rx="15" opacity=".8"/><rect x="110" y="350" width="470" height="30" rx="15" opacity=".65"/><rect x="110" y="415" width="350" height="30" rx="15" opacity=".5"/></g>
+</svg>

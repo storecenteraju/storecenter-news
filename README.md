@@ -1,8 +1,8 @@
 # Store Center - Automatização por Cron Jobs (CMS Admin)
 
-Este portal possui rotinas totalmente automatizadas de agendamento de posts e coleta/reescrita de notícias via feeds RSS utilizando Inteligência Artificial (Gemini).
+Este portal possui rotinas de agendamento de posts e coleta/reescrita de notícias via feeds RSS. O agendador interno do Express está pausado; a retomada controlada do RSS é feita pelo GitHub Actions, uma vez por dia, com no máximo uma matéria por execução.
 
-As rotinas rodam de forma nativa e automática em segundo plano assim que o servidor Express inicia (o agendador a cada 5 minutos e o coletor RSS de 45 em 45 minutos), mas para garantir precisão e estabilidade robusta em ambientes profissionais, você pode configurar tarefas cron externas (**Cron Jobs**) para invocar os endpoints REST criados.
+O endpoint de publicação falha de forma segura quando `CRON_SECRET` não está configurado e só aceita autenticação `Authorization: Bearer`.
 
 ---
 
@@ -13,17 +13,17 @@ As rotinas rodam de forma nativa e automática em segundo plano assim que o serv
 - **Método:** `GET`
 - **Função:** Examina todos os posts marcados como "Agendados", compara a hora atual com o horário definido e coloca no ar (`status: "published"`) as matérias com horários vencidos, atualizando a data de publicação final.
 
-### 2. Coletor Automático de RSS com IA (No-Draft / Publicação Direta)
+### 2. Coletor Automático de RSS com IA
 - **Rota:** `/api/cron/rss-auto`
-- **Método:** `GET`
-- **Intervalo:** 45 minutos (background)
-- **Limite:** Máximo de 1 notícia por feed por execução.
+- **Método:** `POST`
+- **Intervalo inicial:** diariamente às 08:15 (horário de Brasília), pelo GitHub Actions.
+- **Limite:** máximo de 1 notícia por execução durante a retomada gradual.
 - **Fluxo Automático:** RSS → Gemini → SEO → Tags → Imagem → Publicar diretamente:
   1. Varre os feeds RSS ativos cadastrados no banco de dados.
   2. Filtra notícias e impede duplicidade (por título, link original ou slug gerado).
   3. Envia os novos artigos para reescrita jornalística avançada por IA (Gemini 3.5-Flash).
   4. Gera tags e títulos/descrições focados em SEO profissional.
-  5. **Regra de Imagem:** Tenta gerar uma imagem realística usando Imagen 3. Caso a geração falhe devido à limitação de cotas de chave padrão, o sistema **automaticamente avalia e seleciona uma imagem horizontal de alta resolução (1280x720)** de bancos curados (Unsplash, Pixabay ou Pexels). O sistema evita repetir imagens usadas nos últimos 30 dias para manter o portal sempre moderno e variado.
+  5. **Regra de Imagem:** geração paga fica desligada por padrão. Imagem de RSS/página só é reutilizada quando o feed declara `imagePolicy: "reuse_with_credit"`; nos demais casos o sistema escolhe um fallback editorial gratuito. Fonte, crédito e licença são armazenados quando aplicáveis.
   6. **Publicação Sem Rascunhos:** Salva as novas matérias já com status `published` ("NO AR"), fazendo com que apareçam imediatamente na Home e nas respectivas categorias do portal em tempo real.
   7. **Rastreabilidade:** Alimenta a nova aba **"Log da Automação"** no painel administrativo para controle e auditoria detalhada.
 
@@ -43,7 +43,7 @@ Adicionamos um painel de monitoramento em tempo real dentro do painel administra
 
 ## 🛠️ Como Configurar o Cron Job
 
-Para colocar estas rotas em execução automática permanente (a cada 5 ou 45 minutos), siga os guias abaixo:
+O projeto já contém o workflow `.github/workflows/rss-auto.yml`. Para ativá-lo, configure o mesmo valor de `CRON_SECRET` no ambiente da hospedagem e em **GitHub → Settings → Secrets and variables → Actions**.
 
 ### A) Opção 1: Configuração no cPanel (Servidores VPS/Dedicados)
 1. Faça login no seu painel **cPanel**.
@@ -55,39 +55,24 @@ Para colocar estas rotas em execução automática permanente (a cada 5 ou 45 mi
 
 ```bash
 # Cron para matérias programadas (Rodar a cada 5 ou 10 minutos):
-curl -s -X GET "https://seu-dominio.com.br/api/cron/publish-scheduled" >/dev/null 2>&1
+curl -sS -X GET -H "Authorization: Bearer SEU_CRON_SECRET" "https://seu-dominio.com.br/api/cron/publish-scheduled" >/dev/null 2>&1
 
-# Cron para importar RSS com IA diretamente (Rodar a cada 45 minutos):
-curl -s -X GET "https://seu-dominio.com.br/api/cron/rss-auto" >/dev/null 2>&1
+# Cron para importar RSS (iniciar com uma execução diária):
+curl -sS -X POST -H "Authorization: Bearer SEU_CRON_SECRET" "https://seu-dominio.com.br/api/cron/rss-auto" >/dev/null 2>&1
 ```
 5. Clique em **Adicionar Nova Tarefa Cron**. Pronto!
 
 ---
 
-### B) Opção 2: Configuração na Vercel (`vercel.json`)
-Caso hospede sua aplicação na Vercel, você pode usar a ferramenta nativa de **Vercel Cron**. Basta adicionar um arquivo `vercel.json` na raiz do seu projeto com as seguintes instruções:
-
-```json
-{
-  "crons": [
-    {
-      "path": "/api/cron/publish-scheduled",
-      "schedule": "*/5 * * * *"
-    },
-    {
-      "path": "/api/cron/rss-auto",
-      "schedule": "*/45 * * * *"
-    }
-  ]
-}
-```
+### B) Opção 2: GitHub Actions
+O workflow versionado dispara `POST /api/cron/rss-auto` diariamente às 08:15 de Brasília, usa o secret `CRON_SECRET`, impede execuções concorrentes e permite uma simulação manual (`dry_run`) sem publicar.
 
 ---
 
 ### C) Opção 3: Serviços Gratuitos Online (Ex: EasyCron / Keep-Alive)
 Se sua hospedagem convencional não permitir configuração livre de crons:
 1. Cadastre-se em um gerenciador gratuito como o [EasyCron](https://www.easycron.com/) ou [UptimeRobot](https://uptimerobot.com/).
-2. Crie uma nova requisição do tipo **HTTP GET** apontando para o seu domínio:
-   - `https://seu-dominio.com.br/api/cron/publish-scheduled` (definido a cada 5 minutos)
-   - `https://seu-dominio.com.br/api/cron/rss-auto` (definido a cada 45 minutos)
+2. Crie requisições autenticadas com cabeçalho Bearer apontando para o seu domínio:
+   - `GET https://seu-dominio.com.br/api/cron/publish-scheduled` (a cada 5 minutos)
+   - `https://seu-dominio.com.br/api/cron/rss-auto` (iniciar uma vez ao dia)
 3. Defina o cronômetro para disparar de acordo com o planejado.

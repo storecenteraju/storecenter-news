@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" role="img" aria-label="Capa editorial abstrata de economia">
+  <defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#07152f"/><stop offset="1" stop-color="#047857"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="38"/></filter></defs>
+  <rect width="1280" height="720" fill="url(#b)"/><circle cx="1080" cy="120" r="230" fill="#34d399" opacity=".18" filter="url(#g)"/>
+  <g fill="none" stroke="#a7f3d0" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"><path d="M120 560 350 410 530 475 760 285 950 350 1160 145"/><path d="m1070 145h90v90"/></g>
+  <g fill="#fff" opacity=".18"><rect x="145" y="470" width="90" height="130" rx="16"/><rect x="330" y="380" width="90" height="220" rx="16"/><rect x="515" y="430" width="90" height="170" rx="16"/><rect x="700" y="280" width="90" height="320" rx="16"/></g>
+</svg>

@@ -10,6 +10,7 @@ interface NavigationProps {
   searchQuery: string;
   setSearchQuery: (query: string) => void;
   breakingNewsTitle?: string;
+  onBreakingNewsClick?: () => void;
   ads?: AdUnit[];
 }
 
@@ -20,7 +21,8 @@ export default function Navigation({
   setSelectedCategory,
   searchQuery,
   setSearchQuery,
-  breakingNewsTitle = "PIB do Brasil surpreende no primeiro trimestre de 2026 e cresce 1,2% impulsionado por serviços",
+  breakingNewsTitle,
+  onBreakingNewsClick,
   ads = []
 }: NavigationProps) {
   const [currentTime, setCurrentTime] = useState("");
@@ -130,11 +132,18 @@ export default function Navigation({
             <span className="flex items-center gap-1 bg-red-600 px-2 py-0.5 rounded text-[10px] font-extrabold uppercase animate-pulse shrink-0">
               <Bell className="w-2.5 h-2.5" /> URGENTE
             </span>
-            <div className="flex overflow-hidden">
-              <p className="text-slate-300 font-medium whitespace-nowrap animate-marquee select-none hover:underline cursor-pointer">
-                {breakingNewsTitle}
-              </p>
-            </div>
+            {breakingNewsTitle && onBreakingNewsClick && (
+              <div className="flex overflow-hidden">
+                <button
+                  type="button"
+                  onClick={onBreakingNewsClick}
+                  className="text-left text-slate-300 font-medium whitespace-nowrap animate-marquee hover:text-white hover:underline focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white/80"
+                  aria-label={`Abrir notícia urgente: ${breakingNewsTitle}`}
+                >
+                  {breakingNewsTitle}
+                </button>
+              </div>
+            )}
           </div>
           <div className="hidden md:flex items-center gap-4 text-[10px] font-bold text-slate-400">
             <span className="flex items-center gap-1 text-emerald-400 font-bold tracking-wider">

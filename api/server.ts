@@ -1,6 +1,7 @@
 import express from "express";
 import path from "path";
 import fs from "fs";
+import crypto from "crypto";
 import { GoogleGenAI, Type } from "@google/genai";
 import dotenv from "dotenv";
 
@@ -129,13 +130,16 @@ async function syncPost(post: any) {
   try {
     if (!dbStore) {
       console.warn("[FIREBASE] syncPost ignorado: Firestore indisponível.");
-      return;
+      return false;
     }
     if (post && post.id) {
       await setDoc(doc(dbStore, "posts", String(post.id)), post);
+      return true;
     }
+    return false;
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar post no Firestore:", err);
+    return false;
   }
 }
 
@@ -281,6 +285,18 @@ async function syncAllToFirestore(data: any) {
   }
 }
 
+function parseStoredDate(value: unknown): number {
+  if (!value) return 0;
+  const text = String(value).trim();
+  const brazilianDate = text.match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})(?:[ T](\d{1,2}):(\d{2})(?::(\d{2}))?)?$/);
+  if (brazilianDate) {
+    const [, day, month, year, hour = "0", minute = "0", second = "0"] = brazilianDate;
+    return Date.UTC(+year, +month - 1, +day, +hour, +minute, +second);
+  }
+  const parsed = new Date(text).getTime();
+  return Number.isFinite(parsed) ? parsed : 0;
+}
+
 async function loadDatabaseFromFirestore() {
   try {
     if (!dbStore) {
@@ -307,7 +323,7 @@ async function loadDatabaseFromFirestore() {
 
     const posts: any[] = [];
     postsSnap.forEach(docSnap => posts.push(docSnap.data()));
-    posts.sort((a, b) => new Date(b.date || 0).getTime() - new Date(a.date || 0).getTime());
+    posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
 
     const feeds: any[] = [];
     feedsSnap.forEach(docSnap => feeds.push(docSnap.data()));
@@ -322,11 +338,11 @@ async function loadDatabaseFromFirestore() {
 
     const automationLogs: any[] = [];
     logsSnap.forEach(docSnap => automationLogs.push(docSnap.data()));
-    automationLogs.sort((a, b) => new Date(b.timestamp || 0).getTime() - new Date(a.timestamp || 0).getTime());
+    automationLogs.sort((a, b) => parseStoredDate(b.timestamp) - parseStoredDate(a.timestamp));
 
     const deletedPostItems: any[] = [];
     deletedSnap.forEach(docSnap => deletedPostItems.push(docSnap.data()));
-    deletedPostItems.sort((a, b) => new Date(b.deletedAt || 0).getTime() - new Date(a.deletedAt || 0).getTime());
+    deletedPostItems.sort((a, b) => parseStoredDate(b.deletedAt) - parseStoredDate(a.deletedAt));
 
     if (posts.length === 0 && feeds.length === 0 && fs.existsSync(DB_PATH)) {
       console.log("[FIREBASE] Base do Firestore vazia. Migrando db.json local...");
@@ -607,6 +623,74 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
 // API Routes
 
+const ADMIN_SESSION_COOKIE = "storecenter_admin_session";
+const ADMIN_SESSION_MAX_AGE_SECONDS = 8 * 60 * 60;
+
+function safeStringEquals(left: string, right: string): boolean {
+  const leftBuffer = Buffer.from(String(left));
+  const rightBuffer = Buffer.from(String(right));
+  return leftBuffer.length === rightBuffer.length && crypto.timingSafeEqual(leftBuffer, rightBuffer);
+}
+
+function getAdminSessionSecret(): string {
+  return String(process.env.ADMIN_SESSION_SECRET || process.env.CRON_SECRET || "").trim();
+}
+
+function verifyAdminCredentials(db: any, username: string, password: string): boolean {
+  const typedUser = String(username || "").trim();
+  const typedPass = String(password || "").trim();
+  if (!typedUser || !typedPass) return false;
+
+  const customUser = String(db.settings?.customUser || "").trim();
+  const customPassword = String(db.settings?.customPassword || "");
+  if (customUser && customPassword) {
+    return typedUser.toLowerCase() === customUser.toLowerCase() && safeStringEquals(typedPass, customPassword);
+  }
+
+  const envUser = String(process.env.ADMIN_USER || "").trim();
+  const envPassword = String(process.env.ADMIN_PASSWORD || "");
+  return Boolean(envUser && envPassword && typedUser === envUser && safeStringEquals(typedPass, envPassword));
+}
+
+function createAdminSession(username: string): string | null {
+  const secret = getAdminSessionSecret();
+  if (!secret) return null;
+
+  const payload = Buffer.from(JSON.stringify({
+    sub: username,
+    exp: Date.now() + ADMIN_SESSION_MAX_AGE_SECONDS * 1000
+  })).toString("base64url");
+  const signature = crypto.createHmac("sha256", secret).update(payload).digest("base64url");
+  return `${payload}.${signature}`;
+}
+
+function isAuthorizedAdminSession(req: express.Request): boolean {
+  const secret = getAdminSessionSecret();
+  if (!secret) return false;
+
+  const cookies = String(req.headers.cookie || "")
+    .split(";")
+    .map((part) => part.trim().split("="))
+    .reduce<Record<string, string>>((acc, [key, ...value]) => {
+      if (key) acc[key] = value.join("=");
+      return acc;
+    }, {});
+  const token = cookies[ADMIN_SESSION_COOKIE];
+  if (!token) return false;
+
+  const [payload, suppliedSignature] = token.split(".");
+  if (!payload || !suppliedSignature) return false;
+  const expectedSignature = crypto.createHmac("sha256", secret).update(payload).digest("base64url");
+  if (!safeStringEquals(suppliedSignature, expectedSignature)) return false;
+
+  try {
+    const session = JSON.parse(Buffer.from(payload, "base64url").toString("utf8"));
+    return Boolean(session?.sub && Number(session.exp) > Date.now());
+  } catch {
+    return false;
+  }
+}
+
 // 0. Diagnostic Health Route for Live Production Verification
 app.get("/api/health", async (req, res) => {
   try {
@@ -629,9 +713,9 @@ app.get("/api/health", async (req, res) => {
         databaseId: firebaseConfig.firestoreDatabaseId
       },
       variaveis_servidor: {
-        ADMIN_USER: process.env.ADMIN_USER ? "Configurada no Vercel (OK)" : "Ausente (Utilizando fallback 'admin')",
-        ADMIN_PASSWORD: process.env.ADMIN_PASSWORD ? "Configurada no Vercel (OK)" : "Ausente (Utilizando fallback 'admin123')",
-        CRON_SECRET: process.env.CRON_SECRET ? "Configurada no Vercel (OK)" : "Ausente (Execução de cron aberta ao preview)",
+        ADMIN_USER: process.env.ADMIN_USER ? "Configurada (OK)" : "Ausente (login por ambiente desativado)",
+        ADMIN_PASSWORD: process.env.ADMIN_PASSWORD ? "Configurada (OK)" : "Ausente (login por ambiente desativado)",
+        CRON_SECRET: process.env.CRON_SECRET ? "Configurada (OK)" : "Ausente (execução de cron bloqueada)",
         GEMINI_API_KEY: process.env.GEMINI_API_KEY ? "Configurada no Vercel (OK)" : "Ausente (A geração de matéria usará fallbacks)"
       },
       database_cache: {
@@ -659,50 +743,30 @@ app.post("/api/login", (req, res) => {
       });
     }
     
-    const typedUser = username.trim();
-    const typedPass = password.trim();
-
     const db = readDatabase();
-    const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
-
-    let isAuthenticated = false;
-
-    if (hasCustomCreds) {
-      if (typedUser.toLowerCase() === db.settings.customUser.toLowerCase() && typedPass === db.settings.customPassword) {
-        isAuthenticated = true;
-      }
-    } else {
-      // Suporte flexível para 'admin' ou o nome da marca 'storecenter'
-      const adminUser = (process.env.ADMIN_USER || "admin").trim();
-      const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
-
-      const matchesEnvUser = typedUser === adminUser;
-      const matchesDefaultUser = typedUser.toLowerCase() === "admin";
-      const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
-
-      const isUserValid = matchesEnvUser || matchesDefaultUser || matchesBrandUser;
-
-      if (isUserValid) {
-        const customPassMap = db.settings?.customPasswords || {};
-        const hasCustomPass = customPassMap[typedUser.toLowerCase()];
-
-        const matchesEnvPass = typedPass === adminPass;
-        const matchesDefaultPass = typedPass === "admin123";
-
-        if (hasCustomPass) {
-          isAuthenticated = typedPass === hasCustomPass;
-        } else {
-          isAuthenticated = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
-        }
-      }
-    }
-
-    if (!isAuthenticated) {
+    if (!verifyAdminCredentials(db, username, password)) {
       return res.status(401).json({ 
         success: false, 
         error: "A senha especificada ou usuário estão inválidos." 
       });
     }
+
+    const session = createAdminSession(String(username).trim());
+    if (!session) {
+      return res.status(503).json({
+        success: false,
+        error: "Sessão administrativa indisponível. Configure ADMIN_SESSION_SECRET ou CRON_SECRET."
+      });
+    }
+
+    res.setHeader("Set-Cookie", [
+      `${ADMIN_SESSION_COOKIE}=${session}`,
+      "Path=/",
+      "HttpOnly",
+      "SameSite=Strict",
+      process.env.NODE_ENV === "production" ? "Secure" : "",
+      `Max-Age=${ADMIN_SESSION_MAX_AGE_SECONDS}`
+    ].filter(Boolean).join("; "));
 
     res.json({ 
       success: true, 
@@ -715,6 +779,17 @@ app.post("/api/login", (req, res) => {
       error: `Servidor de autenticação indisponível: ${error.message}` 
     });
   }
+});
+
+// All state-changing API routes below require an authenticated admin session,
+// except the cron endpoints, which use their own Bearer secret.
+app.use((req, res, next) => {
+  if (!["POST", "PUT", "PATCH", "DELETE"].includes(req.method.toUpperCase())) return next();
+  if (req.path === "/api/login") return next();
+  if (req.method === "POST" && /^\/api\/posts\/[^/]+\/view$/.test(req.path)) return next();
+  if (req.path.startsWith("/api/cron/") && isAuthorizedCron(req)) return next();
+  if (isAuthorizedAdminSession(req)) return next();
+  return res.status(401).json({ success: false, error: "Sessão administrativa inválida ou expirada." });
 });
 
 // 0.1 Change Password Route with validation & secure database persistence
@@ -735,38 +810,7 @@ app.post("/api/settings/change-password", async (req, res) => {
     const typedNewPass = newPassword.trim();
 
     const db = readDatabase();
-    const hasCustomCreds = db.settings?.customUser && db.settings?.customPassword;
-
-    let isCurrentAuthValid = false;
-
-    if (hasCustomCreds) {
-      if (typedUser.toLowerCase() === db.settings.customUser.toLowerCase() && typedPass === db.settings.customPassword) {
-        isCurrentAuthValid = true;
-      }
-    } else {
-      const adminUser = (process.env.ADMIN_USER || "admin").trim();
-      const adminPass = (process.env.ADMIN_PASSWORD || "admin123").trim();
-
-      const matchesEnvUser = typedUser === adminUser;
-      const matchesDefaultUser = typedUser.toLowerCase() === "admin";
-      const matchesBrandUser = typedUser.toLowerCase() === "storecenter";
-
-      if (matchesEnvUser || matchesDefaultUser || matchesBrandUser) {
-        const customPassMap = db.settings?.customPasswords || {};
-        const hasCustomPass = customPassMap[typedUser.toLowerCase()];
-
-        const matchesEnvPass = typedPass === adminPass;
-        const matchesDefaultPass = typedPass === "admin123";
-
-        if (hasCustomPass) {
-          isCurrentAuthValid = typedPass === hasCustomPass;
-        } else {
-          isCurrentAuthValid = matchesEnvPass || (matchesDefaultUser && matchesDefaultPass) || (matchesBrandUser && matchesDefaultPass);
-        }
-      }
-    }
-
-    if (!isCurrentAuthValid) {
+    if (!verifyAdminCredentials(db, typedUser, typedPass)) {
       return res.status(401).json({
         success: false,
         error: "A senha atual informada está incorreta."
@@ -861,8 +905,9 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       const now = new Date();
       for (const val of candidates) {
         if (val) {
-          const parsed = new Date(val);
-          if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
+          const parsedTime = parseStoredDate(val);
+          if (parsedTime > 0) {
+            const parsed = new Date(parsedTime);
             const isScheduled = String(post.status || '').trim().toLowerCase() === 'scheduled';
             if (!isScheduled && parsed.getTime() > now.getTime()) {
               continue; // Skip future date for non-scheduled posts
@@ -874,10 +919,8 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       // If we only have future uncapped/invalid candidate dates, clamp to now
       for (const val of candidates) {
         if (val) {
-          const parsed = new Date(val);
-          if (!isNaN(parsed.getTime()) && parsed.getTime() > 0) {
-            return now.toISOString();
-          }
+          const parsedTime = parseStoredDate(val);
+          if (parsedTime > 0) return now.toISOString();
         }
       }
       return now.toISOString();
@@ -895,9 +938,13 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
       }
     }
 
-    // Detect if test post by title check to prevent test posts leaking to home page
+    // Only explicit internal markers identify a test post. Editorial uses of the
+    // word "teste" (for example, a vehicle review) must remain publishable.
     const titleLower = String(normalized.title || '').trim().toLowerCase();
-    const isTestByTitle = titleLower.includes('teste') || titleLower.includes('test post') || titleLower.includes('test_post');
+    const isTestByTitle =
+      /^\[(?:teste|test)\](?:\s|$)/i.test(titleLower) ||
+      /^(?:test post|test_post)(?:\s|:|-|$)/i.test(titleLower) ||
+      /^teste\s+(?:interno|autom[aá]tico)(?:\s|:|-|$)/i.test(titleLower);
     if (normalized.isTestPost === 'true' || normalized.isTestPost === true || isTestByTitle) {
       normalized.isTestPost = true;
     } else {
@@ -1034,10 +1081,35 @@ app.get("/api/feeds", (req, res) => {
 
 app.post("/api/feeds", async (req, res) => {
   const db = readDatabase();
+  const name = String(req.body?.name || "").trim();
+  const url = String(req.body?.url || "").trim();
+  const category = String(req.body?.category || "Economia").trim();
+  const imagePolicy = ["reuse_with_credit", "reference_only", "no_reuse"].includes(String(req.body?.imagePolicy))
+    ? String(req.body.imagePolicy)
+    : "reference_only";
+
+  let parsedFeedUrl: URL;
+  try {
+    parsedFeedUrl = new URL(url);
+  } catch {
+    return res.status(400).json({ error: "URL de feed inválida." });
+  }
+  if (!name || !["http:", "https:"].includes(parsedFeedUrl.protocol)) {
+    return res.status(400).json({ error: "Nome e URL HTTP/HTTPS são obrigatórios." });
+  }
+  if (imagePolicy === "reuse_with_credit" && (!req.body?.imageLicense || !req.body?.imageCreditTemplate)) {
+    return res.status(400).json({ error: "Reutilização de imagem exige licença/autorização e crédito." });
+  }
+
   const newFeed = {
     id: "feed-" + String(Date.now()),
     status: "active",
-    ...req.body
+    name,
+    url: parsedFeedUrl.href,
+    category,
+    imagePolicy,
+    imageLicense: imagePolicy === "reuse_with_credit" ? String(req.body.imageLicense).trim() : "",
+    imageCreditTemplate: imagePolicy === "reuse_with_credit" ? String(req.body.imageCreditTemplate).trim() : ""
   };
   db.feeds.push(newFeed);
   writeDatabase(db);
@@ -1102,6 +1174,16 @@ app.put("/api/settings", async (req, res) => {
 
 // Manual RSS Trigger Endpoint for Admin Panel
 app.post("/api/ai/rss-auto-manual", async (req, res) => {
+  if (!isAuthorizedCron(req) && !isAuthorizedAdminSession(req)) {
+    return res.status(401).json({
+      status: "error",
+      "quantidade de posts criados": 0,
+      "quantidade de posts publicados": 0,
+      "horário da execução": new Date().toISOString(),
+      "erro detalhado, se existir": "Não autorizado. Use o segredo do cron no cabeçalho Bearer."
+    });
+  }
+
   try {
     const dryRun = ["1", "true", "sim", "yes"].includes(String(req.query.dryRun || req.query.dryrun || "").toLowerCase());
     if (dryRun) {
@@ -1117,7 +1199,7 @@ app.post("/api/ai/rss-auto-manual", async (req, res) => {
       });
     }
 
-    const result = await cronRssAuto();
+    const result = await runRssCronOnce();
     res.json({
       status: "success",
       "quantidade de posts criados": result.totalImported || 0,
@@ -2067,8 +2149,8 @@ Trabalhe a cobertura focando prioritariamente sob o ângulo: **${editorialAngle}
 
 ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
 1. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
-2. O corpo do texto (retornado na propriedade "content") DEVE conter no MÍNIMO 850 palavras no total para garantir profundidade máxima e espaço analítico detalhado (nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
-3. EVITE REPETIÇÃO DE ESTRUTURAS OU FRASES BOILERPLATE. Não use introduções enfadonhas tradicionais ("No cenário de...", "Esta análise visa...", "Abordaremos a seguir..."). Cada parágrafo deve começar com uma estrutura ativa diferente (ex: ganchos históricos, citações simuladas de especialistas ou dados recémcoletados).
+2. Escreva somente o que puder ser sustentado pelo título e pelo resumo fornecidos. O texto pode ser curto: prefira 250 a 600 palavras e nunca preencha lacunas para alcançar tamanho mínimo.
+3. NÃO invente nomes, números, datas, declarações, citações, estatísticas, contexto histórico, causas, consequências ou projeções. Se a fonte não trouxer um dado, omita-o ou declare de forma transparente que ele não foi informado.
 4. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
 
 Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
@@ -2082,8 +2164,8 @@ Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as se
 ### 2. O que aconteceu
 - Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor. Descreva o acontecimento principal e todos os desdobramentos de interesse público e corporativo.
 
-### 3. Contexto do setor
-- Explique o panorama atual da indústria ou segmento de mercado afetado, costurado com o foco em ${selectedCategory}. Quais discussões burocráticas, desafios corporativos, marcos regulatórios ou avanços operacionais envolvem esta área.
+### 3. Contexto confirmado
+- Inclua apenas contexto presente nas informações de origem. Não use conhecimento presumido nem complete fatos ausentes.
 
 ### 4. Impactos para empresas e consumidores
 - Desenvolva profundamente as repercussões cotidianas e estratégias de curto e longo prazo.
@@ -2091,11 +2173,11 @@ Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as se
   * **Impacto Econômico**: Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
   * **Impacto para o Cidadão**: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
 
-### 5. Dados e números relevantes
-- Apresente de forma didática em formato de lista (bullet points) as estatísticas de mercado relevantes, dados oficiais de agências públicas, percentuais, estimativas ou projeções orçamentárias detalhadas sobre ${selectedCategory}.
+### 5. Dados confirmados
+- Liste somente números que aparecem nas informações de origem, preservando unidades, atribuição e incertezas. Se não houver números, escreva "A fonte consultada não informou dados numéricos adicionais".
 
-### 6. Cenários futuros
-- Projete previsões realistas, tendências consolidadas ou desdobramentos esperados a médio e longo prazo, sinalizando o que o setor e a sociedade devem ficar de olho nos próximos meses e anos.
+### 6. Próximos passos
+- Informe apenas próximos passos explicitamente mencionados pela fonte. Não faça previsões próprias.
 
 ### 7. Conclusão
 - Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da transformação descrita sob a ótica jornalística setorial sofisticada.
@@ -2115,7 +2197,17 @@ Retorne estritamente um código JSON válido contendo exatamente as seguintes ch
   "keyword": "string",
   "imagePrompt": "string"
 }
+
 Não coloque nenhuma decoração de markdown no início ou fim, como "\`\`\`json". Retorne apenas o objeto JSON plano.`;
+}
+
+function inferImageSubjectType(text: string): "person" | "group" | "generic" {
+  const normalized = String(text || "").toLowerCase();
+  const groupSignals = /\b(equipe|sele[cç][aã]o|casal|dupla|grupo|fam[ií]lia|ministros|jogadores|deputados|senadores|empres[aá]rios)\b/i;
+  if (groupSignals.test(normalized)) return "group";
+
+  const personSignals = /\b(presidente|ministro|ministra|governador|governadora|prefeito|prefeita|senador|senadora|deputado|deputada|juiz|ju[ií]za|ator|atriz|cantor|cantora|jogador|jogadora|t[eé]cnico|empres[aá]rio|empres[aá]ria|fundador|fundadora|ceo)\b/i;
+  return personSignals.test(normalized) ? "person" : "generic";
 }
 
 function buildMultiLinkNewsComparisonPrompt(
@@ -2138,8 +2230,8 @@ ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
 1. Realize uma simulação realista de leitura dessas fontes.
 2. Identifique contradições ou divergências entre as fontes (ex: dados estatísticos diferentes, datas divergentes, nomes escritos de forma diferente). Se houver divergência, apresente um aviso detalhado no campo "conflicts". Se as fontes forem consistentes e concordantes, informe "Sem conflitos" no campo "conflicts".
 3. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
-4. O corpo do texto (retornado na propriedade "content") DEVE conter no MÍNIMO 850 palavras no total para garantir profundidade máxima e espaço analítico detalhado (nunca produza menos de 800 palavras para o "content" sob nenhuma hipótese; desenvolva parágrafos longos, analíticos e explicativos).
-5. EVITE REPETIÇÃO DE ESTRUTURAS OU FRASES BOILERPLATE. Não use introduções enfadonhas tradicionais ("No cenário de...", "Esta análise visa...", "Abordaremos a seguir..."). Cada parágrafo deve começar com uma estrutura ativa diferente (ex: ganchos históricos, citações simuladas de especialistas ou dados recém-coletados).
+4. O texto pode ser curto: prefira 250 a 700 palavras. Não preencha lacunas para alcançar tamanho mínimo.
+5. NÃO invente nomes, números, datas, declarações, citações, estatísticas, contexto, causas, consequências ou projeções. Quando as fontes não sustentarem um dado, omita-o e registre a limitação.
 6. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
 
 Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
@@ -2523,6 +2615,24 @@ const categoryImagePool: Record<string, { url: string; provider: "Unsplash" | "P
   ]
 };
 
+function getEditorialCoverForCategory(category: string): string {
+  const covers: Record<string, string> = {
+    Economia: "/assets/editorial/economia.svg",
+    Negócios: "/assets/editorial/economia.svg",
+    Política: "/assets/editorial/politica.svg",
+    Judiciário: "/assets/editorial/politica.svg",
+    Direito: "/assets/editorial/politica.svg",
+    Tecnologia: "/assets/editorial/tecnologia.svg",
+    Esporte: "/assets/editorial/esporte.svg",
+    Geopolítica: "/assets/editorial/geral.svg",
+    Nacional: "/assets/editorial/geral.svg",
+    Saúde: "/assets/editorial/geral.svg",
+    Entretenimento: "/assets/editorial/geral.svg",
+    Cultura: "/assets/editorial/geral.svg"
+  };
+  return covers[String(category || "").trim()] || covers.Nacional;
+}
+
 async function getUniqueArticleImage(
   imagePromptText: string,
   category: string,
@@ -2531,7 +2641,7 @@ async function getUniqueArticleImage(
   chosenTheme?: string
 ): Promise<{
   url: string;
-  provider: "Gemini" | "Unsplash" | "Pexels" | "Pixabay" | "Unsplash Fallback" | "Pexels Fallback" | "Pixabay Fallback" | "IA Dynamic Engine";
+  provider: "Gemini" | "Unsplash" | "Pexels" | "Pixabay" | "Unsplash Fallback" | "Pexels Fallback" | "Pixabay Fallback" | "IA Dynamic Engine" | "Store Center Editorial";
   imageStatus: "Nova" | "Repetida";
   imageHash: string;
   antiRepetitionReport: string;
@@ -2562,14 +2672,14 @@ async function getUniqueArticleImage(
   const detectedTheme = chosenTheme || detectSubTheme(combinedText, category);
 
   if (searchPromptLower.includes("force_football_rss")) {
-    const footballUrl = "https://images.unsplash.com/photo-1508098682722-e99c43a406b2?auto=format&fit=crop&w=1280&h=720&q=80";
+    const footballUrl = getEditorialCoverForCategory("Esporte");
     const footballHash = getStringHash(footballUrl);
 
     console.log(`[getUniqueArticleImage] RSS imagem fixa de futebol: ${footballUrl}`);
 
     return {
       url: footballUrl,
-      provider: "IA Dynamic Engine",
+      provider: "Store Center Editorial",
       imageStatus: "Nova",
       imageHash: footballHash,
       antiRepetitionReport: "RSS imagem fixa de futebol para Copa/FIFA/selecao"
@@ -2585,18 +2695,17 @@ async function getUniqueArticleImage(
       .slice(0, 160);
 
     const finalDynamicQuery = cleanDynamicQuery || `${category} ${title}`;
-    const randomSig = `${Date.now()}-${Math.floor(Math.random() * 100000)}`;
-    const dynamicUrl = `https://images.unsplash.com/featured/1280x720/?${encodeURIComponent(finalDynamicQuery)}&sig=${randomSig}`;
+    const dynamicUrl = getEditorialCoverForCategory(category);
     const dynamicHash = getStringHash(dynamicUrl);
 
     console.log(`[getUniqueArticleImage] RSS imagem dinâmica por assunto: ${dynamicUrl}`);
 
     return {
       url: dynamicUrl,
-      provider: "IA Dynamic Engine",
+      provider: "Store Center Editorial",
       imageStatus: "Nova",
       imageHash: dynamicHash,
-      antiRepetitionReport: `RSS imagem dinâmica por assunto: ${finalDynamicQuery}`
+      antiRepetitionReport: `Capa editorial própria selecionada por assunto: ${finalDynamicQuery}`
     };
   }
 
@@ -2661,9 +2770,10 @@ async function getUniqueArticleImage(
     }
   }
 
-  // 2. If NO unique static image is found or everything collided:
-  // Generate a brand new custom image using Gemini Imagen if initialized
-  if (ai) {
+  // 2. Paid image generation is an explicit, opt-in last resort.
+  const aiImageGenerationEnabled = ["1", "true", "yes", "sim"]
+    .includes(String(process.env.RSS_ENABLE_AI_IMAGE_GENERATION || "false").toLowerCase());
+  if (aiImageGenerationEnabled && ai) {
     try {
       const improvedPrompt = `A professional horizontal journalistic wide-angle photo representing "${title}". Realistic style, natural lighting, high dynamic range, editorial photography style in the context of "${category}". Theme focus: "${detectedTheme}". Highly detailed, 1280x720 16:9, completely clean, with absolutely NO text, NO logos, NO watermarks, and NO branding.`;
       console.log(`[getUniqueArticleImage] Gerando imagem inédita via Gemini Imagen AI para: "${title}"`);
@@ -2760,8 +2870,10 @@ function fixExistingRssPosts() {
 }
 
 // 8. Auto Cron: Fetch & Rewrite RSS Feeds
-async function cronRssAuto(options: { dryRun?: boolean } = {}) {
+async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}) {
   const dryRun = options.dryRun === true;
+  const configuredLimit = Number(options.maxPosts ?? process.env.RSS_MAX_POSTS_PER_RUN ?? 1);
+  const maxPosts = Math.min(2, Math.max(1, Number.isFinite(configuredLimit) ? Math.floor(configuredLimit) : 1));
   console.log("[CRON] Executando rotina de coleta automatizada de feeds RSS com priorização e diversidade de categorias...");
   const db = readDatabase();
   const activeFeeds = (db.feeds || []).filter((f: any) => f.status === "active");
@@ -3072,9 +3184,9 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
   const chosenWinners: any[] = [];
   const usedCategoriesThisRun = new Set<string>();
 
-  // Pick up to 2 distinct-category high ranking candidates per scraper execution
+  // Keep the restart deliberately gradual; the hard ceiling is two posts per run.
   for (const cand of eligible) {
-    if (chosenWinners.length >= 2) break;
+    if (chosenWinners.length >= maxPosts) break;
     if (usedCategoriesThisRun.has(cand.category)) continue;
 
     chosenWinners.push(cand);
@@ -3524,13 +3636,6 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text";
     }
 
-    const imageRes = await getUniqueArticleImage(
-      finalImagePrompt,
-      correctedFinalCategory,
-      sanitizedTitle,
-      db
-    );
-
     const rawSourceImageUrl = String(item.sourceImageUrl || "").trim();
     const isUsableImageUrl = (url: string) => {
       const value = String(url || "").trim();
@@ -3546,10 +3651,12 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       );
     };
 
-    const isUsableSourceImage = isUsableImageUrl(rawSourceImageUrl);
+    const feedImagePolicy = String(feed.imagePolicy || process.env.RSS_DEFAULT_IMAGE_POLICY || "reference_only").trim().toLowerCase();
+    const mayReuseSourceImage = feedImagePolicy === "reuse_with_credit";
+    const isUsableSourceImage = mayReuseSourceImage && isUsableImageUrl(rawSourceImageUrl);
 
     let pageImageUrl = "";
-    if (!isUsableSourceImage && item.link) {
+    if (mayReuseSourceImage && !isUsableSourceImage && item.link) {
       let pageTimeout: ReturnType<typeof setTimeout> | undefined;
 
       try {
@@ -3585,13 +3692,32 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       }
     }
 
-    const isUsablePageImage = isUsableImageUrl(pageImageUrl);
+    const isUsablePageImage = mayReuseSourceImage && isUsableImageUrl(pageImageUrl);
 
-    const finalResolvedImageUrl = isUsableSourceImage ? rawSourceImageUrl : (isUsablePageImage ? pageImageUrl : imageRes.url);
-    const finalImageSource = isUsableSourceImage ? "RSS Original" : (isUsablePageImage ? "Página Original" : imageRes.provider);
+    // Resolve a free curated fallback only after checking an authorized original.
+    // This prevents paid generation for an image that would be discarded later.
+    const imageRes = (!isUsableSourceImage && !isUsablePageImage)
+      ? await getUniqueArticleImage(finalImagePrompt, correctedFinalCategory, sanitizedTitle, db)
+      : null;
+
+    const finalResolvedImageUrl = isUsableSourceImage
+      ? rawSourceImageUrl
+      : (isUsablePageImage ? pageImageUrl : imageRes!.url);
+    const finalImageSource = isUsableSourceImage
+      ? "RSS Original"
+      : (isUsablePageImage ? "Página Original" : imageRes!.provider);
+    const imageStrategy = isUsableSourceImage
+      ? "source-original"
+      : (isUsablePageImage
+        ? "page-original"
+        : (imageRes?.provider === "Gemini"
+          ? "ai-generated"
+          : (imageRes?.provider === "Store Center Editorial" ? "editorial-template" : "curated-stock")));
+    const imageSubjectType = inferImageSubjectType(`${sanitizedTitle} ${sanitizedSubtitle}`);
+    const stablePostId = `rss-${getStringHash(getBaseUrl(String(item.link || finalSlug)))}`;
 
     const newPost = {
-      id: String(Date.now() + Math.floor(Math.random() * 100000)),
+      id: stablePostId,
       views: 0,
       date: new Date().toISOString(),
       title: sanitizedTitle,
@@ -3603,6 +3729,17 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       tags: [correctedFinalCategory, ...(Array.isArray(rewritten.tags) ? rewritten.tags.filter((tag: any) => String(tag) !== correctedFinalCategory).slice(0, 4) : [])],
       status: "published",
       image: finalResolvedImageUrl,
+      imageSource: finalImageSource,
+      imageStrategy,
+      imageSubjectType,
+      ...((isUsableSourceImage || isUsablePageImage) ? {
+        imageOriginalUrl: isUsableSourceImage ? rawSourceImageUrl : pageImageUrl,
+        imageCredit: String(feed.imageCreditTemplate || feed.name || "Fonte RSS"),
+        imageLicense: String(feed.imageLicense || "Autorização da fonte pendente de documentação")
+      } : (imageRes?.provider === "Store Center Editorial" ? {
+        imageCredit: "Arte editorial: Store Center",
+        imageLicense: "Criação própria"
+      } : {})),
       seoTitle: sanitizedSeoTitle,
       seoDescription: sanitizedSeoDescription,
       keyword: rewritten.keyword || "",
@@ -3635,6 +3772,22 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       };
     }
 
+    const alreadyPersisted = (db.posts || []).some((post: any) => (
+      String(post.id) === stablePostId ||
+      String(post.sourceUrl || "").trim().toLowerCase() === String(item.link || "").trim().toLowerCase()
+    ));
+    if (alreadyPersisted) {
+      console.warn(`[CRON] Item ignorado na gravação final por idempotência: ${item.link}`);
+      continue;
+    }
+
+    // On Vercel the local filesystem is ephemeral: only count a publication after
+    // Firestore confirms it was persisted.
+    const synced = await syncPost(newPost);
+    if (!synced) {
+      throw new Error(`Não foi possível persistir a matéria RSS no Firestore: ${newPost.title}`);
+    }
+
     db.posts.unshift(newPost);
     totalImported++;
     importedPosts.push(newPost.title);
@@ -3645,14 +3798,7 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       slug: finalSlug,
       sourceUrl: item.link
     });
-
-    // Sync newly created post to Firestore immediately!
-    try {
-      await syncPost(newPost);
-      console.log(`[FIREBASE] Post RSS "${newPost.title}" sincronizado com sucesso no Firestore.`);
-    } catch (fsErr: any) {
-      console.error(`[FIREBASE] Erro ao sincronizar post RSS "${newPost.title}" no Firestore:`, fsErr);
-    }
+    console.log(`[FIREBASE] Post RSS "${newPost.title}" sincronizado com sucesso no Firestore.`);
 
     // Save logs including the brand new category-diversity statistics
     if (!db.automationLogs) {
@@ -3667,8 +3813,8 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
       imageUrl: finalResolvedImageUrl,
       imageSource: finalImageSource,
       imagePrompt: newPost.imagePrompt || rewritten.imagePrompt || "Prompt não especificado",
-      antiRepetitionResult: imageRes.antiRepetitionReport,
-      imageStatus: imageRes.imageStatus,
+      antiRepetitionResult: imageRes?.antiRepetitionReport || "Imagem original autorizada preservada; fallback não foi calculado.",
+      imageStatus: imageRes?.imageStatus || "Nova",
       publishedTitle: newPost.title,
       postId: newPost.id,
       timestamp: new Date().toISOString(),
@@ -3695,6 +3841,20 @@ async function cronRssAuto(options: { dryRun?: boolean } = {}) {
   }
 
   return { success: true, totalImported, importedPosts, importedDetails };
+}
+
+let activeRssCron: Promise<any> | null = null;
+
+function runRssCronOnce(options: { dryRun?: boolean; maxPosts?: number } = {}) {
+  if (activeRssCron) {
+    console.warn("[CRON] Execução concorrente detectada; aguardando a execução já em andamento.");
+    return activeRssCron;
+  }
+
+  activeRssCron = cronRssAuto(options).finally(() => {
+    activeRssCron = null;
+  });
+  return activeRssCron;
 }
 
 function cleanCdataAndHtml(str: string): string {
@@ -4025,21 +4185,15 @@ O Store Center seguirá monitorando os próximos desdobramentos. Esta matéria f
 }
 
 function isAuthorizedCron(req: express.Request): boolean {
-  const cronSecret = process.env.CRON_SECRET;
-  if (!cronSecret) return true; // If no cron secret is configured, allow execution
-  
-  // 1. Check Query Secret ?secret=VALUE
-  const reqSecret = req.query.secret;
-  if (reqSecret === cronSecret) return true;
-  
-  // 2. Check Authorization Header (Vercel automatic Cron Header)
-  const authHeader = req.headers.authorization;
-  if (authHeader) {
-    const token = authHeader.replace(/^Bearer\s+/i, "").trim();
-    if (token === cronSecret) return true;
-  }
-  
-  return false;
+  const cronSecret = String(process.env.CRON_SECRET || "").trim();
+  if (!cronSecret) return false;
+
+  const match = String(req.headers.authorization || "").match(/^Bearer\s+(.+)$/i);
+  if (!match) return false;
+
+  const supplied = Buffer.from(match[1].trim());
+  const expected = Buffer.from(cronSecret);
+  return supplied.length === expected.length && crypto.timingSafeEqual(supplied, expected);
 }
 
 // REST Cron Route: Publish Scheduled Posts
@@ -4084,7 +4238,7 @@ app.get("/api/cron/publish-scheduled", async (req, res) => {
 });
 
 // REST Cron Route: RSS Feed Auto-Scraper
-app.get("/api/cron/rss-auto", async (req, res) => {
+app.post("/api/cron/rss-auto", async (req, res) => {
   if (!isAuthorizedCron(req)) {
     return res.status(401).json({
       status: "error",
@@ -4098,7 +4252,7 @@ app.get("/api/cron/rss-auto", async (req, res) => {
   try {
     const dryRun = ["1", "true", "sim", "yes"].includes(String(req.query.dryRun || req.query.dryrun || "").toLowerCase());
     if (dryRun) {
-      const result = await cronRssAuto({ dryRun: true });
+      const result = await runRssCronOnce({ dryRun: true, maxPosts: 1 });
       return res.json({
         status: "success",
         dryRun: true,
@@ -4112,7 +4266,7 @@ app.get("/api/cron/rss-auto", async (req, res) => {
       });
     }
 
-    const result = await cronRssAuto();
+    const result = await runRssCronOnce({ maxPosts: 1 });
     res.json({
       status: "success",
       "quantidade de posts criados": result.totalImported || 0,

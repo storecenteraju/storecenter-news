@@ -1,12 +1,40 @@
 name: Store Center RSS Auto
 
 on:
+  schedule:
+    # 08:15 no horário de Brasília (UTC-3): retomada gradual, 1 matéria por dia.
+    - cron: "15 11 * * *"
   workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Simular sem publicar"
+        required: false
+        default: true
+        type: boolean
+
+permissions: {}
+
+concurrency:
+  group: storecenter-rss-auto
+  cancel-in-progress: false
 
 jobs:
   rss-auto:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
       - name: Executar RSS automático do Store Center
+        env:
+          CRON_SECRET: ${{ secrets.CRON_SECRET }}
+          DRY_RUN: ${{ inputs.dry_run }}
         run: |
-          curl -L --fail --show-error "https://www.storecenter.com.br/api/cron/rss-auto"
+          test -n "$CRON_SECRET"
+          endpoint="https://www.storecenter.com.br/api/cron/rss-auto"
+          if [ "$DRY_RUN" = "true" ]; then
+            endpoint="$endpoint?dryRun=true"
+          fi
+          curl --location --fail --show-error --silent \
+            --retry 2 --retry-all-errors --max-time 1100 \
+            --request POST \
+            --header "Authorization: Bearer $CRON_SECRET" \
+            "$endpoint"

@@ -17,6 +17,12 @@
         "status": { "type": "string" },
         "publishAt": { "type": "string" },
         "image": { "type": "string" },
+        "imageSource": { "type": "string" },
+        "imageOriginalUrl": { "type": "string" },
+        "imageStrategy": { "type": "string" },
+        "imageSubjectType": { "type": "string" },
+        "imageCredit": { "type": "string" },
+        "imageLicense": { "type": "string" },
         "seoTitle": { "type": "string" },
         "seoDescription": { "type": "string" },
         "keyword": { "type": "string" },
@@ -37,7 +43,10 @@
         "url": { "type": "string" },
         "category": { "type": "string" },
         "status": { "type": "string" },
-        "lastScraped": { "type": "string" }
+        "lastScraped": { "type": "string" },
+        "imagePolicy": { "type": "string" },
+        "imageLicense": { "type": "string" },
+        "imageCreditTemplate": { "type": "string" }
       },
       "required": ["id", "name", "url", "category", "status"]
     },

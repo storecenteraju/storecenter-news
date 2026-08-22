@@ -107,6 +107,9 @@ export default function AdminPanel({
   const [newRssName, setNewRssName] = useState('');
   const [newRssUrl, setNewRssUrl] = useState('');
   const [newRssCategory, setNewRssCategory] = useState<CategoryType>('Economia');
+  const [newRssImagePolicy, setNewRssImagePolicy] = useState<RSSFeed['imagePolicy']>('reference_only');
+  const [newRssImageLicense, setNewRssImageLicense] = useState('');
+  const [newRssImageCredit, setNewRssImageCredit] = useState('');
 
   const [scrapingFeedId, setScrapingFeedId] = useState<string | null>(null);
   const [scrapingLoading, setScrapingLoading] = useState(false);
@@ -361,13 +364,19 @@ export default function AdminPanel({
         body: JSON.stringify({
           name: newRssName,
           url: newRssUrl,
-          category: newRssCategory
+          category: newRssCategory,
+          imagePolicy: newRssImagePolicy,
+          imageLicense: newRssImagePolicy === 'reuse_with_credit' ? newRssImageLicense.trim() : '',
+          imageCreditTemplate: newRssImagePolicy === 'reuse_with_credit' ? newRssImageCredit.trim() : ''
         })
       });
 
       if (response.ok) {
         setNewRssName('');
         setNewRssUrl('');
+        setNewRssImagePolicy('reference_only');
+        setNewRssImageLicense('');
+        setNewRssImageCredit('');
         onRefreshData();
       }
     } catch (err) {
@@ -1339,6 +1348,41 @@ export default function AdminPanel({
                 </select>
               </div>
 
+              <div>
+                <label className="block text-[9px] font-bold text-slate-500 uppercase tracking-widest mb-1">Política das imagens da fonte</label>
+                <select
+                  value={newRssImagePolicy}
+                  onChange={e => setNewRssImagePolicy(e.target.value as RSSFeed['imagePolicy'])}
+                  className="w-full p-2.5 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 text-slate-800"
+                >
+                  <option value="reference_only">Somente referência — usar capa própria</option>
+                  <option value="no_reuse">Não reutilizar</option>
+                  <option value="reuse_with_credit">Reutilização autorizada com crédito</option>
+                </select>
+                <p className="mt-1 text-[9px] leading-relaxed text-slate-400">Remover o fundo não substitui licença. Libere a reutilização apenas quando houver autorização para reprodução e transformação.</p>
+              </div>
+
+              {newRssImagePolicy === 'reuse_with_credit' && (
+                <div className="space-y-3 rounded-lg border border-amber-200 bg-amber-50 p-3">
+                  <input
+                    type="text"
+                    required
+                    placeholder="Licença/autorização (ex.: contrato editorial nº...)"
+                    value={newRssImageLicense}
+                    onChange={e => setNewRssImageLicense(e.target.value)}
+                    className="w-full p-2.5 rounded bg-white border border-amber-200 focus:outline-none focus:border-amber-500 text-slate-800"
+                  />
+                  <input
+                    type="text"
+                    required
+                    placeholder="Crédito (ex.: Foto: Nome / Órgão)"
+                    value={newRssImageCredit}
+                    onChange={e => setNewRssImageCredit(e.target.value)}
+                    className="w-full p-2.5 rounded bg-white border border-amber-200 focus:outline-none focus:border-amber-500 text-slate-800"
+                  />
+                </div>
+              )}
+
               <button 
                 type="submit" 
                 className="w-full py-2.5 bg-blue-600 text-white font-bold uppercase tracking-wide rounded hover:bg-blue-700 transition"
@@ -1535,6 +1579,7 @@ export default function AdminPanel({
                     <th className="p-3">Veículo / Fonte</th>
                     <th className="p-3">Feed URL</th>
                     <th className="p-3">Importar na Categoria</th>
+                    <th className="p-3">Imagens</th>
                     <th className="p-3 text-right">Ação de Varredura</th>
                   </tr>
                 </thead>
@@ -1545,6 +1590,11 @@ export default function AdminPanel({
                       <td className="p-3 max-w-[200px] font-mono text-slate-400 truncate">{f.url}</td>
                       <td className="p-3">
                         <span className="bg-slate-100 text-slate-700 font-bold px-2 py-0.5 rounded text-[10px] uppercase">{f.category}</span>
+                      </td>
+                      <td className="p-3">
+                        <span className="text-[9px] font-bold uppercase text-slate-500">
+                          {f.imagePolicy === 'reuse_with_credit' ? 'Autorizada + crédito' : 'Capa própria'}
+                        </span>
                       </td>
                       <td className="p-3 text-right">
                         <div className="flex items-center justify-end gap-2">
@@ -2037,7 +2087,7 @@ export default function AdminPanel({
               <h3 className="text-lg font-bold font-display text-slate-950 flex items-center gap-1.5 uppercase tracking-tight">
                 <FileText className="text-amber-600 w-5 h-5 animate-pulse" /> Logs das Rotinas RSS Automáticas
               </h3>
-              <p className="text-xs text-slate-500 mt-1">Acompanhe as notícias recentemente varridas, reescritas e publicadas na home pelo robô a cada 45 minutos.</p>
+              <p className="text-xs text-slate-500 mt-1">Acompanhe a retomada gradual do RSS: uma execução diária, limitada a uma matéria.</p>
             </div>
             
             <div className="flex gap-2">
@@ -2070,12 +2120,7 @@ export default function AdminPanel({
               
               const ultimaExecucao = lastLog ? formatDate(lastLog.timestamp) : "Nunca executado";
               
-              let proximoAgendamento = "Agendado a cada 45 minutos (via Vercel Cron)";
-              if (lastLog) {
-                const lastTime = new Date(lastLog.timestamp).getTime();
-                const nextTime = new Date(lastTime + 45 * 60 * 1000);
-                proximoAgendamento = formatDate(nextTime.toISOString());
-              }
+              const proximoAgendamento = "Diariamente às 08:15 (Brasília)";
               
               const lastRunSuccessLogs = lastSuccessLog
                 ? successfullyImportedLogs.filter((log: any) => {
@@ -2091,7 +2136,7 @@ export default function AdminPanel({
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 pb-2">
                   <div className="bg-slate-50 border border-slate-200 p-4 rounded-xl flex flex-col justify-between">
                     <div>
-                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block mb-1">Status de Escalonamento (Vercel Cron)</span>
+                      <span className="text-[9px] font-black uppercase text-slate-400 tracking-wider block mb-1">Status de Escalonamento (GitHub Actions)</span>
                       <div className="space-y-2 mt-2">
                         <div className="flex justify-between items-center text-xs">
                           <span className="text-slate-500 font-semibold">Última Execução:</span>
@@ -2105,7 +2150,7 @@ export default function AdminPanel({
                     </div>
                     <div className="border-t border-slate-200/60 pt-2 mt-3 flex items-center gap-1.5 text-[10px] text-slate-500 font-semibold">
                       <Calendar className="w-3.5 h-3.5 text-slate-400" />
-                      <span>Frequência ativa: 45 minutos</span>
+                      <span>Retomada gradual: 1 execução e até 1 matéria por dia</span>
                     </div>
                   </div>
 
@@ -2180,7 +2225,7 @@ export default function AdminPanel({
             <div className="py-16 text-center border-2 border-dashed border-slate-100 rounded-xl bg-slate-50/50 p-6 flex flex-col items-center justify-center">
               <FileText className="w-10 h-10 text-slate-300 mb-2.5" />
               <h4 className="text-sm font-bold text-slate-700">Nenhum log registrado ainda</h4>
-              <p className="text-xs text-slate-400 max-w-md mx-auto mt-1">As rotinas automáticas salvam registros aqui quando encontram novas matérias válidas nos RSS a cada execução de 45 minutos.</p>
+              <p className="text-xs text-slate-400 max-w-md mx-auto mt-1">As rotinas automáticas salvam registros aqui quando encontram uma matéria válida na execução diária.</p>
             </div>
           ) : (
             <div className="overflow-x-auto rounded-xl border border-slate-200">

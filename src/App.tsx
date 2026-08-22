@@ -3,7 +3,7 @@ import Navigation from './components/Navigation';
 import PortalHome from './components/PortalHome';
 import PostDetails from './components/PostDetails';
 import AdminPanel from './components/AdminPanel';
-import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, normalizePost } from './types';
+import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, normalizePost, getPostTimestamp } from './types';
 import { Loader2, Globe, Sparkles, Server } from 'lucide-react';
 import dbBackup from '../db.json';
 
@@ -104,6 +104,15 @@ export default function App() {
     setSelectedPost(null);
   };
 
+  const breakingNewsPost = posts
+    .map(normalizePost)
+    .filter((post) => (
+      post.status === 'published' &&
+      !post.isTestPost &&
+      getPostTimestamp(post) <= Date.now()
+    ))
+    .sort((a, b) => getPostTimestamp(b) - getPostTimestamp(a))[0];
+
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 flex flex-col font-sans">
       
@@ -121,7 +130,8 @@ export default function App() {
         }}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
-        breakingNewsTitle={posts[0]?.title}
+        breakingNewsTitle={breakingNewsPost?.title}
+        onBreakingNewsClick={breakingNewsPost ? () => handlePostClick(breakingNewsPost) : undefined}
         ads={ads}
       />
 

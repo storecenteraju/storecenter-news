@@ -1,7 +1,8 @@
 import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
-import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
+import { Post, CategoryType, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import AdSenseSlot from './AdSenseSlot';
+import EditorialImage from './EditorialImage';
 
 interface PortalHomeProps {
   posts: Post[];
@@ -31,11 +32,7 @@ export default function PortalHome({
   const last3Images: string[] = [];
 
   const getCategoryFallback = (category?: string, seed?: string): string => {
-    const cat = String(category || '').trim();
-    const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
-    const s = seed || 'default-seed';
-    const baseIndex = getDeterministicStringHash(s) % pool.length;
-    return pool[baseIndex];
+    return getCategoryFallbackImage(category, seed);
   };
 
   const getDeduplicatedImage = (post: Post) => {
@@ -46,8 +43,7 @@ export default function PortalHome({
       rawImage === 'null' || 
       rawImage === 'undefined' ||
       rawImage.includes('placeholder') || 
-      rawImage.includes('test') || 
-      rawImage.startsWith('/');
+      rawImage.includes('test');
 
     let chosenUrl = '';
 
@@ -55,23 +51,7 @@ export default function PortalHome({
       // Must NOT use fallback if the post has a valid own image!
       chosenUrl = rawImage;
     } else {
-      // Post image is a placeholder. Choose a fallback from the category pool that is NOT in the last 3 rendered images.
-      const cat = String(post.category || '').trim();
-      const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
-      const seed = post.id || post.slug || 'default-seed';
-      const baseIndex = getDeterministicStringHash(seed) % pool.length;
-
-      let found = '';
-      for (let offset = 0; offset < pool.length; offset++) {
-        const idx = (baseIndex + offset) % pool.length;
-        const url = pool[idx];
-        if (!last3Images.includes(url)) {
-          found = url;
-          break;
-        }
-      }
-
-      chosenUrl = found || pool[baseIndex];
+      chosenUrl = getCategoryFallbackImage(post.category, post.id || post.slug, new Set(last3Images));
     }
 
     // Keep sliding window of last 3 images
@@ -210,26 +190,17 @@ export default function PortalHome({
                   onClick={() => onPostClick(featurePost)}
                   className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row cursor-pointer"
                 >
-                  <div className="md:w-3/5 aspect-video md:h-auto relative overflow-hidden bg-slate-200">
-                    <img
-                      src={getDeduplicatedImage(featurePost)}
-                      alt=""
-                      referrerPolicy="no-referrer"
-                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="absolute inset-0 w-full h-full object-cover scale-150 blur-2xl opacity-90"
-                    />
-                    <div className="absolute inset-0 bg-white/10" />
-                    <img 
-                      src={getDeduplicatedImage(featurePost)} 
-                      alt={featurePost.title} 
-                      referrerPolicy="no-referrer"
-                      onError={(e) => { e.currentTarget.src = getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug); }}
-                      className="relative z-10 w-full h-full object-contain p-2 transition-transform duration-500"
-                    />
+                  <EditorialImage
+                    src={getDeduplicatedImage(featurePost)}
+                    fallbackSrc={getCategoryFallback(featurePost.category, featurePost.id || featurePost.slug)}
+                    alt={featurePost.title}
+                    className="md:w-3/5 aspect-video md:h-auto"
+                    foregroundClassName="p-2 transition-transform duration-500"
+                  >
                     <span className="absolute z-20 top-4 left-4 bg-blue-600 text-white text-[10px] font-extrabold font-display px-3 py-1.5 uppercase tracking-widest rounded shadow-sm">
                       {featurePost.category}
                     </span>
-                  </div>
+                  </EditorialImage>
                   
                   <div className="md:w-2/5 p-6 md:p-8 flex flex-col justify-between">
                     <div>
@@ -307,20 +278,19 @@ export default function PortalHome({
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
                       <div>
-                        <div className="aspect-video relative overflow-hidden bg-slate-950">
-                          <img 
-                            src={getDeduplicatedImage(post)} 
-                            alt={post.title} 
-                            referrerPolicy="no-referrer"
-                            onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
-                            className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-500"
-                          />
+                        <EditorialImage
+                          src={getDeduplicatedImage(post)}
+                          fallbackSrc={getCategoryFallback(post.category, post.id || post.slug)}
+                          alt={post.title}
+                          className="aspect-video"
+                          foregroundClassName="group-hover:scale-105 transition-transform duration-500"
+                        >
                           {(selectedCategory === 'Home' || !selectedCategory) && (
                             <span className="absolute top-3 left-3 bg-slate-950 text-white text-[9px] font-extrabold uppercase tracking-widest px-2.5 py-1 rounded">
                               {post.category}
                             </span>
                           )}
-                        </div>
+                        </EditorialImage>
 
                         <div className="p-5 flex flex-col">
                           {/* Selos acima do título da matéria */}

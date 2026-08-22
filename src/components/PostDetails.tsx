@@ -1,8 +1,9 @@
 import React, { useEffect } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
-import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp, CATEGORY_FALLBACK_POOLS, getDeterministicStringHash } from '../types';
+import { Post, AdUnit, getEditorialScore, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
 import AdSenseSlot from './AdSenseSlot';
+import EditorialImage from './EditorialImage';
 
 interface PostDetailsProps {
   post: Post;
@@ -30,11 +31,7 @@ export default function PostDetails({
   const last3Images: string[] = [];
 
   const getCategoryFallback = (category?: string, seed?: string): string => {
-    const cat = String(category || '').trim();
-    const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
-    const s = seed || 'default-seed';
-    const baseIndex = getDeterministicStringHash(s) % pool.length;
-    return pool[baseIndex];
+    return getCategoryFallbackImage(category, seed);
   };
 
   const getDeduplicatedImage = (pItem: Post) => {
@@ -45,8 +42,7 @@ export default function PostDetails({
       rawImage === 'null' || 
       rawImage === 'undefined' ||
       rawImage.includes('placeholder') || 
-      rawImage.includes('test') || 
-      rawImage.startsWith('/');
+      rawImage.includes('test');
 
     let chosenUrl = '';
 
@@ -54,23 +50,7 @@ export default function PostDetails({
       // Must NOT use fallback if the post has a valid own image!
       chosenUrl = rawImage;
     } else {
-      // Post image is a placeholder. Choose a fallback from the category pool that is NOT in the last 3 rendered images.
-      const cat = String(pItem.category || '').trim();
-      const pool = CATEGORY_FALLBACK_POOLS[cat] || CATEGORY_FALLBACK_POOLS['Nacional'];
-      const seed = pItem.id || pItem.slug || 'default-seed';
-      const baseIndex = getDeterministicStringHash(seed) % pool.length;
-
-      let found = '';
-      for (let offset = 0; offset < pool.length; offset++) {
-        const idx = (baseIndex + offset) % pool.length;
-        const url = pool[idx];
-        if (!last3Images.includes(url)) {
-          found = url;
-          break;
-        }
-      }
-
-      chosenUrl = found || pool[baseIndex];
+      chosenUrl = getCategoryFallbackImage(pItem.category, pItem.id || pItem.slug, new Set(last3Images));
     }
 
     // Keep sliding window of last 3 images
@@ -255,15 +235,19 @@ export default function PostDetails({
               </div>
 
               {/* OUTWARD BANNER IMAGE */}
-              <div className="rounded-xl overflow-hidden mb-8 max-h-[460px] border border-slate-100 bg-slate-50 shadow-inner">
-                <img 
-                  src={getDeduplicatedImage(post)} 
-                  alt={post.title} 
-                  referrerPolicy="no-referrer"
-                  onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
-                  className="w-full h-full object-cover"
+              <figure className="mb-8">
+                <EditorialImage
+                  src={getDeduplicatedImage(post)}
+                  fallbackSrc={getCategoryFallback(post.category, post.id || post.slug)}
+                  alt={post.title}
+                  className="aspect-video rounded-xl max-h-[460px] border border-slate-100 shadow-inner"
                 />
-              </div>
+                {post.imageCredit && (
+                  <figcaption className="mt-2 text-[10px] leading-relaxed text-slate-500">
+                    {post.imageCredit}{post.imageLicense ? ` • ${post.imageLicense}` : ''}
+                  </figcaption>
+                )}
+              </figure>
 
               {/* ARTICLE PARAGRAPH BLOCK 1 */}
               <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed">
@@ -338,15 +322,13 @@ export default function PostDetails({
                       onClick={() => onPostClick(rel)}
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
-                      <div className="h-32 relative overflow-hidden bg-slate-100">
-                        <img 
-                          src={getDeduplicatedImage(rel)} 
-                          alt="" 
-                          referrerPolicy="no-referrer"
-                          onError={(e) => { e.currentTarget.src = getCategoryFallback(rel.category, rel.id || rel.slug); }}
-                          className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                        />
-                      </div>
+                      <EditorialImage
+                        src={getDeduplicatedImage(rel)}
+                        fallbackSrc={getCategoryFallback(rel.category, rel.id || rel.slug)}
+                        alt={rel.title}
+                        className="h-32"
+                        foregroundClassName="group-hover:scale-105 transition-transform duration-500"
+                      />
                       
                       <div className="p-4 flex-grow flex flex-col justify-between">
                         <div>

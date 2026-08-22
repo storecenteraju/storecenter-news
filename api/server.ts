@@ -3649,6 +3649,14 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     ) {
       finalImagePrompt = "FORCE_DYNAMIC_RSS: professional tennis court clay court Roland Garros tennis player championship, realistic editorial sports photo, no text";
     } else if (
+      finalImageText.includes("fórmula 1") ||
+      finalImageText.includes("formula 1") ||
+      finalImageText.includes("pole position") ||
+      finalImageText.includes("gp da ") ||
+      finalImageText.includes("gp do ")
+    ) {
+      finalImagePrompt = "FORCE_DYNAMIC_RSS: Formula 1 race track single-seater motorsport starting grid, realistic editorial sports photo, no text, no logos";
+    } else if (
       finalImageText.includes("futebol feminino") ||
       finalImageText.includes("feminino a2") ||
       finalImageText.includes("feminino a3")
@@ -3980,6 +3988,10 @@ function buildCuriosityTitle(originalTitle: string, category: string): string {
     return `${team} está na final ${competition}: quem será o adversário?`;
   }
 
+  if (category === "Esporte" && /\b(fórmula\s*1|formula\s*1|gp\s+d[ao]|pole position|faz a pole)\b/i.test(base)) {
+    return `${truncateAtWord(base, 88)}: o que esperar da corrida?`;
+  }
+
   const acquisitionOpportunity = base.match(/^(.{2,60}?)\s+dizem\s+que\s+(?:a\s+)?aquisição\s+d[ao]\s+(.{2,45}?)\s+é\s+["'“”‘’]?oportunidade["'“”‘’]?\s+de\s+entrar\s+(?:nos?|nas?)\s+(.+)$/i);
   if (acquisitionOpportunity) {
     const people = acquisitionOpportunity[1].replace(/^os\s+/i, "").trim();
@@ -4016,6 +4028,9 @@ function buildSpecificQuestion(title: string, summary: string, category: string)
 
   if (category === "Esporte" && /(final|semifinal|decisão|decisao|classificad|vaga)/.test(text)) {
     return "Quem será o próximo adversário — e o que pode decidir a disputa pelo título?";
+  }
+  if (category === "Esporte" && /\b(fórmula\s*1|formula\s*1|gp\s+d[ao]|pole position|faz a pole)\b/.test(text)) {
+    return "Norris conseguirá transformar a pole em vitória — e até onde Bortoleto pode avançar largando em nono?";
   }
   if (text.includes("cade") && /\b(aquisição|aquisicao|compra|fusão|fusao|operação|operacao)\b/.test(text)) {
     return "O Cade aprovará a operação sem restrições — e quais condições ainda podem ser exigidas para o negócio avançar?";
@@ -4248,6 +4263,14 @@ function fallbackRewrite(item: any, feed: any) {
     imageText.includes("montadora")
   ) {
     imageTopic = "modern car showroom automotive industry vehicle launch";
+  } else if (
+    imageText.includes("fórmula 1") ||
+    imageText.includes("formula 1") ||
+    imageText.includes("pole position") ||
+    imageText.includes("gp da ") ||
+    imageText.includes("gp do ")
+  ) {
+    imageTopic = "Formula 1 race track single-seater motorsport starting grid";
   } else if (
     imageText.includes("futebol feminino") ||
     imageText.includes("feminino a2") ||

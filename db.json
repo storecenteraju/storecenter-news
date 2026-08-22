@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5aa30c1f",
+      "views": 0,
+      "date": "2026-08-22T22:54:50.107Z",
+      "title": "Campanha de candidatos a deputado federal se concentra no Instagram: o que pode mudar agora?",
+      "subtitle": "Até o horário eleitoral gratuito na televisão e no rádio começar, no dia 28, as redes sociais são o principal meio de campanha.",
+      "slug": "campanha-de-candidatos-a-deputado-federal-se-concentra-no-instagram-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nAté o horário eleitoral gratuito na televisão e no rádio começar, no dia 28, as redes sociais são o principal meio de campanha. E o Instagram é a plataforma mais utilizada pelos candidatos a deputado federal, que declararam ao Tribunal Superior Eleitoral (TSE) ter 5.973 contas nesta rede social.\n\nO que já foi informado\n\nNo total, 5.493 dos 7.679 candidatos utilizam esse canal de comunicação para campanha, o que equivale a 72%. Alguns candidatos têm mais de uma conta no Instagram. Depois dessa plataforma, as redes sociais com mais contas de campanha de candidatos a deputado são o Facebook (4.342), Tiktok (1.928), Youtube (1.143), X (859), Threads (608), Linkedin (221) e Whatsapp (142). Partidos A Agência Câmara de Notícias fez um levantamento do número de seguidores dos candidatos no Instagram, encontrando informações de 5.550 das contas declaradas no TSE. A soma é representada pelo número total de usuários por conta, e não por usuários únicos. No resultado, o PL é o partido com maior alcance no Instagram, reunindo 110,5 milhões de seguidores em 489 contas.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Campanha de candidatos a deputado federal se concentra Store Center",
+      "seoDescription": "Até o horário eleitoral gratuito na televisão e no rádio começar, no dia 28, as redes sociais são o principal meio de campanha.",
+      "keyword": "Campanha de candidatos a deputado federal se concentra no Instagram",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1299588-campanha-de-candidatos-a-deputado-federal-se-concentra-no-instagram",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Campanha de candidatos a deputado federal se concentra no Instagram",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "category": "Economia",
       "image": "https://images.pexels.com/photos/5466806/pexels-photo-5466806.jpeg?auto=compress&cs=tinysrgb&w=1280&h=720&dpr=1",
       "date": "2026-05-29T13:58:49.310Z",
@@ -994,7 +1027,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-05-29T13:58:49.310Z",
+      "lastScraped": "2026-08-22T22:54:49.400Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1002,7 +1035,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-05-29T13:58:50.699Z",
+      "lastScraped": "2026-08-22T22:54:49.542Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1012,10 +1045,12 @@
     {
       "id": "feed-3",
       "category": "Política",
-      "url": "https://www.cnnbrasil.com.br/politica/feed/",
-      "name": "CNN Brasil - Política",
+      "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-05-27T17:15:00.000Z"
+      "lastScraped": "2026-08-22T22:54:50.102Z",
+      "imagePolicy": "reference_only",
+      "lockCategory": true
     }
   ],
   "ads": [
@@ -1070,6 +1105,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787439303401",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Campanha de candidatos a deputado federal se concentra no Instagram",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Campanha de candidatos a deputado federal se concentra no Instagram: o que pode mudar agora?",
+      "postId": "rss-hash_5aa30c1f",
+      "timestamp": "2026-08-22T22:54:50.107Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem histórica (+8), Sem postagem histórica (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "antiRepetitionResult": "Aprovado: URL inédito. Hash único (hash_31b683c). Segmento visual 'juros' livre nos últimos 60 dias.",
       "id": "1780063186275",

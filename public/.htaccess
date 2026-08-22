@@ -1,0 +1,15 @@
+Options -Indexes
+
+<IfModule mod_headers.c>
+  <Files "site-data.json">
+    Header set Cache-Control "no-store, no-cache, must-revalidate, max-age=0"
+  </Files>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+  RewriteRule . /index.html [L]
+</IfModule>

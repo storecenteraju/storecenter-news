@@ -6,3 +6,5 @@ coverage/
 *.log
 .env*
 !.env.example
+db_backup.json
+public/data/site-data.json

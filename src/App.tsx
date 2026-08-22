@@ -22,7 +22,10 @@ export default function App() {
 
   const fetchPortalData = async () => {
     try {
-      const portalRes = await fetch('/api/portal-data');
+      let portalRes = await fetch('/data/site-data.json', { cache: 'no-store' });
+      if (!portalRes.ok) {
+        portalRes = await fetch('/api/portal-data');
+      }
       const contentType = portalRes.headers.get("content-type");
       if (!portalRes.ok || !contentType?.includes("application/json")) {
         throw new Error(`Falha carregando o portal: HTTP ${portalRes.status}`);

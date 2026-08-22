@@ -23,7 +23,8 @@ on:
         default: true
         type: boolean
 
-permissions: {}
+permissions:
+  contents: write
 
 concurrency:
   group: storecenter-rss-auto
@@ -34,18 +35,57 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Executar RSS automático do Store Center
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Preparar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Instalar dependências
+        run: npm ci
+
+      - name: Gerar uma matéria a partir do RSS
         env:
-          CRON_SECRET: ${{ secrets.CRON_SECRET }}
           DRY_RUN: ${{ inputs.dry_run }}
+          STATIC_PUBLISH_MODE: "true"
+          RSS_MAX_POSTS_PER_RUN: "1"
+          RSS_ENABLE_AI_IMAGE_GENERATION: "false"
+          RSS_DEFAULT_IMAGE_POLICY: "reference_only"
+        run: npm run rss:static
+
+      - name: Validar e montar o site estático
         run: |
-          test -n "$CRON_SECRET"
-          endpoint="https://www.storecenter.com.br/api/cron/rss-auto"
-          if [ "$DRY_RUN" = "true" ]; then
-            endpoint="$endpoint?dryRun=true"
+          npm run lint
+          npm run build:web
+
+      - name: Salvar a matéria no GitHub
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "Store Center RSS"
+          git config user.email "storecenteraju@users.noreply.github.com"
+          git add db.json
+          if git diff --cached --quiet; then
+            echo "Nenhuma matéria inédita para salvar."
+            exit 0
           fi
-          curl --location --fail --show-error --silent \
-            --retry 2 --retry-all-errors --max-time 1100 \
-            --request POST \
-            --header "Authorization: Bearer $CRON_SECRET" \
-            "$endpoint"
+          git commit -m "Publica matéria automática do RSS"
+          git push origin HEAD:main
+
+      - name: Instalar cliente de publicação segura
+        run: sudo apt-get update && sudo apt-get install -y lftp
+
+      - name: Publicar no endereço de teste
+        env:
+          FTP_SERVER: ${{ secrets.CPANEL_FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.CPANEL_FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.CPANEL_FTP_PASSWORD }}
+        run: |
+          test -n "$FTP_SERVER"
+          test -n "$FTP_USERNAME"
+          test -n "$FTP_PASSWORD"
+          lftp -c "set ftp:ssl-force true; set ftp:ssl-protect-data true; set ssl:verify-certificate yes; open -u \"$FTP_USERNAME\",\"$FTP_PASSWORD\" \"$FTP_SERVER\"; mirror --reverse --delete --verbose dist/ ./"

@@ -7,6 +7,9 @@ import dotenv from "dotenv";
 
 dotenv.config();
 
+const isStaticPublishMode = ["1", "true", "sim", "yes"]
+  .includes(String(process.env.STATIC_PUBLISH_MODE || "false").toLowerCase());
+
 const app = express();
 const PORT = 3000;
 const DB_PATH = path.join(process.cwd(), "db.json");
@@ -159,6 +162,7 @@ try {
 // Granular Sync Helpers to keep Firestore updated
 async function syncPost(post: any) {
   try {
+    if (isStaticPublishMode) return Boolean(post?.id);
     if (!dbStore) {
       console.warn("[FIREBASE] syncPost ignorado: Firestore indisponível.");
       return false;
@@ -256,6 +260,7 @@ async function syncSettings(settings: any) {
 
 async function syncAutomationLog(log: any) {
   try {
+    if (isStaticPublishMode) return;
     if (!dbStore) {
       console.warn("[FIREBASE] syncAutomationLog ignorado: Firestore indisponível.");
       return;
@@ -3147,6 +3152,21 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
         let description = descMatch ? descMatch[1].trim() : "";
         description = cleanCdataAndHtml(description);
 
+        // Alguns feeds oficiais (como a Agência Câmara) distribuem a matéria
+        // completa em content:encoded e deixam apenas uma linha no description.
+        // Removemos legendas/créditos visuais antes de transformar esse conteúdo
+        // em texto, evitando que a matéria comece por uma legenda de fotografia.
+        const encodedMatch = itemXml.match(/<content:encoded[^>]*>([\s\S]*?)<\/content:encoded>/i);
+        if (encodedMatch) {
+          const encodedArticle = encodedMatch[1]
+            .replace(/<div[^>]+class=["'][^"']*(?:midia-creditos|midia-legenda)[^"']*["'][^>]*>[\s\S]*?<\/div>/gi, " ")
+            .replace(/<(?:img|iframe)\b[^>]*>/gi, " ");
+          const fullDescription = cleanCdataAndHtml(encodedArticle);
+          if (fullDescription.length > description.length + 120) {
+            description = fullDescription;
+          }
+        }
+
         const enclosureMatch = itemXml.match(/<enclosure[^>]+url=["']([^"']+)["'][^>]*>/i);
         const mediaContentMatch = itemXml.match(/<media:content[^>]+url=["']([^"']+)["'][^>]*>/i);
         const mediaThumbMatch = itemXml.match(/<media:thumbnail[^>]+url=["']([^"']+)["'][^>]*>/i);
@@ -3390,7 +3410,10 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       sanitizedContent || sanitizedSubtitle || "",
       rewritten.category || winner.category || "Economia"
     );
-    let correctedFinalCategory = scraperCategory || winner.category || rewritten.category || "Economia";
+    // A categoria temática do próprio feed é o sinal mais confiável. O
+    // classificador continua como fallback e as regras específicas abaixo ainda
+    // corrigem casos inequívocos (saúde, esporte, tecnologia etc.).
+    let correctedFinalCategory = winner.category || scraperCategory || rewritten.category || "Economia";
 
     if (
       finalClassifierText.includes("saúde") ||
@@ -3872,7 +3895,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       sourceUrl: item.link,
       sourceName: feed.name || "Fonte RSS",
       rssOriginalTitle: item.title,
-      isAiGenerated: true,
+      isAiGenerated: Boolean(rewritten.isAiGenerated ?? ai),
       visualTheme: chosenTheme,
       editorialAngle: editorialAngle
     };
@@ -4018,9 +4041,11 @@ function splitCompleteSentences(value: string): string[] {
     .trim();
   if (!normalized) return [];
 
-  const matches = normalized.match(/[^.!?]+(?:[.!?]+|$)/g) || [];
+  // Evita interpretar o separador de milhar brasileiro como fim de frase.
+  const protectedNumbers = normalized.replace(/(\d)\.(?=\d)/g, "$1\u0000");
+  const matches = protectedNumbers.match(/[^.!?]+(?:[.!?]+|$)/g) || [];
   return matches
-    .map((sentence) => sentence.trim())
+    .map((sentence) => sentence.replace(/\u0000/g, ".").trim())
     .filter((sentence) => (
       Boolean(sentence) &&
       !/^[a-záéíóúâêôãõç]/.test(sentence) &&
@@ -4113,6 +4138,9 @@ function buildSpecificQuestion(title: string, summary: string, category: string)
   if (/(preço|preco|tarifa|imposto|juros|inflação|inflacao|salário|salario)/.test(text)) {
     return "Quando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?";
   }
+  if (category === "Política" && /(campanha|candidat|eleição|eleicao|instagram|rede social)/.test(text)) {
+    return "A concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?";
+  }
   if (/(projeto|proposta|votação|votacao|senado|câmara|camara|congresso)/.test(text)) {
     return "Qual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?";
   }
@@ -4170,7 +4198,8 @@ function fallbackRewrite(item: any, feed: any) {
     .replace(/\s+/g, " ")
     .trim();
 
-  category = autoCategorizeNews(originalTitle, summary, category);
+  const inferredCategory = autoCategorizeNews(originalTitle, summary, category);
+  category = feed?.lockCategory ? (feed.category || inferredCategory) : inferredCategory;
 
   const primaryTopicText = `${originalTitle} ${summary.slice(0, 450)}`.toLowerCase();
   const geoText = primaryTopicText;
@@ -4297,7 +4326,7 @@ function fallbackRewrite(item: any, feed: any) {
     specificQuestion,
     "O que observar agora",
     "A resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.",
-    `Esta matéria foi elaborada a partir do resumo distribuído por ${sourceName}. O link para a publicação original está disponível ao final do texto.`
+    `Esta matéria foi elaborada a partir do conteúdo distribuído por ${sourceName}. O link para a publicação original está disponível ao final do texto.`
   ];
   const content = contentParts.join("\n\n");
   const imageText = (originalTitle + " " + summary).toLowerCase();
@@ -4388,7 +4417,7 @@ function fallbackRewrite(item: any, feed: any) {
     keyword: originalTitle,
     imagePrompt: `FORCE_DYNAMIC_RSS: ${imageTopic}. Editorial realistic news photo, horizontal 16:9, no text, no logos.`,
     sourceUrl,
-    isAiGenerated: true,
+    isAiGenerated: false,
     hasKey: false
   };
 }
@@ -4677,9 +4706,9 @@ async function startServer() {
   });
 }
 
-if (!process.env.VERCEL) {
+if (!process.env.VERCEL && !isStaticPublishMode) {
   startServer();
 }
 
-export { app };
+export { app, runRssCronOnce };
 export default app;

@@ -53,8 +53,9 @@ app.use(async (req, res, next) => {
   const isLoginRoute = pathStr.includes("login") || pathStr.includes("/login");
   const isAssetRoute = pathStr.startsWith("/assets/") || pathStr.includes("/assets/");
   const isHealthRoute = pathStr === "/api/health";
+  const isPortalDataRoute = pathStr === "/api/portal-data";
   
-  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute;
+  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute && !isPortalDataRoute;
 
   if (needsDB) {
     try {
@@ -96,7 +97,7 @@ try {
 
 const firebaseConfig = {
   projectId: process.env.FIREBASE_PROJECT_ID || rawFirebaseConfig.projectId || "ai-studio-applet-webapp-b9f98",
-  firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-fef3ad45-6066-4367-9e43-1a32c77e76bb",
+  firestoreDatabaseId: process.env.FIREBASE_FIRESTORE_DATABASE_ID || rawFirebaseConfig.firestoreDatabaseId || "ai-studio-3c537543-715d-410d-acfe-18a611de2057",
 };
 
 let firebaseApp: any = null;
@@ -325,6 +326,40 @@ function parseStoredDate(value: unknown): number {
   }
   const parsed = new Date(text).getTime();
   return Number.isFinite(parsed) ? parsed : 0;
+}
+
+async function loadPortalDataFromFirestore() {
+  if (!dbStore) {
+    throw new Error("Firestore não está inicializado.");
+  }
+
+  const snaps = await Promise.race([
+    Promise.all([
+      dbStore.collection("posts").get(),
+      dbStore.collection("feeds").get(),
+      dbStore.collection("ads").get(),
+      dbStore.collection("settings").doc("main").get()
+    ]),
+    new Promise<never>((_, reject) =>
+      setTimeout(() => reject(new Error("Timeout de 15000ms tentando carregar os dados públicos")), 15000)
+    )
+  ]);
+
+  const [postsSnap, feedsSnap, adsSnap, settingsSnap] = snaps as any[];
+  const posts: any[] = [];
+  postsSnap.forEach((docSnap: any) => posts.push(docSnap.data()));
+  posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
+
+  const feeds: any[] = [];
+  feedsSnap.forEach((docSnap: any) => feeds.push(docSnap.data()));
+
+  const ads: any[] = [];
+  adsSnap.forEach((docSnap: any) => ads.push(docSnap.data()));
+
+  const settings = settingsSnap.exists ? settingsSnap.data() : (dbCache.settings || {});
+  dbCache = { ...dbCache, posts, feeds, ads, settings };
+
+  return { posts, feeds, ads, settings };
 }
 
 async function loadDatabaseFromFirestore() {
@@ -893,6 +928,26 @@ app.post("/api/settings/change-password", async (req, res) => {
 });
 
 // 1. Posts CRUD
+app.get("/api/portal-data", async (req, res) => {
+  try {
+    const portalData = await loadPortalDataFromFirestore();
+    res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=600");
+    res.setHeader("X-Store-Center-Data-Source", "firestore");
+    res.json(portalData);
+  } catch (error: any) {
+    console.error("[PORTAL] Falha ao carregar dados públicos do Firestore:", error);
+    const db = readDatabase();
+    res.setHeader("Cache-Control", "no-store, max-age=0");
+    res.setHeader("X-Store-Center-Data-Source", "local-fallback");
+    res.json({
+      posts: db.posts || [],
+      feeds: db.feeds || [],
+      ads: db.ads || [],
+      settings: db.settings || {}
+    });
+  }
+});
+
 app.get("/api/posts", (req, res) => {
   const db = readDatabase();
   res.setHeader("Cache-Control", isDatabaseLoaded

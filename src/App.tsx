@@ -22,40 +22,17 @@ export default function App() {
 
   const fetchPortalData = async () => {
     try {
-      const pRes = await fetch('/api/posts');
-      const fRes = await fetch('/api/feeds');
-      const aRes = await fetch('/api/ads');
-      const sRes = await fetch('/api/settings');
+      const portalRes = await fetch('/api/portal-data');
+      const contentType = portalRes.headers.get("content-type");
+      if (!portalRes.ok || !contentType?.includes("application/json")) {
+        throw new Error(`Falha carregando o portal: HTTP ${portalRes.status}`);
+      }
 
-      let fetchedPosts = null;
-      let fetchedFeeds = null;
-      let fetchedAds = null;
-      let fetchedSettings = null;
-
-      if (pRes.ok) {
-        const ct = pRes.headers.get("content-type");
-        if (ct && ct.includes("application/json")) {
-          fetchedPosts = await pRes.json();
-        }
-      }
-      if (fRes.ok) {
-        const ct = fRes.headers.get("content-type");
-        if (ct && ct.includes("application/json")) {
-          fetchedFeeds = await fRes.json();
-        }
-      }
-      if (aRes.ok) {
-        const ct = aRes.headers.get("content-type");
-        if (ct && ct.includes("application/json")) {
-          fetchedAds = await aRes.json();
-        }
-      }
-      if (sRes.ok) {
-        const ct = sRes.headers.get("content-type");
-        if (ct && ct.includes("application/json")) {
-          fetchedSettings = await sRes.json();
-        }
-      }
+      const portalData = await portalRes.json();
+      const fetchedPosts = portalData?.posts;
+      const fetchedFeeds = portalData?.feeds;
+      const fetchedAds = portalData?.ads;
+      const fetchedSettings = portalData?.settings;
 
       if (Array.isArray(fetchedPosts) && fetchedPosts.length > 0) {
         setPosts(fetchedPosts.map(normalizePost));

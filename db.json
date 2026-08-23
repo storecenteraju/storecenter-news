@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7f6eb08c",
+      "views": 0,
+      "date": "2026-08-23T08:01:47.602Z",
+      "title": "Observatório Nacional da Mulher na Política completa cinco anos e mostra acervo de pesquisas: o que pode mudar agora?",
+      "subtitle": "A Secretaria da Mulher da Câmara dos Deputados promoveu seminário nesta quarta-feira (19) para comemorar os cinco anos do Observatório Nacional da Mulher na Política, criado em 2021 para monitorar indicadores e centralizar pesquisas sobre o tema.",
+      "slug": "observatorio-nacional-da-mulher-na-politica-completa-cinco-anos-e-mostra-acervo-de-pesquisas-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA Secretaria da Mulher da Câmara dos Deputados promoveu seminário nesta quarta-feira (19) para comemorar os cinco anos do Observatório Nacional da Mulher na Política, criado em 2021 para monitorar indicadores e centralizar pesquisas sobre o tema. A coordenadora-geral do observatório, deputada Iza Arruda (MDB-PE), destacou o trabalho em rede com foco em três eixos principais: violência política contra a mulher, atuação parlamentar, além de atuação partidária e processos eleitorais.\n\nO que já foi informado\n\n“Foi um esforço coletivo graças à cooperação com universidades, órgãos públicos, instituição de pesquisas, organismos internacionais e entidades da sociedade civil. Em cinco anos, essa rede de parceria resultou em mais de 30 publicações, entre notas técnicas, relatórios científicos e cartilhas”, salientou. O seminário também serviu para mostrar parte desse acervo de pesquisas, ações e parcerias. Ex-reitora da Universidade Federal de Goiás (UFG), a coordenadora do projeto “De Olho nas Urnas” Angelita Pereira de Lima resumiu os avanços. “O observatório, nesses cinco anos, já é uma referência para os temas mulheres na política, igualdade de gênero e combate à violência política.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Observatório Nacional da Mulher na Política completa Store Center",
+      "seoDescription": "A Secretaria da Mulher da Câmara dos Deputados promoveu seminário nesta quarta-feira (19) para comemorar os cinco anos do Observatório Nacional da Mul",
+      "keyword": "Observatório Nacional da Mulher na Política completa cinco anos e mostra acervo de pesquisas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1299062-observatorio-nacional-da-mulher-na-politica-completa-cinco-anos-e-mostra-acervo-de-pesquisas",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Observatório Nacional da Mulher na Política completa cinco anos e mostra acervo de pesquisas",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1cd508a7",
       "views": 0,
       "date": "2026-08-23T03:50:16.729Z",
@@ -1093,7 +1126,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T03:50:05.730Z",
+      "lastScraped": "2026-08-23T08:01:46.104Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1101,7 +1134,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T03:50:06.215Z",
+      "lastScraped": "2026-08-23T08:01:46.755Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1114,7 +1147,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-22T22:54:50.102Z",
+      "lastScraped": "2026-08-23T08:01:47.592Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1171,6 +1204,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787472121973",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Observatório Nacional da Mulher na Política completa cinco anos e mostra acervo de pesquisas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Observatório Nacional da Mulher na Política completa cinco anos e mostra acervo de pesquisas: o que pode mudar agora?",
+      "postId": "rss-hash_7f6eb08c",
+      "timestamp": "2026-08-23T08:01:47.602Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.1h (+8), Sem postagem há 9.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787457076803",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_632ba7df",
+      "views": 0,
+      "date": "2026-08-23T15:13:53.174Z",
+      "title": "Presidente da República eleito neste ano vai tomar posse no dia 5 de janeiro: o que pode mudar agora?",
+      "subtitle": "Pela primeira vez nos últimos 31 anos, o presidente da República vai tomar posse em 5 de janeiro, e não no primeiro dia do ano.",
+      "slug": "presidente-da-republica-eleito-neste-ano-vai-tomar-posse-no-dia-5-de-janeiro-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nPela primeira vez nos últimos 31 anos, o presidente da República vai tomar posse em 5 de janeiro, e não no primeiro dia do ano. O dia 1º estava previsto na Constituição de 1988, mas a data foi alterada pela Emenda Constitucional 111, de 2021.\n\nO que já foi informado\n\nJá os governadores serão empossados em 6 de janeiro. Deputados federais e senadores continuam a tomar posse em 1º de fevereiro. A proposta que deu origem à mudança de data foi apresentada em 2011 na Câmara dos Deputados (PEC 125/11) pelo deputado Carlos Sampaio (PSD-SP). Ao longo dos anos, diversas propostas tentaram mudar a data. Como explica o consultor legislativo Roberto Carlos, o fato de o 1º de janeiro ser um feriado internacional dificultava a organização da cerimônia de posse. “E é um dia em que se comemora a passagem do ano, então tem todo um simbolismo envolvido nisso, isso dificultava a vinda de chefes de Estado estrangeiros para a posse do presidente da República eleito no Brasil.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente da República eleito neste ano vai tomar Store Center",
+      "seoDescription": "Pela primeira vez nos últimos 31 anos, o presidente da República vai tomar posse em 5 de janeiro, e não no primeiro dia do ano.",
+      "keyword": "Presidente da República eleito neste ano vai tomar posse no dia 5 de janeiro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1298895-presidente-da-republica-eleito-neste-ano-vai-tomar-posse-no-dia-5-de-janeiro",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Presidente da República eleito neste ano vai tomar posse no dia 5 de janeiro",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_14bbde31",
       "views": 0,
       "date": "2026-08-23T13:16:58.253Z",
@@ -1192,7 +1225,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T13:16:56.722Z",
+      "lastScraped": "2026-08-23T15:13:51.203Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1200,7 +1233,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T13:16:57.093Z",
+      "lastScraped": "2026-08-23T15:13:52.315Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1213,7 +1246,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-23T13:16:58.242Z",
+      "lastScraped": "2026-08-23T15:13:53.163Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1270,6 +1303,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787498034174",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Presidente da República eleito neste ano vai tomar posse no dia 5 de janeiro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente da República eleito neste ano vai tomar posse no dia 5 de janeiro: o que pode mudar agora?",
+      "postId": "rss-hash_632ba7df",
+      "timestamp": "2026-08-23T15:13:53.174Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.2h (+8), Sem postagem há 7.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787491102791",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_42ed1169",
+      "views": 0,
+      "date": "2026-08-23T02:10:03.488Z",
+      "title": "Como será o supercomputador brasileiro de IA com investimento de R$ 1 bilhão?",
+      "subtitle": "Lula discursa durante anúncio de supercomputador no RN. O Brasil deverá ter um novo supercomputador em operação a partir de 2027.",
+      "slug": "como-sera-o-supercomputador-brasileiro-de-ia-com-investimento-de-r-1-bilhao",
+      "content": "O que aconteceu\n\nLula discursa durante anúncio de supercomputador no RN. O Brasil deverá ter um novo supercomputador em operação a partir de 2027.\n\nO que já foi informado\n\nO projeto anunciado na última quinta-feira (20) faz parte de um plano voltado à inteligência artificial e prevê um investimento de R$ 1,06 bilhão. A máquina será comprada por meio de edital e ficará instalada no Parque Científico e Tecnológico Augusto Severo, em Macaíba (RN). Entre outras funções, servirá para criar e treinar modelos de IA. O governo apresentou ainda um projeto para instalar outro supercomputador no Rio de Janeiro, além de planos para criar um serviço brasileiro de armazenamento em nuvem e ampliar a fabricação local de chips. As iniciativas fazem parte do Plano Brasileiro de Inteligência Artificial (PBIA), lançado em 2024 e com previsão de R$ 23 bilhões em investimentos na área até 2028.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como será o supercomputador brasileiro de IA com Store Center",
+      "seoDescription": "Lula discursa durante anúncio de supercomputador no RN. O Brasil deverá ter um novo supercomputador em operação a partir de 2027.",
+      "keyword": "Como será o supercomputador brasileiro de IA com investimento de R$ 1 bilhão",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/inovacao/noticia/2026/08/22/como-sera-o-supercomputador-brasileiro-de-ia-com-investimento-de-r-1-bilhao.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Como será o supercomputador brasileiro de IA com investimento de R$ 1 bilhão",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5aa30c1f",
       "views": 0,
       "date": "2026-08-22T22:54:50.107Z",
@@ -1027,7 +1060,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-22T22:54:49.400Z",
+      "lastScraped": "2026-08-23T02:09:51.355Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1035,7 +1068,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-22T22:54:49.542Z",
+      "lastScraped": "2026-08-23T02:09:52.971Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1105,6 +1138,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787451101665",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como será o supercomputador brasileiro de IA com investimento de R$ 1 bilhão",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como será o supercomputador brasileiro de IA com investimento de R$ 1 bilhão?",
+      "postId": "rss-hash_42ed1169",
+      "timestamp": "2026-08-23T02:10:03.489Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem histórica (+8), Sem postagem histórica (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787439303401",
       "feedName": "Agência Câmara - Política",

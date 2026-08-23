@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1cd508a7",
+      "views": 0,
+      "date": "2026-08-23T03:50:16.729Z",
+      "title": "Nova lei faz Google, Meta e TikTok pagarem por notícias: o que está em jogo no mercado?",
+      "subtitle": "Governo estabelece novas regras para big techs atuarem no Brasil; veja principais pontos A Austrália aprovou nesta quinta-feira (20) uma lei que pode obrigar grandes empresas de tecnologia a pagar milhões de dólares australianos a veículos de imprensa do país.",
+      "slug": "nova-lei-faz-google-meta-e-tiktok-pagarem-por-noticias-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nGoverno estabelece novas regras para big techs atuarem no Brasil; veja principais pontos A Austrália aprovou nesta quinta-feira (20) uma lei que pode obrigar grandes empresas de tecnologia a pagar milhões de dólares australianos a veículos de imprensa do país caso não façam acordos comerciais para financiar a produção de notícias. A chamada News Bargaining Incentive prevê uma cobrança equivalente a 2,5% da receita de das plataformas que se enquadrarem na regra e não cumprirem as exigências previstas na legislação.\n\nO que já foi informado\n\nA medida vale para empresas com serviços relevantes de busca ou redes sociais na Austrália e receita anual de no país superior a 250 milhões de dólares australianos (cerca de US$ 178 milhões), Google, Meta, TikTok e LinkedIn estão entre os alvos A cobrança poderá atingir empresas como Google, da Alphabet, Meta, TikTok e LinkedIn, da Microsoft. 'Não sabia o quanto minha filha era viciada': brasileiros contam como foi a proibição de redes sociais na Austrália O dinheiro arrecadado será destinado a veículos de imprensa australianos.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nova lei faz Google, Meta e TikTok pagarem por Store Center",
+      "seoDescription": "Governo estabelece novas regras para big techs atuarem no Brasil; veja principais pontos A Austrália aprovou nesta quinta-feira (20) uma lei que pode",
+      "keyword": "Nova lei faz Google, Meta e TikTok pagarem por notícias; entenda",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/20/australia-aprova-lei-que-pode-cobrar-de-gigantes-de-tecnologia-por-noticias.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Nova lei faz Google, Meta e TikTok pagarem por notícias; entenda",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_42ed1169",
       "views": 0,
       "date": "2026-08-23T02:10:03.488Z",
@@ -1060,7 +1093,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T02:09:51.355Z",
+      "lastScraped": "2026-08-23T03:50:05.730Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1068,7 +1101,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T02:09:52.971Z",
+      "lastScraped": "2026-08-23T03:50:06.215Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1138,6 +1171,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787457076803",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nova lei faz Google, Meta e TikTok pagarem por notícias; entenda",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nova lei faz Google, Meta e TikTok pagarem por notícias: o que está em jogo no mercado?",
+      "postId": "rss-hash_1cd508a7",
+      "timestamp": "2026-08-23T03:50:16.729Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 2125.3h (+8), Sem postagem há 2125.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787451101665",
       "feedName": "G1 - Economia",

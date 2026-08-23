@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_14bbde31",
+      "views": 0,
+      "date": "2026-08-23T13:16:58.253Z",
+      "title": "Google paga US$ 10 milhões por dados de companhia aérea falida para treinar IA: o que muda para usuários e empresas?",
+      "subtitle": "O Google vai pagar US$ 10 milhões (R$ 51,7 milhões) pelos dados internos da Spirit Airlines, companhia aérea conhecida pelas passagens de baixo custo que encerrou as operações em maio após enfrentar preços elevados do combustível de aviação e uma pesada.",
+      "slug": "google-paga-us-10-milhoes-por-dados-de-companhia-aerea-falida-para-treinar-ia-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO Google vai pagar US$ 10 milhões (R$ 51,7 milhões) pelos dados internos da Spirit Airlines, companhia aérea conhecida pelas passagens de baixo custo que encerrou as operações em maio após enfrentar preços elevados do combustível de aviação e uma pesada dívida. Segundo reportagem da Forbes, o material será usado para treinar modelos de inteligência artificial da empresa.\n\nO que já foi informado\n\nSpirit Airlines O conjunto de dados inclui centenas de milhões de e-mails de funcionários, mensagens do Microsoft Teams, planilhas, calendários e informações operacionais. Todo o conteúdo será anonimizado antes da venda. O valor dos dados foi suficiente para provocar uma disputa entre empresas. O Google venceu a startup de rotulagem de dados Mercor, que havia oferecido US$ 7,5 milhões (R$ 38,77 milhões). Dados corporativos se tornaram especialmente valiosos para o treinamento de sistemas de inteligência artificial porque os laboratórios já haviam vasculhado praticamente toda a internet pública até o fim de 2024.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Google paga US$ 10 milhões por dados de companhia aérea Store Center",
+      "seoDescription": "O Google vai pagar US$ 10 milhões (R$ 51,7 milhões) pelos dados internos da Spirit Airlines, companhia aérea conhecida pelas passagens de baixo custo",
+      "keyword": "Google paga US$ 10 milhões por dados de companhia aérea falida para treinar IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/19/google-paga-us-10-milhoes-por-dados-de-companhia-aerea-falida-para-treinar-ia.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Google paga US$ 10 milhões por dados de companhia aérea falida para treinar IA",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_19e26732",
       "views": 0,
       "date": "2026-08-23T10:36:33.917Z",
@@ -1159,7 +1192,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T10:36:32.061Z",
+      "lastScraped": "2026-08-23T13:16:56.722Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1167,7 +1200,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T10:36:32.728Z",
+      "lastScraped": "2026-08-23T13:16:57.093Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1180,7 +1213,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-23T10:36:33.903Z",
+      "lastScraped": "2026-08-23T13:16:58.242Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1237,6 +1270,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787491102791",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Google paga US$ 10 milhões por dados de companhia aérea falida para treinar IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Google paga US$ 10 milhões por dados de companhia aérea falida para treinar IA: o que muda para usuários e empresas?",
+      "postId": "rss-hash_14bbde31",
+      "timestamp": "2026-08-23T13:16:58.253Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 2134.8h (+8), Sem postagem há 2134.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787481480167",
       "feedName": "G1 - Economia",

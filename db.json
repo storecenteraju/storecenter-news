@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5073c96b",
+      "views": 0,
+      "date": "2026-08-23T17:41:58.714Z",
+      "title": "Mega-Sena: aposta única de Santa Catarina ganha quase R$ 58 milhões: por que isso importa para a economia?",
+      "subtitle": "G1 Loterias - Mega-Sena 3048 O sorteio do concurso da Mega-Sena foi realizado neste domingo (23), em São Paulo.",
+      "slug": "mega-sena-aposta-unica-de-santa-catarina-ganha-quase-r-58-milhoes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nG1 Loterias - Mega-Sena 3048 O sorteio do concurso da Mega-Sena foi realizado neste domingo (23), em São Paulo. Uma aposta única de Blumenau, em Santa Catarina, acertou os seis números e levou o prêmio de R$ 57.261.598,09.\n\nO que já foi informado\n\nVeja os números sorteados: 44 - 06 - 27 - 50 - 02 - 39 Setenta e seis apostas fizeram cinco acertos e levaram R$ 34.212,24. Outras 4.346 apostas acertaram quatro números, com prêmio de R$ 986,17. Números sorteados no concurso 3048 da Mega-sena, em 23 de agosto de 2026. A Mega tem três sorteios semanais: às terças, quintas e domingos. Para apostar na Mega-Sena Como funciona a Mega-Sena?\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena: aposta única de Santa Catarina ganha quase Store Center",
+      "seoDescription": "G1 Loterias - Mega-Sena 3048 O sorteio do concurso da Mega-Sena foi realizado neste domingo (23), em São Paulo.",
+      "keyword": "Mega-Sena: aposta única de Santa Catarina ganha quase R$ 58 milhões; confira os números sorteados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/23/mega-sena-concurso-3048-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Mega-Sena: aposta única de Santa Catarina ganha quase R$ 58 milhões; confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_632ba7df",
       "views": 0,
       "date": "2026-08-23T15:13:53.174Z",
@@ -1225,7 +1258,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T15:13:51.203Z",
+      "lastScraped": "2026-08-23T17:41:57.187Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1233,7 +1266,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T15:13:52.315Z",
+      "lastScraped": "2026-08-23T17:41:57.882Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1246,7 +1279,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-23T15:13:53.163Z",
+      "lastScraped": "2026-08-23T17:41:58.703Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1303,6 +1336,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787506997407",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena: aposta única de Santa Catarina ganha quase R$ 58 milhões; confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena: aposta única de Santa Catarina ganha quase R$ 58 milhões: por que isso importa para a economia?",
+      "postId": "rss-hash_5073c96b",
+      "timestamp": "2026-08-23T17:41:58.714Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 2067.7h (+8), Sem postagem há 2067.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787498034174",
       "feedName": "Agência Câmara - Política",

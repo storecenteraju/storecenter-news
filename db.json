@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6336f39b",
+      "views": 0,
+      "date": "2026-08-23T19:58:35.634Z",
+      "title": "não é só choro: como o emoji virou o mais popular do mundo em 2025: por que isso importa para a economia?",
+      "subtitle": "Carinha chorando é o emoji mais usado de 2025 O emoji mais popular do mundo em 2025 foi o , um rosto com expressão de choro intenso e lágrimas abundantes.",
+      "slug": "nao-e-so-choro-como-o-emoji-virou-o-mais-popular-do-mundo-em-2025-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nCarinha chorando é o emoji mais usado de 2025 O emoji mais popular do mundo em 2025 foi o , um rosto com expressão de choro intenso e lágrimas abundantes. Para as novas gerações, ele é multiuso, usado quando algo é tão engraçado, emocionante ou constrangedor que dá vontade de chorar.\n\nO que já foi informado\n\nEm seguida, apareceram o e o , ambos usados para expressar risadas acompanhadas de lágrimas. Os dados foram divulgados pelo Google ao jornal americano The New York Times (NYT) e têm como base uma amostra de 665 milhões de emojis usados no mundo todo por meio do Gboard, teclado da empresa integrado à maioria dos dispositivos Android. Segundo o jornal, que analisou postagens no Reddit com o apoio de linguistas, parte da popularidade do emoji no último ano pode ser explicada por uma mudança cultural: os jovens passaram a considerar que alguns emojis estavam sendo usados em excesso e migraram para outras opções. Agora no g1 De acordo com os especialistas consultados pelo NYT, os adolescentes costumam ser os primeiros a adotar novas formas de linguagem, especialmente as meninas e mulheres, que tendem a manter mais conexões sociais e um vocabulário emocional mais amplo.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "não é só choro: como o emoji virou o mais popular do Store Center",
+      "seoDescription": "Carinha chorando é o emoji mais usado de 2025 O emoji mais popular do mundo em 2025 foi o , um rosto com expressão de choro intenso e lágrimas abunda",
+      "keyword": "não é só choro: como o emoji virou o mais popular do mundo em 2025; veja o ranking",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/19/emojis-mais-populares.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "😭 não é só choro: como o emoji virou o mais popular do mundo em 2025; veja o ranking",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_5073c96b",
       "views": 0,
       "date": "2026-08-23T17:41:58.714Z",
@@ -1258,7 +1291,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T17:41:57.187Z",
+      "lastScraped": "2026-08-23T19:58:33.845Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1266,7 +1299,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T17:41:57.882Z",
+      "lastScraped": "2026-08-23T19:58:34.671Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1279,7 +1312,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-23T17:41:58.703Z",
+      "lastScraped": "2026-08-23T19:58:35.619Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1336,6 +1369,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787515147457",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "😭 não é só choro: como o emoji virou o mais popular do mundo em 2025; veja o ranking",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "não é só choro: como o emoji virou o mais popular do mundo em 2025: por que isso importa para a economia?",
+      "postId": "rss-hash_6336f39b",
+      "timestamp": "2026-08-23T19:58:35.635Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 2141.5h (+8), Sem postagem há 2141.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787506997407",
       "feedName": "G1 - Economia",

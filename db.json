@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_51b1e27d",
+      "views": 0,
+      "date": "2026-08-24T22:44:15.902Z",
+      "title": "Nova Zelândia apresentará projeto de lei que proíbe redes sociais para menores: por que isso importa para a economia?",
+      "subtitle": "O primeiro-ministro da Nova Zelândia, Christopher Luxon, disse nesta segunda-feira (24) que seu partido apresentará ao Parlamento um projeto de lei para proibir crianças menores de 16 anos de usar redes sociais.",
+      "slug": "nova-zelandia-apresentara-projeto-de-lei-que-proibe-redes-sociais-para-menores-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO primeiro-ministro da Nova Zelândia, Christopher Luxon, disse nesta segunda-feira (24) que seu partido apresentará ao Parlamento um projeto de lei para proibir crianças menores de 16 anos de usar redes sociais. A proposta prevê multas de até 10% da receita global das plataformas que não cumprirem a medida.\n\nO que já foi informado\n\nO texto exigiria que as empresas adotassem medidas razoáveis para verificar a idade dos usuários, incluindo o uso de informações de contas existentes, tecnologia de reconhecimento facial e documentos de identidade digital. \"Simplesmente não podemos aceitar o mal que está sendo causado a uma geração de crianças neozelandesas\", disse Luxon em um comunicado. França aprova proibição de redes sociais para menores de 15 anos; medida é inédita na UE \"As redes sociais estão expondo-as a conteúdo prejudicial, tecnologias viciantes e pressões para as quais não estão preparadas. Isso está afetando sua vida familiar, saúde mental, sono e educação\", afirmou. Ainda não está claro se o projeto terá apoio suficiente para ser aprovado pelo Parlamento. Um dos partidos que integram a coalizão de governo de Luxon, o Nova Zelândia Primeiro, já afirmou que não apoiará a proposta.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nova Zelândia apresentará projeto de lei que proíbe Store Center",
+      "seoDescription": "O primeiro-ministro da Nova Zelândia, Christopher Luxon, disse nesta segunda-feira (24) que seu partido apresentará ao Parlamento um projeto de lei pa",
+      "keyword": "Nova Zelândia apresentará projeto de lei que proíbe redes sociais para menores de 16 anos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/24/nova-zelandia-apresentara-projeto-de-lei-que-proibe-redes-sociais-para-menores-de-16-anos.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Nova Zelândia apresentará projeto de lei que proíbe redes sociais para menores de 16 anos",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_63be9367",
       "views": 0,
       "date": "2026-08-24T20:04:14.400Z",
@@ -1621,7 +1654,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T20:04:12.519Z",
+      "lastScraped": "2026-08-24T22:44:14.248Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1629,7 +1662,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T20:04:13.228Z",
+      "lastScraped": "2026-08-24T22:44:15.056Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1642,7 +1675,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T20:04:14.390Z",
+      "lastScraped": "2026-08-24T22:44:15.890Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1699,6 +1732,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787611530998",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nova Zelândia apresentará projeto de lei que proíbe redes sociais para menores de 16 anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nova Zelândia apresentará projeto de lei que proíbe redes sociais para menores: por que isso importa para a economia?",
+      "postId": "rss-hash_51b1e27d",
+      "timestamp": "2026-08-24T22:44:15.902Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.8h (+8), Sem postagem há 26.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787601889145",
       "feedName": "Agência Câmara - Política",

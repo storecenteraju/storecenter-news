@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_52b5f916",
+      "views": 0,
+      "date": "2026-08-24T03:54:00.029Z",
+      "title": "PIX fora do ar? Clientes de banco relatam instabilidade do serviço; Banco: por que isso importa para a economia?",
+      "subtitle": "Clientes de bancos brasileirosrelataram neste domigno (23) instabilidade nas operações do PIX. A plataforma Downdetector, que monitora serviços on-line, registrava, às 08h30 deste domingo, 2.431 relatos de que o serviço não estava funcionando.",
+      "slug": "pix-fora-do-ar-clientes-de-banco-relatam-instabilidade-do-servico-banco-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nClientes de bancos brasileirosrelataram neste domigno (23) instabilidade nas operações do PIX. A plataforma Downdetector, que monitora serviços on-line, registrava, às 08h30 deste domingo, 2.431 relatos de que o serviço não estava funcionando.\n\nO que já foi informado\n\nÀs 10h50, havia 117 relatos. Em nota, o Banco Central confirmou a instabilidade, mas disse que os sistemas já restabelecidos. \"Na manhã deste domingo, a equipe técnica do Banco Central identificou uma instabilidade nos sistemas do Pix, que gerou dificuldades na realização de transações nas primeiras horas do dia. Os sistemas foram prontamente restabelecida e o Pix funciona normalmente\", diz a nota. Plataforma Downdetector registra reclamações de instabilidade no funcionamento do PIX, em 23 de agosto de 2026. Veja, abaixo, alguns dos relatos de usuários nas redes sociais: Relato de PIX fora do ar, em 23 de agosto de 2026.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "PIX fora do ar? Clientes de banco relatam instabilidade Store Center",
+      "seoDescription": "Clientes de bancos brasileirosrelataram neste domigno (23) instabilidade nas operações do PIX. A plataforma Downdetector, que monitora serviços on-lin",
+      "keyword": "PIX fora do ar? Clientes de banco relatam instabilidade do serviço; Banco Central diz que sistema foi restabelecido",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/23/pix-fora-do-ar-clientes-de-bancos-relatam-instabilidade-do-servico.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "PIX fora do ar? Clientes de banco relatam instabilidade do serviço; Banco Central diz que sistema foi restabelecido",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7f56f52c",
       "views": 0,
       "date": "2026-08-24T02:08:30.310Z",
@@ -1357,7 +1390,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T02:08:29.061Z",
+      "lastScraped": "2026-08-24T03:53:48.984Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1365,7 +1398,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T02:08:29.348Z",
+      "lastScraped": "2026-08-24T03:53:49.509Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1435,6 +1468,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787543686627",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "PIX fora do ar? Clientes de banco relatam instabilidade do serviço; Banco Central diz que sistema foi restabelecido",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "PIX fora do ar? Clientes de banco relatam instabilidade do serviço; Banco: por que isso importa para a economia?",
+      "postId": "rss-hash_52b5f916",
+      "timestamp": "2026-08-24T03:54:00.030Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787537369727",
       "feedName": "Agência Câmara - Política",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e00d0e5",
+      "views": 0,
+      "date": "2026-08-24T15:31:56.496Z",
+      "title": "Estudo avalia destinação de emendas parlamentares para a área de segurança pública: o que pode mudar agora?",
+      "subtitle": "Estudo da Consultoria de Orçamento da Câmara dos Deputados, feito a pedido da Liderança do Psol, mostra que as emendas parlamentares para a área de segurança pública não estão sendo destinadas aos municípios que têm altos índices de violência.",
+      "slug": "estudo-avalia-destinacao-de-emendas-parlamentares-para-a-area-de-seguranca-publica-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nEstudo da Consultoria de Orçamento da Câmara dos Deputados, feito a pedido da Liderança do Psol, mostra que as emendas parlamentares para a área de segurança pública não estão sendo destinadas aos municípios que têm altos índices de violência. Quase 100% dos municípios com violência acima da média estadual não receberam emendas parlamentares de segurança entre 2022 e 2026.\n\nO que já foi informado\n\nOs consultores Eugênio Greggianin, Fidelis Antônio Fantin Júnior e Giordano Bruno Ronconi e os analistas Bruno Dutra e Gabriel Mendonça criaram dois indicadores de violência para fazer a análise. Os dados usados no estudo são do Instituto Brasileiro de Geografia e Estatística (IBGE), do Sistema Nacional de Informações de Segurança Pública e do Sistema Integrado de Administração Financeira. O primeiro indicador é o Índice de Violência Municipal (IVM). Ele mede a taxa de violência por 100 mil habitantes e reúne três subíndices: mortes violentas intencionais; violência grave não letal; e mortes por causa determinável. O segundo é o Índice de Adequação da Alocação (IAA). Ele mede se a participação de um município nas emendas do seu estado é proporcional à sua participação na violência estadual.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Estudo avalia destinação de emendas parlamentares para Store Center",
+      "seoDescription": "Estudo da Consultoria de Orçamento da Câmara dos Deputados, feito a pedido da Liderança do Psol, mostra que as emendas parlamentares para a área de se",
+      "keyword": "Estudo avalia destinação de emendas parlamentares para a área de segurança pública",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1297898-estudo-avalia-destinacao-de-emendas-parlamentares-para-a-area-de-seguranca-publica",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Estudo avalia destinação de emendas parlamentares para a área de segurança pública",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_19f92d79",
       "views": 0,
       "date": "2026-08-24T13:33:11.263Z",
@@ -1522,7 +1555,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T13:33:10.322Z",
+      "lastScraped": "2026-08-24T15:31:54.540Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1530,7 +1563,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T13:33:10.568Z",
+      "lastScraped": "2026-08-24T15:31:54.907Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1543,7 +1576,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T13:33:11.252Z",
+      "lastScraped": "2026-08-24T15:31:56.486Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1600,6 +1633,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787585562084",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Estudo avalia destinação de emendas parlamentares para a área de segurança pública",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Estudo avalia destinação de emendas parlamentares para a área de segurança pública: o que pode mudar agora?",
+      "postId": "rss-hash_7e00d0e5",
+      "timestamp": "2026-08-24T15:31:56.496Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.1h (+8), Sem postagem há 7.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787578402859",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_179acd97",
+      "views": 0,
+      "date": "2026-08-24T17:54:54.944Z",
+      "title": "Eleições 2026: ministro da Fazenda defende combater 'pejotização' para conter déficit: o que está em jogo no mercado?",
+      "subtitle": "O ministro da Fazenda, Dario Durigan, defendeu nesta segunda-feira (24) o combate à chamada \"pejotização\" como forma de combater o crescente rombo na Previdência Social.",
+      "slug": "eleicoes-2026-ministro-da-fazenda-defende-combater-pejotizacao-para-conter-deficit-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO ministro da Fazenda, Dario Durigan, defendeu nesta segunda-feira (24) o combate à chamada \"pejotização\" como forma de combater o crescente rombo na Previdência Social. A \"pejotização\" é uma contratação sistemática de trabalhadores como pessoas jurídicas (PJ), e não como empregados com carteira assinada.\n\nO que já foi informado\n\nO modelo é legal em diversas atividades, mas gera controvérsia quando é usado para substituir vínculos formais de trabalho previstos na legislação trabalhista. Em entrevista à Broadcast, da Agência Estado, Durigan falou novamente como representante da campanha à reeleição do presidente Luiz Inácio Lula da Silva (PT) — que busca um quarto mandato. De acordo com o ministro, há estudos que mostram que algumas empresas tiveram uma migração de empregados celetistas para \"pejotizados\", o que estaria gerando uma piora no déficit da Previdência Social. Agora no g1 Esses empregados podem, por exemplo, estar sendo contratados como microempreendedores, que têm contribuição reduzida. \"Poderia se ter uma regra no país de uma porcentagem do que uma empresa contrata como pejotizado ou não. Se tem 10% contratado como pejotizado , está terceirizando um serviço e que é da regra do jogo, é ok.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições 2026: ministro da Fazenda defende combater Store Center",
+      "seoDescription": "O ministro da Fazenda, Dario Durigan, defendeu nesta segunda-feira (24) o combate à chamada \"pejotização\" como forma de combater o crescente rombo na",
+      "keyword": "Eleições 2026: ministro da Fazenda defende combater 'pejotização' para conter déficit da Previdência Social",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/24/eleicoes-2026-ministro-da-fazenda-defende-combater-pejotizacao-para-reduzir-deficit-da-previdencia-social.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Eleições 2026: ministro da Fazenda defende combater 'pejotização' para conter déficit da Previdência Social",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7e00d0e5",
       "views": 0,
       "date": "2026-08-24T15:31:56.496Z",
@@ -1555,7 +1588,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T15:31:54.540Z",
+      "lastScraped": "2026-08-24T17:54:43.928Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1563,7 +1596,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T15:31:54.907Z",
+      "lastScraped": "2026-08-24T17:54:44.427Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1633,6 +1666,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787594114680",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Eleições 2026: ministro da Fazenda defende combater 'pejotização' para conter déficit da Previdência Social",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições 2026: ministro da Fazenda defende combater 'pejotização' para conter déficit: o que está em jogo no mercado?",
+      "postId": "rss-hash_179acd97",
+      "timestamp": "2026-08-24T17:54:54.944Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.5h (+8), Sem postagem há 9.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787585562084",
       "feedName": "Agência Câmara - Política",

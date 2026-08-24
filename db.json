@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7f56f52c",
+      "views": 0,
+      "date": "2026-08-24T02:08:30.310Z",
+      "title": "Eleições deste ano vão definir 54 vagas no Senado e todas as 513 vagas da Câmara: o que pode mudar agora?",
+      "subtitle": "No dia 4 de outubro deste ano, além do presidente da República, dos deputados distritais e estaduais e dos 27 governadores, serão eleitos 513 deputados federais e 54 senadores.",
+      "slug": "eleicoes-deste-ano-vao-definir-54-vagas-no-senado-e-todas-as-513-vagas-da-camara-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nNo dia 4 de outubro deste ano, além do presidente da República, dos deputados distritais e estaduais e dos 27 governadores, serão eleitos 513 deputados federais e 54 senadores. Os deputados federais são os representantes do povo, eleitos em voto proporcional nas 27 unidades da federação de acordo com uma regra que estabelece um mínimo de oito deputados por unidade da federação, como é o caso de Roraima, Distrito Federal e Acre, por exemplo, e, no máximo, 70 deputados, como é o caso de São Paulo.\n\nO que já foi informado\n\nJá os senadores eleitos são representantes dos interesses de cada estado no Poder Legislativo e são eleitos por voto majoritário. Cada unidade da federação (estados e DF) é representada por três senadores com mandatos de oito anos. As eleições para o Senado ocorrem a cada quatro anos: em uma delas, são eleitos dois senadores por estado, como é o caso deste ano, e em outra é eleito apenas um. O cientista político da Academia Brasileira de Direito Eleitoral e Político (Abradep) Celso Fernandes da Silva Júnior considera importante que o eleitor conheça os poderes e os deveres dos eleitos.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições deste ano vão definir 54 vagas no Senado e Store Center",
+      "seoDescription": "No dia 4 de outubro deste ano, além do presidente da República, dos deputados distritais e estaduais e dos 27 governadores, serão eleitos 513 deputado",
+      "keyword": "Eleições deste ano vão definir 54 vagas no Senado e todas as 513 vagas da Câmara",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1298957-eleicoes-deste-ano-vao-definir-54-vagas-no-senado-e-todas-as-513-vagas-da-camara",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Eleições deste ano vão definir 54 vagas no Senado e todas as 513 vagas da Câmara",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_4c0328f0",
       "views": 0,
       "date": "2026-08-23T22:38:33.397Z",
@@ -1324,7 +1357,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-23T22:38:22.903Z",
+      "lastScraped": "2026-08-24T02:08:29.061Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1332,7 +1365,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-23T22:38:23.156Z",
+      "lastScraped": "2026-08-24T02:08:29.348Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1345,7 +1378,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-23T19:58:35.619Z",
+      "lastScraped": "2026-08-24T02:08:30.296Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1402,6 +1435,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787537369727",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Eleições deste ano vão definir 54 vagas no Senado e todas as 513 vagas da Câmara",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições deste ano vão definir 54 vagas no Senado e todas as 513 vagas da Câmara: o que pode mudar agora?",
+      "postId": "rss-hash_7f56f52c",
+      "timestamp": "2026-08-24T02:08:30.310Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.9h (+8), Sem postagem há 10.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787524778599",
       "feedName": "G1 - Economia",

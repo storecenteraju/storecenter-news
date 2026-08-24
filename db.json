@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_20b61fcc",
+      "views": 0,
+      "date": "2026-08-24T10:50:22.452Z",
+      "title": "O 'segundo aluguel' está mais caro: condomínio sobe acima da inflação e pesa até 40% do: como isso afeta a população?",
+      "subtitle": "Novos empreendimentos imobiliários investem em áreas de lazer, o que aumenta o custo do condomínio Georg Ismar/dpa/picture alliance No Brasil, ao menos 40 milhões de pessoas vivem em condomínios.",
+      "slug": "o-segundo-aluguel-esta-mais-caro-condominio-sobe-acima-da-inflacao-e-pesa-ate-40-do-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nNovos empreendimentos imobiliários investem em áreas de lazer, o que aumenta o custo do condomínio Georg Ismar/dpa/picture alliance No Brasil, ao menos 40 milhões de pessoas vivem em condomínios. Para muitos nessa situação, gastos com serviços e segurança já fazem parte do cotidiano.\n\nO que já foi informado\n\nMas, podendo chegar a até 40% do valor de um aluguel mensal, essa cobrança extra é chamada muitas vezes de \"segundo aluguel\". Atualmente, o valor médio do condomínio pago no país é de R$ 516 por mês, segundo dados do Censo Condominial 2025/2026 da plataforma uCondo. A plataforma leva em conta apenas espaços de habitação em condições formalizadas, com o total de condomínios no país sendo bem superior. Essa taxa vem crescendo nos últimos anos. Entre 2022 e 2025, a inflação condominial no Brasil foi de 25%, superando a elevação média do Índice Nacional de Preços ao Consumidor Amplo (IPCA) no período. Agora no g1 O estudo aponta que esse aumento é resultado direto de custos operacionais mais altos e de uma gestão que, cada vez mais, busca manter serviços essenciais e valorizar os empreendimentos.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O 'segundo aluguel' está mais caro: condomínio sobe Store Center",
+      "seoDescription": "Novos empreendimentos imobiliários investem em áreas de lazer, o que aumenta o custo do condomínio Georg Ismar/dpa/picture alliance No Brasil,",
+      "keyword": "O 'segundo aluguel' está mais caro: condomínio sobe acima da inflação e pesa até 40% do aluguel",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/24/o-segundo-aluguel-esta-mais-caro-condominio-sobe-acima-da-inflacao-e-pesa-ate-40percent-do-aluguel.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "O 'segundo aluguel' está mais caro: condomínio sobe acima da inflação e pesa até 40% do aluguel",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_74d44603",
       "views": 0,
       "date": "2026-08-24T08:27:07.785Z",
@@ -1456,7 +1489,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T08:27:05.914Z",
+      "lastScraped": "2026-08-24T10:50:20.933Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1464,7 +1497,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T08:27:06.767Z",
+      "lastScraped": "2026-08-24T10:50:21.586Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1477,7 +1510,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T08:27:07.771Z",
+      "lastScraped": "2026-08-24T10:50:22.440Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1534,6 +1567,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787568651282",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O 'segundo aluguel' está mais caro: condomínio sobe acima da inflação e pesa até 40% do aluguel",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O 'segundo aluguel' está mais caro: condomínio sobe acima da inflação e pesa até 40% do: como isso afeta a população?",
+      "postId": "rss-hash_20b61fcc",
+      "timestamp": "2026-08-24T10:50:22.453Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.9h (+8), Sem postagem há 6.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787560062568",
       "feedName": "Agência Câmara - Política",

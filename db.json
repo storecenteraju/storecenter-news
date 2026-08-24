@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_74d44603",
+      "views": 0,
+      "date": "2026-08-24T08:27:07.785Z",
+      "title": "Encontro na Câmara celebra cinco anos do Observatório Nacional da Mulher na Política: o que pode mudar agora?",
+      "subtitle": "A Secretaria da Mulher da Câmara dos Deputados realiza um encontro nesta quarta-feira (19) para celebrar os cinco anos do Observatório Nacional da Mulher na Política.",
+      "slug": "encontro-na-camara-celebra-cinco-anos-do-observatorio-nacional-da-mulher-na-politica-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA Secretaria da Mulher da Câmara dos Deputados realiza um encontro nesta quarta-feira (19) para celebrar os cinco anos do Observatório Nacional da Mulher na Política. O evento vai ocorrer no auditório Freitas Nobre a partir das 14 horas.\n\nO que já foi informado\n\nVeja a programação O Observatório Criado em junho de 2021 e vinculado à Secretaria da Mulher, o Observatório produz, reúne e divulga dados sobre a participação política feminina no Brasil. O trabalho se distribui em três eixos. O primeiro trata da violência política contra a mulher. O segundo acompanha a atuação parlamentar e temas relacionados à produtividade legislativa. Já o terceiro examina a atuação partidária e os processos eleitorais que afetam a presença feminina na política. As pesquisas são feitas em cooperação técnica com universidades, órgãos públicos, institutos de pesquisa, organismos internacionais e entidades da sociedade civil.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Encontro na Câmara celebra cinco anos do Observatório Store Center",
+      "seoDescription": "A Secretaria da Mulher da Câmara dos Deputados realiza um encontro nesta quarta-feira (19) para celebrar os cinco anos do Observatório Nacional da Mul",
+      "keyword": "Encontro na Câmara celebra cinco anos do Observatório Nacional da Mulher na Política",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1298755-encontro-na-camara-celebra-cinco-anos-do-observatorio-nacional-da-mulher-na-politica",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Encontro na Câmara celebra cinco anos do Observatório Nacional da Mulher na Política",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_46d8826c",
       "views": 0,
       "date": "2026-08-24T06:00:20.943Z",
@@ -1423,7 +1456,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T06:00:19.375Z",
+      "lastScraped": "2026-08-24T08:27:05.914Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1431,7 +1464,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T06:00:19.923Z",
+      "lastScraped": "2026-08-24T08:27:06.767Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1444,7 +1477,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T06:00:20.935Z",
+      "lastScraped": "2026-08-24T08:27:07.771Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1501,6 +1534,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787560062568",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Encontro na Câmara celebra cinco anos do Observatório Nacional da Mulher na Política",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Encontro na Câmara celebra cinco anos do Observatório Nacional da Mulher na Política: o que pode mudar agora?",
+      "postId": "rss-hash_74d44603",
+      "timestamp": "2026-08-24T08:27:07.786Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.3h (+8), Sem postagem há 6.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787551303059",
       "feedName": "G1 - Economia",

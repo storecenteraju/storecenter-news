@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_19f92d79",
+      "views": 0,
+      "date": "2026-08-24T13:33:11.263Z",
+      "title": "Free flow: CNH do Brasil passa a exibir passagens e como pagar o pedágio eletrônico: por que esse movimento importa?",
+      "subtitle": "Tamoios O Ministério dos Transportes atualizou, nesta segunda-feira (24), o aplicativo CNH do Brasil.",
+      "slug": "free-flow-cnh-do-brasil-passa-a-exibir-passagens-e-como-pagar-o-pedagio-eletronico-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nTamoios O Ministério dos Transportes atualizou, nesta segunda-feira (24), o aplicativo CNH do Brasil. Com a mudança, a plataforma passa a reunir informações que permitem aos motoristas verificar quando passaram por um pedágio do sistema \"free flow\".\n\nO que já foi informado\n\nO free flow é um sistema de pedágio eletrônico sem cancelas que permite a cobrança automática da tarifa sem que o motorista precise parar ou reduzir a velocidade. Segundo o Ministério dos Transportes, todas as passagens por rodovias estarão listadas no aplicativo, “sejam elas federais ou estaduais. Além da consulta, o cidadão terá acesso a informações centralizadas para identificar, pela plataforma, a concessionária responsável e acessar o respectivo canal indicado para pagamento do pedágio”. Para encontrar as passagens pelo free flow, o motorista precisa: Abrir o aplicativo CNH do Brasil; Tocar na opção “Veículos”; Escolher e tocar no veículo na lista exibida; Tocar na opção “Pedágio eletrônico”. Antes da implementação da funcionalidade em um único aplicativo, o motorista precisava identificar o canal de atendimento de cada concessionária pela qual passava.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Free flow: CNH do Brasil passa a exibir passagens e Store Center",
+      "seoDescription": "Tamoios O Ministério dos Transportes atualizou, nesta segunda-feira (24), o aplicativo CNH do Brasil.",
+      "keyword": "Free flow: CNH do Brasil passa a exibir passagens e como pagar o pedágio eletrônico",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/08/24/free-flow-cnh-do-brasil.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Free flow: CNH do Brasil passa a exibir passagens e como pagar o pedágio eletrônico",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_20b61fcc",
       "views": 0,
       "date": "2026-08-24T10:50:22.452Z",
@@ -1489,7 +1522,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T10:50:20.933Z",
+      "lastScraped": "2026-08-24T13:33:10.322Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1497,7 +1530,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T10:50:21.586Z",
+      "lastScraped": "2026-08-24T13:33:10.568Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1510,7 +1543,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T10:50:22.440Z",
+      "lastScraped": "2026-08-24T13:33:11.252Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1567,6 +1600,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787578402859",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Free flow: CNH do Brasil passa a exibir passagens e como pagar o pedágio eletrônico",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Free flow: CNH do Brasil passa a exibir passagens e como pagar o pedágio eletrônico: por que esse movimento importa?",
+      "postId": "rss-hash_19f92d79",
+      "timestamp": "2026-08-24T13:33:11.263Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 35.4h (+8), Sem postagem há 35.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787568651282",
       "feedName": "G1 - Economia",

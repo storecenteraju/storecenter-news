@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_63be9367",
+      "views": 0,
+      "date": "2026-08-24T20:04:14.400Z",
+      "title": "Projeto amplia punição para ataques digitais contra mulheres na política: o que pode mudar agora?",
+      "subtitle": "O Projeto de Lei 3191/26 inclui, entre as formas de violência política contra a mulher, a criação ou compartilhamento de vídeos manipulados digitalmente ou gerados por inteligência artificial que possam induzir a erro sobre a identidade da vítima ou suas.",
+      "slug": "projeto-amplia-punicao-para-ataques-digitais-contra-mulheres-na-politica-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO Projeto de Lei 3191/26 inclui, entre as formas de violência política contra a mulher, a criação ou compartilhamento de vídeos manipulados digitalmente ou gerados por inteligência artificial que possam induzir a erro sobre a identidade da vítima ou suas opiniões. Em análise na Câmara dos Deputados, a proposta altera a Lei 14.192/21, que estabeleceu normas para combater a violência política contra as mulheres, e o Código Eleitoral.\n\nO que já foi informado\n\nAumento da pena Pelo projeto, a pena para esse tipo de crime, atualmente de 1 a 4 anos de reclusão e multa, será aumentada de um terço até metade quando cometido pela internet, redes sociais, aplicativos de mensagens ou qualquer outro meio digital. A regra valerá quando essas condutas tiverem a finalidade de impedir, dificultar ou restringir o exercício dos direitos políticos da mulher.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Projeto amplia punição para ataques digitais contra Store Center",
+      "seoDescription": "O Projeto de Lei 3191/26 inclui, entre as formas de violência política contra a mulher, a criação ou compartilhamento de vídeos manipulados digitalmen",
+      "keyword": "Projeto amplia punição para ataques digitais contra mulheres na política",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1299474-projeto-amplia-punicao-para-ataques-digitais-contra-mulheres-na-politica",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Projeto amplia punição para ataques digitais contra mulheres na política",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_179acd97",
       "views": 0,
       "date": "2026-08-24T17:54:54.944Z",
@@ -1588,7 +1621,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T17:54:43.928Z",
+      "lastScraped": "2026-08-24T20:04:12.519Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1596,7 +1629,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T17:54:44.427Z",
+      "lastScraped": "2026-08-24T20:04:13.228Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1609,7 +1642,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T15:31:56.486Z",
+      "lastScraped": "2026-08-24T20:04:14.390Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1666,6 +1699,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787601889145",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Projeto amplia punição para ataques digitais contra mulheres na política",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Projeto amplia punição para ataques digitais contra mulheres na política: o que pode mudar agora?",
+      "postId": "rss-hash_63be9367",
+      "timestamp": "2026-08-24T20:04:14.400Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.6h (+8), Sem postagem há 11.6h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787594114680",
       "feedName": "G1 - Economia",

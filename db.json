@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_46d8826c",
+      "views": 0,
+      "date": "2026-08-24T06:00:20.943Z",
+      "title": "Google, Apple e mais: o que está em jogo no mercado?",
+      "subtitle": "Veja as 10 profissões mais valorizadas da tecnologia Estar entre as empresas mais valiosas do mundo não significa automaticamente ser o melhor lugar para construir uma carreira.",
+      "slug": "google-apple-e-mais-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nVeja as 10 profissões mais valorizadas da tecnologia Estar entre as empresas mais valiosas do mundo não significa automaticamente ser o melhor lugar para construir uma carreira. É o que mostra um estudo do Burning Glass Institute e da Schultz Family Foundation, que analisou a trajetória profissional de 12 milhões de trabalhadores em 1.750 grandes empresas dos Estados Unidos entre 2019 e 2024.\n\nO que já foi informado\n\nO levantamento, chamado Where You Work Matters 2026, utilizou informações de plataformas como LinkedIn e Glassdoor para avaliar três fatores principais: as chances de promoção nos primeiros cinco anos de carreira, a retenção de funcionários e a remuneração oferecida. A partir desses indicadores, o estudo concedeu selos às empresas mais bem avaliadas em diferentes categorias. São eles: Overall Employer (Avaliação Geral): mede o desempenho da empresa considerando simultaneamente crescimento profissional, estabilidade e oportunidades de carreira. Growth (Crescimento): avalia as chances de promoção e progressão profissional dos funcionários. Stability (Estabilidade): mede a capacidade da empresa de reter trabalhadores por mais tempo.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Google, Apple e mais: o que está em jogo no mercado? Store Center",
+      "seoDescription": "Veja as 10 profissões mais valorizadas da tecnologia Estar entre as empresas mais valiosas do mundo não significa automaticamente ser o melhor lugar p",
+      "keyword": "Google, Apple e mais: veja como é trabalhar nas empresas mais valiosas no mundo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/24/veja-como-e-trabalhar-nas-empresas-mais-valiosas-no-mundo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Google, Apple e mais: veja como é trabalhar nas empresas mais valiosas no mundo",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_52b5f916",
       "views": 0,
       "date": "2026-08-24T03:54:00.029Z",
@@ -1390,7 +1423,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T03:53:48.984Z",
+      "lastScraped": "2026-08-24T06:00:19.375Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1398,7 +1431,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T03:53:49.509Z",
+      "lastScraped": "2026-08-24T06:00:19.923Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1411,7 +1444,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T02:08:30.296Z",
+      "lastScraped": "2026-08-24T06:00:20.935Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1468,6 +1501,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787551303059",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Google, Apple e mais: veja como é trabalhar nas empresas mais valiosas no mundo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Google, Apple e mais: o que está em jogo no mercado?",
+      "postId": "rss-hash_46d8826c",
+      "timestamp": "2026-08-24T06:00:20.943Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.4h (+8), Sem postagem há 19.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Nacional",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787543686627",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_33d46b94",
+      "views": 0,
+      "date": "2026-08-25T02:03:47.582Z",
+      "title": "Famílias iranianas lutam para comprar o básico enquanto EUA intensificam guerra: o que está em jogo no mercado?",
+      "subtitle": "Siga o canal de notícias internacionais do g1 no WhatsApp Apesar do governo de Teerã negar que a guerra econômica declarada pelos EUA vá afetar o país, relatos mostram que muitas famílias estão passando por dificuldades.",
+      "slug": "familias-iranianas-lutam-para-comprar-o-basico-enquanto-eua-intensificam-guerra-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nSiga o canal de notícias internacionais do g1 no WhatsApp Apesar do governo de Teerã negar que a guerra econômica declarada pelos EUA vá afetar o país, relatos mostram que muitas famílias estão passando por dificuldades. De acordo com a AP, o desemprego está disparando e aqueles que têm emprego estão trabalhando mais horas por um salário que equivale à metade do que era há um ano, tornando alimentos, remédios e tudo o mais — com exceção da gasolina, que é fortemente subsidiada — ainda mais inacessíveis.\n\nO que já foi informado\n\n“Praticamente desistimos de muitas coisas. Cortamos as frutas, cortamos as proteínas, abrimos mão do lazer e até trabalhamos nos fins de semana\", di Ahmad Karimi, de 52 anos, taxista e pai de dois filhos, que tem trabalhado 15 horas por dia para conseguir sustentar a família. Ela reclamou que a compra custou 89 milhões de riais, cerca de US$ 65 - o equivalente a R$ 337. O arroz está 60% mais caro e o preço da carne bovina aumentou 150% no país desde o início da guerra.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Famílias iranianas lutam para comprar o básico enquanto Store Center",
+      "seoDescription": "Siga o canal de notícias internacionais do g1 no WhatsApp Apesar do governo de Teerã negar que a guerra econômica declarada pelos EUA vá afetar o pa",
+      "keyword": "Famílias iranianas lutam para comprar o básico enquanto EUA intensificam guerra econômica",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/08/21/familias-iranianas-lutam-para-comprar-o-basico-enquanto-eua-intensificam-guerra-economica.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Famílias iranianas lutam para comprar o básico enquanto EUA intensificam guerra econômica",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_51b1e27d",
       "views": 0,
       "date": "2026-08-24T22:44:15.902Z",
@@ -1654,7 +1687,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-24T22:44:14.248Z",
+      "lastScraped": "2026-08-25T02:03:45.105Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1662,7 +1695,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-24T22:44:15.056Z",
+      "lastScraped": "2026-08-25T02:03:46.461Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1675,7 +1708,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-24T22:44:15.890Z",
+      "lastScraped": "2026-08-25T02:03:47.570Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1732,6 +1765,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787623508010",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Famílias iranianas lutam para comprar o básico enquanto EUA intensificam guerra econômica",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Famílias iranianas lutam para comprar o básico enquanto EUA intensificam guerra: o que está em jogo no mercado?",
+      "postId": "rss-hash_33d46b94",
+      "timestamp": "2026-08-25T02:03:47.582Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 39.5h (+8), Sem postagem há 39.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Nacional",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787611530998",
       "feedName": "G1 - Economia",

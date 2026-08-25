@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3fb11a3c",
+      "views": 0,
+      "date": "2026-08-25T03:48:05.546Z",
+      "title": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto 1790: o que está em jogo no mercado?",
+      "subtitle": "A Braskem protocolou nesta segunda-feira (24) um pedido de recuperação extrajudicial para reestruturar cerca de R$ 56 bilhões em dívidas.",
+      "slug": "casas-bahia-braskem-e-a-onda-de-recuperacoes-judiciais-pelo-brasil-o-assunto-1790-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA Braskem protocolou nesta segunda-feira (24) um pedido de recuperação extrajudicial para reestruturar cerca de R$ 56 bilhões em dívidas. Na semana passada duas importantes empresas do varejo nacional recorreram à recuperação judicial: a Casas Bahia, para reestruturar dívidas de R$ 17 bilhões, e a Marabraz, com um passivo de R$ 140 milhões.\n\nO que já foi informado\n\nSão empresas que se somam a outras grandes redes que buscaram recuperações judiciais ou extrajudiciais nos últimos anos: Tok Stok, Grupo Pão de Açúcar, Grupo Dia, St. Marche, entre outros. Neste episódio, Natuza Nery conversa com duas jornalistas do jornal Valor Econômico para explicar este fenômeno. Primeiro, ela fala com Stella Fontes, que detalha o caso da Braskem e o contexto crítico para a companhia no setor petroquímico. Depois, quem participa é Adriana Mattos, que aprofunda a análise sobre o que as empresas de varejo têm feito para tentar escapar à crise do setor.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Casas Bahia, Braskem e a onda de recuperações judiciais Store Center",
+      "seoDescription": "A Braskem protocolou nesta segunda-feira (24) um pedido de recuperação extrajudicial para reestruturar cerca de R$ 56 bilhões em dívidas.",
+      "keyword": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto 1790",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/podcast/o-assunto/noticia/2026/08/25/casas-bahia-braskem-e-a-onda-de-recuperacoes-judiciais-pelo-brasil-o-assunto-1790.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_33d46b94",
       "views": 0,
       "date": "2026-08-25T02:03:47.582Z",
@@ -1687,7 +1720,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T02:03:45.105Z",
+      "lastScraped": "2026-08-25T03:47:54.170Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1695,7 +1728,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T02:03:46.461Z",
+      "lastScraped": "2026-08-25T03:47:55.024Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1765,6 +1798,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787629694032",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto #1790",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Casas Bahia, Braskem e a onda de recuperações judiciais pelo Brasil - O Assunto 1790: o que está em jogo no mercado?",
+      "postId": "rss-hash_3fb11a3c",
+      "timestamp": "2026-08-25T03:48:05.547Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.2h (+8), Sem postagem há 14.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1787623508010",
       "feedName": "G1 - Economia",

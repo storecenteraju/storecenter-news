@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_31fcf222",
+      "views": 0,
+      "date": "2026-08-25T22:45:17.420Z",
+      "title": "Governo reduz em R$ 5 bilhões previsão de gastos da Previdência para 2027: por que isso importa para a economia?",
+      "subtitle": "O governo federal reduziu em R$ 5 bilhões a estimativa de gastos da Previdência Social em 2027.",
+      "slug": "governo-reduz-em-r-5-bilhoes-previsao-de-gastos-da-previdencia-para-2027-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO governo federal reduziu em R$ 5 bilhões a estimativa de gastos da Previdência Social em 2027. As despesas com aposentadorias e benefícios devem chegar a R$ 1,218 trilhão no ano que vem, segundo estimativa apresentada nesta terça-feira (25) ao Conselho Nacional de Previdência Social (CNPS).\n\nO que já foi informado\n\nNa projeção divulgada em agosto, os gastos somariam R$ 1,223 trilhão. Mesmo com a redução da projeção, o valor previsto para 2027 representa uma alta de 7,92% em relação à previsão de gastos para 2026 (R$ 1,129 trilhão). A revisão foi feita depois que o governo federal incorporou o efeito do crescimento do número de concessões de benefícios e da implementação das ações para a diminuição da fila de requerimentos a espera de análise do Instituto Nacional do Seguro Social (INSS). Dados do Ministério da Previdência Social mostram que a fila caiu para 1,8 milhão de benefícios represados em junho e para 1,55 milhão no fim de julho – o menor patamar em 21 meses. No ano, a redução da fila foi de 74%. A redução da fila implica aumento de despesas.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo reduz em R$ 5 bilhões previsão de gastos da Store Center",
+      "seoDescription": "O governo federal reduziu em R$ 5 bilhões a estimativa de gastos da Previdência Social em 2027.",
+      "keyword": "Governo reduz em R$ 5 bilhões previsão de gastos da Previdência para 2027",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/25/governo-reduz-em-r-5-bilhoes-previsao-de-gastos-da-previdencia-para-2027.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Governo reduz em R$ 5 bilhões previsão de gastos da Previdência para 2027",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_4b073773",
       "views": 0,
       "date": "2026-08-25T20:02:56.886Z",
@@ -1951,7 +1984,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T20:02:55.596Z",
+      "lastScraped": "2026-08-25T22:45:15.074Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1959,7 +1992,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T20:02:55.896Z",
+      "lastScraped": "2026-08-25T22:45:16.388Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1972,7 +2005,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-25T20:02:56.874Z",
+      "lastScraped": "2026-08-25T22:45:17.409Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2029,6 +2062,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787697950809",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo reduz em R$ 5 bilhões previsão de gastos da Previdência para 2027",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo reduz em R$ 5 bilhões previsão de gastos da Previdência para 2027: por que isso importa para a economia?",
+      "postId": "rss-hash_31fcf222",
+      "timestamp": "2026-08-25T22:45:17.420Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1787688272784",
       "feedName": "Agência Câmara - Política",

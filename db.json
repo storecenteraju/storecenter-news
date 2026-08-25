@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_42c2b91f",
+      "views": 0,
+      "date": "2026-08-25T08:23:24.424Z",
+      "title": "Representação feminina: total de candidatas à Câmara cai 24% em 2026: o que pode mudar agora?",
+      "subtitle": "O número de candidaturas femininas para a Câmara dos Deputados caiu 24% em 2026 em relação a 2022, passando de 3.717 para 2.820.",
+      "slug": "representacao-feminina-total-de-candidatas-a-camara-cai-24-em-2026-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO número de candidaturas femininas para a Câmara dos Deputados caiu 24% em 2026 em relação a 2022, passando de 3.717 para 2.820. Apesar da queda no total de inscritas, a proporção de mulheres entre os concorrentes a deputado federal subiu de 35% para 36,7%.\n\nO que já foi informado\n\nNas eleições majoritárias, não há mulheres nas chapas presidenciais de partidos com representação no Congresso Nacional. Além disso, 34 mulheres disputam os governos estaduais e o Distrito Federal, em um universo de 198 concorrentes. Em 2022, foram 38. Estudo e propostas Um estudo do Instituto Esfera aponta que é necessário ampliar o acesso das mulheres aos recursos do Fundo Partidário e adotar a reserva de vagas. A pesquisadora Daniela Matos afirma que México e Bolívia alcançaram índices próximos a 50% de mulheres nas cadeiras do Poder Legislativo com esse modelo. Segundo o levantamento, o Brasil tem a menor representação feminina na política entre os países da América Latina.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Representação feminina: total de candidatas à Câmara Store Center",
+      "seoDescription": "O número de candidaturas femininas para a Câmara dos Deputados caiu 24% em 2026 em relação a 2022, passando de 3.717 para 2.820.",
+      "keyword": "Representação feminina: total de candidatas à Câmara cai 24% em 2026",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1299890-representacao-feminina-total-de-candidatas-a-camara-cai-24-em-2026",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Representação feminina: total de candidatas à Câmara cai 24% em 2026",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_339970ad",
       "views": 0,
       "date": "2026-08-25T05:54:45.829Z",
@@ -1753,7 +1786,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T05:54:34.602Z",
+      "lastScraped": "2026-08-25T08:23:23.220Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1761,7 +1794,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T05:54:35.303Z",
+      "lastScraped": "2026-08-25T08:23:23.505Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1774,7 +1807,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-25T02:03:47.570Z",
+      "lastScraped": "2026-08-25T08:23:24.415Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1831,6 +1864,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787646247332",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Representação feminina: total de candidatas à Câmara cai 24% em 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Representação feminina: total de candidatas à Câmara cai 24% em 2026: o que pode mudar agora?",
+      "postId": "rss-hash_42c2b91f",
+      "timestamp": "2026-08-25T08:23:24.425Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.3h (+8), Sem postagem há 12.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1787637328302",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1c4e83c2",
+      "views": 0,
+      "date": "2026-08-25T15:34:53.103Z",
+      "title": "Governo amplia serviços para MEIs no Contrata+Brasil e regulamenta sistema de: por que isso importa para a economia?",
+      "subtitle": "O governo federal anunciou nesta segunda-feira (24) a regulamentação do Sistema de Compras Expressas (Sicx) e mudanças no Contrata+Brasil, plataforma que conecta microempreendedores individuais (MEIs) a órgãos públicos interessados em contratar pequenos.",
+      "slug": "governo-amplia-servicos-para-meis-no-contrata-brasil-e-regulamenta-sistema-de-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO governo federal anunciou nesta segunda-feira (24) a regulamentação do Sistema de Compras Expressas (Sicx) e mudanças no Contrata+Brasil, plataforma que conecta microempreendedores individuais (MEIs) a órgãos públicos interessados em contratar pequenos serviços. As medidas têm como objetivo modernizar as compras públicas, ampliar a participação de fornecedores e facilitar o acesso de pequenos empreendedores a contratos com o governo.\n\nO que já foi informado\n\nCriado para facilitar a participação de MEIs em pequenas contratações feitas pelo poder público, o Contrata+Brasil ampliou de 137 para 272 o número de atividades econômicas de prestação de serviços disponíveis na plataforma. (veja a lista completa abaixo) LISTA DE SERVIÇOS DE MANUTENÇÃO E PEQUENOS REPAROS LISTA DE SERVIÇOS DE EVENTOS Inicialmente, eram apenas 47 serviços. A expansão também inclui a adesão formal de empresas públicas, estatais e autarquias, como Banco do Brasil, Caixa Econômica Federal, Banco do Nordeste, Correios, Petrobras e INSS. Agora no g1 Na prática, essas instituições poderão utilizar a plataforma para encontrar MEIs que prestem serviços como reparos, pintura, carpintaria e manutenção.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo amplia serviços para MEIs no Contrata+Brasil e Store Center",
+      "seoDescription": "O governo federal anunciou nesta segunda-feira (24) a regulamentação do Sistema de Compras Expressas (Sicx) e mudanças no Contrata+Brasil, plataforma",
+      "keyword": "Governo amplia serviços para MEIs no Contrata+Brasil e regulamenta sistema de compras online",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/empreendedorismo/noticia/2026/08/25/governo-amplia-servicos-para-meis-no-contratabrasil-e-regulamenta-sistema-de-compras-online.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Governo amplia serviços para MEIs no Contrata+Brasil e regulamenta sistema de compras online",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_778eaaac",
       "views": 0,
       "date": "2026-08-25T13:31:20.833Z",
@@ -1852,7 +1885,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T13:31:09.590Z",
+      "lastScraped": "2026-08-25T15:34:51.930Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1860,7 +1893,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T13:31:10.325Z",
+      "lastScraped": "2026-08-25T15:34:52.202Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1873,7 +1906,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-25T10:46:18.713Z",
+      "lastScraped": "2026-08-25T15:34:53.090Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1930,6 +1963,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787672153524",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo amplia serviços para MEIs no Contrata+Brasil e regulamenta sistema de compras online",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo amplia serviços para MEIs no Contrata+Brasil e regulamenta sistema de: por que isso importa para a economia?",
+      "postId": "rss-hash_1c4e83c2",
+      "timestamp": "2026-08-25T15:34:53.103Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.8h (+8), Sem postagem há 11.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787664746371",
       "feedName": "G1 - Economia",

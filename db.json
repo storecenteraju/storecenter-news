@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4b073773",
+      "views": 0,
+      "date": "2026-08-25T20:02:56.886Z",
+      "title": "Conselho de Ética aprova prosseguimento de processo contra Erika Hilton por quebra de decoro: o que pode mudar agora?",
+      "subtitle": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados aprovou nesta terça-feira (11), por 10 votos a 5, o prosseguimento da Representação 8/26, em que o Partido Missão acusa a deputada Erika Hilton (Psol-SP) de quebra de decoro.",
+      "slug": "conselho-de-etica-aprova-prosseguimento-de-processo-contra-erika-hilton-por-quebra-de-decoro-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados aprovou nesta terça-feira (11), por 10 votos a 5, o prosseguimento da Representação 8/26, em que o Partido Missão acusa a deputada Erika Hilton (Psol-SP) de quebra de decoro. O partido pede a cassação do mandato da deputada.\n\nO que já foi informado\n\nO Missão questiona especificamente o seguinte trecho de um post de Erika Hilton na plataforma X em março deste ano, após ser eleita presidente da Comissão de Defesa dos Direitos da Mulher: “E não estou nem um pouco preocupada se o esgoto da sociedade não gostou. A opinião de transfóbicos e imbeCIS é a última coisa que me importa. ” O partido entende também que, ao escrever no mesmo post: “Podem espernear. Podem latir”, Erika Hilton ofendeu diretamente as mulheres cisgênero, cuja identidade corresponde ao sexo biológico, “rebaixando-as à condição de cadelas”. Parecer favorável Autor do parecer preliminar aprovado, o deputado Cabo Gilberto Silva (PL-PB), concluiu pela continuidade do processo. “A imunidade parlamentar não afasta a possibilidade de que o próprio Parlamento reconheça excesso ou abuso no emprego da palavra e aplique a sanção que entender cabível”, disse o relator.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Conselho de Ética aprova prosseguimento de processo Store Center",
+      "seoDescription": "O Conselho de Ética e Decoro Parlamentar da Câmara dos Deputados aprovou nesta terça-feira (11), por 10 votos a 5, o prosseguimento da Representação 8",
+      "keyword": "Conselho de Ética aprova prosseguimento de processo contra Erika Hilton por quebra de decoro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1296434-conselho-de-etica-aprova-prosseguimento-de-processo-contra-erika-hilton-por-quebra-de-decoro",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Conselho de Ética aprova prosseguimento de processo contra Erika Hilton por quebra de decoro",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_28e7e2d6",
       "views": 0,
       "date": "2026-08-25T17:52:27.495Z",
@@ -1918,7 +1951,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T17:52:25.733Z",
+      "lastScraped": "2026-08-25T20:02:55.596Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1926,7 +1959,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T17:52:26.353Z",
+      "lastScraped": "2026-08-25T20:02:55.896Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1939,7 +1972,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-25T17:52:27.484Z",
+      "lastScraped": "2026-08-25T20:02:56.874Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1996,6 +2029,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787688272784",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Conselho de Ética aprova prosseguimento de processo contra Erika Hilton por quebra de decoro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Conselho de Ética aprova prosseguimento de processo contra Erika Hilton por quebra de decoro: o que pode mudar agora?",
+      "postId": "rss-hash_4b073773",
+      "timestamp": "2026-08-25T20:02:56.886Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.7h (+8), Sem postagem há 11.7h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1787680350416",
       "feedName": "G1 - Economia",

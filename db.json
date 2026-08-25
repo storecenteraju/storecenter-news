@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_28e7e2d6",
+      "views": 0,
+      "date": "2026-08-25T17:52:27.495Z",
+      "title": "Arrecadação federal soma R$ 289 bilhões em julho, novo recorde para o mês: por que isso importa para a economia?",
+      "subtitle": "A arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 289,3 bilhões em julho deste ano, informou nesta terça-feira (25) a Receita Federal.",
+      "slug": "arrecadacao-federal-soma-r-289-bilhoes-em-julho-novo-recorde-para-o-mes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nA arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 289,3 bilhões em julho deste ano, informou nesta terça-feira (25) a Receita Federal. O resultado representa um aumento real de 9% na comparação com o mesmo mês do ano passado, quando a arrecadação somou R$ 265,5 bilhões (valor corrigido pela inflação).\n\nO que já foi informado\n\nO valor também foi o maior já registrado para meses de junho desde o início da série histórica da Receita Federal em 1995 — ou seja, em 32 anos. O recorde na arrecadação está relacionado com o crescimento da economia brasileira e com os aumentos de impostos anunciados nos últimos anos pelo governo do presidente Luiz Inácio Lula da Silva (PT).\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Arrecadação federal soma R$ 289 bilhões em julho, novo Store Center",
+      "seoDescription": "A arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 289,3 bilhões em julho deste ano, informou nesta terça-feira (",
+      "keyword": "Arrecadação federal soma R$ 289 bilhões em julho, novo recorde para o mês",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/25/arrecadacao-federal-soma-r-289-bilhoes-em-julho-novo-recorde-para-o-mes.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Arrecadação federal soma R$ 289 bilhões em julho, novo recorde para o mês",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1c4e83c2",
       "views": 0,
       "date": "2026-08-25T15:34:53.103Z",
@@ -1885,7 +1918,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-25T15:34:51.930Z",
+      "lastScraped": "2026-08-25T17:52:25.733Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -1893,7 +1926,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-25T15:34:52.202Z",
+      "lastScraped": "2026-08-25T17:52:26.353Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -1906,7 +1939,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-25T15:34:53.090Z",
+      "lastScraped": "2026-08-25T17:52:27.484Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -1963,6 +1996,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787680350416",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Arrecadação federal soma R$ 289 bilhões em julho, novo recorde para o mês",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Arrecadação federal soma R$ 289 bilhões em julho, novo recorde para o mês: por que isso importa para a economia?",
+      "postId": "rss-hash_28e7e2d6",
+      "timestamp": "2026-08-25T17:52:27.495Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1787672153524",
       "feedName": "G1 - Economia",

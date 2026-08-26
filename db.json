@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_693a9595",
+      "views": 0,
+      "date": "2026-08-26T08:24:32.084Z",
+      "title": "Golpistas avançam do roubo de senhas para o uso de IA para 'clonar' pessoas no: o que muda para os próximos jogos?",
+      "subtitle": "Deepfake nas eleições: É o que mostra um levantamento inédito da Nexus Pesquisa e Inteligência de Dados, que realiza pesquisas a partir de menções nas redes sociais sobre diferentes temas.",
+      "slug": "golpistas-avancam-do-roubo-de-senhas-para-o-uso-de-ia-para-clonar-pessoas-no-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nDeepfake nas eleições: É o que mostra um levantamento inédito da Nexus Pesquisa e Inteligência de Dados, que realiza pesquisas a partir de menções nas redes sociais sobre diferentes temas. O estudo analisou conteúdos relacionados à segurança digital, incluindo publicações de pessoas que relataram ter sido vítimas de golpes.\n\nO que já foi informado\n\nO g1 teve acesso a alguns desses casos. O levantamento identificou relatos de golpes em que ferramentas de IA são usadas para reproduzir a voz ou a aparência de pessoas reais a partir de fotos, vídeos e outros conteúdos disponíveis na internet. Com esse material, criminosos podem criar identidades falsas ou se passar por alguém conhecido da vítima para tornar a abordagem mais convincente. O que o levantamento encontrou Segundo a Nexus, 39,7 mil menções relacionadas a problemas de segurança digital enfrentados pelos consumidores foram identificadas nas redes sociais entre janeiro e julho de 2026. Desse total, 2,8 mil menções, ou 7,3%, tratavam da manipulação de dados pessoais. O levantamento também identificou 9,1 mil menções a PIX e transações financeiras, relacionadas a preocupações com fraudes.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Golpistas avançam do roubo de senhas para o uso de IA Store Center",
+      "seoDescription": "Deepfake nas eleições: É o que mostra um levantamento inédito da Nexus Pesquisa e Inteligência de Dados, que realiza pesquisas a partir de menções nas",
+      "keyword": "Golpistas avançam do roubo de senhas para o uso de IA para 'clonar' pessoas no Brasil, revela estudo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/26/golpistas-avancam-do-roubo-de-senhas-para-o-uso-de-ia-para-clonar-pessoas-no-brasil-revela-estudo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Golpistas avançam do roubo de senhas para o uso de IA para 'clonar' pessoas no Brasil, revela estudo",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_ecb51c1",
       "views": 0,
       "date": "2026-08-26T05:56:23.803Z",
@@ -2083,7 +2116,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T05:56:22.519Z",
+      "lastScraped": "2026-08-26T08:24:30.315Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2091,7 +2124,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T05:56:22.820Z",
+      "lastScraped": "2026-08-26T08:24:30.922Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2104,7 +2137,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T05:56:23.795Z",
+      "lastScraped": "2026-08-26T08:24:32.073Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2161,6 +2194,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787732737534",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Golpistas avançam do roubo de senhas para o uso de IA para 'clonar' pessoas no Brasil, revela estudo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Golpistas avançam do roubo de senhas para o uso de IA para 'clonar' pessoas no: o que muda para os próximos jogos?",
+      "postId": "rss-hash_693a9595",
+      "timestamp": "2026-08-26T08:24:32.084Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.8h (+8), Sem postagem há 16.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1787723869036",
       "feedName": "G1 - Economia",

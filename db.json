@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_32a0b79e",
+      "views": 0,
+      "date": "2026-08-26T19:22:39.925Z",
+      "title": "O que muda nas redes nos EUA após acordo bilionário da Meta?",
+      "subtitle": "A Meta fechou um acordo no qual aceitou pagar em torno de US$ 17 bilhões (R$ 87,7 bilhões) e adicionar medidas de segurança mais robustas para proteger as crianças em suas plataformas Facebook e Instagram.",
+      "slug": "o-que-muda-nas-redes-nos-eua-apos-acordo-bilionario-da-meta",
+      "content": "O que aconteceu\n\nA Meta fechou um acordo no qual aceitou pagar em torno de US$ 17 bilhões (R$ 87,7 bilhões) e adicionar medidas de segurança mais robustas para proteger as crianças em suas plataformas Facebook e Instagram. A decisão encerra um julgamento histórico nos Estados Unidos sobre o vício em redes sociais entre adolescentes e resolve as ações movidas por 47 dos 50 estados americanos, anunciaram na quarta-feira (26) os procuradores-gerais estaduais.\n\nO que já foi informado\n\nO caso buscava responsabilizar a gigante da tecnologia pelo papel que suas plataformas desempenharam na deterioração da saúde mental das crianças. A Meta foi acusada de contribuir para a crise de saúde mental juvenil ao projetar deliberadamente recursos que viciam crianças em suas plataformas e escondê-los do público. Os reclamantes também argumentaram que a empresa violou leis federais ao coletar rotineiramente dados de crianças menores de 13 anos sem o consentimento dos pais O acordo selado nesta quarta-feira deve encerrar o processo judicial envolvendo os estados da Califórnia, Colorado, Kentucky e Nova Jersey, que estavam entre os 29 que processaram a Meta em 2023.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que muda nas redes nos EUA após acordo bilionário da Store Center",
+      "seoDescription": "A Meta fechou um acordo no qual aceitou pagar em torno de US$ 17 bilhões (R$ 87,7 bilhões) e adicionar medidas de segurança mais robustas para protege",
+      "keyword": "O que muda nas redes nos EUA após acordo bilionário da Meta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/26/o-que-muda-nas-redes-nos-eua-apos-acordo-bilionario-da-meta.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "O que muda nas redes nos EUA após acordo bilionário da Meta",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_97cd3b8",
       "views": 0,
       "date": "2026-08-26T16:11:27.841Z",
@@ -2215,7 +2248,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T16:11:26.485Z",
+      "lastScraped": "2026-08-26T19:22:37.613Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2223,7 +2256,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T16:11:26.729Z",
+      "lastScraped": "2026-08-26T19:22:38.349Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2236,7 +2269,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T16:11:27.829Z",
+      "lastScraped": "2026-08-26T19:22:39.914Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2293,6 +2326,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787772189464",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que muda nas redes nos EUA após acordo bilionário da Meta",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que muda nas redes nos EUA após acordo bilionário da Meta?",
+      "postId": "rss-hash_32a0b79e",
+      "timestamp": "2026-08-26T19:22:39.926Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.2h (+8), Sem postagem há 17.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1787760786617",
       "feedName": "G1 - Economia",

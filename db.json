@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5a77ccab",
+      "views": 0,
+      "date": "2026-08-26T13:37:05.267Z",
+      "title": "Presidente da Câmara destaca transparência e pluralidade como pilares da democracia: o que pode mudar agora?",
+      "subtitle": "O presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que a transparência e a pluralidade são elementos essenciais para o funcionamento do Parlamento e para o fortalecimento da democracia.",
+      "slug": "presidente-da-camara-destaca-transparencia-e-pluralidade-como-pilares-da-democracia-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que a transparência e a pluralidade são elementos essenciais para o funcionamento do Parlamento e para o fortalecimento da democracia. A declaração foi feita nesta terça-feira (25) durante a cerimônia do Prêmio Congresso em Foco, que reconhece a atuação de deputados e senadores.\n\nO que já foi informado\n\n“A Câmara dos Deputados tem o dever de tornar públicos seus atos, decisões e informações para que a sociedade possa acompanhar e avaliar o trabalho de seus representantes”, afirmou Hugo Motta. Ele ressaltou que essa abertura também é fundamental para o trabalho da imprensa, ao garantir acesso às informações necessárias para investigar, questionar, contextualizar e informar os cidadãos. Atividade parlamentar Motta também destacou que o Parlamento deve refletir a diversidade de opiniões existente no país. Para ele, as divergências políticas são parte da atividade parlamentar e não impedem a construção de consensos em temas considerados importantes para a sociedade.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente da Câmara destaca transparência e Store Center",
+      "seoDescription": "O presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que a transparência e a pluralidade são elementos essenciais para o funcio",
+      "keyword": "Presidente da Câmara destaca transparência e pluralidade como pilares da democracia",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1300276-presidente-da-camara-destaca-transparencia-e-pluralidade-como-pilares-da-democracia",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Presidente da Câmara destaca transparência e pluralidade como pilares da democracia",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_71aec4c8",
       "views": 0,
       "date": "2026-08-26T10:49:02.452Z",
@@ -2149,7 +2182,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T10:49:00.942Z",
+      "lastScraped": "2026-08-26T13:37:03.519Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2157,7 +2190,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T10:49:01.631Z",
+      "lastScraped": "2026-08-26T13:37:04.168Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2170,7 +2203,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T10:49:02.440Z",
+      "lastScraped": "2026-08-26T13:37:05.256Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2227,6 +2260,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787751469524",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Presidente da Câmara destaca transparência e pluralidade como pilares da democracia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente da Câmara destaca transparência e pluralidade como pilares da democracia: o que pode mudar agora?",
+      "postId": "rss-hash_5a77ccab",
+      "timestamp": "2026-08-26T13:37:05.267Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.6h (+8), Sem postagem há 17.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787741431147",
       "feedName": "G1 - Economia",

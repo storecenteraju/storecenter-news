@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_71aec4c8",
+      "views": 0,
+      "date": "2026-08-26T10:49:02.452Z",
+      "title": "Häagen-Dazs de saída do Brasil: os 4 motivos para o adeus da marca de sorvetes: o que está em jogo no mercado?",
+      "subtitle": "Marca de sorvetes Häagen-Dazs deixa de ser distribuída no Brasil após quase 30 anos Depois de quase 30 anos de operação no Brasil, a Häagen-Dazs vai deixar o país.",
+      "slug": "haagen-dazs-de-saida-do-brasil-os-4-motivos-para-o-adeus-da-marca-de-sorvetes-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nMarca de sorvetes Häagen-Dazs deixa de ser distribuída no Brasil após quase 30 anos Depois de quase 30 anos de operação no Brasil, a Häagen-Dazs vai deixar o país. A multinacional americana General Mills, dona da marca de sorvetes premium, decidiu abandonar as suas vendas no território nacional.\n\nO que já foi informado\n\nO desfecho vinha sendo anunciado por números estagnados: entre 2021 e 2025 a marca se manteve em quinto lugar no mercado, com 2% de participação no setor. No mesmo período, as vendas de sorvete cresceram no Brasil, de R$ 14,7 bilhões para R$ 20,3 bilhões ao ano, segundo a consultoria Euromonitor. Especialistas ouvidos pela reportagem apontam ao menos quatro motivos para a saída da marca do país: a reestruturação global de portfólio da General Mills, que vem priorizando marcas americanas de maior escala; a mudança no comportamento de consumo do brasileiro, que passou a comprar menos, mas produtos mais caros; o fechamento das lojas próprias da Häagen-Dazs ainda em 2018, que afastou a marca do consumidor; e a falta de inovação e de investimento em um mercado premium que ficou mais concorrido.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Häagen-Dazs de saída do Brasil: os 4 motivos para o Store Center",
+      "seoDescription": "Marca de sorvetes Häagen-Dazs deixa de ser distribuída no Brasil após quase 30 anos Depois de quase 30 anos de operação no Brasil, a Häagen-Dazs vai d",
+      "keyword": "Häagen-Dazs de saída do Brasil: os 4 motivos para o adeus da marca de sorvetes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/26/haagen-dazs-de-saida-do-brasil-os-4-motivos-para-o-adeus-da-marca-de-sorvetes.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Häagen-Dazs de saída do Brasil: os 4 motivos para o adeus da marca de sorvetes",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_693a9595",
       "views": 0,
       "date": "2026-08-26T08:24:32.084Z",
@@ -2116,7 +2149,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T08:24:30.315Z",
+      "lastScraped": "2026-08-26T10:49:00.942Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2124,7 +2157,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T08:24:30.922Z",
+      "lastScraped": "2026-08-26T10:49:01.631Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2137,7 +2170,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T08:24:32.073Z",
+      "lastScraped": "2026-08-26T10:49:02.440Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2194,6 +2227,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787741431147",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Häagen-Dazs de saída do Brasil: os 4 motivos para o adeus da marca de sorvetes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Häagen-Dazs de saída do Brasil: os 4 motivos para o adeus da marca de sorvetes: o que está em jogo no mercado?",
+      "postId": "rss-hash_71aec4c8",
+      "timestamp": "2026-08-26T10:49:02.453Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.1h (+8), Sem postagem há 12.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787732737534",
       "feedName": "G1 - Economia",

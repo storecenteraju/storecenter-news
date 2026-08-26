@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_97cd3b8",
+      "views": 0,
+      "date": "2026-08-26T16:11:27.841Z",
+      "title": "Meta vai pagar R$ 86 bilhões em acordo por alegações de vício de crianças em redes: por que esse movimento importa?",
+      "subtitle": "A Meta, dona do Instagram, Facebook e WhatsApp, concordou em pagar cerca de US$ 16,68 bilhões (cerca de R$ 86,7 bilhões), no total, a alguns estados dos EUA em um acordo judicial relacionado a um processo que acusa a empresa de incentivar o vício de.",
+      "slug": "meta-vai-pagar-r-86-bilhoes-em-acordo-por-alegacoes-de-vicio-de-criancas-em-redes-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA Meta, dona do Instagram, Facebook e WhatsApp, concordou em pagar cerca de US$ 16,68 bilhões (cerca de R$ 86,7 bilhões), no total, a alguns estados dos EUA em um acordo judicial relacionado a um processo que acusa a empresa de incentivar o vício de adolescentes nas redes sociais. A Meta também concordou em implementar mudanças para usuários adolescentes do Facebook e do Instagram em todo os Estados Unidos, incluindo limites diários de uso e bloqueios noturnos, segundo documentos judiciais.\n\nO que já foi informado\n\n(Veja outras medidas). Esse acordo resolve reivindicações feitas por 29 estados dos EUA e encerra um julgamento federal que, até então, era um dos principais testes para as alegações de que empresas de redes sociais prejudicaram jovens usuários, segundo a agência . O julgamento começou em 12 de agosto e reuniu ações judiciais iniciadas em 2023. A empresa de Mark Zuckerberg negou qualquer irregularidade ao aceitar o acordo. Agora no g1 A medida também encerra processos movidos por Califórnia, Illinois, Novo México e Washington, D. C.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta vai pagar R$ 86 bilhões em acordo por alegações de Store Center",
+      "seoDescription": "A Meta, dona do Instagram, Facebook e WhatsApp, concordou em pagar cerca de US$ 16,68 bilhões (cerca de R$ 86,7 bilhões), no total, a alguns estados d",
+      "keyword": "Meta vai pagar R$ 86 bilhões em acordo por alegações de vício de crianças em redes sociais nos EUA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/26/meta-vai-pagar-us-bilhoes-em-acordo-por-alegacoes-de-vicio-de-criancas-em-redes-sociais-nos-eua.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Meta vai pagar R$ 86 bilhões em acordo por alegações de vício de crianças em redes sociais nos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_5a77ccab",
       "views": 0,
       "date": "2026-08-26T13:37:05.267Z",
@@ -2182,7 +2215,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T13:37:03.519Z",
+      "lastScraped": "2026-08-26T16:11:26.485Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2190,7 +2223,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T13:37:04.168Z",
+      "lastScraped": "2026-08-26T16:11:26.729Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2203,7 +2236,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T13:37:05.256Z",
+      "lastScraped": "2026-08-26T16:11:27.829Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2260,6 +2293,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787760786617",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta vai pagar R$ 86 bilhões em acordo por alegações de vício de crianças em redes sociais nos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta vai pagar R$ 86 bilhões em acordo por alegações de vício de crianças em redes: por que esse movimento importa?",
+      "postId": "rss-hash_97cd3b8",
+      "timestamp": "2026-08-26T16:11:27.841Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.0h (+8), Sem postagem há 14.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787751469524",
       "feedName": "Agência Câmara - Política",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2fdf1b97",
+      "views": 0,
+      "date": "2026-08-26T03:53:30.425Z",
+      "title": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja: o que muda para usuários e empresas?",
+      "subtitle": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores A multa aplicada contra a ByteDance, dona do TikTok, na terça-feira (25) foi uma medida inédita contra uma empresa de rede social no Brasil.",
+      "slug": "tiktok-leva-multa-inedita-no-brasil-o-que-causou-a-decisao-e-o-que-muda-veja-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores A multa aplicada contra a ByteDance, dona do TikTok, na terça-feira (25) foi uma medida inédita contra uma empresa de rede social no Brasil. A Agência Nacional de Proteção de Dados (ANPD) determinou que a empresa pague R$ 153,7 milhões por violações no tratamento de dados de crianças e adolescentes.\n\nO que já foi informado\n\nO órgão concluiu que o TikTok tratou indevidamente dados de menores de idade em desacordo com a Lei Geral de Proteção de Dados (LGPD) e não adotou medidas suficientes para evitar a prática. O TikTok afirmou ao g1 que a multa se refere a um período anterior ao seu enquadramento à LGPD e que seguirá dialogando com a agência enquanto avalia medidas cabíveis. O processo permite que a empresa entre com um recurso contra a decisão. Multa ao TikTok marca nova fase da ANPD A ANPD também determinou que a empresa exclua os dados coletados de forma irregular e apresente um plano de conformidade para reforçar a proteção de menores em sua plataforma.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "TikTok leva multa inédita no Brasil: o que causou a Store Center",
+      "seoDescription": "ANPD multa TikTok em R$ 153,7 milhões por falhas na proteção de menores A multa aplicada contra a ByteDance, dona do TikTok, na terça-feira (25) foi u",
+      "keyword": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja perguntas e respostas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/26/tiktok-leva-multa-inedita-no-brasil-o-que-causou-a-decisao-e-o-que-muda-veja-perguntas-e-respostas.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja perguntas e respostas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_4245ba85",
       "views": 0,
       "date": "2026-08-26T02:09:41.050Z",
@@ -2017,7 +2050,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T02:09:39.487Z",
+      "lastScraped": "2026-08-26T03:53:19.220Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2025,7 +2058,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T02:09:40.052Z",
+      "lastScraped": "2026-08-26T03:53:19.910Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2095,6 +2128,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787716490652",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja perguntas e respostas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "TikTok leva multa inédita no Brasil: o que causou a decisão? E o que muda? Veja: o que muda para usuários e empresas?",
+      "postId": "rss-hash_2fdf1b97",
+      "timestamp": "2026-08-26T03:53:30.426Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.3h (+8), Sem postagem há 12.3h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 26",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1787710267084",
       "feedName": "G1 - Economia",

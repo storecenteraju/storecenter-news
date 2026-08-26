@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_ecb51c1",
+      "views": 0,
+      "date": "2026-08-26T05:56:23.803Z",
+      "title": "Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e: o que muda para os próximos jogos?",
+      "subtitle": "Os candidatos à Presidência da República nas eleições de outubro identificam em seus planos de governo, na área de economia, a alta taxa de juros como um dos principais obstáculos ao crescimento sustentável do país.",
+      "slug": "eleicoes-2026-presidenciaveis-defendem-contas-em-ordem-para-baixar-juro-e-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nOs candidatos à Presidência da República nas eleições de outubro identificam em seus planos de governo, na área de economia, a alta taxa de juros como um dos principais obstáculos ao crescimento sustentável do país. Para impulsionar o crescimento econômico sem gerar desequilíbrios, eles defendem ajuste das contas públicas, trazendo-as de volta ao azul, algo que não ocorre, de forma recorrente e sustentada, desde 2013.\n\nO que já foi informado\n\nEsse é o mesmo diagnóstico traçado de analistas do setor privado para conter o crescimento da dívida pública brasileira — que atingiu o maior patamar desde a pandemia —, e baixar os juros (atualmente os mais altos do mundo em termos reais). Embora a análise seja semelhante, os caminhos propostos para enfrentar o desequilíbrio fiscal, e a intensidade do ajuste, variam entre as candidaturas. Os programas de governo dos candidatos, embora tragam as linhas gerais de como tentar retomar superávits fiscais, não trazem muitos detalhes de como fazê-lo. Também incluem propostas (genéricas) de reformas em despesas obrigatórias, medidas tradicionalmente impopulares e de implementação politicamente complexa.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições 2026: presidenciáveis defendem contas em ordem Store Center",
+      "seoDescription": "Os candidatos à Presidência da República nas eleições de outubro identificam em seus planos de governo, na área de economia, a alta taxa de juros como",
+      "keyword": "Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e estimular economia, mas não detalham propostas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/08/26/eleicoes-2026-presidenciaveis-defendem-contas-em-ordem-para-baixar-juro-e-estimular-economia-mas-nao-detalham-propostas.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e estimular economia, mas não detalham propostas",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2fdf1b97",
       "views": 0,
       "date": "2026-08-26T03:53:30.425Z",
@@ -2050,7 +2083,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T03:53:19.220Z",
+      "lastScraped": "2026-08-26T05:56:22.519Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2058,7 +2091,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T03:53:19.910Z",
+      "lastScraped": "2026-08-26T05:56:22.820Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2071,7 +2104,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T02:09:41.040Z",
+      "lastScraped": "2026-08-26T05:56:23.795Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2128,6 +2161,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787723869036",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e estimular economia, mas não detalham propostas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições 2026: presidenciáveis defendem contas em ordem para baixar juro e: o que muda para os próximos jogos?",
+      "postId": "rss-hash_ecb51c1",
+      "timestamp": "2026-08-26T05:56:23.803Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.9h (+8), Sem postagem há 9.9h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787716490652",
       "feedName": "G1 - Economia",

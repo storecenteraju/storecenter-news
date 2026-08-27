@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4e2a6516",
+      "views": 0,
+      "date": "2026-08-27T13:49:12.888Z",
+      "title": "MG apresenta no Brasil SUV elétrico IM6 para encarar Porsche; g1 já testou: o que está em jogo no mercado?",
+      "subtitle": "MG. A MG. Motor Brasil apresentou nesta quarta-feira (26) o SUV elétrico IM6. O automóvel marca a estreia oficial da divisão de veículos de luxo IM Motors no país, com início de comercialização programado para ocorrer até o fim de 2026.",
+      "slug": "mg-apresenta-no-brasil-suv-eletrico-im6-para-encarar-porsche-g1-ja-testou-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nMG. A MG.\n\nO que já foi informado\n\nMotor Brasil apresentou nesta quarta-feira (26) o SUV elétrico IM6. O automóvel marca a estreia oficial da divisão de veículos de luxo IM Motors no país, com início de comercialização programado para ocorrer até o fim de 2026. A marca britânica, que pertence à SAIC e produz carros na China, o grupo e suas marcas registraram a venda de 4,5 milhões de automóveis no mundo em 2025. A MG já confirmou a produção de carros no Brasil. A fábrica no Ceará é a mesma utilizada pela Chevrolet para montar Spark e Captiva. Thiago Marques, Head de marketing da MG.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "MG apresenta no Brasil SUV elétrico IM6 para encarar Store Center",
+      "seoDescription": "MG. A MG. Motor Brasil apresentou nesta quarta-feira (26) o SUV elétrico IM6. O automóvel marca a estreia oficial da divisão de veículos de luxo IM Mo",
+      "keyword": "MG apresenta no Brasil SUV elétrico IM6 para encarar Porsche; g1 já testou",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/08/27/mg-im6.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "MG apresenta no Brasil SUV elétrico IM6 para encarar Porsche; g1 já testou",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_41fea4c4",
       "views": 0,
       "date": "2026-08-27T10:09:11.274Z",
@@ -2347,7 +2380,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T10:09:10.077Z",
+      "lastScraped": "2026-08-27T13:49:11.384Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2355,7 +2388,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T10:09:10.358Z",
+      "lastScraped": "2026-08-27T13:49:11.753Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2368,7 +2401,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T10:09:11.266Z",
+      "lastScraped": "2026-08-27T13:49:12.876Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2425,6 +2458,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787838648332",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "MG apresenta no Brasil SUV elétrico IM6 para encarar Porsche; g1 já testou",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "MG apresenta no Brasil SUV elétrico IM6 para encarar Porsche; g1 já testou: o que está em jogo no mercado?",
+      "postId": "rss-hash_4e2a6516",
+      "timestamp": "2026-08-27T13:49:12.889Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.5h (+8), Sem postagem há 10.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1787825407787",
       "feedName": "G1 - Economia",

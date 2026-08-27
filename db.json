@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e95aceb",
+      "views": 0,
+      "date": "2026-08-27T03:18:28.732Z",
+      "title": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira; g1 transmite ao vivo: por que isso importa para a economia?",
+      "subtitle": "Como funciona a Mega-Sena? O concurso 3.050 da Mega-Sena pode pagar um prêmio de R$ 25 milhões para os apostadores que acertarem as seis dezenas.",
+      "slug": "mega-sena-pode-pagar-r-25-milhoes-nesta-quinta-feira-g1-transmite-ao-vivo-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nComo funciona a Mega-Sena? O concurso 3.050 da Mega-Sena pode pagar um prêmio de R$ 25 milhões para os apostadores que acertarem as seis dezenas.\n\nO que já foi informado\n\nO sorteio ocorre às 21h desta quinta-feira (27), em São Paulo. No concurso da última terça (25), nenhuma aposta acertou a faixa principal e o valor acumulou. O g1 transmite todos os sorteios das Loterias Caixa, ao vivo. A aposta mínima para a Mega-Sena custa R$ 6 e pode ser realizada também pela internet – saiba como fazer a sua aposta online. Volante da Mega-Sena Ana Marin/g1 Para apostar na Mega-Sena As apostas podem ser realizadas até as 20h (horário de Brasília) em qualquer lotérica do país ou por meio do site e aplicativo Loterias Caixa, disponíveis em smartphones, computadores e outros dispositivos.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira Store Center",
+      "seoDescription": "Como funciona a Mega-Sena? O concurso 3.050 da Mega-Sena pode pagar um prêmio de R$ 25 milhões para os apostadores que acertarem as seis dezenas.",
+      "keyword": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/27/mega-sena-pode-pagar-r-25-milhoes-nesta-quinta-feira-g1-transmite-ao-vivo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira; g1 transmite ao vivo",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_7e3cab2a",
       "views": 0,
       "date": "2026-08-26T22:31:22.009Z",
@@ -2281,7 +2314,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-26T22:31:20.027Z",
+      "lastScraped": "2026-08-27T03:18:26.687Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2289,7 +2322,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-26T22:31:20.881Z",
+      "lastScraped": "2026-08-27T03:18:27.629Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2302,7 +2335,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-26T22:31:22.000Z",
+      "lastScraped": "2026-08-27T03:18:28.721Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2359,6 +2392,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787800769642",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira; g1 transmite ao vivo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena pode pagar R$ 25 milhões nesta quinta-feira; g1 transmite ao vivo: por que isso importa para a economia?",
+      "postId": "rss-hash_7e95aceb",
+      "timestamp": "2026-08-27T03:18:28.732Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.5h (+8), Sem postagem há 16.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1787783544145",
       "feedName": "G1 - Economia",

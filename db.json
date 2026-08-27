@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_300fc551",
+      "views": 0,
+      "date": "2026-08-27T16:36:30.610Z",
+      "title": "OpenAI abre operação no Brasil após país se tornar 3º maior mercado do ChatGPT: o que muda para usuários e empresas?",
+      "subtitle": "O logotipo da OpenAI é visto em um telefone celular em frente a uma tela de computador que exibe a tela inicial do ChatGPT AP/Michael Dwyer, Arquivo A OpenAI anunciou nesta quinta-feira (27) o lançamento de uma operação comercial no Brasil, com escritório em.",
+      "slug": "openai-abre-operacao-no-brasil-apos-pais-se-tornar-3-maior-mercado-do-chatgpt-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO logotipo da OpenAI é visto em um telefone celular em frente a uma tela de computador que exibe a tela inicial do ChatGPT AP/Michael Dwyer, Arquivo A OpenAI anunciou nesta quinta-feira (27) o lançamento de uma operação comercial no Brasil, com escritório em São Paulo. A decisão ocorre após o país se tornar o terceiro maior mercado do ChatGPT no mundo.\n\nO que já foi informado\n\nSegundo a empresa, o número de usuários brasileiros do chatbot quase dobrou no último ano. A OpenAI não informou quantas pessoas usam a ferramenta no país, mas afirmou que os brasileiros enviam 215 milhões de mensagens por dia ao ChatGPT. O Brasil também lidera mundialmente na taxa de uso de imagens no ChatGPT, de acordo com a companhia. O país ainda está entre os cinco maiores mercados para os recursos de voz e ditado. Segundo a OpenAI, o número de usuários semanais de voz no Brasil dobrou no último ano. Como parte da expansão, a empresa anunciou uma parceria com o Instituto Tecnológico de Aeronáutica (ITA) para oferecer contas a estudantes e créditos para o uso de recursos de suas ferramentas de programação.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "OpenAI abre operação no Brasil após país se tornar 3º Store Center",
+      "seoDescription": "O logotipo da OpenAI é visto em um telefone celular em frente a uma tela de computador que exibe a tela inicial do ChatGPT AP/Michael Dwyer, Arquivo A",
+      "keyword": "OpenAI abre operação no Brasil após país se tornar 3º maior mercado do ChatGPT",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/27/openai-lanca-operacao-comercial-no-brasil.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "OpenAI abre operação no Brasil após país se tornar 3º maior mercado do ChatGPT",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4e2a6516",
       "views": 0,
       "date": "2026-08-27T13:49:12.888Z",
@@ -2380,7 +2413,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T13:49:11.384Z",
+      "lastScraped": "2026-08-27T16:36:28.545Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2388,7 +2421,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T13:49:11.753Z",
+      "lastScraped": "2026-08-27T16:36:29.538Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2401,7 +2434,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T13:49:12.876Z",
+      "lastScraped": "2026-08-27T16:36:30.599Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2458,6 +2491,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787848607004",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "OpenAI abre operação no Brasil após país se tornar 3º maior mercado do ChatGPT",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "OpenAI abre operação no Brasil após país se tornar 3º maior mercado do ChatGPT: o que muda para usuários e empresas?",
+      "postId": "rss-hash_300fc551",
+      "timestamp": "2026-08-27T16:36:30.611Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 32.2h (+8), Sem postagem há 32.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1787838648332",
       "feedName": "G1 - Economia",

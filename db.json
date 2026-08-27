@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_14569b6e",
+      "views": 0,
+      "date": "2026-08-27T20:22:22.063Z",
+      "title": "Meta só pagará o valor integral de multa se YouTube e TikTok também fecharem acordo: por que esse movimento importa?",
+      "subtitle": "Meta fecha acordo judicial de US$ 16,6 bilhões nos Estados Unidos A Meta, dona de Instagram, Facebook e WhatsApp, fechou um acordo para pagar US$ 18 bilhões (cerca de R$ 92,9 bilhões) a estados americanos para encerrar o processo que a acusa de incentivar a.",
+      "slug": "meta-so-pagara-o-valor-integral-de-multa-se-youtube-e-tiktok-tambem-fecharem-acordo-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nMeta fecha acordo judicial de US$ 16,6 bilhões nos Estados Unidos A Meta, dona de Instagram, Facebook e WhatsApp, fechou um acordo para pagar US$ 18 bilhões (cerca de R$ 92,9 bilhões) a estados americanos para encerrar o processo que a acusa de incentivar a dependência de adolescentes das redes sociais. O valor, no entanto, só será pago integralmente se o TikTok e o YouTube também fecharem acordos.\n\nO que já foi informado\n\nSegundo a Meta, o dinheiro deve ser usado para financiar atividades de segurança online para jovens e \"outras prioridades estaduais\". O pagamento será dividido em duas partes. A primeira, equivalente a 70% do valor (cerca de US$ 12,7 bilhões ou R$ 65,6 bilhões), será feita em parcelas ao longo de 10 anos. Os 30% restantes (cerca de US$5,3 bilhões ou R$ 27,4 bilhões) só serão liberados se duas condições forem cumpridas: implementação de restrições para adolescentes no YouTube e TikTok, sendo elas o limite diário de uma hora de uso, modo noturno e medidas de verificação de idade; YouTube e TikTok pagarem, cada um, um valor equivalente à parcela de 30%. A Meta exige que metade dos recursos restantes esteja vinculada ao pagamento do YouTube e a outra metade ao do TikTok.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta só pagará o valor integral de multa se YouTube e Store Center",
+      "seoDescription": "Meta fecha acordo judicial de US$ 16,6 bilhões nos Estados Unidos A Meta, dona de Instagram, Facebook e WhatsApp, fechou um acordo para pagar US$ 18 b",
+      "keyword": "Meta só pagará o valor integral de multa se YouTube e TikTok também fecharem acordo nos EUA; entenda",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/27/meta-so-pagara-o-valor-integral-de-multa-se-youtube-e-tiktok-tambem-fecharem-acordo-nos-eua-entenda.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Meta só pagará o valor integral de multa se YouTube e TikTok também fecharem acordo nos EUA; entenda",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_715367a3",
       "views": 0,
       "date": "2026-08-27T18:25:05.171Z",
@@ -2446,7 +2479,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T18:25:03.359Z",
+      "lastScraped": "2026-08-27T20:22:20.076Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2454,7 +2487,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T18:25:04.129Z",
+      "lastScraped": "2026-08-27T20:22:21.046Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2467,7 +2500,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T18:25:05.162Z",
+      "lastScraped": "2026-08-27T20:22:22.047Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2524,6 +2557,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787862180613",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta só pagará o valor integral de multa se YouTube e TikTok também fecharem acordo nos EUA; entenda",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta só pagará o valor integral de multa se YouTube e TikTok também fecharem acordo: por que esse movimento importa?",
+      "postId": "rss-hash_14569b6e",
+      "timestamp": "2026-08-27T20:22:22.063Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 42.2h (+8), Sem postagem há 42.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1787855147652",
       "feedName": "G1 - Economia",

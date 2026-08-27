@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_41fea4c4",
+      "views": 0,
+      "date": "2026-08-27T10:09:11.274Z",
+      "title": "A corrida da IA pode encarecer sua conta de luz? Entenda o impacto dos data: o que muda para usuários e empresas?",
+      "subtitle": "A IA pode deixar sua conta de luz mais cara? A inteligência artificial depende de grandes centros de dados, que reúnem milhares de chips e consomem muita eletricidade.",
+      "slug": "a-corrida-da-ia-pode-encarecer-sua-conta-de-luz-entenda-o-impacto-dos-data-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA IA pode deixar sua conta de luz mais cara? A inteligência artificial depende de grandes centros de dados, que reúnem milhares de chips e consomem muita eletricidade.\n\nO que já foi informado\n\nA Agência Internacional de Energia estima que o consumo dos data centers no mundo possa mais que dobrar até 2030. O Brasil pode ganhar espaço nessa corrida por ter uma matriz elétrica com forte presença de fontes renováveis, como hidrelétrica, solar e eólica. Mas há um gargalo: nem toda a energia disponível consegue chegar a quem precisa dela. Se a demanda dos data centers crescer mais rápido que a infraestrutura elétrica, será preciso investir para produzir mais energia e ampliar a rede que leva essa eletricidade até os consumidores. A discussão é sobre quem vai pagar essa conta: as empresas responsáveis pelo aumento do consumo ou, dependendo de como os custos forem divididos, também os demais consumidores na conta de luz. Toda semana, o g1 Explica simplifica a economia, o mercado financeiro e a educação financeira, mostrando como tudo isso afeta o seu bolso.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "A corrida da IA pode encarecer sua conta de luz? Store Center",
+      "seoDescription": "A IA pode deixar sua conta de luz mais cara? A inteligência artificial depende de grandes centros de dados, que reúnem milhares de chips e consomem mu",
+      "keyword": "A corrida da IA pode encarecer sua conta de luz? Entenda o impacto dos data centers",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/08/27/a-corrida-da-ia-pode-encarecer-sua-conta-de-luz-entenda-o-impacto-dos-data-centers.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "A corrida da IA pode encarecer sua conta de luz? Entenda o impacto dos data centers",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7e95aceb",
       "views": 0,
       "date": "2026-08-27T03:18:28.732Z",
@@ -2314,7 +2347,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T03:18:26.687Z",
+      "lastScraped": "2026-08-27T10:09:10.077Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2322,7 +2355,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T03:18:27.629Z",
+      "lastScraped": "2026-08-27T10:09:10.358Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2335,7 +2368,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T03:18:28.721Z",
+      "lastScraped": "2026-08-27T10:09:11.266Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2392,6 +2425,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787825407787",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "A corrida da IA pode encarecer sua conta de luz? Entenda o impacto dos data centers",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "A corrida da IA pode encarecer sua conta de luz? Entenda o impacto dos data: o que muda para usuários e empresas?",
+      "postId": "rss-hash_41fea4c4",
+      "timestamp": "2026-08-27T10:09:11.275Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.8h (+8), Sem postagem há 6.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1787800769642",
       "feedName": "G1 - Economia",

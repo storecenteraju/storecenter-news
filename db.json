@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_73560381",
+      "views": 0,
+      "date": "2026-08-27T22:32:18.618Z",
+      "title": "Campanhas eleitorais movimentam recursos de fundos públicos e de pessoas físicas: o que está em jogo no mercado?",
+      "subtitle": "Os 30 partidos registrados receberão, neste ano, cerca de R$ 5 bilhões do chamado Fundo Eleitoral para fazerem suas campanhas.",
+      "slug": "campanhas-eleitorais-movimentam-recursos-de-fundos-publicos-e-de-pessoas-fisicas-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nOs 30 partidos registrados receberão, neste ano, cerca de R$ 5 bilhões do chamado Fundo Eleitoral para fazerem suas campanhas. Do total, 2% são distribuídos igualitariamente entre as legendas; o restante do dinheiro é dividido de acordo com o tamanho das bancadas no Congresso.\n\nO que já foi informado\n\nO Partido Liberal deve receber a maior parcela, cerca de R$ 880 milhões, porque é o maior partido. O Partido dos Trabalhadores vem em segundo, com R$ 615 milhões. Mas os partidos também podem usar outros recursos para as campanhas: o Fundo Partidário, que é um fundo permanente para a manutenção dos partidos; recursos próprios dos candidatos; doações de pessoas físicas; e venda de serviços e eventos. Desde 2015, decisão do Supremo Tribunal Federal proibiu o financiamento privado por empresas. Financiamento privado O especialista em Direito Eleitoral Alexandre Rollo defende uma revisão desta proibição geral, permitindo, por exemplo, que uma empresa financie candidatos de um mesmo partido. Segundo ele, também poderiam ser fixados limites em reais em vez de percentuais do faturamento das empresas como existia antes.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Campanhas eleitorais movimentam recursos de fundos Store Center",
+      "seoDescription": "Os 30 partidos registrados receberão, neste ano, cerca de R$ 5 bilhões do chamado Fundo Eleitoral para fazerem suas campanhas.",
+      "keyword": "Campanhas eleitorais movimentam recursos de fundos públicos e de pessoas físicas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1300787-campanhas-eleitorais-movimentam-recursos-de-fundos-publicos-e-de-pessoas-fisicas",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Campanhas eleitorais movimentam recursos de fundos públicos e de pessoas físicas",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_14569b6e",
       "views": 0,
       "date": "2026-08-27T20:22:22.063Z",
@@ -2479,7 +2512,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T20:22:20.076Z",
+      "lastScraped": "2026-08-27T22:32:16.313Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2487,7 +2520,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T20:22:21.046Z",
+      "lastScraped": "2026-08-27T22:32:16.913Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2500,7 +2533,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T20:22:22.047Z",
+      "lastScraped": "2026-08-27T22:32:18.609Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2557,6 +2590,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787870032838",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Campanhas eleitorais movimentam recursos de fundos públicos e de pessoas físicas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Campanhas eleitorais movimentam recursos de fundos públicos e de pessoas físicas: o que está em jogo no mercado?",
+      "postId": "rss-hash_73560381",
+      "timestamp": "2026-08-27T22:32:18.618Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 32.9h (+8), Sem postagem há 32.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Nacional",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1787862180613",
       "feedName": "G1 - Economia",

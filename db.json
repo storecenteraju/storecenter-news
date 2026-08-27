@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_715367a3",
+      "views": 0,
+      "date": "2026-08-27T18:25:05.171Z",
+      "title": "Gestão Trump negocia com governo interino da Venezuela para assumir parte das: por que esse movimento importa?",
+      "subtitle": "A gestão Trump está conversando com o governo interino da Venezuela para assumir uma participação acionária nas enormes reservas de petróleo do país, segundo o site americano Axios.",
+      "slug": "gestao-trump-negocia-com-governo-interino-da-venezuela-para-assumir-parte-das-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA gestão Trump está conversando com o governo interino da Venezuela para assumir uma participação acionária nas enormes reservas de petróleo do país, segundo o site americano Axios. Siga o canal de notícias internacionais do g1 no WhatsApp O site diz ter ouvido dois altos funcionários da Casa Branca.\n\nO que já foi informado\n\nA Venezuela possui as maiores reservas conhecidas de petróleo do mundo. Em 3 de janeiro, uma operação militar americana realizou uma invasão ao país, sequestrando o presidente Nicolás Maduro. Maduro foi levado a Nova York, onde se encontra preso aguardando julgamento. Agora no g1 Em seu lugar, foi nomeada como presidente interina Delcy Rodríguez, vice de Maduro, mas cujo governo tem tomado medidas pró-Washington, como a soltura de dissidentes políticos e o envio de petróleo para os EUA. Marco Rubio Marco Rubio durante evento em Washington em 4 de agosto de 2026. Kevin Lamarque/ O secretário de Estado dos EUA, Marco Rubio, é apontado como a autoridade que dita de fato as ordens em Caracas.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Gestão Trump negocia com governo interino da Venezuela Store Center",
+      "seoDescription": "A gestão Trump está conversando com o governo interino da Venezuela para assumir uma participação acionária nas enormes reservas de petróleo do país,",
+      "keyword": "Gestão Trump negocia com governo interino da Venezuela para assumir parte das reservas de petróleo do país, diz site",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/08/27/gestao-trump-conversa-com-governo-interino-da-venezuela-para-assumir-parte-das-reservas-de-petroleo-do-pais-diz-site.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Gestão Trump negocia com governo interino da Venezuela para assumir parte das reservas de petróleo do país, diz site",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_300fc551",
       "views": 0,
       "date": "2026-08-27T16:36:30.610Z",
@@ -2413,7 +2446,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T16:36:28.545Z",
+      "lastScraped": "2026-08-27T18:25:03.359Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2421,7 +2454,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T16:36:29.538Z",
+      "lastScraped": "2026-08-27T18:25:04.129Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2434,7 +2467,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T16:36:30.599Z",
+      "lastScraped": "2026-08-27T18:25:05.162Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2491,6 +2524,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787855147652",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Gestão Trump negocia com governo interino da Venezuela para assumir parte das reservas de petróleo do país, diz site",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Gestão Trump negocia com governo interino da Venezuela para assumir parte das: por que esse movimento importa?",
+      "postId": "rss-hash_715367a3",
+      "timestamp": "2026-08-27T18:25:05.172Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.9h (+8), Sem postagem há 19.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1787848607004",
       "feedName": "G1 - Economia",

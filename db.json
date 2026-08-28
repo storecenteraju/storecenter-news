@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5bc93be7",
+      "views": 0,
+      "date": "2026-08-28T03:52:03.106Z",
+      "title": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 mil; Senna já foi: o que está em jogo no mercado?",
+      "subtitle": "Honda O Honda Prelude foi apresentado nesta quinta-feira (27) no Festival Interlagos 2026. As vendas começam hoje, por R$ 380 mil.",
+      "slug": "honda-prelude-volta-ao-brasil-apos-25-anos-por-r-380-mil-senna-ja-foi-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nHonda O Honda Prelude foi apresentado nesta quinta-feira (27) no Festival Interlagos 2026. As vendas começam hoje, por R$ 380 mil.\n\nO que já foi informado\n\nO cupê volta ao mercado brasileiro após 25 anos. Na década de 1990, o modelo teve Ayrton Senna como garoto-propaganda. A sexta geração do Prelude tem um sistema híbrido que combina dois motores elétricos com um motor 2.0 a gasolina. O propulsor a combustão utiliza ciclo Atkinson e injeção direta, tecnologias que ajudam a reduzir o consumo de combustível. O conjunto entrega 203 cv de potência e 32,1 kgfm de torque. O modelo também utiliza componentes do chassi do esportivo Civic Type R.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 Store Center",
+      "seoDescription": "Honda O Honda Prelude foi apresentado nesta quinta-feira (27) no Festival Interlagos 2026. As vendas começam hoje, por R$ 380 mil.",
+      "keyword": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 mil; Senna já foi garoto-propaganda do esportivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/08/27/honda-lanca-no-brasil-prelude-por-r-380-mil-ayrton-senna-ja-foi-garoto-propaganda-do-esportivo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 mil; Senna já foi garoto-propaganda do esportivo",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3949749a",
       "views": 0,
       "date": "2026-08-28T01:33:18.615Z",
@@ -2578,7 +2611,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T01:33:07.541Z",
+      "lastScraped": "2026-08-28T03:52:01.727Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2586,7 +2619,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T01:33:08.105Z",
+      "lastScraped": "2026-08-28T03:52:02.271Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2599,7 +2632,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T00:10:24.075Z",
+      "lastScraped": "2026-08-28T03:52:03.095Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2656,6 +2689,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787889129798",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 mil; Senna já foi garoto-propaganda do esportivo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Honda Prelude volta ao Brasil após 25 anos por R$ 380 mil; Senna já foi: o que está em jogo no mercado?",
+      "postId": "rss-hash_5bc93be7",
+      "timestamp": "2026-08-28T03:52:03.107Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 43.5h (+8), Sem postagem há 43.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1787880858433",
       "feedName": "G1 - Economia",

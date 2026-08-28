@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_549f8ef9",
+      "views": 0,
+      "date": "2026-08-28T17:31:37.195Z",
+      "title": "Deputados são eleitos pelo voto proporcional: o que pode mudar agora?",
+      "subtitle": "Nas eleições de 2026, serão eleitos o presidente da República, deputados federais e senadores, em âmbito federal, e, nos estados, os governadores e deputados estaduais (ou distritais, no caso do Distrito Federal).",
+      "slug": "deputados-sao-eleitos-pelo-voto-proporcional-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nNas eleições de 2026, serão eleitos o presidente da República, deputados federais e senadores, em âmbito federal, e, nos estados, os governadores e deputados estaduais (ou distritais, no caso do Distrito Federal). Para presidente da República, governadores e senadores, a eleição é majoritária.\n\nO que já foi informado\n\nMas as regras são diferentes. Para presidente e governador, é preciso obter mais da metade dos votos válidos. Se ninguém conseguir, há segundo turno entre os dois mais votados. Para o Senado, são eleitos os candidatos mais votados. Sistema proporcional Para eleger deputados federais, estaduais, distritais e vereadores, o sistema é proporcional – e descobrir quem foi eleito envolve um cálculo um pouco mais complexo. Para entender, é preciso saber que, nesse tipo de eleição, o voto que você dá a um candidato também conta como voto no partido.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Deputados são eleitos pelo voto proporcional: o que Store Center",
+      "seoDescription": "Nas eleições de 2026, serão eleitos o presidente da República, deputados federais e senadores, em âmbito federal, e, nos estados, os governadores e de",
+      "keyword": "Deputados são eleitos pelo voto proporcional; entenda a lógica desse sistema",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1300504-deputados-sao-eleitos-pelo-voto-proporcional-entenda-a-logica-desse-sistema",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Deputados são eleitos pelo voto proporcional; entenda a lógica desse sistema",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_31396b36",
       "views": 0,
       "date": "2026-08-28T14:55:36.943Z",
@@ -2710,7 +2743,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T14:55:25.595Z",
+      "lastScraped": "2026-08-28T17:31:34.902Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2718,7 +2751,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T14:55:26.431Z",
+      "lastScraped": "2026-08-28T17:31:35.613Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2731,7 +2764,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T06:07:10.263Z",
+      "lastScraped": "2026-08-28T17:31:37.180Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2788,6 +2821,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787938355936",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Deputados são eleitos pelo voto proporcional; entenda a lógica desse sistema",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Deputados são eleitos pelo voto proporcional: o que pode mudar agora?",
+      "postId": "rss-hash_549f8ef9",
+      "timestamp": "2026-08-28T17:31:37.195Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.0h (+8), Sem postagem há 19.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787928995604",
       "feedName": "G1 - Economia",

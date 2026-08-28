@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_453675cf",
+      "views": 0,
+      "date": "2026-08-28T22:35:21.113Z",
+      "title": "Quer comprar carro pelo Move Brasil? Governo amplia prazo de financiamento para 84: o que está em jogo no mercado?",
+      "subtitle": "Motorista de aplicativo, app, Uber, 99 Maksim Goncharenok/Pexels O Conselho Monetário Nacional (CMN) ampliou as condições de financiamento do programa Move Brasil para taxistas, motoristas de aplicativos e cooperativas de taxistas.",
+      "slug": "quer-comprar-carro-pelo-move-brasil-governo-amplia-prazo-de-financiamento-para-84-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nMotorista de aplicativo, app, Uber, 99 Maksim Goncharenok/Pexels O Conselho Monetário Nacional (CMN) ampliou as condições de financiamento do programa Move Brasil para taxistas, motoristas de aplicativos e cooperativas de taxistas. Agora, os veículos poderão ser financiados em até 84 meses, contra os 72 meses previstos anteriormente, e o valor máximo do automóvel passou de R$ 150 mil para R$ 200 mil.\n\nO que já foi informado\n\nA mudança foi aprovada em reunião extraordinária do CMN nesta quinta-feira (27). O programa é voltado à compra de veículos novos usados no transporte individual de passageiros. O prazo maior permite que o valor financiado seja dividido em mais parcelas, o que pode reduzir o valor pago mensalmente pelos motoristas. O programa mantém a possibilidade de até seis meses de carência para o pagamento do valor principal — período em que o beneficiário não precisa começar a quitar essa parte da dívida.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quer comprar carro pelo Move Brasil? Governo amplia Store Center",
+      "seoDescription": "Motorista de aplicativo, app, Uber, 99 Maksim Goncharenok/Pexels O Conselho Monetário Nacional (CMN) ampliou as condições de financiamento do programa",
+      "keyword": "Quer comprar carro pelo Move Brasil? Governo amplia prazo de financiamento para 84 meses",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/08/28/quer-comprar-carro-pelo-move-brasil-governo-amplia-prazo-de-financiamento-para-84-meses.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Quer comprar carro pelo Move Brasil? Governo amplia prazo de financiamento para 84 meses",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_27cef44e",
       "views": 0,
       "date": "2026-08-28T21:10:46.553Z",
@@ -2809,7 +2842,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T21:10:44.877Z",
+      "lastScraped": "2026-08-28T22:35:09.784Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2817,7 +2850,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T21:10:45.510Z",
+      "lastScraped": "2026-08-28T22:35:10.600Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2887,6 +2920,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787956523836",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quer comprar carro pelo Move Brasil? Governo amplia prazo de financiamento para 84 meses",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quer comprar carro pelo Move Brasil? Governo amplia prazo de financiamento para 84: o que está em jogo no mercado?",
+      "postId": "rss-hash_453675cf",
+      "timestamp": "2026-08-28T22:35:21.114Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.7h (+8), Sem postagem há 18.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 21",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787951544817",
       "feedName": "Agência Câmara - Política",

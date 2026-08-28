@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_61646476",
+      "views": 0,
+      "date": "2026-08-28T06:07:10.271Z",
+      "title": "Acordo com a Meta nos EUA abre frente em luta global contra danos gerados por redes: por que esse movimento importa?",
+      "subtitle": "Facebook, Instagram e WhatsApp, plataformas da Meta Richard Drew/AP.",
+      "slug": "acordo-com-a-meta-nos-eua-abre-frente-em-luta-global-contra-danos-gerados-por-redes-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nFacebook, Instagram e WhatsApp, plataformas da Meta Richard Drew/AP. A decisão da Meta de restringir o uso das redes sociais por adolescentes nos EUA mostra que as empresas têm ferramentas para proteger melhor os jovens na internet, afirmaram autoridades australianas nesta quinta-feira (27).\n\nO que já foi informado\n\nA declaração ocorre enquanto o país enfrenta dificuldades para aplicar restrições semelhantes em seu próprio território. O acordo de até US$18 bilhões da Meta com quase todos os estados dos EUA em relação aos danos causados pelas redes sociais aos adolescentes abriu uma nova frente na luta global dos governos para proteger as crianças e coibir o vício em plataformas como Facebook e Instagram. Governos em todo o mundo estão tentando restringir o acesso de crianças a conteúdos online prejudiciais. A primeira proibição mundial do uso de redes sociais por menores de 16 anos aconteceu na Austrália, no final do ano passado. Agora no g1 A ministra australiana das Comunicações, Anika Wells, afirmou à que as empresas de redes sociais “têm à sua disposição as ferramentas para proteger os jovens contra seus recursos viciantes, mas optaram por não utilizá-las”.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Acordo com a Meta nos EUA abre frente em luta global Store Center",
+      "seoDescription": "Facebook, Instagram e WhatsApp, plataformas da Meta Richard Drew/AP.",
+      "keyword": "Acordo com a Meta nos EUA abre frente em luta global contra danos gerados por redes sociais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/28/acordo-com-a-meta-nos-eua-abre-frente-em-luta-global-contra-danos-gerados-por-redes-sociais.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Acordo com a Meta nos EUA abre frente em luta global contra danos gerados por redes sociais",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5bc93be7",
       "views": 0,
       "date": "2026-08-28T03:52:03.106Z",
@@ -2611,7 +2644,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T03:52:01.727Z",
+      "lastScraped": "2026-08-28T06:07:08.378Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2619,7 +2652,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T03:52:02.271Z",
+      "lastScraped": "2026-08-28T06:07:09.223Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2632,7 +2665,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T03:52:03.095Z",
+      "lastScraped": "2026-08-28T06:07:10.263Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2689,6 +2722,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787897248322",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Acordo com a Meta nos EUA abre frente em luta global contra danos gerados por redes sociais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Acordo com a Meta nos EUA abre frente em luta global contra danos gerados por redes: por que esse movimento importa?",
+      "postId": "rss-hash_61646476",
+      "timestamp": "2026-08-28T06:07:10.271Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 52.0h (+8), Sem postagem há 52.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1787889129798",
       "feedName": "G1 - Economia",

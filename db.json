@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_774c07d1",
+      "views": 0,
+      "date": "2026-08-28T19:36:01.032Z",
+      "title": "Presidente do Fed sugere que EUA podem aumentar taxas de juros para conter inflação: por que esse movimento importa?",
+      "subtitle": "Evelyn Hockstein O presidente do Federal Reserve (Fed), Kevin Warsh, sugeriu nesta sexta-feira (28) que o banco central americano pode ter que aumentar as taxas de juros nos próximos meses para conter a inflação dos Estados Unidos.",
+      "slug": "presidente-do-fed-sugere-que-eua-podem-aumentar-taxas-de-juros-para-conter-inflacao-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEvelyn Hockstein O presidente do Federal Reserve (Fed), Kevin Warsh, sugeriu nesta sexta-feira (28) que o banco central americano pode ter que aumentar as taxas de juros nos próximos meses para conter a inflação dos Estados Unidos. A declaração foi considerada um sinal mais claro em relação a comentários feitos anteriormente por Warsh sobre a situação dos EUA.\n\nO que já foi informado\n\nO chefe do banco central americano disse que dados recentes indicam melhora, mas pregou cautela. \"Precisamos ter certeza de que a inflação subjacente está se movendo em direção ao nosso objetivo, de forma clara e em velocidade suficiente\", disse Warsh, durante conferência anual do Fed. \"Caso contrário, temos trabalho a fazer\". A política de juros nos EUA tem reflexos no Brasil. Com as taxas em nível historicamente elevado, cresce a pressão para que a Selic, taxa básica de juros brasileira, permaneça em patamar alto por mais tempo, além de gerar efeitos sobre o câmbio. (leia mais abaixo) Agora no g1 Warsh não insinuou que um aumento da taxa de juros seja iminente, mas destacou que o combate à inflação continua como prioridade.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente do Fed sugere que EUA podem aumentar taxas Store Center",
+      "seoDescription": "Evelyn Hockstein O presidente do Federal Reserve (Fed), Kevin Warsh, sugeriu nesta sexta-feira (28) que o banco central americano pode ter que aumenta",
+      "keyword": "Presidente do Fed sugere que EUA podem aumentar taxas de juros para conter inflação",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/28/presidente-do-fed-sugere-que-eua-podem-aumentar-taxas-de-juros-para-conter-inflacao.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Presidente do Fed sugere que EUA podem aumentar taxas de juros para conter inflação",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_549f8ef9",
       "views": 0,
       "date": "2026-08-28T17:31:37.195Z",
@@ -2743,7 +2776,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T17:31:34.902Z",
+      "lastScraped": "2026-08-28T19:35:58.856Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2751,7 +2784,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T17:31:35.613Z",
+      "lastScraped": "2026-08-28T19:36:00.040Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2764,7 +2797,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T17:31:37.180Z",
+      "lastScraped": "2026-08-28T19:36:01.022Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2821,6 +2854,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787945819103",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Presidente do Fed sugere que EUA podem aumentar taxas de juros para conter inflação",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente do Fed sugere que EUA podem aumentar taxas de juros para conter inflação: por que esse movimento importa?",
+      "postId": "rss-hash_774c07d1",
+      "timestamp": "2026-08-28T19:36:01.033Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.9h (+8), Sem postagem há 7.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Nacional",
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787938355936",
       "feedName": "Agência Câmara - Política",

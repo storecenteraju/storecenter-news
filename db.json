@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3949749a",
+      "views": 0,
+      "date": "2026-08-28T01:33:18.615Z",
+      "title": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões: por que isso importa para a economia?",
+      "subtitle": "Como funciona a Mega-Sena? O sorteio do concurso 3.050 da Mega-Sena foi realizado na noite desta quinta-feira (27), em São Paulo.",
+      "slug": "mega-sena-3050-acumula-e-premio-vai-a-r-30-milhoes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nComo funciona a Mega-Sena? O sorteio do concurso 3.050 da Mega-Sena foi realizado na noite desta quinta-feira (27), em São Paulo.\n\nO que já foi informado\n\nO prêmio para as apostas que acertassem as seis dezenas era de R$ 23,3 milhões. No entanto, ninguém levou a faixa principal e o valor acumulou para R$ 30 milhões. Veja os números sorteados: 11 - 14 - 30 - 38 - 49 - 55 5 acertos: 26 apostas ganhadoras, R$ 55.536,51 4 acertos: 1.682 apostas ganhadoras, R$ 1.415,06 Resultado do concurso 3050 da Mega-Sena.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões Store Center",
+      "seoDescription": "Como funciona a Mega-Sena? O sorteio do concurso 3.050 da Mega-Sena foi realizado na noite desta quinta-feira (27), em São Paulo.",
+      "keyword": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões; confira os números sorteados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/27/mega-sena-concurso-3050-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões; confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7a7f1d23",
       "views": 0,
       "date": "2026-08-28T00:10:24.091Z",
@@ -2545,7 +2578,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T00:10:21.662Z",
+      "lastScraped": "2026-08-28T01:33:07.541Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2553,7 +2586,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T00:10:23.261Z",
+      "lastScraped": "2026-08-28T01:33:08.105Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2623,6 +2656,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787880858433",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões; confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena 3050 acumula e prêmio vai a R$ 30 milhões: por que isso importa para a economia?",
+      "postId": "rss-hash_3949749a",
+      "timestamp": "2026-08-28T01:33:18.616Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.7h (+8), Sem postagem há 11.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Nacional",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1787875827754",
       "feedName": "G1 - Economia",

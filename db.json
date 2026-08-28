@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7a7f1d23",
+      "views": 0,
+      "date": "2026-08-28T00:10:24.091Z",
+      "title": "Meta é denunciada após fazer ação publicitária sobre Instagram em frente a: o que muda para usuários e empresas?",
+      "subtitle": "O objetivo da campanha era promover recursos do Instagram voltados para crianças e adolescentes.",
+      "slug": "meta-e-denunciada-apos-fazer-acao-publicitaria-sobre-instagram-em-frente-a-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO objetivo da campanha era promover recursos do Instagram voltados para crianças e adolescentes. A denúncia foi feita por três organizações: Instituto Alana, de proteção de crianças e adolescentes, CTRL+Z, que monitora a atuação de grandes empresas de tecnologia, e Plataforma 12, que se concentra nos direitos digitais de menores de 18 anos.\n\nO que já foi informado\n\nAs entidades alegam que a campanha da Meta descumpriu o Código de Defesa do Consumidor, que considera abusiva a propaganda que explora a deficiência de julgamento e experiência de crianças. A Meta afirmou que sua ação próximo a escolas não teve natureza comercial. \"Essa ativação educativa foi parte de uma campanha mais ampla da Meta direcionada a adolescentes, pais e responsáveis\", afirmou a empresa, em nota. Agora no g1 Registros apresentados na denúncia apontaram que representantes da Meta instalaram estandes e realizaram dinâmicas perto de ensino fundamental e médio.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta é denunciada após fazer ação publicitária sobre Store Center",
+      "seoDescription": "O objetivo da campanha era promover recursos do Instagram voltados para crianças e adolescentes.",
+      "keyword": "Meta é denunciada após fazer ação publicitária sobre Instagram em frente a escolas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/27/meta-denuncia-instagram-escolas.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Meta é denunciada após fazer ação publicitária sobre Instagram em frente a escolas",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_73560381",
       "views": 0,
       "date": "2026-08-27T22:32:18.618Z",
@@ -2512,7 +2545,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-27T22:32:16.313Z",
+      "lastScraped": "2026-08-28T00:10:21.662Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2520,7 +2553,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-27T22:32:16.913Z",
+      "lastScraped": "2026-08-28T00:10:23.261Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2533,7 +2566,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-27T22:32:18.609Z",
+      "lastScraped": "2026-08-28T00:10:24.075Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2590,6 +2623,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787875827754",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta é denunciada após fazer ação publicitária sobre Instagram em frente a escolas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta é denunciada após fazer ação publicitária sobre Instagram em frente a: o que muda para usuários e empresas?",
+      "postId": "rss-hash_7a7f1d23",
+      "timestamp": "2026-08-28T00:10:24.091Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 46.0h (+8), Sem postagem há 46.0h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1787870032838",
       "feedName": "Agência Câmara - Política",

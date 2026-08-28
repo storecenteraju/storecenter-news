@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_27cef44e",
+      "views": 0,
+      "date": "2026-08-28T21:10:46.553Z",
+      "title": "Eleição para deputado federal mobiliza R$ 982 milhões em recursos: o que pode mudar agora?",
+      "subtitle": "As receitas dos candidatos a deputado federal para gastos de campanha já chegam a R$ 982,8 milhões, superando os valores de todos os outros cargos em disputa na eleição deste ano.",
+      "slug": "eleicao-para-deputado-federal-mobiliza-r-982-milhoes-em-recursos-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nAs receitas dos candidatos a deputado federal para gastos de campanha já chegam a R$ 982,8 milhões, superando os valores de todos os outros cargos em disputa na eleição deste ano. A informação é da plataforma de prestação de contas do Tribunal Superior Eleitoral (TSE).\n\nO que já foi informado\n\nOs números ainda podem mudar ao longo da campanha. Desses recursos, R$ 932 milhões ou 95% vêm de financiamento público, como o Fundo Partidário e o fundo eleitoral. Outros R$ 50,6 milhões são recursos privados, dividindo-se entre doações de pessoas físicas (R$ 27,8 milhões), recursos próprios (R$ 13,2 milhões) e financiamento coletivo (R$ 3,9 milhões). Os custos com a eleição para a Câmara dos Deputados são maiores do que os de assembleias legislativas (R$ 406,7 milhões), do Senado Federal (R$ 174,9 milhões), dos governos estaduais (R$ 196,6 milhões) e do presidente (R$ 83 milhões). Regiões O Sudeste é a região com mais recursos para campanha de deputado federal: R$ 397 milhões. Deste valor, R$ 188 milhões se destinam a São Paulo, o estado que elege o maior número de deputados, 70.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleição para deputado federal mobiliza R$ 982 milhões Store Center",
+      "seoDescription": "As receitas dos candidatos a deputado federal para gastos de campanha já chegam a R$ 982,8 milhões, superando os valores de todos os outros cargos em",
+      "keyword": "Eleição para deputado federal mobiliza R$ 982 milhões em recursos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1301013-eleicao-para-deputado-federal-mobiliza-r-982-milhoes-em-recursos",
+      "sourceName": "Agência Câmara - Política",
+      "rssOriginalTitle": "Eleição para deputado federal mobiliza R$ 982 milhões em recursos",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_774c07d1",
       "views": 0,
       "date": "2026-08-28T19:36:01.032Z",
@@ -2776,7 +2809,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T19:35:58.856Z",
+      "lastScraped": "2026-08-28T21:10:44.877Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2784,7 +2817,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T19:36:00.040Z",
+      "lastScraped": "2026-08-28T21:10:45.510Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2797,7 +2830,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T19:36:01.022Z",
+      "lastScraped": "2026-08-28T21:10:46.546Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2854,6 +2887,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787951544817",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Eleição para deputado federal mobiliza R$ 982 milhões em recursos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleição para deputado federal mobiliza R$ 982 milhões em recursos: o que pode mudar agora?",
+      "postId": "rss-hash_27cef44e",
+      "timestamp": "2026-08-28T21:10:46.554Z",
+      "chosenCategory": "Política",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787945819103",
       "feedName": "G1 - Economia",

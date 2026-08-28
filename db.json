@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_31396b36",
+      "views": 0,
+      "date": "2026-08-28T14:55:36.943Z",
+      "title": "Polônia pede que UE multe Meta em € 250 milhões por golpes e anúncios fraudulentos: o que muda para os próximos jogos?",
+      "subtitle": "Meta, dona do Facebook, Instagram e Whatsapp, vai pagar indenização bilionária em processo por vício em redes sociais A Polônia solicitou à Comissão Europeia que imponha uma multa de € 250 milhões (cerca de R$ 1,50 bilhão) à Meta, dona do Instagram e do.",
+      "slug": "polonia-pede-que-ue-multe-meta-em-250-milhoes-por-golpes-e-anuncios-fraudulentos-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nMeta, dona do Facebook, Instagram e Whatsapp, vai pagar indenização bilionária em processo por vício em redes sociais A Polônia solicitou à Comissão Europeia que imponha uma multa de € 250 milhões (cerca de R$ 1,50 bilhão) à Meta, dona do Instagram e do Facebook, disse o ministro de Assuntos Digitais do país nesta quinta-feira (27). Ele acusa a empresa de não combater adequadamente anúncios fraudulentos.\n\nO que já foi informado\n\nEsta é a mais recente crítica às práticas da Meta após a gigante de tecnologia dos EUA ser obrigada a pagar US$ 16 bilhões em um acordo com estados americanos, anunciado na quarta-feira (26), para resolver alegações de que projetou suas plataformas de mídia social para viciar crianças. A Polônia acusa a Meta de publicar anúncios fraudulentos e de não removê-los quando é notificada. \"Temos provas concretas de que a plataforma não age no melhor interesse dos usuários, mas sim em seu próprio interesse, o que lhe permite monetizar enganosa\", disse o ministro polonês de Assuntos Digitais, Krzysztof Gawkowski, em uma coletiva de imprensa. O CEO da Meta Platforms, Mark Zuckerberg, chega ao Tribunal de Los Angeles.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Polônia pede que UE multe Meta em € 250 milhões por Store Center",
+      "seoDescription": "Meta, dona do Facebook, Instagram e Whatsapp, vai pagar indenização bilionária em processo por vício em redes sociais A Polônia solicitou à Comissão E",
+      "keyword": "Polônia pede que UE multe Meta em € 250 milhões por golpes e anúncios fraudulentos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/27/polonia-pede-que-ue-multe-meta-em-euro-250-milhoes-por-golpes-e-anuncios-fraudulentos.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Polônia pede que UE multe Meta em € 250 milhões por golpes e anúncios fraudulentos",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_4c625ad6",
       "views": 0,
       "date": "2026-08-28T11:40:46.492Z",
@@ -2677,7 +2710,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T11:40:35.061Z",
+      "lastScraped": "2026-08-28T14:55:25.595Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2685,7 +2718,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T11:40:35.970Z",
+      "lastScraped": "2026-08-28T14:55:26.431Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2755,6 +2788,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787928995604",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Polônia pede que UE multe Meta em € 250 milhões por golpes e anúncios fraudulentos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Polônia pede que UE multe Meta em € 250 milhões por golpes e anúncios fraudulentos: o que muda para os próximos jogos?",
+      "postId": "rss-hash_31396b36",
+      "timestamp": "2026-08-28T14:55:36.943Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 60.8h (+8), Sem postagem há 60.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1787917277645",
       "feedName": "G1 - Economia",

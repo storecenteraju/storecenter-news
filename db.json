@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4c625ad6",
+      "views": 0,
+      "date": "2026-08-28T11:40:46.492Z",
+      "title": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem do Brasil a construir a: o que muda para os próximos jogos?",
+      "subtitle": "Luana Lara, a brasileira que se tornou a bilionária mais jovem do mundo sem herança A brasileira Luana Lopes Lara, de 30 anos, cofundadora e diretora de operações da startup de previsões Kalshi, é a mulher mais jovem do Brasil a construir sua própria fortuna e.",
+      "slug": "luana-lopes-lara-da-kalshi-e-a-bilionaria-mais-jovem-do-brasil-a-construir-a-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nLuana Lara, a brasileira que se tornou a bilionária mais jovem do mundo sem herança A brasileira Luana Lopes Lara, de 30 anos, cofundadora e diretora de operações da startup de previsões Kalshi, é a mulher mais jovem do Brasil a construir sua própria fortuna e se tornar bilionária. As informações são da revista Forbes.\n\nO que já foi informado\n\nCofundadora e diretora de operações da plataforma de previsão Kalshi, ela tem patrimônio estimado em US$ 2,6 bilhões (R$ 13,4 bilhões) e cerca de 12% de participação na empresa. A Kalshi funciona como uma espécie de \"bolsa de apostas\" sobre eventos futuros. Nele, as pessoas compram e vendem contratos baseados em perguntas simples como \"Vai acontecer ou não? \", relacionados aos mais diversos eventos, como guerras, mudanças climáticas ou eleições. Luana passou a liderar o grupo de mulheres bilionárias que fizeram fortuna por conta própria depois que a empresa captou US$ 1 bilhão (R$ 5,1 bilhões) em uma rodada de investimentos, no fim de 2025.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem Store Center",
+      "seoDescription": "Luana Lara, a brasileira que se tornou a bilionária mais jovem do mundo sem herança A brasileira Luana Lopes Lara, de 30 anos, cofundadora e diretora",
+      "keyword": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem do Brasil a construir a própria fortuna; veja quem é",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/28/luana-lopes-lara-da-kalshi-e-a-bilionaria-mais-jovem-do-brasil-a-construir-a-propria-fortuna-veja-quem-e.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem do Brasil a construir a própria fortuna; veja quem é",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_61646476",
       "views": 0,
       "date": "2026-08-28T06:07:10.271Z",
@@ -2644,7 +2677,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T06:07:08.378Z",
+      "lastScraped": "2026-08-28T11:40:35.061Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2652,7 +2685,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T06:07:09.223Z",
+      "lastScraped": "2026-08-28T11:40:35.970Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2722,6 +2755,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787917277645",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem do Brasil a construir a própria fortuna; veja quem é",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Luana Lopes Lara, da Kalshi, é a bilionária mais jovem do Brasil a construir a: o que muda para os próximos jogos?",
+      "postId": "rss-hash_4c625ad6",
+      "timestamp": "2026-08-28T11:40:46.492Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.1h (+8), Sem postagem há 10.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Política",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787897248322",
       "feedName": "G1 - Economia",

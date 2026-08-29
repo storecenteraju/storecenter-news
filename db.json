@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_327228e7",
+      "views": 0,
+      "date": "2026-08-29T07:17:38.768Z",
+      "title": "Até 900 km de autonomia e 767 cv: o que está em jogo no mercado?",
+      "subtitle": "Veja os principais SUVs anunciados no Festival Interlagos Nesta semana, o g1 esteve no Festival Interlagos, no Autódromo de Interlagos, em São Paulo (SP), para mostrar as principais novidades anunciadas para o mercado automotivo.",
+      "slug": "ate-900-km-de-autonomia-e-767-cv-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nVeja os principais SUVs anunciados no Festival Interlagos Nesta semana, o g1 esteve no Festival Interlagos, no Autódromo de Interlagos, em São Paulo (SP), para mostrar as principais novidades anunciadas para o mercado automotivo. E não há como escapar de uma lista de SUVs.\n\nO que já foi informado\n\nConfira a seguir seis destaques, com informações técnicas e, em alguns casos, preço já confirmado: BMW iX3; Leapmotor B10 REEV; Jaecoo 5; DFM Vigo; IM6; GAC GS9. BMW iX3 BMW iX3 O SUV totalmente elétrico inaugura a nova linguagem visual da marca alemã, com linhas mais quadradas e um toque de retrofuturismo dos anos 1980. No Brasil, já está disponível em versão única por R$ 582.950. O principal destaque é a autonomia proporcionada pela bateria de 108,7 kWh: são 570 km com uma única carga. No modo de máxima economia, a marca promete alcance de até 800 km, suficiente para percorrer os cerca de 600 km entre São Paulo (SP) e Belo Horizonte (MG). No interior, chama a atenção uma tela que atravessa o painel de ponta a ponta, posicionada próxima à base do para-brisa.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Até 900 km de autonomia e 767 cv: o que está em jogo no Store Center",
+      "seoDescription": "Veja os principais SUVs anunciados no Festival Interlagos Nesta semana, o g1 esteve no Festival Interlagos, no Autódromo de Interlagos, em São Paulo (",
+      "keyword": "Até 900 km de autonomia e 767 cv: veja 6 novos SUVs que chegam ao Brasil; VÍDEO",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/08/29/veja-6-novos-suvs-que-chegam-ao-brasil.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Até 900 km de autonomia e 767 cv: veja 6 novos SUVs que chegam ao Brasil; VÍDEO",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_10c17d1a",
       "views": 0,
       "date": "2026-08-29T03:43:23.951Z",
@@ -2974,7 +3007,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T03:43:22.089Z",
+      "lastScraped": "2026-08-29T07:17:27.673Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2982,7 +3015,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T03:43:22.908Z",
+      "lastScraped": "2026-08-29T07:17:28.251Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3052,6 +3085,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787987892943",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Até 900 km de autonomia e 767 cv: veja 6 novos SUVs que chegam ao Brasil; VÍDEO",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Até 900 km de autonomia e 767 cv: o que está em jogo no mercado?",
+      "postId": "rss-hash_327228e7",
+      "timestamp": "2026-08-29T07:17:38.768Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.4h (+8), Sem postagem há 27.4h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1787975046708",
       "feedName": "Agência Câmara - Política",

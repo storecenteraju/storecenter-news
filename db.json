@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_35c7be4f",
+      "views": 0,
+      "date": "2026-08-29T01:03:11.882Z",
+      "title": "Conta de luz: Aneel mantém bandeira tarifária amarela em setembro: por que esse movimento importa?",
+      "subtitle": "A bandeira tarifaria de setembro será amarela, anunciou a Agência Nacional de Energia Elétrica (Aneel) nesta sexta-feira (28).",
+      "slug": "conta-de-luz-aneel-mantem-bandeira-tarifaria-amarela-em-setembro-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA bandeira tarifaria de setembro será amarela, anunciou a Agência Nacional de Energia Elétrica (Aneel) nesta sexta-feira (28). Isso representa um adicional de R$ 1,885 a cada 100 kWh de consumo.\n\nO que já foi informado\n\nA tarifa adicional está sendo aplicada desde maio. A bandeira tarifária sinaliza ao consumidor os custos reais da geração de energia no país. Quando a geração fica mais cara, a cobrança extra é aplicada automaticamente nas contas. \"A sinalização reflete condições menos favoráveis de geração de energia no País, com necessidade de utilização de fontes de geração com custos mais elevados. ... Diante desse cenário, a ANEEL reforça a importância do uso consciente da energia elétrica.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Conta de luz: Aneel mantém bandeira tarifária amarela Store Center",
+      "seoDescription": "A bandeira tarifaria de setembro será amarela, anunciou a Agência Nacional de Energia Elétrica (Aneel) nesta sexta-feira (28).",
+      "keyword": "Conta de luz: Aneel mantém bandeira tarifária amarela em setembro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/28/aneel-bandeira-tarifaria-setembro.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Conta de luz: Aneel mantém bandeira tarifária amarela em setembro",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1c09fa43",
       "views": 0,
       "date": "2026-08-28T23:47:30.476Z",
@@ -2875,7 +2908,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-28T23:47:19.311Z",
+      "lastScraped": "2026-08-29T01:03:10.190Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2883,7 +2916,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-28T23:47:19.956Z",
+      "lastScraped": "2026-08-29T01:03:10.859Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2896,7 +2929,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-28T21:10:46.546Z",
+      "lastScraped": "2026-08-29T01:03:11.869Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2953,6 +2986,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787965445404",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Conta de luz: Aneel mantém bandeira tarifária amarela em setembro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Conta de luz: Aneel mantém bandeira tarifária amarela em setembro: por que esse movimento importa?",
+      "postId": "rss-hash_35c7be4f",
+      "timestamp": "2026-08-29T01:03:11.882Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Política",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787960857366",
       "feedName": "G1 - Economia",

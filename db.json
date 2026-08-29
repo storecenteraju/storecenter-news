@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1e796bb0",
+      "views": 0,
+      "date": "2026-08-29T13:22:33.121Z",
+      "title": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ 59,7 bilhões, e CEO diz que: como isso afeta a população?",
+      "subtitle": "Dado Ruvic/Ilustração A gigante americana de semicondutores Nvidia voltou a superar as expectativas no segundo trimestre de seu exercício fiscal.",
+      "slug": "lucro-da-nvidia-dispara-126-no-2-trimestre-para-us-59-7-bilhoes-e-ceo-diz-que-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nDado Ruvic/Ilustração A gigante americana de semicondutores Nvidia voltou a superar as expectativas no segundo trimestre de seu exercício fiscal. O CEO da empresa, Jensen Huang, afirmou que a demanda, impulsionada pela inteligência artificial (IA), continua crescendo.\n\nO que já foi informado\n\nA empresa de maior valor de mercado do mundo registrou lucro líquido de US$ 59,7 bilhões (R$ 307,5 bilhões) no segundo trimestre. O resultado foi 126% maior que o registrado no mesmo período do ano anterior, segundo comunicado divulgado nesta quarta-feira (26). O lucro por ação, indicador de referência para os investidores, foi de US$ 2,22 (R$ 11,44), acima dos US$ 2,09 (R$ 10,77) projetados pelos analistas consultados pela FactSet. \"A IA atingiu seu ponto de inflexão. Está fazendo um trabalho útil. Seus tokens são produtivos e rentáveis\", disse Huang, que busca reduzir as dúvidas, principalmente entre as empresas, sobre os benefícios econômicos da IA.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ Store Center",
+      "seoDescription": "Dado Ruvic/Ilustração A gigante americana de semicondutores Nvidia voltou a superar as expectativas no segundo trimestre de seu exercício fiscal.",
+      "keyword": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ 59,7 bilhões, e CEO diz que demanda por chips segue forte",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/26/lucro-nvidia.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ 59,7 bilhões, e CEO diz que demanda por chips segue forte",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_2165ec9d",
       "views": 0,
       "date": "2026-08-29T11:42:53.164Z",
@@ -3074,7 +3107,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T11:42:41.954Z",
+      "lastScraped": "2026-08-29T13:22:31.693Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3082,7 +3115,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T11:42:42.642Z",
+      "lastScraped": "2026-08-29T13:22:32.251Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3095,7 +3128,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T03:43:23.940Z",
+      "lastScraped": "2026-08-29T13:22:33.107Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3152,6 +3185,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788009824653",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ 59,7 bilhões, e CEO diz que demanda por chips segue forte",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lucro da Nvidia dispara 126% no 2º trimestre, para US$ 59,7 bilhões, e CEO diz que: como isso afeta a população?",
+      "postId": "rss-hash_1e796bb0",
+      "timestamp": "2026-08-29T13:22:33.122Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 22.4h (+8), Sem postagem há 22.4h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788003859377",
       "feedName": "G1 - Economia",

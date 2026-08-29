@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1ff832e9",
+      "views": 0,
+      "date": "2026-08-29T19:50:19.119Z",
+      "title": "Governo prevê aporte de R$ 6 bilhões para os Correios em 2027, afirma ministro: qual pode ser o próximo passo?",
+      "subtitle": "O projeto será enviado ao Congresso Nacional na próxima segunda-feira (31). Um aporte do governo nos Correios significa que o governo federal, por meio de transferência direta do Tesouro Nacional, vai repassar recursos para a empresa.",
+      "slug": "governo-preve-aporte-de-r-6-bilhoes-para-os-correios-em-2027-afirma-ministro-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nO projeto será enviado ao Congresso Nacional na próxima segunda-feira (31). Um aporte do governo nos Correios significa que o governo federal, por meio de transferência direta do Tesouro Nacional, vai repassar recursos para a empresa.\n\nO que já foi informado\n\nApesar da confirmação de que um novo aporte será feito, o ministro não detalhou como será feito. Agora no g1 Afundados em uma crise econômico-financeira sem precedentes, os Correios acumulam prejuízos ao longo dos últimos três anos, com queda de receitas e aumento de despesas. No final do ano passado, Os Correios assinaram um empréstimo de R$ 12 bilhões com cinco dos principais bancos do país para reforçar o caixa da estatal em meio à crise financeira enfrentada pela empresa.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo prevê aporte de R$ 6 bilhões para os Correios Store Center",
+      "seoDescription": "O projeto será enviado ao Congresso Nacional na próxima segunda-feira (31). Um aporte do governo nos Correios significa que o governo federal, por m",
+      "keyword": "Governo prevê aporte de R$ 6 bilhões para os Correios em 2027, afirma ministro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/29/governo-preve-aporte-de-r-6-bilhoes-para-os-correios-em-2027-afirma-ministro.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Governo prevê aporte de R$ 6 bilhões para os Correios em 2027, afirma ministro",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1ef4cf4d",
       "views": 0,
       "date": "2026-08-29T18:03:20.206Z",
@@ -3207,7 +3241,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T18:03:18.840Z",
+      "lastScraped": "2026-08-29T19:50:17.320Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3215,7 +3249,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T18:03:19.171Z",
+      "lastScraped": "2026-08-29T19:50:17.986Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3228,7 +3262,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T18:03:20.189Z",
+      "lastScraped": "2026-08-29T19:50:19.108Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3285,6 +3319,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788033065451",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo prevê aporte de R$ 6 bilhões para os Correios em 2027, afirma ministro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo prevê aporte de R$ 6 bilhões para os Correios em 2027, afirma ministro: qual pode ser o próximo passo?",
+      "postId": "rss-hash_1ff832e9",
+      "timestamp": "2026-08-29T19:50:19.119Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.4h (+8), Sem postagem há 17.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Nacional",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1788026666337",
       "feedName": "G1 - Economia",

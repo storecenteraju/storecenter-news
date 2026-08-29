@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1ba00346",
+      "views": 0,
+      "date": "2026-08-29T02:27:37.762Z",
+      "title": "ArcelorMittal anuncia investimento de até R$ 5 bi na unidade Tubarão, no ES; projeto: o que está em jogo no mercado?",
+      "subtitle": "A ArcelorMittal anunciou, nesta sexta-feira (28), a aprovação de um novo investimento bilionário no Espírito Santo.",
+      "slug": "arcelormittal-anuncia-investimento-de-ate-r-5-bi-na-unidade-tubarao-no-es-projeto-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA ArcelorMittal anunciou, nesta sexta-feira (28), a aprovação de um novo investimento bilionário no Espírito Santo. A empresa vai instalar um Laminador de Tiras a Frio e uma Linha de Revestimento Contínuo na Unidade Tubarão, na Serra, Grande Vitória.\n\nO que já foi informado\n\nO valor total estimado do projeto está entre R$ 4 bilhões e R$ 5 bilhões. Segundo a companhia, a nova linha de revestimento terá capacidade para produzir 560 mil toneladas de produtos por ano. O processo usará as bobinas a quente já fabricadas na própria unidade para gerar produtos laminados a frio e com revestimento metálico, que oferecem maior resistência à corrosão. As novas usinas vão entregar produtos de alto valor agregado para setores como automotivo, construção civil e linha branca. O objetivo, ainda de acordo com a ArcelorMittal, é fornecer materiais de elevado valor agregado para setores estratégicos, como a indústria automotiva, a linha branca (eletrodomésticos) e a construção civil. Geração de empregos A expectativa é que as obras tenham início ainda em 2026, com duração aproximada de três anos e meio.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "ArcelorMittal anuncia investimento de até R$ 5 bi na Store Center",
+      "seoDescription": "A ArcelorMittal anunciou, nesta sexta-feira (28), a aprovação de um novo investimento bilionário no Espírito Santo.",
+      "keyword": "ArcelorMittal anuncia investimento de até R$ 5 bi na unidade Tubarão, no ES; projeto deve gerar 3 mil empregos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/noticia/2026/08/28/arcelormittal-anuncia-investimento-de-ate-r-5-bi-em-novo-laminador-na-unidade-tubarao-no-es.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "ArcelorMittal anuncia investimento de até R$ 5 bi na unidade Tubarão, no ES; projeto deve gerar 3 mil empregos",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_35c7be4f",
       "views": 0,
       "date": "2026-08-29T01:03:11.882Z",
@@ -2908,7 +2941,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T01:03:10.190Z",
+      "lastScraped": "2026-08-29T02:27:36.181Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -2916,7 +2949,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T01:03:10.859Z",
+      "lastScraped": "2026-08-29T02:27:36.753Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -2929,7 +2962,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T01:03:11.869Z",
+      "lastScraped": "2026-08-29T02:27:37.754Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -2986,6 +3019,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787970553536",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "ArcelorMittal anuncia investimento de até R$ 5 bi na unidade Tubarão, no ES; projeto deve gerar 3 mil empregos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "ArcelorMittal anuncia investimento de até R$ 5 bi na unidade Tubarão, no ES; projeto: o que está em jogo no mercado?",
+      "postId": "rss-hash_1ba00346",
+      "timestamp": "2026-08-29T02:27:37.763Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.9h (+8), Sem postagem há 6.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1787965445404",
       "feedName": "G1 - Economia",

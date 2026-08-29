@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_97b60cb",
+      "views": 0,
+      "date": "2026-08-29T21:59:14.097Z",
+      "title": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos: o que muda para usuários e empresas?",
+      "subtitle": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inte Um movimento curioso está acontecendo entre empresas de tecnologia que investem em inteligência artificial: elas estão criando formas para que os próprios usuários.",
+      "slug": "parece-lixo-de-ia-por-que-plataformas-agora-estao-dedurando-conteudos-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\n'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inte Um movimento curioso está acontecendo entre empresas de tecnologia que investem em inteligência artificial: elas estão criando formas para que os próprios usuários denunciem conteúdos feitos com IA ou identificando com mais clareza quando uma publicação foi produzida com a tecnologia. A questão envolve a pressão por regulação, a tentativa de \"limpar o feed\", e até a sobrevivência do modelo de negócio dessas plataformas, afirmam especialistas ouvidos pelo g1.\n\nO que já foi informado\n\n( Segundo Elizabeth Saad, professora da Escola de Comunicações e Artes da Universidade de São Paulo (ECA-USP) e pesquisadora de IA, as ferramentas são projetadas para serem simples de usar e atrair cada vez mais pessoas. Mas a falta de esforço fez com que esse tipo de material se espalhasse rapidamente, mesmo que a qualidade do resultado seja questionável. É o que analistas chamam de \"AI slop\". O que é AI slop? É o nome dado à enxurrada de conteúdos de baixa qualidade feitos com IA.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Parece lixo de IA': por que plataformas agora estão Store Center",
+      "seoDescription": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inte Um movimento curioso está acontecendo entre empresas de tec",
+      "keyword": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/28/parece-lixo-de-ia-por-que-plataformas-agora-estao-dedurando-conteudos-feitos-com-inteligencia-artificial.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1ff832e9",
       "views": 0,
       "date": "2026-08-29T19:50:19.119Z",
@@ -3241,7 +3274,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T19:50:17.320Z",
+      "lastScraped": "2026-08-29T21:59:12.432Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3249,7 +3282,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T19:50:17.986Z",
+      "lastScraped": "2026-08-29T21:59:13.089Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3262,7 +3295,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T19:50:19.108Z",
+      "lastScraped": "2026-08-29T21:59:14.081Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3319,6 +3352,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788040790627",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com inteligência artificial",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos: o que muda para usuários e empresas?",
+      "postId": "rss-hash_97b60cb",
+      "timestamp": "2026-08-29T21:59:14.098Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 31.1h (+8), Sem postagem há 31.1h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788033065451",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_53dcf022",
+      "views": 0,
+      "date": "2026-08-29T09:45:13.391Z",
+      "title": "Veja os 5 profissionais de tecnologia mais disputados pelos bancos; setor: o que muda para usuários e empresas?",
+      "subtitle": "IA nas eleições: MPE lançou ferramenta para tirar dúvidas e registrar crimes Os bancos estão ampliando a busca por profissionais especializados em tecnologia à medida que aumentam os investimentos em inteligência artificial, dados, computação em nuvem e.",
+      "slug": "veja-os-5-profissionais-de-tecnologia-mais-disputados-pelos-bancos-setor-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nIA nas eleições: MPE lançou ferramenta para tirar dúvidas e registrar crimes Os bancos estão ampliando a busca por profissionais especializados em tecnologia à medida que aumentam os investimentos em inteligência artificial, dados, computação em nuvem e segurança digital. Entre os cinco profissionais de tecnologia mais procurados pelos bancos estão desenvolvedor de software, engenheiro de IA, engenheiro de dados, arquiteto corporativo e engenheiro de DevOps — profissional que atua na integração entre o desenvolvimento de sistemas e as operações de tecnologia.\n\nO que já foi informado\n\nA classificação considera os profissionais mais demandados pelas instituições em 2025. Segundo a 34ª edição da Pesquisa Febraban de Tecnologia Bancária, o orçamento destinado à área deve chegar a R$ 50,4 bilhões em 2026, após crescer 12% no último ano. Dentro desse montante, os bancos estimam destinar R$ 2,97 bilhões para inteligência artificial, análise de dados e big data — um conjunto de tecnologias usadas para trabalhar com grandes volumes de informações. Orçamento em tecnologia Febraban A expansão da IA também aumenta a necessidade de profissionais capazes de desenvolver, implementar e manter essas soluções.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Veja os 5 profissionais de tecnologia mais disputados Store Center",
+      "seoDescription": "IA nas eleições: MPE lançou ferramenta para tirar dúvidas e registrar crimes Os bancos estão ampliando a busca por profissionais especializados em tec",
+      "keyword": "Veja os 5 profissionais de tecnologia mais disputados pelos bancos; setor investirá R$ 3 bilhões em IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/29/veja-os-5-profissionais-de-tecnologia-mais-disputados-pelos-bancos-setor-investira-r-3-bilhoes-em-ia.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Veja os 5 profissionais de tecnologia mais disputados pelos bancos; setor investirá R$ 3 bilhões em IA",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_327228e7",
       "views": 0,
       "date": "2026-08-29T07:17:38.768Z",
@@ -3007,7 +3040,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T07:17:27.673Z",
+      "lastScraped": "2026-08-29T09:45:02.273Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3015,7 +3048,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T07:17:28.251Z",
+      "lastScraped": "2026-08-29T09:45:02.876Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3085,6 +3118,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1787996785508",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Veja os 5 profissionais de tecnologia mais disputados pelos bancos; setor investirá R$ 3 bilhões em IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Veja os 5 profissionais de tecnologia mais disputados pelos bancos; setor: o que muda para usuários e empresas?",
+      "postId": "rss-hash_53dcf022",
+      "timestamp": "2026-08-29T09:45:13.391Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.8h (+8), Sem postagem há 18.8h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787987892943",
       "feedName": "G1 - Economia",

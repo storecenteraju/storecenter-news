@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_72ce67e",
+      "views": 0,
+      "date": "2026-08-29T16:51:06.946Z",
+      "title": "Da Austrália à Europa: o que muda para usuários e empresas?",
+      "subtitle": "França aprova proibição de redes sociais para menores de 15 anos; medida é inédita na UE Em dezembro, a Austrália se tornou o primeiro país do mundo a proibir o uso de redes sociais por menores de 16 anos.",
+      "slug": "da-australia-a-europa-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nFrança aprova proibição de redes sociais para menores de 15 anos; medida é inédita na UE Em dezembro, a Austrália se tornou o primeiro país do mundo a proibir o uso de redes sociais por menores de 16 anos. A medida bloqueia o acesso a plataformas como YouTube, Instagram e Facebook.\n\nO que já foi informado\n\nA seguir, um resumo das medidas adotadas ou em discussão em diferentes países para regulamentar o acesso às redes sociais, em meio às crescentes preocupações com os impactos dessas plataformas na saúde e na segurança de crianças e adolescentes. Austrália Uma lei histórica obrigou as principais plataformas de redes sociais a impedir o acesso de menores de 16 anos a partir de 10 de dezembro de 2025. A medida é considerada uma das regulamentações mais rigorosas do mundo voltadas às grandes empresas de tecnologia. As empresas que não cumprirem as regras poderão ser multadas em até A$ 49,5 milhões (US$ 34,9 milhões). Jovem usa o celular em Sidney, na Austrália; país aprovou lei que proíbe acesso de menores de 16 anos às redes sociais Hollie Adams/ Grã-Bretanha O Reino Unido planeja proibir o uso de redes sociais por menores de 16 anos.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Da Austrália à Europa: o que muda para usuários e Store Center",
+      "seoDescription": "França aprova proibição de redes sociais para menores de 15 anos; medida é inédita na UE Em dezembro, a Austrália se tornou o primeiro país do mundo a",
+      "keyword": "Da Austrália à Europa: veja países que restringem acesso de crianças às redes sociais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/29/da-australia-a-europa-veja-paises-que-restringem-acesso-de-criancas-as-redes-sociais.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Da Austrália à Europa: veja países que restringem acesso de crianças às redes sociais",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_23c4df10",
       "views": 0,
       "date": "2026-08-29T15:02:09.997Z",
@@ -3140,7 +3173,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T15:02:08.349Z",
+      "lastScraped": "2026-08-29T16:51:05.282Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3148,7 +3181,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T15:02:08.965Z",
+      "lastScraped": "2026-08-29T16:51:05.920Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3161,7 +3194,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T15:02:09.988Z",
+      "lastScraped": "2026-08-29T16:51:06.936Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3218,6 +3251,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788022353703",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Da Austrália à Europa: veja países que restringem acesso de crianças às redes sociais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Da Austrália à Europa: o que muda para usuários e empresas?",
+      "postId": "rss-hash_72ce67e",
+      "timestamp": "2026-08-29T16:51:06.946Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.9h (+8), Sem postagem há 25.9h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788015762997",
       "feedName": "G1 - Economia",

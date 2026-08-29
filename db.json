@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2165ec9d",
+      "views": 0,
+      "date": "2026-08-29T11:42:53.164Z",
+      "title": "Crimes online, falha em moderação e falta de acordo: por que o Discord foi processado: qual pode ser o próximo passo?",
+      "subtitle": "Governo processa Discord e pede multa de R$ 500 milhões O processo de R$ 500 milhões do governo federal contra o Discord leva em conta uma série de crimes realizados por usuários na plataforma, falhas para tirar do ar conteúdos nocivos e a falta de um acordo.",
+      "slug": "crimes-online-falha-em-moderacao-e-falta-de-acordo-por-que-o-discord-foi-processado-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nGoverno processa Discord e pede multa de R$ 500 milhões O processo de R$ 500 milhões do governo federal contra o Discord leva em conta uma série de crimes realizados por usuários na plataforma, falhas para tirar do ar conteúdos nocivos e a falta de um acordo para o serviço se alinhar às leis brasileiras. A Advocacia-Geral da União (AGU) registrou na terça-feira (25) uma ação civil pública para tentar forçar o Discord a adotar medidas que protejam crianças, adolescentes, mulheres e animais na internet, e a pagar a indenização por dano moral coletivo.\n\nO que já foi informado\n\nA ação pede que a plataforma tenha uma verificação de idade mais robusta e seja mais ativa contra os conteúdos que incentivem automutilação, suicídio, violência e assédio, por exemplo. Também busca melhorias na moderação e nos canais de denúncia da rede social. Segundo o governo, a decisão pela ação civil pública foi tomada porque a plataforma ainda apresenta falhas em seus mecanismos de proteção de usuários e não chegou a uma proposta satisfatória para resolver o problema. O processo foi aberto cerca de três semanas depois de uma adolescente tirar a própria vida em uma live no Discord.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Crimes online, falha em moderação e falta de acordo Store Center",
+      "seoDescription": "Governo processa Discord e pede multa de R$ 500 milhões O processo de R$ 500 milhões do governo federal contra o Discord leva em conta uma série de cr",
+      "keyword": "Crimes online, falha em moderação e falta de acordo: por que o Discord foi processado em R$ 500 milhões pelo governo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/27/crimes-online-falha-em-moderacao-e-falta-de-acordo-por-que-o-discord-foi-processado-em-r-500-milhoes-pelo-governo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Crimes online, falha em moderação e falta de acordo: por que o Discord foi processado em R$ 500 milhões pelo governo",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_53dcf022",
       "views": 0,
       "date": "2026-08-29T09:45:13.391Z",
@@ -3040,7 +3074,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T09:45:02.273Z",
+      "lastScraped": "2026-08-29T11:42:41.954Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3048,7 +3082,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T09:45:02.876Z",
+      "lastScraped": "2026-08-29T11:42:42.642Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3118,6 +3152,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788003859377",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Crimes online, falha em moderação e falta de acordo: por que o Discord foi processado em R$ 500 milhões pelo governo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Crimes online, falha em moderação e falta de acordo: por que o Discord foi processado: qual pode ser o próximo passo?",
+      "postId": "rss-hash_2165ec9d",
+      "timestamp": "2026-08-29T11:42:53.164Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 20.8h (+8), Sem postagem há 20.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1787996785508",
       "feedName": "G1 - Economia",

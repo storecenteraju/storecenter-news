@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3de3bde1",
+      "views": 0,
+      "date": "2026-08-30T16:56:23.762Z",
+      "title": "Mega-Sena, concurso 3051: por que isso importa para a economia?",
+      "subtitle": "Mega-Sena, concurso 3051: confira os números sorteados O sorteio do concurso 3.051 da Mega-Sena foi realizado neste domingo (30), em São Paulo.",
+      "slug": "mega-sena-concurso-3051-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nMega-Sena, concurso 3051: confira os números sorteados O sorteio do concurso 3.051 da Mega-Sena foi realizado neste domingo (30), em São Paulo. O prêmio para as apostas que acertarem as seis dezenas é de R$ 29.343.361,52.\n\nO que já foi informado\n\nVeja os números sorteados: 11 - 21 - 15 - 20 - 48 - 38. Nenhuma aposta acertou as seis dezenas. Segundo a Caixa, 35 apostadores acertaram a quina e levaram R$ 55.635,04 cada. Outras 2.706 apostas acertaram 4 números e levaram R$ 1.186,14 cada. O prêmio do próximo sorteio está estimado em R$ 36 milhões. O g1 transmite todos os sorteios das Loterias Caixa, ao vivo.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena, concurso 3051: por que isso importa para a Store Center",
+      "seoDescription": "Mega-Sena, concurso 3051: confira os números sorteados O sorteio do concurso 3.051 da Mega-Sena foi realizado neste domingo (30), em São Paulo.",
+      "keyword": "Mega-Sena, concurso 3051: confira os números sorteados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/08/30/mega-sena-concurso-3051-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Mega-Sena, concurso 3051: confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_2a01f181",
       "views": 0,
       "date": "2026-08-30T14:50:56.930Z",
@@ -3473,7 +3506,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T14:50:55.550Z",
+      "lastScraped": "2026-08-30T16:56:12.734Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3481,7 +3514,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T14:50:56.102Z",
+      "lastScraped": "2026-08-30T16:56:13.251Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3551,6 +3584,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788109077436",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena, concurso 3051: confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena, concurso 3051: por que isso importa para a economia?",
+      "postId": "rss-hash_3de3bde1",
+      "timestamp": "2026-08-30T16:56:23.762Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.0h (+8), Sem postagem há 8.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788101465569",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3f47bd3d",
+      "views": 0,
+      "date": "2026-08-30T13:18:25.707Z",
+      "title": "Presidente interina da Venezuela afirma manter 'soberania' em acordo petrolífero com: por que esse movimento importa?",
+      "subtitle": "A presidente interina da Venezuela, Delcy Rodríguez, fez um pronunciamento na noite deste sábado (29) e afirmou que o país mantém o controle de seu petróleo.",
+      "slug": "presidente-interina-da-venezuela-afirma-manter-soberania-em-acordo-petrolifero-com-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA presidente interina da Venezuela, Delcy Rodríguez, fez um pronunciamento na noite deste sábado (29) e afirmou que o país mantém o controle de seu petróleo. Na sexta-feira (28), o presidente Donald Trump anunciou um acordo que garantiria aos EUA o controle de reservas de petróleo da Venezuela equivalentes a 65 bilhões de barris, ou cerca de 21% de todo o petróleo do país.\n\nO que já foi informado\n\n\"Uma coisa deve ficar absolutamente clara: a Venezuela mantém a propriedade e a soberania sobre seus recursos\", disse Rodríguez em um discurso transmitido pela televisão estatal, quase nove meses após seu antecessor, Nicolás Maduro, ter sido deposto pelos militares dos EUA (leia mais abaixo). Siga o canal de notícias internacionais do g1 no WhatsApp A Venezuela é o país com as maiores reservas conhecidas de petróleo do mundo, estimado em 303 bilhões de barris. Atualmente, o país sul-americano produz cerca de 1,25 milhão de barris de petróleo bruto por dia. Trump afirmou na sexta que o acordo acontecerá por meio de parcerias com empresas privadas. Os detalhes do acordo não estão imediatamente claros.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente interina da Venezuela afirma manter Store Center",
+      "seoDescription": "A presidente interina da Venezuela, Delcy Rodríguez, fez um pronunciamento na noite deste sábado (29) e afirmou que o país mantém o controle de seu pe",
+      "keyword": "Presidente interina da Venezuela afirma manter 'soberania' em acordo petrolífero com os EUA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/08/30/venezuela-acordo-petrolifero-com-os-eua.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Presidente interina da Venezuela afirma manter 'soberania' em acordo petrolífero com os EUA",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1aca8f43",
       "views": 0,
       "date": "2026-08-30T10:33:35.069Z",
@@ -3407,7 +3440,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T10:33:33.969Z",
+      "lastScraped": "2026-08-30T13:18:14.658Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3415,7 +3448,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T10:33:34.213Z",
+      "lastScraped": "2026-08-30T13:18:15.187Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3485,6 +3518,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788095959468",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Presidente interina da Venezuela afirma manter 'soberania' em acordo petrolífero com os EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente interina da Venezuela afirma manter 'soberania' em acordo petrolífero com: por que esse movimento importa?",
+      "postId": "rss-hash_3f47bd3d",
+      "timestamp": "2026-08-30T13:18:25.707Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.3h (+8), Sem postagem há 22.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788086091831",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1aca8f43",
+      "views": 0,
+      "date": "2026-08-30T10:33:35.069Z",
+      "title": "Por que governos têm tanta dificuldade para conter os danos das redes sociais?",
+      "subtitle": "Vício, automutilação e suicídio estão entre alguns dos graves danos psicológicos associados à estratégia deliberada das redes sociais baseada em maximizar engajamento.",
+      "slug": "por-que-governos-tem-tanta-dificuldade-para-conter-os-danos-das-redes-sociais",
+      "content": "O que aconteceu\n\nVício, automutilação e suicídio estão entre alguns dos graves danos psicológicos associados à estratégia deliberada das redes sociais baseada em maximizar engajamento. Essa conclusão, endossada por decisões judiciais em todo o mundo, tem forçado plataformas como Facebook, YouTube e TikTok a olhar para além de seus lucros e reformular suas políticas de proteção a jovens e crianças.\n\nO que já foi informado\n\nA Meta, controladora do Facebook, por exemplo, registrou uma receita recorde de 196,2 bilhões de dólares (cerca de R$ 1 trilhão) com no ano passado.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que governos têm tanta dificuldade para conter os Store Center",
+      "seoDescription": "Vício, automutilação e suicídio estão entre alguns dos graves danos psicológicos associados à estratégia deliberada das redes sociais baseada em maxim",
+      "keyword": "Por que governos têm tanta dificuldade para conter os danos das redes sociais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/30/por-que-governos-tem-tanta-dificuldade-para-conter-os-danos-das-redes-sociais.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Por que governos têm tanta dificuldade para conter os danos das redes sociais",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_7b96e57f",
       "views": 0,
       "date": "2026-08-30T08:56:56.156Z",
@@ -3374,7 +3407,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T08:56:54.874Z",
+      "lastScraped": "2026-08-30T10:33:33.969Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3382,7 +3415,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T08:56:55.358Z",
+      "lastScraped": "2026-08-30T10:33:34.213Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3395,7 +3428,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-30T08:56:56.144Z",
+      "lastScraped": "2026-08-30T10:33:35.055Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3452,6 +3485,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788086091831",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que governos têm tanta dificuldade para conter os danos das redes sociais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que governos têm tanta dificuldade para conter os danos das redes sociais?",
+      "postId": "rss-hash_1aca8f43",
+      "timestamp": "2026-08-30T10:33:35.069Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 43.6h (+8), Sem postagem há 43.6h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Economia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788080223394",
       "feedName": "G1 - Economia",

@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7b96e57f",
+      "views": 0,
+      "date": "2026-08-30T08:56:56.156Z",
+      "title": "Como um magnata excêntrico que tinha leão como animal de estimação se tornou o homem mais rico do mundo?",
+      "subtitle": "O evento contou com a presença de mais de 2 mil membros da alta sociedade, aristocratas e celebridades, e ganhou as manchetes quando um fotógrafo de imprensa insistente demais foi atirado na piscina.",
+      "slug": "como-um-magnata-excentrico-que-tinha-leao-como-animal-de-estimacao-se-tornou-o-homem-mais-rico-do-mundo",
+      "content": "O que aconteceu\n\nO evento contou com a presença de mais de 2 mil membros da alta sociedade, aristocratas e celebridades, e ganhou as manchetes quando um fotógrafo de imprensa insistente demais foi atirado na piscina. O magnata do petróleo americano, que tinha medo de voar e de viajar em navios transatlânticos, viveu ali até sua morte, em 1976, aos 83 anos.\n\nO que já foi informado\n\nNessa casa, chegou a instalar orelhões para que seus convidados não acumulassem contas elevadas de chamadas de longa distância. Em 1963, Alan Whicker, da BBC, entrevistou Getty, conhecido por seu caráter reservado, naquela mansão que havia servido como residência de verão de Henrique 8º. Agora no g1 Getty vivia em um santuário privado no interior de uma mansão fortificada, onde colecionava obras dos grandes mestres da pintura. O bilionário fazia suas refeições em uma mesa de quase cinco metros de comprimento, acompanhado apenas por seu cão de guarda, um pastor alemão.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como um magnata excêntrico que tinha leão como animal Store Center",
+      "seoDescription": "O evento contou com a presença de mais de 2 mil membros da alta sociedade, aristocratas e celebridades, e ganhou as manchetes quando um fotógrafo de i",
+      "keyword": "Como um magnata excêntrico que tinha leão como animal de estimação se tornou o homem mais rico do mundo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/30/como-um-magnata-excentrico-que-tinha-leao-como-animal-de-estimacao-se-tornou-o-homem-mais-rico-do-mundo.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Como um magnata excêntrico que tinha leão como animal de estimação se tornou o homem mais rico do mundo",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_50c617d5",
       "views": 0,
       "date": "2026-08-30T05:41:23.580Z",
@@ -3341,7 +3374,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T05:41:12.553Z",
+      "lastScraped": "2026-08-30T08:56:54.874Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3349,7 +3382,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T05:41:13.065Z",
+      "lastScraped": "2026-08-30T08:56:55.358Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3362,7 +3395,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-29T21:59:14.081Z",
+      "lastScraped": "2026-08-30T08:56:56.144Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3419,6 +3452,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788080223394",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como um magnata excêntrico que tinha leão como animal de estimação se tornou o homem mais rico do mundo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como um magnata excêntrico que tinha leão como animal de estimação se tornou o homem mais rico do mundo?",
+      "postId": "rss-hash_7b96e57f",
+      "timestamp": "2026-08-30T08:56:56.156Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 30.5h (+8), Sem postagem há 30.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788068582289",
       "feedName": "G1 - Economia",

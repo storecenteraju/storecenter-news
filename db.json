@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "rss-hash_632a7fe7",
+      "views": 0,
+      "date": "2026-08-30T22:06:16.666Z",
+      "title": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia: qual pode ser o próximo passo?",
+      "subtitle": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio O governo federal é contra a exploração de terras raras em Minaçu, norte de Goiás, por uma empresa americana.",
+      "slug": "governo-e-contra-a-exploracao-de-terras-raras-em-goias-por-empresa-americana-e-avalia-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nGoverno é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio O governo federal é contra a exploração de terras raras em Minaçu, norte de Goiás, por uma empresa americana. A USA Rare Earth firmou um acordo para adquirir participação na mineradora Serra Verde, responsável por uma mina no município.\n\nO que já foi informado\n\nO negócio prevê a combinação das operações das duas companhias para criar uma cadeia completa de produção de ímãs — da extração à fabricação — fora da Ásia, região que hoje domina esse mercado. Ainda é necessária, porém, a aprovação dos acionistas em assembleia marcada para sexta-feira (28). O ponto do contrato mais criticado pelo governo é a previsão de envio de 100% da produção inicial para os Estados Unidos. Uma proposta para criar essas regras aguarda aprovação do Congresso Nacional. O texto foi aprovado pela Câmara dos Deputados em maio e ainda aguarda aval do Senado Federal.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo é contra a exploração de terras raras em Goiás Store Center",
+      "seoDescription": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio O governo federal é contra a exploração de te",
+      "keyword": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/08/26/governo-e-contra-a-exploracao-de-terras-raras-em-goias-por-empresa-americana-e-avalia-como-rever-negocio.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4a4960b1",
       "views": 0,
       "date": "2026-08-30T19:54:33.416Z",
@@ -3572,7 +3606,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T19:54:32.218Z",
+      "lastScraped": "2026-08-30T22:06:14.884Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3580,7 +3614,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T19:54:32.498Z",
+      "lastScraped": "2026-08-30T22:06:15.859Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3593,7 +3627,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-30T19:54:33.405Z",
+      "lastScraped": "2026-08-30T22:06:16.655Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3650,6 +3684,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788127661637",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia como rever negócio",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo é contra a exploração de terras raras em Goiás por empresa americana e avalia: qual pode ser o próximo passo?",
+      "postId": "rss-hash_632a7fe7",
+      "timestamp": "2026-08-30T22:06:16.667Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 42.4h (+8), Sem postagem há 42.4h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788119702203",
       "feedName": "G1 - Economia",

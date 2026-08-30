@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_50c617d5",
+      "views": 0,
+      "date": "2026-08-30T05:41:23.580Z",
+      "title": "O que as canetas emagrecedoras têm a ver com supermercados, PIB e combustível de avião?",
+      "subtitle": "Como as canetas emagrecedoras impactam a economia global As canetas emagrecedoras já provocam efeitos que vão além da saúde.",
+      "slug": "o-que-as-canetas-emagrecedoras-tem-a-ver-com-supermercados-pib-e-combustivel-de-aviao",
+      "content": "O que aconteceu\n\nComo as canetas emagrecedoras impactam a economia global As canetas emagrecedoras já provocam efeitos que vão além da saúde. Um estudo com famílias americanas mostrou que, após seis meses de tratamento, os gastos com supermercado caíram 5,3%, em média, enquanto as despesas em fast-foods, cafeterias e restaurantes de serviço rápido recuaram cerca de 8%.\n\nO que já foi informado\n\nNa Dinamarca, o setor farmacêutico, impulsionado pelas vendas das canetas, respondeu por cerca de metade do crescimento real do PIB em 2023. Segundo o Banco Central dinamarquês, sem esse avanço, a economia teria ficado praticamente estagnada. Há ainda possíveis impactos em estudo: uma projeção estima que passageiros 10% mais leves poderiam reduzir em até 1,5% o consumo de combustível dos aviões. O fenômeno que começou mudando o apetite já afeta os hábitos de consumo e diferentes setores da economia. Toda semana, o g1 Explica simplifica a economia, o mercado financeiro e a educação financeira, mostrando como tudo isso afeta o seu bolso.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que as canetas emagrecedoras têm a ver com Store Center",
+      "seoDescription": "Como as canetas emagrecedoras impactam a economia global As canetas emagrecedoras já provocam efeitos que vão além da saúde.",
+      "keyword": "O que as canetas emagrecedoras têm a ver com supermercados, PIB e combustível de avião?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/08/30/o-que-as-canetas-emagrecedoras-tem-a-ver-com-supermercados-pib-e-combustivel-de-aviao.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "O que as canetas emagrecedoras têm a ver com supermercados, PIB e combustível de avião?",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_2b68e4cc",
       "views": 0,
       "date": "2026-08-30T00:20:30.075Z",
@@ -3308,7 +3341,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T00:20:19.581Z",
+      "lastScraped": "2026-08-30T05:41:12.553Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3316,7 +3349,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T00:20:19.864Z",
+      "lastScraped": "2026-08-30T05:41:13.065Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3386,6 +3419,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788068582289",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que as canetas emagrecedoras têm a ver com supermercados, PIB e combustível de avião?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que as canetas emagrecedoras têm a ver com supermercados, PIB e combustível de avião?",
+      "postId": "rss-hash_50c617d5",
+      "timestamp": "2026-08-30T05:41:23.580Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.2h (+8), Sem postagem há 27.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788049322501",
       "feedName": "G1 - Economia",

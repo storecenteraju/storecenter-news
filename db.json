@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4a4960b1",
+      "views": 0,
+      "date": "2026-08-30T19:54:33.416Z",
+      "title": "Quem são os maiores bilionários brasileiros da tecnologia em 2026, segundo a Forbes?",
+      "subtitle": "North America/ via /Arquivo A Forbes divulgou, nesta sexta-feira (28), a lista dos maiores bilionários brasileiros do setor de tecnologia em 2026.",
+      "slug": "quem-sao-os-maiores-bilionarios-brasileiros-da-tecnologia-em-2026-segundo-a-forbes",
+      "content": "O que aconteceu\n\nNorth America/ via /Arquivo A Forbes divulgou, nesta sexta-feira (28), a lista dos maiores bilionários brasileiros do setor de tecnologia em 2026. No topo está Eduardo Saverin, cofundador do Facebook, com fortuna estimada em R$ 162,9 bilhões.\n\nO que já foi informado\n\nSaverin é conhecido por ter sido sócio de Mark Zuckerberg, que conheceu na faculdade. Segundo a Forbes, sua fortuna caiu 28,24% em relação ao ano anterior. A revista atribui a queda ao aumento da concorrência entre empresas de inteligência artificial, que levou as ações da Meta a recuarem cerca de 16% e afetou a fortuna de Saverin. A lista deste ano também inclui José Roberto Nogueira, fundador e CEO do Grupo Brisanet, e Laércio Cosentino, maior acionista individual da Totvs. Agora no g1 1. Eduardo Saverin Patrimônio: R$ 162,9 bilhões Empresa: Facebook e B Capital Saverin nasceu em 1982, em São Paulo, e foi criado nos Estados Unidos.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quem são os maiores bilionários brasileiros da Store Center",
+      "seoDescription": "North America/ via /Arquivo A Forbes divulgou, nesta sexta-feira (28), a lista dos maiores bilionários brasileiros do setor de tecnologia em 2026.",
+      "keyword": "Quem são os maiores bilionários brasileiros da tecnologia em 2026, segundo a Forbes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/28/quem-sao-os-maiores-bilionarios-brasileiros-da-tecnologia-segundo-a-forbes.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Quem são os maiores bilionários brasileiros da tecnologia em 2026, segundo a Forbes",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_384746cb",
       "views": 0,
       "date": "2026-08-30T18:18:00.578Z",
@@ -3539,7 +3572,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T18:17:58.987Z",
+      "lastScraped": "2026-08-30T19:54:32.218Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3547,7 +3580,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T18:17:59.546Z",
+      "lastScraped": "2026-08-30T19:54:32.498Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3560,7 +3593,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-30T18:18:00.565Z",
+      "lastScraped": "2026-08-30T19:54:33.405Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3617,6 +3650,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788119702203",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quem são os maiores bilionários brasileiros da tecnologia em 2026, segundo a Forbes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quem são os maiores bilionários brasileiros da tecnologia em 2026, segundo a Forbes?",
+      "postId": "rss-hash_4a4960b1",
+      "timestamp": "2026-08-30T19:54:33.417Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 30.5h (+8), Sem postagem há 30.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788113947852",
       "feedName": "G1 - Economia",

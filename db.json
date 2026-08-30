@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2b68e4cc",
+      "views": 0,
+      "date": "2026-08-30T00:20:30.075Z",
+      "title": "Correios fecham o primeiro semestre com prejuízo de R$ 5,6 bi; estatal busca: qual pode ser o próximo passo?",
+      "subtitle": "Com isso, a empresa completa o 16º trimestre seguido apresentando déficit nas contas.",
+      "slug": "correios-fecham-o-primeiro-semestre-com-prejuizo-de-r-5-6-bi-estatal-busca-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nCom isso, a empresa completa o 16º trimestre seguido apresentando déficit nas contas. Como adiantando pelo g1, o prejuízo do 2º trimestre é menor do que o obtido pela empresa nos últimos dois trimestres, o 1º deste ano e o 4º trimestre de 2025, apontando um pequeno movimento de recuperação da saúde financeira dos Correios, que teve um prejuízo recorde no 1º trimestre de 2026.\n\nO que já foi informado\n\nCorreios abrem novo programa de demissão voluntária Na introdução das notas explicativas às demonstrações financeiras, os Correios informaram que estão em \"estágio avançado\" de estruturação de um novo empréstimo de R$ 7 bilhões. A empresa não deu detalhes sobre como será o contrato, mas afirmou que a União será o fiador em caso de calote da dívida.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Correios fecham o primeiro semestre com prejuízo de R$ Store Center",
+      "seoDescription": "Com isso, a empresa completa o 16º trimestre seguido apresentando déficit nas contas.",
+      "keyword": "Correios fecham o primeiro semestre com prejuízo de R$ 5,6 bi; estatal busca empréstimo de R$ 7 bi",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/29/correios-fecham-o-primeiro-semestre-com-prejuizo-de-r-56-bi.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Correios fecham o primeiro semestre com prejuízo de R$ 5,6 bi; estatal busca empréstimo de R$ 7 bi",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_97b60cb",
       "views": 0,
       "date": "2026-08-29T21:59:14.097Z",
@@ -3274,7 +3308,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-29T21:59:12.432Z",
+      "lastScraped": "2026-08-30T00:20:19.581Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3282,7 +3316,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-29T21:59:13.089Z",
+      "lastScraped": "2026-08-30T00:20:19.864Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3352,6 +3386,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788049322501",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Correios fecham o primeiro semestre com prejuízo de R$ 5,6 bi; estatal busca empréstimo de R$ 7 bi",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Correios fecham o primeiro semestre com prejuízo de R$ 5,6 bi; estatal busca: qual pode ser o próximo passo?",
+      "postId": "rss-hash_2b68e4cc",
+      "timestamp": "2026-08-30T00:20:30.076Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 21.9h (+8), Sem postagem há 21.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788040790627",
       "feedName": "G1 - Economia",

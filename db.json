@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_384746cb",
+      "views": 0,
+      "date": "2026-08-30T18:18:00.578Z",
+      "title": "Operação mira grupo de apostas esportivas suspeito de movimentar R$ 5 bilhões e: por que isso importa para a economia?",
+      "subtitle": "O Ministério Público Federal (MPF) e a Receita Federal deflagraram nesta sexta-feira (28) a Operação Jogo de Sombras para apurar suspeitas de sonegação fiscal, evasão de divisas e lavagem de dinheiro ligadas à exploração de apostas esportivas de quota fixa.",
+      "slug": "operacao-mira-grupo-de-apostas-esportivas-suspeito-de-movimentar-r-5-bilhoes-e-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO Ministério Público Federal (MPF) e a Receita Federal deflagraram nesta sexta-feira (28) a Operação Jogo de Sombras para apurar suspeitas de sonegação fiscal, evasão de divisas e lavagem de dinheiro ligadas à exploração de apostas esportivas de quota fixa, conhecidas como bets. Foram cumpridos seis mandados de busca e apreensão em João Pessoa (PB), Recife (PE) e São Paulo (SP).\n\nO que já foi informado\n\nSegundo o MPF e a Receita, a investigação tem como foco um grupo empresarial responsável por uma plataforma de apostas esportivas que \"teria movimentado mais de R$ 5 bilhões apenas no ano de 2025\". Após as diligências, o MPF informou que as buscas ocorreram em endereços ligados ao grupo NSX, dona da BetNacional. A NSX Brasil disse, em nota, ter colaborado com a ação desta sexta e ter disponibilizado os documentos solicitados na ocasião. Acrescentou que antes da regulamentação do setor atuou de acordo com o marco jurídico vigente e com práticas adotadas no mercado, mas que depois da nova regulamentação, fez adequações (veja nota na íntegra abaixo).\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Operação mira grupo de apostas esportivas suspeito de Store Center",
+      "seoDescription": "O Ministério Público Federal (MPF) e a Receita Federal deflagraram nesta sexta-feira (28) a Operação Jogo de Sombras para apurar suspeitas de sonegaçã",
+      "keyword": "Operação mira grupo de apostas esportivas suspeito de movimentar R$ 5 bilhões e cometer crimes fiscais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/08/28/operacao-mira-grupo-de-apostas-esportivas-suspeito-de-movimentar-r-5-bilhoes-e-cometer-crimes-fiscais.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Operação mira grupo de apostas esportivas suspeito de movimentar R$ 5 bilhões e cometer crimes fiscais",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_3de3bde1",
       "views": 0,
       "date": "2026-08-30T16:56:23.762Z",
@@ -3506,7 +3539,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T16:56:12.734Z",
+      "lastScraped": "2026-08-30T18:17:58.987Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3514,7 +3547,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T16:56:13.251Z",
+      "lastScraped": "2026-08-30T18:17:59.546Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3527,7 +3560,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-30T14:50:56.917Z",
+      "lastScraped": "2026-08-30T18:18:00.565Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3584,6 +3617,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788113947852",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Operação mira grupo de apostas esportivas suspeito de movimentar R$ 5 bilhões e cometer crimes fiscais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Operação mira grupo de apostas esportivas suspeito de movimentar R$ 5 bilhões e: por que isso importa para a economia?",
+      "postId": "rss-hash_384746cb",
+      "timestamp": "2026-08-30T18:18:00.578Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 38.6h (+8), Sem postagem há 38.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788109077436",
       "feedName": "G1 - Economia",

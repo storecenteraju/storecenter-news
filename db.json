@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_d215d6b",
+      "views": 0,
+      "date": "2026-08-31T20:31:31.119Z",
+      "title": "Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu: o que pode mudar agora?",
+      "subtitle": "O Congresso Nacional definiu nesta sexta-feira (28) o deputado Reginaldo Lopes (PT-MG) como presidente da comissão que vai analisar a medida provisória (MP) do fim da taxa das blusinhas.",
+      "slug": "camara-deve-votar-na-proxima-segunda-mp-do-fim-da-taxa-das-blusinhas-congresso-definiu-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO Congresso Nacional definiu nesta sexta-feira (28) o deputado Reginaldo Lopes (PT-MG) como presidente da comissão que vai analisar a medida provisória (MP) do fim da taxa das blusinhas. A senadora Leila Barros (PDT-DF) foi escolhida como a relatora.\n\nO que já foi informado\n\nLeila deve apresentar o parecer sobre a medida na segunda-feira (31) e a comissão vai votar o tema no mesmo dia, segundo Reginaldo Lopes. O deputado disse ainda que os deputados e senadores irão ouvir o setor produtivo, apesar do curto tempo, e não descartou mudanças no texto. “Estou com a minha agenda aberta para ouvir todos”, disse o presidente da comissão. Leila concordou, apesar de antecipar que é a favor do texto inicial do governo. Na segunda-feira, se aprovada pela comissão, a MP deve ser votada no plenário da Câmara, conforme pauta definida pelo presidente Hugo Motta (Republicanos-PB) nesta sexta. Depois, será encaminhada para o Senado, para votação ainda nesta semana.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Câmara deve votar na próxima segunda MP do fim da taxa Store Center",
+      "seoDescription": "O Congresso Nacional definiu nesta sexta-feira (28) o deputado Reginaldo Lopes (PT-MG) como presidente da comissão que vai analisar a medida provisóri",
+      "keyword": "Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu aliada de Lula como relatora",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/08/28/congresso-define-aliados-de-lula-como-presidente-e-relatora-de-comissao-da-mp-do-fim-da-taxa-das-blusinhas.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/08/28/congresso-define-aliados-de-lula-como-presidente-e-relatora-de-comissao-da-mp-do-fim-da-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu aliada de Lula como relatora",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7101ac65",
       "views": 0,
       "date": "2026-08-31T19:13:49.158Z",
@@ -3862,7 +3901,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T19:13:46.925Z",
+      "lastScraped": "2026-08-31T20:31:29.124Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3870,7 +3909,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T19:13:47.561Z",
+      "lastScraped": "2026-08-31T20:31:29.988Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3883,7 +3922,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-31T19:13:49.144Z",
+      "lastScraped": "2026-08-31T20:31:31.108Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3940,6 +3979,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788208310715",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu aliada de Lula como relatora",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu: o que pode mudar agora?",
+      "postId": "rss-hash_d215d6b",
+      "timestamp": "2026-08-31T20:31:31.120Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 64.8h (+8), Sem postagem há 64.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788203639519",
       "feedName": "G1 - Economia",

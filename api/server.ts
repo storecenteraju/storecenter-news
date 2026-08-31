@@ -2800,7 +2800,7 @@ async function getUniqueArticleImage(
   chosenTheme?: string
 ): Promise<{
   url: string;
-  provider: "Gemini" | "Unsplash" | "Pexels" | "Pixabay" | "Unsplash Fallback" | "Pexels Fallback" | "Pixabay Fallback" | "IA Dynamic Engine" | "Store Center Editorial";
+  provider: "Gemini" | "Unsplash" | "Pexels" | "Pixabay" | "Unsplash Fallback" | "Pexels Fallback" | "Pixabay Fallback" | "IA Dynamic Engine" | "Store Center Editorial" | "Openverse Composition";
   imageStatus: "Nova" | "Repetida";
   imageHash: string;
   antiRepetitionReport: string;
@@ -2926,6 +2926,44 @@ async function getUniqueArticleImage(
       };
     } else {
       console.log(`[getUniqueArticleImage] Descartando candidata por colisão: ${cand.url} - ${check.report}`);
+    }
+  }
+
+  // Composição gratuita de dois temas com imagens de licença aberta. O RSS
+  // extrai palavras relevantes do título, consulta o Openverse e monta uma
+  // capa 16:9 em SVG sem gerar pixels por IA nem repetir a mesma URL.
+  const stopWords = new Set("para com que uma um dos das os as no na por sobre como este esta isso mais menos muito nova novo seus suas esse essa entre pelo pela após até quando onde quem será foram tem são foi não seu sua do da de e em o a i ou".split(/\s+/));
+  const topicWords = titleLower.normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9\s]/g, " ").split(/\s+/)
+    .filter(word => word.length >= 4 && !stopWords.has(word) && word !== category.toLowerCase())
+    .slice(0, 3);
+  if (topicWords.length >= 2) {
+    try {
+      const query = encodeURIComponent(topicWords.slice(0, 2).join(" "));
+      const openverseResponse = await fetch(`https://api.openverse.org/v1/images/?q=${query}&license_type=commercial&page_size=12`, {
+        headers: { "User-Agent": "StoreCenterNews/1.0 (editorial image search)" }
+      });
+      if (openverseResponse.ok) {
+        const payload = await openverseResponse.json() as any;
+        const matches = (payload.results || []).filter((result: any) => result?.thumbnail || result?.url);
+        const first = matches.find((result: any) => !usedBaseUrls.has(getBaseUrl(result.thumbnail || result.url)));
+        const second = matches.find((result: any) => result !== first && !usedBaseUrls.has(getBaseUrl(result.thumbnail || result.url)));
+        if (first && second) {
+          const firstUrl = String(first.thumbnail || first.url).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+          const secondUrl = String(second.thumbnail || second.url).replace(/&/g, "&amp;").replace(/"/g, "&quot;");
+          const composition = `<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720"><defs><linearGradient id="overlay" x1="0" x2="1"><stop stop-color="#07152f" stop-opacity=".78"/><stop offset="1" stop-color="#07152f" stop-opacity=".18"/></linearGradient></defs><rect width="1280" height="720" fill="#0b1733"/><clipPath id="left"><rect width="640" height="720"/></clipPath><clipPath id="right"><rect x="640" width="640" height="720"/></clipPath><image href="${firstUrl}" x="0" y="0" width="640" height="720" preserveAspectRatio="xMidYMid slice" clip-path="url(#left)"/><image href="${secondUrl}" x="640" y="0" width="640" height="720" preserveAspectRatio="xMidYMid slice" clip-path="url(#right)"/><rect width="1280" height="720" fill="url(#overlay)"/><rect x="628" width="24" height="720" fill="#ffffff" opacity=".72"/></svg>`;
+          const encoded = Buffer.from(composition).toString("base64");
+          const compositionUrl = `data:image/svg+xml;base64,${encoded}`;
+          return {
+            url: compositionUrl,
+            provider: "Openverse Composition",
+            imageStatus: "Nova",
+            imageHash: getStringHash(compositionUrl),
+            antiRepetitionReport: `Composição gratuita de dois temas (${topicWords.slice(0, 2).join(" + ")}) com imagens Openverse licenciadas para uso comercial. Fontes: ${first.foreign_landing_url || first.url}; ${second.foreign_landing_url || second.url}.`
+          };
+        }
+      }
+    } catch (openverseError: any) {
+      console.warn(`[getUniqueArticleImage] Openverse indisponível: ${openverseError.message}`);
     }
   }
 
@@ -3937,7 +3975,10 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
         imageOriginalUrl: isUsableSourceImage ? rawSourceImageUrl : pageImageUrl,
         imageCredit: String(feed.imageCreditTemplate || feed.name || "Fonte RSS"),
         imageLicense: String(feed.imageLicense || "Autorização da fonte pendente de documentação")
-      } : (imageRes?.provider === "Store Center Editorial" ? {
+      } : (imageRes?.provider === "Openverse Composition" ? {
+        imageCredit: "Composição Store Center com imagens Openverse",
+        imageLicense: "Licenças abertas — consultar fontes no relatório editorial"
+      } : imageRes?.provider === "Store Center Editorial" ? {
         imageCredit: "Arte editorial: Store Center",
         imageLicense: "Criação própria"
       } : {})),

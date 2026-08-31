@@ -164,20 +164,20 @@ export default function PortalHome({
 
         {/* CATEGORY HEADER BANNER (IF FILTER APPLIED) */}
         {selectedCategory !== 'Home' && (
-          <div className="bg-white border border-slate-200 p-6 rounded-lg mb-6 md:mb-8 shadow-sm">
-            <div className="flex items-center gap-1 text-xs text-slate-400 uppercase tracking-widest mb-1">
+          <div className="bg-blue-600 border border-blue-700 p-6 rounded-lg mb-6 md:mb-8 shadow-sm">
+            <div className="flex items-center gap-1 text-xs text-blue-100 uppercase tracking-widest mb-1">
               <span>Home</span>
               <span>&rsaquo;</span>
-              <span className="text-blue-600 font-bold">{selectedCategory}</span>
+              <span className="text-white font-bold">{selectedCategory}</span>
             </div>
-            <h1 className="text-3xl font-extrabold font-display tracking-tight text-slate-950 uppercase border-b-2 border-primary pb-2 flex items-center justify-between">
+            <h1 className="text-3xl font-extrabold font-display tracking-tight text-white uppercase border-b-2 border-blue-300 pb-2 flex items-center justify-between">
               {selectedCategory}
-              <span className="text-xs font-normal text-slate-400 uppercase lowercase">
+              <span className="text-xs font-normal text-blue-100 uppercase lowercase">
                 {finalFilteredPosts.length} {finalFilteredPosts.length === 1 ? 'notícia encontrada' : 'notícias encontradas'}
               </span>
             </h1>
-            <p className="text-xs text-slate-500 mt-2 font-medium leading-relaxed">
-              Cobertura jornalística especializada do portal Store Center focada na cobertura do setor de <span className="lowercase font-bold text-slate-900">{selectedCategory}</span>.
+            <p className="text-xs text-blue-100 mt-2 font-medium leading-relaxed">
+              Cobertura jornalística especializada do portal Store Center focada na cobertura do setor de <span className="lowercase font-bold text-white">{selectedCategory}</span>.
             </p>
           </div>
         )}

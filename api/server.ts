@@ -529,7 +529,24 @@ app.get("/negocios.jpg", (req, res) => {
 });
 
 // Intelligent Auto-Categorization Helper
-function autoCategorizeNews(title: string, content: string, origCategory: string): string {
+function inferCategoryFromSourceUrl(sourceUrl: string): string {
+  const normalizedUrl = String(sourceUrl || '').toLowerCase();
+  if (!normalizedUrl.includes('g1.globo.com')) return '';
+  if (/\/tecnologia(?:-e-games)?(?:\/|$)/.test(normalizedUrl)) return 'Tecnologia';
+  if (/\/economia(?:\/|$)/.test(normalizedUrl)) return 'Economia';
+  if (/\/politica(?:\/|$)/.test(normalizedUrl)) return 'Política';
+  if (/\/esportes?(?:\/|$)/.test(normalizedUrl)) return 'Esporte';
+  if (/\/saude(?:\/|$)/.test(normalizedUrl)) return 'Saúde';
+  return '';
+}
+
+function getSourceDisplayName(feedName: string, sourceUrl: string): string {
+  const sourceCategory = inferCategoryFromSourceUrl(sourceUrl);
+  if (sourceCategory) return `G1 - ${sourceCategory}`;
+  return feedName || 'Fonte RSS';
+}
+
+function autoCategorizeNews(title: string, content: string, origCategory: string, sourceUrl = ''): string {
   const allowedCategories = ["Economia", "Política", "Judiciário", "Tecnologia", "Geopolítica", "Negócios", "Nacional", "Saúde", "Esporte", "Entretenimento"];
 
   const normalize = (value: string) => String(value || "")
@@ -539,6 +556,10 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
   const text = normalize(String(title || "") + " " + String(content || ""));
   const originalCategoryText = normalize(String(origCategory || ""));
+  const sourceCategory = inferCategoryFromSourceUrl(sourceUrl);
+
+  // A section in the source URL is a stronger signal than a stale feed label.
+  if (sourceCategory) return sourceCategory;
 
   const normalizeCategory = (value: string): string => {
     const clean = normalize(value).trim();
@@ -1048,7 +1069,8 @@ app.post("/api/posts/cleanup-and-normalize", (req, res) => {
     normalized.category = autoCategorizeNews(
       normalized.title || '',
       normalized.content || '',
-      normalized.category || 'Economia'
+      normalized.category || 'Economia',
+      normalized.sourceUrl || ''
     );
 
     normalizedPosts.push(normalized);
@@ -1088,7 +1110,7 @@ app.post("/api/posts", async (req, res) => {
   // Apply auto-categorization only when category was not manually provided
   const hasManualPostCategory = typeof req.body.category === "string" && req.body.category.trim() !== "";
   if (!hasManualPostCategory) {
-    newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia');
+    newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia', newPost.sourceUrl || '');
   }
 
   db.posts.unshift(newPost);
@@ -1108,7 +1130,8 @@ app.put("/api/posts/:id", async (req, res) => {
       db.posts[index].category = autoCategorizeNews(
         db.posts[index].title || '',
         db.posts[index].content || '',
-        db.posts[index].category || 'Economia'
+        db.posts[index].category || 'Economia',
+        db.posts[index].sourceUrl || ''
       );
     }
     writeDatabase(db);
@@ -2252,6 +2275,13 @@ Gere uma nova e exclusiva notícia jornalística em português baseada na catego
 - Resumo Original: "${description || "N/A"}"
 - Feed de Origem: "${source}"
 
+Quando houver marcação [Fonte 1] e [Fonte 2], trate o pedido como uma
+consolidação de duas matérias: compare os fatos, una apenas os pontos
+compatíveis, atribua cada informação à fonte correspondente e registre
+qualquer divergência no texto. As fontes podem ser quaisquer portais com RSS
+ativo, não apenas o G1. O resultado deve ser uma versão editorial original,
+mais completa e humanizada, nunca uma colagem ou tradução literal.
+
 Siga estas diretrizes exclusivas de redação para garantir unicidade absoluta e conformidade profissional:
 
 ÂNGULO EDITORIAL EXCLUSIVO DESTA MATÉRIA:
@@ -2259,7 +2289,7 @@ Trabalhe a cobertura focando prioritariamente sob o ângulo: **${editorialAngle}
 
 ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
 1. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
-2. Escreva somente o que puder ser sustentado pelo título e pelo resumo fornecidos. O texto pode ser curto: prefira 250 a 600 palavras e nunca preencha lacunas para alcançar tamanho mínimo.
+2. Escreva somente o que puder ser sustentado pelos títulos e resumos fornecidos. Para uma consolidação de duas fontes, desenvolva entre 600 e 900 palavras; para uma única fonte, prefira 400 a 700 palavras. Não invente conteúdo para atingir o tamanho.
 3. NÃO invente nomes, números, datas, declarações, citações, estatísticas, contexto histórico, causas, consequências ou projeções. Se a fonte não trouxer um dado, omita-o ou declare de forma transparente que ele não foi informado.
 4. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
 
@@ -3351,6 +3381,28 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
   // 3. Process and write posts
   for (const winner of chosenWinners) {
     const { feed, item } = winner;
+    // Sempre que houver uma segunda pauta inédita na mesma categoria, o RSS
+    // consolida as duas fontes em uma única matéria. Isso amplia o contexto
+    // sem publicar dez textos quase iguais e mantém cada afirmação atribuída
+    // ao respectivo resumo de origem.
+    const companion = eligible.find(candidate =>
+      candidate !== winner &&
+      candidate.category === winner.category &&
+      candidate.item?.link !== item.link
+    );
+    const sourceLabel = companion
+      ? `${feed.name} + ${companion.feed.name}`
+      : feed.name;
+    const sourceTitle = companion
+      ? `[Fonte 1] ${item.title}\n[Fonte 2] ${companion.item.title}`
+      : item.title;
+    const sourceDescription = companion
+      ? `[Fonte 1 — ${feed.name}] ${item.description || "N/A"}\n[Fonte 2 — ${companion.feed.name}] ${companion.item.description || "N/A"}`
+      : (item.description || "Tendência e inovação estratégica no mercado corporativo.");
+    const rewriteItem = companion
+      ? { ...item, title: sourceTitle, description: sourceDescription }
+      : item;
+    const rewriteFeed = companion ? { ...feed, name: sourceLabel } : feed;
     console.log(`[CRON] Importando vencedor: "${item.title}" em [${winner.category}] com ${winner.compositeScore} pontos.`);
 
     let rewritten: any = null;
@@ -3361,9 +3413,9 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       try {
         const prompt = buildNewsGenerationPrompt(
           winner.category,
-          feed.name,
-          item.title,
-          item.description || "Tendência e inovação estratégica no mercado corporativo.",
+          sourceLabel,
+          sourceTitle,
+          sourceDescription,
           chosenTheme,
           editorialAngle
         );
@@ -3382,12 +3434,12 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
         rewritten.editorialAngle = editorialAngle;
       } catch (aiErr) {
         console.error("[CRON] Gemini API falhou, usando fallback procedural:", aiErr);
-        rewritten = fallbackRewrite(item, feed);
+        rewritten = fallbackRewrite(rewriteItem, rewriteFeed);
         rewritten.visualTheme = chosenTheme;
         rewritten.editorialAngle = editorialAngle;
       }
     } else {
-      rewritten = fallbackRewrite(item, feed);
+      rewritten = fallbackRewrite(rewriteItem, rewriteFeed);
       rewritten.visualTheme = chosenTheme;
       rewritten.editorialAngle = editorialAngle;
     }
@@ -3408,12 +3460,13 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     const scraperCategory = autoCategorizeNews(
       sanitizedTitle,
       sanitizedContent || sanitizedSubtitle || "",
-      rewritten.category || winner.category || "Economia"
+      rewritten.category || winner.category || "Economia",
+      item.link || ''
     );
     // A categoria temática do próprio feed é o sinal mais confiável. O
     // classificador continua como fallback e as regras específicas abaixo ainda
     // corrigem casos inequívocos (saúde, esporte, tecnologia etc.).
-    let correctedFinalCategory = winner.category || scraperCategory || rewritten.category || "Economia";
+    let correctedFinalCategory = inferCategoryFromSourceUrl(item.link || '') || winner.category || scraperCategory || rewritten.category || "Economia";
 
     if (
       finalClassifierText.includes("saúde") ||
@@ -3893,7 +3946,13 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       keyword: rewritten.keyword || "",
       imagePrompt: finalImagePrompt || rewritten.imagePrompt || "",
       sourceUrl: item.link,
-      sourceName: feed.name || "Fonte RSS",
+      sourceName: companion
+        ? `${getSourceDisplayName(feed.name || "Fonte RSS", item.link || "")} + ${getSourceDisplayName(companion.feed.name || "Fonte RSS", companion.item.link || "")}`
+        : getSourceDisplayName(feed.name || "Fonte RSS", item.link || ""),
+      sourceUrls: companion ? [item.link, companion.item.link] : [item.link],
+      sourceNames: companion
+        ? [getSourceDisplayName(feed.name || "Fonte RSS", item.link || ""), getSourceDisplayName(companion.feed.name || "Fonte RSS", companion.item.link || "")]
+        : [getSourceDisplayName(feed.name || "Fonte RSS", item.link || "")],
       rssOriginalTitle: item.title,
       isAiGenerated: Boolean(rewritten.isAiGenerated ?? ai),
       visualTheme: chosenTheme,
@@ -4165,9 +4224,9 @@ function buildSpecificQuestion(title: string, summary: string, category: string)
 
 function fallbackRewrite(item: any, feed: any) {
   const originalTitle = cleanText(item.title || "Atualização do RSS");
-  const sourceName = feed?.name || "Feed RSS";
   let category = feed?.category || "Economia";
   const sourceUrl = item.link || item.guid || "";
+  const sourceName = getSourceDisplayName(feed?.name || "Feed RSS", sourceUrl);
 
   const rawSummary =
     item.contentSnippet ||
@@ -4322,6 +4381,10 @@ function fallbackRewrite(item: any, feed: any) {
     "O que aconteceu",
     lead,
     ...(details ? ["O que já foi informado", details] : []),
+    "Como as informações se conectam",
+    `A leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.`,
+    "O que isso representa",
+    `Além do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em ${category}. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.`,
     "A pergunta que fica",
     specificQuestion,
     "O que observar agora",

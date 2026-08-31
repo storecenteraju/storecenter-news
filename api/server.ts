@@ -246,15 +246,17 @@ async function syncAllAds(ads: any[]) {
   }
 }
 
-async function syncSettings(settings: any) {
+async function syncSettings(settings: any): Promise<boolean> {
   try {
     if (!dbStore) {
       console.warn("[FIREBASE] syncSettings ignorado: Firestore indisponível.");
-      return;
+      return false;
     }
     await dbStore.collection("settings").doc("main").set(settings);
+    return true;
   } catch (err) {
     console.error("[FIREBASE] Erro ao sincronizar configuracoes no Firestore:", err);
+    return false;
   }
 }
 
@@ -782,7 +784,9 @@ app.post("/api/password-reset-confirm", async (req, res) => {
   writeDatabase(db);
   // A nova credencial precisa ser persistida no Firestore; o filesystem da
   // Vercel é efêmero e não pode ser a única fonte após uma nova requisição.
-  await syncSettings(db.settings);
+  if (!await syncSettings(db.settings)) {
+    return res.status(503).json({ success: false, error: "Não foi possível persistir a nova senha no Firestore. Verifique as credenciais administrativas do Firebase na Vercel." });
+  }
   return res.json({ success: true, message: "Senha redefinida com sucesso." });
 });
 

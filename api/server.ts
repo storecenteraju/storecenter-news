@@ -1157,25 +1157,28 @@ app.post("/api/posts", async (req, res) => {
 });
 
 app.put("/api/posts/:id", async (req, res) => {
-  const db = readDatabase();
-  const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
-  if (index !== -1) {
-    db.posts[index] = { ...db.posts[index], ...req.body };
-    const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
-    if (!hasManualEditCategory && (req.body.title || req.body.content)) {
-      db.posts[index].category = autoCategorizeNews(
-        db.posts[index].title || '',
-        db.posts[index].content || '',
-        db.posts[index].category || 'Economia',
-        db.posts[index].sourceUrl || ''
-      );
+  try {
+    const db = readDatabase();
+    const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
+    if (index !== -1) {
+      db.posts[index] = { ...db.posts[index], ...req.body };
+      const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
+      if (!hasManualEditCategory && (req.body.title || req.body.content)) {
+        db.posts[index].category = autoCategorizeNews(
+          db.posts[index].title || '',
+          db.posts[index].content || '',
+          db.posts[index].category || 'Economia',
+          db.posts[index].sourceUrl || ''
+        );
+      }
+      writeDatabase(db);
+      await syncPost(db.posts[index]);
+      return res.json(db.posts[index]);
     }
-    writeDatabase(db);
-    // Sincroniza granularmente com o Firestore
-    await syncPost(db.posts[index]);
-    res.json(db.posts[index]);
-  } else {
-    res.status(404).json({ error: "Post não encontrado" });
+    return res.status(404).json({ error: "Post não encontrado" });
+  } catch (error: any) {
+    console.error("Erro ao atualizar notícia:", error);
+    return res.status(500).json({ error: `Falha ao salvar notícia: ${error?.message || "erro interno"}` });
   }
 });
 

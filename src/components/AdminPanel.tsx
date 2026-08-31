@@ -359,7 +359,14 @@ export default function AdminPanel({
         clearPostForm();
         onRefreshData();
       } else {
-        alert("Erro ao salvar notícia.");
+        let detail = "";
+        try {
+          const body = await response.json();
+          detail = body?.error || body?.message || "";
+        } catch {
+          // Mantém uma mensagem útil mesmo quando a resposta não é JSON.
+        }
+        alert(detail ? `Erro ao salvar notícia: ${detail}` : `Erro ao salvar notícia (HTTP ${response.status}).`);
       }
     } catch (err) {
       console.error(err);

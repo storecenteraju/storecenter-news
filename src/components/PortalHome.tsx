@@ -112,9 +112,26 @@ export default function PortalHome({
 
   // Home Page layout: strict chronological order
   // Newest post is the hero. Next posts stay in date order.
-  const featurePost = selectedCategory === 'Home' ? finalFilteredPosts[0] : finalFilteredPosts[0];
-  const secondaryPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(1, 7) : finalFilteredPosts.slice(1, 7);
-  const remainingPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(7) : finalFilteredPosts.slice(7);
+  const featurePost = finalFilteredPosts[0];
+  const secondaryPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(1, 7) : finalFilteredPosts.slice(1, 6);
+  const remainingPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(7) : finalFilteredPosts.slice(6);
+
+  const categorySections = Array.from(new Set(publishedPosts.map(post => post.category)))
+    .map(category => ({
+      category,
+      posts: publishedPosts.filter(post => post.category === category).slice(0, 4)
+    }))
+    .filter(section => section.posts.length > 0);
+
+  const monthGroups = Array.from(
+    remainingPosts.reduce((groups, post) => {
+      const month = new Intl.DateTimeFormat('pt-BR', { month: 'long', year: 'numeric' }).format(new Date(post.date));
+      const existing = groups.get(month) || [];
+      existing.push(post);
+      groups.set(month, existing);
+      return groups;
+    }, new Map<string, Post[]>())
+  );
 
   const formatPublishDate = (dateStr?: string) => {
     if (!dateStr || dateStr.startsWith('1970-01-01')) {
@@ -270,7 +287,7 @@ export default function PortalHome({
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* If filter category, present even the first post as detailed card index */}
-                  {(selectedCategory !== 'Home' ? finalFilteredPosts : secondaryPosts).map((post) => (
+                    {secondaryPosts.map((post) => (
                     <a
                       key={post.id}
                       href={`/noticia/${encodeURIComponent(post.slug)}`}
@@ -278,11 +295,12 @@ export default function PortalHome({
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
                       <div>
-                        <EditorialImage
-                          src={getDeduplicatedImage(post)}
-                          fallbackSrc={getCategoryFallback(post.category, post.id || post.slug)}
-                          alt={post.title}
-                          className="aspect-video"
+                           <EditorialImage
+                             src={getDeduplicatedImage(post)}
+                             fallbackSrc={getCategoryFallback(post.category, post.id || post.slug)}
+                             alt={post.title}
+                             className="aspect-video"
+                             loading="lazy"
                           foregroundClassName="group-hover:scale-105 transition-transform duration-500"
                         >
                           {(selectedCategory === 'Home' || !selectedCategory) && (
@@ -344,53 +362,70 @@ export default function PortalHome({
                 </div>
               </section>
 
-              {/* CATEGORICAL SECTIONS (IF HOMEPAGE AND MULTIPLE EXISTS) */}
-              {selectedCategory === 'Home' && remainingPosts.length > 0 && (
-                <section className="bg-white border border-slate-200 rounded-xl p-6 shadow-sm">
-                  <h3 className="text-sm font-black font-display text-slate-950 uppercase tracking-tight border-b border-slate-100 pb-3 mb-4">
-                    Mais Notícias Publicadas
-                  </h3>
-                  <div className="divide-y divide-slate-100">
-                    {remainingPosts.map((post) => (
+              {/* HOME: FOUR LATEST STORIES PER CATEGORY IN A COMPACT 2x2 GRID */}
+              {selectedCategory === 'Home' && categorySections.map(section => (
+                <section key={section.category} className="bg-white border border-slate-200 rounded-xl p-5 md:p-6 shadow-sm">
+                  <div className="flex items-center justify-between border-b border-slate-100 pb-3 mb-4">
+                    <h3 className="text-sm font-black font-display text-slate-950 uppercase tracking-tight border-l-4 border-blue-600 pl-3">
+                      {section.category}
+                    </h3>
+                    <button
+                      onClick={() => onCategorySelect?.(section.category)}
+                      className="text-[9px] font-bold text-blue-600 uppercase tracking-wider hover:underline"
+                    >
+                      Ver categoria
+                    </button>
+                  </div>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                    {section.posts.map(post => (
                       <a
                         key={post.id}
                         href={`/noticia/${encodeURIComponent(post.slug)}`}
                         onClick={(event) => handleArticleLink(event, post)}
-                        className="py-4 flex gap-4 cursor-pointer hover:bg-slate-50 transition-colors rounded p-2"
+                        className="group rounded-xl border border-slate-200 overflow-hidden hover:border-blue-300 hover:shadow-md transition-all"
                       >
-                        <img 
-                          src={getDeduplicatedImage(post)} 
-                          alt="" 
-                          referrerPolicy="no-referrer"
-                          onError={(e) => { e.currentTarget.src = getCategoryFallback(post.category, post.id || post.slug); }}
-                          className="w-16 h-16 object-cover rounded flex-shrink-0"
+                        <EditorialImage
+                          src={getDeduplicatedImage(post)}
+                          fallbackSrc={getCategoryFallback(post.category, post.id || post.slug)}
+                          alt={post.title}
+                          className="h-36"
+                          loading="lazy"
+                          foregroundClassName="group-hover:scale-105 transition-transform duration-500"
                         />
-                        <div>
-                          <div className="flex flex-wrap items-center gap-1 mb-1">
-                            <span className="text-[9px] font-bold text-blue-600 tracking-wider uppercase mr-1">{post.category}</span>
-                            {isPostUrgente(post) && (
-                              <span className="text-[8px] font-black text-red-600 uppercase flex items-center gap-0.5" title="🚨 URGENTE (notícias quentes das últimas horas)">
-                                🚨 URGENTE <span className="text-[7px] font-normal lowercase font-sans opacity-80">(quentes)</span>
-                              </span>
-                            )}
-                            {(post.views || 0) >= 500 && (
-                              <span className="text-[8px] font-black text-red-700 uppercase flex items-center gap-0.5" title="🔥 MAIS LIDA (500+ visualizações)">
-                                🔥 MAIS LIDA <span className="text-[7px] font-normal lowercase font-sans opacity-80">(500+ views)</span>
-                              </span>
-                            )}
-                            {top5DestaquesDaSemanaIds.has(post.id) && (
-                              <span className="text-[8px] font-black text-amber-600 uppercase flex items-center gap-0.5" title="⭐ DESTAQUE DA SEMANA (seleção editorial)">
-                                ⭐ DESTAQUE <span className="text-[7px] font-normal lowercase font-sans opacity-80">(editorial)</span>
-                              </span>
-                            )}
-                          </div>
-                          <h4 className="text-xs font-black font-display text-slate-900 hover:text-blue-600 transition-colors line-clamp-1 leading-snug">{post.title}</h4>
-                          <p className="text-slate-500 text-[10px] line-clamp-2 mt-0.5 leading-relaxed">{post.subtitle}</p>
+                        <div className="p-3">
+                          <h4 className="text-xs font-black text-slate-900 leading-snug line-clamp-2 group-hover:text-blue-600">{post.title}</h4>
+                          <p className="text-[9px] text-slate-400 mt-2">{formatPublishDate(post.date)}</p>
                         </div>
                       </a>
                     ))}
                   </div>
                 </section>
+              ))}
+
+              {/* CATEGORY PAGE: REMAINING STORIES GROUPED BY MONTH */}
+              {selectedCategory !== 'Home' && monthGroups.length > 0 && (
+                <div className="space-y-6">
+                  {monthGroups.map(([month, monthPosts]) => (
+                    <section key={month} className="bg-white border border-slate-200 rounded-xl p-5 md:p-6 shadow-sm">
+                      <h2 className="text-sm font-black font-display text-slate-950 uppercase tracking-tight border-l-4 border-slate-400 pl-3 mb-3 capitalize">
+                        {month}
+                      </h2>
+                      <div className="divide-y divide-slate-100">
+                        {monthPosts.map(post => (
+                          <a
+                            key={post.id}
+                            href={`/noticia/${encodeURIComponent(post.slug)}`}
+                            onClick={(event) => handleArticleLink(event, post)}
+                            className="block py-3 hover:bg-slate-50 rounded px-2 transition-colors"
+                          >
+                            <span className="text-[9px] font-bold text-blue-600 uppercase tracking-wider">{formatPublishDate(post.date)}</span>
+                            <h3 className="text-sm font-bold text-slate-900 leading-snug mt-1 hover:text-blue-600">{post.title}</h3>
+                          </a>
+                        ))}
+                      </div>
+                    </section>
+                  ))}
+                </div>
               )}
 
             </div>

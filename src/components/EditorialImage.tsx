@@ -6,6 +6,7 @@ interface EditorialImageProps {
   alt: string;
   className?: string;
   foregroundClassName?: string;
+  loading?: 'eager' | 'lazy';
   children?: React.ReactNode;
 }
 
@@ -20,6 +21,7 @@ export default function EditorialImage({
   alt,
   className = '',
   foregroundClassName = '',
+  loading = 'lazy',
   children
 }: EditorialImageProps) {
   const [resolvedSrc, setResolvedSrc] = useState(src || fallbackSrc);
@@ -41,6 +43,7 @@ export default function EditorialImage({
         alt=""
         aria-hidden="true"
         referrerPolicy="no-referrer"
+        loading={loading}
         onError={handleError}
         className="absolute inset-0 h-full w-full scale-125 object-cover opacity-65 blur-2xl"
       />
@@ -49,6 +52,7 @@ export default function EditorialImage({
         src={resolvedSrc}
         alt={alt}
         referrerPolicy="no-referrer"
+        loading={loading}
         onError={handleError}
         className={`relative z-10 h-full w-full object-contain ${foregroundClassName}`}
       />

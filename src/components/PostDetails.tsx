@@ -263,6 +263,12 @@ export default function PostDetails({
           </div>
         )}
 
+        <div className="mb-6 rounded-xl bg-blue-600 px-6 py-5 text-center shadow-sm">
+          <h1 className="text-2xl md:text-3xl font-black uppercase tracking-wide text-white">
+            {post.category}
+          </h1>
+        </div>
+
         <div className="grid grid-cols-1 lg:grid-cols-4 gap-8">
           
           {/* ARTICLE MAIN AREA */}

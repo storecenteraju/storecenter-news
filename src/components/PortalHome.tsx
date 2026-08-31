@@ -116,12 +116,22 @@ export default function PortalHome({
   const secondaryPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(1, 7) : finalFilteredPosts.slice(1, 6);
   const remainingPosts = selectedCategory === 'Home' ? finalFilteredPosts.slice(7) : finalFilteredPosts.slice(6);
 
+  const featuredCategoryOrder = ['Economia', 'Tecnologia', 'Negócios', 'Política'];
   const categorySections = Array.from(new Set(publishedPosts.map(post => post.category)))
     .map(category => ({
       category,
       posts: publishedPosts.filter(post => post.category === category).slice(0, 4)
     }))
-    .filter(section => section.posts.length > 0);
+    .filter(section => section.posts.length > 0)
+    .sort((a, b) => {
+      const aPriority = featuredCategoryOrder.indexOf(a.category);
+      const bPriority = featuredCategoryOrder.indexOf(b.category);
+      if (aPriority !== -1 || bPriority !== -1) {
+        return (aPriority === -1 ? Number.MAX_SAFE_INTEGER : aPriority) -
+          (bPriority === -1 ? Number.MAX_SAFE_INTEGER : bPriority);
+      }
+      return b.posts.length - a.posts.length;
+    });
 
   const monthGroups = Array.from(
     remainingPosts.reduce((groups, post) => {

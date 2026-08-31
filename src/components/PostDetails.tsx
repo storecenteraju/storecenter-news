@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
+import { ArrowLeft, Clock, Eye, User, Share2, MessageCircle, Facebook, Instagram, Tag, ChevronRight, Bookmark } from 'lucide-react';
 import { Post, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
 import AdSenseSlot from './AdSenseSlot';
@@ -11,6 +11,24 @@ interface PostDetailsProps {
   ads: AdUnit[];
   onBack: () => void;
   onPostClick: (post: Post) => void;
+}
+
+async function copyTextToClipboard(text: string) {
+  if (navigator.clipboard?.writeText) {
+    await navigator.clipboard.writeText(text);
+    return;
+  }
+
+  const textArea = document.createElement('textarea');
+  textArea.value = text;
+  textArea.setAttribute('readonly', '');
+  textArea.style.position = 'fixed';
+  textArea.style.opacity = '0';
+  document.body.appendChild(textArea);
+  textArea.select();
+  const copied = document.execCommand('copy');
+  textArea.remove();
+  if (!copied) throw new Error('Não foi possível copiar o link');
 }
 
 export default function PostDetails({
@@ -36,17 +54,23 @@ export default function PostDetails({
     };
 
     try {
-      if (navigator.share) {
-        await navigator.share(shareData);
-        return;
-      }
-
-      await navigator.clipboard.writeText(shareData.url);
+      await copyTextToClipboard(shareData.url);
       setShareLabel('Link copiado!');
       window.setTimeout(() => setShareLabel('Compartilhar'), 2200);
-    } catch (error) {
-      if (error instanceof DOMException && error.name === 'AbortError') return;
-      window.prompt('Copie o link desta matéria:', shareData.url);
+      return;
+    } catch {
+      // On mobile browsers where clipboard is blocked, try the native share sheet.
+      if (navigator.share) {
+        try {
+          await navigator.share(shareData);
+          return;
+        } catch (error) {
+          if (error instanceof DOMException && error.name === 'AbortError') return;
+        }
+      }
+
+      setShareLabel('Copie o link na barra de endereço');
+      window.setTimeout(() => setShareLabel('Compartilhar'), 3000);
     }
   };
 
@@ -54,6 +78,44 @@ export default function PostDetails({
     if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     event.preventDefault();
     onPostClick(linkedPost);
+  };
+
+  const handleWhatsAppShare = () => {
+    const message = `${post.title}\n${window.location.href}`;
+    const whatsappUrl = `https://wa.me/?text=${encodeURIComponent(message)}`;
+    const isMobile = /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    if (isMobile) {
+      window.location.assign(whatsappUrl);
+      return;
+    }
+    window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
+  };
+
+  const handleFacebookShare = () => {
+    const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(window.location.href)}`;
+    window.open(facebookUrl, '_blank', 'noopener,noreferrer,width=700,height=600');
+  };
+
+  const handleInstagramShare = async () => {
+    const shareData = {
+      title: post.seoTitle || post.title,
+      text: post.subtitle,
+      url: window.location.href
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+      await copyTextToClipboard(shareData.url);
+      setShareLabel('Link copiado para o Instagram!');
+      window.setTimeout(() => setShareLabel('Compartilhar'), 3000);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') return;
+      setShareLabel('Copie o link para o Instagram');
+      window.setTimeout(() => setShareLabel('Compartilhar'), 3000);
+    }
   };
 
   // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
@@ -243,6 +305,33 @@ export default function PostDetails({
                       aria-label={shareLabel}
                     >
                       <Share2 className="w-4 h-4" />
+                      {shareLabel !== 'Compartilhar' && (
+                        <span className="ml-1 text-[9px] font-bold uppercase tracking-wide">{shareLabel}</span>
+                      )}
+                    </button>
+                    <button
+                      onClick={handleWhatsAppShare}
+                      className="text-emerald-600 hover:text-emerald-700 p-1.5 rounded-full hover:bg-emerald-50 transition-colors"
+                      title="Compartilhar no WhatsApp"
+                      aria-label="Compartilhar no WhatsApp"
+                    >
+                      <MessageCircle className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={handleFacebookShare}
+                      className="text-blue-700 hover:text-blue-800 p-1.5 rounded-full hover:bg-blue-50 transition-colors"
+                      title="Compartilhar no Facebook"
+                      aria-label="Compartilhar no Facebook"
+                    >
+                      <Facebook className="w-4 h-4" />
+                    </button>
+                    <button
+                      onClick={handleInstagramShare}
+                      className="text-pink-600 hover:text-pink-700 p-1.5 rounded-full hover:bg-pink-50 transition-colors"
+                      title="Compartilhar no Instagram"
+                      aria-label="Compartilhar no Instagram"
+                    >
+                      <Instagram className="w-4 h-4" />
                     </button>
                   </div>
                 </div>

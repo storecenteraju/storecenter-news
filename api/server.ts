@@ -742,10 +742,46 @@ function verifyAdminCredentials(db: any, username: string, password: string): bo
     return typedUser.toLowerCase() === customUser.toLowerCase() && safeStringEquals(typedPass, customPassword);
   }
 
-  const envUser = String(process.env.ADMIN_USER || "").trim();
+  const envUser = String(process.env.ADMIN_EMAIL || process.env.ADMIN_USER || db.settings?.contactEmail || "").trim();
   const envPassword = String(process.env.ADMIN_PASSWORD || "");
   return Boolean(envUser && envPassword && typedUser === envUser && safeStringEquals(typedPass, envPassword));
 }
+
+const passwordResetTokens = new Map<string, { email: string; expiresAt: number }>();
+
+app.post("/api/password-reset-request", async (req, res) => {
+  const email = String(req.body?.email || "").trim().toLowerCase();
+  const configuredEmail = String(process.env.ADMIN_EMAIL || "").trim().toLowerCase();
+  if (!email || !configuredEmail || email !== configuredEmail) {
+    return res.json({ success: true, message: "Se o e-mail estiver cadastrado, você receberá um link de recuperação." });
+  }
+  const resendKey = String(process.env.RESEND_API_KEY || "").trim();
+  if (!resendKey) return res.status(503).json({ success: false, error: "Serviço de recuperação ainda não configurado." });
+  const token = crypto.randomBytes(32).toString("hex");
+  passwordResetTokens.set(token, { email, expiresAt: Date.now() + 15 * 60 * 1000 });
+  const resetUrl = `${String(process.env.PUBLIC_SITE_URL || "https://storecenter.com.br").replace(/\/$/, "")}/?reset=${token}`;
+  const response = await fetch("https://api.resend.com/emails", {
+    method: "POST",
+    headers: { "Authorization": `Bearer ${resendKey}`, "Content-Type": "application/json" },
+    body: JSON.stringify({ from: "Store Center <onboarding@resend.dev>", to: [email], subject: "Redefinição de senha — Store Center", html: `<p>Solicitamos a redefinição da sua senha do Store Center.</p><p><a href="${resetUrl}">Redefinir senha</a></p><p>O link expira em 15 minutos.</p>` })
+  });
+  if (!response.ok) return res.status(502).json({ success: false, error: "Não foi possível enviar o e-mail de recuperação." });
+  return res.json({ success: true, message: "Se o e-mail estiver cadastrado, você receberá um link de recuperação." });
+});
+
+app.post("/api/password-reset-confirm", (req, res) => {
+  const token = String(req.body?.token || "").trim();
+  const newPassword = String(req.body?.newPassword || "");
+  const entry = passwordResetTokens.get(token);
+  if (!entry || entry.expiresAt < Date.now() || newPassword.length < 8) {
+    return res.status(400).json({ success: false, error: "Link inválido ou senha fora do padrão mínimo de 8 caracteres." });
+  }
+  const db = readDatabase();
+  db.settings = { ...(db.settings || {}), customUser: entry.email, customPassword: newPassword };
+  writeDatabase(db);
+  passwordResetTokens.delete(token);
+  return res.json({ success: true, message: "Senha redefinida com sucesso." });
+});
 
 function createAdminSession(username: string): string | null {
   const secret = getAdminSessionSecret();

@@ -30,6 +30,9 @@ export default function AdminPanel({
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
+  const [resetNotice, setResetNotice] = useState('');
+  const resetToken = new URLSearchParams(window.location.search).get('reset');
+  const [resetPassword, setResetPassword] = useState('');
 
   // Change Password State
   const [newUsername, setNewUsername] = useState('');
@@ -202,6 +205,31 @@ export default function AdminPanel({
     } finally {
       setIsLoggingIn(false);
     }
+  };
+
+  const handlePasswordResetRequest = async () => {
+    if (!username.trim()) {
+      setResetNotice('Digite o e-mail cadastrado para receber o link de recuperação.');
+      return;
+    }
+    try {
+      const response = await fetch('/api/password-reset-request', {
+        method: 'POST', headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: username.trim() })
+      });
+      const data = await response.json();
+      setResetNotice(data.message || data.error || 'Não foi possível solicitar a recuperação.');
+    } catch {
+      setResetNotice('Não foi possível conectar ao serviço de recuperação.');
+    }
+  };
+
+  const handlePasswordResetConfirm = async (e: React.FormEvent) => {
+    e.preventDefault();
+    const response = await fetch('/api/password-reset-confirm', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token: resetToken, newPassword: resetPassword }) });
+    const data = await response.json();
+    setResetNotice(data.message || data.error || 'Não foi possível redefinir a senha.');
+    if (response.ok) window.history.replaceState({}, '', window.location.pathname);
   };
 
   const handleToggleTestPost = async (id: string, currentVal?: boolean) => {
@@ -682,14 +710,20 @@ export default function AdminPanel({
             </div>
           )}
 
-          <form onSubmit={handleLogin} className="space-y-4">
+          {resetToken ? (
+            <form onSubmit={handlePasswordResetConfirm} className="space-y-4">
+              <p className="text-xs text-slate-500 text-center">Crie uma nova senha para o painel.</p>
+              <input type="password" required minLength={8} value={resetPassword} onChange={e => setResetPassword(e.target.value)} placeholder="Nova senha (mínimo 8 caracteres)" className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200" />
+              <button type="submit" className="w-full py-3 bg-blue-600 text-white font-bold text-xs uppercase tracking-widest rounded-lg">Redefinir senha</button>
+            </form>
+          ) : <form onSubmit={handleLogin} className="space-y-4">
             <div>
-              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1.5">Usuário</label>
+              <label className="block text-[10px] font-bold text-slate-500 uppercase tracking-widest mb-1.5">E-mail</label>
               <input 
                 type="text" 
                 required
                 disabled={isLoggingIn}
-                placeholder="Exemplo: admin" 
+                placeholder="storecenteraju@gmail.com" 
                 value={username}
                 onChange={e => setUsername(e.target.value)}
                 className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200 focus:outline-none focus:border-blue-600 focus:bg-white text-slate-800 disabled:opacity-60"
@@ -723,7 +757,11 @@ export default function AdminPanel({
                 'Autenticar Redator'
               )}
             </button>
-          </form>
+          </form>}
+          <button type="button" onClick={handlePasswordResetRequest} className="w-full text-[10px] font-bold uppercase tracking-wider text-blue-600 hover:text-blue-800 cursor-pointer">
+            Esqueci minha senha
+          </button>
+          {resetNotice && <p className="text-[11px] text-slate-500 text-center leading-normal">{resetNotice}</p>}
         </div>
       </div>
     );

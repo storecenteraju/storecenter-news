@@ -1,6 +1,40 @@
 {
   "posts": [
     {
+      "id": "rss-hash_744b2e48",
+      "views": 0,
+      "date": "2026-08-31T05:57:07.562Z",
+      "title": "Imposto de Renda 2026: Receita paga o 4º lote de restituição nesta segunda: qual pode ser o próximo passo?",
+      "subtitle": "Imposto de renda Marcos Serra/g1 A Receita Federal paga nesta segunda-feira (31) o quarto lote de restituição do Imposto de Renda Pessoa Física (IRPF).",
+      "slug": "imposto-de-renda-2026-receita-paga-o-4-lote-de-restituicao-nesta-segunda-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nImposto de renda Marcos Serra/g1 A Receita Federal paga nesta segunda-feira (31) o quarto lote de restituição do Imposto de Renda Pessoa Física (IRPF). O lote contempla também restituições residuais de exercícios anteriores.\n\nO que já foi informado\n\nAo todo, serão pagas 521.935 restituições, que somam R$ 1.238.013.251,34. (veja abaixo como consultar) Do total de restituições deste lote: 16.850 são destinadas a idosos acima de 80 anos; 86.873 a idosos entre 60 e 79 anos; 9.029 a pessoas com deficiência física, mental ou moléstia grave; 26.769 a contribuintes cuja maior fonte de renda seja o magistério; 338.912 a contribuintes que receberam prioridade por utilizarem a declaração pré-preenchida e/ou optarem pelo recebimento via PIX; 43.502 a contribuintes sem prioridade. Agora no g1 Veja o calendário da restituição do IR 2026 Os pagamentos das restituições do IRPF 2026 serão feitos em quatro lotes, segundo informações da Receita. Veja as datas dos pagamentos: 1º lote: 29 de maio 2º lote: 30 de junho 3º lote: 31 de julho 4º lote: 31 de agosto Como fazer a consulta? O contribuinte pode verificar se vai receber neste lote por meio da página da Receita na internet.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Imposto de Renda 2026: Receita paga o 4º lote de Store Center",
+      "seoDescription": "Imposto de renda Marcos Serra/g1 A Receita Federal paga nesta segunda-feira (31) o quarto lote de restituição do Imposto de Renda Pessoa Física (IRPF)",
+      "keyword": "Imposto de Renda 2026: Receita paga o 4º lote de restituição nesta segunda; veja como fazer",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/imposto-de-renda/noticia/2026/08/31/imposto-de-renda-2026-receita-paga-o-4o-lote-de-restituicao-nesta-segunda-veja-como-fazer.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Imposto de Renda 2026: Receita paga o 4º lote de restituição nesta segunda; veja como fazer",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_ab78e5d",
       "views": 0,
       "date": "2026-08-31T00:37:22.242Z",
@@ -3639,7 +3673,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T00:37:11.115Z",
+      "lastScraped": "2026-08-31T05:56:56.452Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3647,7 +3681,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T00:37:11.727Z",
+      "lastScraped": "2026-08-31T05:56:57.044Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3717,6 +3751,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788155910429",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Imposto de Renda 2026: Receita paga o 4º lote de restituição nesta segunda; veja como fazer",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Imposto de Renda 2026: Receita paga o 4º lote de restituição nesta segunda: qual pode ser o próximo passo?",
+      "postId": "rss-hash_744b2e48",
+      "timestamp": "2026-08-31T05:57:07.562Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788136671317",
       "feedName": "G1 - Economia",

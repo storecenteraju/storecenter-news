@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5e32caa6",
+      "views": 0,
+      "date": "2026-08-31T23:26:02.317Z",
+      "title": "Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "subtitle": "Acidente fez Silvio Pinheiro abandonar temporariamente as entregas Vitor Serrano/BBC Após um acidente, o entregador Silvio Luiz Pinheiro pensou em desistir da profissão.",
+      "slug": "por-que-o-brasil-ainda-nao-sabe-quantos-entregadores-se-acidentam-no-trabalho",
+      "content": "O que aconteceu\n\nAcidente fez Silvio Pinheiro abandonar temporariamente as entregas Vitor Serrano/BBC Após um acidente, o entregador Silvio Luiz Pinheiro pensou em desistir da profissão. Quando entrou na central para devolver uma bicicleta alugada, ele ainda estava machucado.\n\nO que já foi informado\n\nO ombro doía, o braço quase não acompanhava os movimentos. Pouco antes, na Avenida Sumaré, na Zona Oeste de São Paulo, o freio dianteiro da bicicleta elétrica havia travado de repente. Ele precisou desviar de pedestres que estavam no meio da ciclovia. Com areia perto da pista, a bicicleta perdeu a estabilidade, e ele caiu. \"Para não machucar o rosto, eu coloquei o braço esquerdo na frente, um reflexo natural que a gente tem\", conta. Entregadores e motoristas de aplicativo permanecem fora da previdência Ele levou a bicicleta alugada até o balcão da central de locação, em Pinheiros, também na Zona Oeste da capital paulista, explicou que estava devolvendo o equipamento porque havia sofrido um acidente e esperou alguma reação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que o Brasil ainda não sabe quantos entregadores se Store Center",
+      "seoDescription": "Acidente fez Silvio Pinheiro abandonar temporariamente as entregas Vitor Serrano/BBC Após um acidente, o entregador Silvio Luiz Pinheiro pensou em des",
+      "keyword": "Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/30/por-que-o-brasil-ainda-nao-sabe-quantos-entregadores-se-acidentam-no-trabalho.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/30/por-que-o-brasil-ainda-nao-sabe-quantos-entregadores-se-acidentam-no-trabalho.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_74bdda12",
       "views": 0,
       "date": "2026-08-31T21:57:15.751Z",
@@ -3942,7 +3981,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T21:57:04.657Z",
+      "lastScraped": "2026-08-31T23:26:00.566Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3950,7 +3989,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T21:57:05.232Z",
+      "lastScraped": "2026-08-31T23:26:01.211Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3963,7 +4002,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-31T20:31:31.108Z",
+      "lastScraped": "2026-08-31T23:26:02.305Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4020,6 +4059,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788218841860",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "postId": "rss-hash_5e32caa6",
+      "timestamp": "2026-08-31T23:26:02.318Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.5h (+8), Sem postagem há 27.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788213467134",
       "feedName": "G1 - Economia",

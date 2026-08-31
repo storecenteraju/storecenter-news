@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7101ac65",
+      "views": 0,
+      "date": "2026-08-31T19:13:49.158Z",
+      "title": "Fonte 1 Indústria da defesa pode perder contratos, competitividade e investimentos se: por que esse movimento importa?",
+      "subtitle": "Fonte 1 — G1 - Economia Uma nota técnica elaborada pelo Ministério da Defesa afirma que uma eventual retaliação comercial do Brasil contra os Estados Unidos por meio da Lei da Reciprocidade trará impactos negativos para a indústria nacional de defesa e.",
+      "slug": "fonte-1-industria-da-defesa-pode-perder-contratos-competitividade-e-investimentos-se-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia Uma nota técnica elaborada pelo Ministério da Defesa afirma que uma eventual retaliação comercial do Brasil contra os Estados Unidos por meio da Lei da Reciprocidade trará impactos negativos para a indústria nacional de defesa e segurança. Entre as consequências previstas, estão a perda de contratos, encarecimento de projetos, perda de competitividade no mercado internacional, retração de investimentos americano e o risco para o acesso a tecnologias.\n\nO que já foi informado\n\n\"É possível inferir que a aplicação da Lei de Reciprocidade Econômica trará impactos negativos para a Base Industrial de Defesa e Segurança. O setor poderá sofrer a perda de contratos com empresas norte-americanas e perda na competitividade internacional, pelo fato de ter em seu processo de produção insumos norte-americanos relevantes\", diz trecho do documento. \"A retração de investimentos oriundos dos Estados Unidos também poderá ocorrer, o que demandará reconfiguração de cadeias de suprimento\", completa a nota técnica.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Indústria da defesa pode perder contratos Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia Uma nota técnica elaborada pelo Ministério da Defesa afirma que uma eventual retaliação comercial do Brasil contra os Estado",
+      "keyword": "Fonte 1 Indústria da defesa pode perder contratos, competitividade e investimentos se reciprocidade for adotada, diz ministério Fonte 2 Câmara deve votar na próxima segunda MP do fim da taxa das blusinhas; Congresso definiu aliada de Lula como relatora",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/08/31/industria-da-defesa-pode-perder-contratos-competitividade-e-investimentos-se-reciprocidade-for-adotada-diz-ministerio.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/08/31/industria-da-defesa-pode-perder-contratos-competitividade-e-investimentos-se-reciprocidade-for-adotada-diz-ministerio.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/08/28/congresso-define-aliados-de-lula-como-presidente-e-relatora-de-comissao-da-mp-do-fim-da-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Indústria da defesa pode perder contratos, competitividade e investimentos se reciprocidade for adotada, diz ministério",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_3b8232f1",
       "views": 0,
       "date": "2026-08-31T17:35:38.958Z",
@@ -3821,7 +3862,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T17:35:37.469Z",
+      "lastScraped": "2026-08-31T19:13:46.925Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3829,7 +3870,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T17:35:38.180Z",
+      "lastScraped": "2026-08-31T19:13:47.561Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3842,7 +3883,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-31T17:35:38.946Z",
+      "lastScraped": "2026-08-31T19:13:49.144Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3899,6 +3940,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788203639519",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Indústria da defesa pode perder contratos, competitividade e investimentos se reciprocidade for adotada, diz ministério",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Indústria da defesa pode perder contratos, competitividade e investimentos se: por que esse movimento importa?",
+      "postId": "rss-hash_7101ac65",
+      "timestamp": "2026-08-31T19:13:49.159Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 63.5h (+8), Sem postagem há 63.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788197741804",
       "feedName": "G1 - Economia",

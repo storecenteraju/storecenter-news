@@ -1171,17 +1171,20 @@ app.put("/api/posts/:id", async (req, res) => {
       const slug = String(req.body?.slug || "").trim();
       const sourceUrl = String(req.body?.sourceUrl || "").trim();
       const title = String(req.body?.title || "").trim();
+      const originalTitle = String(req.body?.originalTitle || "").trim();
       index = db.posts.findIndex((p: any) =>
         (slug && String(p.slug || "").trim() === slug) ||
         (sourceUrl && String(p.sourceUrl || "").trim() === sourceUrl) ||
-        (title && String(p.title || "").trim() === title)
+        (title && String(p.title || "").trim() === title) ||
+        (originalTitle && String(p.title || "").trim() === originalTitle)
       );
       if (index !== -1) {
         console.warn(`[POSTS] ID ${requested} não estava no cache; matéria localizada por metadados.`);
       }
     }
     if (index !== -1) {
-      db.posts[index] = { ...db.posts[index], ...req.body };
+      const { originalTitle: _originalTitle, ...postUpdates } = req.body || {};
+      db.posts[index] = { ...db.posts[index], ...postUpdates };
       const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
       if (!hasManualEditCategory && (req.body.title || req.body.content)) {
         db.posts[index].category = autoCategorizeNews(

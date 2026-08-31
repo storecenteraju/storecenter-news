@@ -739,6 +739,7 @@ export default function AdminPanel({
               <p className="text-xs text-slate-500 text-center">Crie uma nova senha para o painel.</p>
               <input type="password" required minLength={8} value={resetPassword} onChange={e => setResetPassword(e.target.value)} placeholder="Nova senha (mínimo 8 caracteres)" className="w-full text-xs p-3 rounded bg-slate-50 border border-slate-200" />
               <button type="submit" className="w-full py-3 bg-blue-600 text-white font-bold text-xs uppercase tracking-widest rounded-lg">Redefinir senha</button>
+              <button type="button" onClick={() => window.history.replaceState({}, '', window.location.pathname)} className="w-full text-[10px] text-blue-600 font-bold uppercase tracking-widest">Voltar ao login</button>
             </form>
           ) : <form onSubmit={handleLogin} className="space-y-4">
             <div>

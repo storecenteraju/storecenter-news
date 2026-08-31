@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3b8232f1",
+      "views": 0,
+      "date": "2026-08-31T17:35:38.958Z",
+      "title": "Fonte 1 Governo quer padronizar uso de biometria em portos e aeroportos Fonte 2: o que está em jogo no mercado?",
+      "subtitle": "Fonte 1 — G1 - Economia O Ministério dos Portos e Aeroportos lança na tarde desta segunda-feira (31) uma política para ampliar e padronizar o uso de biometria em aeroportos, portos e hidrovias.",
+      "slug": "fonte-1-governo-quer-padronizar-uso-de-biometria-em-portos-e-aeroportos-fonte-2-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia O Ministério dos Portos e Aeroportos lança na tarde desta segunda-feira (31) uma política para ampliar e padronizar o uso de biometria em aeroportos, portos e hidrovias. A iniciativa busca reforçar a segurança e agilizar a identificação de passageiros e trabalhadores nesses locais.\n\nO que já foi informado\n\nAs diretrizes incluem a padronização dos procedimentos de identificação e autenticação biométrica; a integração entre sistemas de informação; e a adoção soluções que contribuam para viagens mais fluídas e com menos etapas de contato físico. Segundo o Ministério dos Portos e Aeroportos, a política tem o objetivo de ampliar a segurança e facilitar o embarque de passageiros tanto em voos domésticos como nos internacionais (leia mais abaixo). Agora no g1 Os detalhes sobre o lançamento serão divulgados em coletiva de imprensa às 15h na sede do ministério.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Governo quer padronizar uso de biometria em Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia O Ministério dos Portos e Aeroportos lança na tarde desta segunda-feira (31) uma política para ampliar e padronizar o uso de",
+      "keyword": "Fonte 1 Governo quer padronizar uso de biometria em portos e aeroportos Fonte 2 Governo quer repetir modelo da Operação Carbono Oculto a cada dois meses contra lavagem de dinheiro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/31/governo-quer-padronizar-uso-de-biometria-em-portos-e-aeroportos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/08/31/governo-quer-padronizar-uso-de-biometria-em-portos-e-aeroportos.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/08/31/durigan-macroday-btg.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Governo quer padronizar uso de biometria em portos e aeroportos",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_494b5073",
       "views": 0,
       "date": "2026-08-31T15:29:21.275Z",
@@ -3780,7 +3821,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T15:29:18.955Z",
+      "lastScraped": "2026-08-31T17:35:37.469Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3788,7 +3829,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T15:29:19.639Z",
+      "lastScraped": "2026-08-31T17:35:38.180Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3801,7 +3842,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-31T15:29:21.264Z",
+      "lastScraped": "2026-08-31T17:35:38.946Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3858,6 +3899,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788197741804",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo quer padronizar uso de biometria em portos e aeroportos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Governo quer padronizar uso de biometria em portos e aeroportos Fonte 2: o que está em jogo no mercado?",
+      "postId": "rss-hash_3b8232f1",
+      "timestamp": "2026-08-31T17:35:38.959Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.6h (+8), Sem postagem há 11.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788190161488",
       "feedName": "G1 - Economia",

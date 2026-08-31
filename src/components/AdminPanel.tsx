@@ -228,10 +228,15 @@ export default function AdminPanel({
 
   const handlePasswordResetConfirm = async (e: React.FormEvent) => {
     e.preventDefault();
-    const response = await fetch('/api/password-reset-confirm', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token: resetToken, newPassword: resetPassword }) });
-    const data = await response.json();
-    setResetNotice(data.message || data.error || 'Não foi possível redefinir a senha.');
-    if (response.ok) window.history.replaceState({}, '', window.location.pathname);
+    try {
+      const response = await fetch('/api/password-reset-confirm', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ token: resetToken, newPassword: resetPassword }) });
+      const data = await response.json().catch(() => ({}));
+      setResetNotice(data.message || data.error || `Não foi possível redefinir a senha (HTTP ${response.status}).`);
+      if (response.ok) window.history.replaceState({}, '', window.location.pathname);
+    } catch (error) {
+      console.error(error);
+      setResetNotice('Não foi possível conectar ao servidor. Tente novamente.');
+    }
   };
 
   const handleToggleTestPost = async (id: string, currentVal?: boolean) => {

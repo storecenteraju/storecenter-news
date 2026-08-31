@@ -87,6 +87,7 @@ export default function AdminPanel({
 
   // Form states - Post manual creation / editing
   const [editingPostId, setEditingPostId] = useState<string | null>(null);
+  const [editingPostSourceUrl, setEditingPostSourceUrl] = useState('');
   const [postTitle, setPostTitle] = useState('');
   const [postSubtitle, setPostSubtitle] = useState('');
   const [postContent, setPostContent] = useState('');
@@ -271,6 +272,7 @@ export default function AdminPanel({
   // Pre-load form for editing an article
   const startEditPost = (post: Post) => {
     setEditingPostId(post.id);
+    setEditingPostSourceUrl(post.sourceUrl || '');
     setPostTitle(post.title);
     setPostSubtitle(post.subtitle);
     setPostContent(post.content);
@@ -294,6 +296,7 @@ export default function AdminPanel({
 
   const clearPostForm = () => {
     setEditingPostId(null);
+    setEditingPostSourceUrl('');
     setPostTitle('');
     setPostSubtitle('');
     setPostContent('');
@@ -337,6 +340,9 @@ export default function AdminPanel({
       keyword: postKeyword,
       imagePrompt: postImagePrompt
     };
+    if (editingPostId && editingPostSourceUrl) {
+      (payload as any).sourceUrl = editingPostSourceUrl;
+    }
 
     try {
       let response;

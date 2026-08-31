@@ -1159,7 +1159,24 @@ app.post("/api/posts", async (req, res) => {
 app.put("/api/posts/:id", async (req, res) => {
   try {
     const db = readDatabase();
-    const index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
+    let index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
+    // O painel pode estar usando uma cópia estática gerada antes da última
+    // sincronização do Firestore. Nessa situação, localizamos a mesma matéria
+    // por slug, URL de origem ou título para não perder a edição.
+    if (index === -1) {
+      const requested = String(req.params.id);
+      const slug = String(req.body?.slug || "").trim();
+      const sourceUrl = String(req.body?.sourceUrl || "").trim();
+      const title = String(req.body?.title || "").trim();
+      index = db.posts.findIndex((p: any) =>
+        (slug && String(p.slug || "").trim() === slug) ||
+        (sourceUrl && String(p.sourceUrl || "").trim() === sourceUrl) ||
+        (title && String(p.title || "").trim() === title)
+      );
+      if (index !== -1) {
+        console.warn(`[POSTS] ID ${requested} não estava no cache; matéria localizada por metadados.`);
+      }
+    }
     if (index !== -1) {
       db.posts[index] = { ...db.posts[index], ...req.body };
       const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";

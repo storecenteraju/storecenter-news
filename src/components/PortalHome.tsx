@@ -27,6 +27,11 @@ export default function PortalHome({
   onAdminClick,
   onSearchChange
 }: PortalHomeProps) {
+  const handleArticleLink = (event: React.MouseEvent<HTMLAnchorElement>, post: Post) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    onPostClick(post);
+  };
   
   // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
   const last3Images: string[] = [];
@@ -179,8 +184,9 @@ export default function PortalHome({
               
               {/* FEATURED NEWS BLOCK (HERO SPOTLIGHT) */}
               {selectedCategory === 'Home' && featurePost && (
-                <section 
-                  onClick={() => onPostClick(featurePost)}
+                <a
+                  href={`/noticia/${encodeURIComponent(featurePost.slug)}`}
+                  onClick={(event) => handleArticleLink(event, featurePost)}
                   className="group bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col md:flex-row cursor-pointer"
                 >
                   <EditorialImage
@@ -243,7 +249,7 @@ export default function PortalHome({
                       )}
                     </div>
                   </div>
-                </section>
+                </a>
               )}
 
               {/* IN-FEED ADSENSE SPONSOR CORNER (MEIO DO PORTAL) */}
@@ -265,9 +271,10 @@ export default function PortalHome({
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   {/* If filter category, present even the first post as detailed card index */}
                   {(selectedCategory !== 'Home' ? finalFilteredPosts : secondaryPosts).map((post) => (
-                    <div 
+                    <a
                       key={post.id}
-                      onClick={() => onPostClick(post)}
+                      href={`/noticia/${encodeURIComponent(post.slug)}`}
+                      onClick={(event) => handleArticleLink(event, post)}
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
                       <div>
@@ -332,7 +339,7 @@ export default function PortalHome({
                           </span>
                         )}
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </section>
@@ -345,9 +352,10 @@ export default function PortalHome({
                   </h3>
                   <div className="divide-y divide-slate-100">
                     {remainingPosts.map((post) => (
-                      <div 
+                      <a
                         key={post.id}
-                        onClick={() => onPostClick(post)}
+                        href={`/noticia/${encodeURIComponent(post.slug)}`}
+                        onClick={(event) => handleArticleLink(event, post)}
                         className="py-4 flex gap-4 cursor-pointer hover:bg-slate-50 transition-colors rounded p-2"
                       >
                         <img 
@@ -379,7 +387,7 @@ export default function PortalHome({
                           <h4 className="text-xs font-black font-display text-slate-900 hover:text-blue-600 transition-colors line-clamp-1 leading-snug">{post.title}</h4>
                           <p className="text-slate-500 text-[10px] line-clamp-2 mt-0.5 leading-relaxed">{post.subtitle}</p>
                         </div>
-                      </div>
+                      </a>
                     ))}
                   </div>
                 </section>
@@ -418,9 +426,10 @@ export default function PortalHome({
                 </h3>
                 <div className="divide-y divide-slate-100">
                   {top10PopularPosts.map((pop, idx) => (
-                    <div 
+                    <a
                       key={pop.id}
-                      onClick={() => onPostClick(pop)}
+                      href={`/noticia/${encodeURIComponent(pop.slug)}`}
+                      onClick={(event) => handleArticleLink(event, pop)}
                       className="py-3 flex gap-3 cursor-pointer select-none group"
                     >
                       <div className="text-xl font-black font-display text-slate-300 font-bold w-6 flex-shrink-0 text-right group-hover:text-blue-500 transition-colors">
@@ -434,7 +443,7 @@ export default function PortalHome({
                           {pop.title}
                         </h4>
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>

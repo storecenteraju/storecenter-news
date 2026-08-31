@@ -7,11 +7,37 @@ import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, normalizePost, getPo
 import { Loader2, Globe, Sparkles, Server } from 'lucide-react';
 import dbBackup from '../db.json';
 
+const SITE_NAME = 'Store Center News';
+const PUBLIC_SITE_URL = 'https://storecenter.com.br';
+const HOME_TITLE = 'Store Center News - Economia, Política, Negócios e Tecnologia';
+const HOME_DESCRIPTION = 'Notícias e análises sobre economia, política, negócios, tecnologia e os principais acontecimentos do Brasil e do mundo.';
+
+function getArticleSlugFromPath(pathname = window.location.pathname): string | null {
+  const match = pathname.match(/^\/noticia\/([^/]+)\/?$/i);
+  if (!match) return null;
+
+  try {
+    return decodeURIComponent(match[1]);
+  } catch {
+    return match[1];
+  }
+}
+
+function getPostPath(post: Post): string {
+  return `/noticia/${encodeURIComponent(post.slug)}`;
+}
+
+function setMeta(selector: string, attribute: 'content' | 'href', value: string) {
+  const element = document.querySelector(selector);
+  if (element) element.setAttribute(attribute, value);
+}
+
 export default function App() {
   const [currentView, setView] = useState<'portal' | 'admin'>('portal');
   const [selectedCategory, setSelectedCategory] = useState<CategoryType | 'Home'>('Home');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
+  const [routeNotFound, setRouteNotFound] = useState(false);
 
   // Core Database States
   const [posts, setPosts] = useState<Post[]>([]);
@@ -75,13 +101,84 @@ export default function App() {
     fetchPortalData();
   }, []);
 
+  useEffect(() => {
+    if (loading) return;
+
+    const syncRoute = () => {
+      const slug = getArticleSlugFromPath();
+      if (!slug) {
+        setSelectedPost(null);
+        setRouteNotFound(window.location.pathname !== '/');
+        return;
+      }
+
+      const routedPost = posts.find(post => (
+        post.slug === slug &&
+        post.status === 'published' &&
+        !post.isTestPost &&
+        getPostTimestamp(post) <= Date.now()
+      )) || null;
+      setView('portal');
+      setSelectedPost(routedPost);
+      setRouteNotFound(!routedPost);
+      window.scrollTo({ top: 0, behavior: 'instant' });
+    };
+
+    syncRoute();
+    window.addEventListener('popstate', syncRoute);
+    return () => window.removeEventListener('popstate', syncRoute);
+  }, [loading, posts]);
+
+  useEffect(() => {
+    if (loading) return;
+
+    const canonicalUrl = selectedPost
+      ? `${PUBLIC_SITE_URL}${getPostPath(selectedPost)}`
+      : `${PUBLIC_SITE_URL}/`;
+    const title = routeNotFound
+      ? `Matéria não encontrada | ${SITE_NAME}`
+      : selectedPost
+      ? `${selectedPost.seoTitle || selectedPost.title} | ${SITE_NAME}`
+      : HOME_TITLE;
+    const description = routeNotFound
+      ? 'O endereço informado não corresponde a uma matéria publicada no Store Center News.'
+      : selectedPost?.seoDescription || selectedPost?.subtitle || HOME_DESCRIPTION;
+    const image = selectedPost?.image
+      ? new URL(selectedPost.image, window.location.origin).href
+      : `${window.location.origin}/assets/editorial/geral.svg`;
+
+    document.title = title;
+    setMeta('meta[name="description"]', 'content', description);
+    setMeta('link[rel="canonical"]', 'href', canonicalUrl);
+    setMeta('meta[property="og:type"]', 'content', selectedPost ? 'article' : 'website');
+    setMeta('meta[property="og:title"]', 'content', title);
+    setMeta('meta[property="og:description"]', 'content', description);
+    setMeta('meta[property="og:url"]', 'content', canonicalUrl);
+    setMeta('meta[property="og:image"]', 'content', image);
+    setMeta('meta[name="twitter:title"]', 'content', title);
+    setMeta('meta[name="twitter:description"]', 'content', description);
+    setMeta('meta[name="twitter:image"]', 'content', image);
+    setMeta('meta[name="robots"]', 'content', routeNotFound ? 'noindex, nofollow' : 'index, follow, max-image-preview:large');
+  }, [loading, selectedPost, routeNotFound]);
+
   const handlePostClick = (post: Post) => {
+    const postPath = getPostPath(post);
+    if (window.location.pathname !== postPath) {
+      window.history.pushState({ postSlug: post.slug }, '', postPath);
+    }
+    setView('portal');
+    setRouteNotFound(false);
     setSelectedPost(post);
     window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
   const handleBackToPortal = () => {
+    if (window.location.pathname !== '/') {
+      window.history.pushState({}, '', '/');
+    }
+    setRouteNotFound(false);
     setSelectedPost(null);
+    window.scrollTo({ top: 0, behavior: 'instant' });
   };
 
   const breakingNewsPost = posts
@@ -101,12 +198,12 @@ export default function App() {
         currentView={currentView}
         setView={(view) => {
           setView(view);
-          setSelectedPost(null); // Clear selected article reading state when toggling
+          handleBackToPortal();
         }}
         selectedCategory={selectedCategory}
         setSelectedCategory={(cat) => {
           setSelectedCategory(cat);
-          setSelectedPost(null); // Clear reading state on category click
+          handleBackToPortal();
         }}
         searchQuery={searchQuery}
         setSearchQuery={setSearchQuery}
@@ -126,7 +223,19 @@ export default function App() {
         <div className="flex-grow">
           {currentView === 'portal' ? (
             // PORTAL PUBLIC LAYOUT
-            selectedPost ? (
+            routeNotFound ? (
+              <main className="max-w-3xl mx-auto px-4 py-24 text-center">
+                <p className="text-xs font-black uppercase tracking-widest text-blue-600">Erro 404</p>
+                <h1 className="mt-3 text-3xl font-black text-slate-950">Matéria não encontrada</h1>
+                <p className="mt-3 text-slate-500">O endereço pode estar incompleto ou esta matéria não está mais disponível.</p>
+                <button
+                  onClick={handleBackToPortal}
+                  className="mt-8 rounded-xl bg-blue-600 px-6 py-3 text-xs font-bold uppercase tracking-wider text-white hover:bg-blue-700"
+                >
+                  Voltar para o portal
+                </button>
+              </main>
+            ) : selectedPost ? (
               // 1. ARTICLE DETAIL VIEW
               <PostDetails 
                 post={selectedPost}

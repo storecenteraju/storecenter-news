@@ -9,9 +9,10 @@
   "scripts": {
     "dev": "tsx api/server.ts",
     "prepare:static-data": "node scripts/prepare-static-data.mjs",
+    "generate:static-pages": "node scripts/generate-static-pages.mjs",
     "rss:static": "tsx scripts/rss-static-publish.ts",
-    "build:web": "npm run prepare:static-data && vite build",
-    "build": "npm run prepare:static-data && vite build && esbuild api/server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
+    "build:web": "npm run prepare:static-data && vite build && npm run generate:static-pages",
+    "build": "npm run prepare:static-data && vite build && npm run generate:static-pages && esbuild api/server.ts --bundle --platform=node --format=cjs --packages=external --sourcemap --outfile=dist/server.cjs",
     "start": "node dist/server.cjs",
     "clean": "rm -rf dist",
     "lint": "tsc --noEmit"

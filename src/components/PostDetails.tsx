@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { ArrowLeft, Clock, Eye, User, Share2, Tag, ChevronRight, Bookmark } from 'lucide-react';
 import { Post, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
@@ -20,12 +20,41 @@ export default function PostDetails({
   onBack,
   onPostClick
 }: PostDetailsProps) {
+  const [shareLabel, setShareLabel] = useState('Compartilhar');
 
   // Increment views on mount
   useEffect(() => {
     fetch(`/api/posts/${post.id}/view`, { method: "POST" })
       .catch(err => console.error("Erro incrementando visualização:", err));
   }, [post.id]);
+
+  const handleShare = async () => {
+    const shareData = {
+      title: post.seoTitle || post.title,
+      text: post.subtitle,
+      url: window.location.href
+    };
+
+    try {
+      if (navigator.share) {
+        await navigator.share(shareData);
+        return;
+      }
+
+      await navigator.clipboard.writeText(shareData.url);
+      setShareLabel('Link copiado!');
+      window.setTimeout(() => setShareLabel('Compartilhar'), 2200);
+    } catch (error) {
+      if (error instanceof DOMException && error.name === 'AbortError') return;
+      window.prompt('Copie o link desta matéria:', shareData.url);
+    }
+  };
+
+  const handleArticleLink = (event: React.MouseEvent<HTMLAnchorElement>, linkedPost: Post) => {
+    if (event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    onPostClick(linkedPost);
+  };
 
   // Local sliding window array to keep track of the last 3 rendered card images to prevent visual repeating in sequence
   const last3Images: string[] = [];
@@ -207,7 +236,12 @@ export default function PostDetails({
                     <button className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors" title="Favoritar">
                       <Bookmark className="w-4 h-4" />
                     </button>
-                    <button className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors" title="Compartilhar">
+                    <button
+                      onClick={handleShare}
+                      className="text-slate-400 hover:text-slate-600 p-1.5 rounded-full hover:bg-slate-50 transition-colors"
+                      title={shareLabel}
+                      aria-label={shareLabel}
+                    >
                       <Share2 className="w-4 h-4" />
                     </button>
                   </div>
@@ -340,9 +374,10 @@ export default function PostDetails({
 
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   {relatedPosts.map(rel => (
-                    <div 
+                    <a
                       key={rel.id}
-                      onClick={() => onPostClick(rel)}
+                      href={`/noticia/${encodeURIComponent(rel.slug)}`}
+                      onClick={(event) => handleArticleLink(event, rel)}
                       className="group bg-white border border-slate-200 hover:border-slate-300 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-all flex flex-col justify-between cursor-pointer h-full"
                     >
                       <EditorialImage
@@ -382,7 +417,7 @@ export default function PostDetails({
                           {formatPublishDate(rel.date)}
                         </span>
                       </div>
-                    </div>
+                    </a>
                   ))}
                 </div>
               </div>
@@ -448,9 +483,10 @@ export default function PostDetails({
               </h3>
               <div className="divide-y divide-slate-100">
                 {top10PopularPosts.map((pop, idx) => (
-                  <div 
+                  <a
                     key={pop.id}
-                    onClick={() => onPostClick(pop)}
+                    href={`/noticia/${encodeURIComponent(pop.slug)}`}
+                    onClick={(event) => handleArticleLink(event, pop)}
                     className="py-3 flex gap-3 cursor-pointer select-none group"
                   >
                     <div className="text-xl font-black font-display text-slate-300 font-bold w-6 flex-shrink-0 text-right group-hover:text-blue-500 transition-colors">
@@ -464,7 +500,7 @@ export default function PostDetails({
                         {pop.title}
                       </h4>
                     </div>
-                  </div>
+                  </a>
                 ))}
               </div>
             </div>

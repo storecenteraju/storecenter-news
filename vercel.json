@@ -16,6 +16,10 @@
       "destination": "/api/server.ts"
     },
     {
+      "source": "/noticia/:slug",
+      "destination": "/noticia/:slug/index.html"
+    },
+    {
       "source": "/:path*",
       "destination": "/index.html"
     }

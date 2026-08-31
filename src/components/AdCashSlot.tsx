@@ -7,9 +7,9 @@ export default function AdCashSlot() {
   useEffect(() => {
     const start = () => {
       const adcash = (window as any).aclib;
-      if (!initialized.current && adcash && typeof adcash.runAutoTag === 'function') {
+      if (!initialized.current && adcash && typeof adcash.runBanner === 'function') {
         initialized.current = true;
-        adcash.runAutoTag({ zoneId: 'dtvz46jnnt' });
+        adcash.runBanner({ zoneId: '12080082' });
       }
     };
 

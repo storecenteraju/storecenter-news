@@ -761,6 +761,9 @@ app.post("/api/password-reset-request", async (req, res) => {
   const db = readDatabase();
   db.settings = { ...(db.settings || {}), passwordResetEmail: email, passwordResetTokenHash: crypto.createHash("sha256").update(token).digest("hex"), passwordResetExpiresAt: Date.now() + 15 * 60 * 1000 };
   writeDatabase(db);
+  if (!await syncSettings(db.settings)) {
+    return res.status(503).json({ success: false, error: "Não foi possível preparar a recuperação no Firestore. Tente novamente mais tarde." });
+  }
   const resetUrl = `${String(process.env.PUBLIC_SITE_URL || "https://storecenter.com.br").replace(/\/$/, "")}/?reset=${token}`;
   const response = await fetch("https://api.resend.com/emails", {
     method: "POST",

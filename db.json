@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_ab78e5d",
+      "views": 0,
+      "date": "2026-08-31T00:37:22.242Z",
+      "title": "Os milhões de argentinos com dívidas em atraso e o que isso indica sobre a: o que muda para os próximos jogos?",
+      "subtitle": "Eliana Yaynes e Iván Venencio se conheceram em uma manhã durante a transmissão de um programa de rádio.",
+      "slug": "os-milhoes-de-argentinos-com-dividas-em-atraso-e-o-que-isso-indica-sobre-a-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEliana Yaynes e Iván Venencio se conheceram em uma manhã durante a transmissão de um programa de rádio. \"Você veio devido à questão da dívida?\n\nO que já foi informado\n\n\", perguntou ela, com naturalidade. \"Sim\", respondeu ele. Ambos estavam ali para falar de um problema hoje bastante comum na Argentina. Segundo os números do Banco Central do país e de consultorias locais, mais de 20 milhões de cidadãos estão endividados e cerca de 6 milhões estão em mora, ou seja, com seus pagamentos em atraso ou simplesmente inadimplentes. A Argentina tem hoje pouco mais de 46 milhões de habitantes. Ou seja, um a cada três argentinos enfrenta problemas para liquidar a dívida adquirida com bancos, carteiras digitais, lojas de eletrodomésticos ou agiotas, como aponta a consultoria Analytica.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Os milhões de argentinos com dívidas em atraso e o que Store Center",
+      "seoDescription": "Eliana Yaynes e Iván Venencio se conheceram em uma manhã durante a transmissão de um programa de rádio.",
+      "keyword": "Os milhões de argentinos com dívidas em atraso e o que isso indica sobre a economia do país: 'Não tentamos mais refinanciar porque é impagável'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/08/30/os-milhoes-de-argentinos-com-dividas-em-atraso-e-o-que-isso-indica-sobre-a-economia-do-pais-nao-tentamos-mais-refinanciar-porque-e-impagavel.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Os milhões de argentinos com dívidas em atraso e o que isso indica sobre a economia do país: 'Não tentamos mais refinanciar porque é impagável'",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_632a7fe7",
       "views": 0,
       "date": "2026-08-30T22:06:16.666Z",
@@ -3606,7 +3639,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-30T22:06:14.884Z",
+      "lastScraped": "2026-08-31T00:37:11.115Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3614,7 +3647,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-30T22:06:15.859Z",
+      "lastScraped": "2026-08-31T00:37:11.727Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3684,6 +3717,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788136671317",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Os milhões de argentinos com dívidas em atraso e o que isso indica sobre a economia do país: 'Não tentamos mais refinanciar porque é impagável'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Os milhões de argentinos com dívidas em atraso e o que isso indica sobre a: o que muda para os próximos jogos?",
+      "postId": "rss-hash_ab78e5d",
+      "timestamp": "2026-08-31T00:37:22.243Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.7h (+8), Sem postagem há 7.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788127661637",
       "feedName": "G1 - Economia",

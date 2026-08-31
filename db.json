@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_74bdda12",
+      "views": 0,
+      "date": "2026-08-31T21:57:15.751Z",
+      "title": "Fonte 1 Tentativas de golpes por meios como mensagens ou ligações afetam 45 milhões no Brasil, diz pesquisa Fonte 2",
+      "subtitle": "Fonte 1 — G1 - Economia Ligações automáticas indesejadas, chamadas de \"robocalls\" Fantástico Uma pesquisa divulgada nesta segunda-feira (31) aponta que 32% dos brasileiros usuários de internet com 16 anos ou mais relatam já ter sofrido tentativas de golpes.",
+      "slug": "fonte-1-tentativas-de-golpes-por-meios-como-mensagens-ou-ligacoes-afetam-45-milhoes-no-brasil-diz-pesquisa-fonte-2",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia Ligações automáticas indesejadas, chamadas de \"robocalls\" Fantástico Uma pesquisa divulgada nesta segunda-feira (31) aponta que 32% dos brasileiros usuários de internet com 16 anos ou mais relatam já ter sofrido tentativas de golpes com uso de seus dados pessoais. O índice equivale a 45 milhões de pessoas.\n\nO que já foi informado\n\nAinda segundo o levantamento, 20% dos usuários de internet com 16 anos ou mais afirmam ter sido, de fato, vítimas de golpes com uso de suas informações. Os dados fazem parte da pesquisa Privacidade e Proteção de Dados Pessoais, realizada pelo Centro Regional de Estudos para o Desenvolvimento da Sociedade da Informação (Cetic. Os meios mais usados por golpistas ao abordar vítimas são aplicativos de mensagens (84%), ligações (79%), sites ou aplicativos falsos (71%), SMS (71%), e-mail (69%) e redes sociais (67%). Agora no g1 Entre os que viveram situações envolvendo golpes, 48% afirmam que tiveram dinheiro roubado. No mesmo grupo, 43% dizem que perderam acesso a contas de e-mail ou de redes sociais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Tentativas de golpes por meios como mensagens Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia Ligações automáticas indesejadas, chamadas de \"robocalls\" Fantástico Uma pesquisa divulgada nesta segunda-feira (31) aponta",
+      "keyword": "Fonte 1 Tentativas de golpes por meios como mensagens ou ligações afetam 45 milhões no Brasil, diz pesquisa Fonte 2 Por que o Brasil ainda não sabe quantos entregadores se acidentam no trabalho?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/31/tentativas-de-golpes-por-meios-como-mensagens-ou-ligacoes-afetam-45-milhoes-no-brasil-diz-pesquisa.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/08/31/tentativas-de-golpes-por-meios-como-mensagens-ou-ligacoes-afetam-45-milhoes-no-brasil-diz-pesquisa.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/08/30/por-que-o-brasil-ainda-nao-sabe-quantos-entregadores-se-acidentam-no-trabalho.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Tentativas de golpes por meios como mensagens ou ligações afetam 45 milhões no Brasil, diz pesquisa",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_d215d6b",
       "views": 0,
       "date": "2026-08-31T20:31:31.119Z",
@@ -3901,7 +3942,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T20:31:29.124Z",
+      "lastScraped": "2026-08-31T21:57:04.657Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3909,7 +3950,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T20:31:29.988Z",
+      "lastScraped": "2026-08-31T21:57:05.232Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3979,6 +4020,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788213467134",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Tentativas de golpes por meios como mensagens ou ligações afetam 45 milhões no Brasil, diz pesquisa",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Tentativas de golpes por meios como mensagens ou ligações afetam 45 milhões no Brasil, diz pesquisa Fonte 2",
+      "postId": "rss-hash_74bdda12",
+      "timestamp": "2026-08-31T21:57:15.751Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 26.0h (+8), Sem postagem há 26.0h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 21",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788208310715",
       "feedName": "G1 - Economia",

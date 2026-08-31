@@ -769,7 +769,7 @@ app.post("/api/password-reset-request", async (req, res) => {
   return res.json({ success: true, message: "Se o e-mail estiver cadastrado, você receberá um link de recuperação." });
 });
 
-app.post("/api/password-reset-confirm", (req, res) => {
+app.post("/api/password-reset-confirm", async (req, res) => {
   const token = String(req.body?.token || "").trim();
   const newPassword = String(req.body?.newPassword || "");
   const db = readDatabase();
@@ -780,6 +780,9 @@ app.post("/api/password-reset-confirm", (req, res) => {
   }
   db.settings = { ...settings, customUser: String(settings.passwordResetEmail || ""), customPassword: newPassword, passwordResetTokenHash: "", passwordResetExpiresAt: 0 };
   writeDatabase(db);
+  // A nova credencial precisa ser persistida no Firestore; o filesystem da
+  // Vercel é efêmero e não pode ser a única fonte após uma nova requisição.
+  await syncSettings(db.settings);
   return res.json({ success: true, message: "Senha redefinida com sucesso." });
 });
 

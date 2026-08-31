@@ -3,6 +3,7 @@ import { ArrowLeft, Clock, Eye, User, Share2, MessageCircle, Facebook, Instagram
 import { Post, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
 import AdSenseSlot from './AdSenseSlot';
+import AdCashSlot from './AdCashSlot';
 import EditorialImage from './EditorialImage';
 
 interface PostDetailsProps {
@@ -557,6 +558,9 @@ export default function PostDetails({
                 <AdSenseSlot code={adSidebar.code} minHeight="250px" />
               </div>
             )}
+
+            {/* ESPAÇO ADICIONAL RESERVADO AO AUTO-TAG DO ADCASH */}
+            <AdCashSlot />
 
             {/* CLICKS COUNTER FOR CURRENT READING METRIC */}
             {(post.views || 0) >= 150 && (

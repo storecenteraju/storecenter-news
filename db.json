@@ -1,6 +1,39 @@
 {
   "posts": [
     {
+      "id": "rss-hash_53b31be",
+      "views": 0,
+      "date": "2026-08-31T09:22:24.517Z",
+      "title": "Os vídeos feitos com IA que erotizam a escravidão no Brasil para lucrar com: o que muda para usuários e empresas?",
+      "subtitle": "O conteúdo pode ser considerado perturbador. \"O escravo gigante de olhos azuis que fez a sinhá enlouquecer\", \"A escrava que engravidou do coronel e virou sinhá\" e \"A sinhá viúva que não resistiu ao escravo de olhos verdes\".",
+      "slug": "os-videos-feitos-com-ia-que-erotizam-a-escravidao-no-brasil-para-lucrar-com-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO conteúdo pode ser considerado perturbador. \"O escravo gigante de olhos azuis que fez a sinhá enlouquecer\", \"A escrava que engravidou do coronel e virou sinhá\" e \"A sinhá viúva que não resistiu ao escravo de olhos verdes\".\n\nO que já foi informado\n\nEsses são alguns dos títulos de vídeos de histórias fictícias de romance, desejo e violência sexual passados no período da escravidão no Brasil publicados no YouTube, a maior plataforma de streaming do mundo. Com capas ultrarrealistas geradas por inteligência artificial (IA), que frequentemente mostram homens negros musculosos ao lado de mulheres brancas, esses vídeos acumulam milhões de visualizações em português, inglês, espanhol, francês e outros idiomas. Uma pesquisa feita pela BBC News Brasil identificou ao menos 150 canais que publicam esse tipo de conteúdo na plataforma, por meio de buscas por palavras-chave, transcrições e títulos.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Os vídeos feitos com IA que erotizam a escravidão no Store Center",
+      "seoDescription": "O conteúdo pode ser considerado perturbador. \"O escravo gigante de olhos azuis que fez a sinhá enlouquecer\", \"A escrava que engravidou do coronel e vi",
+      "keyword": "Os vídeos feitos com IA que erotizam a escravidão no Brasil para lucrar com anúncios",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/31/os-videos-feitos-com-ia-que-erotizam-a-escravidao-no-brasil-para-lucrar-com-anuncios.ghtml",
+      "sourceName": "G1 - Economia",
+      "rssOriginalTitle": "Os vídeos feitos com IA que erotizam a escravidão no Brasil para lucrar com anúncios",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_744b2e48",
       "views": 0,
       "date": "2026-08-31T05:57:07.562Z",
@@ -3673,7 +3706,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T05:56:56.452Z",
+      "lastScraped": "2026-08-31T09:22:22.211Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3681,7 +3714,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T05:56:57.044Z",
+      "lastScraped": "2026-08-31T09:22:22.937Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -3694,7 +3727,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-30T22:06:16.655Z",
+      "lastScraped": "2026-08-31T09:22:24.501Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -3751,6 +3784,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788168186997",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Os vídeos feitos com IA que erotizam a escravidão no Brasil para lucrar com anúncios",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Os vídeos feitos com IA que erotizam a escravidão no Brasil para lucrar com: o que muda para usuários e empresas?",
+      "postId": "rss-hash_53b31be",
+      "timestamp": "2026-08-31T09:22:24.518Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.5h (+8), Sem postagem há 13.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788155910429",
       "feedName": "G1 - Economia",

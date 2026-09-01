@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3e1ac7a0",
+      "views": 0,
+      "date": "2026-09-01T01:18:18.098Z",
+      "title": "Fonte 1 Justiça Eleitoral realiza campanha de combate ao assédio de eleitores no trabalho: o que pode mudar agora?",
+      "subtitle": "Fonte 1 — Agência Câmara - Política Pela segunda eleição consecutiva, a Justiça Eleitoral realiza campanha de combate ao assédio eleitoral no ambiente de trabalho.",
+      "slug": "fonte-1-justica-eleitoral-realiza-campanha-de-combate-ao-assedio-de-eleitores-no-trabalho-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nFonte 1 — Agência Câmara - Política Pela segunda eleição consecutiva, a Justiça Eleitoral realiza campanha de combate ao assédio eleitoral no ambiente de trabalho. As ações de conscientização do eleitor sobre o direito ao voto livre são realizadas em parceria com a Justiça do Trabalho, o Ministério Público Eleitoral e o Ministério Público do Trabalho.\n\nO que já foi informado\n\nAlém das informações, disponíveis na página No meu voto mando eu, os órgãos de fiscalização oferecerem ao eleitor canais para denunciar práticas abusivas que visam a influenciar o voto dos trabalhadores. Como explica o procurador do Trabalho Igor Gonçalves, o assédio eleitoral no trabalho ocorre quando um patrão, o chefe ou mesmo um colega tenta influenciar a escolha dos candidatos de alguém dentro do ambiente laboral. De acordo com Gonçalves, esse assédio pode ocorrer tanto na iniciativa privada quanto no poder público – o que muda são as relações e, eventualmente, as consequências jurídicas. “No setor privado, pode partir do empregador, superiores hierárquicos e até de colegas. No serviço público, pode envolver gestores e agentes públicos pressionando servidores, terceirizados ou contratados.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Justiça Eleitoral realiza campanha de combate Store Center",
+      "seoDescription": "Fonte 1 — Agência Câmara - Política Pela segunda eleição consecutiva, a Justiça Eleitoral realiza campanha de combate ao assédio eleitoral no ambien",
+      "keyword": "Fonte 1 Justiça Eleitoral realiza campanha de combate ao assédio de eleitores no trabalho Fonte 2 Justiça protege Casas Bahia de cobranças por 180 dias durante recuperação judicial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1299833-justica-eleitoral-realiza-campanha-de-combate-ao-assedio-de-eleitores-no-trabalho",
+      "sourceName": "Agência Câmara - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1299833-justica-eleitoral-realiza-campanha-de-combate-ao-assedio-de-eleitores-no-trabalho",
+        "https://g1.globo.com/economia/noticia/2026/08/29/justica-protege-casas-bahia-de-cobrancas-por-180-dias-durante-recuperacao-judicial.ghtml"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Justiça Eleitoral realiza campanha de combate ao assédio de eleitores no trabalho",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_5e32caa6",
       "views": 0,
       "date": "2026-08-31T23:26:02.317Z",
@@ -3981,7 +4022,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-08-31T23:26:00.566Z",
+      "lastScraped": "2026-09-01T01:18:15.887Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -3989,7 +4030,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-08-31T23:26:01.211Z",
+      "lastScraped": "2026-09-01T01:18:16.489Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4002,7 +4043,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-08-31T23:26:02.305Z",
+      "lastScraped": "2026-09-01T01:18:18.087Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4059,6 +4100,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788225567408",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Justiça Eleitoral realiza campanha de combate ao assédio de eleitores no trabalho",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Justiça Eleitoral realiza campanha de combate ao assédio de eleitores no trabalho: o que pode mudar agora?",
+      "postId": "rss-hash_3e1ac7a0",
+      "timestamp": "2026-09-01T01:18:18.099Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 20",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788218841860",
       "feedName": "G1 - Economia",

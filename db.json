@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_184aa9e7",
+      "views": 0,
+      "date": "2026-09-01T19:59:44.861Z",
+      "title": "Fonte 1 MP do fim da taxa das blusinhas: comissão estuda incluir exclusividade de: qual pode ser o próximo passo?",
+      "subtitle": "Fonte 1 — G1 - Economia A comissão mista que analisa a medida provisória (MP) do fim da taxa das blusinhas analisa incluir uma regra para que os Correios tenham exclusividade na entrega das compras internacionais isentas.",
+      "slug": "fonte-1-mp-do-fim-da-taxa-das-blusinhas-comissao-estuda-incluir-exclusividade-de-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia A comissão mista que analisa a medida provisória (MP) do fim da taxa das blusinhas analisa incluir uma regra para que os Correios tenham exclusividade na entrega das compras internacionais isentas. Segundo parlamentares ouvidos pela GloboNews, essa é uma demanda da cúpula do Congresso Nacional.\n\nO que já foi informado\n\nEm nota, os Correios negam terem pedido a inclusão do dispositivo na MP. A votação da MP que acaba com o imposto de compras internacionais de até US$ 50 seria votado na manhã desta terça-feira (1º). Contudo, o presidente da comissão, deputado Reginaldo Lopes (PT-MG), adiou a análise para esta quarta-feira (2) para que discutam os últimos detalhes do texto. A relatora, senadora Leila Barros (PDT-DF), e Reginaldo devem ter uma reunião com os presidentes do Senado, Davi Alcolumbre (União-AP), e da Câmara, Hugo Motta (Republicanos-PB), e com o ministro José Guimarães, da Secretaria de Relações Institucionais do governo Lula antes da votação. “A gente tem que ser pragmático. Tenho que ter muita responsabilidade.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 MP do fim da taxa das blusinhas: comissão Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia A comissão mista que analisa a medida provisória (MP) do fim da taxa das blusinhas analisa incluir uma regra para que os Cor",
+      "keyword": "Fonte 1 MP do fim da taxa das blusinhas: comissão estuda incluir exclusividade de entrega pelos Correios Fonte 2 Comissão adia votação do fim da taxa das blusinhas para terça-feira",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/01/mp-do-fim-da-taxa-das-blusinhas-comissao-estuda-incluir-exclusividade-de-entrega-pelos-correios.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/01/mp-do-fim-da-taxa-das-blusinhas-comissao-estuda-incluir-exclusividade-de-entrega-pelos-correios.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/08/31/comissao-adia-votacao-do-fim-da-taxa-das-blusinhas-para-terca-feira.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "MP do fim da taxa das blusinhas: comissão estuda incluir exclusividade de entrega pelos Correios",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_478d308b",
       "views": 0,
       "date": "2026-09-01T18:04:29.720Z",
@@ -4305,7 +4347,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T18:04:27.983Z",
+      "lastScraped": "2026-09-01T19:59:43.270Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4313,7 +4355,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T18:04:28.640Z",
+      "lastScraped": "2026-09-01T19:59:43.890Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4326,7 +4368,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T18:04:29.706Z",
+      "lastScraped": "2026-09-01T19:59:44.850Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4383,6 +4425,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788292838496",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "MP do fim da taxa das blusinhas: comissão estuda incluir exclusividade de entrega pelos Correios",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 MP do fim da taxa das blusinhas: comissão estuda incluir exclusividade de: qual pode ser o próximo passo?",
+      "postId": "rss-hash_184aa9e7",
+      "timestamp": "2026-09-01T19:59:44.861Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 23.5h (+8), Sem postagem há 23.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1788285872598",
       "feedName": "G1 - Economia",

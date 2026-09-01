@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_277567f7",
+      "views": 0,
+      "date": "2026-09-01T14:49:43.741Z",
+      "title": "Ex-deputado dos EUA George Santos é banido para sempre de plataforma de apostas: por que esse movimento importa?",
+      "subtitle": "Ex-deputado dos EUA, brasileiro George Santos comparece a tribunal em Nova York onde se declarou culpado em caso de corrupção em 19 de agosto de 2024.",
+      "slug": "ex-deputado-dos-eua-george-santos-e-banido-para-sempre-de-plataforma-de-apostas-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEx-deputado dos EUA, brasileiro George Santos comparece a tribunal em Nova York onde se declarou culpado em caso de corrupção em 19 de agosto de 2024. AP.\n\nO que já foi informado\n\nPhoto/Stefan Jeremiah A plataforma de mercado de previsões Kalshi anunciou o banimento permanente do ex-deputado americano George Santos, que é filho de imigrantes brasileiros. Ele já havia sido multado pelo governo dos EUA em US$ 35 mil (cerca de R$ 179 mil) e proibido temporariamente de usar o serviço após uma investigação regulatória apontar fraude em suas apostas. Segundo a Kalshi, é a primeira vez que a empresa aplica a expulsão definitiva a um usuário. Siga o canal de notícias internacionais do g1 no WhatsApp A denúncia ocorreu após a Kalshi identificar operações feitas por Santos antes do discurso do presidente Donald Trump sobre o Estado da União, em 24 de fevereiro. O ex-deputado havia afirmado repetidamente que participaria do evento e, na véspera, a plataforma estimava em quase 75% a probabilidade de sua presença. Poucos minutos depois do início do discurso, Santos publicou no X que havia sido retido no aeroporto e não conseguiria comparecer.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ex-deputado dos EUA George Santos é banido para sempre Store Center",
+      "seoDescription": "Ex-deputado dos EUA, brasileiro George Santos comparece a tribunal em Nova York onde se declarou culpado em caso de corrupção em 19 de agosto de 2024.",
+      "keyword": "Ex-deputado dos EUA George Santos é banido para sempre de plataforma de apostas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/08/31/ex-deputado-dos-eua-george-santos-e-banido-para-sempre-de-plataforma-de-apostas-diz-imprensa-americana.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/08/31/ex-deputado-dos-eua-george-santos-e-banido-para-sempre-de-plataforma-de-apostas-diz-imprensa-americana.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ex-deputado dos EUA George Santos é banido para sempre de plataforma de apostas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_4dd6f834",
       "views": 0,
       "date": "2026-09-01T12:45:52.575Z",
@@ -4186,7 +4225,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T12:45:50.806Z",
+      "lastScraped": "2026-09-01T14:49:42.275Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4194,7 +4233,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T12:45:51.605Z",
+      "lastScraped": "2026-09-01T14:49:42.875Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4207,7 +4246,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T12:45:52.564Z",
+      "lastScraped": "2026-09-01T14:49:43.732Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4264,6 +4303,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788274244739",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ex-deputado dos EUA George Santos é banido para sempre de plataforma de apostas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ex-deputado dos EUA George Santos é banido para sempre de plataforma de apostas: por que esse movimento importa?",
+      "postId": "rss-hash_277567f7",
+      "timestamp": "2026-09-01T14:49:43.742Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.1h (+8), Sem postagem há 27.1h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788266851936",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_67a74097",
+      "views": 0,
+      "date": "2026-09-01T08:20:09.440Z",
+      "title": "Fonte 1 Golpes do Free Flow: quase 500 sites falsos cobram falso pedágio por PIX: o que está em jogo no mercado?",
+      "subtitle": "Fonte 1 — G1 - Economia Pórtico do Free Flow no Rio Grande do Sul Gustavo Mansur/Palácio Piratini Em um ano, o número de sites falsos que prometem regularizar passagens pelo sistema \"free flow\" chegou a 480, segundo levantamento da Kaspersky.",
+      "slug": "fonte-1-golpes-do-free-flow-quase-500-sites-falsos-cobram-falso-pedagio-por-pix-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia Pórtico do Free Flow no Rio Grande do Sul Gustavo Mansur/Palácio Piratini Em um ano, o número de sites falsos que prometem regularizar passagens pelo sistema \"free flow\" chegou a 480, segundo levantamento da Kaspersky. O free flow é um sistema de pedágio eletrônico sem cancelas que permite cobrar a tarifa sem que o motorista precise parar ou reduzir a velocidade.\n\nO que já foi informado\n\nEm apenas uma semana, foram criados 80 sites que supostamente identificam a passagem por pórticos do free flow e geram uma falsa cobrança por PIX. Segundo o estudo, os sites falsos vão direto ao assunto: Há pouco texto que permita perceber que a página não pertence à concessionária responsável pelo trecho onde o motorista passou; Em destaque, uma caixa de texto pede a placa do veículo; Em seguida, o valor é exibido junto com o PIX para pagamento. Agora no g1 O estudo identificou casos em que a cobrança era de cerca de R$ 25. O valor baixo ajuda a reduzir a desconfiança dos motoristas e a imitar tarifas reais de pedágio.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Golpes do Free Flow: quase 500 sites falsos Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia Pórtico do Free Flow no Rio Grande do Sul Gustavo Mansur/Palácio Piratini Em um ano, o número de sites falsos que prometem r",
+      "keyword": "Fonte 1 Golpes do Free Flow: quase 500 sites falsos cobram falso pedágio por PIX; veja como se proteger Fonte 2 Droga Raia é condenada a pagar R$ 4 milhões por casos de assédio moral, sexual e materno; entenda",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/01/golpes-do-free-flow-quase-500-sites-falsos-cobram-falso-pedagio-por-pix-veja-como-se-proteger.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/01/golpes-do-free-flow-quase-500-sites-falsos-cobram-falso-pedagio-por-pix-veja-como-se-proteger.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/01/droga-raia-e-condenada-a-pagar-r-4-milhoes-entenda.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Golpes do Free Flow: quase 500 sites falsos cobram falso pedágio por PIX; veja como se proteger",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_4c12ec68",
       "views": 0,
       "date": "2026-09-01T05:30:02.023Z",
@@ -4063,7 +4104,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T05:30:00.392Z",
+      "lastScraped": "2026-09-01T08:20:07.663Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4071,7 +4112,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T05:30:00.905Z",
+      "lastScraped": "2026-09-01T08:20:08.314Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4084,7 +4125,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T05:30:02.010Z",
+      "lastScraped": "2026-09-01T08:20:09.429Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4141,6 +4182,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788250811103",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Golpes do Free Flow: quase 500 sites falsos cobram falso pedágio por PIX; veja como se proteger",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Golpes do Free Flow: quase 500 sites falsos cobram falso pedágio por PIX: o que está em jogo no mercado?",
+      "postId": "rss-hash_67a74097",
+      "timestamp": "2026-09-01T08:20:09.441Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.1h (+8), Sem postagem há 13.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788240680196",
       "feedName": "G1 - Economia",

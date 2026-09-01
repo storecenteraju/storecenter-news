@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6cc429e2",
+      "views": 0,
+      "date": "2026-09-01T22:05:40.102Z",
+      "title": "Fonte 1 Como PF recuperou mensagens de Vorcaro a Moraes mesmo com visualização única: como isso afeta a população?",
+      "subtitle": "Fonte 1 — G1 - Economia ‘Acha que 2ª tenho que estar fora?",
+      "slug": "fonte-1-como-pf-recuperou-mensagens-de-vorcaro-a-moraes-mesmo-com-visualizacao-unica-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia ‘Acha que 2ª tenho que estar fora? ’, pergunta Vorcaro a Moraes Parte das mensagens de Daniel Vorcaro ao ministro Alexandre de Moraes, do Supremo Tribunal Federal (STF), foram enviadas no modo de visualização única, mas puderam ser recuperadas por conta de outros rastros, informou a Polícia Federal.\n\nO que já foi informado\n\nEm relatório que teve o sigilo retirado pelo ministro André Mendonça, do STF, a PF afirmou que Vorcaro enviou cinco mensagens de visualização única a Moraes em 17 de novembro de 2025, um dia antes de ser preso e ter seu celular apreendido na Operação Compliance Zero. Segundo o documento, essas mensagens foram recuperadas por meio de programas usados pela PF . Mas Vorcaro tinha muitas outras interações pelo aplicativo sem visualização única que também puderam ser analisadas. Ainda de acordo com a PF, Vorcaro questionou o contato salvo como \"Alexandre de Moraes BRASILIA\" sobre a possibilidade de \"bloquear\" algo. O relatório aponta que cada captura de tela gerou arquivos temporários.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Como PF recuperou mensagens de Vorcaro a Moraes Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia ‘Acha que 2ª tenho que estar fora?",
+      "keyword": "Fonte 1 Como PF recuperou mensagens de Vorcaro a Moraes mesmo com visualização única Fonte 2 10 anos depois, startup acusa Meta de roubar ideia que virou o Instagram Shopping",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/01/mensagens-visualizacao-unica-vorcaro-moraes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/01/mensagens-visualizacao-unica-vorcaro-moraes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/08/31/10-anos-depois-startup-acusa-meta-de-roubar-ideia-que-virou-o-instagram-shopping.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Como PF recuperou mensagens de Vorcaro a Moraes mesmo com visualização única",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_184aa9e7",
       "views": 0,
       "date": "2026-09-01T19:59:44.861Z",
@@ -4347,7 +4388,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T19:59:43.270Z",
+      "lastScraped": "2026-09-01T22:05:38.210Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4355,7 +4396,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T19:59:43.890Z",
+      "lastScraped": "2026-09-01T22:05:38.767Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4368,7 +4409,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T19:59:44.850Z",
+      "lastScraped": "2026-09-01T22:05:40.089Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4425,6 +4466,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788300340751",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como PF recuperou mensagens de Vorcaro a Moraes mesmo com visualização única",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Como PF recuperou mensagens de Vorcaro a Moraes mesmo com visualização única: como isso afeta a população?",
+      "postId": "rss-hash_6cc429e2",
+      "timestamp": "2026-09-01T22:05:40.102Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 24.1h (+8), Sem postagem há 24.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788292838496",
       "feedName": "G1 - Economia",

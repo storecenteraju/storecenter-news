@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4dd6f834",
+      "views": 0,
+      "date": "2026-09-01T12:45:52.575Z",
+      "title": "Fonte 1 PIB desacelera, mas cresce 0,5% no 2º trimestre, puxado pela agropecuária, diz: como isso afeta a população?",
+      "subtitle": "Fonte 1 — G1 - Economia PIB do Brasil cresce 0,5% no 2º trimestre de 2026 O Produto Interno Bruto (PIB) do Brasil cresceu 0,5% no segundo trimestre de 2026, informou o Instituto Brasileiro de Geografia e Estatística (IBGE) nesta terça-feira (1º).",
+      "slug": "fonte-1-pib-desacelera-mas-cresce-0-5-no-2-trimestre-puxado-pela-agropecuaria-diz-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia PIB do Brasil cresce 0,5% no 2º trimestre de 2026 O Produto Interno Bruto (PIB) do Brasil cresceu 0,5% no segundo trimestre de 2026, informou o Instituto Brasileiro de Geografia e Estatística (IBGE) nesta terça-feira (1º). Em valores correntes, a economia brasileira movimentou R$ 3,4 trilhões no período.\n\nO que já foi informado\n\nO PIB mede o tamanho da economia de um país. O indicador representa o valor de todos os bens e serviços produzidos em determinado período. Na comparação com o mesmo período de 2025, o PIB cresceu 2%. O resultado foi sustentado principalmente pela agropecuária, que avançou 2,8% em relação ao primeiro trimestre e teve o melhor desempenho entre os grandes setores da economia. Na comparação anual, a agropecuária cresceu ainda mais: 6,8%. Entre os demais setores, os serviços cresceram 0,2% e a indústria avançou 0,1% na comparação com o trimestre anterior.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 PIB desacelera, mas cresce 0,5% no 2º Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia PIB do Brasil cresce 0,5% no 2º trimestre de 2026 O Produto Interno Bruto (PIB) do Brasil cresceu 0,5% no segundo trimestre",
+      "keyword": "Fonte 1 PIB desacelera, mas cresce 0,5% no 2º trimestre, puxado pela agropecuária, diz IBGE Fonte 2 Dólar abre com foco na divulgação do PIB e na agenda econômica do governo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/01/pib-do-brasil-cresce-05percent-no-2o-trimestre-de-2026-diz-ibge.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/01/pib-do-brasil-cresce-05percent-no-2o-trimestre-de-2026-diz-ibge.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/01/dolar-ibovespa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "PIB desacelera, mas cresce 0,5% no 2º trimestre, puxado pela agropecuária, diz IBGE",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_37f6c8c8",
       "views": 0,
       "date": "2026-09-01T10:16:23.539Z",
@@ -4145,7 +4186,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T10:16:12.316Z",
+      "lastScraped": "2026-09-01T12:45:50.806Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4153,7 +4194,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T10:16:13.017Z",
+      "lastScraped": "2026-09-01T12:45:51.605Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4166,7 +4207,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T08:20:09.429Z",
+      "lastScraped": "2026-09-01T12:45:52.564Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4223,6 +4264,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788266851936",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "PIB desacelera, mas cresce 0,5% no 2º trimestre, puxado pela agropecuária, diz IBGE",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 PIB desacelera, mas cresce 0,5% no 2º trimestre, puxado pela agropecuária, diz: como isso afeta a população?",
+      "postId": "rss-hash_4dd6f834",
+      "timestamp": "2026-09-01T12:45:52.575Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Política",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788257821860",
       "feedName": "G1 - Economia",

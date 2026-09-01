@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_599c0d05",
+      "views": 0,
+      "date": "2026-09-01T16:52:43.813Z",
+      "title": "Esfaqueamento na Times Square: mulher que morreu por facada era vice-presidente do: por que esse movimento importa?",
+      "subtitle": "Policiais atiram contra mulher que esfaqueou 2 na Times Square, em NY A vítima do esfaqueamento na quinta-feira (31) na Times Square, em Nova York, nos Estados Unidos, foi identificada como a vice-presidente do Bank of America Erin Piacenti.",
+      "slug": "esfaqueamento-na-times-square-mulher-que-morreu-por-facada-era-vice-presidente-do-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nPoliciais atiram contra mulher que esfaqueou 2 na Times Square, em NY A vítima do esfaqueamento na quinta-feira (31) na Times Square, em Nova York, nos Estados Unidos, foi identificada como a vice-presidente do Bank of America Erin Piacenti. Piacenti, de 32 anos, foi uma das duas pessoas esfaqueadas por uma mulher, que depois foi morta a tiros por policiais.\n\nO que já foi informado\n\nSiga o canal de notícias internacionais do g1 no WhatsApp Portando duas facas, a criminosa matou a vice-presidente do Bank of América e também esfaqueou um homem de 68 anos, que ficou ferido, em um ataque deliberado na Times Square, a praça mais famosa dos Estados Unidos. Ela foi cercada por policiais após o crime, e morta com um tiro após avançar para cima deles ainda com as facas em mãos. Ela foi identificada como Erin Piacenti e era vice-presidente do Bank of America, segundo o banco, que emitiu uma nota: \"Estamos chocados e profundamente entristecidos com a trágica perda de nossa colega. Ela era uma integrante valiosa da equipe e deixará muitas saudades. Nossos sentimentos estão com sua família e todos os seus entes queridos\", afirmou o comunicado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Esfaqueamento na Times Square: mulher que morreu por Store Center",
+      "seoDescription": "Policiais atiram contra mulher que esfaqueou 2 na Times Square, em NY A vítima do esfaqueamento na quinta-feira (31) na Times Square, em Nova York, no",
+      "keyword": "Esfaqueamento na Times Square: mulher que morreu por facada era vice-presidente do Bank of América",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/09/01/esfaqueamento-na-times-square-vice-presidente-do-bank-of-america-morre-apos-facada.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/09/01/esfaqueamento-na-times-square-vice-presidente-do-bank-of-america-morre-apos-facada.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Esfaqueamento na Times Square: mulher que morreu por facada era vice-presidente do Bank of América",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_277567f7",
       "views": 0,
       "date": "2026-09-01T14:49:43.741Z",
@@ -4225,7 +4264,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-01T14:49:42.275Z",
+      "lastScraped": "2026-09-01T16:52:41.913Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4233,7 +4272,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-01T14:49:42.875Z",
+      "lastScraped": "2026-09-01T16:52:43.079Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4246,7 +4285,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-01T14:49:43.732Z",
+      "lastScraped": "2026-09-01T16:52:43.799Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4303,6 +4342,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788281611377",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Esfaqueamento na Times Square: mulher que morreu por facada era vice-presidente do Bank of América",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Esfaqueamento na Times Square: mulher que morreu por facada era vice-presidente do: por que esse movimento importa?",
+      "postId": "rss-hash_599c0d05",
+      "timestamp": "2026-09-01T16:52:43.813Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.2h (+8), Sem postagem há 29.2h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1788274244739",
       "feedName": "G1 - Economia",

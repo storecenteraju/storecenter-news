@@ -33,7 +33,7 @@ function setMeta(selector: string, attribute: 'content' | 'href', value: string)
 }
 
 export default function App() {
-  const [currentView, setView] = useState<'portal' | 'admin'>('portal');
+  const [currentView, setView] = useState<'portal' | 'admin'>(window.location.pathname === '/redacao' ? 'admin' : 'portal');
   const [selectedCategory, setSelectedCategory] = useState<CategoryType | 'Home'>('Home');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
@@ -105,6 +105,13 @@ export default function App() {
     if (loading) return;
 
     const syncRoute = () => {
+      if (window.location.pathname === '/redacao') {
+        setView('admin');
+        setSelectedPost(null);
+        setRouteNotFound(false);
+        window.scrollTo({ top: 0, behavior: 'instant' });
+        return;
+      }
       const slug = getArticleSlugFromPath();
       if (!slug) {
         setSelectedPost(null);
@@ -198,7 +205,13 @@ export default function App() {
         currentView={currentView}
         setView={(view) => {
           setView(view);
-          handleBackToPortal();
+          if (view === 'admin') {
+            window.history.pushState({}, '', '/redacao');
+            setSelectedPost(null);
+            setRouteNotFound(false);
+          } else {
+            handleBackToPortal();
+          }
         }}
         selectedCategory={selectedCategory}
         setSelectedCategory={(cat) => {
@@ -254,7 +267,12 @@ export default function App() {
                 onPostClick={handlePostClick}
                 siteSettings={settings}
                 onCategorySelect={setSelectedCategory}
-                onAdminClick={() => setView('admin')}
+                onAdminClick={() => {
+                  window.history.pushState({}, '', '/redacao');
+                  setView('admin');
+                  setSelectedPost(null);
+                  setRouteNotFound(false);
+                }}
                 onSearchChange={setSearchQuery}
               />
             )

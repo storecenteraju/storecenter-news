@@ -3099,6 +3099,16 @@ function fixExistingRssPosts() {
         p.title = cleanText(p.title);
         titleChanged = true;
       }
+      if (p.title && /^\s*\[?Fonte\s*["'“”]?\s*1\b/i.test(p.title)) {
+        const withoutMarker = p.title
+          .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, "")
+          .split(/\s*\[?Fonte\s*2\]?\b/i)[0]
+          .trim();
+        if (withoutMarker) {
+          p.title = withoutMarker;
+          titleChanged = true;
+        }
+      }
       if (p.seoTitle && (p.seoTitle.includes("[RSS]") || p.seoTitle.includes("RSS"))) {
         p.seoTitle = cleanText(p.seoTitle);
         titleChanged = true;
@@ -4333,7 +4343,14 @@ function buildSpecificQuestion(title: string, summary: string, category: string)
 }
 
 function fallbackRewrite(item: any, feed: any) {
-  const originalTitle = cleanText(item.title || "Atualização do RSS");
+  const rawTitle = cleanText(item.title || "Atualização do RSS");
+  // Títulos de consolidação carregam marcadores internos ([Fonte 1]/[Fonte 2]).
+  // Eles servem apenas para o processamento editorial e nunca devem aparecer
+  // publicados para o leitor.
+  const firstSourceTitle = rawTitle.match(/\[?Fonte\s*1\]?\s*[:\-—]?\s*(.*?)(?:\s*\[?Fonte\s*2\]?\b|$)/i)?.[1];
+  const originalTitle = cleanText(firstSourceTitle || rawTitle)
+    .replace(/^Fonte\s*["'“”]?\s*1\b\s*[:\-—]?\s*/i, "")
+    .trim() || "Atualização do RSS";
   let category = feed?.category || "Economia";
   const sourceUrl = item.link || item.guid || "";
   const sourceName = getSourceDisplayName(feed?.name || "Feed RSS", sourceUrl);

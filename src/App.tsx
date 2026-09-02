@@ -33,7 +33,8 @@ function setMeta(selector: string, attribute: 'content' | 'href', value: string)
 }
 
 export default function App() {
-  const [currentView, setView] = useState<'portal' | 'admin'>(window.location.pathname === '/redacao' ? 'admin' : 'portal');
+  const hasPasswordResetToken = new URLSearchParams(window.location.search).has('reset');
+  const [currentView, setView] = useState<'portal' | 'admin'>(window.location.pathname === '/redacao' || hasPasswordResetToken ? 'admin' : 'portal');
   const [selectedCategory, setSelectedCategory] = useState<CategoryType | 'Home'>('Home');
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedPost, setSelectedPost] = useState<Post | null>(null);
@@ -105,7 +106,7 @@ export default function App() {
     if (loading) return;
 
     const syncRoute = () => {
-      if (window.location.pathname === '/redacao') {
+      if (window.location.pathname === '/redacao' || new URLSearchParams(window.location.search).has('reset')) {
         setView('admin');
         setSelectedPost(null);
         setRouteNotFound(false);

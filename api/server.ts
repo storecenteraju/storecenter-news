@@ -3088,9 +3088,10 @@ async function getUniqueArticleImage(
 }
 
 // Function to clean "[RSS]" from titles of existing posts in db.json
-function fixExistingRssPosts() {
+async function fixExistingRssPosts() {
   const db = readDatabase();
   let updated = false;
+  const changedPosts: any[] = [];
   if (db.posts && Array.isArray(db.posts)) {
     db.posts.forEach((p: any) => {
       let titleChanged = false;
@@ -3126,6 +3127,7 @@ function fixExistingRssPosts() {
           .replace(/[^a-z0-9]+/g, "-")
           .replace(/(^-|-$)+/g, "");
         updated = true;
+        changedPosts.push(p);
       }
     });
 
@@ -3140,6 +3142,7 @@ function fixExistingRssPosts() {
 
     if (updated) {
       writeDatabase(db);
+      for (const post of changedPosts) await syncPost(post);
       console.log("[CLEANUP] Títulos e logs expurgados de resíduos '[RSS]' com sucesso!");
     }
   }
@@ -4843,7 +4846,7 @@ async function startServer() {
 
   // Executa limpeza de posts [RSS] legados no banco de dados na inicialização
   try {
-    fixExistingRssPosts();
+    await fixExistingRssPosts();
   } catch (err) {
     console.error("[STARTUP] Erro ao limpar títulos dos posts legados:", err);
   }

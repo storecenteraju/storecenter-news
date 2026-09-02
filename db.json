@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2bcc4ae7",
+      "views": 0,
+      "date": "2026-09-02T07:40:10.532Z",
+      "title": "Fonte 1 IA pode ameaçar sistema financeiro global ao facilitar ataques: o que muda para usuários e empresas?",
+      "subtitle": "Fonte 1 — G1 - Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O avanço da inteligência artificial pode aumentar o risco de uma crise no sistema financeiro global, principalmente ao facilitar ataques.",
+      "slug": "fonte-1-ia-pode-ameacar-sistema-financeiro-global-ao-facilitar-ataques-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nFonte 1 — G1 - Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O avanço da inteligência artificial pode aumentar o risco de uma crise no sistema financeiro global, principalmente ao facilitar ataques cibernéticos, alertou Andrew Bailey, presidente do Banco da Inglaterra e presidente do Conselho de Estabilidade Financeira (FSB). Em carta enviada a ministros das Finanças e presidentes de bancos centrais do G20, Bailey afirmou que sistemas de IA mais avançados podem alterar a velocidade, a escala e o custo de ataques cibernéticos.\n\nO que já foi informado\n\nSegundo Bailey, esse é o risco mais imediato da inteligência artificial para a estabilidade financeira. Ele afirmou que um ataque cibernético pode se espalhar entre diferentes países e instituições em razão da forte conexão entre os sistemas financeiros. IA pode ampliar ataques Bailey também chamou atenção para a falta de protocolos em vários países para acompanhar o desenvolvimento, o lançamento e a utilização de modelos avançados de inteligência artificial.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 IA pode ameaçar sistema financeiro global ao Store Center",
+      "seoDescription": "Fonte 1 — G1 - Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O avanço da inteligência artificial",
+      "keyword": "Fonte 1 IA pode ameaçar sistema financeiro global ao facilitar ataques cibernéticos, alerta presidente do Banco da Inglaterra Fonte 2 John Ternus assume oficialmente como CEO da Apple; conheça o executivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/08/31/avanco-ia-bancocentral-inglaterra.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/08/31/avanco-ia-bancocentral-inglaterra.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/01/john-ternus-assume-oficialmente-como-ceo-da-apple-conheca-o-executivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "IA pode ameaçar sistema financeiro global ao facilitar ataques cibernéticos, alerta presidente do Banco da Inglaterra",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_390aa2de",
       "views": 0,
       "date": "2026-09-02T04:56:13.110Z",
@@ -4471,7 +4512,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-02T04:56:11.827Z",
+      "lastScraped": "2026-09-02T07:39:59.238Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4479,7 +4520,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-02T04:56:12.132Z",
+      "lastScraped": "2026-09-02T07:40:00.004Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4549,6 +4590,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788334838712",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "IA pode ameaçar sistema financeiro global ao facilitar ataques cibernéticos, alerta presidente do Banco da Inglaterra",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 IA pode ameaçar sistema financeiro global ao facilitar ataques: o que muda para usuários e empresas?",
+      "postId": "rss-hash_2bcc4ae7",
+      "timestamp": "2026-09-02T07:40:10.532Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 33.7h (+8), Sem postagem há 33.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788324982166",
       "feedName": "G1 - Economia",

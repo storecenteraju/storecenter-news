@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_46334d11",
+      "views": 0,
+      "date": "2026-09-02T19:54:52.533Z",
+      "title": "Fonte 1 Juíza dos EUA rejeita tentativa de separar negócio de publicidade do Google: por que esse movimento importa?",
+      "subtitle": "Uma juíza dos Estados Unidos rejeitou, nesta quarta-feira (2), um pedido para obrigar o Google a vender uma divisão de seu negócio de digital, frustrando a tentativa do governo de desmembrar parte do império publicitário da empresa.",
+      "slug": "fonte-1-juiza-dos-eua-rejeita-tentativa-de-separar-negocio-de-publicidade-do-google-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nUma juíza dos Estados Unidos rejeitou, nesta quarta-feira (2), um pedido para obrigar o Google a vender uma divisão de seu negócio de digital, frustrando a tentativa do governo de desmembrar parte do império publicitário da empresa. Em uma decisão judicial, a juíza Leonie Brinkema, do tribunal federal de Alexandria, na Virgínia, optou por estabelecer regras para regular a atuação da companhia no mercado de digital.\n\nO que já foi informado\n\nEsta é a segunda vez, nos últimos anos, que um juiz federal se recusa a determinar a separação de parte dos negócios do Google. Em 2025, outro magistrado rejeitou um pedido para obrigar a empresa a vender o navegador Chrome, em um processo separado sobre o monopólio do Google no mercado de buscas online. Em maio, o Departamento de Justiça dos Estados Unidos (DOJ) propôs que o Google venda as plataformas de AdX e DFP. A medida ocorreu após Brinkema concluir, em abril, que a empresa domina ilegalmente dois mercados de digital.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fonte 1 Juíza dos EUA rejeita tentativa de separar Store Center",
+      "seoDescription": "Uma juíza dos Estados Unidos rejeitou, nesta quarta-feira (2), um pedido para obrigar o Google a vender uma divisão de seu negócio de digital, frustra",
+      "keyword": "Fonte 1 Juíza dos EUA rejeita tentativa de separar negócio de publicidade do Google Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/02/juiza-dos-eua-rejeita-tentativa-de-separar-negocio-de-publicidade-do-google.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/juiza-dos-eua-rejeita-tentativa-de-separar-negocio-de-publicidade-do-google.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Juíza dos EUA rejeita tentativa de separar negócio de publicidade do Google",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_12338a0a",
       "views": 0,
       "date": "2026-09-02T18:16:15.020Z",
@@ -4720,7 +4761,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-02T18:16:13.142Z",
+      "lastScraped": "2026-09-02T19:54:51.186Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4728,7 +4769,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-02T18:16:14.234Z",
+      "lastScraped": "2026-09-02T19:54:51.503Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4741,7 +4782,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-02T18:16:15.009Z",
+      "lastScraped": "2026-09-02T19:54:52.520Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4798,6 +4839,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788378954053",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Juíza dos EUA rejeita tentativa de separar negócio de publicidade do Google",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fonte 1 Juíza dos EUA rejeita tentativa de separar negócio de publicidade do Google: por que esse movimento importa?",
+      "postId": "rss-hash_46334d11",
+      "timestamp": "2026-09-02T19:54:52.533Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 46.0h (+8), Sem postagem há 46.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788373067148",
       "feedName": "G1 - Economia",

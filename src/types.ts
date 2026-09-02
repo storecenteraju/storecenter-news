@@ -314,6 +314,15 @@ export function normalizePost(post: any): Post {
   if (!post) return post;
   const p = { ...post };
 
+  // Marcadores usados internamente na consolidação de fontes nunca devem ser
+  // exibidos ao leitor (inclusive na cópia estática do portal).
+  if (typeof p.title === 'string') {
+    p.title = p.title
+      .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, '')
+      .split(/\s*\[?Fonte\s*2\]?\b/i)[0]
+      .trim();
+  }
+
   // Normalize status - handle "NO AR", boolean "published"
   const rawStatus = String(p.status || '').trim().toLowerCase();
   

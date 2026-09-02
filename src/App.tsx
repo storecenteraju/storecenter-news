@@ -49,9 +49,10 @@ export default function App() {
 
   const fetchPortalData = async () => {
     try {
-      let portalRes = await fetch('/data/site-data.json', { cache: 'no-store' });
+      const adminMode = window.location.pathname === '/redacao' || new URLSearchParams(window.location.search).has('reset');
+      let portalRes = await fetch(adminMode ? '/api/portal-data' : '/data/site-data.json', { cache: 'no-store' });
       if (!portalRes.ok) {
-        portalRes = await fetch('/api/portal-data');
+        portalRes = await fetch(adminMode ? '/data/site-data.json' : '/api/portal-data');
       }
       const contentType = portalRes.headers.get("content-type");
       if (!portalRes.ok || !contentType?.includes("application/json")) {

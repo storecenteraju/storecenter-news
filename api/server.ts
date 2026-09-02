@@ -1179,8 +1179,10 @@ app.put("/api/posts/:id", async (req, res) => {
       const sourceUrl = String(req.body?.sourceUrl || "").trim();
       const title = String(req.body?.title || "").trim();
       const originalTitle = String(req.body?.originalTitle || "").trim();
+      const originalSlug = String(req.body?.originalSlug || "").trim();
       index = db.posts.findIndex((p: any) =>
         (slug && String(p.slug || "").trim() === slug) ||
+        (originalSlug && String(p.slug || "").trim() === originalSlug) ||
         (sourceUrl && String(p.sourceUrl || "").trim() === sourceUrl) ||
         (title && String(p.title || "").trim() === title) ||
         (originalTitle && String(p.title || "").trim() === originalTitle)
@@ -1190,7 +1192,7 @@ app.put("/api/posts/:id", async (req, res) => {
       }
     }
     if (index !== -1) {
-      const { originalTitle: _originalTitle, ...postUpdates } = req.body || {};
+      const { originalTitle: _originalTitle, originalSlug: _originalSlug, ...postUpdates } = req.body || {};
       db.posts[index] = { ...db.posts[index], ...postUpdates };
       const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
       if (!hasManualEditCategory && (req.body.title || req.body.content)) {

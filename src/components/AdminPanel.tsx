@@ -90,6 +90,7 @@ export default function AdminPanel({
   const [editingPostId, setEditingPostId] = useState<string | null>(null);
   const [editingPostSourceUrl, setEditingPostSourceUrl] = useState('');
   const [editingPostOriginalTitle, setEditingPostOriginalTitle] = useState('');
+  const [editingPostOriginalSlug, setEditingPostOriginalSlug] = useState('');
   const [postTitle, setPostTitle] = useState('');
   const [postSubtitle, setPostSubtitle] = useState('');
   const [postContent, setPostContent] = useState('');
@@ -284,6 +285,7 @@ export default function AdminPanel({
     setEditingPostId(post.id);
     setEditingPostSourceUrl(post.sourceUrl || '');
     setEditingPostOriginalTitle(post.title || '');
+    setEditingPostOriginalSlug(post.slug || '');
     setPostTitle(post.title);
     setPostSubtitle(post.subtitle);
     setPostContent(post.content);
@@ -309,6 +311,7 @@ export default function AdminPanel({
     setEditingPostId(null);
     setEditingPostSourceUrl('');
     setEditingPostOriginalTitle('');
+    setEditingPostOriginalSlug('');
     setPostTitle('');
     setPostSubtitle('');
     setPostContent('');
@@ -357,6 +360,9 @@ export default function AdminPanel({
     }
     if (editingPostId && editingPostOriginalTitle) {
       (payload as any).originalTitle = editingPostOriginalTitle;
+    }
+    if (editingPostId && editingPostOriginalSlug) {
+      (payload as any).originalSlug = editingPostOriginalSlug;
     }
 
     try {

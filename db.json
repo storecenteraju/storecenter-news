@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6dcaa925",
+      "views": 0,
+      "date": "2026-09-03T19:58:31.243Z",
+      "title": "Câmara aprova fim da taxa das blusinhas; MP segue para o Senado Fonte 2 Comissão: por que esse movimento importa?",
+      "subtitle": "Economia Depois de um acordo com o presidente Lula (PT), a Câmara dos Deputados aprovou nesta quinta-feira (3) a medida provisória (MP) que acaba com a taxa das blusinhas.",
+      "slug": "camara-aprova-fim-da-taxa-das-blusinhas-mp-segue-para-o-senado-fonte-2-comissao-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Depois de um acordo com o presidente Lula (PT), a Câmara dos Deputados aprovou nesta quinta-feira (3) a medida provisória (MP) que acaba com a taxa das blusinhas. A aprovação se deu por votação simbólica.\n\nO que já foi informado\n\nAgora, a MP segue para análise do plenário do Senado, onde pode ser votada ainda nesta quinta. A medida acaba com a chamada taxa das blusinhas, o imposto de importação de 20% sobre compras internacionais de até US$ 50. Agora no g1 Avaliação de impacto Na quarta-feira (2), a Comissão Mista para análise da MP aprovou o texto com alterações. A principal delas foi a inclusão de um mecanismo de avaliação nos impactos econômicos da isenção para os setores produtivos brasileiros, como uma forma de mitigação. O presidente da comissão, deputado Reginaldo Lopes (PT-MG), e a relatora, senadora Leila Barros (PDT-DF) Bruno Spada/Câmara dos Deputados A primeira avaliação será após três meses. Depois, a cada seis meses.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Câmara aprova fim da taxa das blusinhas; MP segue para Store Center",
+      "seoDescription": "Economia Depois de um acordo com o presidente Lula (PT), a Câmara dos Deputados aprovou nesta quinta-feira (3) a medida provisória (M",
+      "keyword": "Câmara aprova fim da taxa das blusinhas; MP segue para o Senado Fonte 2 Comissão aprova fim da 'taxa das blusinhas'; medida segue para votação no plenário da Câmara",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/03/camara-aprova-fim-da-taxa-das-blusinhas-mp-segue-para-o-senado.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/03/camara-aprova-fim-da-taxa-das-blusinhas-mp-segue-para-o-senado.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/09/02/comissao-aprova-fim-da-taxa-das-blusinhas-medida-segue-para-votacao-no-plenario-da-camara.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Câmara aprova fim da taxa das blusinhas; MP segue para o Senado",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_11355547",
       "views": 0,
       "date": "2026-09-03T18:15:36.349Z",
@@ -5132,7 +5173,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T18:15:34.641Z",
+      "lastScraped": "2026-09-03T19:58:29.623Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5140,7 +5181,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T18:15:35.251Z",
+      "lastScraped": "2026-09-03T19:58:30.108Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5153,7 +5194,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-03T18:15:36.340Z",
+      "lastScraped": "2026-09-03T19:58:31.229Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5210,6 +5251,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788465537663",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Câmara aprova fim da taxa das blusinhas; MP segue para o Senado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Câmara aprova fim da taxa das blusinhas; MP segue para o Senado Fonte 2 Comissão: por que esse movimento importa?",
+      "postId": "rss-hash_6dcaa925",
+      "timestamp": "2026-09-03T19:58:31.243Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 48.0h (+8), Sem postagem há 48.0h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788459434887",
       "feedName": "G1 - Economia",

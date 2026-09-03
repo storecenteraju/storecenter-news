@@ -355,6 +355,7 @@ async function loadPortalDataFromFirestore() {
   const [postsSnap, feedsSnap, adsSnap, settingsSnap] = snaps as any[];
   const posts: any[] = [];
   postsSnap.forEach((docSnap: any) => posts.push(docSnap.data()));
+  for (let i = 0; i < posts.length; i++) posts[i] = sanitizeStoredPost(posts[i]);
   posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
 
   const feeds: any[] = [];
@@ -395,6 +396,7 @@ async function loadDatabaseFromFirestore() {
 
     const posts: any[] = [];
     postsSnap.forEach(docSnap => posts.push(docSnap.data()));
+    for (let i = 0; i < posts.length; i++) posts[i] = sanitizeStoredPost(posts[i]);
     posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
 
     const feeds: any[] = [];
@@ -1997,6 +1999,10 @@ const cleanText = (txt: string) => {
   if (!txt) return "";
 
   let res = String(txt)
+    // As fontes são metadados internos do RSS e não devem aparecer no texto
+    // editorial exibido ao leitor/redator.
+    .replace(/^\s*\[?Fonte\s*1\s*[—–-]\s*(?:(?:G1|Globo|CNN|BBC|Reuters|AFP|AP)\s*[—–-]\s*)?/i, "")
+    .replace(/^\s*\[?Fonte\s*\d+\]?\s+/i, "")
     .replace("[RSS]", "")
     .replace("RSS", "")
     .replace(/\b[A-Za-zÀ-ÿ0-9_.-]{2,50}\s+photography\b\.?/gi, "")
@@ -2026,6 +2032,18 @@ const cleanText = (txt: string) => {
   }
 
   return res.trim();
+};
+
+const sanitizeStoredPost = (post: any) => {
+  if (!post || typeof post !== "object") return post;
+  return {
+    ...post,
+    title: cleanText(post.title),
+    subtitle: cleanText(post.subtitle),
+    seoTitle: cleanText(post.seoTitle),
+    seoDescription: cleanText(post.seoDescription),
+    content: cleanArticleContent(post.content)
+  };
 };
 
 const cleanArticleContent = (txt: string) => String(txt || "")

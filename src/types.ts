@@ -314,13 +314,24 @@ export function normalizePost(post: any): Post {
   if (!post) return post;
   const p = { ...post };
 
+  const stripSourceMarker = (value: unknown) => typeof value === 'string'
+    ? value
+      .replace(/^\s*\[?Fonte\s*1\s*[—–-]\s*(?:(?:G1|Globo|CNN|BBC|Reuters|AFP|AP)\s*[—–-]\s*)?/i, '')
+      .replace(/^\s*\[?Fonte\s*\d+\]?\s+/i, '')
+      .trim()
+    : value;
+
   // Marcadores usados internamente na consolidação de fontes nunca devem ser
   // exibidos ao leitor (inclusive na cópia estática do portal).
   if (typeof p.title === 'string') {
-    p.title = p.title
-      .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, '')
-      .split(/\s*\[?Fonte\s*2\]?\b/i)[0]
-      .trim();
+    p.title = stripSourceMarker(p.title)
+      .split(/\s*\[?Fonte\s*2\]?\b/i)[0].trim();
+  }
+  if (typeof p.subtitle === 'string') p.subtitle = stripSourceMarker(p.subtitle);
+  if (typeof p.seoTitle === 'string') p.seoTitle = stripSourceMarker(p.seoTitle);
+  if (typeof p.seoDescription === 'string') p.seoDescription = stripSourceMarker(p.seoDescription);
+  if (typeof p.content === 'string') {
+    p.content = p.content.split(/\n\s*\n+/).map(stripSourceMarker).join('\n\n');
   }
 
   // Normalize status - handle "NO AR", boolean "published"

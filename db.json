@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3ad61001",
+      "views": 0,
+      "date": "2026-09-03T16:39:32.236Z",
+      "title": "ChatGPT fora do ar? Usuários relatam instabilidade nesta quinta-feira Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Economia Solen Feyissa/Unsplash O ChatGPT, chatbot de inteligência artificial da OpenAI, apresenta instabilidades nesta quinta-feira (3), segundo o Downdetector, plataforma que monitora serviços digitais.",
+      "slug": "chatgpt-fora-do-ar-usuarios-relatam-instabilidade-nesta-quinta-feira-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Solen Feyissa/Unsplash O ChatGPT, chatbot de inteligência artificial da OpenAI, apresenta instabilidades nesta quinta-feira (3), segundo o Downdetector, plataforma que monitora serviços digitais. Por volta das 12h, o volume de reclamações atingiu o pico, com mais de 10 mil ocorrências registradas.\n\nO que já foi informado\n\nReclamações no Downdetector Downdetector O g1 procurou a OpenAI para obter mais informações sobre o problema, mas ainda não obteve retorno. Nas redes sociais, usuários comentaram a instabilidade do ChatGPT com humor. Veja abaixo. Initial plugin text Initial plugin text Initial plugin text Agora no g1 Fonte 2 — G1 - Economia Quem é o funcionário mais antigo da Apple que ganhou ações, hoje avaliadas em milhões A Apple enfrenta um processo de £2 bilhões (aproximadamente R$ 14,9 bilhões) em Londres, movido em nome de desenvolvedores de aplicativos. A empresa é acusada de abusar de seu poder de mercado ao impor regras de rastreamento mais rígidas a terceiros.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "ChatGPT fora do ar? Usuários relatam instabilidade Store Center",
+      "seoDescription": "Economia Solen Feyissa/Unsplash O ChatGPT, chatbot de inteligência artificial da OpenAI, apresenta instabilidades nesta quinta-feira",
+      "keyword": "ChatGPT fora do ar? Usuários relatam instabilidade nesta quinta-feira Fonte 2 Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de rastreamento de aplicativos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/03/chatgpt-fora-do-ar-usuarios-relatam-instabilidade-nesta-quinta-feira.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/chatgpt-fora-do-ar-usuarios-relatam-instabilidade-nesta-quinta-feira.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-processo-reino-unido.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "ChatGPT fora do ar? Usuários relatam instabilidade nesta quinta-feira",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_165380f5",
       "views": 0,
       "date": "2026-09-03T14:29:21.749Z",
@@ -5050,7 +5091,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T14:29:20.391Z",
+      "lastScraped": "2026-09-03T16:39:21.171Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5058,7 +5099,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T14:29:20.926Z",
+      "lastScraped": "2026-09-03T16:39:21.716Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5128,6 +5169,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788453611162",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "ChatGPT fora do ar? Usuários relatam instabilidade nesta quinta-feira",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "ChatGPT fora do ar? Usuários relatam instabilidade nesta quinta-feira Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_3ad61001",
+      "timestamp": "2026-09-03T16:39:32.236Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 66.7h (+8), Sem postagem há 66.7h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788445861052",
       "feedName": "G1 - Economia",

@@ -1187,6 +1187,18 @@ app.put("/api/posts/:id", async (req, res) => {
         (title && String(p.title || "").trim() === title) ||
         (originalTitle && String(p.title || "").trim() === originalTitle)
       );
+      if (index === -1 && (title || originalTitle)) {
+        const key = (value: string) => String(value || "")
+          .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, "")
+          .replace(/\s*\[?Fonte\s*2\]?\b[\s\S]*$/i, "")
+          .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+          .toLowerCase().replace(/[^a-z0-9]+/g, "");
+        const requestedKeys = [key(title), key(originalTitle)].filter(Boolean);
+        index = db.posts.findIndex((p: any) => {
+          const candidate = key(String(p.title || ""));
+          return requestedKeys.some((requestedKey) => candidate === requestedKey || candidate.startsWith(requestedKey) || requestedKey.startsWith(candidate));
+        });
+      }
       if (index !== -1) {
         console.warn(`[POSTS] ID ${requested} não estava no cache; matéria localizada por metadados.`);
       }

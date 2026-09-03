@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_23d3c974",
+      "views": 0,
+      "date": "2026-09-03T07:49:06.240Z",
+      "title": "Sob nova direção, Apple manterá prestígio na era da inteligência artificial?: o que muda para usuários e empresas?",
+      "subtitle": "Economia Apple anuncia sucessão: Tim Cook deixará comando e John Ternus será novo CEO Em 1º de setembro, começa uma nova era na Apple, com John Ternus se tornando o terceiro homem a ocupar o cargo de CEO da gigante da tecnologia desde 1997.",
+      "slug": "sob-nova-direcao-apple-mantera-prestigio-na-era-da-inteligencia-artificial-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Apple anuncia sucessão: Tim Cook deixará comando e John Ternus será novo CEO Em 1º de setembro, começa uma nova era na Apple, com John Ternus se tornando o terceiro homem a ocupar o cargo de CEO da gigante da tecnologia desde 1997. Ternus foi anunciado como sucessor de Tim Cook em abril, encerrando os 15 anos de Cook à frente de uma das maiores empresas do mundo.\n\nO que já foi informado\n\nDesde então, Ternus, um dos principais engenheiros de hardware da empresa, tem trabalhado em estreita colaboração com Cook na preparação para o grande cargo. Assim como Cook quando assumiu o lugar do icônico Steve Jobs, Ternus tem uma grande responsabilidade. O preço das ações da Apple aumentou mais de 2 mil% desde que Cook assumiu o cargo em 2011, e a empresa vendeu mais de 3,1 bilhões de iPhones nesse período. Ternus enfrenta uma série de desafios na empresa, mas sua capacidade de mantê-la no topo dependerá de como ele reformulará sua estratégia de inteligência artificial (IA). A Apple tem lutado para adotar com sucesso a tecnologia até agora, com críticos dizendo que ela ficou muito atrás de seus rivais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Sob nova direção, Apple manterá prestígio na era da Store Center",
+      "seoDescription": "Economia Apple anuncia sucessão: Tim Cook deixará comando e John Ternus será novo CEO Em 1º de setembro, começa uma nova era na Apple",
+      "keyword": "Sob nova direção, Apple manterá prestígio na era da inteligência artificial? Fonte 2 Nova York suspende uso de IA para alunos de escolas públicas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/03/sob-nova-direcao-apple-mantera-prestigio-na-era-da-inteligencia-artificial.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/sob-nova-direcao-apple-mantera-prestigio-na-era-da-inteligencia-artificial.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/nova-york-suspensao-inteligencia-artificial-escolas-publicas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Sob nova direção, Apple manterá prestígio na era da inteligência artificial?",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_44682fc2",
       "views": 0,
       "date": "2026-09-03T04:53:29.953Z",
@@ -4886,7 +4927,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T04:53:28.201Z",
+      "lastScraped": "2026-09-03T07:49:04.710Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4894,7 +4935,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T04:53:28.854Z",
+      "lastScraped": "2026-09-03T07:49:05.362Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4907,7 +4948,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-03T04:53:29.941Z",
+      "lastScraped": "2026-09-03T07:49:06.229Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -4964,6 +5005,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788421802355",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Sob nova direção, Apple manterá prestígio na era da inteligência artificial?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Sob nova direção, Apple manterá prestígio na era da inteligência artificial?: o que muda para usuários e empresas?",
+      "postId": "rss-hash_23d3c974",
+      "timestamp": "2026-09-03T07:49:06.240Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 57.9h (+8), Sem postagem há 57.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788411251988",
       "feedName": "G1 - Economia",

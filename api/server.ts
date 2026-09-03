@@ -356,6 +356,7 @@ async function loadPortalDataFromFirestore() {
   const posts: any[] = [];
   postsSnap.forEach((docSnap: any) => posts.push(docSnap.data()));
   for (let i = 0; i < posts.length; i++) posts[i] = sanitizeStoredPost(posts[i]);
+  mergeNewLocalPosts(posts);
   posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
 
   const feeds: any[] = [];
@@ -397,6 +398,7 @@ async function loadDatabaseFromFirestore() {
     const posts: any[] = [];
     postsSnap.forEach(docSnap => posts.push(docSnap.data()));
     for (let i = 0; i < posts.length; i++) posts[i] = sanitizeStoredPost(posts[i]);
+    mergeNewLocalPosts(posts);
     posts.sort((a, b) => parseStoredDate(b.date) - parseStoredDate(a.date));
 
     const feeds: any[] = [];
@@ -2048,6 +2050,28 @@ const sanitizeStoredPost = (post: any) => {
     content: cleanArticleContent(post.content)
   };
 };
+
+function mergeNewLocalPosts(remotePosts: any[]) {
+  if (!fs.existsSync(DB_PATH)) return remotePosts;
+  try {
+    const local = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
+    const localPosts = Array.isArray(local?.posts) ? local.posts : [];
+    const knownIds = new Set(remotePosts.map((p: any) => String(p.id)));
+    const newestRemote = remotePosts.reduce((max: number, p: any) => Math.max(max, parseStoredDate(p.date)), 0);
+    // O automatizador estático pode publicar no Git antes da sincronização do
+    // Firestore. Importamos somente posts locais mais novos que o último remoto.
+    for (const post of localPosts) {
+      if (!post?.id || knownIds.has(String(post.id))) continue;
+      if (parseStoredDate(post.date) > newestRemote) {
+        remotePosts.push(sanitizeStoredPost(post));
+        knownIds.add(String(post.id));
+      }
+    }
+  } catch (error) {
+    console.warn("[PORTAL] Não foi possível mesclar matérias locais recentes:", error);
+  }
+  return remotePosts;
+}
 
 const cleanArticleContent = (txt: string) => String(txt || "")
   .split(/\n\s*\n+/)

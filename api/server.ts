@@ -147,6 +147,7 @@ let dbCache: any = {
   automationLogs: [],
   deletedPostItems: []
 };
+let portalDataLoadedAt = 0;
 
 // Initial startup load of db.json into cache
 try {
@@ -339,6 +340,9 @@ async function loadPortalDataFromFirestore() {
   if (!dbStore) {
     throw new Error("Firestore não está inicializado.");
   }
+  if (dbCache.posts?.length && Date.now() - portalDataLoadedAt < 30_000) {
+    return { posts: dbCache.posts, feeds: dbCache.feeds, ads: dbCache.ads, settings: dbCache.settings };
+  }
 
   const snaps = await Promise.race([
     Promise.all([
@@ -367,6 +371,7 @@ async function loadPortalDataFromFirestore() {
 
   const settings = settingsSnap.exists ? settingsSnap.data() : (dbCache.settings || {});
   dbCache = { ...dbCache, posts, feeds, ads, settings };
+  portalDataLoadedAt = Date.now();
 
   return { posts, feeds, ads, settings };
 }
@@ -1174,9 +1179,8 @@ app.post("/api/posts", async (req, res) => {
 
 app.put("/api/posts/:id", async (req, res) => {
   try {
-    // Em Vercel cada instância pode manter um cache antigo. Leia o Firestore
-    // antes da edição para garantir que o ID recebido pelo painel exista.
-    if (dbStore) await loadDatabaseFromFirestore();
+    // Use o cache carregado pelo portal; reler todas as coleções a cada edição
+    // esgota rapidamente a cota diária do Firestore gratuito.
     const db = readDatabase();
     const requested = String(req.params.id);
     let index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));

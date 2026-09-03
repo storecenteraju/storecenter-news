@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_165380f5",
+      "views": 0,
+      "date": "2026-09-03T14:29:21.749Z",
+      "title": "3corações conclui compra da Yoki e da Kitano por R$ 800 milhões e assume operação da: por que esse movimento importa?",
+      "subtitle": "Economia Agora no g1 O Grupo 3corações concluiu nesta quinta-feira (3) a aquisição das operações da General Mills no Brasil, em um negócio de R$ 800 milhões que inclui as marcas Yoki e Kitano.",
+      "slug": "3coracoes-conclui-compra-da-yoki-e-da-kitano-por-r-800-milhoes-e-assume-operacao-da-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 O Grupo 3corações concluiu nesta quinta-feira (3) a aquisição das operações da General Mills no Brasil, em um negócio de R$ 800 milhões que inclui as marcas Yoki e Kitano. A operação adiciona ao portfólio da 3corações duas marcas conhecidas dos consumidores brasileiros: A Yoki é reconhecida em categorias como pipoca de micro-ondas, farofa e batata palha, e a Kitano, marca de temperos, ervas e especiarias.\n\nO que já foi informado\n\nAlém das duas, a 3corações passa a incorporar estruturas industriais e administrativas que faziam parte do negócio vendido pela General Mills. Entre elas estão o escritório administrativo em São Bernardo do Campo (SP) e as unidades produtivas de Pouso Alegre (MG) e Campo Novo do Parecis (MT). Segundo comunicado da empresa, após a conclusão da operação, o grupo passa a contar com 15 unidades fabris no país. \"Estamos concluindo uma aquisição muito relevante para a nossa história e, ao mesmo tempo, iniciando um novo capítulo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "3corações conclui compra da Yoki e da Kitano por R$ 800 Store Center",
+      "seoDescription": "Economia Agora no g1 O Grupo 3corações concluiu nesta quinta-feira (3) a aquisição das operações da General Mills no Brasil, em um ne",
+      "keyword": "3corações conclui compra da Yoki e da Kitano por R$ 800 milhões e assume operação da General Mills no Brasil Fonte 2 Governo prorroga por 60 dias cobrança de imposto de 12% sobre exportação de petróleo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/03/3coracoes-compra-yoki-e-kitano-por-r-800-milhoes-e-assume-operacao-da-general-mills-no-brasil.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/03/3coracoes-compra-yoki-e-kitano-por-r-800-milhoes-e-assume-operacao-da-general-mills-no-brasil.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/03/governo-prorroga-por-60-dias-cobranca-de-imposto-de-12percent-sobre-exportacao-de-petroleo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "3corações conclui compra da Yoki e da Kitano por R$ 800 milhões e assume operação da General Mills no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_8aa8e05",
       "views": 0,
       "date": "2026-09-03T12:16:11.786Z",
@@ -5009,7 +5050,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T12:16:00.566Z",
+      "lastScraped": "2026-09-03T14:29:20.391Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5017,7 +5058,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T12:16:01.256Z",
+      "lastScraped": "2026-09-03T14:29:20.926Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5030,7 +5071,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-03T09:58:12.059Z",
+      "lastScraped": "2026-09-03T14:29:21.737Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5087,6 +5128,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788445861052",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "3corações conclui compra da Yoki e da Kitano por R$ 800 milhões e assume operação da General Mills no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "3corações conclui compra da Yoki e da Kitano por R$ 800 milhões e assume operação da: por que esse movimento importa?",
+      "postId": "rss-hash_165380f5",
+      "timestamp": "2026-09-03T14:29:21.749Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.6h (+8), Sem postagem há 9.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788437811943",
       "feedName": "G1 - Economia",

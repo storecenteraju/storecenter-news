@@ -2078,13 +2078,14 @@ function mergeNewLocalPosts(remotePosts: any[]) {
   try {
     const local = JSON.parse(fs.readFileSync(DB_PATH, "utf8"));
     const localPosts = Array.isArray(local?.posts) ? local.posts : [];
+    const deletedIds = new Set((local?.deletedPostItems || []).map((p: any) => String(p.id || p.postId || "")));
     const knownIds = new Set(remotePosts.map((p: any) => String(p.id)));
-    const newestRemote = remotePosts.reduce((max: number, p: any) => Math.max(max, parseStoredDate(p.date)), 0);
     // O automatizador estático pode publicar no Git antes da sincronização do
-    // Firestore. Importamos somente posts locais mais novos que o último remoto.
+    // Firestore. Inclua todos os posts locais ausentes, preservando exclusões
+    // registradas, para que matérias novas não desapareçam do portal.
     for (const post of localPosts) {
       if (!post?.id || knownIds.has(String(post.id))) continue;
-      if (parseStoredDate(post.date) > newestRemote) {
+      if (!deletedIds.has(String(post.id))) {
         remotePosts.push(sanitizeStoredPost(post));
         knownIds.add(String(post.id));
       }

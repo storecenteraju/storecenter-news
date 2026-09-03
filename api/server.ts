@@ -1172,6 +1172,9 @@ app.post("/api/posts", async (req, res) => {
 
 app.put("/api/posts/:id", async (req, res) => {
   try {
+    // Em Vercel cada instância pode manter um cache antigo. Leia o Firestore
+    // antes da edição para garantir que o ID recebido pelo painel exista.
+    if (dbStore) await loadDatabaseFromFirestore();
     const db = readDatabase();
     let index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
     // O painel pode estar usando uma cópia estática gerada antes da última

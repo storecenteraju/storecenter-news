@@ -314,12 +314,12 @@ export function normalizePost(post: any): Post {
   if (!post) return post;
   const p = { ...post };
 
-  const stripSourceMarker = (value: unknown) => typeof value === 'string'
+  const stripSourceMarker = (value: unknown): string => typeof value === 'string'
     ? value
       .replace(/^\s*\[?Fonte\s*1\s*[—–-]\s*(?:(?:G1|Globo|CNN|BBC|Reuters|AFP|AP)\s*[—–-]\s*)?/i, '')
       .replace(/^\s*\[?Fonte\s*\d+\]?\s+/i, '')
       .trim()
-    : value;
+    : '';
 
   // Marcadores usados internamente na consolidação de fontes nunca devem ser
   // exibidos ao leitor (inclusive na cópia estática do portal).

@@ -66,7 +66,11 @@ export default function App() {
       const fetchedSettings = portalData?.settings;
 
       if (Array.isArray(fetchedPosts) && fetchedPosts.length > 0) {
-        setPosts(fetchedPosts.map(normalizePost));
+        const normalizedPosts = fetchedPosts.map(normalizePost);
+        const adminMode = window.location.pathname === '/redacao' || new URLSearchParams(window.location.search).has('reset');
+        setPosts(adminMode
+          ? normalizedPosts.sort((a, b) => getPostTimestamp(b) - getPostTimestamp(a))
+          : normalizedPosts);
       } else {
         setPosts(dbBackup.posts.map(normalizePost));
       }

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_410c21a5",
+      "views": 0,
+      "date": "2026-09-03T09:58:12.071Z",
+      "title": "Nova York suspende uso de IA para alunos de escolas públicas Fonte 2 OpenAI diz: o que muda para usuários e empresas?",
+      "subtitle": "A medida vale durante o próximo ano letivo, que acontece de 10 de setembro a junho de 2027, e proíbe o uso de \"todo software que usa IA generativa para alunos\".",
+      "slug": "nova-york-suspende-uso-de-ia-para-alunos-de-escolas-publicas-fonte-2-openai-diz-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA medida vale durante o próximo ano letivo, que acontece de 10 de setembro a junho de 2027, e proíbe o uso de \"todo software que usa IA generativa para alunos\". Os chatbots de companhia, que simulam pessoas reais, foram proibidos para alunos de todas as séries.\n\nO que já foi informado\n\nA cidade criará aulas de alfabetização em IA duas vezes por ano para todos os alunos dos últimos anos do ensino fundamental e programas piloto para alguns estudantes usarem ferramentas de IA com a supervisão de um educador. \"A indústria de tecnologia quer que acreditemos que a educação infantil impulsionada por inteligência artificial não só é inevitável, como também necessária. Nós não vemos as coisas dessa forma\", disse Mamdani. Agora no g1 \"Todos os dias, quando os nossos filhos vêm para a escola, nós os ensinamos a fazer perguntas, a questionar pressupostos, a interrogar premissas, a perguntar 'por quê? '.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nova York suspende uso de IA para alunos de escolas Store Center",
+      "seoDescription": "A medida vale durante o próximo ano letivo, que acontece de 10 de setembro a junho de 2027, e proíbe o uso de \"todo software que usa IA generativa par",
+      "keyword": "Nova York suspende uso de IA para alunos de escolas públicas Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/02/nova-york-suspensao-inteligencia-artificial-escolas-publicas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/nova-york-suspensao-inteligencia-artificial-escolas-publicas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Nova York suspende uso de IA para alunos de escolas públicas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_23d3c974",
       "views": 0,
       "date": "2026-09-03T07:49:06.240Z",
@@ -4927,7 +4968,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T07:49:04.710Z",
+      "lastScraped": "2026-09-03T09:58:10.331Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -4935,7 +4976,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T07:49:05.362Z",
+      "lastScraped": "2026-09-03T09:58:10.978Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -4948,7 +4989,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-03T07:49:06.229Z",
+      "lastScraped": "2026-09-03T09:58:12.059Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5005,6 +5046,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788429555230",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nova York suspende uso de IA para alunos de escolas públicas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nova York suspende uso de IA para alunos de escolas públicas Fonte 2 OpenAI diz: o que muda para usuários e empresas?",
+      "postId": "rss-hash_410c21a5",
+      "timestamp": "2026-09-03T09:58:12.071Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 60.0h (+8), Sem postagem há 60.0h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788421802355",
       "feedName": "G1 - Economia",

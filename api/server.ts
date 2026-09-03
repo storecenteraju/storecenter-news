@@ -1003,7 +1003,9 @@ app.post("/api/settings/change-password", async (req, res) => {
 app.get("/api/portal-data", async (req, res) => {
   try {
     const portalData = await loadPortalDataFromFirestore();
-    res.setHeader("Cache-Control", "public, s-maxage=300, stale-while-revalidate=600");
+    // Os dados mudam quando o redator publica uma matéria. Não permita que
+    // o cache da CDN sirva uma lista antiga por vários minutos.
+    res.setHeader("Cache-Control", "no-store, max-age=0, must-revalidate");
     res.setHeader("X-Store-Center-Data-Source", "firestore");
     res.json(portalData);
   } catch (error: any) {

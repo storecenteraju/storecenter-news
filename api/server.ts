@@ -1178,12 +1178,12 @@ app.put("/api/posts/:id", async (req, res) => {
     // antes da edição para garantir que o ID recebido pelo painel exista.
     if (dbStore) await loadDatabaseFromFirestore();
     const db = readDatabase();
+    const requested = String(req.params.id);
     let index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
     // O painel pode estar usando uma cópia estática gerada antes da última
     // sincronização do Firestore. Nessa situação, localizamos a mesma matéria
     // por slug, URL de origem ou título para não perder a edição.
     if (index === -1) {
-      const requested = String(req.params.id);
       const slug = String(req.body?.slug || "").trim();
       const sourceUrl = String(req.body?.sourceUrl || "").trim();
       const title = String(req.body?.title || "").trim();
@@ -1210,6 +1210,28 @@ app.put("/api/posts/:id", async (req, res) => {
       }
       if (index !== -1) {
         console.warn(`[POSTS] ID ${requested} não estava no cache; matéria localizada por metadados.`);
+      }
+    }
+    // Alguns registros antigos usam o ID do documento Firestore como chave,
+    // embora o campo interno `id` seja diferente. Consulte o documento direto
+    // antes de devolver 404 para não bloquear a edição do painel.
+    if (index === -1 && dbStore) {
+      const directSnap = await dbStore.collection("posts").doc(String(req.params.id)).get();
+      if (directSnap.exists) {
+        const directPost = sanitizeStoredPost({ id: String(req.params.id), ...directSnap.data() });
+        db.posts.push(directPost);
+        index = db.posts.length - 1;
+        console.warn(`[POSTS] Matéria carregada diretamente do documento Firestore ${requested}.`);
+      }
+      if (index === -1) {
+        const byField = await dbStore.collection("posts").where("id", "==", String(req.params.id)).limit(1).get();
+        if (!byField.empty) {
+          const match = byField.docs[0];
+          const matchedPost = sanitizeStoredPost({ id: String(match.id), ...match.data() });
+          db.posts.push(matchedPost);
+          index = db.posts.length - 1;
+          console.warn(`[POSTS] Matéria localizada pelo campo interno id ${requested}.`);
+        }
       }
     }
     if (index !== -1) {

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_131c554",
+      "views": 0,
+      "date": "2026-09-04T09:53:15.942Z",
+      "title": "Como será viajar no jato da Embraer que consegue pousar sozinho Fonte 2 OpenAI diz que seu novo modelo de IA é tão?",
+      "subtitle": "Economia Como será viajar no jato da Embraer que consegue pousar sozinho Mais conforto, mais segurança e voos diretos para todas as capitais do país: essas são as promessas do novo jato leve Phenom 300EV, modelo da Embraer capaz de realizar.",
+      "slug": "como-sera-viajar-no-jato-da-embraer-que-consegue-pousar-sozinho-fonte-2-openai-diz-que-seu-novo-modelo-de-ia-e-tao",
+      "content": "O que aconteceu\n\nEconomia Como será viajar no jato da Embraer que consegue pousar sozinho Mais conforto, mais segurança e voos diretos para todas as capitais do país: essas são as promessas do novo jato leve Phenom 300EV, modelo da Embraer capaz de realizar pousos por conta própria. Previsto para começar a ser entregue em 2028, ele foi anunciado em julho.\n\nO que já foi informado\n\nEm agosto, recebeu certificação da Agência Nacional de Aviação Civil (Anac) e de autoridades de aviação nos Estados Unidos e na União Europeia. O Phenom 300EV terá espaço para até 10 passageiros, além de um piloto, e poderá ter a configuração dos assentos personalizada pelo proprietário. O jato foi certificado para fazer voos com dois ou apenas um piloto. E, segundo a Embraer, este é o modelo de piloto único mais rápido e com mais alcance no mercado. A aeronave terá autonomia de até 3.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como será viajar no jato da Embraer que consegue pousar Store Center",
+      "seoDescription": "Economia Como será viajar no jato da Embraer que consegue pousar sozinho Mais conforto, mais segurança e voos diretos para todas as c",
+      "keyword": "Como será viajar no jato da Embraer que consegue pousar sozinho Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/04/como-sera-viajar-no-jato-da-embraer-que-consegue-pousar-sozinho.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/04/como-sera-viajar-no-jato-da-embraer-que-consegue-pousar-sozinho.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Como será viajar no jato da Embraer que consegue pousar sozinho",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_4caa904c",
       "views": 0,
       "date": "2026-09-04T07:51:18.959Z",
@@ -5337,7 +5378,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T07:51:17.556Z",
+      "lastScraped": "2026-09-04T09:53:14.539Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5345,7 +5386,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T07:51:18.129Z",
+      "lastScraped": "2026-09-04T09:53:15.119Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5358,7 +5399,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T07:51:18.944Z",
+      "lastScraped": "2026-09-04T09:53:15.930Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5415,6 +5456,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788515676536",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como será viajar no jato da Embraer que consegue pousar sozinho",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como será viajar no jato da Embraer que consegue pousar sozinho Fonte 2 OpenAI diz que seu novo modelo de IA é tão?",
+      "postId": "rss-hash_131c554",
+      "timestamp": "2026-09-04T09:53:15.942Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 83.9h (+8), Sem postagem há 83.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788508372852",
       "feedName": "G1 - Economia",

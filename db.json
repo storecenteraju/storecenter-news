@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4caa904c",
+      "views": 0,
+      "date": "2026-09-04T07:51:18.959Z",
+      "title": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de: o que muda para usuários e empresas?",
+      "subtitle": "Economia Quem é o funcionário mais antigo da Apple que ganhou ações, hoje avaliadas em milhões A Apple enfrenta um processo de £2 bilhões (aproximadamente R$ 14,9 bilhões) em Londres, movido em nome de desenvolvedores de aplicativos.",
+      "slug": "apple-enfrenta-processo-de-r-15-bilhoes-no-reino-unido-por-regras-de-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Quem é o funcionário mais antigo da Apple que ganhou ações, hoje avaliadas em milhões A Apple enfrenta um processo de £2 bilhões (aproximadamente R$ 14,9 bilhões) em Londres, movido em nome de desenvolvedores de aplicativos. A empresa é acusada de abusar de seu poder de mercado ao impor regras de rastreamento mais rígidas a terceiros.\n\nO que já foi informado\n\nA ação, apresentada nesta quinta-feira (3) ao Tribunal de Apelação da Concorrência de Londres (Competition Appeal Tribunal), é resultado de anos de escrutínio regulatório sobre o recurso App Tracking Transparency (ATT), lançado pela Apple em 2021. A Apple afirma que criou o recurso para permitir que os usuários decidam se desejam conceder aos aplicativos permissão para rastrear suas atividades em aplicativos e sites de outras empresas. No entanto, os advogados responsáveis pela ação alegam que o recurso impôs exigências mais rígidas aos desenvolvedores de aplicativos de terceiros do que aos próprios serviços da Apple, dando vantagem competitiva ao ecossistema de da empresa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido Store Center",
+      "seoDescription": "Economia Quem é o funcionário mais antigo da Apple que ganhou ações, hoje avaliadas em milhões A Apple enfrenta um processo de £2 bil",
+      "keyword": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de rastreamento de aplicativos Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-processo-reino-unido.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-processo-reino-unido.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de rastreamento de aplicativos",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_363cc86",
       "views": 0,
       "date": "2026-09-04T04:59:11.213Z",
@@ -5296,7 +5337,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T04:59:09.530Z",
+      "lastScraped": "2026-09-04T07:51:17.556Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5304,7 +5345,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T04:59:10.114Z",
+      "lastScraped": "2026-09-04T07:51:18.129Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5317,7 +5358,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T04:59:11.198Z",
+      "lastScraped": "2026-09-04T07:51:18.944Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5374,6 +5415,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788508372852",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de rastreamento de aplicativos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de: o que muda para usuários e empresas?",
+      "postId": "rss-hash_4caa904c",
+      "timestamp": "2026-09-04T07:51:18.959Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 81.9h (+8), Sem postagem há 81.9h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788497964177",
       "feedName": "G1 - Economia",

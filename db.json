@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1904d59e",
+      "views": 0,
+      "date": "2026-09-04T21:51:16.966Z",
+      "title": "Veículos de comunicação da Câmara e do Senado farão cobertura integrada das eleições: o que está em jogo no mercado?",
+      "subtitle": "Agência Câmara - Política Os veículos de comunicação da Câmara dos Deputados e do Senado Federal vão trabalhar em conjunto na cobertura jornalística da votação e da apuração dos votos nas eleições de 4 de outubro.",
+      "slug": "veiculos-de-comunicacao-da-camara-e-do-senado-farao-cobertura-integrada-das-eleicoes-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nAgência Câmara - Política Os veículos de comunicação da Câmara dos Deputados e do Senado Federal vão trabalhar em conjunto na cobertura jornalística da votação e da apuração dos votos nas eleições de 4 de outubro. Acompanhe nossa programação, que terá entrevistas e informações sobre a votação nos estados, com a participação de emissoras de rádio e televisão de assembleias legislativas e câmaras municipais – integrantes da Rede Legislativa de Rádio e TV.\n\nO que já foi informado\n\nO foco da cobertura será a eleição dos 513 deputados federais e de 54 senadores (2/3 da composição do Senado), com análises políticas dos resultados – considerando também a eleição dos governadores e do presidente da República. Confira página especial da Câmara sobre as Eleições 2026 A cobertura especial começa às 8 horas do domingo pelas emissoras de TV e rádio e pelas redes sociais das duas Casas. As agências de notícias entram em campo a partir do meio-dia. Agências de notícias Durante a apuração, a Agência Câmara vai publicar as bancadas estaduais eleitas assim que forem definidas, com a votação de cada eleito.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Veículos de comunicação da Câmara e do Senado farão Store Center",
+      "seoDescription": "Agência Câmara - Política Os veículos de comunicação da Câmara dos Deputados e do Senado Federal vão trabalhar em conjunto na cobertura jo",
+      "keyword": "Veículos de comunicação da Câmara e do Senado farão cobertura integrada das eleições Fonte 2 Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1302595-veiculos-de-comunicacao-da-camara-e-do-senado-farao-cobertura-integrada-das-eleicoes",
+      "sourceName": "Agência Câmara - Política + G1 - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1302595-veiculos-de-comunicacao-da-camara-e-do-senado-farao-cobertura-integrada-das-eleicoes",
+        "https://g1.globo.com/politica/noticia/2026/09/03/senado-aprova-fim-da-taxa-das-blusinhas-texto-segue-para-sancao.ghtml"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Veículos de comunicação da Câmara e do Senado farão cobertura integrada das eleições",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_54ac44b",
       "views": 0,
       "date": "2026-09-04T19:43:05.899Z",
@@ -5583,7 +5624,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T19:43:04.337Z",
+      "lastScraped": "2026-09-04T21:51:14.892Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5591,7 +5632,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T19:43:04.920Z",
+      "lastScraped": "2026-09-04T21:51:15.554Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5604,7 +5645,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T19:43:05.887Z",
+      "lastScraped": "2026-09-04T21:51:16.954Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5661,6 +5702,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788558700236",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Veículos de comunicação da Câmara e do Senado farão cobertura integrada das eleições",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Veículos de comunicação da Câmara e do Senado farão cobertura integrada das eleições: o que está em jogo no mercado?",
+      "postId": "rss-hash_1904d59e",
+      "timestamp": "2026-09-04T21:51:16.966Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.9h (+8), Sem postagem há 25.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788551062573",
       "feedName": "G1 - Economia",

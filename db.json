@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4fc3093f",
+      "views": 0,
+      "date": "2026-09-04T17:55:49.202Z",
+      "title": "Depois de um dia de lançamento, táxis sem motorista da Tesla são investigados nos EUA: o que está em jogo no mercado?",
+      "subtitle": "Economia Engenheiro impressiona ao dirigir um Cybertruck da Tesla em Goiás A Administração Nacional de Segurança no Trânsito dos Estados Unidos (NHTSA) abriu nesta sexta-feira (4) uma investigação para verificar se a Tesla certificou.",
+      "slug": "depois-de-um-dia-de-lancamento-taxis-sem-motorista-da-tesla-sao-investigados-nos-eua-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Engenheiro impressiona ao dirigir um Cybertruck da Tesla em Goiás A Administração Nacional de Segurança no Trânsito dos Estados Unidos (NHTSA) abriu nesta sexta-feira (4) uma investigação para verificar se a Tesla certificou corretamente seu robotáxi autônomo Cybercab. A perícia vai analisar o processo e os dados técnicos usados pela montadora para demonstrar que até 1.000 Cybercabs atendiam aos padrões federais de segurança para veículos.\n\nO que já foi informado\n\nNa quinta-feira (3), a Tesla começou a colocar em operação comercial um pequeno número de Cybercabs de dois lugares em Austin, no Texas. A empresa afirmou que pretende ampliar gradualmente o serviço para mais veículos e outras localidades. Tesla lança Cybercab, um robotáxi sem volante nem pedais Segundo a NHTSA, o Cybercab não possui controles manuais convencionais, como volante, pedal de freio, pedal do acelerador e espelhos retrovisores. Quando há indícios de que um veículo certificado não atende a essas exigências, a NHTSA abre uma investigação, afirmou a agência.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Depois de um dia de lançamento, táxis sem motorista da Store Center",
+      "seoDescription": "Economia Engenheiro impressiona ao dirigir um Cybertruck da Tesla em Goiás A Administração Nacional de Segurança no Trânsito dos Esta",
+      "keyword": "Depois de um dia de lançamento, táxis sem motorista da Tesla são investigados nos EUA Fonte 2 Ibama autoriza Petrobras a perfurar três novos poços na Foz do Amazonas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/04/depois-de-um-dia-de-lancamento-taxis-sem-motorista-da-tesla-sao-investigados-nos-eua.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/04/depois-de-um-dia-de-lancamento-taxis-sem-motorista-da-tesla-sao-investigados-nos-eua.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/04/ibama-petrobras-amazonas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Depois de um dia de lançamento, táxis sem motorista da Tesla são investigados nos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3c567ea",
       "views": 0,
       "date": "2026-09-04T16:34:50.870Z",
@@ -5501,7 +5542,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T16:34:39.484Z",
+      "lastScraped": "2026-09-04T17:55:47.658Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5509,7 +5550,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T16:34:40.360Z",
+      "lastScraped": "2026-09-04T17:55:48.256Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5522,7 +5563,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T14:18:23.670Z",
+      "lastScraped": "2026-09-04T17:55:49.184Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5579,6 +5620,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788544639491",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Depois de um dia de lançamento, táxis sem motorista da Tesla são investigados nos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Depois de um dia de lançamento, táxis sem motorista da Tesla são investigados nos EUA: o que está em jogo no mercado?",
+      "postId": "rss-hash_4fc3093f",
+      "timestamp": "2026-09-04T17:55:49.202Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.9h (+8), Sem postagem há 12.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788539745609",
       "feedName": "G1 - Economia",

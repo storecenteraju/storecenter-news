@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4850de1e",
+      "views": 0,
+      "date": "2026-09-04T00:13:29.471Z",
+      "title": "Apple é processada nos EUA por patentes de reconhecimento facial em iPhones Fonte 2: por que esse movimento importa?",
+      "subtitle": "Em sua denúncia, a trinamiX, subsidiária da BASF, afirma ter passado a última década desenvolvendo tecnologia para solucionar falhas em sistemas convencionais de reconhecimento facial que permitem fazer o desbloqueio facial usando fotografias, máscaras.",
+      "slug": "apple-e-processada-nos-eua-por-patentes-de-reconhecimento-facial-em-iphones-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEm sua denúncia, a trinamiX, subsidiária da BASF, afirma ter passado a última década desenvolvendo tecnologia para solucionar falhas em sistemas convencionais de reconhecimento facial que permitem fazer o desbloqueio facial usando fotografias, máscaras impressas em 3D e réplicas de silicone. A denúncia diz que a Apple não usou a tecnologia patenteada da BASF quando lançou o Face ID, seu recurso de autenticação facial, em 2017 com o iPhone X.\n\nO que já foi informado\n\nMas aponta que a fabricante agora a utiliza em vários produtos, incluindo o iPhone 15, iPhone 16, iPhone 17 e iPad Pro. \"A Apple sabia, ou deveria saber, da alta probabilidade de que a atualização de seus iPhones e iPads para incorporar o Face ID usando detecção de material e pele\" infringisse sete patentes da trinamiX, causando \"danos substanciais e prejuízos irreparáveis\", diz a queixa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple é processada nos EUA por patentes de Store Center",
+      "seoDescription": "Em sua denúncia, a trinamiX, subsidiária da BASF, afirma ter passado a última década desenvolvendo tecnologia para solucionar falhas em sistemas conve",
+      "keyword": "Apple é processada nos EUA por patentes de reconhecimento facial em iPhones Fonte 2 Apple enfrenta processo de R$ 15 bilhões no Reino Unido por regras de rastreamento de aplicativos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-e-processada-nos-eua-por-patentes-de-autenticacao-facial-em-iphones.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-e-processada-nos-eua-por-patentes-de-autenticacao-facial-em-iphones.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/03/apple-processo-reino-unido.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple é processada nos EUA por patentes de reconhecimento facial em iPhones",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_1ddb349",
       "views": 0,
       "date": "2026-09-03T21:53:47.354Z",
@@ -5214,7 +5255,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-03T21:53:45.856Z",
+      "lastScraped": "2026-09-04T00:13:18.980Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5222,7 +5263,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-03T21:53:46.389Z",
+      "lastScraped": "2026-09-04T00:13:19.299Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5292,6 +5333,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788480876003",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple é processada nos EUA por patentes de reconhecimento facial em iPhones",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple é processada nos EUA por patentes de reconhecimento facial em iPhones Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_4850de1e",
+      "timestamp": "2026-09-04T00:13:29.471Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 74.3h (+8), Sem postagem há 74.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1788472457828",
       "feedName": "G1 - Economia",

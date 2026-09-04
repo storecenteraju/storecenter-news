@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_30fdf835",
+      "views": 0,
+      "date": "2026-09-04T14:18:23.682Z",
+      "title": "Aprenda a cultivar pitaia Fonte 2 Nanoempreendedor fica dispensado de se: por que isso importa para a economia?",
+      "subtitle": "RPC Tem curiosidade sobre como cultivar a pitaia? A Emater-MG tem uma cartilha com orientações sobre o plantio das mudas, a adubação e as podas, além de explicar como combater as principais pragas e doenças que atingem a fruta.",
+      "slug": "aprenda-a-cultivar-pitaia-fonte-2-nanoempreendedor-fica-dispensado-de-se-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nRPC Tem curiosidade sobre como cultivar a pitaia? A Emater-MG tem uma cartilha com orientações sobre o plantio das mudas, a adubação e as podas, além de explicar como combater as principais pragas e doenças que atingem a fruta.\n\nO que já foi informado\n\nA cartilha é gratuita - Acesse aqui Pé de pitaia de pouco mais de um ano sem frutos Fonte 2 — G1 - Economia Saiba como funciona a categoria tributária nanoempreendedor O chamado nanoempreendedor, microempreendedores com receita anual inferior a R$ 40,5 mil, não precisa mais se inscrever no CNPJ e nem emitir a nota fiscal eletrônica até o final de 2028. O prazo maior de adequação consta no ato conjunto número 6 do da Receita Federal e do Comitê Gestor do IBS (tributo sobre o consumo dos estados e municípios), publicado no \"Diário Oficial da União\" no fim de agosto. De acordo com Richard Domingos, diretor executivo da Confirp Contabilidade, a medida é relevante principalmente para trabalhadores que atuam por conta própria e possuem baixo faturamento, já que, originalmente, a regulamentação previa a necessidade de inscrição no chamado CNPJ técnico e a emissão de documentos fiscais eletrônicos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Aprenda a cultivar pitaia Fonte 2 Nanoempreendedor fica Store Center",
+      "seoDescription": "RPC Tem curiosidade sobre como cultivar a pitaia? A Emater-MG tem uma cartilha com orientações sobre o plantio das mudas, a adubação e as podas, além",
+      "keyword": "Aprenda a cultivar pitaia Fonte 2 Nanoempreendedor fica dispensado de se inscrever no CNPJ e de emitir nota fiscal eletrônica até o fim de 2028",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/09/04/aprenda-a-cultivar-pitaia.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/09/04/aprenda-a-cultivar-pitaia.ghtml",
+        "https://g1.globo.com/empreendedorismo/noticia/2026/09/04/nanoempreendedor-fica-dispensado-de-se-inscrever-no-cnpj-e-de-emitir-nota-fiscal-eletronica-ate-o-fim-de-2028.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Aprenda a cultivar pitaia",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_70cfb75c",
       "views": 0,
       "date": "2026-09-04T12:16:37.848Z",
@@ -5419,7 +5460,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T12:16:36.079Z",
+      "lastScraped": "2026-09-04T14:18:21.765Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5427,7 +5468,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T12:16:36.738Z",
+      "lastScraped": "2026-09-04T14:18:22.335Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5440,7 +5481,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T12:16:37.836Z",
+      "lastScraped": "2026-09-04T14:18:23.670Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5497,6 +5538,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788531569675",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Aprenda a cultivar pitaia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Aprenda a cultivar pitaia Fonte 2 Nanoempreendedor fica dispensado de se: por que isso importa para a economia?",
+      "postId": "rss-hash_30fdf835",
+      "timestamp": "2026-09-04T14:18:23.682Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.3h (+8), Sem postagem há 9.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Nacional",
+        "Direito",
+        "Política",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788524251275",
       "feedName": "G1 - Economia",

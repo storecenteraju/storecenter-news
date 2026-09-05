@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_d66c6c1",
+      "views": 0,
+      "date": "2026-09-05T11:26:06.631Z",
+      "title": "Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple Fonte: o que muda para usuários e empresas?",
+      "subtitle": "Economia Apple anuncia engenheiro John Ternus como novo presidente Com o fim da era de Tim Cook à frente da Apple no início da semana, a empresa disse quanto o executivo ganhará em sua nova função e qual será a remuneração do novo CEO, John.",
+      "slug": "quanto-vao-ganhar-tim-cook-e-john-ternus-apos-a-troca-de-comando-na-apple-fonte-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Apple anuncia engenheiro John Ternus como novo presidente Com o fim da era de Tim Cook à frente da Apple no início da semana, a empresa disse quanto o executivo ganhará em sua nova função e qual será a remuneração do novo CEO, John Ternus. Na Apple desde 1998 e CEO desde 2011, Tim Cook assumiu como novo presidente-executivo do conselho administrativo.\n\nO que já foi informado\n\nEle ainda será responsável por conduzir certos assuntos na Apple, como o relacionamento da empresa com governos. Na nova função, Cook terá salário de US$ 2 milhões por ano (R$ 10 milhões), além de bonificação com valor-alvo de US$ 45 milhões (R$ 230 milhões) ao longo de quatro anos. John Ternus, que entrou na Apple em 2001, era vice-presidente sênior de Engenharia de Hardware há cinco anos. Como CEO, ele será o novo responsável pela gestão do dia a dia da empresa. Tim Cook e John Ternus /Brittany Hosea-Small O executivo terá salário anual de US$ 3 milhões (R$ 15 milhões) e bonificação com valor-alvo de US$ 55 milhões (R$ 280 milhões) durante quatro anos. Ele também recebeu US$ 2,5 milhões (R$ 12,8 milhões) em ações pelo tempo como CEO no ano fiscal de 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quanto vão ganhar Tim Cook e John Ternus após a troca Store Center",
+      "seoDescription": "Economia Apple anuncia engenheiro John Ternus como novo presidente Com o fim da era de Tim Cook à frente da Apple no início da semana",
+      "keyword": "Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/05/quanto-vao-ganhar-tim-cook-e-john-ternus-apos-a-troca-de-comando-na-apple.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/05/quanto-vao-ganhar-tim-cook-e-john-ternus-apos-a-troca-de-comando-na-apple.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_2888aa97",
       "views": 0,
       "date": "2026-09-05T09:11:16.967Z",
@@ -5788,7 +5829,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T09:11:15.045Z",
+      "lastScraped": "2026-09-05T11:26:05.277Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5796,7 +5837,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T09:11:15.809Z",
+      "lastScraped": "2026-09-05T11:26:05.806Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5809,7 +5850,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T09:11:16.954Z",
+      "lastScraped": "2026-09-05T11:26:06.617Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5866,6 +5907,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788607653507",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple Fonte: o que muda para usuários e empresas?",
+      "postId": "rss-hash_d66c6c1",
+      "timestamp": "2026-09-05T11:26:06.632Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.5h (+8), Sem postagem há 25.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788599541671",
       "feedName": "G1 - Economia",

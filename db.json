@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_63109b89",
+      "views": 0,
+      "date": "2026-09-05T21:43:48.508Z",
+      "title": "Cadillac inicia pré-venda no Brasil este mês; SUVs podem passar dos R$ 600 mil Fonte 2: o que está em jogo no mercado?",
+      "subtitle": "A Cadillac informou nesta sexta-feira (4) que vai iniciar, em meados de setembro, a pré-venda de veículos no Brasil.",
+      "slug": "cadillac-inicia-pre-venda-no-brasil-este-mes-suvs-podem-passar-dos-r-600-mil-fonte-2-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA Cadillac informou nesta sexta-feira (4) que vai iniciar, em meados de setembro, a pré-venda de veículos no Brasil. A operação começa com os SUVs elétricos Lyriq e Vistiq.\n\nO que já foi informado\n\nA marca ainda não divulgou os detalhes técnicos dos carros nem as condições da reserva. Essas informações serão apresentadas no site oficial da Cadillac quando a pré-venda estiver disponível. Segundo a empresa, clientes que já demonstraram interesse na chegada da marca ao país terão prioridade nesta primeira etapa. \"A etapa inaugural da pré-venda foi concebida para uma aproximação personalizada e um acesso especial à experiência Cadillac\", afirma Nancy Serapião, diretora da Cadillac para a América do Sul. Agora no g1 As primeiras entregas estão previstas para novembro. A ordem será definida de acordo com a confirmação das reservas e o nível de personalização escolhido pelo cliente.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Cadillac inicia pré-venda no Brasil este mês; SUVs Store Center",
+      "seoDescription": "A Cadillac informou nesta sexta-feira (4) que vai iniciar, em meados de setembro, a pré-venda de veículos no Brasil.",
+      "keyword": "Cadillac inicia pré-venda no Brasil este mês; SUVs podem passar dos R$ 600 mil Fonte 2 Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/04/cadillac-inicia-pre-venda-no-brasil.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/04/cadillac-inicia-pre-venda-no-brasil.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/02/recall-ram-1500-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Cadillac inicia pré-venda no Brasil este mês; SUVs podem passar dos R$ 600 mil",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_390c0fb1",
       "views": 0,
       "date": "2026-09-05T19:10:53.088Z",
@@ -5993,7 +6034,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T19:10:41.953Z",
+      "lastScraped": "2026-09-05T21:43:46.727Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6001,7 +6042,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T19:10:42.571Z",
+      "lastScraped": "2026-09-05T21:43:47.677Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6014,7 +6055,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T15:29:56.727Z",
+      "lastScraped": "2026-09-05T21:43:48.494Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6071,6 +6112,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788644695305",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Cadillac inicia pré-venda no Brasil este mês; SUVs podem passar dos R$ 600 mil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Cadillac inicia pré-venda no Brasil este mês; SUVs podem passar dos R$ 600 mil Fonte 2: o que está em jogo no mercado?",
+      "postId": "rss-hash_63109b89",
+      "timestamp": "2026-09-05T21:43:48.509Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.8h (+8), Sem postagem há 27.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788635471589",
       "feedName": "G1 - Economia",

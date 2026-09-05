@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_390c0fb1",
+      "views": 0,
+      "date": "2026-09-05T19:10:53.088Z",
+      "title": "Musk tenta barrar lei contra nudes falsos feitos por IA, mas juiz mantém proibição: por que esse movimento importa?",
+      "subtitle": "Economia Grok: ferramenta gratuita da rede social X é usada para criar imagens íntimas falsas A lei de Minnesota, nos Estados Unidos, que proíbe imagens falsas de nudez produzidas por inteligência artificial continuará em vigor.",
+      "slug": "musk-tenta-barrar-lei-contra-nudes-falsos-feitos-por-ia-mas-juiz-mantem-proibicao-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Grok: ferramenta gratuita da rede social X é usada para criar imagens íntimas falsas A lei de Minnesota, nos Estados Unidos, que proíbe imagens falsas de nudez produzidas por inteligência artificial continuará em vigor. Um juiz federal rejeitou nesta sexta-feira (4) o pedido da xAI, empresa de Elon Musk, para suspender a medida enquanto a companhia contesta a lei na Justiça.\n\nO que já foi informado\n\nA lei entrou em vigor em 1º de agosto e proíbe operadores de sites, desenvolvedores de programas e outras pessoas de permitir que usuários usem inteligência artificial para retirar digitalmente as roupas de pessoas identificáveis em imagens. Segundo o texto, é a primeira lei desse tipo nos Estados Unidos. A xAI afirma que a medida restringe a liberdade de expressão protegida pela Constituição americana.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Musk tenta barrar lei contra nudes falsos feitos por Store Center",
+      "seoDescription": "Economia Grok: ferramenta gratuita da rede social X é usada para criar imagens íntimas falsas A lei de Minnesota, nos Estados Unidos,",
+      "keyword": "Musk tenta barrar lei contra nudes falsos feitos por IA, mas juiz mantém proibição Fonte 2 OpenAI diz que seu novo modelo de IA é tão avançado que exigirá mais medidas de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/04/musk-tenta-barrar-lei-contra-nudes-falsos-feitos-por-ia-mas-juiz-mantem-proibicao.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/04/musk-tenta-barrar-lei-contra-nudes-falsos-feitos-por-ia-mas-juiz-mantem-proibicao.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/02/openai-diz-que-novo-modelo-de-ia-e-tao-avancado-que-exigira-mais-medidas-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Musk tenta barrar lei contra nudes falsos feitos por IA, mas juiz mantém proibição",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_4087b462",
       "views": 0,
       "date": "2026-09-05T17:02:37.302Z",
@@ -5952,7 +5993,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T17:02:26.002Z",
+      "lastScraped": "2026-09-05T19:10:41.953Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5960,7 +6001,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T17:02:26.779Z",
+      "lastScraped": "2026-09-05T19:10:42.571Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6030,6 +6071,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788635471589",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Musk tenta barrar lei contra nudes falsos feitos por IA, mas juiz mantém proibição",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Musk tenta barrar lei contra nudes falsos feitos por IA, mas juiz mantém proibição: por que esse movimento importa?",
+      "postId": "rss-hash_390c0fb1",
+      "timestamp": "2026-09-05T19:10:53.088Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 33.3h (+8), Sem postagem há 33.3h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788627856311",
       "feedName": "G1 - Economia",

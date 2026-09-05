@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4087b462",
+      "views": 0,
+      "date": "2026-09-05T17:02:37.302Z",
+      "title": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar: por que isso importa para a economia?",
+      "subtitle": "Economia Mulher encontrou as filmagens na galera do celular do patrão ao pagar por uma marmita.",
+      "slug": "camera-escondida-no-banheiro-do-trabalho-o-que-diz-a-lei-e-como-denunciar-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Mulher encontrou as filmagens na galera do celular do patrão ao pagar por uma marmita. Arquivo pessoal Uma mulher de 26 anos descobriu que era filmada nua no banheiro da imobiliária em que trabalhava, em Santa Juliana, no Triângulo Mineiro.\n\nO que já foi informado\n\nSegundo a vítima, as imagens foram feitas pelo ex-patrão, Hélio Borges Júnior, de 53 anos. O caso foi registrado pela Polícia Militar (PM) em 29 de junho e é investigado como importunação sexual e registro não autorizado da intimidade sexual. O empresário foi detido e levado à delegacia onde prestou depoimento e admitiu que havia escondido um celular no banheiro para fazer gravações. A vítima, que não trabalha mais na empresa, teve o nome omitido para preservar sua identidade. A mulher descobriu os vídeos quando o ex-patrão pediu que ela usasse o celular dele para pagar uma marmita. Ao mexer no aparelho, ela afirma ter encontrado abas abertas que levavam a uma pasta com fotos e vídeos em que aparecia nua.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Câmera escondida no banheiro do trabalho: o que diz a Store Center",
+      "seoDescription": "Economia Mulher encontrou as filmagens na galera do celular do patrão ao pagar por uma marmita.",
+      "keyword": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar Fonte 2 União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/05/camera-escondida-no-banheiro-do-trabalho-o-que-diz-a-lei-e-como-denunciar.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/05/camera-escondida-no-banheiro-do-trabalho-o-que-diz-a-lei-e-como-denunciar.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/04/uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1f1c743c",
       "views": 0,
       "date": "2026-09-05T15:29:56.737Z",
@@ -5911,7 +5952,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T15:29:54.755Z",
+      "lastScraped": "2026-09-05T17:02:26.002Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5919,7 +5960,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T15:29:55.370Z",
+      "lastScraped": "2026-09-05T17:02:26.779Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5989,6 +6030,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788627856311",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Câmera escondida no banheiro do trabalho: o que diz a lei e como denunciar: por que isso importa para a economia?",
+      "postId": "rss-hash_4087b462",
+      "timestamp": "2026-09-05T17:02:37.302Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.2h (+8), Sem postagem há 12.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788622238142",
       "feedName": "G1 - Economia",

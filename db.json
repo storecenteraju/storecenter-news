@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2888aa97",
+      "views": 0,
+      "date": "2026-09-05T09:11:16.967Z",
+      "title": "A desigualdade brasileira em 6 gráficos: os principais dados do novo estudo da Oxfam Fonte 2 EUA fecham acordo pelo",
+      "subtitle": "Economia Comunidades da Vila Andrade contrastam com o luxo de mansões do Panamby, na Zona Sul de SP.",
+      "slug": "a-desigualdade-brasileira-em-6-graficos-os-principais-dados-do-novo-estudo-da-oxfam-fonte-2-eua-fecham-acordo-pelo",
+      "content": "O que aconteceu\n\nEconomia Comunidades da Vila Andrade contrastam com o luxo de mansões do Panamby, na Zona Sul de SP. Celso Tavares/G1 A desigualdade no Brasil vai além das diferenças de renda.\n\nO que já foi informado\n\nEmbora os indicadores sociais tenham melhorado nos últimos anos, a concentração de riqueza no topo da pirâmide continua aumentando. Segundo a Oxfam Brasil, esse cenário também concentra cada vez mais poder político e econômico. O relatório Um Retrato das Desigualdades Brasileiras: Poder, Privilégio e a Captura da Democracia, divulgado no mês passado, mostra que o 1% mais rico concentrou 24,3% de toda a renda do país em 2023 e deteve 37,3% da riqueza declarada. Para a organização, esse cenário amplia a capacidade dos grupos mais ricos de influenciar eleições, políticas públicas e decisões do Estado, enquanto mulheres, pessoas negras e outros grupos historicamente excluídos continuam sub-representados nos espaços de poder.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "A desigualdade brasileira em 6 gráficos: os principais Store Center",
+      "seoDescription": "Economia Comunidades da Vila Andrade contrastam com o luxo de mansões do Panamby, na Zona Sul de SP.",
+      "keyword": "A desigualdade brasileira em 6 gráficos: os principais dados do novo estudo da Oxfam Fonte 2 EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/05/a-desigualdade-brasileira-em-6-graficos-os-principais-dados-do-novo-estudo-da-oxfam.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/05/a-desigualdade-brasileira-em-6-graficos-os-principais-dados-do-novo-estudo-da-oxfam.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/05/eua-fecham-acordo-pelo-petroleo-da-venezuela-o-que-trump-ganha-com-o-negocio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "A desigualdade brasileira em 6 gráficos: os principais dados do novo estudo da Oxfam",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_22718b30",
       "views": 0,
       "date": "2026-09-05T07:26:41.832Z",
@@ -5747,7 +5788,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T07:26:40.190Z",
+      "lastScraped": "2026-09-05T09:11:15.045Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5755,7 +5796,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T07:26:40.803Z",
+      "lastScraped": "2026-09-05T09:11:15.809Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5768,7 +5809,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T07:26:41.820Z",
+      "lastScraped": "2026-09-05T09:11:16.954Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5825,6 +5866,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788599541671",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "A desigualdade brasileira em 6 gráficos: os principais dados do novo estudo da Oxfam",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "A desigualdade brasileira em 6 gráficos: os principais dados do novo estudo da Oxfam Fonte 2 EUA fecham acordo pelo",
+      "postId": "rss-hash_2888aa97",
+      "timestamp": "2026-09-05T09:11:16.968Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788593239966",
       "feedName": "G1 - Economia",

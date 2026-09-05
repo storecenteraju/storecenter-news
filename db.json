@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_548267c1",
+      "views": 0,
+      "date": "2026-09-05T23:53:53.781Z",
+      "title": "União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo Fonte: por que esse movimento importa?",
+      "subtitle": "Economia Frango cru JK Sloan O Brasil deve retornar à lista de fornecedores de mel e carne de aves da União Europeia em breve, afirmou o Ministério da Agricultura, nesta sexta-feira (4).",
+      "slug": "uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo-fonte-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Frango cru JK Sloan O Brasil deve retornar à lista de fornecedores de mel e carne de aves da União Europeia em breve, afirmou o Ministério da Agricultura, nesta sexta-feira (4). O bloco concluiu auditorias nas duas cadeias produtivas e considerou que os controles sanitários e os procedimentos oficiais adotados pelo Brasil são \"satisfatórios\".\n\nO que já foi informado\n\n\"Agora é esperar o processo burocrático, mas muito rapidamente nós vamos ver o Brasil de volta à lista dos fornecedores de aves e de mel para a União Europeia”, declarou o ministro da Agricultura, André de Paula. A UE tirou o Brasil da lista de países que cumprem as suas regras sobre o uso de antimicrobianos na pecuária. Essas substâncias são usadas para tratar infecções em animais, mas o bloco proíbe seu uso para estimular o crescimento. Também proíbe o uso, em animais, de antimicrobianos reservados ao tratamento de seres humanos. ( Os fiscais visitaram estabelecimentos produtivos e órgãos oficiais do país, verificando a estrutura e do funcionamento do sistema oficial de defesa agropecuária brasileiro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "União Europeia deve voltar a comprar mel e carne de Store Center",
+      "seoDescription": "Economia Frango cru JK Sloan O Brasil deve retornar à lista de fornecedores de mel e carne de aves da União Europeia em breve, afirmo",
+      "keyword": "União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo Fonte 2 Balança comercial tem superávit de US$ 7,4 bilhões em agosto, maior saldo para o mês em 3 anos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/09/04/uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/04/uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/04/balanca-comercial-tem-superavit-de-us-74-bilhoes-em-agosto.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_63109b89",
       "views": 0,
       "date": "2026-09-05T21:43:48.508Z",
@@ -6034,7 +6075,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T21:43:46.727Z",
+      "lastScraped": "2026-09-05T23:53:51.980Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6042,7 +6083,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T21:43:47.677Z",
+      "lastScraped": "2026-09-05T23:53:52.772Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6055,7 +6096,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T21:43:48.494Z",
+      "lastScraped": "2026-09-05T23:53:53.771Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6112,6 +6153,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788652487650",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo Fonte: por que esse movimento importa?",
+      "postId": "rss-hash_548267c1",
+      "timestamp": "2026-09-05T23:53:53.782Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.9h (+8), Sem postagem há 6.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788644695305",
       "feedName": "G1 - Economia",

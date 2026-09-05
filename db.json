@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_22718b30",
+      "views": 0,
+      "date": "2026-09-05T07:26:41.832Z",
+      "title": "E se a IA for consciente? A pergunta que começa a preocupar as gigantes da: o que muda para usuários e empresas?",
+      "subtitle": "Economia Uso de IA pode ajudar na disseminação de informações falsas pela facilidade de produção e viralização desse tipo de conteúdo.",
+      "slug": "e-se-a-ia-for-consciente-a-pergunta-que-comeca-a-preocupar-as-gigantes-da-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Uso de IA pode ajudar na disseminação de informações falsas pela facilidade de produção e viralização desse tipo de conteúdo. Segundo reportagem da revista \"The Economist\", a discussão deixou de ser apenas teórica e chegou às empresas de IA, que passaram a contratar filósofos e até a estudar o possível bem-estar de seus próprios sistemas.\n\nO que já foi informado\n\nA discussão vai além da tecnologia. Para muitos filósofos, se um ser é capaz de ter experiências como sofrimento, isso cria obrigações éticas em relação a ele. Por isso, determinar se uma IA pode ou não ser consciente teria consequências práticas sobre a forma como esses sistemas são desenvolvidos e tratados. Por que as empresas de IA estão contratando filósofos Os grandes modelos de linguagem são desenvolvidos para responder aos usuários, e não para demonstrar uma personalidade própria.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "E se a IA for consciente? A pergunta que começa a Store Center",
+      "seoDescription": "Economia Uso de IA pode ajudar na disseminação de informações falsas pela facilidade de produção e viralização desse tipo de conteúdo",
+      "keyword": "E se a IA for consciente? A pergunta que começa a preocupar as gigantes da tecnologia Fonte 2 Quanto vão ganhar Tim Cook e John Ternus após a troca de comando na Apple",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/05/e-se-a-ia-for-consciente-a-pergunta-que-comeca-a-preocupar-as-gigantes-da-tecnologia.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/05/e-se-a-ia-for-consciente-a-pergunta-que-comeca-a-preocupar-as-gigantes-da-tecnologia.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/05/quanto-vao-ganhar-tim-cook-e-john-ternus-apos-a-troca-de-comando-na-apple.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "E se a IA for consciente? A pergunta que começa a preocupar as gigantes da tecnologia",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_533e97ed",
       "views": 0,
       "date": "2026-09-05T04:50:55.759Z",
@@ -5706,7 +5747,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T04:50:45.265Z",
+      "lastScraped": "2026-09-05T07:26:40.190Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5714,7 +5755,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T04:50:45.596Z",
+      "lastScraped": "2026-09-05T07:26:40.803Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5727,7 +5768,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T00:06:22.603Z",
+      "lastScraped": "2026-09-05T07:26:41.820Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5784,6 +5825,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788593239966",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "E se a IA for consciente? A pergunta que começa a preocupar as gigantes da tecnologia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "E se a IA for consciente? A pergunta que começa a preocupar as gigantes da: o que muda para usuários e empresas?",
+      "postId": "rss-hash_22718b30",
+      "timestamp": "2026-09-05T07:26:41.832Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 21.6h (+8), Sem postagem há 21.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788583941790",
       "feedName": "G1 - Economia",

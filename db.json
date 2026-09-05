@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_17f96ec2",
+      "views": 0,
+      "date": "2026-09-05T13:26:30.392Z",
+      "title": "EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio? Fonte: por que esse movimento importa?",
+      "subtitle": "Economia Empresa dos EUA vai explorar petróleo na Venezuela Os Estados Unidos anunciaram na última sexta-feira (28/08) um acordo com a Venezuela que pode garantir a Washington acesso a cerca de 20% das reservas comprovadas de petróleo do país.",
+      "slug": "eua-fecham-acordo-pelo-petroleo-da-venezuela-o-que-trump-ganha-com-o-negocio-fonte-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Empresa dos EUA vai explorar petróleo na Venezuela Os Estados Unidos anunciaram na última sexta-feira (28/08) um acordo com a Venezuela que pode garantir a Washington acesso a cerca de 20% das reservas comprovadas de petróleo do país sul-americano. Apresentada pelo presidente Donald Trump como o \"maior acordo petrolífero da história\", a iniciativa envolve 17 campos com potencial estimado em 65 bilhões de barris e coloca no centro da operação a petroleira North American Blue Energy Partners (Nabep), controlada pelo empresário venezuelano Alejandro Betancourt.\n\nO que já foi informado\n\nO anúncio ocorre cerca de oito meses após a captura de Nicolás Maduro por forças americanas e aprofunda a reaproximação entre Washington e o governo interino liderado por Delcy Rodríguez. Segundo a Casa Branca, o acordo permitirá aos Estados Unidos ampliar a influência sobre parte relevante da produção petrolífera venezuelana e reforçar suas reservas estratégicas de petróleo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "EUA fecham acordo pelo petróleo da Venezuela: o que Store Center",
+      "seoDescription": "Economia Empresa dos EUA vai explorar petróleo na Venezuela Os Estados Unidos anunciaram na última sexta-feira (28/08) um acordo com",
+      "keyword": "EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio? Fonte 2 União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/05/eua-fecham-acordo-pelo-petroleo-da-venezuela-o-que-trump-ganha-com-o-negocio.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/05/eua-fecham-acordo-pelo-petroleo-da-venezuela-o-que-trump-ganha-com-o-negocio.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/04/uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio?",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_d66c6c1",
       "views": 0,
       "date": "2026-09-05T11:26:06.631Z",
@@ -5829,7 +5870,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T11:26:05.277Z",
+      "lastScraped": "2026-09-05T13:26:29.089Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5837,7 +5878,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T11:26:05.806Z",
+      "lastScraped": "2026-09-05T13:26:29.339Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5850,7 +5891,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T11:26:06.617Z",
+      "lastScraped": "2026-09-05T13:26:30.379Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5907,6 +5948,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788614862940",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "EUA fecham acordo pelo petróleo da Venezuela: o que Trump ganha com o negócio? Fonte: por que esse movimento importa?",
+      "postId": "rss-hash_17f96ec2",
+      "timestamp": "2026-09-05T13:26:30.392Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.6h (+8), Sem postagem há 8.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788607653507",
       "feedName": "G1 - Economia",

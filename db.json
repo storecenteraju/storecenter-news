@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1db6c227",
+      "views": 0,
+      "date": "2026-09-05T00:06:22.618Z",
+      "title": "Festival Interlagos 2026 teve 36 lançamentos de carros e 15,2 mil testes feitos pelo: o que está em jogo no mercado?",
+      "subtitle": "O Festival Interlagos Edição Auto, que aconteceu entre os dias 27 e 30 de agosto, reuniu 215 mil visitantes e teve 36 lançamentos, pré-lançamentos e novidades apresentados ao público.",
+      "slug": "festival-interlagos-2026-teve-36-lancamentos-de-carros-e-15-2-mil-testes-feitos-pelo-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO Festival Interlagos Edição Auto, que aconteceu entre os dias 27 e 30 de agosto, reuniu 215 mil visitantes e teve 36 lançamentos, pré-lançamentos e novidades apresentados ao público. Edição Auto reuniu 32 marcas no Autódromo de Interlagos; somadas, as etapas de carro e motos tiveram 485 mil visitantes e 81 novidades.\n\nO que já foi informado\n\nEntre as empresas participantes estavam fabricantes tradicionais, marcas premium, esportivas e novas montadoras chinesas que estão ampliando a atuação no mercado brasileiro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Festival Interlagos 2026 teve 36 lançamentos de carros Store Center",
+      "seoDescription": "O Festival Interlagos Edição Auto, que aconteceu entre os dias 27 e 30 de agosto, reuniu 215 mil visitantes e teve 36 lançamentos, pré-lançamentos e n",
+      "keyword": "Festival Interlagos 2026 teve 36 lançamentos de carros e 15,2 mil testes feitos pelo público Fonte 2 União Europeia deve voltar a comprar mel e carne de aves do Brasil, diz governo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/04/festival-interlagos-2026.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/04/festival-interlagos-2026.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/04/uniao-europeia-deve-voltar-a-comprar-mel-e-carne-de-aves-do-brasil-diz-governo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Festival Interlagos 2026 teve 36 lançamentos de carros e 15,2 mil testes feitos pelo público",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1904d59e",
       "views": 0,
       "date": "2026-09-04T21:51:16.966Z",
@@ -5624,7 +5665,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-04T21:51:14.892Z",
+      "lastScraped": "2026-09-05T00:06:20.916Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5632,7 +5673,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-04T21:51:15.554Z",
+      "lastScraped": "2026-09-05T00:06:21.778Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5645,7 +5686,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-04T21:51:16.954Z",
+      "lastScraped": "2026-09-05T00:06:22.603Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5702,6 +5743,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788566801451",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Festival Interlagos 2026 teve 36 lançamentos de carros e 15,2 mil testes feitos pelo público",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Festival Interlagos 2026 teve 36 lançamentos de carros e 15,2 mil testes feitos pelo: o que está em jogo no mercado?",
+      "postId": "rss-hash_1db6c227",
+      "timestamp": "2026-09-05T00:06:22.619Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.1h (+8), Sem postagem há 19.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788558700236",
       "feedName": "Agência Câmara - Política",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1f1c743c",
+      "views": 0,
+      "date": "2026-09-05T15:29:56.737Z",
+      "title": "Clima e escassez alimentar elevam risco de guerras no mundo Fonte 2 'Bomba: por que isso importa para a economia?",
+      "subtitle": "Economia Seca causada pelo El Niño deixou arrozais de Java Ocidental (Indonésia) rachados e secos Donal Husni/NurPhoto/picture alliance O sistema alimentar mundial está sob pressão crescente, e novas pesquisas estão apontando áreas.",
+      "slug": "clima-e-escassez-alimentar-elevam-risco-de-guerras-no-mundo-fonte-2-bomba-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Seca causada pelo El Niño deixou arrozais de Java Ocidental (Indonésia) rachados e secos Donal Husni/NurPhoto/picture alliance O sistema alimentar mundial está sob pressão crescente, e novas pesquisas estão apontando áreas específicas onde isso pode levar a conflitos. Secas severas e eventos climáticos extremos estão prejudicando as colheitas em muitas regiões.\n\nO que já foi informado\n\nUm fenômeno El Niño, atualmente em desenvolvimento, ameaça agravar a escassez de alimentos para milhões de pessoas no próximo ano. Ao mesmo tempo, guerras e tensões geopolíticas estão interrompendo as cadeias de suprimentos que mantêm alimentos e insumos agrícolas em circulação e que poderiam ajudar a mitigar a falta de abastecimento. A guerra na Ucrânia tem provocado repetidas turbulências nos mercados de grãos, enquanto os impactos do conflito envolvendo o Irã no Estreito de Ormuz elevaram os preços dos combustíveis e fertilizantes, aumentando os custos para agricultores em todo o mundo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Clima e escassez alimentar elevam risco de guerras no Store Center",
+      "seoDescription": "Economia Seca causada pelo El Niño deixou arrozais de Java Ocidental (Indonésia) rachados e secos Donal Husni/NurPhoto/picture allian",
+      "keyword": "Clima e escassez alimentar elevam risco de guerras no mundo Fonte 2 'Bomba atômica' e 'terremoto político': o que imprensa internacional disse sobre mensagens entre Vorcaro e Moraes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/meio-ambiente/noticia/2026/09/05/clima-e-escassez-alimentar-elevam-risco-de-guerras-no-mundo.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/meio-ambiente/noticia/2026/09/05/clima-e-escassez-alimentar-elevam-risco-de-guerras-no-mundo.ghtml",
+        "https://g1.globo.com/mundo/noticia/2026/09/02/bomba-atomica-e-terremoto-politico-o-que-imprensa-internacional-disse-sobre-mensagens-entre-vorcaro-e-moraes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Clima e escassez alimentar elevam risco de guerras no mundo",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_17f96ec2",
       "views": 0,
       "date": "2026-09-05T13:26:30.392Z",
@@ -5870,7 +5911,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-05T13:26:29.089Z",
+      "lastScraped": "2026-09-05T15:29:54.755Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -5878,7 +5919,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-05T13:26:29.339Z",
+      "lastScraped": "2026-09-05T15:29:55.370Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -5891,7 +5932,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-05T13:26:30.379Z",
+      "lastScraped": "2026-09-05T15:29:56.727Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -5948,6 +5989,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788622238142",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Clima e escassez alimentar elevam risco de guerras no mundo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Clima e escassez alimentar elevam risco de guerras no mundo Fonte 2 'Bomba: por que isso importa para a economia?",
+      "postId": "rss-hash_1f1c743c",
+      "timestamp": "2026-09-05T15:29:56.737Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.3h (+8), Sem postagem há 6.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1788614862940",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3a94cda0",
+      "views": 0,
+      "date": "2026-09-06T11:45:23.233Z",
+      "title": "Baixo lucro em safra de urucum preocupa produtores da Nova Alta Paulista Fonte 2: o que muda para os próximos jogos?",
+      "subtitle": "Apesar de o Brasil ser responsável por cerca de 57% da produção mundial, os preços praticados no mercado não têm garantido margem de lucro satisfatória para os produtores locais.",
+      "slug": "baixo-lucro-em-safra-de-urucum-preocupa-produtores-da-nova-alta-paulista-fonte-2-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nApesar de o Brasil ser responsável por cerca de 57% da produção mundial, os preços praticados no mercado não têm garantido margem de lucro satisfatória para os produtores locais. Em Osvaldo Cruz (SP), a produtora Maria Aparecida Fafreto enfrenta sua primeira safra com mil pés de urucum-anão.\n\nO que já foi informado\n\nSegundo ela, o clima e os cuidados favorecem a produtividade, mas a flora irregular aumenta os gastos. Durante a colheita, Maria precisa retornar diversas vezes à mesma área para recolher frutos que ainda estavam em flores. O processo exige rapidez para evitar que os cachos abertos percam qualidade. Com a venda entre R$ 12 e R$ 13 por quilo, a margem de lucro está abaixo do esperado. Ainda assim, Maria planeja ampliar a produção com o plantio de mais mil pés. Em Junqueirópolis, o produtor Marcos Everaldo Altrão registrou queda de 25% na safra em relação ao ano passado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Baixo lucro em safra de urucum preocupa produtores da Store Center",
+      "seoDescription": "Apesar de o Brasil ser responsável por cerca de 57% da produção mundial, os preços praticados no mercado não têm garantido margem de lucro satisfatóri",
+      "keyword": "Baixo lucro em safra de urucum preocupa produtores da Nova Alta Paulista Fonte 2 Safra de laranja cresce no interior de SP, mas queda no consumo de suco derruba preços",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/06/baixo-lucro-em-safra-de-urucum-preocupa-produtores-da-nova-alta-paulista.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/06/baixo-lucro-em-safra-de-urucum-preocupa-produtores-da-nova-alta-paulista.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/06/safra-de-laranja-cresce-no-interior-de-sp-mas-queda-no-consumo-de-suco-derruba-precos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Baixo lucro em safra de urucum preocupa produtores da Nova Alta Paulista",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_586b3a5",
       "views": 0,
       "date": "2026-09-06T09:32:32.248Z",
@@ -6194,7 +6235,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-06T09:32:29.850Z",
+      "lastScraped": "2026-09-06T11:45:21.177Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6202,7 +6243,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-06T09:32:30.511Z",
+      "lastScraped": "2026-09-06T11:45:22.121Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6215,7 +6256,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-06T09:32:32.235Z",
+      "lastScraped": "2026-09-06T11:45:23.223Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6272,6 +6313,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788695215143",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Baixo lucro em safra de urucum preocupa produtores da Nova Alta Paulista",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Baixo lucro em safra de urucum preocupa produtores da Nova Alta Paulista Fonte 2: o que muda para os próximos jogos?",
+      "postId": "rss-hash_3a94cda0",
+      "timestamp": "2026-09-06T11:45:23.233Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.9h (+8), Sem postagem há 11.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788687206986",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7db0326c",
+      "views": 0,
+      "date": "2026-09-06T17:26:09.595Z",
+      "title": "Como o GPS, criado para a guerra, moldou o mundo moderno Fonte 2 'Bomba atômica' e 'terremoto político': o que?",
+      "subtitle": "Ao se aproximarem de seu destino, descobriram que estavam em dois lugares diferentes ao mesmo tempo.",
+      "slug": "como-o-gps-criado-para-a-guerra-moldou-o-mundo-moderno-fonte-2-bomba-atomica-e-terremoto-politico-o-que",
+      "content": "O que aconteceu\n\nAo se aproximarem de seu destino, descobriram que estavam em dois lugares diferentes ao mesmo tempo. Seus olhos lhes diziam que estavam chegando ao porto russo de Novorossiysk, na costa norte do Mar Negro.\n\nO que já foi informado\n\nMas o sistema de posicionamento global mostrava que, em vez de navegarem sobre a água, parecia que estavam voando pelos ares. Quando atracaram, o GPS continuava insistindo que seus navios estavam em terra firme, em um aeroporto próximo. Agora no g1 Essa história foi a faísca que levou a jornalista econômica Katherine Dunn a explorar o GPS, essa tecnologia que nos situa em um mapa e cria uma representação do mundo completamente centrada em nós. Ele também nos deu uma nova forma de nos identificar: um pequeno ponto azul que, sem instruções ou manuais, aprendemos a reconhecer como um eu. Logo, tornou-se parte do cotidiano, não apenas como uma ferramenta para saber onde fica um lugar e como chegar até lá, mas também quanto tempo isso levará.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Entretenimento. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que esse fato muda na prática — e qual informação ainda falta para entender todo o cenário?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como o GPS, criado para a guerra, moldou o mundo Store Center",
+      "seoDescription": "Ao se aproximarem de seu destino, descobriram que estavam em dois lugares diferentes ao mesmo tempo.",
+      "keyword": "Como o GPS, criado para a guerra, moldou o mundo moderno Fonte 2 'Bomba atômica' e 'terremoto político': o que imprensa internacional disse sobre mensagens entre Vorcaro e Moraes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/06/como-o-gps-criado-para-a-guerra-moldou-o-mundo-moderno.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/06/como-o-gps-criado-para-a-guerra-moldou-o-mundo-moderno.ghtml",
+        "https://g1.globo.com/mundo/noticia/2026/09/02/bomba-atomica-e-terremoto-politico-o-que-imprensa-internacional-disse-sobre-mensagens-entre-vorcaro-e-moraes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Como o GPS, criado para a guerra, moldou o mundo moderno",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7d19320a",
       "views": 0,
       "date": "2026-09-06T15:43:27.745Z",
@@ -6317,7 +6358,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-06T15:43:16.668Z",
+      "lastScraped": "2026-09-06T17:26:07.751Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6325,7 +6366,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-06T15:43:17.228Z",
+      "lastScraped": "2026-09-06T17:26:08.466Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6338,7 +6379,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-06T13:39:15.622Z",
+      "lastScraped": "2026-09-06T17:26:09.585Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6395,6 +6436,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788715622220",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como o GPS, criado para a guerra, moldou o mundo moderno",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como o GPS, criado para a guerra, moldou o mundo moderno Fonte 2 'Bomba atômica' e 'terremoto político': o que?",
+      "postId": "rss-hash_7db0326c",
+      "timestamp": "2026-09-06T17:26:09.596Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.9h (+8), Sem postagem há 7.9h (+5). Recência: Posição 3 (+5). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 23",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788709493636",
       "feedName": "G1 - Economia",

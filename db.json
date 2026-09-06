@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4149c04e",
+      "views": 0,
+      "date": "2026-09-06T13:39:15.635Z",
+      "title": "Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial Fonte: por que esse movimento importa?",
+      "subtitle": "Economia Congresso aprova MP do fim da taxa das blusinhas O Senado aprovou nesta quinta-feira (3) a medida provisória (MP) que acaba com a taxa das blusinhas.",
+      "slug": "senado-aprova-fim-da-taxa-das-blusinhas-texto-segue-para-sancao-presidencial-fonte-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Congresso aprova MP do fim da taxa das blusinhas O Senado aprovou nesta quinta-feira (3) a medida provisória (MP) que acaba com a taxa das blusinhas. A aprovação se deu por votação simbólica, da mesma maneira que a votação na Câmara dos Deputados, também nesta quinta-feira.\n\nO que já foi informado\n\nO texto segue para sanção presidencial. A medida acaba com a chamada taxa das blusinhas, o imposto de importação de 20% sobre compras internacionais de até US$ 50. Congresso aprova fim da 'taxa das blusinhas': como ficam as compras internacionais de até US$ 50? Taxa das blusinhas: calculadora do g1 mostra quanto você pagaria com ou sem o imposto Avaliação de impacto Na quarta-feira (2), a Comissão Mista para análise da MP aprovou o texto com alterações. A principal delas foi a inclusão de um mecanismo de avaliação nos impactos econômicos da isenção para os setores produtivos brasileiros, como uma forma de mitigação. O presidente da comissão, deputado Reginaldo Lopes (PT-MG), e a relatora, senadora Leila Barros (PDT-DF) Bruno Spada/Câmara dos Deputados A primeira avaliação será após três meses.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Senado aprova fim da 'taxa das blusinhas'; texto segue Store Center",
+      "seoDescription": "Economia Congresso aprova MP do fim da taxa das blusinhas O Senado aprovou nesta quinta-feira (3) a medida provisória (MP) que acaba",
+      "keyword": "Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial Fonte 2 Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade geopolítica'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/03/senado-aprova-fim-da-taxa-das-blusinhas-texto-segue-para-sancao.ghtml",
+      "sourceName": "G1 - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/03/senado-aprova-fim-da-taxa-das-blusinhas-texto-segue-para-sancao.ghtml",
+        "https://g1.globo.com/mundo/noticia/2026/09/03/holanda-tira-toneladas-de-ouro-de-nova-york-e-manda-para-londres-de-olho-em-instabilidade-geopolitica.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3a94cda0",
       "views": 0,
       "date": "2026-09-06T11:45:23.233Z",
@@ -6235,7 +6276,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-06T11:45:21.177Z",
+      "lastScraped": "2026-09-06T13:39:13.229Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6243,7 +6284,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-06T11:45:22.121Z",
+      "lastScraped": "2026-09-06T13:39:13.847Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6256,7 +6297,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-06T11:45:23.223Z",
+      "lastScraped": "2026-09-06T13:39:15.622Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6313,6 +6354,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788702023531",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Senado aprova fim da 'taxa das blusinhas'; texto segue para sanção presidencial Fonte: por que esse movimento importa?",
+      "postId": "rss-hash_4149c04e",
+      "timestamp": "2026-09-06T13:39:15.636Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 39.8h (+8), Sem postagem há 39.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788695215143",
       "feedName": "G1 - Economia",

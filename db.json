@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6323d7ee",
+      "views": 0,
+      "date": "2026-09-06T07:40:10.540Z",
+      "title": "Currículo inovador ajuda a driblar a IA? Veja quando inovar pode atrapalhar a: o que muda para os próximos jogos?",
+      "subtitle": "Economia O designer australiano Felix Toohey cria currículos criativos e personalizados para cada empresa, transformando a candidatura em objetos e experiências inusitadas para chamar a atenção dos recrutadores.",
+      "slug": "curriculo-inovador-ajuda-a-driblar-a-ia-veja-quando-inovar-pode-atrapalhar-a-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia O designer australiano Felix Toohey cria currículos criativos e personalizados para cada empresa, transformando a candidatura em objetos e experiências inusitadas para chamar a atenção dos recrutadores. Morador de Melbourne, Toohey entrega pessoalmente os currículos às empresas onde sonha trabalhar.\n\nO que já foi informado\n\nMas vai além. Em vez de distribuir documentos convencionais, ele cria uma apresentação diferente para cada empresa e transforma o currículo em objetos e experiências pensados para seus potenciais empregadores. No Instagram, ele compartilha algumas das criações com seus seguidores. Em uma das criações mais conhecidas, o currículo foi apresentado em uma bandeja de café. Copos de papel personalizados traziam, em formato de “latte art”, os títulos de cada seção, como formação acadêmica e experiência profissional.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Currículo inovador ajuda a driblar a IA? Veja quando Store Center",
+      "seoDescription": "Economia O designer australiano Felix Toohey cria currículos criativos e personalizados para cada empresa, transformando a candidatur",
+      "keyword": "Currículo inovador ajuda a driblar a IA? Veja quando inovar pode atrapalhar a seleção Fonte 2 Restos de carne, gordura e até ossos que iriam para o lixo viram ração para outros animais no ES",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/06/curriculo-inovador-ajuda-a-driblar-a-ia-veja-quando-inovar-pode-atrapalhar-a-selecao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/06/curriculo-inovador-ajuda-a-driblar-a-ia-veja-quando-inovar-pode-atrapalhar-a-selecao.ghtml",
+        "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/09/06/restos-de-carne-gordura-e-ate-ossos-que-iriam-para-o-lixo-viram-racao-para-outros-animais-no-es.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Currículo inovador ajuda a driblar a IA? Veja quando inovar pode atrapalhar a seleção",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1e388015",
       "views": 0,
       "date": "2026-09-06T04:58:14.490Z",
@@ -6114,7 +6155,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-06T04:58:12.474Z",
+      "lastScraped": "2026-09-06T07:39:59.526Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6122,7 +6163,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-06T04:58:13.462Z",
+      "lastScraped": "2026-09-06T07:40:00.018Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6192,6 +6233,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788680414396",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Currículo inovador ajuda a driblar a IA? Veja quando inovar pode atrapalhar a seleção",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Currículo inovador ajuda a driblar a IA? Veja quando inovar pode atrapalhar a: o que muda para os próximos jogos?",
+      "postId": "rss-hash_6323d7ee",
+      "timestamp": "2026-09-06T07:40:10.541Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.8h (+8), Sem postagem há 7.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1788670738749",
       "feedName": "G1 - Economia",

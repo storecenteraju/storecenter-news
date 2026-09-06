@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_b5ea848",
+      "views": 0,
+      "date": "2026-09-06T21:45:30.399Z",
+      "title": "Aprovação de Trump cai para 33%, menor nível já registrado, com piora na avaliação da economia e do custo de vida",
+      "subtitle": "Economia Análise: Guerra do Irã é a causa da queda na aprovação de Trump, diz Guga Chacra A aprovação do Presidente dos Estados Unidos, Donald Trump, caiu para 33%, o menor nível desde o início do segundo mandato, segundo pesquisa do instituto.",
+      "slug": "aprovacao-de-trump-cai-para-33-menor-nivel-ja-registrado-com-piora-na-avaliacao-da-economia-e-do-custo-de-vida",
+      "content": "O que aconteceu\n\nEconomia Análise: Guerra do Irã é a causa da queda na aprovação de Trump, diz Guga Chacra A aprovação do Presidente dos Estados Unidos, Donald Trump, caiu para 33%, o menor nível desde o início do segundo mandato, segundo pesquisa do instituto Focaldata para o jornal Financial Times divulgada no último sábado (5). O levantamento mostra uma piora na avaliação dos eleitores sobre a economia: quase dois terços dizem que ela está indo na direção errada, enquanto 57% afirmam estar financeiramente pior sob o governo Trump.\n\nO que já foi informado\n\nA aprovação de Trump caiu 3 pontos percentuais em relação ao levantamento anterior. O resultado, de 33%, é o menor registrado desde maio, quando o Financial Times começou a medir a aprovação do presidente nessa série de pesquisas. Até mesmo entre os eleitores republicanos, a aprovação de Trump caiu para 72%, o menor nível de aprovação registrado pelo levantamento nesse grupo ( Gráfico mostra evolução da aprovação de Donald Trump entre maio e setembro de 2026 g1 Economia pesa na avaliação de Trump A percepção sobre a economia aparece como um dos principais pontos de desgaste do presidente.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Aprovação de Trump cai para 33%, menor nível já Store Center",
+      "seoDescription": "Economia Análise: Guerra do Irã é a causa da queda na aprovação de Trump, diz Guga Chacra A aprovação do Presidente dos Estados Unido",
+      "keyword": "Aprovação de Trump cai para 33%, menor nível já registrado, com piora na avaliação da economia e do custo de vida Fonte 2 Dívida dos EUA passa de R$ 200 trilhões. Por que Trump não consegue frear a alta?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/06/aprovacao-de-trump-cai-para-33percent-menor-nivel-ja-registrado-com-piora-na-avaliacao-da-economia-e-do-custo-de-vida.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/06/aprovacao-de-trump-cai-para-33percent-menor-nivel-ja-registrado-com-piora-na-avaliacao-da-economia-e-do-custo-de-vida.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/06/divida-dos-eua-passa-de-r-200-trilhoes-por-que-trump-nao-consegue-frear-a-alta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Aprovação de Trump cai para 33%, menor nível já registrado, com piora na avaliação da economia e do custo de vida",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_63ff7e92",
       "views": 0,
       "date": "2026-09-06T19:20:42.292Z",
@@ -6399,7 +6440,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-06T19:20:40.897Z",
+      "lastScraped": "2026-09-06T21:45:19.903Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6407,7 +6448,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-06T19:20:41.248Z",
+      "lastScraped": "2026-09-06T21:45:20.224Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6477,6 +6518,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788731170812",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Aprovação de Trump cai para 33%, menor nível já registrado, com piora na avaliação da economia e do custo de vida",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Aprovação de Trump cai para 33%, menor nível já registrado, com piora na avaliação da economia e do custo de vida",
+      "postId": "rss-hash_b5ea848",
+      "timestamp": "2026-09-06T21:45:30.400Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.0h (+8), Sem postagem há 6.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Nacional",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788722485101",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2e03458e",
+      "views": 0,
+      "date": "2026-09-07T18:56:02.352Z",
+      "title": "Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade: por que esse movimento importa?",
+      "subtitle": "O Banco Central da Holanda (DNB) informou na quarta-feira (2) que transferiu uma grande parte de reservas de ouro da América do Norte para Londres ao longo dos últimos seis meses.",
+      "slug": "holanda-tira-toneladas-de-ouro-dos-eua-e-manda-para-londres-de-olho-em-instabilidade-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nO Banco Central da Holanda (DNB) informou na quarta-feira (2) que transferiu uma grande parte de reservas de ouro da América do Norte para Londres ao longo dos últimos seis meses. O objetivo é estar mais bem preparado para uma eventual crise.\n\nO que já foi informado\n\nSiga o canal de notícias internacionais do g1 no WhatsApp A transferência envolveu aproximadamente 86 toneladas métricas, equivalentes a 27,5% do ouro que o DNB mantinha anteriormente em Nova York, nos Estados Unidos, e Ottawa, no Canadá, para os cofres do Banco da Inglaterra. Isso significa que a maior parte das reservas de ouro do país agora está armazenada nos cofres do Banco da Inglaterra, em Londres. A operação não alterou o volume total das reservas de ouro holandesas, que permanecem em 612,4 toneladas. \"Tendo em vista a crescente instabilidade geopolítica, o DNB está reforçando seu plano de contingência para crises\", afirmou o banco. Agora no g1 \"O ouro mantido no Banco da Inglaterra é considerado o ouro mais facilmente negociável do mundo e, portanto, será o mais prontamente disponível em uma situação de crise\", acrescentou. Até então, pouco mais de 31% das reservas de ouro da Holanda estavam armazenadas em Nova York.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Holanda tira toneladas de ouro dos EUA e manda para Store Center",
+      "seoDescription": "O Banco Central da Holanda (DNB) informou na quarta-feira (2) que transferiu uma grande parte de reservas de ouro da América do Norte para Londres ao",
+      "keyword": "Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade geopolítica' Fonte 2 Comissão aprova fim da 'taxa das blusinhas'; medida segue para votação no plenário da Câmara",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/09/03/holanda-tira-toneladas-de-ouro-de-nova-york-e-manda-para-londres-de-olho-em-instabilidade-geopolitica.ghtml",
+      "sourceName": "G1 - Economia + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/09/03/holanda-tira-toneladas-de-ouro-de-nova-york-e-manda-para-londres-de-olho-em-instabilidade-geopolitica.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/09/02/comissao-aprova-fim-da-taxa-das-blusinhas-medida-segue-para-votacao-no-plenario-da-camara.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade geopolítica'",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_218d2732",
       "views": 0,
       "date": "2026-09-07T17:53:30.222Z",
@@ -6723,7 +6764,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-07T17:53:19.720Z",
+      "lastScraped": "2026-09-07T18:56:01.003Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6731,7 +6772,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-07T17:53:20.082Z",
+      "lastScraped": "2026-09-07T18:56:01.532Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6744,7 +6785,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-07T15:48:19.201Z",
+      "lastScraped": "2026-09-07T18:56:02.336Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6801,6 +6842,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788807392645",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade geopolítica'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Holanda tira toneladas de ouro dos EUA e manda para Londres de olho em 'instabilidade: por que esse movimento importa?",
+      "postId": "rss-hash_2e03458e",
+      "timestamp": "2026-09-07T18:56:02.352Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.3h (+8), Sem postagem há 29.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788803678068",
       "feedName": "G1 - Economia",

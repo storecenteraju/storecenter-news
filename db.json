@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_218d2732",
+      "views": 0,
+      "date": "2026-09-07T17:53:30.222Z",
+      "title": "Restos de carne, gordura e até ossos que iriam para o lixo viram ração para: por que isso importa para a economia?",
+      "subtitle": "Economia Restos de carne se transformam em alimentos para animais em fazendas no ES.",
+      "slug": "restos-de-carne-gordura-e-ate-ossos-que-iriam-para-o-lixo-viram-racao-para-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Restos de carne se transformam em alimentos para animais em fazendas no ES. O que para muitos é considerado apenas descarte, para o setor de reciclagem animal é matéria-prima valiosa.\n\nO que já foi informado\n\nDiariamente, toneladas de resíduos de carne, gordura e ossos que não servem para o consumo humano são transformadas em ingredientes essenciais para a fabricação de rações agrícolas no Espírito Santo. E esse ciclo de reaproveitamento conecta diretamente uma indústria de processamento em Fundão, na Região Metropolitana de Vitória, à produtividade de granjas em Santa Maria de Jetibá, na Região Serrana do estado. Na granja da avicultora Jerusa Sthur, quase 100 mil galinhas produzem cerca de 2,7 milhões de ovos por mês. A produção é vendida diretamente para estados como Minas Gerais e Rio de Janeiro. Para garantir a qualidade final dos ovos, as galinhas recebem alimentação que é reposta oito vezes ao dia. Isso tudo para que alimento não falte e a ração esteja sempre à disposição dos animais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Restos de carne, gordura e até ossos que iriam para o Store Center",
+      "seoDescription": "Economia Restos de carne se transformam em alimentos para animais em fazendas no ES.",
+      "keyword": "Restos de carne, gordura e até ossos que iriam para o lixo viram ração para outros animais no ES Fonte 2 Mega-Sena pode pagar R$ 48 milhões neste domingo; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/09/06/restos-de-carne-gordura-e-ate-ossos-que-iriam-para-o-lixo-viram-racao-para-outros-animais-no-es.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/es/espirito-santo/agronegocios/noticia/2026/09/06/restos-de-carne-gordura-e-ate-ossos-que-iriam-para-o-lixo-viram-racao-para-outros-animais-no-es.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/06/mega-sena-pode-pagar-r-48-milhoes-neste-domingo-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Restos de carne, gordura e até ossos que iriam para o lixo viram ração para outros animais no ES",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_40435e75",
       "views": 0,
       "date": "2026-09-07T15:48:19.217Z",
@@ -6682,7 +6723,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-07T15:48:17.386Z",
+      "lastScraped": "2026-09-07T17:53:19.720Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6690,7 +6731,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-07T15:48:18.272Z",
+      "lastScraped": "2026-09-07T17:53:20.082Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6760,6 +6801,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788803678068",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Restos de carne, gordura e até ossos que iriam para o lixo viram ração para outros animais no ES",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Restos de carne, gordura e até ossos que iriam para o lixo viram ração para: por que isso importa para a economia?",
+      "postId": "rss-hash_218d2732",
+      "timestamp": "2026-09-07T17:53:30.222Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.8h (+8), Sem postagem há 12.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788796156579",
       "feedName": "G1 - Economia",

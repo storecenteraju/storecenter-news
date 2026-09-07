@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6deb6120",
+      "views": 0,
+      "date": "2026-09-07T07:58:06.463Z",
+      "title": "Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil: o que está em jogo no mercado?",
+      "subtitle": "Stellantis A Stellantis, dona da marca RAM e Fiat, anunciou um recall no Brasil para a RAM 1500 por problemas nos cintos de segurança.",
+      "slug": "possivel-falha-nos-cintos-de-seguranca-provoca-recall-da-ram-1500-no-brasil-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nStellantis A Stellantis, dona da marca RAM e Fiat, anunciou um recall no Brasil para a RAM 1500 por problemas nos cintos de segurança. O g1 já havia adiantado em julho que o mesmo problema atingiu 1,5 milhão de unidades da picape na América do Norte.\n\nO que já foi informado\n\nSegundo comunicado da empresa, \"foi identificada a possibilidade de falha na fixação dos cintos de segurança do banco traseiro, que pode, eventualmente, ocasionar a falta de retenção dos ocupantes do veículo em caso de frenagem brusca ou acidente, consequentemente, potencializando a ocorrência de danos materiais, físicos ou até mesmo fatais\". A orientação aos proprietários das 5.810 unidades envolvidas no recall é entrar em contato com uma concessionária RAM e agendar a verificação. Se necessário, será feita a fixação correta dos cintos de segurança para o banco traseiro. Segundo a Stellantis, os serviços de inspeção e eventual reparo são gratuitos e levam 30 minutos para serem concluídos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Possível falha nos cintos de segurança provoca recall Store Center",
+      "seoDescription": "Stellantis A Stellantis, dona da marca RAM e Fiat, anunciou um recall no Brasil para a RAM 1500 por problemas nos cintos de segurança.",
+      "keyword": "Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/02/recall-ram-1500-no-brasil.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/02/recall-ram-1500-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_4f0eb53a",
       "views": 0,
       "date": "2026-09-07T05:05:43.632Z",
@@ -6522,7 +6561,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-07T05:05:32.222Z",
+      "lastScraped": "2026-09-07T07:58:04.731Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6530,7 +6569,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-07T05:05:33.122Z",
+      "lastScraped": "2026-09-07T07:58:05.443Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6543,7 +6582,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-06T23:54:32.836Z",
+      "lastScraped": "2026-09-07T07:58:06.452Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6600,6 +6639,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788767919282",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Possível falha nos cintos de segurança provoca recall da RAM 1500 no Brasil: o que está em jogo no mercado?",
+      "postId": "rss-hash_6deb6120",
+      "timestamp": "2026-09-07T07:58:06.464Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 34.2h (+8), Sem postagem há 34.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Política",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788757573321",
       "feedName": "G1 - Economia",

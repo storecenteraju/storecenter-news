@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_319969c2",
+      "views": 0,
+      "date": "2026-09-08T19:59:14.254Z",
+      "title": "Ex-banqueiro suíço admite pagar R$ 500 milhões em propina e recebe pena de 2 anos: o que está em jogo no mercado?",
+      "subtitle": "Economia Operação do MP prende ex-número 3 da Fazenda de SP e advogado em operação contra esquema de propina Pierre Mirabaud, de 77 anos, ex-sócio do banco privado suíço Mirabaud Cie e ex-presidente da associação dos bancos da Suíça, pagou.",
+      "slug": "ex-banqueiro-suico-admite-pagar-r-500-milhoes-em-propina-e-recebe-pena-de-2-anos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Operação do MP prende ex-número 3 da Fazenda de SP e advogado em operação contra esquema de propina Pierre Mirabaud, de 77 anos, ex-sócio do banco privado suíço Mirabaud Cie e ex-presidente da associação dos bancos da Suíça, pagou US$ 101,7 milhões (R$ 518,67 milhões) em propina a um funcionário do governo do Kuwait. O suíço recebeu nesta terça-feira (8) pena de dois anos de prisão, mas não precisará cumprir a sentença.\n\nO que já foi informado\n\nSegundo a acusação do Ministério Público Federal da Suíça, Mirabaud fez centenas de pagamentos a um funcionário do governo do Kuwait entre 2000 e 2012. Em troca, o funcionário teria levado US$ 595,2 milhões (R$ 3,035 bilhões) em negócios para o banco. A acusação afirma que Mirabaud sabia dos riscos relacionados aos pagamentos e aceitava as possíveis consequências caso o esquema fosse descoberto. O julgamento no Tribunal Penal Federal da Suíça, em Bellinzona, durou apenas meio dia. Mirabaud aceitou os principais fatos apresentados no caso, que envolve corrupção e lavagem de dinheiro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ex-banqueiro suíço admite pagar R$ 500 milhões em Store Center",
+      "seoDescription": "Economia Operação do MP prende ex-número 3 da Fazenda de SP e advogado em operação contra esquema de propina Pierre Mirabaud, de 77 a",
+      "keyword": "Ex-banqueiro suíço admite pagar R$ 500 milhões em propina e recebe pena de 2 anos Fonte 2 Receita barra R$ 1 bilhão em pedidos suspeitos de salário-maternidade",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/08/ex-banqueiro-suico-admite-pagar-r-500-milhoes-em-propina-e-recebe-pena-de-2-anos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/08/ex-banqueiro-suico-admite-pagar-r-500-milhoes-em-propina-e-recebe-pena-de-2-anos.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/08/receita-barra-r-1-bilhao-em-pedidos-suspeitos-de-salario-maternidade.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ex-banqueiro suíço admite pagar R$ 500 milhões em propina e recebe pena de 2 anos",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3fecd810",
       "views": 0,
       "date": "2026-09-08T18:12:35.624Z",
@@ -7169,7 +7210,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T18:12:33.769Z",
+      "lastScraped": "2026-09-08T19:59:02.949Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7177,7 +7218,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T18:12:34.469Z",
+      "lastScraped": "2026-09-08T19:59:03.728Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7247,6 +7288,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788897593644",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ex-banqueiro suíço admite pagar R$ 500 milhões em propina e recebe pena de 2 anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ex-banqueiro suíço admite pagar R$ 500 milhões em propina e recebe pena de 2 anos: o que está em jogo no mercado?",
+      "postId": "rss-hash_319969c2",
+      "timestamp": "2026-09-08T19:59:14.254Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.1h (+8), Sem postagem há 10.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1788891240561",
       "feedName": "G1 - Economia",

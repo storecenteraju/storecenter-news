@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_17d7ac8b",
+      "views": 0,
+      "date": "2026-09-08T22:02:45.993Z",
+      "title": "Comissão aprova prazo para repasse de recursos a candidaturas de mulheres negras e indígenas: o que pode mudar agora?",
+      "subtitle": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados aprovou projeto que obriga partidos e federações a garantirem que os recursos do Fundo Especial de Financiamento de Campanha (FEFC) e do Fundo Partidário destinados às.",
+      "slug": "comissao-aprova-prazo-para-repasse-de-recursos-a-candidaturas-de-mulheres-negras-e-indigenas-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados aprovou projeto que obriga partidos e federações a garantirem que os recursos do Fundo Especial de Financiamento de Campanha (FEFC) e do Fundo Partidário destinados às candidaturas de mulheres negras e indígenas sejam repassados até a primeira quinzena de setembro do ano eleitoral. O descumprimento poderá levar à suspensão da transferência de parcelas futuras, conforme regras do Tribunal Superior Eleitoral (TSE).\n\nO que já foi informado\n\nAs regras atuais do TSE estabelecem 8 de setembro de 2026 como data-limite para os partidos distribuírem os recursos do FEFC e do Fundo Partidário destinados às candidaturas de mulheres, pessoas negras e indígenas. Foi aprovado o substitutivo da relatora, deputada Célia Xakriabá (Psol-MG), ao Projeto de Lei 6661/25, do deputado Amom Mandel (Republicanos-AM), e apensado. A versão original previa apenas a proteção a candidaturas de mulheres negras, mas o novo texto ampliou a medida às mulheres indígenas. \"Não há razão para tratar das candidaturas de mulheres negras sem assegurar as mesmas garantias às mulheres indígenas\", pontuou a deputada.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Comissão aprova prazo para repasse de recursos a Store Center",
+      "seoDescription": "A Comissão de Direitos Humanos, Minorias e Igualdade Racial da Câmara dos Deputados aprovou projeto que obriga partidos e federações a garantirem que",
+      "keyword": "Comissão aprova prazo para repasse de recursos a candidaturas de mulheres negras e indígenas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1302918-comissao-aprova-prazo-para-repasse-de-recursos-a-candidaturas-de-mulheres-negras-e-indigenas",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1302918-comissao-aprova-prazo-para-repasse-de-recursos-a-candidaturas-de-mulheres-negras-e-indigenas"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Comissão aprova prazo para repasse de recursos a candidaturas de mulheres negras e indígenas",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_319969c2",
       "views": 0,
       "date": "2026-09-08T19:59:14.254Z",
@@ -7210,7 +7249,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T19:59:02.949Z",
+      "lastScraped": "2026-09-08T22:02:44.629Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7218,7 +7257,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T19:59:03.728Z",
+      "lastScraped": "2026-09-08T22:02:44.951Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7231,7 +7270,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-08T18:12:35.609Z",
+      "lastScraped": "2026-09-08T22:02:45.978Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7288,6 +7327,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788905011104",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Comissão aprova prazo para repasse de recursos a candidaturas de mulheres negras e indígenas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Comissão aprova prazo para repasse de recursos a candidaturas de mulheres negras e indígenas: o que pode mudar agora?",
+      "postId": "rss-hash_17d7ac8b",
+      "timestamp": "2026-09-08T22:02:45.993Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.4h (+8), Sem postagem há 25.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788897593644",
       "feedName": "G1 - Economia",

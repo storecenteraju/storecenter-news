@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_77132511",
+      "views": 0,
+      "date": "2026-09-08T14:29:51.690Z",
+      "title": "Grindr aceita pagar R$ 180 milhões para encerrar ação no Reino Unido por: por que isso importa para a economia?",
+      "subtitle": "O aplicativo de relacionamentos Grindr concordou em pagar 26 milhões de libras (R$ 180 milhões em conversão direta) para encerrar uma ação judicial promovida por milhares de usuários no Reino Unido, segundo The Guardian.",
+      "slug": "grindr-aceita-pagar-r-180-milhoes-para-encerrar-acao-no-reino-unido-por-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO aplicativo de relacionamentos Grindr concordou em pagar 26 milhões de libras (R$ 180 milhões em conversão direta) para encerrar uma ação judicial promovida por milhares de usuários no Reino Unido, segundo The Guardian. O processo acusava a empresa de compartilhar dados pessoais altamente sensíveis com empresas de , incluindo, em alguns casos, o status de HIV dos cadastrados.\n\nO que já foi informado\n\nA decisão encerra uma disputa judicial de dois anos iniciada em abril de 2024, quando um escritório de advocacia entrou com a ação na Alta Corte da Inglaterra e do País de Gales. A queixa representava 12 mil pessoas afetadas por violações das leis de privacidade britânicas em períodos que vão até o início de 2020. Caso o valor seja distribuído igualmente, cada representado receberá uma média de 2.167 libras (R$ 15 mil). Agora no g1 O acordo estabelece que a empresa pagará metade do valor total até o fim deste ano e a outra metade até o final de março de 2027. Em comunicado a órgãos reguladores dos Estados Unidos, a plataforma informou ter resolvido a ação coletiva referente a práticas adotadas antes de 2020, época em que pertenceu à empresa chinesa de jogos Beijing Kunlun Tech, segundo The Guardian.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Grindr aceita pagar R$ 180 milhões para encerrar ação Store Center",
+      "seoDescription": "O aplicativo de relacionamentos Grindr concordou em pagar 26 milhões de libras (R$ 180 milhões em conversão direta) para encerrar uma ação judicial pr",
+      "keyword": "Grindr aceita pagar R$ 180 milhões para encerrar ação no Reino Unido por vazamento de dados, diz jornal",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/08/grindr-aceita-acordo-reino-unido.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/08/grindr-aceita-acordo-reino-unido.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Grindr aceita pagar R$ 180 milhões para encerrar ação no Reino Unido por vazamento de dados, diz jornal",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_33c51ae6",
       "views": 0,
       "date": "2026-09-08T12:18:08.202Z",
@@ -7050,7 +7089,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T12:18:06.502Z",
+      "lastScraped": "2026-09-08T14:29:50.347Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7058,7 +7097,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T12:18:07.210Z",
+      "lastScraped": "2026-09-08T14:29:50.868Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7071,7 +7110,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-08T12:18:08.189Z",
+      "lastScraped": "2026-09-08T14:29:51.680Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7128,6 +7167,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788877861599",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Grindr aceita pagar R$ 180 milhões para encerrar ação no Reino Unido por vazamento de dados, diz jornal",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Grindr aceita pagar R$ 180 milhões para encerrar ação no Reino Unido por: por que isso importa para a economia?",
+      "postId": "rss-hash_77132511",
+      "timestamp": "2026-09-08T14:29:51.690Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 45.1h (+8), Sem postagem há 45.1h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1788869972567",
       "feedName": "G1 - Economia",

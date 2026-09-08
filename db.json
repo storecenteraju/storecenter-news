@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_33c51ae6",
+      "views": 0,
+      "date": "2026-09-08T12:18:08.202Z",
+      "title": "Trend dos anos 80: o que muda para usuários e empresas?",
+      "subtitle": "(Veja abaixo como fazer a sua). As imagens começaram a ser compartilhadas principalmente nos Stories do Instagram, mas a trend cresceu e, agora, chegou ao feed.",
+      "slug": "trend-dos-anos-80-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\n(Veja abaixo como fazer a sua). As imagens começaram a ser compartilhadas principalmente nos Stories do Instagram, mas a trend cresceu e, agora, chegou ao feed.\n\nO que já foi informado\n\nAs fotos têm sido geradas por ferramentas de inteligência artificial, como o ChatGPT e o Gemini. No Instagram, além de uma figurinha nos Stories, há pelo menos 21 mil publicações com a hashtag \"trendanos80\". Segundo o Google, a busca pelo termo \"trend anos 80\" aumentou 5.000% em comparação com a semana passada. Vários artistas e famosos também entraram na onda, como Ana Maria Braga, Jorge e Mateus, Virginia, Fernanda Paes Leme, Patrícia Poeta e Sabrina Sato, entre outros. .\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trend dos anos 80: o que muda para usuários e empresas? Store Center",
+      "seoDescription": "(Veja abaixo como fazer a sua). As imagens começaram a ser compartilhadas principalmente nos Stories do Instagram, mas a trend cresceu e, agora, chego",
+      "keyword": "Trend dos anos 80: saiba como criar sua foto com visual da época usando IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/08/trend-dos-anos-80-saiba-como-criar-sua-foto-com-visual-da-epoca-usando-ia.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/08/trend-dos-anos-80-saiba-como-criar-sua-foto-com-visual-da-epoca-usando-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Trend dos anos 80: saiba como criar sua foto com visual da época usando IA",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_3cf6b2f1",
       "views": 0,
       "date": "2026-09-08T09:53:02.485Z",
@@ -7011,7 +7050,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T09:53:00.940Z",
+      "lastScraped": "2026-09-08T12:18:06.502Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7019,7 +7058,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T09:53:01.503Z",
+      "lastScraped": "2026-09-08T12:18:07.210Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7032,7 +7071,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-08T09:53:02.470Z",
+      "lastScraped": "2026-09-08T12:18:08.189Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7089,6 +7128,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788869972567",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trend dos anos 80: saiba como criar sua foto com visual da época usando IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trend dos anos 80: o que muda para usuários e empresas?",
+      "postId": "rss-hash_33c51ae6",
+      "timestamp": "2026-09-08T12:18:08.202Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 42.9h (+8), Sem postagem há 42.9h (+5). Recência: Posição 3 (+5). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1788861226974",
       "feedName": "G1 - Economia",

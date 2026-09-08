@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3cf6b2f1",
+      "views": 0,
+      "date": "2026-09-08T09:53:02.485Z",
+      "title": "Ainda restam cinco feriados nacionais em 2026: por que esse movimento importa?",
+      "subtitle": "Economia Feriadão à vista: falta uma semana para o próximo feriado prolongado Depois do feriado da Independência do Brasil, celebrado em 7 de setembro, na última segunda-feira, o próximo feriado nacional será em 12 de outubro, quando são.",
+      "slug": "ainda-restam-cinco-feriados-nacionais-em-2026-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Feriadão à vista: falta uma semana para o próximo feriado prolongado Depois do feriado da Independência do Brasil, celebrado em 7 de setembro, na última segunda-feira, o próximo feriado nacional será em 12 de outubro, quando são comemorados o Dia de Nossa Senhora Aparecida, padroeira do Brasil, e o Dia das Crianças. Até o fim de 2026, o calendário ainda reserva cinco feriados nacionais.\n\nO que já foi informado\n\nDesses, quatro podem ser emendados com o fim de semana, criando oportunidades para períodos prolongados de descanso (veja o calendário abaixo). O feriado voltará a cair em uma segunda-feira, garantindo um fim de semana prolongado de três dias para quem não trabalha aos sábados e domingos. Mesmo nos feriados nacionais, porém, nem todos os trabalhadores têm folga. A legislação permite o funcionamento de serviços essenciais e de outras atividades autorizadas a operar nessas datas. Nesses casos, quem trabalhar no feriado pode ter direito a remuneração em dobro ou folga compensatória, conforme as regras aplicáveis.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ainda restam cinco feriados nacionais em 2026: por que Store Center",
+      "seoDescription": "Economia Feriadão à vista: falta uma semana para o próximo feriado prolongado Depois do feriado da Independência do Brasil, celebrado",
+      "keyword": "Ainda restam cinco feriados nacionais em 2026; confira as datas Fonte 2 Petróleo sobe a US$ 97 e bate maior valor em seis semanas após escalada da guerra entre EUA e Irã",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/08/ainda-restam-cinco-feriados-nacionais-em-2026-confira-as-datas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/08/ainda-restam-cinco-feriados-nacionais-em-2026-confira-as-datas.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/07/petroleo-sobe-a-us-97-e-bate-maior-valor-em-seis-semanas-apos-escalada-da-guerra-entre-eua-e-ira.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ainda restam cinco feriados nacionais em 2026; confira as datas",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_2a6d1763",
       "views": 0,
       "date": "2026-09-08T07:51:13.443Z",
@@ -6970,7 +7011,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T07:51:12.229Z",
+      "lastScraped": "2026-09-08T09:53:00.940Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6978,7 +7019,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T07:51:12.728Z",
+      "lastScraped": "2026-09-08T09:53:01.503Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6991,7 +7032,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-08T07:51:13.426Z",
+      "lastScraped": "2026-09-08T09:53:02.470Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7048,6 +7089,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788861226974",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ainda restam cinco feriados nacionais em 2026; confira as datas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ainda restam cinco feriados nacionais em 2026: por que esse movimento importa?",
+      "postId": "rss-hash_3cf6b2f1",
+      "timestamp": "2026-09-08T09:53:02.486Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1788853934668",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_446d9a07",
+      "views": 0,
+      "date": "2026-09-08T00:25:19.960Z",
+      "title": "Trump ameaça impedir Bombardier de vender aviões nos EUA se empresa canadense não: por que esse movimento importa?",
+      "subtitle": "Economia Canadá anuncia tarifas sobre 700 produtos americanos em retaliação ao tarifaço de Trump O presidente dos Estados Unidos, Donald Trump, ameaçou nesta segunda-feira (7) impedir a Bombardier, fabricante de aviões com sede no Canadá, de.",
+      "slug": "trump-ameaca-impedir-bombardier-de-vender-avioes-nos-eua-se-empresa-canadense-nao-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Canadá anuncia tarifas sobre 700 produtos americanos em retaliação ao tarifaço de Trump O presidente dos Estados Unidos, Donald Trump, ameaçou nesta segunda-feira (7) impedir a Bombardier, fabricante de aviões com sede no Canadá, de vender aeronaves no mercado americano caso a empresa não passe a produzir no país. A declaração é mais um episódio da guerra comercial entre Washington e Ottawa e da estratégia de Trump de pressionar empresas a fabricar nos Estados Unidos.\n\nO que já foi informado\n\n“Não haverá mais vendas da Bombardier nos Estados Unidos! Os produtos deles não são bons o suficiente! ”, escreveu Trump em uma publicação na rede Truth Social. Segundo o presidente, se a empresa quiser acessar o mercado americano, terá de produzir seus aviões nos EUA. A Casa Branca não informou como a ameaça seria colocada em prática nem quais medidas seriam adotadas. A Bombardier também não havia comentado a declaração.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump ameaça impedir Bombardier de vender aviões nos Store Center",
+      "seoDescription": "Economia Canadá anuncia tarifas sobre 700 produtos americanos em retaliação ao tarifaço de Trump O presidente dos Estados Unidos, Don",
+      "keyword": "Trump ameaça impedir Bombardier de vender aviões nos EUA se empresa canadense não passar a produzir no país Fonte 2 Petróleo sobe a US$ 97 e bate maior valor em seis semanas após escalada da guerra entre EUA e Irã",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/07/trump-ameaca-impedir-bombardier-de-vender-avioes-nos-eua-se-empresa-canadense-nao-passar-a-produzir-no-pais.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/07/trump-ameaca-impedir-bombardier-de-vender-avioes-nos-eua-se-empresa-canadense-nao-passar-a-produzir-no-pais.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/07/petroleo-sobe-a-us-97-e-bate-maior-valor-em-seis-semanas-apos-escalada-da-guerra-entre-eua-e-ira.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Trump ameaça impedir Bombardier de vender aviões nos EUA se empresa canadense não passar a produzir no país",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_671efb97",
       "views": 0,
       "date": "2026-09-07T22:16:58.343Z",
@@ -6847,7 +6888,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-07T22:16:47.333Z",
+      "lastScraped": "2026-09-08T00:25:18.240Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -6855,7 +6896,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-07T22:16:47.815Z",
+      "lastScraped": "2026-09-08T00:25:18.989Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -6868,7 +6909,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-07T20:40:43.769Z",
+      "lastScraped": "2026-09-08T00:25:19.945Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -6925,6 +6966,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788827131115",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump ameaça impedir Bombardier de vender aviões nos EUA se empresa canadense não passar a produzir no país",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump ameaça impedir Bombardier de vender aviões nos EUA se empresa canadense não: por que esse movimento importa?",
+      "postId": "rss-hash_446d9a07",
+      "timestamp": "2026-09-08T00:25:19.960Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1788819492328",
       "feedName": "G1 - Economia",

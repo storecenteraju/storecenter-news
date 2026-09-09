@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_79c9ff99",
+      "views": 0,
+      "date": "2026-09-09T09:56:24.673Z",
+      "title": "Infestação de mosca-do-estábulo provoca mortes de animais e causa prejuízos a: o que muda para usuários e empresas?",
+      "subtitle": "Economia Rebanho sofre com o ataque da mosca do estábulo Pecuaristas do noroeste de São Paulo enfrentam uma grave crise provocada por uma forte infestação de mosca-do-estábulo.",
+      "slug": "infestacao-de-mosca-do-estabulo-provoca-mortes-de-animais-e-causa-prejuizos-a-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Rebanho sofre com o ataque da mosca do estábulo Pecuaristas do noroeste de São Paulo enfrentam uma grave crise provocada por uma forte infestação de mosca-do-estábulo. O inseto, que ataca o gado para se alimentar de sangue, deixa os animais bastante debilitados e pode até matá-los, gerando prejuízos expressivos para os produtores locais.\n\nO que já foi informado\n\nNa propriedade do criador Marcos Rogério Bordignon, localizada no município de Tanabi, o inseto não tem dado sossego nas últimas semanas. \"Os animais vão ficando fracos, perdendo peso ... . Você nota que estão pálidos porque a mosca suga muito sangue. Eles vão ficando anêmicos\", relata Bordignon. O produtor já registrou a perda de 14 animais por causa dos ataques das moscas, o que representa um prejuízo de R$ 70 mil.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Infestação de mosca-do-estábulo provoca mortes de Store Center",
+      "seoDescription": "Economia Rebanho sofre com o ataque da mosca do estábulo Pecuaristas do noroeste de São Paulo enfrentam uma grave crise provocada por",
+      "keyword": "Infestação de mosca-do-estábulo provoca mortes de animais e causa prejuízos a pecuaristas em SP Fonte 2 Promoções de 9.9: como evitar problemas nas compras em 'datas duplas' das lojas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/09/09/infestacao-de-mosca-do-estabulo-provoca-mortes-de-animais-e-causa-prejuizos-a-pecuaristas-em-sp.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/09/09/infestacao-de-mosca-do-estabulo-provoca-mortes-de-animais-e-causa-prejuizos-a-pecuaristas-em-sp.ghtml",
+        "https://g1.globo.com/guia/guia-de-compras/promocoes-de-99-como-evitar-problemas-nas-compras-em-datas-duplas-das-lojas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Infestação de mosca-do-estábulo provoca mortes de animais e causa prejuízos a pecuaristas em SP",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7bcb0e9a",
       "views": 0,
       "date": "2026-09-09T07:54:24.390Z",
@@ -7372,7 +7413,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-09T07:54:13.894Z",
+      "lastScraped": "2026-09-09T09:56:23.235Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7380,7 +7421,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-09T07:54:14.138Z",
+      "lastScraped": "2026-09-09T09:56:23.771Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7393,7 +7434,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-09T00:15:09.551Z",
+      "lastScraped": "2026-09-09T09:56:24.664Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7450,6 +7491,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788947802257",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Infestação de mosca-do-estábulo provoca mortes de animais e causa prejuízos a pecuaristas em SP",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Infestação de mosca-do-estábulo provoca mortes de animais e causa prejuízos a: o que muda para usuários e empresas?",
+      "postId": "rss-hash_79c9ff99",
+      "timestamp": "2026-09-09T09:56:24.674Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.0h (+8), Sem postagem há 14.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788940529387",
       "feedName": "G1 - Economia",

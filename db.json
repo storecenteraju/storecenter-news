@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7bcb0e9a",
+      "views": 0,
+      "date": "2026-09-09T07:54:24.390Z",
+      "title": "Indústrias e grandes empresas vão investir R$ 1,1 bi em expansão e novos negócios em: o que está em jogo no mercado?",
+      "subtitle": "Economia 20 empresas devem atrair R$ 1,1 bi em investimentos privados para São Mateus A cidade de São Mateus, no Norte do Espírito Santo, se prepara para receber mais de R$ 1,1 bilhão em investimentos.",
+      "slug": "industrias-e-grandes-empresas-vao-investir-r-1-1-bi-em-expansao-e-novos-negocios-em-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia 20 empresas devem atrair R$ 1,1 bi em investimentos privados para São Mateus A cidade de São Mateus, no Norte do Espírito Santo, se prepara para receber mais de R$ 1,1 bilhão em investimentos. São mais de novas 20 empresas que vão se instalar no polo industrial que existe no município, com expectativa de gerar mais de mil empregos diretos.\n\nO que já foi informado\n\nOs investimentos privados preveem a expansão e abertura de novos negócios na região, especialmente voltados para o setor industrial. O anúncio foi feito pela prefeitura no último sábado (5). De acordo com a administração municipal, o movimento busca consolidar a cidade como um dos principais motores econômicos do Espírito Santo, abrangendo setores estratégicos como logística, infraestrutura, indústria pesada e energia. No anúncio, a prefeitura detalhou a distribuição dos recursos e destacou a preparação da cidade para o novo ciclo de crescimento, conforme as diretrizes apresentadas pelas autoridades locais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Indústrias e grandes empresas vão investir R$ 1,1 bi em Store Center",
+      "seoDescription": "Economia 20 empresas devem atrair R$ 1,1 bi em investimentos privados para São Mateus A cidade de São Mateus, no Norte do Espírito Sa",
+      "keyword": "Indústrias e grandes empresas vão investir R$ 1,1 bi em expansão e novos negócios em São Mateus Fonte 2 Promoções de 9.9: como evitar problemas nas compras em 'datas duplas' das lojas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/norte-noroeste-es/noticia/2026/09/09/industrias-e-grandes-empresas-vao-investir-r-11-bi-em-expansao-e-novos-negocios-em-sao-mateus.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/es/espirito-santo/norte-noroeste-es/noticia/2026/09/09/industrias-e-grandes-empresas-vao-investir-r-11-bi-em-expansao-e-novos-negocios-em-sao-mateus.ghtml",
+        "https://g1.globo.com/guia/guia-de-compras/promocoes-de-99-como-evitar-problemas-nas-compras-em-datas-duplas-das-lojas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Indústrias e grandes empresas vão investir R$ 1,1 bi em expansão e novos negócios em São Mateus",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_f2aec5f",
       "views": 0,
       "date": "2026-09-09T05:02:26.510Z",
@@ -7331,7 +7372,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-09T05:02:15.399Z",
+      "lastScraped": "2026-09-09T07:54:13.894Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7339,7 +7380,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-09T05:02:15.987Z",
+      "lastScraped": "2026-09-09T07:54:14.138Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7409,6 +7450,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788940529387",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Indústrias e grandes empresas vão investir R$ 1,1 bi em expansão e novos negócios em São Mateus",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Indústrias e grandes empresas vão investir R$ 1,1 bi em expansão e novos negócios em: o que está em jogo no mercado?",
+      "postId": "rss-hash_7bcb0e9a",
+      "timestamp": "2026-09-09T07:54:24.390Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.9h (+8), Sem postagem há 11.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788930189539",
       "feedName": "G1 - Economia",

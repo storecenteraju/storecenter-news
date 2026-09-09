@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e971043",
+      "views": 0,
+      "date": "2026-09-09T00:15:09.563Z",
+      "title": "iPhone 18: Apple deve lançar celular dobrável nesta quarta Fonte 2 Elon Musk: o que muda para usuários e empresas?",
+      "subtitle": "Economia iPhone 18: Apple deve lançar celular dobrável nesta quarta Novo celular deve ter tamanho próximo ao de um passaporte quando fechado e semelhante a um tablet quando aberto.",
+      "slug": "iphone-18-apple-deve-lancar-celular-dobravel-nesta-quarta-fonte-2-elon-musk-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia iPhone 18: Apple deve lançar celular dobrável nesta quarta Novo celular deve ter tamanho próximo ao de um passaporte quando fechado e semelhante a um tablet quando aberto. Fonte 2 — G1 - Economia Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA Um documentário de quase quatro horas sobre Elon Musk estreou nesta terça-feira (8) no Festival de Cinema de Veneza sem a participação do bilionário.\n\nO que já foi informado\n\nDirigido pelo americano Alex Gibney, “Musk” usa inteligência artificial para criar uma versão do empresário e acompanha sua trajetória da tecnologia à política. O filme também aborda a aproximação do bilionário com Donald Trump e a influência que passou a exercer na política americana. O trailer de 48 segundos alterna imagens de naves espaciais e equipamentos ligados à exploração espacial com depoimentos que refletem a polarização em torno de Musk. \"Ele é possivelmente o maior inventor vivo. Ele é o Homem de Ferro da vida real. Ele é um dos maiores construtores de todos os tempos\", diz uma das falas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "iPhone 18: Apple deve lançar celular dobrável nesta Store Center",
+      "seoDescription": "Economia iPhone 18: Apple deve lançar celular dobrável nesta quarta Novo celular deve ter tamanho próximo ao de um passaporte quando",
+      "keyword": "iPhone 18: Apple deve lançar celular dobrável nesta quarta Fonte 2 Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ao-vivo/apple-lancamento-iphone-18.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ao-vivo/apple-lancamento-iphone-18.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/08/musk-documentario-de-4-horas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "iPhone 18: Apple deve lançar celular dobrável nesta quarta",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_17d7ac8b",
       "views": 0,
       "date": "2026-09-08T22:02:45.993Z",
@@ -7249,7 +7290,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-08T22:02:44.629Z",
+      "lastScraped": "2026-09-09T00:15:07.595Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7257,7 +7298,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-08T22:02:44.951Z",
+      "lastScraped": "2026-09-09T00:15:08.453Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7270,7 +7311,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-08T22:02:45.978Z",
+      "lastScraped": "2026-09-09T00:15:09.551Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7327,6 +7368,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788912979247",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "iPhone 18: Apple deve lançar celular dobrável nesta quarta",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "iPhone 18: Apple deve lançar celular dobrável nesta quarta Fonte 2 Elon Musk: o que muda para usuários e empresas?",
+      "postId": "rss-hash_7e971043",
+      "timestamp": "2026-09-09T00:15:09.563Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.8h (+8), Sem postagem há 9.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788905011104",
       "feedName": "Agência Câmara - Política",

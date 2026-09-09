@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_46a74912",
+      "views": 0,
+      "date": "2026-09-09T19:54:01.608Z",
+      "title": "Apple lança iPhone dobrável de R$ 30.999 e web reage: o que muda para usuários e empresas?",
+      "subtitle": "Apple A Apple apresentou nesta quarta-feira (9) o iPhone Duo, seu primeiro celular dobrável, além dos novos iPhone 18 Pro e iPhone 18 Pro Max.",
+      "slug": "apple-lanca-iphone-dobravel-de-r-30-999-e-web-reage-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nApple A Apple apresentou nesta quarta-feira (9) o iPhone Duo, seu primeiro celular dobrável, além dos novos iPhone 18 Pro e iPhone 18 Pro Max. A empresa também anunciou os AirPods 5 e novos modelos do Apple Watch.\n\nO que já foi informado\n\nNo Brasil, os novos iPhones custarão entre R$ 11.999 e R$ 30.999, dependendo da versão e da capacidade de armazenamento. O iPhone 18 Pro com 256 GB é a opção mais acessível da nova geração, enquanto o iPhone Duo com 2 TB ocupa o topo da tabela de preços. Considerando todas as versões anunciadas, o preço médio dos novos iPhones fica em torno de R$ 19,4 mil. O valor elevado e o formato dobrável do iPhone Duo, que tem preço inicial de R$ 21.999 no país, rapidamente viraram alvo de piadas e memes nas redes sociais. Em sua sede em Cupertino, na Califórnia, o evento em que revela os modelos da linha iPhone 18.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple lança iPhone dobrável de R$ 30.999 e web reage: o Store Center",
+      "seoDescription": "Apple A Apple apresentou nesta quarta-feira (9) o iPhone Duo, seu primeiro celular dobrável, além dos novos iPhone 18 Pro e iPhone 18 Pro Max.",
+      "keyword": "Apple lança iPhone dobrável de R$ 30.999 e web reage; veja memes Fonte 2 Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/09/iphone-18-memes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/iphone-18-memes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple lança iPhone dobrável de R$ 30.999 e web reage; veja memes",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1c5616b9",
       "views": 0,
       "date": "2026-09-09T18:12:42.166Z",
@@ -7577,7 +7618,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-09T18:12:39.719Z",
+      "lastScraped": "2026-09-09T19:53:59.987Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7585,7 +7626,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-09T18:12:40.561Z",
+      "lastScraped": "2026-09-09T19:54:00.773Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7598,7 +7639,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-09T18:12:42.153Z",
+      "lastScraped": "2026-09-09T19:54:01.598Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7655,6 +7696,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788983667123",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple lança iPhone dobrável de R$ 30.999 e web reage; veja memes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple lança iPhone dobrável de R$ 30.999 e web reage: o que muda para usuários e empresas?",
+      "postId": "rss-hash_46a74912",
+      "timestamp": "2026-09-09T19:54:01.609Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.4h (+8), Sem postagem há 29.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788977642778",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_f2aec5f",
+      "views": 0,
+      "date": "2026-09-09T05:02:26.510Z",
+      "title": "Apple deve lançar primeiro iPhone dobrável nesta quarta; relembre as mudanças de: o que muda para usuários e empresas?",
+      "subtitle": "Mike Segar A Apple deve anunciar nesta quarta-feira (9) uma das maiores mudanças no iPhone em anos. Segundo fontes da Bloomberg e do jornal \"The New York Times\", a empresa deve lançar seu primeiro celular dobrável.",
+      "slug": "apple-deve-lancar-primeiro-iphone-dobravel-nesta-quarta-relembre-as-mudancas-de-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nMike Segar A Apple deve anunciar nesta quarta-feira (9) uma das maiores mudanças no iPhone em anos. Segundo fontes da Bloomberg e do jornal \"The New York Times\", a empresa deve lançar seu primeiro celular dobrável.\n\nO que já foi informado\n\nA expectativa é que o modelo seja apresentado no evento da Apple marcado para esta quarta-feira (9), a partir das 14h (horário de Brasília). A empresa também deverá apresentar outros modelos da linha iPhone 18. Em 2024, o site de tecnologia \"The Information\" já havia noticiado que a Apple poderia lançar um modelo dobrável em 2026. Com o novo modelo, a Apple seguiria um movimento iniciado anos antes por concorrentes como a Samsung, que entrou no mercado de celulares dobráveis em 2019. Agora no g1 Na época, o \"The Information\" afirmou que a Apple buscava fornecedores na Ásia para fabricar componentes do aparelho e havia dado ao projeto o codinome interno V68. Até o momento, a empresa não se pronunciou sobre os rumores.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple deve lançar primeiro iPhone dobrável nesta Store Center",
+      "seoDescription": "Mike Segar A Apple deve anunciar nesta quarta-feira (9) uma das maiores mudanças no iPhone em anos. Segundo fontes da Bloomberg e do jornal \"The New Y",
+      "keyword": "Apple deve lançar primeiro iPhone dobrável nesta quarta; relembre as mudanças de gerações passadas Fonte 2 Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/09/apple-deve-lancar-primeiro-iphone-dobravel-nesta-quarta.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/apple-deve-lancar-primeiro-iphone-dobravel-nesta-quarta.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/08/musk-documentario-de-4-horas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple deve lançar primeiro iPhone dobrável nesta quarta; relembre as mudanças de gerações passadas",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7e971043",
       "views": 0,
       "date": "2026-09-09T00:15:09.563Z",
@@ -7290,7 +7331,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-09T00:15:07.595Z",
+      "lastScraped": "2026-09-09T05:02:15.399Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7298,7 +7339,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-09T00:15:08.453Z",
+      "lastScraped": "2026-09-09T05:02:15.987Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7368,6 +7409,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788930189539",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple deve lançar primeiro iPhone dobrável nesta quarta; relembre as mudanças de gerações passadas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple deve lançar primeiro iPhone dobrável nesta quarta; relembre as mudanças de: o que muda para usuários e empresas?",
+      "postId": "rss-hash_f2aec5f",
+      "timestamp": "2026-09-09T05:02:26.510Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.5h (+8), Sem postagem há 14.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788912979247",
       "feedName": "G1 - Economia",

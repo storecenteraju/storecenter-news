@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_90c02f3",
+      "views": 0,
+      "date": "2026-09-09T14:30:56.605Z",
+      "title": "Operação nacional resgata quase 500 trabalhadores em situação análoga à escravidão em: o que está em jogo no mercado?",
+      "subtitle": "Economia Wellyngton Souza/Sesp-MT.",
+      "slug": "operacao-nacional-resgata-quase-500-trabalhadores-em-situacao-analoga-a-escravidao-em-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Wellyngton Souza/Sesp-MT. A Operação Resgate VI, força-tarefa nacional de combate ao trabalho análogo à escravidão e ao tráfico de pessoas, resgatou 479 trabalhadores submetidos a condições análogas à escravidão durante ações realizadas em agosto em todo o país.\n\nO que já foi informado\n\nEntre os trabalhadores resgatados, 404 eram homens (84,4%) e 75, mulheres (15,6%). Além disso, a operação identificou 15 crianças e adolescentes em situação de trabalho infantil. Desse total, 13 também estavam submetidos a condições análogas à escravidão. Também foram identificados 66 trabalhadores migrantes de países como Argentina, Uruguai, Paraguai, Bolívia, Venezuela, Burkina Faso, Senegal e Guiné-Bissau. A operação ocorreu entre 1º e 31 de agosto e realizou 231 ações de fiscalização. A força-tarefa foi coordenada por auditores-fiscais da Secretaria de Inspeção do Trabalho (SIT), do Ministério do Trabalho e Emprego (MTE), com a participação do Ministério Público do Trabalho (MPT), do Ministério Público Federal (MPF), da Defensoria Pública da União (DPU) e da Polícia Federal (PF).\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Operação nacional resgata quase 500 trabalhadores em Store Center",
+      "seoDescription": "Economia Wellyngton Souza/Sesp-MT.",
+      "keyword": "Operação nacional resgata quase 500 trabalhadores em situação análoga à escravidão em agosto Fonte 2 Etanol do posto pode receber corante verde e gosto amargo para não ser usado em bebidas falsas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/09/operacao-nacional-resgata-trabalhadores-em-situacao-analoga-a-escravidao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/09/operacao-nacional-resgata-trabalhadores-em-situacao-analoga-a-escravidao.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/09/anp-medidas-etanol-combustivel-em-bebidas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Operação nacional resgata quase 500 trabalhadores em situação análoga à escravidão em agosto",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_2fccedbf",
       "views": 0,
       "date": "2026-09-09T12:29:26.603Z",
@@ -7454,7 +7495,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-09T12:29:25.166Z",
+      "lastScraped": "2026-09-09T14:30:54.596Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7462,7 +7503,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-09T12:29:25.769Z",
+      "lastScraped": "2026-09-09T14:30:55.391Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7475,7 +7516,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-09T12:29:26.591Z",
+      "lastScraped": "2026-09-09T14:30:56.596Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7532,6 +7573,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1788964275086",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Operação nacional resgata quase 500 trabalhadores em situação análoga à escravidão em agosto",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Operação nacional resgata quase 500 trabalhadores em situação análoga à escravidão em: o que está em jogo no mercado?",
+      "postId": "rss-hash_90c02f3",
+      "timestamp": "2026-09-09T14:30:56.606Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.5h (+8), Sem postagem há 18.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788957045144",
       "feedName": "G1 - Economia",

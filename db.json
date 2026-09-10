@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5b433175",
+      "views": 0,
+      "date": "2026-09-10T17:58:06.053Z",
+      "title": "Nubank começa a oferecer serviços financeiros nos EUA: o que está em jogo no mercado?",
+      "subtitle": "O anúncio foi feito pelo presidente-executivo David Vélez e pela cofundadora e presidente-executiva do Nubank nos EUA, Cristina Junqueira, durante um evento em Miami.",
+      "slug": "nubank-comeca-a-oferecer-servicos-financeiros-nos-eua-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO anúncio foi feito pelo presidente-executivo David Vélez e pela cofundadora e presidente-executiva do Nubank nos EUA, Cristina Junqueira, durante um evento em Miami. O Nubank firmou parceria com o Lead Bank para oferecer a Nu Account, que rende 3,50% ao ano sobre os dólares depositados.\n\nO que já foi informado\n\nOs recursos ficam depositados no Lead Bank, membro da Federal Deposit Insurance Corporation (FDIC), órgão que garante depósitos bancários nos Estados Unidos dentro dos limites previstos pela legislação local. A conta também inclui cartão de débito, ferramentas para separar valores destinados à poupança, pagamento de contas e transferências locais e internacionais. Inicialmente, as remessas poderão ser feitas para Brasil, México e Colômbia.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nubank começa a oferecer serviços financeiros nos EUA Store Center",
+      "seoDescription": "O anúncio foi feito pelo presidente-executivo David Vélez e pela cofundadora e presidente-executiva do Nubank nos EUA, Cristina Junqueira, durante um",
+      "keyword": "Nubank começa a oferecer serviços financeiros nos EUA; veja como vai funcionar Fonte 2 Presidente da GM confirma para novembro a produção do Chevrolet Captiva híbrido no Ceará",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/10/nubank-inicia-servicos-nos-eua-por-conta-poupanca-cartoes-e-remessa.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/10/nubank-inicia-servicos-nos-eua-por-conta-poupanca-cartoes-e-remessa.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/10/chevrolet-captiva-phev-ceara-producao.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Nubank começa a oferecer serviços financeiros nos EUA; veja como vai funcionar",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_11c3d08f",
       "views": 0,
       "date": "2026-09-10T16:38:49.223Z",
@@ -7946,7 +7987,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T16:38:47.732Z",
+      "lastScraped": "2026-09-10T17:57:55.551Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7954,7 +7995,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T16:38:48.096Z",
+      "lastScraped": "2026-09-10T17:57:55.826Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8024,6 +8065,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789063149116",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nubank começa a oferecer serviços financeiros nos EUA; veja como vai funcionar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nubank começa a oferecer serviços financeiros nos EUA: o que está em jogo no mercado?",
+      "postId": "rss-hash_5b433175",
+      "timestamp": "2026-09-10T17:58:06.053Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1789058410693",
       "feedName": "G1 - Economia",

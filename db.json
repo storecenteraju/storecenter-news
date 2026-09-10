@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1a5f9448",
+      "views": 0,
+      "date": "2026-09-10T07:53:58.558Z",
+      "title": "Capinha de novo iPhone dobrável chama atenção pelo preço: o que muda para usuários e empresas?",
+      "subtitle": "Apple Além do iPhone Duo, celular dobrável que custa até R$ 30.999, a Apple lançou na quarta-feira (9) novas capinhas que também chamaram atenção pelos preços, que chegam a R$ 1.299.",
+      "slug": "capinha-de-novo-iphone-dobravel-chama-atencao-pelo-preco-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nApple Além do iPhone Duo, celular dobrável que custa até R$ 30.999, a Apple lançou na quarta-feira (9) novas capinhas que também chamaram atenção pelos preços, que chegam a R$ 1.299. O modelo mais caro conta com um suporte para apoiar o iPhone Duo na horizontal, mas não permite usar a tela externa do aparelho.\n\nO que já foi informado\n\nDisponível nas cores azul-marinho e cinza-castanho, o acessório é fabricado com o TechWoven, um acabamento em tecido exclusivo da empresa, e se conecta ao celular por meio de ímãs. Em seu site, a Apple diz que a capinha passou por milhares de horas de testes para garantir proteção contra quedas e arranhões. Esse modelo tem um dos lados vazados, um visual projetado para o uso da tela externa. O acessório, que será vendido nas cores azul-marinho e areia, tem acabamento em policarbonato e também se integra ao iPhone Duo atravéss de ímãs. A Apple lançou ainda novas versões das alças transversais e de pulso para as versões convencionais do iPhone. Elas serão vendidas por R$ 559 e R$ 299.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Capinha de novo iPhone dobrável chama atenção pelo Store Center",
+      "seoDescription": "Apple Além do iPhone Duo, celular dobrável que custa até R$ 30.999, a Apple lançou na quarta-feira (9) novas capinhas que também chamaram atenção pelo",
+      "keyword": "Capinha de novo iPhone dobrável chama atenção pelo preço; veja detalhes Fonte 2 Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/10/capinha-de-novo-iphone-dobravel-chama-atencao-pelo-preco-veja-detalhes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/capinha-de-novo-iphone-dobravel-chama-atencao-pelo-preco-veja-detalhes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Capinha de novo iPhone dobrável chama atenção pelo preço; veja detalhes",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5ef57d95",
       "views": 0,
       "date": "2026-09-10T05:05:17.691Z",
@@ -7741,7 +7782,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T05:05:06.511Z",
+      "lastScraped": "2026-09-10T07:53:56.919Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7749,7 +7790,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T05:05:07.178Z",
+      "lastScraped": "2026-09-10T07:53:57.403Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7762,7 +7803,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T00:15:03.380Z",
+      "lastScraped": "2026-09-10T07:53:58.547Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7819,6 +7860,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789026859870",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Capinha de novo iPhone dobrável chama atenção pelo preço; veja detalhes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Capinha de novo iPhone dobrável chama atenção pelo preço: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1a5f9448",
+      "timestamp": "2026-09-10T07:53:58.559Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 41.4h (+8), Sem postagem há 41.4h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Nacional",
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1789016737404",
       "feedName": "G1 - Economia",

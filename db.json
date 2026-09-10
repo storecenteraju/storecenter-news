@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4300e7ab",
+      "views": 0,
+      "date": "2026-09-10T14:22:50.428Z",
+      "title": "Fim do desconto da Petrobras: como ficam os preços da gasolina? Fonte 2: por que isso importa para a economia?",
+      "subtitle": "A Petrobras deixará de aplicar o desconto de R$ 0,44 por litro na gasolina A vendida às distribuidoras a partir desta quinta-feira (10).",
+      "slug": "fim-do-desconto-da-petrobras-como-ficam-os-precos-da-gasolina-fonte-2-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nA Petrobras deixará de aplicar o desconto de R$ 0,44 por litro na gasolina A vendida às distribuidoras a partir desta quinta-feira (10). Com isso, o preço médio de venda da gasolina A da Petrobras para as distribuidoras passará a R$ 3,05 por litro.\n\nO que já foi informado\n\nSegundo a estatal, mesmo com o fim do desconto, o combustível deve ficar mais barato por conta da redução de R$ 0,63 nos tributos federais anunciada pelo governo, medida que também entra em vigor nesta quinta-feira. ( Segundo os dados mais recentes da Agência Nacional do Petróleo, Gás Natural e Biocombustíveis (ANP), coletados entre 30 de agosto e 5 de setembro, o preço médio da gasolina no Brasil era de R$ 6,51 por litro. No mesmo intervalo, o diesel S-10 custava, em média, R$ 6,88 por litro, enquanto o etanol hidratado era vendido a R$ 3,95 por litro. Gasolina A é a gasolina pura vendida pelas refinarias às distribuidoras, antes da mistura com etanol. Após a adição do etanol anidro, ela se transforma na gasolina C, vendida nos postos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fim do desconto da Petrobras: como ficam os preços da Store Center",
+      "seoDescription": "A Petrobras deixará de aplicar o desconto de R$ 0,44 por litro na gasolina A vendida às distribuidoras a partir desta quinta-feira (10).",
+      "keyword": "Fim do desconto da Petrobras: como ficam os preços da gasolina? Fonte 2 Conflito no Oriente Médio pode encarecer produtos e pressionar inflação, diz CEO da Nestlé",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/10/fim-do-desconto-da-petrobras-como-ficam-os-precos-da-gasolina.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/10/fim-do-desconto-da-petrobras-como-ficam-os-precos-da-gasolina.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/10/ceo-da-nestle-diz-que-conflito-no-oriente-medio-provoca-inflacao-e-eleva-custos-de-fornecedores.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Fim do desconto da Petrobras: como ficam os preços da gasolina?",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_26268fc3",
       "views": 0,
       "date": "2026-09-10T12:23:16.365Z",
@@ -7864,7 +7905,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T12:23:13.981Z",
+      "lastScraped": "2026-09-10T14:22:49.064Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7872,7 +7913,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T12:23:15.311Z",
+      "lastScraped": "2026-09-10T14:22:49.585Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7885,7 +7926,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T12:23:16.352Z",
+      "lastScraped": "2026-09-10T14:22:50.414Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7942,6 +7983,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789050208517",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fim do desconto da Petrobras: como ficam os preços da gasolina?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fim do desconto da Petrobras: como ficam os preços da gasolina? Fonte 2: por que isso importa para a economia?",
+      "postId": "rss-hash_4300e7ab",
+      "timestamp": "2026-09-10T14:22:50.428Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.4h (+8), Sem postagem há 16.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1789043066245",
       "feedName": "G1 - Economia",

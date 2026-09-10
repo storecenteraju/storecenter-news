@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_11c3d08f",
+      "views": 0,
+      "date": "2026-09-10T16:38:49.223Z",
+      "title": "Ford do Brasil faz recall de Ranger por falha no escape; reparo será feito só: por que isso importa para a economia?",
+      "subtitle": "Ford A Ford anunciou nesta quinta (10) um recall para as Ranger, modelo 2026, equipadas com motor 3.0.",
+      "slug": "ford-do-brasil-faz-recall-de-ranger-por-falha-no-escape-reparo-sera-feito-so-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nFord A Ford anunciou nesta quinta (10) um recall para as Ranger, modelo 2026, equipadas com motor 3.0. A convocação ocorre devido a um problema no tubo cruzado de escape do motor, que pode apresentar vazamento de gás sem aviso prévio ao motorista por causa de uma falha no aperto das porcas de fixação.\n\nO que já foi informado\n\nSegundo a empresa, o defeito pode fazer com que os níveis de emissões atmosféricas ultrapassem os limites previstos. Em situações mais críticas, a falha pode gerar ruído incomum no motor, odor de gases de escapamento e acendimento da luz de advertência no painel. O reparo prevê a inspeção do componente e, se houver necessidade, o reaperto das porcas e a substituição gratuita das juntas do tubo cruzado de escape. O tempo estimado para a execução do serviço é de cerca de seis horas, com possibilidade de variação de acordo com o fluxo da concessionária. Agora no g1 A campanha abrange os veículos produzidos entre 9 de dezembro de 2025 e 5 de março de 2026, com os oito últimos dígitos do chassi compreendidos entre TJ024093 e TJ045379.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ford do Brasil faz recall de Ranger por falha no Store Center",
+      "seoDescription": "Ford A Ford anunciou nesta quinta (10) um recall para as Ranger, modelo 2026, equipadas com motor 3.0.",
+      "keyword": "Ford do Brasil faz recall de Ranger por falha no escape; reparo será feito só em 2027 Fonte 2 Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta quinta-feira",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/10/ford-brasil-recall-ranger-escape.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/10/ford-brasil-recall-ranger-escape.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/10/caixa-entra-em-greve-nacional-e-banco-do-brasil-tem-paralisacao-parcial-a-partir-desta-quinta-feira.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ford do Brasil faz recall de Ranger por falha no escape; reparo será feito só em 2027",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_4300e7ab",
       "views": 0,
       "date": "2026-09-10T14:22:50.428Z",
@@ -7905,7 +7946,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T14:22:49.064Z",
+      "lastScraped": "2026-09-10T16:38:47.732Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7913,7 +7954,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T14:22:49.585Z",
+      "lastScraped": "2026-09-10T16:38:48.096Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7926,7 +7967,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T14:22:50.414Z",
+      "lastScraped": "2026-09-10T16:38:49.205Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7983,6 +8024,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789058410693",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ford do Brasil faz recall de Ranger por falha no escape; reparo será feito só em 2027",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ford do Brasil faz recall de Ranger por falha no escape; reparo será feito só: por que isso importa para a economia?",
+      "postId": "rss-hash_11c3d08f",
+      "timestamp": "2026-09-10T16:38:49.224Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.8h (+8), Sem postagem há 6.8h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1789050208517",
       "feedName": "G1 - Economia",

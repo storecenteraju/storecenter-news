@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_26268fc3",
+      "views": 0,
+      "date": "2026-09-10T12:23:16.365Z",
+      "title": "iOS 27 turbinado com IA será liberado na próxima segunda: o que muda para os próximos jogos?",
+      "subtitle": "Economia iPhone Duo: Apple lança seu primeiro celular dobrável A Apple anunciou na terça-feira (9) que o iOS 27, novo sistema operacional dos iPhones, será lançado na próxima segunda-feira (14) para todos os modelos compatíveis.",
+      "slug": "ios-27-turbinado-com-ia-sera-liberado-na-proxima-segunda-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia iPhone Duo: Apple lança seu primeiro celular dobrável A Apple anunciou na terça-feira (9) que o iOS 27, novo sistema operacional dos iPhones, será lançado na próxima segunda-feira (14) para todos os modelos compatíveis. (Veja abaixo).\n\nO que já foi informado\n\nO anúncio foi feito no mesmo dia em que a empresa apresentou o iPhone Duo, seu primeiro celular dobrável, além dos novos iPhones 18 Pro e 18 Pro Max. . Entre as mudanças visuais do iOS, a Apple apresentou uma nova versão do Liquid Glass, efeito translúcido inspirado em vidro que aparece em elementos da interface, como notificações, botões e barras de comando. O novo iOS 27 será compatível com iPhones a partir do SE de 2ª geração. Os ícones dos aplicativos, como Mapas e Safari, também foram atualizados e passaram a incorporar mais características do Liquid Glass, com maior destaque para os efeitos de transparência e reflexo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "iOS 27 turbinado com IA será liberado na próxima Store Center",
+      "seoDescription": "Economia iPhone Duo: Apple lança seu primeiro celular dobrável A Apple anunciou na terça-feira (9) que o iOS 27, novo sistema operaci",
+      "keyword": "iOS 27 turbinado com IA será liberado na próxima segunda; veja iPhones compatíveis Fonte 2 Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/10/ios-27-turbinado-com-ia-sera-liberado-na-proxima-segunda-veja-iphones-compativeis.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/ios-27-turbinado-com-ia-sera-liberado-na-proxima-segunda-veja-iphones-compativeis.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "iOS 27 turbinado com IA será liberado na próxima segunda; veja iPhones compatíveis",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_409012f2",
       "views": 0,
       "date": "2026-09-10T09:53:31.376Z",
@@ -7823,7 +7864,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T09:53:29.854Z",
+      "lastScraped": "2026-09-10T12:23:13.981Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7831,7 +7872,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T09:53:30.399Z",
+      "lastScraped": "2026-09-10T12:23:15.311Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7844,7 +7885,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T09:53:31.364Z",
+      "lastScraped": "2026-09-10T12:23:16.352Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7901,6 +7942,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789043066245",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "iOS 27 turbinado com IA será liberado na próxima segunda; veja iPhones compatíveis",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "iOS 27 turbinado com IA será liberado na próxima segunda: o que muda para os próximos jogos?",
+      "postId": "rss-hash_26268fc3",
+      "timestamp": "2026-09-10T12:23:16.366Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 45.9h (+8), Sem postagem há 45.9h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1789034052846",
       "feedName": "G1 - Economia",

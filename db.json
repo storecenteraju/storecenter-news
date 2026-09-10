@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_230edd7a",
+      "views": 0,
+      "date": "2026-09-10T19:53:21.599Z",
+      "title": "Quatro meses após encerrar as atividades, Rádio Eldorado está de volta Fonte 2 Nova CNH: como isso afeta a população?",
+      "subtitle": "Economia Agora no g1 A Rádio Eldorado voltará ao ar em 7 de outubro, quatro meses após encerrar suas transmissões em FM.",
+      "slug": "quatro-meses-apos-encerrar-as-atividades-radio-eldorado-esta-de-volta-fonte-2-nova-cnh-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 A Rádio Eldorado voltará ao ar em 7 de outubro, quatro meses após encerrar suas transmissões em FM. A emissora passará a operar na frequência 107,9 FM.\n\nO que já foi informado\n\nA nova operação terá patrocínio da Porto, empresa que atua nos setores de seguros, serviços financeiros, mobilidade e saúde. A companhia comprou os naming rights da emissora, ou seja, o direito de associar sua marca ao nome da rádio. Apesar disso, a Porto decidiu manter a marca Eldorado, sem alterar o nome da emissora. Entre as novidades está um programa apresentado pela jornalista Juliana Wallauer, uma das criadoras do Mamilos Podcast, às 19h. O Jornal Eldorado também retorna, com Haisem Abaki entre os âncoras. A programação ainda terá o retorno de atrações como Som a Pino, Fim de Tarde e Bike Repórter.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quatro meses após encerrar as atividades, Rádio Store Center",
+      "seoDescription": "Economia Agora no g1 A Rádio Eldorado voltará ao ar em 7 de outubro, quatro meses após encerrar suas transmissões em FM.",
+      "keyword": "Quatro meses após encerrar as atividades, Rádio Eldorado está de volta Fonte 2 Nova CNH: brasileiros economizaram quase R$ 10 bilhões com novas regras",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/10/apos-quatro-meses-radio-eldorado-volta-ao-ar.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/10/apos-quatro-meses-radio-eldorado-volta-ao-ar.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/10/nova-cnh-economia-novas-regras.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Quatro meses após encerrar as atividades, Rádio Eldorado está de volta",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5b433175",
       "views": 0,
       "date": "2026-09-10T17:58:06.053Z",
@@ -7987,7 +8028,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T17:57:55.551Z",
+      "lastScraped": "2026-09-10T19:53:19.105Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7995,7 +8036,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T17:57:55.826Z",
+      "lastScraped": "2026-09-10T19:53:19.981Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8008,7 +8049,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T16:38:49.205Z",
+      "lastScraped": "2026-09-10T19:53:21.588Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8065,6 +8106,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789070063509",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quatro meses após encerrar as atividades, Rádio Eldorado está de volta",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quatro meses após encerrar as atividades, Rádio Eldorado está de volta Fonte 2 Nova CNH: como isso afeta a população?",
+      "postId": "rss-hash_230edd7a",
+      "timestamp": "2026-09-10T19:53:21.600Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789063149116",
       "feedName": "G1 - Economia",

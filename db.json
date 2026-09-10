@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5ef57d95",
+      "views": 0,
+      "date": "2026-09-10T05:05:17.691Z",
+      "title": "g1 20 anos: férias na Lua, robôs e IA substituindo o celular podem fazer parte: o que muda para usuários e empresas?",
+      "subtitle": "Economia Como será a tecnologia até 2046?",
+      "slug": "g1-20-anos-ferias-na-lua-robos-e-ia-substituindo-o-celular-podem-fazer-parte-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Como será a tecnologia até 2046? Robôs, IA e até férias na Lua podem fazer parte do futuro Orkut, Twitter, a expansão da internet banda larga, Walkman, celulares com câmera digital e CyberShot estavam entre os temas que dominavam o noticiário de tecnologia em 2006, ano em que o g1 foi criado.\n\nO que já foi informado\n\nVinte anos depois, muita coisa mudou. Hoje, falamos de inteligência artificial, assistimos a praticamente qualquer conteúdo pela internet e vivemos cercados por redes sociais e seus algoritmos. Para os próximos anos, podemos esperar avanços que até pouco tempo pareciam distantes, como novas viagens à Lua e robôs atuando como assistentes pessoais dentro e fora de casa. No vídeo especial acima, veja os temas que podem moldar o futuro da tecnologia e da inovação nos próximos anos — e que você poderá acompanhar no g1. Para entender o que esperar do futuro, o g1 conversou com Ronaldo Lemos, fundador e diretor do Instituto de Tecnologia e Sociedade do Rio de Janeiro (ITS-Rio) e especialista em tecnologia e inovação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "g1 20 anos: férias na Lua, robôs e IA substituindo o Store Center",
+      "seoDescription": "Economia Como será a tecnologia até 2046?",
+      "keyword": "g1 20 anos: férias na Lua, robôs e IA substituindo o celular podem fazer parte da sua vida até 2046 Fonte 2 Capinha de novo iPhone dobrável chama atenção pelo preço; veja detalhes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/10/g1-20-anos-como-fica-a-tecnologia.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/g1-20-anos-como-fica-a-tecnologia.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/capinha-de-novo-iphone-dobravel-chama-atencao-pelo-preco-veja-detalhes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "g1 20 anos: férias na Lua, robôs e IA substituindo o celular podem fazer parte da sua vida até 2046",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3926985a",
       "views": 0,
       "date": "2026-09-10T00:15:03.393Z",
@@ -7700,7 +7741,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T00:15:01.965Z",
+      "lastScraped": "2026-09-10T05:05:06.511Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7708,7 +7749,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T00:15:02.345Z",
+      "lastScraped": "2026-09-10T05:05:07.178Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7778,6 +7819,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789016737404",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "g1 20 anos: férias na Lua, robôs e IA substituindo o celular podem fazer parte da sua vida até 2046",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "g1 20 anos: férias na Lua, robôs e IA substituindo o celular podem fazer parte: o que muda para usuários e empresas?",
+      "postId": "rss-hash_5ef57d95",
+      "timestamp": "2026-09-10T05:05:17.691Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 38.6h (+8), Sem postagem há 38.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1788999375059",
       "feedName": "G1 - Economia",

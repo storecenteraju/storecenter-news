@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_409012f2",
+      "views": 0,
+      "date": "2026-09-10T09:53:31.376Z",
+      "title": "ES terá um dos menores trechos de rodovia federal do Brasil com a inauguração da: o que está em jogo no mercado?",
+      "subtitle": "Economia Início do novo trecho da BR-447, que vai ligar a BR-101 até a Rodovia Leste-Oeste Fernando Madeira/Rede Gazeta Um novo trecho da BR-447 no Espírito Santo deve ser inaugurado até dezembro deste ano, segundo o governo federal.",
+      "slug": "es-tera-um-dos-menores-trechos-de-rodovia-federal-do-brasil-com-a-inauguracao-da-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Início do novo trecho da BR-447, que vai ligar a BR-101 até a Rodovia Leste-Oeste Fernando Madeira/Rede Gazeta Um novo trecho da BR-447 no Espírito Santo deve ser inaugurado até dezembro deste ano, segundo o governo federal. Com 4,3 quilômetros de extensão, a via será um dos menores trechos de rodovia federal de todo o país.\n\nO que já foi informado\n\nO investimento total é de R$ 236 milhões, com recursos da União. O trecho a ser entregue pelo Departamento Nacional de Infraestrutura de Transportes (Dnit) vai ligar a BR-101, nos limites entre Cariacica e Viana, próximo à antiga Braspérola, até a Rodovia estadual Leste-Oeste, ainda em Cariacica, próximo ao novo Hospital Geral. A previsão de inauguração para este ano ainda é do ministro dos Transportes, George Santoro, que informou que o governo federal ainda aguarda a saída de sete famílias de áreas de risco, em um processo que envolve desapropriações, para que a via seja concluída. \"Com elas cumprindo o prazo determinado pela Justiça, a gente consegue entregar a rodovia em dezembro deste ano\", afirmou Santoro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "ES terá um dos menores trechos de rodovia federal do Store Center",
+      "seoDescription": "Economia Início do novo trecho da BR-447, que vai ligar a BR-101 até a Rodovia Leste-Oeste Fernando Madeira/Rede Gazeta Um novo trech",
+      "keyword": "ES terá um dos menores trechos de rodovia federal do Brasil com a inauguração da BR-447; veja ranking nacional Fonte 2 Volkswagen prepara van com ‘espírito de Kombi’ para o Brasil em parceria com gigante chinesa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/noticia/2026/09/10/es-tera-um-dos-menores-trechos-de-rodovia-federal-do-brasil-com-a-inauguracao-da-br-447-veja-ranking-nacional.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/es/espirito-santo/noticia/2026/09/10/es-tera-um-dos-menores-trechos-de-rodovia-federal-do-brasil-com-a-inauguracao-da-br-447-veja-ranking-nacional.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/08/volkswagen-prepara-nova-van-para-o-brasil-em-parceria-com-gigante-chinesa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "ES terá um dos menores trechos de rodovia federal do Brasil com a inauguração da BR-447; veja ranking nacional",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1a5f9448",
       "views": 0,
       "date": "2026-09-10T07:53:58.558Z",
@@ -7782,7 +7823,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-10T07:53:56.919Z",
+      "lastScraped": "2026-09-10T09:53:29.854Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -7790,7 +7831,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-10T07:53:57.403Z",
+      "lastScraped": "2026-09-10T09:53:30.399Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -7803,7 +7844,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-10T07:53:58.547Z",
+      "lastScraped": "2026-09-10T09:53:31.364Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -7860,6 +7901,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789034052846",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "ES terá um dos menores trechos de rodovia federal do Brasil com a inauguração da BR-447; veja ranking nacional",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "ES terá um dos menores trechos de rodovia federal do Brasil com a inauguração da: o que está em jogo no mercado?",
+      "postId": "rss-hash_409012f2",
+      "timestamp": "2026-09-10T09:53:31.376Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.6h (+8), Sem postagem há 9.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1789026859870",
       "feedName": "G1 - Economia",

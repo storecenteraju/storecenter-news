@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_173d40d6",
+      "views": 0,
+      "date": "2026-09-11T05:01:55.879Z",
+      "title": "Califórnia passa a exigir protocolo de crise para IAs e proíbe recursos: o que muda para usuários e empresas?",
+      "subtitle": "Economia Governador da Califórnia, Gavin Newsom, em 10 de setembro de 2026 AP.",
+      "slug": "california-passa-a-exigir-protocolo-de-crise-para-ias-e-proibe-recursos-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Governador da Califórnia, Gavin Newsom, em 10 de setembro de 2026 AP. Photo/Jeff Chiu O governador da Califórnia, Gavin Newsom, aprovou nesta quinta-feira (10) 13 leis que mudam regras para assistentes de inteligência artificial e redes sociais com o objetivo de aumentar a proteção online de crianças e adolescentes.\n\nO que já foi informado\n\nUma das leis exige que serviços como ChatGPT, Gemini e Claude tenham protocolos de crise caso usuários apresentem sinais de que planejam cometer suicídio. A regra também obriga plataformas a oferecerem controle parental e a notifiquem pais quando crianças e adolescentes desativarem recursos de segurança. As medidas fazem parte da chamada Lei Adam, em referência a Adam Raine, jovem de 16 anos que, segundo os pais, se suicidou após receber orientações do ChatGPT. Agora no g1 Para redes sociais como Instagram e TikTok, outra lei aprovada nesta quinta proibiu a oferta de recursos viciantes para menores de 16 anos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Califórnia passa a exigir protocolo de crise para IAs e Store Center",
+      "seoDescription": "Economia Governador da Califórnia, Gavin Newsom, em 10 de setembro de 2026 AP.",
+      "keyword": "Califórnia passa a exigir protocolo de crise para IAs e proíbe recursos viciantes para menores em redes sociais Fonte 2 Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/10/california-exige-protocolo-de-crise-para-ias-e-proibe-recursos-viciantes-para-menores-em-redes-sociais.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/california-exige-protocolo-de-crise-para-ias-e-proibe-recursos-viciantes-para-menores-em-redes-sociais.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Califórnia passa a exigir protocolo de crise para IAs e proíbe recursos viciantes para menores em redes sociais",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1c41afb",
       "views": 0,
       "date": "2026-09-11T00:10:30.914Z",
@@ -8111,7 +8152,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T00:10:29.838Z",
+      "lastScraped": "2026-09-11T05:01:53.897Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8119,7 +8160,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T00:10:30.081Z",
+      "lastScraped": "2026-09-11T05:01:54.707Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8132,7 +8173,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-11T00:10:30.898Z",
+      "lastScraped": "2026-09-11T05:01:55.866Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8189,6 +8230,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789103009358",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Califórnia passa a exigir protocolo de crise para IAs e proíbe recursos viciantes para menores em redes sociais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Califórnia passa a exigir protocolo de crise para IAs e proíbe recursos: o que muda para usuários e empresas?",
+      "postId": "rss-hash_173d40d6",
+      "timestamp": "2026-09-11T05:01:55.880Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.6h (+8), Sem postagem há 16.6h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789085455975",
       "feedName": "G1 - Economia",

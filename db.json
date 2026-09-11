@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_378d014f",
+      "views": 0,
+      "date": "2026-09-11T07:49:45.422Z",
+      "title": "CNU: prazo para manifestar interesse e permanecer na lista de espera termina nesta: qual pode ser o próximo passo?",
+      "subtitle": "Economia Freepik Candidatos aprovados na primeira edição do Concurso Público Nacional Unificado (CNU) e que ainda aguardam convocação têm até as 23h59 desta sexta-feira (11) para informar se desejam continuar concorrendo a uma vaga no serviço.",
+      "slug": "cnu-prazo-para-manifestar-interesse-e-permanecer-na-lista-de-espera-termina-nesta-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nEconomia Freepik Candidatos aprovados na primeira edição do Concurso Público Nacional Unificado (CNU) e que ainda aguardam convocação têm até as 23h59 desta sexta-feira (11) para informar se desejam continuar concorrendo a uma vaga no serviço público federal. Sem a confirmação, o candidato será excluído das listas de espera de todos os cargos para os quais está habilitado.\n\nO que já foi informado\n\nConhecido como \"Enem dos Concursos\", o CNU teve sua primeira edição realizada em 2024 e entrou para a história como o maior concurso público, com 2,1 milhões de candidaturas confirmadas. Agora no g1 A seleção também marcou uma mudança na forma de recrutamento do governo federal ao reunir, em uma única prova, processos seletivos de diferentes órgãos e entidades da administração pública, com mais de 6,6 mil vagas ofertadas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "CNU: prazo para manifestar interesse e permanecer na Store Center",
+      "seoDescription": "Economia Freepik Candidatos aprovados na primeira edição do Concurso Público Nacional Unificado (CNU) e que ainda aguardam convocação",
+      "keyword": "CNU: prazo para manifestar interesse e permanecer na lista de espera termina nesta sexta Fonte 2 Correios esperam novo empréstimo até o dia 15; consórcio de bancos conta com três instituições estrangeiras",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/09/11/cnu-prazo-para-manifestar-interesse-e-permanecer-na-lista-de-espera-termina-nesta-sexta.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/09/11/cnu-prazo-para-manifestar-interesse-e-permanecer-na-lista-de-espera-termina-nesta-sexta.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/10/correios-aguardam-novo-emprestimo-ate-o-dia-15-consorcio-de-bancos-conta-com-tres-instituicoes-estrangeiras.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "CNU: prazo para manifestar interesse e permanecer na lista de espera termina nesta sexta",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_173d40d6",
       "views": 0,
       "date": "2026-09-11T05:01:55.879Z",
@@ -8152,7 +8194,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T05:01:53.897Z",
+      "lastScraped": "2026-09-11T07:49:43.835Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8160,7 +8202,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T05:01:54.707Z",
+      "lastScraped": "2026-09-11T07:49:44.407Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8173,7 +8215,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-11T05:01:55.866Z",
+      "lastScraped": "2026-09-11T07:49:45.412Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8230,6 +8272,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789113070337",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "CNU: prazo para manifestar interesse e permanecer na lista de espera termina nesta sexta",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "CNU: prazo para manifestar interesse e permanecer na lista de espera termina nesta: qual pode ser o próximo passo?",
+      "postId": "rss-hash_378d014f",
+      "timestamp": "2026-09-11T07:49:45.423Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.7h (+8), Sem postagem há 7.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789103009358",
       "feedName": "G1 - Economia",

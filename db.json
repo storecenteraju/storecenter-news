@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7fdef451",
+      "views": 0,
+      "date": "2026-09-11T14:23:15.205Z",
+      "title": "Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos?",
+      "subtitle": "Apple John Ternus, de 50 anos, fez sua primeira apresentação de lançamento da Apple como CEO da marca nesta quarta-feira (9).",
+      "slug": "quem-e-o-novo-ceo-da-apple-john-ternus-fez-1-apresentacao-como-chefe-da-empresa-em-evento-de-lancamento-dos-novos",
+      "content": "O que aconteceu\n\nApple John Ternus, de 50 anos, fez sua primeira apresentação de lançamento da Apple como CEO da marca nesta quarta-feira (9). Em sua sede em Cupertino, na Califórnia, o evento em que revela os modelos da linha iPhone 18.\n\nO que já foi informado\n\nTernus assumiu oficialmente o comando da Apple no ínicio deste mês depois que Tim Cook, que ficou 15 anos à frente da empresa, deixou o cargo e assumiu como novo presidente-executivo do conselho administrativo. Quem é John Ternus Apple anuncia sucessão: Tim Cook deixará comando e John Ternus será novo CEO Ternus entrou na Apple em 2001, na equipe de design de produtos. Em 2013, tornou-se vice-presidente de Engenharia de Hardware e, em 2021, passou a integrar a equipe executiva como vice-presidente sênior da área. Ao longo de sua trajetória na empresa, liderou o desenvolvimento de hardware em diferentes categorias e teve papel central no lançamento de produtos como iPad e AirPods, além de novas gerações de iPhone, Mac e Apple Watch. Segundo a companhia, seu trabalho com a linha Mac contribuiu para tornar os computadores da marca mais potentes e populares ao longo dos 40 anos da categoria.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quem é o novo CEO da Apple? John Ternus fez 1ª Store Center",
+      "seoDescription": "Apple John Ternus, de 50 anos, fez sua primeira apresentação de lançamento da Apple como CEO da marca nesta quarta-feira (9).",
+      "keyword": "Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones Fonte 2 Apple lança primeiro iPhone dobrável e novos 18 Pro e Pro Max; veja as novidades e preços no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/quem-e-o-novo-ceo-da-apple-john-ternus.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/apple-iphone-18-lancamento.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1de37447",
       "views": 0,
       "date": "2026-09-11T12:22:04.240Z",
@@ -8276,7 +8317,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T12:21:52.614Z",
+      "lastScraped": "2026-09-11T14:23:13.359Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8284,7 +8325,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T12:21:53.714Z",
+      "lastScraped": "2026-09-11T14:23:14.143Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8297,7 +8338,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-11T09:52:29.060Z",
+      "lastScraped": "2026-09-11T14:23:15.194Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8354,6 +8395,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789136654873",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos iPhones",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quem é o novo CEO da Apple? John Ternus fez 1ª apresentação como chefe da empresa em evento de lançamento dos novos?",
+      "postId": "rss-hash_7fdef451",
+      "timestamp": "2026-09-11T14:23:15.206Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.0h (+8), Sem postagem há 26.0h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789129334874",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1de37447",
+      "views": 0,
+      "date": "2026-09-11T12:22:04.240Z",
+      "title": "Preço dos alimentos: o que ficou mais caro e o que barateou em agosto Fonte 2: por que isso importa para a economia?",
+      "subtitle": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, recuou 0,32%, segundo dados divulgados nesta sexta-feira (11) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).",
+      "slug": "preco-dos-alimentos-o-que-ficou-mais-caro-e-o-que-barateou-em-agosto-fonte-2-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, recuou 0,32%, segundo dados divulgados nesta sexta-feira (11) pelo Instituto Brasileiro de Geografia e Estatística (IBGE). Quatro grupos registraram queda nos preços: habitação (-1,87%), transportes (-0,86%), alimentação e bebidas (-0,34%) e comunicação (-0,09%).\n\nO que já foi informado\n\nA queda dos preços dos alimentos foi puxada pelos produtos consumidos em casa, que ficaram 0,61% mais baratos. As maiores quedas foram registradas nos preços da batata-inglesa (-19,89%), da cenoura (-11,22%), da cebola (-11,07%) e do tomate (-10,94%). O ovo de galinha (-4,15%) e o café moído (-1,86%) também ficaram mais baratos. Por outro lado, subiram os preços do leite longa vida (1,78%), das frutas (0,84%) e das carnes (0,61%). Agora no g1 Por outro lado, comer fora de casa continuou mais caro, mas os preços subiram em ritmo menor: a alta passou de 0,55% em julho para 0,36% em agosto. Nesse período, o aumento dos preços dos lanches desacelerou de 0,76% para 0,62%, enquanto o das refeições passou de 0,42% para 0,18%.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Preço dos alimentos: o que ficou mais caro e o que Store Center",
+      "seoDescription": "O Índice Nacional de Preços ao Consumidor Amplo (IPCA), considerado a inflação oficial do país, recuou 0,32%, segundo dados divulgados nesta sexta-fei",
+      "keyword": "Preço dos alimentos: o que ficou mais caro e o que barateou em agosto Fonte 2 IPCA cai 0,32% em agosto e tem maior deflação em quatro anos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/09/11/preco-dos-alimentos-o-que-ficou-mais-caro-e-o-que-barateou-em-agosto.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/11/preco-dos-alimentos-o-que-ficou-mais-caro-e-o-que-barateou-em-agosto.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/11/ipca-agosto.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Preço dos alimentos: o que ficou mais caro e o que barateou em agosto",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_295149da",
       "views": 0,
       "date": "2026-09-11T09:52:29.071Z",
@@ -8235,7 +8276,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T09:52:27.450Z",
+      "lastScraped": "2026-09-11T12:21:52.614Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8243,7 +8284,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T09:52:28.243Z",
+      "lastScraped": "2026-09-11T12:21:53.714Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8313,6 +8354,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789129334874",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Preço dos alimentos: o que ficou mais caro e o que barateou em agosto",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Preço dos alimentos: o que ficou mais caro e o que barateou em agosto Fonte 2: por que isso importa para a economia?",
+      "postId": "rss-hash_1de37447",
+      "timestamp": "2026-09-11T12:22:04.240Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789120433395",
       "feedName": "G1 - Economia",

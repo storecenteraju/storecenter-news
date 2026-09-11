@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4f2729b3",
+      "views": 0,
+      "date": "2026-09-11T19:53:13.644Z",
+      "title": "China e Irã estão entre países que utilizaram IA para espionagem, diz Anthropic Fonte: por que esse movimento importa?",
+      "subtitle": "Economia Anthropic bloqueia uso de IA em pesquisa de armas biológicas A Anthropic anunciou nesta semana que encerrou várias operações de vigilância patrocinadas por Estados que utilizavam seus modelos de inteligência artificial (IA) e alertou.",
+      "slug": "china-e-ira-estao-entre-paises-que-utilizaram-ia-para-espionagem-diz-anthropic-fonte-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Anthropic bloqueia uso de IA em pesquisa de armas biológicas A Anthropic anunciou nesta semana que encerrou várias operações de vigilância patrocinadas por Estados que utilizavam seus modelos de inteligência artificial (IA) e alertou que governos e atores alinhados a eles recorrem cada vez mais à IA para espionar minorias e dissidentes. Siga o canal de notícias internacionais do g1 no WhatsApp Os incidentes tiveram origem na China, no Irã e na África Ocidental e foram detectados e interrompidos entre janeiro e julho, informou a empresa em um relatório sobre o uso indevido de seus modelos.\n\nO que já foi informado\n\nEssas campanhas de vigilância \"visavam as mesmas comunidades da diáspora e dissidentes que esses regimes perseguem historicamente\", apontou o relatório. Segundo a Anthropic, entre esses grupos estavam ativistas pró-democracia de Hong Kong, comunidades tibetanas e minorias e opositores do regime iraniano que vivem no exterior. Em um dos casos, iranianos desenvolveram um método para identificar pessoas por meio de suas contas em redes sociais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "China e Irã estão entre países que utilizaram IA para Store Center",
+      "seoDescription": "Economia Anthropic bloqueia uso de IA em pesquisa de armas biológicas A Anthropic anunciou nesta semana que encerrou várias operações",
+      "keyword": "China e Irã estão entre países que utilizaram IA para espionagem, diz Anthropic Fonte 2 Anthropic diz ter identificado países que usaram sua IA para fazer propaganda e desenvolver possíveis armas biológicas, diz 'NYT'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/09/11/china-e-ira-estao-entre-paises-que-utilizaram-ia-para-espionagem-diz-anthropic.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/09/11/china-e-ira-estao-entre-paises-que-utilizaram-ia-para-espionagem-diz-anthropic.ghtml",
+        "https://g1.globo.com/mundo/noticia/2026/09/10/anthropic-diz-ter-identificado-paises-que-usaram-sua-ia-para-fazer-propaganda-e-desenvolver-possiveis-armas-biologicas-diz-nyt.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "China e Irã estão entre países que utilizaram IA para espionagem, diz Anthropic",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_b779670",
       "views": 0,
       "date": "2026-09-11T18:02:25.892Z",
@@ -8397,7 +8438,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T18:02:14.640Z",
+      "lastScraped": "2026-09-11T19:53:02.416Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8405,7 +8446,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T18:02:15.376Z",
+      "lastScraped": "2026-09-11T19:53:03.127Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8475,6 +8516,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789156410484",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "China e Irã estão entre países que utilizaram IA para espionagem, diz Anthropic",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "China e Irã estão entre países que utilizaram IA para espionagem, diz Anthropic Fonte: por que esse movimento importa?",
+      "postId": "rss-hash_4f2729b3",
+      "timestamp": "2026-09-11T19:53:13.645Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.9h (+8), Sem postagem há 25.9h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Economia",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1789149794820",
       "feedName": "G1 - Economia",

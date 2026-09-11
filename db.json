@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_295149da",
+      "views": 0,
+      "date": "2026-09-11T09:52:29.071Z",
+      "title": "Primeira fábrica de carro voador no interior de SP deve operar até 2028 e produzir até: o que está em jogo no mercado?",
+      "subtitle": "Economia Fábrica de carro voador em SP deve operar até 2028 e produzir até 480 aeronaves por ano A fábrica do chamado carro voador da Eve Air Mobility em Taubaté, no interior de São Paulo, avançou para a etapa de implantação física e deve.",
+      "slug": "primeira-fabrica-de-carro-voador-no-interior-de-sp-deve-operar-ate-2028-e-produzir-ate-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Fábrica de carro voador em SP deve operar até 2028 e produzir até 480 aeronaves por ano A fábrica do chamado carro voador da Eve Air Mobility em Taubaté, no interior de São Paulo, avançou para a etapa de implantação física e deve entrar em operação para a produção comercial do eVTOL até o fim de 2028. A unidade deve começar com cerca de 300 trabalhadores e terá capacidade inicial para produzir até 120 aeronaves por ano.\n\nO que já foi informado\n\nSegundo a empresa, o projeto executivo da fábrica foi concluído e, agora, estão sendo realizadas as etapas necessárias para a implantação da primeira linha de produção, incluindo adequações na infraestrutura e a preparação para a instalação dos equipamentos. Apesar do avanço, a Eve ainda não divulgou uma data específica para o início das obras. Antes da produção comercial em Taubaté, a Eve vai fabricar seis protótipos dos eVTOLs, as aeronaves de pouso e decolagem vertical, nas instalações da Embraer, em São José dos Campos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Primeira fábrica de carro voador no interior de SP deve Store Center",
+      "seoDescription": "Economia Fábrica de carro voador em SP deve operar até 2028 e produzir até 480 aeronaves por ano A fábrica do chamado carro voador da",
+      "keyword": "Primeira fábrica de carro voador no interior de SP deve operar até 2028 e produzir até 480 aeronaves por ano Fonte 2 Correios esperam novo empréstimo até o dia 15; consórcio de bancos conta com três instituições estrangeiras",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/09/11/primeira-fabrica-de-carro-voador-no-interior-de-sp-deve-operar-ate-2028-e-produzir-ate-480-aeronaves-por-ano.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/vale-do-paraiba-regiao/noticia/2026/09/11/primeira-fabrica-de-carro-voador-no-interior-de-sp-deve-operar-ate-2028-e-produzir-ate-480-aeronaves-por-ano.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/10/correios-aguardam-novo-emprestimo-ate-o-dia-15-consorcio-de-bancos-conta-com-tres-instituicoes-estrangeiras.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Primeira fábrica de carro voador no interior de SP deve operar até 2028 e produzir até 480 aeronaves por ano",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_378d014f",
       "views": 0,
       "date": "2026-09-11T07:49:45.422Z",
@@ -8194,7 +8235,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-11T07:49:43.835Z",
+      "lastScraped": "2026-09-11T09:52:27.450Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8202,7 +8243,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-11T07:49:44.407Z",
+      "lastScraped": "2026-09-11T09:52:28.243Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8215,7 +8256,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-11T07:49:45.412Z",
+      "lastScraped": "2026-09-11T09:52:29.060Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8272,6 +8313,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789120433395",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Primeira fábrica de carro voador no interior de SP deve operar até 2028 e produzir até 480 aeronaves por ano",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Primeira fábrica de carro voador no interior de SP deve operar até 2028 e produzir até: o que está em jogo no mercado?",
+      "postId": "rss-hash_295149da",
+      "timestamp": "2026-09-11T09:52:29.071Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 23",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789113070337",
       "feedName": "G1 - Economia",

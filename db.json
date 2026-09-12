@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1c6fb308",
+      "views": 0,
+      "date": "2026-09-12T07:42:17.512Z",
+      "title": "Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil: o que está em jogo no mercado?",
+      "subtitle": "Economia Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil Para os mais desatentos, ele ainda pode causar algum estranhamento à primeira vista.",
+      "slug": "omoda-5-como-o-suv-desconhecido-virou-o-3-hibrido-mais-vendido-do-brasil-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil Para os mais desatentos, ele ainda pode causar algum estranhamento à primeira vista. Mas quem acompanha o trânsito das grandes cidades talvez já tenha percebido: o Omoda 5 está aparecendo cada vez mais nas ruas.\n\nO que já foi informado\n\nOs números ajudam a explicar: o SUV híbrido ainda não completou um ano de mercado no Brasil — foi lançado em outubro de 2025 —, mas já ocupa o terceiro lugar no ranking dos híbridos zero km mais vendidos do país, segundo a Associação Brasileira do Veículo Elétrico (ABVE). Na comparação com outro lançamento de preço semelhante, o Toyota Yaris Cross híbrido, o Omoda 5 registrou 57,26% mais emplacamentos no ano. Até o Toyota Corolla Cross, um SUV de categoria superior e que carrega o nome de um dos modelos mais conhecidos da marca japonesa, vendeu menos que o Omoda 5 no período. Veja o ranking dos híbridos mais vendidos entre janeiro e agosto de 2026: BYD Song: 45.096 emplacamentos; Haval H6: 32.248 emplacamentos; Omoda 5: 15.080 emplacamentos; Jaecoo 7: 11.772 emplacamentos; BYD King: 11.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Omoda 5: como o SUV desconhecido virou o 3º híbrido Store Center",
+      "seoDescription": "Economia Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil Para os mais desatentos, ele ainda pode causar al",
+      "keyword": "Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil; veja o teste Fonte 2 Caixa entra em greve nacional e Banco do Brasil tem paralisação parcial a partir desta quinta-feira",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/12/omoda-5-como-o-suv-desconhecido-virou-o-3o-hibrido-mais-vendido-do-brasil-veja-o-teste.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/12/omoda-5-como-o-suv-desconhecido-virou-o-3o-hibrido-mais-vendido-do-brasil-veja-o-teste.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/10/caixa-entra-em-greve-nacional-e-banco-do-brasil-tem-paralisacao-parcial-a-partir-desta-quinta-feira.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil; veja o teste",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_5d198fda",
       "views": 0,
       "date": "2026-09-12T04:53:20.088Z",
@@ -8563,7 +8604,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T04:53:18.464Z",
+      "lastScraped": "2026-09-12T07:42:16.305Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8571,7 +8612,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T04:53:19.052Z",
+      "lastScraped": "2026-09-12T07:42:16.589Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8584,7 +8625,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T04:53:20.073Z",
+      "lastScraped": "2026-09-12T07:42:17.499Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8641,6 +8682,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789198966997",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil; veja o teste",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Omoda 5: como o SUV desconhecido virou o 3º híbrido mais vendido do Brasil: o que está em jogo no mercado?",
+      "postId": "rss-hash_1c6fb308",
+      "timestamp": "2026-09-12T07:42:17.512Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.7h (+8), Sem postagem há 9.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1789188887395",
       "feedName": "G1 - Economia",

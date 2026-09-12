@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_60944897",
+      "views": 0,
+      "date": "2026-09-12T17:33:46.598Z",
+      "title": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir: o que está em jogo no mercado?",
+      "subtitle": "Economia O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (12) que a economia brasileira precisa crescer para gerar empregos no país.",
+      "slug": "lula-diz-que-e-preciso-parar-com-babaquice-de-fazer-superavit-para-governo-investir-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (12) que a economia brasileira precisa crescer para gerar empregos no país. O petista acrescentou que, para isso, o governo precisa investir e parar com o que chamou de \"babaquice de fazer superávit\".\n\nO que já foi informado\n\nAs declarações foram dadas durante comício em Curitiba (PR). Lula concorre à reeleição para a Presidência da República no pleito de outubro. \"Pra gerar emprego, a economia tem que crescer, e para economia crescer, o governo tem que investir. E para governo investir, é preciso parar com essa babaquice de fazer superávit, fazer superávit, de ter controle fiscal. Porque a grande dívida do Brasil é a taxa de juros que nós pagamos, R$ 1,3 trilhão. O restante é investimento\", declarou o presidente.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula diz que é preciso parar com 'babaquice de fazer Store Center",
+      "seoDescription": "Economia O presidente Luiz Inácio Lula da Silva (PT) afirmou neste sábado (12) que a economia brasileira precisa crescer para gerar e",
+      "keyword": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir Fonte 2 Medicamentos raros, reavaliação do impacto: veja como ficam as compras internacionais sem a taxa das blusinhas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/12/para-o-governo-investir-e-preciso-parar-com-essa-babaquice-de-fazer-superavit-diz-lula.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/12/para-o-governo-investir-e-preciso-parar-com-essa-babaquice-de-fazer-superavit-diz-lula.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/12/medicamentos-raros-reavaliacao-do-impacto-veja-como-ficam-as-compras-internacionais-sem-a-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7e3d17be",
       "views": 0,
       "date": "2026-09-12T15:47:18.392Z",
@@ -8768,7 +8809,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T15:47:07.234Z",
+      "lastScraped": "2026-09-12T17:33:45.001Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8776,7 +8817,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T15:47:07.874Z",
+      "lastScraped": "2026-09-12T17:33:45.687Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8789,7 +8830,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T13:35:12.582Z",
+      "lastScraped": "2026-09-12T17:33:46.585Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8846,6 +8887,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789234468711",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula diz que é preciso parar com 'babaquice de fazer superávit' para governo investir: o que está em jogo no mercado?",
+      "postId": "rss-hash_60944897",
+      "timestamp": "2026-09-12T17:33:46.599Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789228065364",
       "feedName": "G1 - Economia",

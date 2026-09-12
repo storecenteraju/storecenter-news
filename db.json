@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_548f7118",
+      "views": 0,
+      "date": "2026-09-12T09:28:31.692Z",
+      "title": "Inflação cai, fábricas fecham: crise na indústria argentina elimina empregos e aumenta: o que está em jogo no mercado?",
+      "subtitle": "O galpão está às escuras, as máquinas estão desligadas e caixas de mercadorias encalhadas se acumulam.",
+      "slug": "inflacao-cai-fabricas-fecham-crise-na-industria-argentina-elimina-empregos-e-aumenta-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO galpão está às escuras, as máquinas estão desligadas e caixas de mercadorias encalhadas se acumulam. A fábrica de sapatos Kioshi, que tinha 120 funcionários em 2023, conta hoje com apenas 14.\n\nO que já foi informado\n\nO cenário virou símbolo da crise enfrentada por parte da indústria argentina e alimenta o debate sobre o modelo do presidente Javier Milei. Enquanto o governo do presidente ultraliberal destaca a queda da inflação e a desregulamentação da economia, empresários alertam para a perda de empregos, a concorrência desleal e a retração do consumo. \"O mercado interno está morto, as pessoas não têm dinheiro para consumir, dificilmente vão comprar calçados\", diz Emmanuel Fernández, diretor da Kioshi, localizada em Esteban Echeverría, nos arredores de Buenos Aires. A isto se soma uma \"avalanche de importação\", acrescenta. Agora no g1 Na semana passada, a União Industrial Argentina (UIA) pediu medidas diante da abertura econômica e da perda de aproximadamente 90 mil empregos na indústria desde agosto de 2023. Em junho, a indústria argentina operava com cerca de 40% de capacidade ociosa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Inflação cai, fábricas fecham: crise na indústria Store Center",
+      "seoDescription": "O galpão está às escuras, as máquinas estão desligadas e caixas de mercadorias encalhadas se acumulam.",
+      "keyword": "Inflação cai, fábricas fecham: crise na indústria argentina elimina empregos e aumenta pressão sobre Milei Fonte 2 Medicamentos raros, reavaliação do impacto: veja como ficam as compras internacionais sem a taxa das blusinhas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/12/inflacao-cai-fabricas-fecham-crise-na-industria-argentina-elimina-empregos-e-aumenta-pressao-sobre-milei.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/12/inflacao-cai-fabricas-fecham-crise-na-industria-argentina-elimina-empregos-e-aumenta-pressao-sobre-milei.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/12/medicamentos-raros-reavaliacao-do-impacto-veja-como-ficam-as-compras-internacionais-sem-a-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Inflação cai, fábricas fecham: crise na indústria argentina elimina empregos e aumenta pressão sobre Milei",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1c6fb308",
       "views": 0,
       "date": "2026-09-12T07:42:17.512Z",
@@ -8604,7 +8645,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T07:42:16.305Z",
+      "lastScraped": "2026-09-12T09:28:30.214Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8612,7 +8653,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T07:42:16.589Z",
+      "lastScraped": "2026-09-12T09:28:30.577Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8625,7 +8666,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T07:42:17.499Z",
+      "lastScraped": "2026-09-12T09:28:31.676Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8682,6 +8723,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789205318403",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Inflação cai, fábricas fecham: crise na indústria argentina elimina empregos e aumenta pressão sobre Milei",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Inflação cai, fábricas fecham: crise na indústria argentina elimina empregos e aumenta: o que está em jogo no mercado?",
+      "postId": "rss-hash_548f7118",
+      "timestamp": "2026-09-12T09:28:31.693Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 21.1h (+8), Sem postagem há 21.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789198966997",
       "feedName": "G1 - Economia",

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5d198fda",
+      "views": 0,
+      "date": "2026-09-12T04:53:20.088Z",
+      "title": "Como o Banco Master usou empresa de R$ 100 para simular R$ 7,15 bilhões em consignados, segundo a PF Fonte 2?",
+      "subtitle": "Economia Fachin dá 24 horas para Mendonça liberar sigilo de documentos do caso Master Uma empresa criada com apenas R$ 100 de capital social, sem funcionários, sem movimentação bancária efetiva e sem estrutura operacional compatível com.",
+      "slug": "como-o-banco-master-usou-empresa-de-r-100-para-simular-r-7-15-bilhoes-em-consignados-segundo-a-pf-fonte-2",
+      "content": "O que aconteceu\n\nEconomia Fachin dá 24 horas para Mendonça liberar sigilo de documentos do caso Master Uma empresa criada com apenas R$ 100 de capital social, sem funcionários, sem movimentação bancária efetiva e sem estrutura operacional compatível com bilhões de reais em créditos foi usada pelo Banco Master, de Daniel Vorcaro, para simular a origem de R$ 7,155 bilhões em empréstimos consignados, segundo a Polícia Federal. Mas, segundo a perícia da PF, o dinheiro das cessões não foi efetivamente transferido para a empresa.\n\nO que já foi informado\n\nA investigação identificou ainda padrões incomuns nesses contratos, empregadores com inconsistências cadastrais e a produção, dentro da própria estrutura do Master, de documentos em escala para dar suporte às operações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como o Banco Master usou empresa de R$ 100 para simular Store Center",
+      "seoDescription": "Economia Fachin dá 24 horas para Mendonça liberar sigilo de documentos do caso Master Uma empresa criada com apenas R$ 100 de capital",
+      "keyword": "Como o Banco Master usou empresa de R$ 100 para simular R$ 7,15 bilhões em consignados, segundo a PF Fonte 2 Medicamentos raros, reavaliação do impacto: veja como ficam as compras internacionais sem a taxa das blusinhas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/12/como-o-banco-master-usou-empresa-de-r-100-para-simular-r-715-bilhoes-em-consignados-segundo-a-pf.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/12/como-o-banco-master-usou-empresa-de-r-100-para-simular-r-715-bilhoes-em-consignados-segundo-a-pf.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/12/medicamentos-raros-reavaliacao-do-impacto-veja-como-ficam-as-compras-internacionais-sem-a-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Como o Banco Master usou empresa de R$ 100 para simular R$ 7,15 bilhões em consignados, segundo a PF",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_5a2a6ef0",
       "views": 0,
       "date": "2026-09-12T00:18:19.480Z",
@@ -8521,7 +8563,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T00:18:17.721Z",
+      "lastScraped": "2026-09-12T04:53:18.464Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8529,7 +8571,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T00:18:18.391Z",
+      "lastScraped": "2026-09-12T04:53:19.052Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8542,7 +8584,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T00:18:19.467Z",
+      "lastScraped": "2026-09-12T04:53:20.073Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8599,6 +8641,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789188887395",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como o Banco Master usou empresa de R$ 100 para simular R$ 7,15 bilhões em consignados, segundo a PF",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como o Banco Master usou empresa de R$ 100 para simular R$ 7,15 bilhões em consignados, segundo a PF Fonte 2?",
+      "postId": "rss-hash_5d198fda",
+      "timestamp": "2026-09-12T04:53:20.088Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.5h (+8), Sem postagem há 16.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789172398803",
       "feedName": "G1 - Economia",

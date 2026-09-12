@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e3d17be",
+      "views": 0,
+      "date": "2026-09-12T15:47:18.392Z",
+      "title": "Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA: o que muda para usuários e empresas?",
+      "subtitle": "Economia Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA Um documentário de quase quatro horas sobre Elon Musk estreou nesta terça-feira (8) no Festival de Cinema de Veneza sem a participação do bilionário.",
+      "slug": "elon-musk-ganha-documentario-de-4-horas-com-versao-do-bilionario-criada-por-ia-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA Um documentário de quase quatro horas sobre Elon Musk estreou nesta terça-feira (8) no Festival de Cinema de Veneza sem a participação do bilionário. Dirigido pelo americano Alex Gibney, “Musk” usa inteligência artificial para criar uma versão do empresário e acompanha sua trajetória da tecnologia à política.\n\nO que já foi informado\n\nO filme também aborda a aproximação do bilionário com Donald Trump e a influência que passou a exercer na política americana. O trailer de 48 segundos alterna imagens de naves espaciais e equipamentos ligados à exploração espacial com depoimentos que refletem a polarização em torno de Musk. \"Ele é possivelmente o maior inventor vivo. Ele é o Homem de Ferro da vida real. Ele é um dos maiores construtores de todos os tempos\", diz uma das falas. Em seguida, o tom muda: \"Ele é o maior capitalista da história.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Elon Musk ganha documentário de 4 horas com versão do Store Center",
+      "seoDescription": "Economia Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA Um documentário de quase quatro horas sobre E",
+      "keyword": "Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA Fonte 2 Dinamarca quer proibir celulares nas escolas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/08/musk-documentario-de-4-horas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/08/musk-documentario-de-4-horas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/dinamarca-quer-proibir-celulares-nas-escolas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_469145da",
       "views": 0,
       "date": "2026-09-12T13:35:12.598Z",
@@ -8727,7 +8768,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T13:35:11.118Z",
+      "lastScraped": "2026-09-12T15:47:07.234Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8735,7 +8776,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T13:35:11.481Z",
+      "lastScraped": "2026-09-12T15:47:07.874Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8805,6 +8846,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789228065364",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Elon Musk ganha documentário de 4 horas com versão do bilionário criada por IA: o que muda para usuários e empresas?",
+      "postId": "rss-hash_7e3d17be",
+      "timestamp": "2026-09-12T15:47:18.393Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 51.4h (+8), Sem postagem há 51.4h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789220117935",
       "feedName": "G1 - Economia",

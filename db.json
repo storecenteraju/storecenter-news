@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6f03f694",
+      "views": 0,
+      "date": "2026-09-12T11:43:47.345Z",
+      "title": "Caso Master: relatório da PF expõe 'fábrica de documentos' para validar",
+      "subtitle": "Economia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A Polícia Federal encontrou, em um HD obtido durante a Operação Compliance Zero, uma apresentação de PowerPoint que detalha uma espécie de “fábrica.",
+      "slug": "caso-master-relatorio-da-pf-expoe-fabrica-de-documentos-para-validar",
+      "content": "O que aconteceu\n\nEconomia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A Polícia Federal encontrou, em um HD obtido durante a Operação Compliance Zero, uma apresentação de PowerPoint que detalha uma espécie de “fábrica de documentos” criada por funcionários do Banco Master. Os créditos falsificados eram atribuídos à Tirreno Consultoria, uma empresa de fachada sem funcionários ou capacidade operacional, usada para mascarar a falta de lastro das operações.\n\nO que já foi informado\n\nA perícia da PF constatou que não houve liquidação financeira real nem transferência dos valores para contas de livre movimentação da Tirreno. A empresa só abriu uma conta corrente posteriormente, mas ela permaneceu inativa. Os valores bilionários ficaram restritos a lançamentos escriturais internos em uma conta gerencial reservada do próprio Banco Master.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Caso Master: relatório da PF expõe 'fábrica de Store Center",
+      "seoDescription": "Economia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A Polícia Federal encontrou, em um HD",
+      "keyword": "Caso Master: relatório da PF expõe 'fábrica de documentos' para validar crédito vendido ao BRB Fonte 2 Medicamentos raros, reavaliação do impacto: veja como ficam as compras internacionais sem a taxa das blusinhas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/12/caso-master-relatorio-da-pf-expoe-fabrica-de-documentos-para-validar-credito-vendido-ao-brb.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/12/caso-master-relatorio-da-pf-expoe-fabrica-de-documentos-para-validar-credito-vendido-ao-brb.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/12/medicamentos-raros-reavaliacao-do-impacto-veja-como-ficam-as-compras-internacionais-sem-a-taxa-das-blusinhas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Caso Master: relatório da PF expõe 'fábrica de documentos' para validar crédito vendido ao BRB",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_548f7118",
       "views": 0,
       "date": "2026-09-12T09:28:31.692Z",
@@ -8645,7 +8686,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T09:28:30.214Z",
+      "lastScraped": "2026-09-12T11:43:45.740Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8653,7 +8694,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T09:28:30.577Z",
+      "lastScraped": "2026-09-12T11:43:46.322Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8666,7 +8707,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T09:28:31.676Z",
+      "lastScraped": "2026-09-12T11:43:47.333Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -8723,6 +8764,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789213511644",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Caso Master: relatório da PF expõe 'fábrica de documentos' para validar crédito vendido ao BRB",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Caso Master: relatório da PF expõe 'fábrica de documentos' para validar",
+      "postId": "rss-hash_6f03f694",
+      "timestamp": "2026-09-12T11:43:47.345Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 23.4h (+8), Sem postagem há 23.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Geopolítica",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789205318403",
       "feedName": "G1 - Economia",

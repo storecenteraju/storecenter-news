@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7d8ba8f4",
+      "views": 0,
+      "date": "2026-09-13T10:24:40.130Z",
+      "title": "'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o: como isso afeta a população?",
+      "subtitle": "Economia 'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude Erin Atkinson (via BBC) Escrever um testamento provavelmente não está na lista de tarefas da maioria das pessoas de 27 anos.",
+      "slug": "tenho-27-anos-e-ja-escrevi-meu-testamento-por-algumas-pessoas-decidem-fazer-o-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia 'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude Erin Atkinson (via BBC) Escrever um testamento provavelmente não está na lista de tarefas da maioria das pessoas de 27 anos. Mas Erin Atkinson já decidiu o que deve acontecer com seu dinheiro e seus bens quando morrer.\n\nO que já foi informado\n\n\"No começo, pareceu bastante surreal, porque você associa testamentos a pessoas mais velhas\", diz ela. Erin trabalha com pesquisa psicológica em uma universidade de Londres e se mudou de Bristol para a capital da Inglaterra há quatro anos. Agora no g1 Hoje, ela mora de aluguel e, embora não queira revelar seu salário exato, não se considera particularmente rica. Mesmo assim, já decidiu para onde alguns de seus bens devem ir. Seu carro, avaliado em £ 7 mil (cerca de R$ 48 mil), ficará com a irmã. Um colar de ouro que ganhou do parceiro voltará para ele.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Tenho 27 anos e já escrevi meu testamento': por Store Center",
+      "seoDescription": "Economia 'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude Erin Atkinson",
+      "keyword": "'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude Fonte 2 VÍDEO: um Porsche é mesmo difícil de 'domar'? g1 testou esportivo de 711 cv e R$ 2,1 milhões",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/13/tenho-27-anos-e-ja-escrevi-meu-testamento-por-algumas-pessoas-decidem-fazer-o-documento-ainda-na-juventude.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/13/tenho-27-anos-e-ja-escrevi-meu-testamento-por-algumas-pessoas-decidem-fazer-o-documento-ainda-na-juventude.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/13/um-porsche-e-mesmo-dificil-de-domar-g1-testou-esportivo-de-711-cv-e-r-21-milhoes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1601ae2a",
       "views": 0,
       "date": "2026-09-13T08:01:43.251Z",
@@ -9013,7 +9054,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-13T08:01:41.096Z",
+      "lastScraped": "2026-09-13T10:24:28.967Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9021,7 +9062,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-13T08:01:42.098Z",
+      "lastScraped": "2026-09-13T10:24:29.612Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9091,6 +9132,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789295117363",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o documento ainda na juventude",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Tenho 27 anos e já escrevi meu testamento': por algumas pessoas decidem fazer o: como isso afeta a população?",
+      "postId": "rss-hash_7d8ba8f4",
+      "timestamp": "2026-09-13T10:24:40.130Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.7h (+8), Sem postagem há 14.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Cultura",
+        "Direito",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789286599319",
       "feedName": "G1 - Economia",

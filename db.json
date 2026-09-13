@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_729d1266",
+      "views": 0,
+      "date": "2026-09-13T21:44:03.748Z",
+      "title": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12: por que isso importa para a economia?",
+      "subtitle": "O Banco Central encontrou indícios de que dois servidores do órgão receberam R$ 12 milhões em propinas do Banco Master.",
+      "slug": "propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO Banco Central encontrou indícios de que dois servidores do órgão receberam R$ 12 milhões em propinas do Banco Master. Eles teriam, segundo as investigações, simulado negócios com empresas ligadas a Daniel Vorcaro para ocultar a transferência de recursos ilícitos.\n\nO que já foi informado\n\nDe acordo com a sindicância do BC, Paulo Sérgio Neves de Souza teria recebido R$ 8 milhões, inclusive durante o período em que foi diretor de fiscalização do órgão. Já Belline Santana, ex-chefe de supervisão bancária, teria recebido cerca de R$ 4 milhões. A investigação interna do Banco Central encontrou indícios de que os dois servidores simularam prestação de serviços ou negociação de imóvel para ocultar o recebimento de recursos ilícitos ligados ao banco Master. Mensagens revelam cobrança de servidor do Banco Central por assessoria a Daniel Vorcaro Integrantes do BC ouvidos pela GloboNews disseram que as suspeitas começaram após colegas relatarem despesas de Paulo Sérgio e Belline acima da renda obtida na carreira pública. Uma denúncia anônima também contribuiu para o processo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Propina do Master a servidores do Banco Central pode Store Center",
+      "seoDescription": "O Banco Central encontrou indícios de que dois servidores do órgão receberam R$ 12 milhões em propinas do Banco Master.",
+      "keyword": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/13/propina-do-master-a-servidores-do-banco-central-pode-ter-chegado-a-r-12-milhoes-diz-sindicancia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_14722a33",
       "views": 0,
       "date": "2026-09-13T19:34:56.327Z",
@@ -9259,7 +9298,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-13T19:34:54.527Z",
+      "lastScraped": "2026-09-13T21:44:02.104Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9267,7 +9306,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-13T19:34:55.289Z",
+      "lastScraped": "2026-09-13T21:44:02.731Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9280,7 +9319,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-13T19:34:56.315Z",
+      "lastScraped": "2026-09-13T21:44:03.729Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9337,6 +9376,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789335844779",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12 milhões, diz sindicância",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Propina do Master a servidores do Banco Central pode ter chegado a R$ 12: por que isso importa para a economia?",
+      "postId": "rss-hash_729d1266",
+      "timestamp": "2026-09-13T21:44:03.749Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 51.7h (+8), Sem postagem há 51.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia",
+        "Cultura",
+        "Direito",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789328109995",
       "feedName": "G1 - Economia",

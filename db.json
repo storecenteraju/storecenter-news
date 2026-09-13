@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1601ae2a",
+      "views": 0,
+      "date": "2026-09-13T08:01:43.251Z",
+      "title": "'Pode matar todos nós': por que pesquisador deixou setor de IA e acusa empresas: o que muda para usuários e empresas?",
+      "subtitle": "Dado Ruvic/Illustration Um pesquisador de inteligência artificial (IA) que deixou a OpenAI, criadora do ChatGPT, para trabalhar na Anthropic decidiu abandonar o setor.",
+      "slug": "pode-matar-todos-nos-por-que-pesquisador-deixou-setor-de-ia-e-acusa-empresas-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nDado Ruvic/Illustration Um pesquisador de inteligência artificial (IA) que deixou a OpenAI, criadora do ChatGPT, para trabalhar na Anthropic decidiu abandonar o setor. Ele acusa as duas empresas americanas de \"jogar com as nossas vidas\" na corrida para desenvolver modelos de IA capazes de se autoaperfeiçoar.\n\nO que já foi informado\n\nJacob Coxon, de 27 anos, passou os últimos três anos trabalhando no pré-treinamento de modelos de IA, primeiro na OpenAI e, neste ano, na rival Anthropic, empresa que ele considerava mais cautelosa. O pré-treinamento é a etapa em que os modelos de IA absorvem grandes volumes de dados. \"As pessoas que estão construindo a IA acreditam sinceramente que ela pode matar a todos nós até o final da década\", afirmou o pesquisador em postagem no X. \"Isso não é uma jogada de marketing. \" Agora no g1 O britânico disse ao The Wall Street Journal que, nos \"cenários mais agressivos\", a situação poderia sair do controle já no fim do próximo ano. Ele alertou que um dos principais riscos é a IA passar a se desenvolver por conta própria, tornando-se mais difícil de controlar.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Pode matar todos nós': por que pesquisador deixou Store Center",
+      "seoDescription": "Dado Ruvic/Illustration Um pesquisador de inteligência artificial (IA) que deixou a OpenAI, criadora do ChatGPT, para trabalhar na Anthropic decidiu a",
+      "keyword": "'Pode matar todos nós': por que pesquisador deixou setor de IA e acusa empresas de ignorar riscos Fonte 2 A aposta da Apple ao lançar iPhone dobrável",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/13/pode-matar-todos-nos-por-que-pesquisador-deixou-setor-de-ia-e-acusa-empresas-de-ignorar-riscos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/13/pode-matar-todos-nos-por-que-pesquisador-deixou-setor-de-ia-e-acusa-empresas-de-ignorar-riscos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/a-aposta-da-apple-ao-lancar-iphone-dobravel.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "'Pode matar todos nós': por que pesquisador deixou setor de IA e acusa empresas de ignorar riscos",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_6c35d45",
       "views": 0,
       "date": "2026-09-13T05:14:25.127Z",
@@ -8972,7 +9013,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-13T05:14:13.968Z",
+      "lastScraped": "2026-09-13T08:01:41.096Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8980,7 +9021,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-13T05:14:14.603Z",
+      "lastScraped": "2026-09-13T08:01:42.098Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8993,7 +9034,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-12T17:33:46.585Z",
+      "lastScraped": "2026-09-13T08:01:43.242Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9050,6 +9091,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789286599319",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Pode matar todos nós': por que pesquisador deixou setor de IA e acusa empresas de ignorar riscos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Pode matar todos nós': por que pesquisador deixou setor de IA e acusa empresas: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1601ae2a",
+      "timestamp": "2026-09-13T08:01:43.252Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 67.6h (+8), Sem postagem há 67.6h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Cultura",
+        "Economia",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789276490105",
       "feedName": "G1 - Economia",

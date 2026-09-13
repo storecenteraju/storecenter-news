@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_312cb81e",
+      "views": 0,
+      "date": "2026-09-13T00:00:19.737Z",
+      "title": "Dinamarca quer proibir celulares nas escolas Fonte 2 A aposta da Apple ao lançar: o que muda para usuários e empresas?",
+      "subtitle": "O governo da Dinamarca, que planeja proibir o uso de redes sociais por menores de 15 anos, também quer vetar a presença de celulares em escolas e centros de ensino médio, anunciou a primeira-ministra Mette Frederiksen nesta quinta-feira (10).",
+      "slug": "dinamarca-quer-proibir-celulares-nas-escolas-fonte-2-a-aposta-da-apple-ao-lancar-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO governo da Dinamarca, que planeja proibir o uso de redes sociais por menores de 15 anos, também quer vetar a presença de celulares em escolas e centros de ensino médio, anunciou a primeira-ministra Mette Frederiksen nesta quinta-feira (10). \"Este governo propõe uma proibição total dos celulares\", declarou Frederiksen durante uma coletiva de imprensa.\n\nO que já foi informado\n\nA proibição valerá tanto para as salas de aula quanto para os pátios de recreio, acrescentou. A medida abrangerá os alunos desde o primeiro ano do ensino fundamental até o fim do ensino médio. Com 478 pontos, a Dinamarca ficou ligeiramente abaixo da média europeia, de 482. \"Estou convencida de que os resultados estão estreitamente relacionados com o fato de que na Dinamarca temos uma das infâncias mais conectadas\", afirmou a chefe de governo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Dinamarca quer proibir celulares nas escolas Fonte 2 A Store Center",
+      "seoDescription": "O governo da Dinamarca, que planeja proibir o uso de redes sociais por menores de 15 anos, também quer vetar a presença de celulares em escolas e cent",
+      "keyword": "Dinamarca quer proibir celulares nas escolas Fonte 2 A aposta da Apple ao lançar iPhone dobrável",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/10/dinamarca-quer-proibir-celulares-nas-escolas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/dinamarca-quer-proibir-celulares-nas-escolas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/10/a-aposta-da-apple-ao-lancar-iphone-dobravel.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Dinamarca quer proibir celulares nas escolas",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_61bfe8da",
       "views": 0,
       "date": "2026-09-12T21:41:57.162Z",
@@ -8889,7 +8930,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-12T21:41:45.939Z",
+      "lastScraped": "2026-09-13T00:00:08.320Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -8897,7 +8938,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-12T21:41:46.641Z",
+      "lastScraped": "2026-09-13T00:00:09.219Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -8967,6 +9008,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789257689065",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Dinamarca quer proibir celulares nas escolas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Dinamarca quer proibir celulares nas escolas Fonte 2 A aposta da Apple ao lançar: o que muda para usuários e empresas?",
+      "postId": "rss-hash_312cb81e",
+      "timestamp": "2026-09-13T00:00:19.737Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 59.6h (+8), Sem postagem há 59.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789249380570",
       "feedName": "G1 - Economia",

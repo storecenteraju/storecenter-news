@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5c8d24f5",
+      "views": 0,
+      "date": "2026-09-13T17:48:22.183Z",
+      "title": "Paralisação em oleoduto da Arábia Saudita ameaça perda de 4% da oferta global de: por que esse movimento importa?",
+      "subtitle": "Economia A Arábia Saudita ficará sem estoques de petróleo para exportação se não reiniciar seu principal oleoduto para o Mar Vermelho dentro de alguns dias, levando a uma perda de até 4% do suprimento global, disseram compradores e negociantes.",
+      "slug": "paralisacao-em-oleoduto-da-arabia-saudita-ameaca-perda-de-4-da-oferta-global-de-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia A Arábia Saudita ficará sem estoques de petróleo para exportação se não reiniciar seu principal oleoduto para o Mar Vermelho dentro de alguns dias, levando a uma perda de até 4% do suprimento global, disseram compradores e negociantes de petróleo sauditas neste domingo (13). Uma nova queda nos fluxos sauditas piorará a escassez global de oferta, que já impulsionou os preços dos combustíveis no mundo a níveis recordes, estimulou a inflação ao redor do globo e levou os rendimentos dos títulos do Tesouro dos EUA aos níveis mais altos desde a crise financeira de 2008.\n\nO que já foi informado\n\nDesde que ataques com drones forçaram a Arábia Saudita a fechar seu enorme oleoduto Leste-Oeste na sexta-feira, Riade não forneceu detalhes completos sobre a extensão dos danos ou por quanto tempo a rota permanecerá fora de operação. Fontes que falaram à deram estimativas variadas, com uma dizendo que os reparos dos danos podem levar de cinco a seis semanas, enquanto outra afirmou que o problema pode ser corrigido antes e o bombeamento pode ser retomado parcialmente enquanto os reparos estão em andamento.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Paralisação em oleoduto da Arábia Saudita ameaça perda Store Center",
+      "seoDescription": "Economia A Arábia Saudita ficará sem estoques de petróleo para exportação se não reiniciar seu principal oleoduto para o Mar Vermelho",
+      "keyword": "Paralisação em oleoduto da Arábia Saudita ameaça perda de 4% da oferta global de petróleo Fonte 2 Cidades do noroeste paulista investem na experiência do campo para atrair visitantes",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/13/paralisacao-em-oleoduto-da-arabia-saudita-ameaca-perda-de-4percent-da-oferta-global-de-petroleo.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/13/paralisacao-em-oleoduto-da-arabia-saudita-ameaca-perda-de-4percent-da-oferta-global-de-petroleo.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/13/cidades-do-noroeste-paulista-investem-na-experiencia-do-campo-para-atrair-visitantes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Paralisação em oleoduto da Arábia Saudita ameaça perda de 4% da oferta global de petróleo",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3bbfc820",
       "views": 0,
       "date": "2026-09-13T16:35:56.988Z",
@@ -9177,7 +9218,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-13T16:35:45.800Z",
+      "lastScraped": "2026-09-13T17:48:20.383Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9185,7 +9226,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-13T16:35:46.462Z",
+      "lastScraped": "2026-09-13T17:48:21.037Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9198,7 +9239,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-13T12:51:28.070Z",
+      "lastScraped": "2026-09-13T17:48:22.168Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9255,6 +9296,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789321779024",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Paralisação em oleoduto da Arábia Saudita ameaça perda de 4% da oferta global de petróleo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Paralisação em oleoduto da Arábia Saudita ameaça perda de 4% da oferta global de: por que esse movimento importa?",
+      "postId": "rss-hash_5c8d24f5",
+      "timestamp": "2026-09-13T17:48:22.184Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Cultura",
+        "Direito",
+        "Tecnologia",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789317448622",
       "feedName": "G1 - Economia",

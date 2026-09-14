@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2eab71d",
+      "views": 0,
+      "date": "2026-09-14T00:12:20.418Z",
+      "title": "Meta começa a testar substituto da checagem de fatos na América Latina Fonte 2 Uber: como isso afeta a população?",
+      "subtitle": "A medida é mais um passo para substituir o programa profissional de checagem de fatos que a empresa mantém na região em parceria com organizações especializadas.",
+      "slug": "meta-comeca-a-testar-substituto-da-checagem-de-fatos-na-america-latina-fonte-2-uber-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nA medida é mais um passo para substituir o programa profissional de checagem de fatos que a empresa mantém na região em parceria com organizações especializadas. Inspirado na plataforma X, de Elon Musk, o sistema de colaboração em massa foi criado para substituir a checagem de fatos feita por redações e agências de verificação.\n\nO que já foi informado\n\nA Meta encerrou esse programa nos Estados Unidos no ano passado. Como funcionam as notas de comunidade? As notas de comunidade são uma ferramenta de moderação coletiva de conteúdos. Elas aparecem abaixo de algumas publicações potencialmente enganosas. O X (antigo Twitter) as utiliza desde 2021 e, em 2022, elas foram amplamente implementadas na rede social, comprada pelo bilionário Elon Musk e renomeada como X. As notas são propostas e redigidas por usuários voluntários, que precisam se inscrever previamente, e não são editadas pelas equipes do X.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta começa a testar substituto da checagem de fatos na Store Center",
+      "seoDescription": "A medida é mais um passo para substituir o programa profissional de checagem de fatos que a empresa mantém na região em parceria com organizações espe",
+      "keyword": "Meta começa a testar substituto da checagem de fatos na América Latina Fonte 2 Uber libera vídeo ao vivo para pais em viagens de filhos adolescentes; veja como vai funcionar",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/09/meta-facebook-notas-da-comunidade.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/meta-facebook-notas-da-comunidade.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/uber-video-ao-vivo-pais-adolescentes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Meta começa a testar substituto da checagem de fatos na América Latina",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_729d1266",
       "views": 0,
       "date": "2026-09-13T21:44:03.748Z",
@@ -9298,7 +9339,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-13T21:44:02.104Z",
+      "lastScraped": "2026-09-14T00:12:17.229Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9306,7 +9347,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-13T21:44:02.731Z",
+      "lastScraped": "2026-09-14T00:12:17.776Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9319,7 +9360,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-13T21:44:03.729Z",
+      "lastScraped": "2026-09-14T00:12:20.401Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9376,6 +9417,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789344779430",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta começa a testar substituto da checagem de fatos na América Latina",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta começa a testar substituto da checagem de fatos na América Latina Fonte 2 Uber: como isso afeta a população?",
+      "postId": "rss-hash_2eab71d",
+      "timestamp": "2026-09-14T00:12:20.418Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 83.8h (+8), Sem postagem há 83.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Cultura",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789335844779",
       "feedName": "G1 - Economia",

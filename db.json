@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5a6af6c6",
+      "views": 0,
+      "date": "2026-09-14T05:19:34.212Z",
+      "title": "'Precisamos excluir a data': Banco Master usou Word, PDFs e códigos para fabricar: como isso afeta a população?",
+      "subtitle": "Economia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A fraude investigada pela Polícia Federal no Banco Master funcionava como uma espécie de linha de montagem digital.",
+      "slug": "precisamos-excluir-a-data-banco-master-usou-word-pdfs-e-codigos-para-fabricar-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A fraude investigada pela Polícia Federal no Banco Master funcionava como uma espécie de linha de montagem digital. A PF identificou: Dados reais de clientes extraídos de sistemas internos; Documentos produzidos em massa com ferramentas do Microsoft Office; Páginas de assinaturas separadas por programas desenvolvidos pela área de tecnologia; e Peças reunidas em novos arquivos PDF para formar dossiês de contratos que seriam apresentados como créditos legítimos da Tirreno Consultoria ao Banco de Brasília (BRB).\n\nO que já foi informado\n\nQuando os documentos carregavam informações que poderiam revelar sua origem ou a verdadeira data de formalização, funcionários também atuavam para apagá-las ou alterá-las. Em um dos casos analisados pela perícia, um Termo de Consentimento que trazia originalmente a data de 24 de fevereiro de 2023 teve esse registro removido em julho de 2025. A relação triangular entre a Tirreno, Master e o BRB funcionou como um esquema de simulação e repasse de ativos ilíquidos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Precisamos excluir a data': Banco Master usou Word Store Center",
+      "seoDescription": "Economia Camarotti: Queda de sigilo de documentos do caso Master eleva tensão para terça-feira A fraude investigada pela Polícia Fede",
+      "keyword": "'Precisamos excluir a data': Banco Master usou Word, PDFs e códigos para fabricar documentos falsos, diz PF Fonte 2 Uber libera vídeo ao vivo para pais em viagens de filhos adolescentes; veja como vai funcionar",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/14/banco-master-usou-word-pdfs-e-codigos-para-fabricar-documentos-falsos-diz-pf.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/14/banco-master-usou-word-pdfs-e-codigos-para-fabricar-documentos-falsos-diz-pf.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/09/uber-video-ao-vivo-pais-adolescentes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "'Precisamos excluir a data': Banco Master usou Word, PDFs e códigos para fabricar documentos falsos, diz PF",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_2eab71d",
       "views": 0,
       "date": "2026-09-14T00:12:20.418Z",
@@ -9339,7 +9380,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-14T00:12:17.229Z",
+      "lastScraped": "2026-09-14T05:19:32.110Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9347,7 +9388,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-14T00:12:17.776Z",
+      "lastScraped": "2026-09-14T05:19:33.083Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9360,7 +9401,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-14T00:12:20.401Z",
+      "lastScraped": "2026-09-14T05:19:34.199Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9417,6 +9458,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789363223525",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Precisamos excluir a data': Banco Master usou Word, PDFs e códigos para fabricar documentos falsos, diz PF",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Precisamos excluir a data': Banco Master usou Word, PDFs e códigos para fabricar: como isso afeta a população?",
+      "postId": "rss-hash_5a6af6c6",
+      "timestamp": "2026-09-14T05:19:34.213Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 88.9h (+8), Sem postagem há 88.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Cultura",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1789344779430",
       "feedName": "G1 - Economia",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_243bb5a3",
+      "views": 0,
+      "date": "2026-09-14T14:25:09.825Z",
+      "title": "Conheça o caminho do voto, desde a seção eleitoral até a divulgação do resultado: o que pode mudar agora?",
+      "subtitle": "Às 7 horas do dia da eleição, a urna eletrônica é ligada.",
+      "slug": "conheca-o-caminho-do-voto-desde-a-secao-eleitoral-ate-a-divulgacao-do-resultado-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nÀs 7 horas do dia da eleição, a urna eletrônica é ligada. Na presença dos mesários e fiscais de partidos políticos, é emitido em cada seção eleitoral um relatório denominado “zerésima”, que contém toda a identificação daquela urna e comprova que nela estão registrados todos os candidatos com zero voto.\n\nO que já foi informado\n\nConfira página especial sobre as Eleições 2026 Às 8 horas, é iniciada a votação na seção eleitoral. Digita o número do CPF ou do título eleitoral no Terminal do Mesário e, por meio do nome mostrado na tela, identifica o eleitor e o autoriza a votar. Após o voto, o mesário devolve o documento de identificação e entrega o comprovante de votação ao eleitor. Após as 17 horas, quando a eleição é encerrada, os dados contidos nos cartões de memória contidos nas urnas (Boletim de Urna) são gravados criptografados em uma mídia de resultado (pendrive, por exemplo), que é encaminhada a local próprio e seguro para transmissão à Justiça Eleitoral.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Conheça o caminho do voto, desde a seção eleitoral até Store Center",
+      "seoDescription": "Às 7 horas do dia da eleição, a urna eletrônica é ligada.",
+      "keyword": "Conheça o caminho do voto, desde a seção eleitoral até a divulgação do resultado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1304325-conheca-o-caminho-do-voto-desde-a-secao-eleitoral-ate-a-divulgacao-do-resultado",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1304325-conheca-o-caminho-do-voto-desde-a-secao-eleitoral-ate-a-divulgacao-do-resultado"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Conheça o caminho do voto, desde a seção eleitoral até a divulgação do resultado",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_190e482",
       "views": 0,
       "date": "2026-09-14T10:49:40.156Z",
@@ -9459,7 +9498,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-14T10:49:38.314Z",
+      "lastScraped": "2026-09-14T14:25:08.372Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9467,7 +9506,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-14T10:49:39.118Z",
+      "lastScraped": "2026-09-14T14:25:09.082Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9480,7 +9519,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-14T10:49:40.146Z",
+      "lastScraped": "2026-09-14T14:25:09.815Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9537,6 +9576,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789395951722",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Conheça o caminho do voto, desde a seção eleitoral até a divulgação do resultado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Conheça o caminho do voto, desde a seção eleitoral até a divulgação do resultado: o que pode mudar agora?",
+      "postId": "rss-hash_243bb5a3",
+      "timestamp": "2026-09-14T14:25:09.825Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 68.4h (+8), Sem postagem há 68.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Tecnologia",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789383036323",
       "feedName": "G1 - Economia",

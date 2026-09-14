@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_60d63e5c",
+      "views": 0,
+      "date": "2026-09-14T16:21:17.819Z",
+      "title": "Freio na IA: Trump contra-ataca e fala em 'conspiração doentia' para favorecer a: por que esse movimento importa?",
+      "subtitle": "Economia Empresários das 'Big Tech' defendem desacelerar o desenvolvimento da inteligência artificial O presidente dos Estados Unidos, Donald Trump, voltou a criticar nesta segunda-feira (14) os apelos de líderes de empresas de inteligência.",
+      "slug": "freio-na-ia-trump-contra-ataca-e-fala-em-conspiracao-doentia-para-favorecer-a-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Empresários das 'Big Tech' defendem desacelerar o desenvolvimento da inteligência artificial O presidente dos Estados Unidos, Donald Trump, voltou a criticar nesta segunda-feira (14) os apelos de líderes de empresas de inteligência artificial para desacelerar o desenvolvimento da tecnologia. Trump afirmou que o apelo faz parte de uma \"conspiração doentia\" que beneficiará a China, maior rival geopolítico dos EUA e também no campo da IA.\n\nO que já foi informado\n\nSiga o canal de notícias internacionais do g1 no WhatsApp No fim de semana, o debate público sobre IA esquentou depois que dois pesquisadores da Anthropic emitiram alertas de que o rápido avanço da tecnologia poderia levar à extinção da raça humana num futuro não muito distante. O presidente dos EUA, Donald Trump, criticou os alertas e indicou que não quer perder a corrida da IA para a China (leia mais abaixo). \"Há uma conspiração DOENTIA em curso contra a IA e os Data Centers, e a única que fica feliz com isso é a China\", escreveu o presidente norte-americano em sua rede social Truth Social.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Freio na IA: Trump contra-ataca e fala em 'conspiração Store Center",
+      "seoDescription": "Economia Empresários das 'Big Tech' defendem desacelerar o desenvolvimento da inteligência artificial O presidente dos Estados Unidos",
+      "keyword": "Freio na IA: Trump contra-ataca e fala em 'conspiração doentia' para favorecer a China Fonte 2 Freio na IA: China acusa 'forças hostis' de abusarem da tecnologia após Trump dizer que lidera corrida",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/09/14/freio-na-ia-trump-contra-ataca-e-fala-de-conspiracao-doentia-contra-a-tecnologia.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/09/14/freio-na-ia-trump-contra-ataca-e-fala-de-conspiracao-doentia-contra-a-tecnologia.ghtml",
+        "https://g1.globo.com/mundo/noticia/2026/09/14/china-alerta-para-risco-da-ia-a-sua-seguranca-nacional.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Freio na IA: Trump contra-ataca e fala em 'conspiração doentia' para favorecer a China",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_243bb5a3",
       "views": 0,
       "date": "2026-09-14T14:25:09.825Z",
@@ -9498,7 +9539,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-14T14:25:08.372Z",
+      "lastScraped": "2026-09-14T16:21:07.317Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9506,7 +9547,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-14T14:25:09.082Z",
+      "lastScraped": "2026-09-14T16:21:07.685Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9576,6 +9617,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789402930979",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Freio na IA: Trump contra-ataca e fala em 'conspiração doentia' para favorecer a China",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Freio na IA: Trump contra-ataca e fala em 'conspiração doentia' para favorecer a: por que esse movimento importa?",
+      "postId": "rss-hash_60d63e5c",
+      "timestamp": "2026-09-14T16:21:17.819Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 68.5h (+8), Sem postagem há 68.5h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789395951722",
       "feedName": "Agência Câmara - Política",

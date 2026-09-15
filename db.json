@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3d6f1112",
+      "views": 0,
+      "date": "2026-09-15T20:19:26.224Z",
+      "title": "Lula sanciona programa que reduz impostos para instalação e ampliação de data: o que muda para os próximos jogos?",
+      "subtitle": "O presidente Luiz Inácio Lula da Silva (PT) sancionou nesta terça-feira (15) o Regime Especial de Tributação para Serviços de Data Center, o chamado Redata.",
+      "slug": "lula-sanciona-programa-que-reduz-impostos-para-instalacao-e-ampliacao-de-data-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nO presidente Luiz Inácio Lula da Silva (PT) sancionou nesta terça-feira (15) o Regime Especial de Tributação para Serviços de Data Center, o chamado Redata. A medida cria incentivos fiscais para empresas que instalarem ou ampliarem os centros de processamento de dados no Brasil.\n\nO que já foi informado\n\nNa prática, o programa reduz a cobrança de impostos sobre equipamentos usados na instalação e na expansão de data centers. O texto também prevê benefícios tributários para a exportação de serviços prestados pelo setor. A intenção do governo é atrair investimentos, ampliar a infraestrutura digital e aumentar a capacidade do Brasil de armazenar e processar dados, demanda que ganhou ainda mais importância com o avanço da inteligência artificial. O que é um data center? Agora no g1 Data center, ou centro de dados, é uma estrutura que reúne equipamentos usados para armazenar, processar e distribuir grandes volumes de informações. Há, por exemplo, data centers voltados para serviços de nuvem e também para estruturas destinadas à operação dos sistemas de inteligência artificial.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula sanciona programa que reduz impostos para Store Center",
+      "seoDescription": "O presidente Luiz Inácio Lula da Silva (PT) sancionou nesta terça-feira (15) o Regime Especial de Tributação para Serviços de Data Center, o chamado R",
+      "keyword": "Lula sanciona programa que reduz impostos para instalação e ampliação de data centers",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/15/lula-sanciona-programa-que-reduz-impostos-para-instalacao-e-ampliacao-de-data-centers.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/15/lula-sanciona-programa-que-reduz-impostos-para-instalacao-e-ampliacao-de-data-centers.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Lula sanciona programa que reduz impostos para instalação e ampliação de data centers",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_630553a9",
       "views": 0,
       "date": "2026-09-15T18:36:55.013Z",
@@ -10025,7 +10064,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T18:36:53.222Z",
+      "lastScraped": "2026-09-15T20:19:14.631Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10033,7 +10072,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T18:36:53.783Z",
+      "lastScraped": "2026-09-15T20:19:15.709Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10103,6 +10142,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789503594692",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula sanciona programa que reduz impostos para instalação e ampliação de data centers",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula sanciona programa que reduz impostos para instalação e ampliação de data: o que muda para os próximos jogos?",
+      "postId": "rss-hash_3d6f1112",
+      "timestamp": "2026-09-15T20:19:26.225Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 15.1h (+8), Sem postagem há 15.1h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789497448423",
       "feedName": "G1 - Economia",

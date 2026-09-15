@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_630553a9",
+      "views": 0,
+      "date": "2026-09-15T18:36:55.013Z",
+      "title": "Humanidade perderá autonomia se avanço da IA não for limitado agora, diz: o que muda para usuários e empresas?",
+      "subtitle": "A inteligência artificial pode reduzir a autonomia da humanidade se não forem aprovadas leis para limitar seu avanço, afirmou Maria Ressa, ganhadora do Prêmio Nobel da Paz.",
+      "slug": "humanidade-perdera-autonomia-se-avanco-da-ia-nao-for-limitado-agora-diz-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA inteligência artificial pode reduzir a autonomia da humanidade se não forem aprovadas leis para limitar seu avanço, afirmou Maria Ressa, ganhadora do Prêmio Nobel da Paz. A jornalista filipino-americana, vencedora do Nobel da Paz de 2021 em reconhecimento, entre outros fatores, ao seu trabalho sobre o poder das grandes empresas de tecnologia, atua como copresidente do painel científico internacional da ONU sobre IA.\n\nO que já foi informado\n\nO grupo estuda como a tecnologia está transformando a vida das pessoas em todo o mundo. Segundo Ressa, a tecnologia já capturou a atenção das pessoas por meio das redes sociais e depois passou a explorar a necessidade humana de conexão e intimidade. Ela defende que os cidadãos pressionem políticos e autoridades para aprovar regras que regulamentem o uso da inteligência artificial. “Pedir regulamentação não é uma questão de liberdade de expressão. É uma questão de segurança pública”, disse Ressa, que também é cofundadora e presidente-executiva do site de notícias Rappler, à . Agora no g1 “Acho que estamos naquele momento em que, se isso não acontecer, vamos perder o controle.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Humanidade perderá autonomia se avanço da IA não for Store Center",
+      "seoDescription": "A inteligência artificial pode reduzir a autonomia da humanidade se não forem aprovadas leis para limitar seu avanço, afirmou Maria Ressa, ganhadora d",
+      "keyword": "Humanidade perderá autonomia se avanço da IA não for limitado agora, diz ganhadora do Nobel Fonte 2 OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz agência",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/15/ia-ganhadora-do-nobel.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/ia-ganhadora-do-nobel.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/openai-anthropic-google-seguranca-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Humanidade perderá autonomia se avanço da IA não for limitado agora, diz ganhadora do Nobel",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_261955f0",
       "views": 0,
       "date": "2026-09-15T17:14:23.402Z",
@@ -9984,7 +10025,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T17:14:21.253Z",
+      "lastScraped": "2026-09-15T18:36:53.222Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9992,7 +10033,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T17:14:21.923Z",
+      "lastScraped": "2026-09-15T18:36:53.783Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10005,7 +10046,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-15T17:14:23.389Z",
+      "lastScraped": "2026-09-15T18:36:54.996Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10062,6 +10103,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789497448423",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Humanidade perderá autonomia se avanço da IA não for limitado agora, diz ganhadora do Nobel",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Humanidade perderá autonomia se avanço da IA não for limitado agora, diz: o que muda para usuários e empresas?",
+      "postId": "rss-hash_630553a9",
+      "timestamp": "2026-09-15T18:36:55.013Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.4h (+8), Sem postagem há 8.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789492552774",
       "feedName": "G1 - Economia",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_261955f0",
+      "views": 0,
+      "date": "2026-09-15T17:14:23.402Z",
+      "title": "Meta One: plano pago de Instagram, WhatsApp e Facebook chega ao Brasil por até: por que isso importa para a economia?",
+      "subtitle": "Instagram Plus é liberado no Brasil; veja preço e benefícios A Meta oficializou nesta terça-feira (15) o lançamento do Meta One no Brasil.",
+      "slug": "meta-one-plano-pago-de-instagram-whatsapp-e-facebook-chega-ao-brasil-por-ate-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nInstagram Plus é liberado no Brasil; veja preço e benefícios A Meta oficializou nesta terça-feira (15) o lançamento do Meta One no Brasil. O plano de assinatura libera recursos extras para usuários, criadores de conteúdo e empresas no Instagram, no WhatsApp e no Facebook.\n\nO que já foi informado\n\nO serviço oferece diferentes opções de planos, com preços e benefícios variados, e estava em fase de testes desde maio deste ano. No Brasil, os valores começam em R$ 32 e chegam a R$ 1.999 no plano mais caro. Para usuários comuns, a Meta oferece dois tipos de plano. O One Core, de R$ 32 por mês, que reúne os benefícios do Facebook Plus, Instagram Plus e WhatsApp Plus, além de dar acesso aos modelos mais avançados de IA da Meta. Já o One Premium, de R$ 97 por mês, inclui os recursos dos planos Plus de Facebook, WhatsApp e Instagram, e mais acesso a modelos avançados de IA para geração de imagens e vídeos, além de edição de vídeos. O que oferecem Instagram Plus, WhatsApp Plus e Facebook Plus Logo da Meta com seus serviços: Facebook, Instagram, WhatsApp, Messenger.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta One: plano pago de Instagram, WhatsApp e Facebook Store Center",
+      "seoDescription": "Instagram Plus é liberado no Brasil; veja preço e benefícios A Meta oficializou nesta terça-feira (15) o lançamento do Meta One no Brasil.",
+      "keyword": "Meta One: plano pago de Instagram, WhatsApp e Facebook chega ao Brasil por até R$ 2 mil por mês",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/15/meta-one-plano-pago-de-instagram-whatsapp-e-facebook-chega-ao-brasil-por-ate-r-2-mil-por-mes.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/meta-one-plano-pago-de-instagram-whatsapp-e-facebook-chega-ao-brasil-por-ate-r-2-mil-por-mes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Meta One: plano pago de Instagram, WhatsApp e Facebook chega ao Brasil por até R$ 2 mil por mês",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_53fa91bf",
       "views": 0,
       "date": "2026-09-15T14:57:31.138Z",
@@ -9945,7 +9984,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T14:57:30.035Z",
+      "lastScraped": "2026-09-15T17:14:21.253Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9953,7 +9992,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T14:57:30.284Z",
+      "lastScraped": "2026-09-15T17:14:21.923Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9966,7 +10005,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-15T14:57:31.125Z",
+      "lastScraped": "2026-09-15T17:14:23.389Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10023,6 +10062,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789492552774",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta One: plano pago de Instagram, WhatsApp e Facebook chega ao Brasil por até R$ 2 mil por mês",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta One: plano pago de Instagram, WhatsApp e Facebook chega ao Brasil por até: por que isso importa para a economia?",
+      "postId": "rss-hash_261955f0",
+      "timestamp": "2026-09-15T17:14:23.403Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 48.6h (+8), Sem postagem há 48.6h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789484341213",
       "feedName": "G1 - Economia",

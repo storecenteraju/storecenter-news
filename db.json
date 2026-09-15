@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_53fa91bf",
+      "views": 0,
+      "date": "2026-09-15T14:57:31.138Z",
+      "title": "Rendimento do Tesouro americano atinge maior nível em quase 20 anos: por que isso importa para a economia?",
+      "subtitle": "Brendan McDermid Os rendimentos dos títulos do Tesouro americano, conhecidos no mercado como Treasuries, com vencimento de dez anos, atingiram 5,02% nesta terça-feira (15), o maior nível desde 2007.",
+      "slug": "rendimento-do-tesouro-americano-atinge-maior-nivel-em-quase-20-anos-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nBrendan McDermid Os rendimentos dos títulos do Tesouro americano, conhecidos no mercado como Treasuries, com vencimento de dez anos, atingiram 5,02% nesta terça-feira (15), o maior nível desde 2007. O movimento acompanha a alta dos preços do petróleo no mercado internacional e reflete o temor de que uma aceleração da inflação pressione os juros americanos para cima.\n\nO que já foi informado\n\nOs preços da commodity voltaram a subir nesta semana após novos ataques na Arábia Saudita e no Estreito de Ormuz. Um ataque com drones em território saudita interrompeu temporariamente as operações do oleoduto Leste-Oeste, aumentando as preocupações com a oferta global de petróleo. Sua paralisação ameaça até 4% do abastecimento global da commodity, cenário que pode se agravar com as restrições à navegação no Estreito de Ormuz, rota por onde passava cerca de 20% do comércio mundial do petróleo antes do conflito entre Estados Unidos e Irã.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Rendimento do Tesouro americano atinge maior nível em Store Center",
+      "seoDescription": "Brendan McDermid Os rendimentos dos títulos do Tesouro americano, conhecidos no mercado como Treasuries, com vencimento de dez anos, atingiram 5,02% n",
+      "keyword": "Rendimento do Tesouro americano atinge maior nível em quase 20 anos; entenda como isso afeta o Brasil Fonte 2 Dólar oscila, com julgamento Moraes-Vorcaro e Superquarta no radar; Ibovespa sobe",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/15/rendimento-do-tesouro-americano.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/15/rendimento-do-tesouro-americano.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/15/dolar-ibovespa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Rendimento do Tesouro americano atinge maior nível em quase 20 anos; entenda como isso afeta o Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_49a85f6d",
       "views": 0,
       "date": "2026-09-15T12:54:24.173Z",
@@ -9904,7 +9945,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T12:54:22.329Z",
+      "lastScraped": "2026-09-15T14:57:30.035Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -9912,7 +9953,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T12:54:23.022Z",
+      "lastScraped": "2026-09-15T14:57:30.284Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -9925,7 +9966,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-15T12:54:24.160Z",
+      "lastScraped": "2026-09-15T14:57:31.125Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -9982,6 +10023,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789484341213",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Rendimento do Tesouro americano atinge maior nível em quase 20 anos; entenda como isso afeta o Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Rendimento do Tesouro americano atinge maior nível em quase 20 anos: por que isso importa para a economia?",
+      "postId": "rss-hash_53fa91bf",
+      "timestamp": "2026-09-15T14:57:31.139Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.5h (+8), Sem postagem há 6.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789476943474",
       "feedName": "G1 - Economia",

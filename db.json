@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1cf5f7ef",
+      "views": 0,
+      "date": "2026-09-15T22:27:06.427Z",
+      "title": "ONU pede 'ação urgente' para regular IA e alerta para riscos sem precedentes: o que muda para usuários e empresas?",
+      "subtitle": "O alto comissário das Nações Unidas para os Direitos Humanos, Volker Türk, pediu na segunda-feira (14) uma \"ação urgente\" para regulamentar a inteligência artificial (IA), diante dos riscos sem precedentes apresentados pelos sistemas mais avançados da.",
+      "slug": "onu-pede-acao-urgente-para-regular-ia-e-alerta-para-riscos-sem-precedentes-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO alto comissário das Nações Unidas para os Direitos Humanos, Volker Türk, pediu na segunda-feira (14) uma \"ação urgente\" para regulamentar a inteligência artificial (IA), diante dos riscos sem precedentes apresentados pelos sistemas mais avançados da tecnologia. \"Estamos à beira de uma mudança irreversível, que afeta não apenas a nós, mas também as futuras gerações da humanidade\", disse Türk em um comunicado.\n\nO que já foi informado\n\n\"Exorto os Estados e as empresas a se mobilizarem urgentemente em estruturas multilaterais\", acrescentou. \"Todos os direitos humanos estão ameaçados\" por essa tecnologia, incluindo \"o direito à vida\", afirmou. A preocupação com as consequências da rápida evolução da IA tem crescido. Vários executivos de empresas de tecnologia dos Estados Unidos também defenderam um ritmo mais lento para os avanços nessa área. Agora no g1 No sábado, o CEO da Anthropic, Dario Amodei, defendeu uma desaceleração no desenvolvimento da tecnologia para permitir uma avaliação mais aprofundada dos riscos associados às novas capacidades da IA. Ele recebeu apoio público de seu homólogo da OpenAI, Sam Altman, além do bilionário Elon Musk.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "ONU pede 'ação urgente' para regular IA e alerta para Store Center",
+      "seoDescription": "O alto comissário das Nações Unidas para os Direitos Humanos, Volker Türk, pediu na segunda-feira (14) uma \"ação urgente\" para regulamentar a inteligê",
+      "keyword": "ONU pede 'ação urgente' para regular IA e alerta para riscos sem precedentes Fonte 2 OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz agência",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/15/onu-ia.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/onu-ia.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/openai-anthropic-google-seguranca-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "ONU pede 'ação urgente' para regular IA e alerta para riscos sem precedentes",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_3d6f1112",
       "views": 0,
       "date": "2026-09-15T20:19:26.224Z",
@@ -10064,7 +10105,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T20:19:14.631Z",
+      "lastScraped": "2026-09-15T22:27:05.042Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10072,7 +10113,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T20:19:15.709Z",
+      "lastScraped": "2026-09-15T22:27:05.581Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10085,7 +10126,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-15T18:36:54.996Z",
+      "lastScraped": "2026-09-15T22:27:06.415Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10142,6 +10183,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789511266974",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "ONU pede 'ação urgente' para regular IA e alerta para riscos sem precedentes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "ONU pede 'ação urgente' para regular IA e alerta para riscos sem precedentes: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1cf5f7ef",
+      "timestamp": "2026-09-15T22:27:06.427Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.2h (+8), Sem postagem há 12.2h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789503594692",
       "feedName": "G1 - Economia",

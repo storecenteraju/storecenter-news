@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_732fdbb6",
+      "views": 0,
+      "date": "2026-09-16T12:50:46.179Z",
+      "title": "Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança: por que esse movimento importa?",
+      "subtitle": "Economia CEO da Anthropic pede que setor desacelere ritmo de desenvolvimento da IA O debate sobre o avanço da inteligência artificial voltou a ganhar destaque nesta semana após o CEO da Anthropic, Dario Amodei, defender, em um artigo publicado.",
+      "slug": "frear-a-ia-trump-rejeita-a-ideia-china-alerta-para-riscos-e-ue-cobra-seguranca-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia CEO da Anthropic pede que setor desacelere ritmo de desenvolvimento da IA O debate sobre o avanço da inteligência artificial voltou a ganhar destaque nesta semana após o CEO da Anthropic, Dario Amodei, defender, em um artigo publicado no sábado (12), que as empresas reduzam o ritmo de desenvolvimento de seus modelos de IA. O ensaio foi divulgado após a Anthropic publicar um relatório detalhando como diferentes agentes usaram seus modelos Claude em atividades que incluíam desenvolvimento de armas, operações cibernéticas, vigilância e fraude.\n\nO que já foi informado\n\nO presidente dos EUA, Donald Trump, defendeu a liderança americana em IA e minimizou os riscos apontados, enquanto a China alertou para ameaças à segurança nacional. A União Europeia defendeu a inovação, mas cobrou das empresas garantias de segurança. Já a Alemanha afirmou que interromper o desenvolvimento da IA não é uma opção viável para a Europa. Veja abaixo as diferentes reações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Frear a IA? Trump rejeita a ideia, China alerta para Store Center",
+      "seoDescription": "Economia CEO da Anthropic pede que setor desacelere ritmo de desenvolvimento da IA O debate sobre o avanço da inteligência artificial",
+      "keyword": "Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança Fonte 2 Mark Zuckerberg, CEO da Meta, rejeita apelos para desacelerar o desenvolvimento da IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/14/como-autoridades-reagiram-apos-ceo-da-anthropic-pedir-freio-do-avanco-da-ia.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/14/como-autoridades-reagiram-apos-ceo-da-anthropic-pedir-freio-do-avanco-da-ia.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/mark-zuckerberg-rejeita-desacelerar-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_4fa78d56",
       "views": 0,
       "date": "2026-09-16T10:07:09.811Z",
@@ -10267,7 +10308,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-16T10:07:08.012Z",
+      "lastScraped": "2026-09-16T12:50:44.531Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10275,7 +10316,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-16T10:07:08.797Z",
+      "lastScraped": "2026-09-16T12:50:45.161Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10288,7 +10329,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-16T10:07:09.801Z",
+      "lastScraped": "2026-09-16T12:50:46.166Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10345,6 +10386,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789563048693",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança: por que esse movimento importa?",
+      "postId": "rss-hash_732fdbb6",
+      "timestamp": "2026-09-16T12:50:46.179Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.6h (+8), Sem postagem há 26.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789553255137",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_72babdf5",
+      "views": 0,
+      "date": "2026-09-16T08:18:37.197Z",
+      "title": "Por que há o temor sobre IA acabar com a humanidade — e existe mesmo o risco? Fonte 2 Frear a IA? Trump rejeita a?",
+      "subtitle": "Declarações de pesquisadores que atuam ou atuaram na área de que a IA pode representar uma ameaça à humanidade acentuaram o sinal de alerta.",
+      "slug": "por-que-ha-o-temor-sobre-ia-acabar-com-a-humanidade-e-existe-mesmo-o-risco-fonte-2-frear-a-ia-trump-rejeita-a",
+      "content": "O que aconteceu\n\nDeclarações de pesquisadores que atuam ou atuaram na área de que a IA pode representar uma ameaça à humanidade acentuaram o sinal de alerta. Um deles, inclusive, chegou a dizer que existe mais de 10% de chance de a IA \"matar todos os humanos\".\n\nO que já foi informado\n\nEmpresas gigantes deste setor nos Estados Unidos, como a OpenAI (responsável pelo ChatGPT) e Anthropic (responsável pelo Claude), têm pressionado congressistas americanos a criar regras para o setor. Por outro lado, alguns críticos sugerem que esse movimento por regulamentação das empresas líderes de mercado possa servir para consolidar a vantagem dessas empresas sobre concorrentes atuais e futuros. De qualquer forma, as declarações de grande repercussão aumentaram a preocupação em torno do impacto dessa tecnologia. A seguir, o que se sabe até agora. Por que alguns acham que a IA pode ser uma ameaça à humanidade? Alguns pesquisadores de IA afirmam que há sinais preocupantes de que esses sistemas estejam avançando rápido demais em capacidade e poder.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que há o temor sobre IA acabar com a humanidade — e Store Center",
+      "seoDescription": "Declarações de pesquisadores que atuam ou atuaram na área de que a IA pode representar uma ameaça à humanidade acentuaram o sinal de alerta.",
+      "keyword": "Por que há o temor sobre IA acabar com a humanidade — e existe mesmo o risco? Fonte 2 Frear a IA? Trump rejeita a ideia, China alerta para riscos e UE cobra segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/16/por-que-ha-o-temor-sobre-ia-acabar-com-a-humanidade-e-existe-mesmo-o-risco.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/por-que-ha-o-temor-sobre-ia-acabar-com-a-humanidade-e-existe-mesmo-o-risco.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/14/como-autoridades-reagiram-apos-ceo-da-anthropic-pedir-freio-do-avanco-da-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Por que há o temor sobre IA acabar com a humanidade — e existe mesmo o risco?",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_53262979",
       "views": 0,
       "date": "2026-09-16T05:06:31.529Z",
@@ -10185,7 +10226,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-16T05:06:20.359Z",
+      "lastScraped": "2026-09-16T08:18:35.656Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10193,7 +10234,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-16T05:06:21.005Z",
+      "lastScraped": "2026-09-16T08:18:36.220Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10206,7 +10247,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-16T00:20:07.487Z",
+      "lastScraped": "2026-09-16T08:18:37.184Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10263,6 +10304,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789546764640",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que há o temor sobre IA acabar com a humanidade — e existe mesmo o risco?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que há o temor sobre IA acabar com a humanidade — e existe mesmo o risco? Fonte 2 Frear a IA? Trump rejeita a?",
+      "postId": "rss-hash_72babdf5",
+      "timestamp": "2026-09-16T08:18:37.198Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.1h (+8), Sem postagem há 22.1h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 26",
+      "discardedCategories": [
+        "Economia",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789535253081",
       "feedName": "G1 - Economia",

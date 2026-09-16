@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_8558494",
+      "views": 0,
+      "date": "2026-09-16T00:20:07.502Z",
+      "title": "Mega-Sena, concurso 3058: como isso afeta a população?",
+      "subtitle": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.058 da Mega-Sena foi realizado na noite desta terça-feira (15), em São Paulo.",
+      "slug": "mega-sena-concurso-3058-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Como funciona a Mega-Sena? O sorteio do concurso 3.058 da Mega-Sena foi realizado na noite desta terça-feira (15), em São Paulo.\n\nO que já foi informado\n\nO prêmio para as apostas que acertarem as seis dezenas é de R$ 92,4 milhões. Veja os números sorteados: 14 - 23 - 53 - 56 - 57 - 60 A Caixa ainda não divulgou o rateio do sorteio de hoje. Resultado do concurso 3068 da Mega-Sena. Os jogos podem ser realizados até as 20h (horário de Brasília) em qualquer lotérica do país ou por meio do site e aplicativo Loterias Caixa, disponíveis em smartphones, computadores e outros dispositivos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena, concurso 3058: como isso afeta a população? Store Center",
+      "seoDescription": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.058 da Mega-Sena foi realizado na noite desta terça-feira (15), em São Pa",
+      "keyword": "Mega-Sena, concurso 3058: confira os números sorteados Fonte 2 Radares que fiscalizam velocidade média serão testados em 8 estados; veja onde",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/15/mega-sena-concurso-3058-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/15/mega-sena-concurso-3058-confira-os-numeros-sorteados.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/15/radares-que-medem-velocidade-media-serao-testados-em-8-estados.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mega-Sena, concurso 3058: confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_1cf5f7ef",
       "views": 0,
       "date": "2026-09-15T22:27:06.427Z",
@@ -10105,7 +10146,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-15T22:27:05.042Z",
+      "lastScraped": "2026-09-16T00:20:06.103Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10113,7 +10154,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-15T22:27:05.581Z",
+      "lastScraped": "2026-09-16T00:20:06.701Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10126,7 +10167,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-15T22:27:06.415Z",
+      "lastScraped": "2026-09-16T00:20:07.487Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10183,6 +10224,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789518099456",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena, concurso 3058: confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena, concurso 3058: como isso afeta a população?",
+      "postId": "rss-hash_8558494",
+      "timestamp": "2026-09-16T00:20:07.503Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.1h (+8), Sem postagem há 7.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789511266974",
       "feedName": "G1 - Economia",

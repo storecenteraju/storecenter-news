@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_143a6f9a",
+      "views": 0,
+      "date": "2026-09-16T18:34:38.229Z",
+      "title": "UE propõe proibição de redes sociais para menores de 13 anos Fonte 2 Mark: o que muda para usuários e empresas?",
+      "subtitle": "Economia Bandeiras de países da União Europeia na sede do Parlamento Europeu, em Estrasburgo, França Antoine Schibler/Unsplash A presidente da Comissão Europeia, Ursula von der Leyen, anunciou nesta quarta-feira (16) várias propostas para.",
+      "slug": "ue-propoe-proibicao-de-redes-sociais-para-menores-de-13-anos-fonte-2-mark-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Bandeiras de países da União Europeia na sede do Parlamento Europeu, em Estrasburgo, França Antoine Schibler/Unsplash A presidente da Comissão Europeia, Ursula von der Leyen, anunciou nesta quarta-feira (16) várias propostas para proteger crianças e adolescentes na internet. Entre elas estão a proibição das redes sociais para menores de 13 anos e a criação de contas limitadas para menores de 15.\n\nO que já foi informado\n\n\"Nada de redes sociais antes dos 13 anos e nada de contas pessoais antes dos 15 anos\", declarou a presidente do Executivo comunitário em um discurso no Parlamento. \"Dessa maneira, as crianças entre 13 e 15 anos só terão minicontas, instaladas e supervisionadas pelos pais, com funções restritas e tempo de uso limitado. E, para os jovens entre 15 e 18 anos, as plataformas serão obrigadas a adotar um design seguro\", acrescentou. As medidas integram um projeto de lei europeu chamado 'EU Kids Act' e precisarão da aprovação do Parlamento Europeu e dos 27 países da UE. Agora no g1 Von der Leyen apresentará os detalhes do projeto na quinta-feira, na cidade francesa de Estrasburgo, ao lado da comissária de Assuntos Digitais, Henna Virkkunen.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "UE propõe proibição de redes sociais para menores de 13 Store Center",
+      "seoDescription": "Economia Bandeiras de países da União Europeia na sede do Parlamento Europeu, em Estrasburgo, França Antoine Schibler/Unsplash A pres",
+      "keyword": "UE propõe proibição de redes sociais para menores de 13 anos Fonte 2 Mark Zuckerberg, CEO da Meta, rejeita apelos para desacelerar o desenvolvimento da IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/16/ue-propoe-proibicao-de-redes-sociais-para-menores-de-13-anos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/ue-propoe-proibicao-de-redes-sociais-para-menores-de-13-anos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/mark-zuckerberg-rejeita-desacelerar-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "UE propõe proibição de redes sociais para menores de 13 anos",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_1c038100",
       "views": 0,
       "date": "2026-09-16T17:15:09.663Z",
@@ -10388,7 +10429,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-16T17:15:07.850Z",
+      "lastScraped": "2026-09-16T18:34:36.935Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10396,7 +10437,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-16T17:15:08.469Z",
+      "lastScraped": "2026-09-16T18:34:37.242Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10409,7 +10450,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-16T17:15:09.650Z",
+      "lastScraped": "2026-09-16T18:34:38.216Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10466,6 +10507,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789583752809",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "UE propõe proibição de redes sociais para menores de 13 anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "UE propõe proibição de redes sociais para menores de 13 anos Fonte 2 Mark: o que muda para usuários e empresas?",
+      "postId": "rss-hash_143a6f9a",
+      "timestamp": "2026-09-16T18:34:38.230Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 32.4h (+8), Sem postagem há 32.4h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789578934056",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1c038100",
+      "views": 0,
+      "date": "2026-09-16T17:15:09.663Z",
+      "title": "JBS e Viva unem operações e criam gigante com capacidade para processar mais de: por que isso importa para a economia?",
+      "subtitle": "Economia O legado dos mestres do couro A JBS está avançando ainda mais no mercado de couros, um dos negócios em que a companhia já tem forte presença global.",
+      "slug": "jbs-e-viva-unem-operacoes-e-criam-gigante-com-capacidade-para-processar-mais-de-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia O legado dos mestres do couro A JBS está avançando ainda mais no mercado de couros, um dos negócios em que a companhia já tem forte presença global. A empresa fechou um acordo com a Viva Holding para criar a JBS Viva, uma nova companhia que vai reunir parte das operações de couro dos dois grupos e terá capacidade para processar mais de 20 milhões de couros por ano, segundo as empresas.\n\nO que já foi informado\n\nA nova companhia terá 31 fábricas e mais de 11 mil colaboradores, distribuídos pelo Brasil, Itália, Uruguai, Argentina, México e Vietnã. A operação reúne negócios de produção, processamento e comercialização de couro da JBS e da Viva, além da fabricação e venda de produtos químicos usados no processamento. O acordo definitivo foi assinado nesta terça-feira (15) e estabelece as regras para a criação da JBS Viva. A empresa será dividida igualmente entre os dois grupos, com 50% de participação para cada um. Antes da conclusão do negócio, a Viva também fará uma reorganização societária para concentrar na Viva Holding as ações da Viva S. A.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "JBS e Viva unem operações e criam gigante com Store Center",
+      "seoDescription": "Economia O legado dos mestres do couro A JBS está avançando ainda mais no mercado de couros, um dos negócios em que a companhia já te",
+      "keyword": "JBS e Viva unem operações e criam gigante com capacidade para processar mais de 20 milhões de couros por ano Fonte 2 Banco Mundial nomeia ganhador do Prêmio Nobel, Michael Kremer, como economista-chefe",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/09/16/jbs-e-viva-unem-operacoes-e-criam-gigante-com-capacidade-para-processar-mais-de-20-milhoes-de-couros-por-ano.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/16/jbs-e-viva-unem-operacoes-e-criam-gigante-com-capacidade-para-processar-mais-de-20-milhoes-de-couros-por-ano.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/16/banco-mundial-economista-chefe.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "JBS e Viva unem operações e criam gigante com capacidade para processar mais de 20 milhões de couros por ano",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_4c75c13c",
       "views": 0,
       "date": "2026-09-16T14:54:29.387Z",
@@ -10347,7 +10388,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-16T14:54:27.582Z",
+      "lastScraped": "2026-09-16T17:15:07.850Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10355,7 +10396,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-16T14:54:28.291Z",
+      "lastScraped": "2026-09-16T17:15:08.469Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10368,7 +10409,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-16T14:54:29.371Z",
+      "lastScraped": "2026-09-16T17:15:09.650Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10425,6 +10466,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789578934056",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "JBS e Viva unem operações e criam gigante com capacidade para processar mais de 20 milhões de couros por ano",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "JBS e Viva unem operações e criam gigante com capacidade para processar mais de: por que isso importa para a economia?",
+      "postId": "rss-hash_1c038100",
+      "timestamp": "2026-09-16T17:15:09.663Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.1h (+8), Sem postagem há 7.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Geopolítica",
+        "Tecnologia",
+        "Cultura",
+        "Direito"
+      ]
+    },
     {
       "id": "1789570541405",
       "feedName": "G1 - Economia",

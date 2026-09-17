@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4b6ae134",
+      "views": 0,
+      "date": "2026-09-17T22:26:29.711Z",
+      "title": "Bolsa Família maior antes da eleição: economistas questionam 'timing' e risco às: o que muda para os próximos jogos?",
+      "subtitle": "Economia Cadastro do Bolsa Família e BPC para quem mora sozinho pode ser atualizado sem visita em casa em Salvador Governo Federal O reajuste do Bolsa Família, anunciado nesta quinta-feira (17) pelo governo federal, foi recebido com ressalvas.",
+      "slug": "bolsa-familia-maior-antes-da-eleicao-economistas-questionam-timing-e-risco-as-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Cadastro do Bolsa Família e BPC para quem mora sozinho pode ser atualizado sem visita em casa em Salvador Governo Federal O reajuste do Bolsa Família, anunciado nesta quinta-feira (17) pelo governo federal, foi recebido com ressalvas por economistas. Apesar de o aumento ser considerado compatível com a reposição da inflação acumulada no período, especialistas consultados pelo g1 questionam o momento escolhido para o anúncio e alertam para possíveis impactos sobre as contas públicas, a inflação e os juros nos próximos anos.\n\nO que já foi informado\n\nO reajuste começa a valer no próximo mês e eleva o valor mínimo do programa de R$ 600 para R$ 691. Já o benefício médio, segundo o Ministério do Planejamento, passa de R$ 675 para R$ 777. “A primeira coisa é que não podemos deixar de considerar que faz tempo que não há reajuste. O problema é que isso está sendo feito às vésperas das eleições, então fica difícil não interpretar o movimento como eleitoreiro”, diz o economista-chefe da Análise Econômica, André Galhardo. Agora no g1 O anúncio acontece a 17 dias do primeiro turno das eleições presidenciais, marcado para 4 de outubro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Bolsa Família maior antes da eleição: economistas Store Center",
+      "seoDescription": "Economia Cadastro do Bolsa Família e BPC para quem mora sozinho pode ser atualizado sem visita em casa em Salvador Governo Federal O",
+      "keyword": "Bolsa Família maior antes da eleição: economistas questionam 'timing' e risco às contas públicas Fonte 2 Órgão do Senado projeta rombo de R$ 86 bilhões em 2027, contraria governo e prevê necessidade de bloqueio para cumprir meta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/17/bolsa-familia-maior-antes-da-eleicao-economistas-questionam-timing-e-risco-as-contas-publicas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/17/bolsa-familia-maior-antes-da-eleicao-economistas-questionam-timing-e-risco-as-contas-publicas.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/17/orgao-do-senado-projeta-rombo-de-r-86-bilhoes-em-2027-contraria-governo-e-preve-necessidade-de-bloqueio-para-cumprir-meta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Bolsa Família maior antes da eleição: economistas questionam 'timing' e risco às contas públicas",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_269991bc",
       "views": 0,
       "date": "2026-09-17T20:25:43.297Z",
@@ -10873,7 +10914,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-17T20:25:31.439Z",
+      "lastScraped": "2026-09-17T22:26:28.126Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10881,7 +10922,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-17T20:25:32.771Z",
+      "lastScraped": "2026-09-17T22:26:28.696Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10894,7 +10935,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-17T18:42:21.676Z",
+      "lastScraped": "2026-09-17T22:26:29.700Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10951,6 +10992,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789684016004",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Bolsa Família maior antes da eleição: economistas questionam 'timing' e risco às contas públicas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Bolsa Família maior antes da eleição: economistas questionam 'timing' e risco às: o que muda para os próximos jogos?",
+      "postId": "rss-hash_4b6ae134",
+      "timestamp": "2026-09-17T22:26:29.711Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Geopolítica",
+        "Tecnologia",
+        "Cultura"
+      ]
+    },
     {
       "id": "1789676833870",
       "feedName": "G1 - Economia",

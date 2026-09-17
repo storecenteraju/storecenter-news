@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_269991bc",
+      "views": 0,
+      "date": "2026-09-17T20:25:43.297Z",
+      "title": "O que mudaria na União Europeia com a nova lei sobre crianças e redes sociais? Fonte 2 Mark Zuckerberg, CEO da Meta?",
+      "subtitle": "A União Europeia apresentou planos para impor limites rigorosos de idade ao acesso de crianças a redes sociais, videogames e assistentes de IA.",
+      "slug": "o-que-mudaria-na-uniao-europeia-com-a-nova-lei-sobre-criancas-e-redes-sociais-fonte-2-mark-zuckerberg-ceo-da-meta",
+      "content": "O que aconteceu\n\nA União Europeia apresentou planos para impor limites rigorosos de idade ao acesso de crianças a redes sociais, videogames e assistentes de IA. A proposta também obriga as empresas a garantir que suas plataformas sejam seguras antes de serem usadas por menores.\n\nO que já foi informado\n\nAs regras para as plataformas incluiriam a proibição de recursos considerados viciantes, como a rolagem infinita e o envio automático de notificações durante o período em que as crianças dormem. A proposta legislativa, chamada \"EU Kids Act\", foi apresentada um dia após a presidente da União Europeia, Ursula von der Leyen, anunciar que os 27 países do bloco querem proibir o acesso às redes sociais para menores de 13 anos e permitir apenas acesso limitado e supervisionado até os 15 anos. A UE tem sido pressionada a agir após diversas evidências indicarem que as redes sociais prejudicam o bem-estar físico e mental das crianças. Nessas plataformas, elas podem se tornar vítimas de predadores, golpistas e agressores. Agora no g1 O que o projeto de lei prevê e quais podem ser os impactos para crianças e pais? O que propõe a UE?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que mudaria na União Europeia com a nova lei sobre Store Center",
+      "seoDescription": "A União Europeia apresentou planos para impor limites rigorosos de idade ao acesso de crianças a redes sociais, videogames e assistentes de IA.",
+      "keyword": "O que mudaria na União Europeia com a nova lei sobre crianças e redes sociais? Fonte 2 Mark Zuckerberg, CEO da Meta, rejeita apelos para desacelerar o desenvolvimento da IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/17/o-que-mudaria-na-uniao-europeia-com-a-nova-lei-sobre-criancas-e-redes-sociais.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/17/o-que-mudaria-na-uniao-europeia-com-a-nova-lei-sobre-criancas-e-redes-sociais.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/mark-zuckerberg-rejeita-desacelerar-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "O que mudaria na União Europeia com a nova lei sobre crianças e redes sociais?",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_1bafc4f6",
       "views": 0,
       "date": "2026-09-17T18:42:21.686Z",
@@ -10832,7 +10873,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-17T18:42:20.149Z",
+      "lastScraped": "2026-09-17T20:25:31.439Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10840,7 +10881,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-17T18:42:20.840Z",
+      "lastScraped": "2026-09-17T20:25:32.771Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10910,6 +10951,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789676833870",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que mudaria na União Europeia com a nova lei sobre crianças e redes sociais?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que mudaria na União Europeia com a nova lei sobre crianças e redes sociais? Fonte 2 Mark Zuckerberg, CEO da Meta?",
+      "postId": "rss-hash_269991bc",
+      "timestamp": "2026-09-17T20:25:43.298Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 58.2h (+8), Sem postagem há 58.2h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Cultura"
+      ]
+    },
     {
       "id": "1789670615579",
       "feedName": "G1 - Economia",

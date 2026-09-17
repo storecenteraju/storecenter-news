@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_9d0dace",
+      "views": 0,
+      "date": "2026-09-17T14:56:29.249Z",
+      "title": "Governo nega influência eleitoral na decisão de reajustar Bolsa Família; aumento não estava: o que pode mudar agora?",
+      "subtitle": "A equipe econômica do governo Lula negou que o reajuste do Bolsa Família anunciado nesta quinta-feira (17) tenha relação com as eleições de 2026.",
+      "slug": "governo-nega-influencia-eleitoral-na-decisao-de-reajustar-bolsa-familia-aumento-nao-estava-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA equipe econômica do governo Lula negou que o reajuste do Bolsa Família anunciado nesta quinta-feira (17) tenha relação com as eleições de 2026. A medida deve beneficiar 19,3 milhões de famílias no Brasil.\n\nO que já foi informado\n\nO anúncio ocorre a 17 dias do primeiro turno das eleições presidenciais, marcado para 4 de outubro. O presidente Luiz Inácio Lula da Silva (PT) é candidato à reeleição no pleito. Embora apareça à frente na última pesquisa Quaest sobre o primeiro turno, Lula tem visto, nos levantamentos mais recentes, o avanço de seu principal adversário, Flávio Bolsonaro (PL), com empate técnico no segundo turno. \"Creio que não tem relação com as eleições . Ficou claro que foi feito pelo esforço de cadastro. Precisávamos da clareza que temos espaço fiscal disponível.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo nega influência eleitoral na decisão de Store Center",
+      "seoDescription": "A equipe econômica do governo Lula negou que o reajuste do Bolsa Família anunciado nesta quinta-feira (17) tenha relação com as eleições de 2026.",
+      "keyword": "Governo nega influência eleitoral na decisão de reajustar Bolsa Família; aumento não estava previsto no Orçamento de 2027",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/17/mesmo-sem-reajuste-previsto-no-orcamento-de-2027-governo-nega-influencia-eleitoral-em-reajuste-do-bolsa-familia.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/17/mesmo-sem-reajuste-previsto-no-orcamento-de-2027-governo-nega-influencia-eleitoral-em-reajuste-do-bolsa-familia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Governo nega influência eleitoral na decisão de reajustar Bolsa Família; aumento não estava previsto no Orçamento de 2027",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_de12448",
       "views": 0,
       "date": "2026-09-17T12:48:10.476Z",
@@ -10712,7 +10751,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-17T12:48:08.710Z",
+      "lastScraped": "2026-09-17T14:56:27.647Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -10720,7 +10759,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-17T12:48:09.632Z",
+      "lastScraped": "2026-09-17T14:56:28.255Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -10733,7 +10772,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-17T12:48:10.463Z",
+      "lastScraped": "2026-09-17T14:56:29.241Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -10790,6 +10829,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789657077761",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo nega influência eleitoral na decisão de reajustar Bolsa Família; aumento não estava previsto no Orçamento de 2027",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo nega influência eleitoral na decisão de reajustar Bolsa Família; aumento não estava: o que pode mudar agora?",
+      "postId": "rss-hash_9d0dace",
+      "timestamp": "2026-09-17T14:56:29.250Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 42.6h (+8), Sem postagem há 42.6h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Tecnologia",
+        "Cultura"
+      ]
+    },
     {
       "id": "1789649357501",
       "feedName": "G1 - Economia",

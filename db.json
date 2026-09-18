@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_532e1774",
+      "views": 0,
+      "date": "2026-09-18T09:55:46.116Z",
+      "title": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA como humana é um erro': o que muda para usuários e empresas?",
+      "subtitle": "Ele descreveu a abordagem da empresa rival Anthropic, de tratar a IA como se fosse humana, como \"equivocada\", alertando contra a criação de uma tecnologia que a humanidade não possa controlar.",
+      "slug": "o-alerta-de-chefe-da-microsoft-sobre-a-ia-tratar-a-ia-como-humana-e-um-erro-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEle descreveu a abordagem da empresa rival Anthropic, de tratar a IA como se fosse humana, como \"equivocada\", alertando contra a criação de uma tecnologia que a humanidade não possa controlar. Em entrevista à BBC, Mustafa Suleyman afirmou que é \"justo\" que as pessoas estejam preocupadas ou alarmadas, mas que existem \"medidas muito práticas que podemos tomar para adicionar salvaguardas e controles adicionais à forma como esses modelos são desenvolvidos\".\n\nO que já foi informado\n\nOs comentários são os mais recentes em uma série de alertas contundentes da indústria de IA sobre os possíveis perigos da tecnologia.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA Store Center",
+      "seoDescription": "Ele descreveu a abordagem da empresa rival Anthropic, de tratar a IA como se fosse humana, como \"equivocada\", alertando contra a criação de uma tecnol",
+      "keyword": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA como humana é um erro' Fonte 2 Mark Zuckerberg, CEO da Meta, rejeita apelos para desacelerar o desenvolvimento da IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/18/o-alerta-de-chefe-da-microsoft-sobre-a-ia-tratar-a-ia-como-humana-e-um-erro.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/18/o-alerta-de-chefe-da-microsoft-sobre-a-ia-tratar-a-ia-como-humana-e-um-erro.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/16/mark-zuckerberg-rejeita-desacelerar-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA como humana é um erro'",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_18cb3417",
       "views": 0,
       "date": "2026-09-18T07:59:28.665Z",
@@ -11035,7 +11076,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-18T07:59:17.370Z",
+      "lastScraped": "2026-09-18T09:55:43.094Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11043,7 +11084,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-18T07:59:18.142Z",
+      "lastScraped": "2026-09-18T09:55:43.381Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11056,7 +11097,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-18T05:02:13.808Z",
+      "lastScraped": "2026-09-18T09:55:46.103Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11113,6 +11154,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789725353595",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA como humana é um erro'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O alerta de chefe da Microsoft sobre a IA: 'Tratar a IA como humana é um erro': o que muda para usuários e empresas?",
+      "postId": "rss-hash_532e1774",
+      "timestamp": "2026-09-18T09:55:46.117Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.5h (+8), Sem postagem há 13.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Cultura"
+      ]
+    },
     {
       "id": "1789718393734",
       "feedName": "G1 - Economia",

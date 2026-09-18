@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3c839a48",
+      "views": 0,
+      "date": "2026-09-18T16:41:13.668Z",
+      "title": "Nestlé é alvo de 3 ações na Índia após problemas em produtos para bebês Fonte 2: por que isso importa para a economia?",
+      "subtitle": "Economia Dois bebês do DF são contaminados por fórmula da Nestlé A autoridade de segurança alimentar da Índia informou nesta sexta-feira (18) que encontrou um produto para bebês da Nestlé fora dos padrões exigidos no país e abriu uma ação.",
+      "slug": "nestle-e-alvo-de-3-acoes-na-india-apos-problemas-em-produtos-para-bebes-fonte-2-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Dois bebês do DF são contaminados por fórmula da Nestlé A autoridade de segurança alimentar da Índia informou nesta sexta-feira (18) que encontrou um produto para bebês da Nestlé fora dos padrões exigidos no país e abriu uma ação contra a empresa suíça, um de seus principais mercados em crescimento. Segundo a Autoridade de Segurança e Padrões Alimentares da Índia (FSSAI), uma amostra de uma fórmula infantil da Nestlé apresentou quantidade de biotina, também conhecida como vitamina B7, fora dos parâmetros estabelecidos pela legislação indiana.\n\nO que já foi informado\n\nO órgão informou que uma nova análise da amostra confirmou que o produto não atendia aos requisitos de biotina previstos pelas regras do país. A FSSAI não informou se pretende determinar o recolhimento do produto das lojas. Anvisa proíbe venda de fórmulas infantis da Nestlé por risco de contaminação por bactéria A Nestlé afirmou que seus produtos estão \"totalmente de acordo com todas as normas aplicáveis\" e que continuará trabalhando em conjunto com a autoridade indiana. A empresa, porém, não comentou especificamente o resultado da análise que apontou que a amostra estava fora dos padrões.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nestlé é alvo de 3 ações na Índia após problemas em Store Center",
+      "seoDescription": "Economia Dois bebês do DF são contaminados por fórmula da Nestlé A autoridade de segurança alimentar da Índia informou nesta sexta-fe",
+      "keyword": "Nestlé é alvo de 3 ações na Índia após problemas em produtos para bebês Fonte 2 Reforma tributária: empresas do Simples escolherão modelo até setembro, mas poderão rever decisão depois que alíquota sair",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/18/nestle-e-alvo-de-3-acoes-na-india-apos-problemas-em-produtos-para-bebes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/18/nestle-e-alvo-de-3-acoes-na-india-apos-problemas-em-produtos-para-bebes.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/18/reforma-tributaria-empresas-do-simples-escolherao-modelo-ate-setembro-mas-poderao-rever-decisao-depois-que-aliquota-sair.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Nestlé é alvo de 3 ações na Índia após problemas em produtos para bebês",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_3067574d",
       "views": 0,
       "date": "2026-09-18T14:27:54.266Z",
@@ -11156,7 +11197,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-18T14:27:52.672Z",
+      "lastScraped": "2026-09-18T16:41:12.142Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11164,7 +11205,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-18T14:27:53.281Z",
+      "lastScraped": "2026-09-18T16:41:12.506Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11177,7 +11218,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-18T14:27:54.255Z",
+      "lastScraped": "2026-09-18T16:41:13.653Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11234,6 +11275,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789749761836",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nestlé é alvo de 3 ações na Índia após problemas em produtos para bebês",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nestlé é alvo de 3 ações na Índia após problemas em produtos para bebês Fonte 2: por que isso importa para a economia?",
+      "postId": "rss-hash_3c839a48",
+      "timestamp": "2026-09-18T16:41:13.668Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.4h (+8), Sem postagem há 16.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1789741732830",
       "feedName": "G1 - Economia",

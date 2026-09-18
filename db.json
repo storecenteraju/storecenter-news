@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3067574d",
+      "views": 0,
+      "date": "2026-09-18T14:27:54.266Z",
+      "title": "Tempo úmido e falta de sol aumentam procura por lavanderias e alternativas para secar: como isso afeta a população?",
+      "subtitle": "Tempo úmido e falta de sol levam a mudança de comportamento no Centro-Sul do país O tempo chuvoso e a alta umidade que atingem o Centro-Sul do país há quase duas semanas têm mudado a rotina de moradores.",
+      "slug": "tempo-umido-e-falta-de-sol-aumentam-procura-por-lavanderias-e-alternativas-para-secar-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nTempo úmido e falta de sol levam a mudança de comportamento no Centro-Sul do país O tempo chuvoso e a alta umidade que atingem o Centro-Sul do país há quase duas semanas têm mudado a rotina de moradores. Em São Paulo, onde setembro já é considerado o mês mais chuvoso em 80 anos, uma tarefa simples virou desafio: secar roupas.\n\nO que já foi informado\n\nCom pouco sol e chuva frequente, varais estão lotados e moradores têm recorrido a lavanderias e secadoras para conseguir deixar as roupas prontas para o uso. Chuva deve ganhar força na Região Sul a partir desta sexta-feira (18) Varais lotados e roupas espalhadas pela casa Em São Paulo, a roupa de Roberta está acumulada no varal há quase uma semana. Sem conseguir secar as peças, ela passou a levar parte delas para a lavanderia. \"No último caso, eu levo na lavanderia, só para secar mesmo, na secadora. \" Em São José dos Campos, no interior paulista, Vanessa precisou improvisar um varal dentro da cozinha. \"Vai cozinhar, vai lavar uma louça, vai lavar uma roupa, tudo atrapalha.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Tempo úmido e falta de sol aumentam procura por Store Center",
+      "seoDescription": "Tempo úmido e falta de sol levam a mudança de comportamento no Centro-Sul do país O tempo chuvoso e a alta umidade que atingem o Centro-Sul do país há",
+      "keyword": "Tempo úmido e falta de sol aumentam procura por lavanderias e alternativas para secar roupas em casa no Centro-Sul",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/bom-dia-brasil/noticia/2026/09/18/tempo-umido-e-falta-de-sol-aumentam-procura-por-lavanderias-e-alternativas-para-secar-roupas-no-centro-sul.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/bom-dia-brasil/noticia/2026/09/18/tempo-umido-e-falta-de-sol-aumentam-procura-por-lavanderias-e-alternativas-para-secar-roupas-no-centro-sul.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Tempo úmido e falta de sol aumentam procura por lavanderias e alternativas para secar roupas em casa no Centro-Sul",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_61da74e6",
       "views": 0,
       "date": "2026-09-18T12:22:46.256Z",
@@ -11117,7 +11156,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-18T12:22:44.648Z",
+      "lastScraped": "2026-09-18T14:27:52.672Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11125,7 +11164,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-18T12:22:45.233Z",
+      "lastScraped": "2026-09-18T14:27:53.281Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11138,7 +11177,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-18T12:22:46.239Z",
+      "lastScraped": "2026-09-18T14:27:54.255Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11195,6 +11234,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789741732830",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Tempo úmido e falta de sol aumentam procura por lavanderias e alternativas para secar roupas em casa no Centro-Sul",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Tempo úmido e falta de sol aumentam procura por lavanderias e alternativas para secar: como isso afeta a população?",
+      "postId": "rss-hash_3067574d",
+      "timestamp": "2026-09-18T14:27:54.266Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 117.9h (+8), Sem postagem há 117.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia"
+      ]
+    },
     {
       "id": "1789734226964",
       "feedName": "G1 - Economia",

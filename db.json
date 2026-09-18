@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_28e4d551",
+      "views": 0,
+      "date": "2026-09-18T19:47:41.376Z",
+      "title": "Lula diz que petróleo da Margem Equatorial pode ser um 'novo pré-sal' e alerta sobre: por que esse movimento importa?",
+      "subtitle": "Economia O presidente Luiz Inácio Lula da Silva disse nesta sexta-feira (18) que a Margem Equatorial brasileira tem potencial para se tornar um novo pré-sal e afirmou que o Brasil precisa proteger suas riquezas naturais, diante do interesse do.",
+      "slug": "lula-diz-que-petroleo-da-margem-equatorial-pode-ser-um-novo-pre-sal-e-alerta-sobre-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia O presidente Luiz Inácio Lula da Silva disse nesta sexta-feira (18) que a Margem Equatorial brasileira tem potencial para se tornar um novo pré-sal e afirmou que o Brasil precisa proteger suas riquezas naturais, diante do interesse do presidente dos Estados Unidos, Donald Trump, por petróleo, minerais críticos e terras raras. Segundo Lula, o petróleo encontrado na região \"parece ser de mais qualidade\" do que o produzido no pré-sal.\n\nO que já foi informado\n\n\"Lá há petróleo... Parece ser de mais qualidade\", disse Lula em uma base da Polícia Rodoviária Federal (PRF), no Rio de Janeiro. A Petrobras anunciou recentemente a descoberta de petróleo no campo de Morpho, na Bacia da Foz do Amazonas, na costa do Amapá, dentro da Margem Equatorial. A empresa já recebeu licença do Ibama para ampliar a exploração em outros poços próximos a Morpho. O pré-sal produz petróleo de alta qualidade e responde por grande parte da produção brasileira de petróleo e gás. Lula afirmou que o Brasil precisa cuidar dessas riquezas e citou o interesse de Trump por recursos naturais considerados estratégicos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula diz que petróleo da Margem Equatorial pode ser um Store Center",
+      "seoDescription": "Economia O presidente Luiz Inácio Lula da Silva disse nesta sexta-feira (18) que a Margem Equatorial brasileira tem potencial para se",
+      "keyword": "Lula diz que petróleo da Margem Equatorial pode ser um 'novo pré-sal' e alerta sobre interesse de Trump Fonte 2 Reforma tributária: empresas do Simples escolherão modelo até setembro, mas poderão rever decisão depois que alíquota sair",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/18/lula-diz-que-petroleo-da-margem-equatorial-pode-ser-um-novo-pre-sal-e-alerta-sobre-interesse-de-trump.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/18/lula-diz-que-petroleo-da-margem-equatorial-pode-ser-um-novo-pre-sal-e-alerta-sobre-interesse-de-trump.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/18/reforma-tributaria-empresas-do-simples-escolherao-modelo-ate-setembro-mas-poderao-rever-decisao-depois-que-aliquota-sair.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Lula diz que petróleo da Margem Equatorial pode ser um 'novo pré-sal' e alerta sobre interesse de Trump",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_c16ff66",
       "views": 0,
       "date": "2026-09-18T17:58:37.929Z",
@@ -11238,7 +11279,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-18T17:58:35.934Z",
+      "lastScraped": "2026-09-18T19:47:39.788Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11246,7 +11287,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-18T17:58:36.778Z",
+      "lastScraped": "2026-09-18T19:47:40.403Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11259,7 +11300,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-18T17:58:37.916Z",
+      "lastScraped": "2026-09-18T19:47:41.356Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11316,6 +11357,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789760876378",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula diz que petróleo da Margem Equatorial pode ser um 'novo pré-sal' e alerta sobre interesse de Trump",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula diz que petróleo da Margem Equatorial pode ser um 'novo pré-sal' e alerta sobre: por que esse movimento importa?",
+      "postId": "rss-hash_28e4d551",
+      "timestamp": "2026-09-18T19:47:41.377Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1789754399891",
       "feedName": "G1 - Economia",

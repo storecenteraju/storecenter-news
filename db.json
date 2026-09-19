@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_24a63de",
+      "views": 0,
+      "date": "2026-09-19T13:55:09.537Z",
+      "title": "A IA pode superar a inteligência humana? Se revoltar?",
+      "subtitle": "Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O ChatGPT foi lançado em 2022.",
+      "slug": "a-ia-pode-superar-a-inteligencia-humana-se-revoltar",
+      "content": "O que aconteceu\n\nEconomia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O ChatGPT foi lançado em 2022. De lá para cá, a inteligência artificial evoluiu em um ritmo acelerado, quase sem freio.\n\nO que já foi informado\n\nCasos recentes em que sistemas de IA saíram do controle e chegaram a invadir sites mostram o desafio de traçar limites. A repercussão nos últimos dias chegou aos executivos de grandes empresas de IA, que até defenderam uma pausa no avanço das tecnologias para tornar seu desenvolvimento mais seguro. O estopim foi um texto publicado por Dario Amodei, CEO da Anthropic, empresa responsável pelo Claude. \"Precisamos desacelerar o ritmo com que aprimoramos as capacidades dos modelos de IA\". Afinal, quais são os riscos reais da inteligência artificial para a sociedade? Ela realmente pode se revoltar contra os humanos?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "A IA pode superar a inteligência humana? Se revoltar? Store Center",
+      "seoDescription": "Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA O ChatGPT foi lançado em 2022.",
+      "keyword": "A IA pode superar a inteligência humana? Se revoltar? Veja o que dizem especialistas Fonte 2 De chatbots de IA que 'alucinam' ao temor pela humanidade: como chegamos a esse ponto?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/19/a-ia-pode-superar-a-inteligencia-humana-veja-o-que-dizem-especialistas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/a-ia-pode-superar-a-inteligencia-humana-veja-o-que-dizem-especialistas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/de-chatbots-de-ia-que-alucinam-ao-temor-pela-humanidade-como-chegamos-a-esse-ponto.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "A IA pode superar a inteligência humana? Se revoltar? Veja o que dizem especialistas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_27c3b085",
       "views": 0,
       "date": "2026-09-19T12:04:04.225Z",
@@ -11522,7 +11563,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-19T12:04:02.374Z",
+      "lastScraped": "2026-09-19T13:55:07.736Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11530,7 +11571,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-19T12:04:03.216Z",
+      "lastScraped": "2026-09-19T13:55:08.390Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11543,7 +11584,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-19T12:04:04.214Z",
+      "lastScraped": "2026-09-19T13:55:09.519Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11600,6 +11641,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789826130607",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "A IA pode superar a inteligência humana? Se revoltar? Veja o que dizem especialistas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "A IA pode superar a inteligência humana? Se revoltar?",
+      "postId": "rss-hash_24a63de",
+      "timestamp": "2026-09-19T13:55:09.538Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.0h (+8), Sem postagem há 9.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789819511976",
       "feedName": "G1 - Economia",

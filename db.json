@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7136aae4",
+      "views": 0,
+      "date": "2026-09-19T07:50:18.609Z",
+      "title": "Efeito China: preços dos 25 carros usados mais buscados no Brasil em 2026 caem até 15%: o que está em jogo no mercado?",
+      "subtitle": "Como mostrou o g1 neste mês, o mercado de seminovos no Brasil tem sofrido com a enxurrada de carros chineses e as promoções dos carros zero km.",
+      "slug": "efeito-china-precos-dos-25-carros-usados-mais-buscados-no-brasil-em-2026-caem-ate-15-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nComo mostrou o g1 neste mês, o mercado de seminovos no Brasil tem sofrido com a enxurrada de carros chineses e as promoções dos carros zero km. Agora, os dados mostram que os preços efetivamente praticados no mercado de usados caem de forma mais acentuada do que indica a tabela Fipe, elaborada pela Fundação Instituto de Pesquisas Econômicas.\n\nO que já foi informado\n\nUm levantamento da Auto Avaliar, feito com exclusividade para o g1, mostra que todos os 25 carros usados mais buscados do Brasil caíram de preço nos últimos 12 meses, em uma média de 10,2%. A Fipe mostra uma média de apenas 4%.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Efeito China: preços dos 25 carros usados mais buscados Store Center",
+      "seoDescription": "Como mostrou o g1 neste mês, o mercado de seminovos no Brasil tem sofrido com a enxurrada de carros chineses e as promoções dos carros zero km.",
+      "keyword": "Efeito China: preços dos 25 carros usados mais buscados no Brasil em 2026 caem até 15%",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/19/efeito-china-precos-dos-25-carros-usados-mais-buscados-no-brasil-em-2026-caem-ate-15percent.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/19/efeito-china-precos-dos-25-carros-usados-mais-buscados-no-brasil-em-2026-caem-ate-15percent.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Efeito China: preços dos 25 carros usados mais buscados no Brasil em 2026 caem até 15%",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_74ed825a",
       "views": 0,
       "date": "2026-09-19T04:53:51.050Z",
@@ -11401,7 +11440,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-19T04:53:48.338Z",
+      "lastScraped": "2026-09-19T07:50:08.118Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11409,7 +11448,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-19T04:53:49.616Z",
+      "lastScraped": "2026-09-19T07:50:08.436Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11479,6 +11518,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789804305946",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Efeito China: preços dos 25 carros usados mais buscados no Brasil em 2026 caem até 15%",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Efeito China: preços dos 25 carros usados mais buscados no Brasil em 2026 caem até 15%: o que está em jogo no mercado?",
+      "postId": "rss-hash_7136aae4",
+      "timestamp": "2026-09-19T07:50:18.610Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.4h (+8), Sem postagem há 17.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789793709220",
       "feedName": "G1 - Economia",

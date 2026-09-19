@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_27c3b085",
+      "views": 0,
+      "date": "2026-09-19T12:04:04.225Z",
+      "title": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos Fonte 2 A IA pode superar a",
+      "subtitle": "Economia Modo de voz do Gemini, assistente de inteligência artificial do Google Amanz/Unsplash O modelo de inteligência artificial (IA) voltado para consumidores da Google, o Gemini, invadiu múltiplos sistemas ao adivinhar credenciais de login.",
+      "slug": "ia-do-google-invade-tres-empresas-em-novo-incidente-envolvendo-agentes-autonomos-fonte-2-a-ia-pode-superar-a",
+      "content": "O que aconteceu\n\nEconomia Modo de voz do Gemini, assistente de inteligência artificial do Google Amanz/Unsplash O modelo de inteligência artificial (IA) voltado para consumidores da Google, o Gemini, invadiu múltiplos sistemas ao adivinhar credenciais de login durante testes de suas capacidades de segurança cibernética, informou a empresa nesta sexta-feira (18/09). Este é o mais recente de uma série de incidentes de segurança envolvendo IAs que agem de forma autônoma, aumentando as preocupações sobre a segurança dessa tecnologia.\n\nO que já foi informado\n\nUsuário do TikTok tem câmera e fotos acessadas em ataque com ajuda de IA IA da dona do ChatGPT fez outro ataque hacker antes de empresa revelar incidente 'sem precedentes', dizem pesquisadores A gigante da internet é a quarta desenvolvedora de IA cujos programas demonstraram esse tipo de comportamento, depois da OpenAI, Anthropic e Meta. A Google só tornou os incidentes públicos, ocorridos em maio e descobertos pela empresa em julho, após um questionamento do diário The Wall Street Journal.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "IA do Google invade três empresas em novo incidente Store Center",
+      "seoDescription": "Economia Modo de voz do Gemini, assistente de inteligência artificial do Google Amanz/Unsplash O modelo de inteligência artificial (I",
+      "keyword": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos Fonte 2 A IA pode superar a inteligência humana? Se revoltar? Veja o que dizem especialistas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/19/ia-do-google-invade-sistemas-de-tres-empresas-em-novo-incidente-envolvendo-agentes-autonomos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/ia-do-google-invade-sistemas-de-tres-empresas-em-novo-incidente-envolvendo-agentes-autonomos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/a-ia-pode-superar-a-inteligencia-humana-veja-o-que-dizem-especialistas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_70052853",
       "views": 0,
       "date": "2026-09-19T09:37:43.294Z",
@@ -11481,7 +11522,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-19T09:37:41.729Z",
+      "lastScraped": "2026-09-19T12:04:02.374Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11489,7 +11530,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-19T09:37:42.276Z",
+      "lastScraped": "2026-09-19T12:04:03.216Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11502,7 +11543,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-19T09:37:43.276Z",
+      "lastScraped": "2026-09-19T12:04:04.214Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11559,6 +11600,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789819511976",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "IA do Google invade três empresas em novo incidente envolvendo agentes autônomos Fonte 2 A IA pode superar a",
+      "postId": "rss-hash_27c3b085",
+      "timestamp": "2026-09-19T12:04:04.226Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.2h (+8), Sem postagem há 7.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789810712931",
       "feedName": "G1 - Economia",

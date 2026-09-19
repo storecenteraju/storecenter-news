@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1e4f7152",
+      "views": 0,
+      "date": "2026-09-19T21:46:50.034Z",
+      "title": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada? Fonte 2 Diesel sobe e atinge maior preço?",
+      "subtitle": "Economia IPCA: café acumula queda de quase 17% nos últimos 12 meses \"O café simplesmente não tem muito efeito sobre mim\", diz Emily, de 20 anos, ao sair de um café no centro de Londres no fim da tarde.",
+      "slug": "por-que-a-cafeina-deixa-algumas-pessoas-em-alerta-e-outras-nao-sentem-nada-fonte-2-diesel-sobe-e-atinge-maior-preco",
+      "content": "O que aconteceu\n\nEconomia IPCA: café acumula queda de quase 17% nos últimos 12 meses \"O café simplesmente não tem muito efeito sobre mim\", diz Emily, de 20 anos, ao sair de um café no centro de Londres no fim da tarde. \"Normalmente tomo duas xícaras por dia e talvez uma bebida energética também.\n\nO que já foi informado\n\nE aí posso beber Coca-Cola a noite toda e me sentir perfeitamente bem. \" Todos nós temos uma amiga como a Emily. Aquela que consegue tomar um café expresso duplo ou até mesmo um energético à noite e ainda assim pegar no sono uma hora depois. Para muitas pessoas, no entanto, os efeitos da cafeína podem persistir por muito mais tempo. Então, por que algumas pessoas conseguem tomar café antes de dormir e dormir como bebês, enquanto outras ficam acordadas olhando para o teto? O que é exatamente a cafeína?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que a cafeína deixa algumas pessoas em alerta e Store Center",
+      "seoDescription": "Economia IPCA: café acumula queda de quase 17% nos últimos 12 meses \"O café simplesmente não tem muito efeito sobre mim\", diz Emily,",
+      "keyword": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada? Fonte 2 Diesel sobe e atinge maior preço no Brasil desde maio, diz ANP",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/noticia/2026/09/19/por-que-a-cafeina-deixa-algumas-pessoas-em-alerta-e-outras-nao-sentem-nada.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/noticia/2026/09/19/por-que-a-cafeina-deixa-algumas-pessoas-em-alerta-e-outras-nao-sentem-nada.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/18/diesel-sobe-e-atinge-maior-preco-no-brasil-desde-maio-diz-anp.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada?",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_54a5afd0",
       "views": 0,
       "date": "2026-09-19T19:25:28.048Z",
@@ -11686,7 +11727,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-19T19:25:26.257Z",
+      "lastScraped": "2026-09-19T21:46:48.834Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11694,7 +11735,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-19T19:25:26.999Z",
+      "lastScraped": "2026-09-19T21:46:49.164Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11707,7 +11748,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-19T19:25:28.032Z",
+      "lastScraped": "2026-09-19T21:46:50.024Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11764,6 +11805,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789854494993",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que a cafeína deixa algumas pessoas em alerta e outras não sentem nada? Fonte 2 Diesel sobe e atinge maior preço?",
+      "postId": "rss-hash_1e4f7152",
+      "timestamp": "2026-09-19T21:46:50.034Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789845987791",
       "feedName": "G1 - Economia",

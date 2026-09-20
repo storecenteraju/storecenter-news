@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2a5523e0",
+      "views": 0,
+      "date": "2026-09-20T17:49:20.162Z",
+      "title": "OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz: o que muda para usuários e empresas?",
+      "subtitle": "A OpenAI, criadora do ChatGPT, afirmou que está trabalhando com as concorrentes Anthropic e Google DeepMind para discutir medidas de segurança relacionadas à inteligência artificial (IA).",
+      "slug": "openai-trabalha-com-anthropic-e-google-para-reforcar-seguranca-em-ia-diz-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA OpenAI, criadora do ChatGPT, afirmou que está trabalhando com as concorrentes Anthropic e Google DeepMind para discutir medidas de segurança relacionadas à inteligência artificial (IA). A informação foi divulgada pela Bloomberg News.\n\nO que já foi informado\n\nSegundo a agência, a declaração foi feita pelo chefe de políticas globais da OpenAI, Chris Lehane. A iniciativa busca ampliar a cooperação do setor diante das crescentes preocupações de que a tecnologia possa representar riscos econômicos e de segurança. \"É melhor trabalhar em conjunto para priorizar a segurança\", afirmou Lehane. Segundo o executivo, a OpenAI ainda não vê necessidade de uma isenção das regras antitruste para que as três empresas coordenem iniciativas desse tipo. Nos últimos dias, executivos de grandes empresas de tecnologia passaram a defender uma desaceleração no avanço da IA para avaliar melhor seus riscos e tornar seu desenvolvimento mais seguro. Agora no g1 O movimento ganhou força após a publicação, no último sábado (12), de um texto assinado por Dario Amodei, CEO da Anthropic, desenvolvedora da IA Claude.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "OpenAI trabalha com Anthropic e Google para reforçar Store Center",
+      "seoDescription": "A OpenAI, criadora do ChatGPT, afirmou que está trabalhando com as concorrentes Anthropic e Google DeepMind para discutir medidas de segurança relacio",
+      "keyword": "OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz agência",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/15/openai-anthropic-google-seguranca-ia.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/15/openai-anthropic-google-seguranca-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz agência",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_6549c438",
       "views": 0,
       "date": "2026-09-20T16:26:41.548Z",
@@ -12012,7 +12051,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T16:26:40.228Z",
+      "lastScraped": "2026-09-20T17:49:18.783Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12020,7 +12059,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T16:26:40.554Z",
+      "lastScraped": "2026-09-20T17:49:19.313Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12033,7 +12072,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T16:26:41.532Z",
+      "lastScraped": "2026-09-20T17:49:20.150Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12090,6 +12129,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789926604952",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz agência",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "OpenAI trabalha com Anthropic e Google para reforçar segurança em IA, diz: o que muda para usuários e empresas?",
+      "postId": "rss-hash_2a5523e0",
+      "timestamp": "2026-09-20T17:49:20.162Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.9h (+8), Sem postagem há 7.9h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789921620606",
       "feedName": "G1 - Economia",

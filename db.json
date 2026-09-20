@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_299062bc",
+      "views": 0,
+      "date": "2026-09-20T08:19:34.368Z",
+      "title": "Nostalgia milionária: por que adultos pagam fortunas por brinquedos da infância Fonte 2: como isso afeta a população?",
+      "subtitle": "Economia Jogos de cartas do Pokémon é inspirado no desenho clássico dos anos 90 Hennzo Pinheiro/Arquivo Pessoal Brinquedos e colecionáveis que fizeram parte da infância de uma geração movimentam hoje cifras que vão muito além do universo.",
+      "slug": "nostalgia-milionaria-por-que-adultos-pagam-fortunas-por-brinquedos-da-infancia-fonte-2-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Jogos de cartas do Pokémon é inspirado no desenho clássico dos anos 90 Hennzo Pinheiro/Arquivo Pessoal Brinquedos e colecionáveis que fizeram parte da infância de uma geração movimentam hoje cifras que vão muito além do universo infantil. Adultos passaram a gastar grandes quantias para comprar objetos que remetem à infância — e, em alguns casos, essas peças chegam a valer centenas de milhares ou até milhões de reais.\n\nO que já foi informado\n\nO mercado de cartas de Pokémon é um dos exemplos mais impressionantes. Uma reportagem do jornal \"Financial Times\" mostrou que, em fevereiro, uma carta Pikachu Illustrator, de 1998, foi vendida por US$ 16,5 milhões (R$ 84,81 milhões), um recorde mundial. Outras cartas individuais também foram negociadas por mais de US$ 1 milhão (R$ 5,14 milhões). Há também casos de cartas compradas por valores baixos que, anos depois, alcançaram preços muito maiores. Uma carta Mario Pikachu, por exemplo, foi vendida recentemente por cerca de £20 mil (R$ 138 mil), depois de ter sido comprada por £30 (R$ 208,20) oito anos antes.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Nostalgia milionária: por que adultos pagam fortunas Store Center",
+      "seoDescription": "Economia Jogos de cartas do Pokémon é inspirado no desenho clássico dos anos 90 Hennzo Pinheiro/Arquivo Pessoal Brinquedos e colecion",
+      "keyword": "Nostalgia milionária: por que adultos pagam fortunas por brinquedos da infância Fonte 2 Renault Boreal acumula prêmios, mas não decola em vendas; g1 testou e mostra prós e contras",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/20/nostalgia-milionaria-por-que-adultos-pagam-fortunas-por-brinquedos-da-infancia.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/20/nostalgia-milionaria-por-que-adultos-pagam-fortunas-por-brinquedos-da-infancia.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/20/renault-boreal-acumula-premios-mas-nao-decola-em-vendas-g1-testou-e-mostra-pros-e-contras.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Nostalgia milionária: por que adultos pagam fortunas por brinquedos da infância",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_6771b42b",
       "views": 0,
       "date": "2026-09-20T05:15:00.655Z",
@@ -11809,7 +11850,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T05:14:58.601Z",
+      "lastScraped": "2026-09-20T08:19:31.930Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11817,7 +11858,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T05:14:59.627Z",
+      "lastScraped": "2026-09-20T08:19:32.746Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11830,7 +11871,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T05:15:00.635Z",
+      "lastScraped": "2026-09-20T08:19:34.348Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11887,6 +11928,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789892414024",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Nostalgia milionária: por que adultos pagam fortunas por brinquedos da infância",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Nostalgia milionária: por que adultos pagam fortunas por brinquedos da infância Fonte 2: como isso afeta a população?",
+      "postId": "rss-hash_299062bc",
+      "timestamp": "2026-09-20T08:19:34.368Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.5h (+8), Sem postagem há 10.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789881371643",
       "feedName": "G1 - Economia",

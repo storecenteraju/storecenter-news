@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4f8ceb8a",
+      "views": 0,
+      "date": "2026-09-20T19:34:37.896Z",
+      "title": "Estação espacial chinesa ganha primeira air fryer projetada para o espaço Fonte 2: por que esse movimento importa?",
+      "subtitle": "Economia China está modernizando os eletrodomésticos da cozinha de sua estação espacial Adrian Mann/StockTrek Images/IMAGO via Deutsche Welle A estação espacial chinesa estreou a primeira fritadeira elétrica air fryer projetada para ser usada.",
+      "slug": "estacao-espacial-chinesa-ganha-primeira-air-fryer-projetada-para-o-espaco-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia China está modernizando os eletrodomésticos da cozinha de sua estação espacial Adrian Mann/StockTrek Images/IMAGO via Deutsche Welle A estação espacial chinesa estreou a primeira fritadeira elétrica air fryer projetada para ser usada no espaço, como parte de uma modernização de seus equipamentos de cozinha com eletrodomésticos inteligentes, como um micro-ondas e um filtro de água desenvolvidos especificamente para funcionar em órbita. Asas de frango, filés e bolos estão entre os pratos que os astronautas da estação Tiangong podem saborear durante suas longas estadias no espaço graças à air fryer, que conta com um sistema de eliminação de vapor, explicou o especialista do Centro de Astronautas da China Liu Weibo, citado neste domingo (20) pela agência de notícias estatal chinesa Xinhua.\n\nO que já foi informado\n\nSegundo Liu, a renovação da \"cozinha espacial\" faz parte de um programa que busca garantir que os taikonautas, como são chamados os astronautas chineses, estejam bem alimentados durante suas missões e possam desfrutar de refeições quentes preparadas em apenas vinte minutos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Estação espacial chinesa ganha primeira air fryer Store Center",
+      "seoDescription": "Economia China está modernizando os eletrodomésticos da cozinha de sua estação espacial Adrian Mann/StockTrek Images/IMAGO via Deutsc",
+      "keyword": "Estação espacial chinesa ganha primeira air fryer projetada para o espaço Fonte 2 Clube de jardinagem do Jardim Botânico de Sorocaba oferece aulas gratuitas de poda e cultivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/inovacao/noticia/2026/09/20/estacao-espacial-chinesa-ganha-primeira-air-fryer-projetada-para-o-espaco.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/inovacao/noticia/2026/09/20/estacao-espacial-chinesa-ganha-primeira-air-fryer-projetada-para-o-espaco.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/20/clube-de-jardinagem-do-jardim-botanico-de-sorocaba-oferece-aulas-gratuitas-de-poda-e-cultivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Estação espacial chinesa ganha primeira air fryer projetada para o espaço",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_2a5523e0",
       "views": 0,
       "date": "2026-09-20T17:49:20.162Z",
@@ -12051,7 +12092,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T17:49:18.783Z",
+      "lastScraped": "2026-09-20T19:34:26.748Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12059,7 +12100,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T17:49:19.313Z",
+      "lastScraped": "2026-09-20T19:34:27.374Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12129,6 +12170,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789932894487",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Estação espacial chinesa ganha primeira air fryer projetada para o espaço",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Estação espacial chinesa ganha primeira air fryer projetada para o espaço Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_4f8ceb8a",
+      "timestamp": "2026-09-20T19:34:37.896Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789926604952",
       "feedName": "G1 - Economia",

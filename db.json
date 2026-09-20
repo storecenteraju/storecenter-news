@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_54bf84f7",
+      "views": 0,
+      "date": "2026-09-20T00:09:21.202Z",
+      "title": "Trump diz que termo 'inteligência artificial' não é bom e cria enquete para mudar nome da tecnologia Fonte 2 De",
+      "subtitle": "Economia Trump diz que estão armando \"uma conspiração doentia\" contra a IA O presidente dos Estados Unidos, Donald Trump, voltou a falar sobre inteligência artificial em sua rede social, a Truth Social.",
+      "slug": "trump-diz-que-termo-inteligencia-artificial-nao-e-bom-e-cria-enquete-para-mudar-nome-da-tecnologia-fonte-2-de",
+      "content": "O que aconteceu\n\nEconomia Trump diz que estão armando \"uma conspiração doentia\" contra a IA O presidente dos Estados Unidos, Donald Trump, voltou a falar sobre inteligência artificial em sua rede social, a Truth Social. Desta vez, ele propôs mudar o nome da tecnologia e criou uma enquete para que seus seguidores escolham uma nova opção.\n\nO que já foi informado\n\nTrump, porém, não explicou como a alteração seria feita nem se o setor de IA concorda com a possível mudança. Segundo ele, o termo \"inteligência artificial\" não é bom e é \"pouco eloquente\". Na enquete, Trump apresentou três opções: Inteligência Superior (IS), Inteligência Extrema (IE) ou Inteligência Suprema (IS). Post de Trump sobre mudar o nome da inteligência artificial. \"Esta é uma enquete, e eu agradeceria que todos votassem! Qual é o melhor nome para essa 'Revolução' em constante crescimento?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump diz que termo 'inteligência artificial' não é bom Store Center",
+      "seoDescription": "Economia Trump diz que estão armando \"uma conspiração doentia\" contra a IA O presidente dos Estados Unidos, Donald Trump, voltou a fa",
+      "keyword": "Trump diz que termo 'inteligência artificial' não é bom e cria enquete para mudar nome da tecnologia Fonte 2 De chatbots de IA que 'alucinam' ao temor pela humanidade: como chegamos a esse ponto?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/19/trump-propoe-criar-novo-nome-para-inteligencia-articial-e-cria-enquete.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/trump-propoe-criar-novo-nome-para-inteligencia-articial-e-cria-enquete.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/19/de-chatbots-de-ia-que-alucinam-ao-temor-pela-humanidade-como-chegamos-a-esse-ponto.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Trump diz que termo 'inteligência artificial' não é bom e cria enquete para mudar nome da tecnologia",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1e4f7152",
       "views": 0,
       "date": "2026-09-19T21:46:50.034Z",
@@ -11727,7 +11768,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-19T21:46:48.834Z",
+      "lastScraped": "2026-09-20T00:09:19.281Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11735,7 +11776,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-19T21:46:49.164Z",
+      "lastScraped": "2026-09-20T00:09:20.181Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11748,7 +11789,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-19T21:46:50.024Z",
+      "lastScraped": "2026-09-20T00:09:21.191Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11805,6 +11846,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789863011150",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump diz que termo 'inteligência artificial' não é bom e cria enquete para mudar nome da tecnologia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump diz que termo 'inteligência artificial' não é bom e cria enquete para mudar nome da tecnologia Fonte 2 De",
+      "postId": "rss-hash_54bf84f7",
+      "timestamp": "2026-09-20T00:09:21.202Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.1h (+8), Sem postagem há 8.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789854494993",
       "feedName": "G1 - Economia",

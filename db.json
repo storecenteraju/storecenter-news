@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4c271e7a",
+      "views": 0,
+      "date": "2026-09-20T12:37:56.740Z",
+      "title": "Produtores do interior de SP aumentam renda com consórcio de culturas: por que isso importa para a economia?",
+      "subtitle": "A estratégia ajuda a elevar a produtividade, ampliar a renda e manter mão de obra ativa em períodos distintos de colheita.",
+      "slug": "produtores-do-interior-de-sp-aumentam-renda-com-consorcio-de-culturas-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nA estratégia ajuda a elevar a produtividade, ampliar a renda e manter mão de obra ativa em períodos distintos de colheita. Em Bocaina (SP), o produtor Edwin Montenegro cultiva 10 variedades em 20 hectares.\n\nO que já foi informado\n\nEle começou em 2005 com macadâmia, mas como a árvore demora cerca de quatro anos para frutificar, intercalou o plantio com café. Segundo Edwin, a medida garantiu retorno financeiro enquanto aguardava a produção da macadâmia. Entre os testes feitos, os cultivos que mais se destacaram foram feijão, gergelim e jambu, plantados entre os pés da noz. O engenheiro agrônomo Arnaldo Fernandes da Costa explica que, além do lucro, o consórcio traz benefícios ambientais. “As plantas se ajudam, oferecendo conforto térmico e prevenindo erosão”, afirma. Em Itápolis (SP), o agricultor Agnaldo Magalhães aposta no consórcio entre mamão e ponkan.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Cultura",
+      "author": "Redação Store Center",
+      "tags": [
+        "Cultura",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Produtores do interior de SP aumentam renda com Store Center",
+      "seoDescription": "A estratégia ajuda a elevar a produtividade, ampliar a renda e manter mão de obra ativa em períodos distintos de colheita.",
+      "keyword": "Produtores do interior de SP aumentam renda com consórcio de culturas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/20/produtores-do-interior-de-sp-aumentam-renda-com-consorcio-de-culturas.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/20/produtores-do-interior-de-sp-aumentam-renda-com-consorcio-de-culturas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Produtores do interior de SP aumentam renda com consórcio de culturas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5addef17",
       "views": 0,
       "date": "2026-09-20T09:53:48.416Z",
@@ -11891,7 +11930,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T09:53:44.466Z",
+      "lastScraped": "2026-09-20T12:37:55.379Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11899,7 +11938,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T09:53:45.172Z",
+      "lastScraped": "2026-09-20T12:37:55.898Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11912,7 +11951,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T09:53:48.395Z",
+      "lastScraped": "2026-09-20T12:37:56.726Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11969,6 +12008,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789907956421",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Produtores do interior de SP aumentam renda com consórcio de culturas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Produtores do interior de SP aumentam renda com consórcio de culturas: por que isso importa para a economia?",
+      "postId": "rss-hash_4c271e7a",
+      "timestamp": "2026-09-20T12:37:56.740Z",
+      "chosenCategory": "Cultura",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 20",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789898071230",
       "feedName": "G1 - Economia",

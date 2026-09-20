@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5e6a508d",
+      "views": 0,
+      "date": "2026-09-20T21:52:30.367Z",
+      "title": "Após Master, Dino dá 90 dias para Fazenda reavaliar regras de atuação da CVM Fonte 2: qual pode ser o próximo passo?",
+      "subtitle": "Economia CVM condena Daniel Vorcaro a multa de R$ 20 milhões por fraude O ministro Flávio Dino, do Supremo Tribunal Federal (STF), deu 90 dias para que a União reavalie as regras para a atuação da Comissão de Valores Mobiliários (CVM).",
+      "slug": "apos-master-dino-da-90-dias-para-fazenda-reavaliar-regras-de-atuacao-da-cvm-fonte-2-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nEconomia CVM condena Daniel Vorcaro a multa de R$ 20 milhões por fraude O ministro Flávio Dino, do Supremo Tribunal Federal (STF), deu 90 dias para que a União reavalie as regras para a atuação da Comissão de Valores Mobiliários (CVM). O Ministério da Fazenda deverá coordenar os trabalhos entre os diferentes órgãos públicos para mudanças na autarquia.\n\nO que já foi informado\n\nVinculada à Fazenda, a CVM fiscaliza o mercado de capitais do Brasil — ações, debêntures, cotas em fundos de investimento, entre outros. Juridicamente, a entidade é uma autarquia, ou seja, faz a administração pública indireta e tem autonomia administrativa para isso. Para Dino, os documentos apresentados no processo demonstraram \"fragilidades relevantes nos mecanismos de controle interno\", entre elas, o arquivamento de denúncias sem a devida verificação. Esses arquivamentos incluem uma denúncia de 2022 que antecipava irregularidades no Banco Master. A decisão de Dino se deu em uma Ação Direta de Inconstitucionalidade (ADI) do Partido Novo. O partido questionava a efetividade da atuação da CVM na fiscalização e no seu poder de polícia em relação ao mercado financeiro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Após Master, Dino dá 90 dias para Fazenda reavaliar Store Center",
+      "seoDescription": "Economia CVM condena Daniel Vorcaro a multa de R$ 20 milhões por fraude O ministro Flávio Dino, do Supremo Tribunal Federal (STF), de",
+      "keyword": "Após Master, Dino dá 90 dias para Fazenda reavaliar regras de atuação da CVM Fonte 2 Clube de jardinagem do Jardim Botânico de Sorocaba oferece aulas gratuitas de poda e cultivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/20/apos-master-dino-da-90-dias-para-fazenda-reavaliar-regras-de-atuacao-da-cvm.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/20/apos-master-dino-da-90-dias-para-fazenda-reavaliar-regras-de-atuacao-da-cvm.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/20/clube-de-jardinagem-do-jardim-botanico-de-sorocaba-oferece-aulas-gratuitas-de-poda-e-cultivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Após Master, Dino dá 90 dias para Fazenda reavaliar regras de atuação da CVM",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4f8ceb8a",
       "views": 0,
       "date": "2026-09-20T19:34:37.896Z",
@@ -12092,7 +12134,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T19:34:26.748Z",
+      "lastScraped": "2026-09-20T21:52:28.752Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12100,7 +12142,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T19:34:27.374Z",
+      "lastScraped": "2026-09-20T21:52:29.348Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12113,7 +12155,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T17:49:20.150Z",
+      "lastScraped": "2026-09-20T21:52:30.358Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12170,6 +12212,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789941208320",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Após Master, Dino dá 90 dias para Fazenda reavaliar regras de atuação da CVM",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Após Master, Dino dá 90 dias para Fazenda reavaliar regras de atuação da CVM Fonte 2: qual pode ser o próximo passo?",
+      "postId": "rss-hash_5e6a508d",
+      "timestamp": "2026-09-20T21:52:30.367Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.7h (+8), Sem postagem há 7.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789932894487",
       "feedName": "G1 - Economia",

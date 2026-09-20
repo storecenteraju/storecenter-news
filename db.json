@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5ed4378f",
+      "views": 0,
+      "date": "2026-09-20T14:11:16.738Z",
+      "title": "Mega-Sena 3060 é sorteada neste domingo Fonte 2 Clube de jardinagem do Jardim: por que isso importa para a economia?",
+      "subtitle": "Economia Como funciona a Mega-Sena? O concurso 3.060 da Mega-Sena será sorteado pela Caixa neste domingo (20) a partir da 11h, em São Paulo.",
+      "slug": "mega-sena-3060-e-sorteada-neste-domingo-fonte-2-clube-de-jardinagem-do-jardim-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Como funciona a Mega-Sena? O concurso 3.060 da Mega-Sena será sorteado pela Caixa neste domingo (20) a partir da 11h, em São Paulo.\n\nO que já foi informado\n\nO prêmio previsto é de R$ 28 milhões para os apostadores que acertarem as seis dezenas. A Caixa abriu a transmissão do sorteio por volta das 10h50, porém não havia sorteado os números até a última atualização desta reportagem. Resultado do concurso 3055 da Mega-Sena. Os jogos podem ser realizados até as 20h (horário de Brasília) em qualquer lotérica do país ou por meio do site e aplicativo Loterias Caixa, disponíveis em smartphones, computadores e outros dispositivos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena 3060 é sorteada neste domingo Fonte 2 Clube Store Center",
+      "seoDescription": "Economia Como funciona a Mega-Sena? O concurso 3.060 da Mega-Sena será sorteado pela Caixa neste domingo (20) a partir da 11h, em São",
+      "keyword": "Mega-Sena 3060 é sorteada neste domingo Fonte 2 Clube de jardinagem do Jardim Botânico de Sorocaba oferece aulas gratuitas de poda e cultivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/20/mega-sena-3060-sorteio.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/20/mega-sena-3060-sorteio.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/20/clube-de-jardinagem-do-jardim-botanico-de-sorocaba-oferece-aulas-gratuitas-de-poda-e-cultivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mega-Sena 3060 é sorteada neste domingo",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_4c271e7a",
       "views": 0,
       "date": "2026-09-20T12:37:56.740Z",
@@ -11930,7 +11971,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T12:37:55.379Z",
+      "lastScraped": "2026-09-20T14:11:15.114Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11938,7 +11979,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T12:37:55.898Z",
+      "lastScraped": "2026-09-20T14:11:15.756Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11951,7 +11992,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T12:37:56.726Z",
+      "lastScraped": "2026-09-20T14:11:16.723Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12008,6 +12049,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789913486994",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena 3060 é sorteada neste domingo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena 3060 é sorteada neste domingo Fonte 2 Clube de jardinagem do Jardim: por que isso importa para a economia?",
+      "postId": "rss-hash_5ed4378f",
+      "timestamp": "2026-09-20T14:11:16.738Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789907956421",
       "feedName": "G1 - Economia",

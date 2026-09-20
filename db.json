@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6771b42b",
+      "views": 0,
+      "date": "2026-09-20T05:15:00.655Z",
+      "title": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 dias para escolher: por que isso importa para a economia?",
+      "subtitle": "Economia As microempresas e empresas de pequeno porte optantes pelo Simples Nacional, regime simplificado de tributação, têm até o fim de setembro para escolher entre o sistema \"híbrido\" de recolhimento dos novos tributos sobre o consumo ou a.",
+      "slug": "sistema-puro-ou-hibrido-empresas-do-simples-tem-10-dias-para-escolher-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia As microempresas e empresas de pequeno porte optantes pelo Simples Nacional, regime simplificado de tributação, têm até o fim de setembro para escolher entre o sistema \"híbrido\" de recolhimento dos novos tributos sobre o consumo ou a permanência no modelo tradicional — conhecido como Simples \"puro\". A necessidade de opção foi definida pelo Comitê Gestor do Simples Nacional (CGSN), que publicou resolução estabelecendo que a escolha feita até o fim desse mês terá validade para o primeiro semestre de 2027.\n\nO que já foi informado\n\nA escolha decorre da reforma tributária sobre o consumo, aprovada em 2023. Se o empresário fizer a opção pelo regime híbrido em setembro e se arrepender, a decisão poderá ser revista depois que a alíquota da CBS for definida pelo Senado, diz a Receita Federal. Em março do ano que vem, o prazo de escolha será aberto novamente para as empresas do Simples, desta vez com validade para as vendas do segundo semestre do próximo ano.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 Store Center",
+      "seoDescription": "Economia As microempresas e empresas de pequeno porte optantes pelo Simples Nacional, regime simplificado de tributação, têm até o fi",
+      "keyword": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 dias para escolher; veja como ficam MEI e nanoempreendedor Fonte 2 Mega-Sena pode pagar R$ 28 milhões neste domingo; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/20/sistema-puro-ou-hibrido-empresas-do-simples-tem-10-dias-para-escolher-veja-como-ficam-mei-e-nanoempreendedor.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/20/sistema-puro-ou-hibrido-empresas-do-simples-tem-10-dias-para-escolher-veja-como-ficam-mei-e-nanoempreendedor.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/20/mega-sena-pode-pagar-r-28-milhoes-neste-domingo-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 dias para escolher; veja como ficam MEI e nanoempreendedor",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_54bf84f7",
       "views": 0,
       "date": "2026-09-20T00:09:21.202Z",
@@ -11768,7 +11809,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-20T00:09:19.281Z",
+      "lastScraped": "2026-09-20T05:14:58.601Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -11776,7 +11817,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-20T00:09:20.181Z",
+      "lastScraped": "2026-09-20T05:14:59.627Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -11789,7 +11830,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-20T00:09:21.191Z",
+      "lastScraped": "2026-09-20T05:15:00.635Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -11846,6 +11887,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789881371643",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 dias para escolher; veja como ficam MEI e nanoempreendedor",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Sistema 'puro' ou 'híbrido'? Empresas do Simples têm 10 dias para escolher: por que isso importa para a economia?",
+      "postId": "rss-hash_6771b42b",
+      "timestamp": "2026-09-20T05:15:00.656Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.5h (+8), Sem postagem há 7.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789863011150",
       "feedName": "G1 - Economia",

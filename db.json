@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_16524221",
+      "views": 0,
+      "date": "2026-09-21T08:37:09.520Z",
+      "title": "A IA pode ter vontade própria ou se revoltar contra humanos? Fonte 2 Chefes de empresas de tecnologia pedem",
+      "subtitle": "Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA As dúvidas e discussões sobre os riscos da inteligência artificial dominaram o noticiário nos últimos dias.",
+      "slug": "a-ia-pode-ter-vontade-propria-ou-se-revoltar-contra-humanos-fonte-2-chefes-de-empresas-de-tecnologia-pedem",
+      "content": "O que aconteceu\n\nEconomia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA As dúvidas e discussões sobre os riscos da inteligência artificial dominaram o noticiário nos últimos dias. Líderes de grandes empresas de tecnologia têm se posicionado sobre o tema e demonstrado preocupação com a velocidade do desenvolvimento da tecnologia.\n\nO que já foi informado\n\nO estopim para a discussão foi um texto publicado por Dario Amodei, CEO da Anthropic, empresa dona do Claude. A posição também foi defendida por Sam Altman, CEO da OpenAI, do ChatGPT; Elon Musk, dono do X e da empresa de IA xAI; e Demis Hassabis, presidente do Google DeepMind. Mark Zuckerberg, CEO da Meta, que controla Instagram, Facebook e WhatsApp, é contrário à ideia, assim como Jensen Huang, CEO da Nvidia. O presidente dos Estados Unidos, Donald Trump, também se opõe à proposta e critica quem defende uma pausa no avanço da IA. A IA pode ser um risco para a humanidade? Robôs humanoides e quadrúpedes participam de manifestação que pede regulamentação da inteligência artificial, em Varsóvia, em 7 de setembro de 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "A IA pode ter vontade própria ou se revoltar contra Store Center",
+      "seoDescription": "Economia 'Parece lixo de IA': por que plataformas agora estão 'dedurando' conteúdos feitos com IA As dúvidas e discussões sobre os ri",
+      "keyword": "A IA pode ter vontade própria ou se revoltar contra humanos? Fonte 2 Chefes de empresas de tecnologia pedem desaceleração da IA — mas o que a China pensa?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/21/entenda-se-a-ia-pode-ter-vontade-propria-ou-se-revoltar-contra-humanos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/entenda-se-a-ia-pode-ter-vontade-propria-ou-se-revoltar-contra-humanos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/chefes-de-empresas-de-tecnologia-pedem-desaceleracao-da-ia-mas-o-que-a-china-pensa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "A IA pode ter vontade própria ou se revoltar contra humanos?",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_30210d88",
       "views": 0,
       "date": "2026-09-21T05:18:27.768Z",
@@ -12216,7 +12257,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-21T05:18:16.555Z",
+      "lastScraped": "2026-09-21T08:36:58.430Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12224,7 +12265,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-21T05:18:17.249Z",
+      "lastScraped": "2026-09-21T08:36:59.000Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12294,6 +12335,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789979831821",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "A IA pode ter vontade própria ou se revoltar contra humanos?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "A IA pode ter vontade própria ou se revoltar contra humanos? Fonte 2 Chefes de empresas de tecnologia pedem",
+      "postId": "rss-hash_16524221",
+      "timestamp": "2026-09-21T08:37:09.520Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.7h (+8), Sem postagem há 22.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789967936760",
       "feedName": "G1 - Economia",

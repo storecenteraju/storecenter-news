@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_629fbd4b",
+      "views": 0,
+      "date": "2026-09-21T22:50:38.862Z",
+      "title": "Governo encontra espaço fiscal de R$ 19,6 bilhões no orçamento; parte vai bancar reajuste do Bolsa Família, diz",
+      "subtitle": "Economia Bruno Moretti, ministro do Planejamento e Orçamento Edilson Rodrigues/Agência Senado.",
+      "slug": "governo-encontra-espaco-fiscal-de-r-19-6-bilhoes-no-orcamento-parte-vai-bancar-reajuste-do-bolsa-familia-diz",
+      "content": "O que aconteceu\n\nEconomia Bruno Moretti, ministro do Planejamento e Orçamento Edilson Rodrigues/Agência Senado. O ministro do Planejamento, Bruno Moretti, afirmou em entrevista ao g1 que o governo identificou um espaço fiscal de R$ 19,6 bilhões no orçamento deste ano e, por isso, decidiu reajustar o Bolsa Família.\n\nO que já foi informado\n\n\"Você tem uma queda de despesas projetada nessa ordem de grandeza. O Bolsa Família já será incorporado, portanto, às nossas regras fiscais. A gente fez realmente uma medida para a qual a gente tinha espaço fiscal, portanto, sem qualquer tipo de burla, absoluto respeito às convenções e às regras fiscais\", disse o ministro. Segundo o ministro, a folga orçamentária estimada neste momento veio da redução da projeção de gastos com a Previdência Social, o Benefício de Prestação Continuada (BPC), pessoal e subsídios. O detalhamento será divulgado pelo governo no Relatório de Avaliação de Receitas e Despesas até quinta-feira (24). O reajuste do Bolsa Família terá impacto de R$ 5,8 bilhões em 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo encontra espaço fiscal de R$ 19,6 bilhões no Store Center",
+      "seoDescription": "Economia Bruno Moretti, ministro do Planejamento e Orçamento Edilson Rodrigues/Agência Senado.",
+      "keyword": "Governo encontra espaço fiscal de R$ 19,6 bilhões no orçamento; parte vai bancar reajuste do Bolsa Família, diz ministro Fonte 2 Funcionários da Caixa rejeitam proposta e greve continua; como ficam as contas e benefícios?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/21/governo-encontra-espaco-fiscal-de-r-196-bilhoes-no-orcamento-parte-vai-bancar-reajuste-do-bolsa-familia-diz-ministro.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/21/governo-encontra-espaco-fiscal-de-r-196-bilhoes-no-orcamento-parte-vai-bancar-reajuste-do-bolsa-familia-diz-ministro.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/21/greve-da-caixa-continua-apos-funcionarios-rejeitarem-nova-proposta-do-banco.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Governo encontra espaço fiscal de R$ 19,6 bilhões no orçamento; parte vai bancar reajuste do Bolsa Família, diz ministro",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_14011e41",
       "views": 0,
       "date": "2026-09-21T21:09:32.314Z",
@@ -12497,7 +12538,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-21T21:09:29.978Z",
+      "lastScraped": "2026-09-21T22:50:27.846Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12505,7 +12546,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-21T21:09:31.253Z",
+      "lastScraped": "2026-09-21T22:50:28.332Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12575,6 +12616,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790031063262",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo encontra espaço fiscal de R$ 19,6 bilhões no orçamento; parte vai bancar reajuste do Bolsa Família, diz ministro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo encontra espaço fiscal de R$ 19,6 bilhões no orçamento; parte vai bancar reajuste do Bolsa Família, diz",
+      "postId": "rss-hash_629fbd4b",
+      "timestamp": "2026-09-21T22:50:38.863Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.6h (+8), Sem postagem há 22.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790025033072",
       "feedName": "G1 - Economia",

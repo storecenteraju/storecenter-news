@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "rss-hash_31c4684b",
+      "views": 0,
+      "date": "2026-09-21T16:27:12.789Z",
+      "title": "Discord remove aplicativos usados para contornar suspensão de vídeos ao vivo no Brasil: qual pode ser o próximo passo?",
+      "subtitle": "Exclusivo: ANPD cobra Discord sobre brecha em transmissões O Discord afirmou nesta segunda-feira (21) que removeu da plataforma aplicativos de terceiros que estavam sendo utilizados para contornar a suspensão dos recursos de vídeo no Brasil, determinada pela.",
+      "slug": "discord-remove-aplicativos-usados-para-contornar-suspensao-de-videos-ao-vivo-no-brasil-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nExclusivo: ANPD cobra Discord sobre brecha em transmissões O Discord afirmou nesta segunda-feira (21) que removeu da plataforma aplicativos de terceiros que estavam sendo utilizados para contornar a suspensão dos recursos de vídeo no Brasil, determinada pela Agência Nacional de Proteção de Dados (ANPD). A declaração foi dada à GloboNews após a reportagem identificar que pelo menos dois serviços externos continuavam disponíveis dentro de funções nativas do Discord e permitiam a transmissão e o compartilhamento de vídeo em tempo real durante chamadas coletivas.\n\nO que já foi informado\n\nA plataforma confirma que os aplicativos identificados pela reportagem estavam sendo utilizados dentro do Discord. Segundo a empresa, porém, isso ocorria sem sua autorização e em desacordo com os termos de uso. A plataforma disse ainda que agiu imediatamente para remover os aplicativos e que a medida faz parte dos procedimentos adotados para cumprir leis e exigências regulatórias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Discord remove aplicativos usados para contornar Store Center",
+      "seoDescription": "Exclusivo: ANPD cobra Discord sobre brecha em transmissões O Discord afirmou nesta segunda-feira (21) que removeu da plataforma aplicativos de terceir",
+      "keyword": "Discord remove aplicativos usados para contornar suspensão de vídeos ao vivo no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/21/discord-remove-aplicativos-usados-para-contornar-suspensao-de-videos-ao-vivo-no-brasil.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/discord-remove-aplicativos-usados-para-contornar-suspensao-de-videos-ao-vivo-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Discord remove aplicativos usados para contornar suspensão de vídeos ao vivo no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_45f133ec",
       "views": 0,
       "date": "2026-09-21T14:32:53.203Z",
@@ -12336,7 +12376,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-21T14:32:52.109Z",
+      "lastScraped": "2026-09-21T16:27:11.433Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12344,7 +12384,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-21T14:32:52.361Z",
+      "lastScraped": "2026-09-21T16:27:11.959Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12357,7 +12397,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-21T14:32:53.186Z",
+      "lastScraped": "2026-09-21T16:27:12.775Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12414,6 +12454,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790008070229",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Discord remove aplicativos usados para contornar suspensão de vídeos ao vivo no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Discord remove aplicativos usados para contornar suspensão de vídeos ao vivo no Brasil: qual pode ser o próximo passo?",
+      "postId": "rss-hash_31c4684b",
+      "timestamp": "2026-09-21T16:27:12.789Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 74.0h (+8), Sem postagem há 74.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790001224202",
       "feedName": "G1 - Economia",

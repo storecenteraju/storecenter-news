@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_14011e41",
+      "views": 0,
+      "date": "2026-09-21T21:09:32.314Z",
+      "title": "Empresa é condenada a pagar R$ 1,25 milhão a funcionária demitida por faltar para: o que está em jogo no mercado?",
+      "subtitle": "A Butterball, uma das principais fabricantes de peru e produtos avícolas dos Estados Unidos, concordou em pagar US$ 230 mil, o equivalente a cerca de R$ 1,25 milhão, para encerrar uma ação por discriminação movida pela Comissão de Igualdade de Oportunidades de.",
+      "slug": "empresa-e-condenada-a-pagar-r-1-25-milhao-a-funcionaria-demitida-por-faltar-para-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA Butterball, uma das principais fabricantes de peru e produtos avícolas dos Estados Unidos, concordou em pagar US$ 230 mil, o equivalente a cerca de R$ 1,25 milhão, para encerrar uma ação por discriminação movida pela Comissão de Igualdade de Oportunidades de Emprego dos Estados Unidos (EEOC). A empresa, que produz e comercializa carnes de peru, frios, refeições prontas, sopas, saladas e sanduíches, foi acusada de negar uma adaptação de trabalho a uma funcionária em tratamento contra o câncer e, posteriormente, demiti-la por ausências relacionadas à doença.\n\nO que já foi informado\n\nSegundo a EEOC, a trabalhadora atuava havia anos na companhia quando informou à empresa que havia recebido o diagnóstico de câncer e que precisaria de afastamentos periódicos para sessões de quimioterapia e recuperação dos procedimentos médicos. De acordo com o órgão, a análise do pedido foi transferida para uma administradora terceirizada de benefícios. No entanto, a licença nunca foi aprovada. Enquanto aguardava uma resposta, as faltas relacionadas ao tratamento passaram a ser registradas no sistema de controle de frequência da empresa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Empresa é condenada a pagar R$ 1,25 milhão a Store Center",
+      "seoDescription": "A Butterball, uma das principais fabricantes de peru e produtos avícolas dos Estados Unidos, concordou em pagar US$ 230 mil, o equivalente a cerca de",
+      "keyword": "Empresa é condenada a pagar R$ 1,25 milhão a funcionária demitida por faltar para fazer quimioterapia Fonte 2 Greve dos Correios continua após Tribunal do Trabalho suspender julgamento; veja o que acontece agora",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/21/empresa-e-condenada-a-pagar-r-125-milhao-a-funcionaria-demitida-por-faltar-para-fazer-quimioterapia.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/21/empresa-e-condenada-a-pagar-r-125-milhao-a-funcionaria-demitida-por-faltar-para-fazer-quimioterapia.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/21/greve-correios-tst.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Empresa é condenada a pagar R$ 1,25 milhão a funcionária demitida por faltar para fazer quimioterapia",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_4c57c2e0",
       "views": 0,
       "date": "2026-09-21T19:49:32.883Z",
@@ -12456,7 +12497,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-21T19:49:30.868Z",
+      "lastScraped": "2026-09-21T21:09:29.978Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12464,7 +12505,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-21T19:49:31.856Z",
+      "lastScraped": "2026-09-21T21:09:31.253Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12477,7 +12518,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-21T19:49:32.873Z",
+      "lastScraped": "2026-09-21T21:09:32.300Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12534,6 +12575,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790025033072",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Empresa é condenada a pagar R$ 1,25 milhão a funcionária demitida por faltar para fazer quimioterapia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Empresa é condenada a pagar R$ 1,25 milhão a funcionária demitida por faltar para: o que está em jogo no mercado?",
+      "postId": "rss-hash_14011e41",
+      "timestamp": "2026-09-21T21:09:32.315Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 20.9h (+8), Sem postagem há 20.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790020198857",
       "feedName": "G1 - Economia",

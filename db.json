@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_30210d88",
+      "views": 0,
+      "date": "2026-09-21T05:18:27.768Z",
+      "title": "Gasolina com 35% de etanol pode estragar o carro? Veja peças que podem ser afetadas: o que está em jogo no mercado?",
+      "subtitle": "O governo autorizou o início dos testes que aumentam a mistura de etanol na gasolina comum, chegando a 35% — atualmente são 32% na bomba do posto.",
+      "slug": "gasolina-com-35-de-etanol-pode-estragar-o-carro-veja-pecas-que-podem-ser-afetadas-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO governo autorizou o início dos testes que aumentam a mistura de etanol na gasolina comum, chegando a 35% — atualmente são 32% na bomba do posto. Ainda há etapas a serem cumpridas antes de o combustível chegar aos postos com a nova mistura.\n\nO que já foi informado\n\nMesmo assim, a medida já levanta questionamentos sobre possíveis danos a peças e motores, especialmente os projetados para rodar apenas com gasolina. Especialistas ouvidos pelo g1 foram unânimes ao afirmar que a nova composição da gasolina afeta de maneira mais direta e intensa os carros antigos. Ainda assim, os modelos mais novos também podem enfrentar problemas. Entre os principais efeitos na direção estão o aumento do consumo de combustível e a redução da autonomia dos veículos movidos exclusivamente a gasolina. Agora no g1 \"Quanto mais etanol for adicionado à gasolina, maior a dificuldade de queima ideal do combustível, porque a compressão do motor não é o bastante para o melhor aproveitamento do combustível e a temperatura de trabalho dos carros a gasolina, são inferiores aos carros flex ou a álcool\", aponta Tenório Júnior, técnico e professor de mecânica automotiva.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Gasolina com 35% de etanol pode estragar o carro? Veja Store Center",
+      "seoDescription": "O governo autorizou o início dos testes que aumentam a mistura de etanol na gasolina comum, chegando a 35% — atualmente são 32% na bomba do posto.",
+      "keyword": "Gasolina com 35% de etanol pode estragar o carro? Veja peças que podem ser afetadas Fonte 2 Transpetro: inscrições para concurso terminam nesta segunda; salários chegam a R$ 15 mil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/21/gasolina-com-35percent-de-etanol-pode-estragar-o-carro-veja-pecas-que-podem-ser-afetadas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/21/gasolina-com-35percent-de-etanol-pode-estragar-o-carro-veja-pecas-que-podem-ser-afetadas.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/09/21/transpetro-inscricoes-para-concurso-terminam-nesta-segunda-salarios-chegam-a-r-15-mil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Gasolina com 35% de etanol pode estragar o carro? Veja peças que podem ser afetadas",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2f6d9873",
       "views": 0,
       "date": "2026-09-21T00:16:50.230Z",
@@ -12175,7 +12216,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-21T00:16:48.484Z",
+      "lastScraped": "2026-09-21T05:18:16.555Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12183,7 +12224,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-21T00:16:49.130Z",
+      "lastScraped": "2026-09-21T05:18:17.249Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12253,6 +12294,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1789967936760",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Gasolina com 35% de etanol pode estragar o carro? Veja peças que podem ser afetadas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Gasolina com 35% de etanol pode estragar o carro? Veja peças que podem ser afetadas: o que está em jogo no mercado?",
+      "postId": "rss-hash_30210d88",
+      "timestamp": "2026-09-21T05:18:27.769Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1789949880502",
       "feedName": "G1 - Economia",

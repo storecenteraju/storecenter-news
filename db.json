@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_9b92c9c",
+      "views": 0,
+      "date": "2026-09-22T20:17:23.299Z",
+      "title": "OpenAI lança dois novos chatbots mais baratos, mas alerta que podem tentar: o que muda para usuários e empresas?",
+      "subtitle": "Economia Google e Chat GPT não são médicos; conheça os riscos de se informar somente com eles A OpenAI lançou nesta terça-feira (22) dois novos modelos de inteligência artificial da linha GPT-6 com preços até 50% menores que os valores.",
+      "slug": "openai-lanca-dois-novos-chatbots-mais-baratos-mas-alerta-que-podem-tentar-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Google e Chat GPT não são médicos; conheça os riscos de se informar somente com eles A OpenAI lançou nesta terça-feira (22) dois novos modelos de inteligência artificial da linha GPT-6 com preços até 50% menores que os valores promocionais de seus antecessores. Já a Anthropic, sua concorrente direta, divulgou o novo Opus 5.5, 20% mais barato que o último modelo de IA do Claude.\n\nO que já foi informado\n\nO GPT-6 Sol e o GPT-6 Luna foram desenvolvidos para trabalhos profissionais, programação, automação e tarefas que envolvem o uso de computadorOpenAI e Anthropic cortam preços de novas IAs; modelos chegam até 50% mais baratoses. O GPT-6 Sol custará US$ 2 (R$ 10,20) por cada milhão de tokens de entrada e US$ 10 (R$ 51) por milhão de tokens de saída. Já o GPT-6 Luna terá preço de US$ 0,10 (R$ 0,51) por milhão de tokens de entrada e US$ 0,50 (R$ 2,55) por milhão de tokens de saída. Segundo a OpenAI, os preços do GPT-6 Sol representam uma redução de 50% em relação aos valores promocionais do GPT-5.6 Sol. A empresa afirma que os novos modelos oferecem parte dos recursos de seu principal modelo, o GPT-6 Astra, lançado no início deste mês.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "OpenAI lança dois novos chatbots mais baratos, mas Store Center",
+      "seoDescription": "Economia Google e Chat GPT não são médicos; conheça os riscos de se informar somente com eles A OpenAI lançou nesta terça-feira (22)",
+      "keyword": "OpenAI lança dois novos chatbots mais baratos, mas alerta que podem tentar escapar do controle humano Fonte 2 UE multa Google em US$ 462 milhões por violação das regras sobre geolocalização",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/22/openai-lanca-dois-novos-chatbots-mais-baratos-mas-alerta-que-podem-tentar-escapar-do-controle-humano.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/22/openai-lanca-dois-novos-chatbots-mais-baratos-mas-alerta-que-podem-tentar-escapar-do-controle-humano.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/ue-multa-google-em-us-462-milhoes-por-violacao-das-regras-sobre-geolocalizacao.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "OpenAI lança dois novos chatbots mais baratos, mas alerta que podem tentar escapar do controle humano",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_4a7230d",
       "views": 0,
       "date": "2026-09-22T18:26:05.538Z",
@@ -12862,7 +12903,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-22T18:25:54.212Z",
+      "lastScraped": "2026-09-22T20:17:12.811Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12870,7 +12911,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-22T18:25:55.017Z",
+      "lastScraped": "2026-09-22T20:17:13.058Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12940,6 +12981,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790108308945",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "OpenAI lança dois novos chatbots mais baratos, mas alerta que podem tentar escapar do controle humano",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "OpenAI lança dois novos chatbots mais baratos, mas alerta que podem tentar: o que muda para usuários e empresas?",
+      "postId": "rss-hash_9b92c9c",
+      "timestamp": "2026-09-22T20:17:23.301Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.4h (+8), Sem postagem há 19.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790101644552",
       "feedName": "G1 - Economia",

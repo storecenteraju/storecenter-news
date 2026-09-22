@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_23bf3fdf",
+      "views": 0,
+      "date": "2026-09-22T14:47:38.498Z",
+      "title": "Arrecadação federal soma R$ 235 bilhões em agosto, recorde para o mês Fonte 2: por que isso importa para a economia?",
+      "subtitle": "Economia A arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 235,6 bilhões em agosto deste ano, informou nesta terça-feira (22) a Receita Federal.",
+      "slug": "arrecadacao-federal-soma-r-235-bilhoes-em-agosto-recorde-para-o-mes-fonte-2-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia A arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 235,6 bilhões em agosto deste ano, informou nesta terça-feira (22) a Receita Federal. O resultado representa um aumento real de 8,25% na comparação com o mesmo mês do ano passado, quando a arrecadação somou R$ 217,6 bilhões (valor corrigido pela inflação).\n\nO que já foi informado\n\nO valor também é o maior já registrado para meses de agosto desde o início da série histórica da Receita Federal em 1995 — ou seja, em 32 anos. O recorde na arrecadação está relacionado com o crescimento da economia brasileira e com os aumentos de impostos anunciados nos últimos anos pelo governo do presidente Luiz Inácio Lula da Silva (PT) e, também, com a alta no preço do petróleo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Arrecadação federal soma R$ 235 bilhões em agosto Store Center",
+      "seoDescription": "Economia A arrecadação do governo federal com impostos, contribuições e demais receitas somou R$ 235,6 bilhões em agosto deste ano, i",
+      "keyword": "Arrecadação federal soma R$ 235 bilhões em agosto, recorde para o mês Fonte 2 Anac registra três casos graves de indisciplina na primeira semana de vigência de novas regras",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/22/arrecadacao-federal-soma-r-235-bilhoes-em-agosto-recorde-para-o-mes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/22/arrecadacao-federal-soma-r-235-bilhoes-em-agosto-recorde-para-o-mes.ghtml",
+        "https://g1.globo.com/turismo-e-viagem/noticia/2026/09/22/anac-registra-tres-casos-graves-de-indisciplina-na-primeira-semana-de-vigencia-de-novas-regras.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Arrecadação federal soma R$ 235 bilhões em agosto, recorde para o mês",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_480ba368",
       "views": 0,
       "date": "2026-09-22T12:50:18.369Z",
@@ -12741,7 +12782,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-22T12:50:16.747Z",
+      "lastScraped": "2026-09-22T14:47:36.618Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12749,7 +12790,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-22T12:50:17.354Z",
+      "lastScraped": "2026-09-22T14:47:37.358Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12762,7 +12803,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-22T12:50:18.354Z",
+      "lastScraped": "2026-09-22T14:47:38.485Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12819,6 +12860,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790088552496",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Arrecadação federal soma R$ 235 bilhões em agosto, recorde para o mês",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Arrecadação federal soma R$ 235 bilhões em agosto, recorde para o mês Fonte 2: por que isso importa para a economia?",
+      "postId": "rss-hash_23bf3fdf",
+      "timestamp": "2026-09-22T14:47:38.499Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.5h (+8), Sem postagem há 9.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790081468453",
       "feedName": "G1 - Economia",

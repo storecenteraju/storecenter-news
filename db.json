@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4a7230d",
+      "views": 0,
+      "date": "2026-09-22T18:26:05.538Z",
+      "title": "AMD entra para grupo de fabricantes de chips avaliadas em US$ 1 trilhão Fonte 2 UE multa: como isso afeta a população?",
+      "subtitle": "Steve Marcus A Advanced Micro Devices (AMD) ultrapassou pela primeira vez a marca de US$ 1 trilhão (R$ 5,14 trilhões) em valor de mercado nesta segunda-feira (21), impulsionada pela expectativa de investidores sobre o crescimento da empresa no mercado de.",
+      "slug": "amd-entra-para-grupo-de-fabricantes-de-chips-avaliadas-em-us-1-trilhao-fonte-2-ue-multa-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nSteve Marcus A Advanced Micro Devices (AMD) ultrapassou pela primeira vez a marca de US$ 1 trilhão (R$ 5,14 trilhões) em valor de mercado nesta segunda-feira (21), impulsionada pela expectativa de investidores sobre o crescimento da empresa no mercado de computação voltada à inteligência artificial. As ações da fabricante de chips subiram 9,6% durante a manhã, a US$ 613,50 (R$ 3.153,39), e atingiram o maior valor da história.\n\nO que já foi informado\n\nCom o avanço, a AMD se tornou a quarta fabricante americana de chips a integrar o grupo de empresas com valor de mercado na casa dos trilhões de dólares, depois de Nvidia, Broadcom e Micron. A Nvidia alcançou esse nível em 2023 e atualmente é a empresa mais valiosa do mundo, com valor de mercado superior a US$ 5 trilhões (R$ 25,7 trilhões), em meio ao aumento da demanda por tecnologias de inteligência artificial. Agora no g1 Concorrente da Nvidia A empresa, sediada em Santa Clara, na Califórnia, é considerada a principal concorrente da Nvidia no mercado de unidades de processamento gráfico (GPUs), chips usados para executar tarefas de inteligência artificial. A AMD também ampliou sua atuação no setor.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "AMD entra para grupo de fabricantes de chips avaliadas Store Center",
+      "seoDescription": "Steve Marcus A Advanced Micro Devices (AMD) ultrapassou pela primeira vez a marca de US$ 1 trilhão (R$ 5,14 trilhões) em valor de mercado nesta segund",
+      "keyword": "AMD entra para grupo de fabricantes de chips avaliadas em US$ 1 trilhão Fonte 2 UE multa Google em US$ 462 milhões por violação das regras sobre geolocalização",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/21/amd-entra-para-grupo-de-fabricantes-de-chips-avaliadas-em-us-1-trilhao.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/amd-entra-para-grupo-de-fabricantes-de-chips-avaliadas-em-us-1-trilhao.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/21/ue-multa-google-em-us-462-milhoes-por-violacao-das-regras-sobre-geolocalizacao.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "AMD entra para grupo de fabricantes de chips avaliadas em US$ 1 trilhão",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3d55a400",
       "views": 0,
       "date": "2026-09-22T17:13:33.306Z",
@@ -12821,7 +12862,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-22T17:13:31.987Z",
+      "lastScraped": "2026-09-22T18:25:54.212Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12829,7 +12870,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-22T17:13:32.496Z",
+      "lastScraped": "2026-09-22T18:25:55.017Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12899,6 +12940,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790101644552",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "AMD entra para grupo de fabricantes de chips avaliadas em US$ 1 trilhão",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "AMD entra para grupo de fabricantes de chips avaliadas em US$ 1 trilhão Fonte 2 UE multa: como isso afeta a população?",
+      "postId": "rss-hash_4a7230d",
+      "timestamp": "2026-09-22T18:26:05.540Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.6h (+8), Sem postagem há 17.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 21",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790097295066",
       "feedName": "G1 - Economia",

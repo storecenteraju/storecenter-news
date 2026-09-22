@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_264f6819",
+      "views": 0,
+      "date": "2026-09-22T08:16:29.311Z",
+      "title": "'Soltamos a besta': como o mundo se dividiu sobre até onde deixar a IA avançar: o que muda para usuários e empresas?",
+      "subtitle": "A declaração foi feita por Maliyka Muhammad, analista nova-iorquina de 46 anos, em uma série de entrevistas da agência de notícias com pessoas de oito países e reflete um sentimento que atravessa fronteiras, gerações e ideologias.",
+      "slug": "soltamos-a-besta-como-o-mundo-se-dividiu-sobre-ate-onde-deixar-a-ia-avancar-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA declaração foi feita por Maliyka Muhammad, analista nova-iorquina de 46 anos, em uma série de entrevistas da agência de notícias com pessoas de oito países e reflete um sentimento que atravessa fronteiras, gerações e ideologias. Nesta semana, a preocupação com a inteligência artificial (IA) ganhou espaço quase ao mesmo tempo no Vaticano, em Bruxelas, Genebra, na Casa Branca e no Vale do Silício.\n\nO que já foi informado\n\nJá não se discute apenas o que essa tecnologia pode fazer, mas também até onde ela deveria ser autorizada a avançar. É aí que surge uma divisão no Ocidente: de um lado, os que defendem uma desaceleração diante do risco de perder o controle; de outro, os que acreditam que fazer isso agora significaria ceder terreno à China. Agora no g1 Esse choque de visões também aparece longe dos gabinetes. Em Roma, a arquiteta Frida Awrohum usa IA no trabalho, mas admite que ainda sente medo. Na Indonésia, uma estudante se pergunta se algum ser humano conseguiria responder tão bem quanto um chatbot. Em Xangai, um empresário teme que as futuras gerações enfrentem \"verdadeiras dificuldades\" para encontrar emprego.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Soltamos a besta': como o mundo se dividiu sobre até Store Center",
+      "seoDescription": "A declaração foi feita por Maliyka Muhammad, analista nova-iorquina de 46 anos, em uma série de entrevistas da agência de notícias com pessoas de oito",
+      "keyword": "'Soltamos a besta': como o mundo se dividiu sobre até onde deixar a IA avançar Fonte 2 VÍDEO: Tóquio testa robôs coletores de lixo na estação de trem mais movimentada do mundo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/22/soltamos-a-besta-como-o-mundo-se-dividiu-sobre-ate-onde-deixar-a-ia-avancar.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/22/soltamos-a-besta-como-o-mundo-se-dividiu-sobre-ate-onde-deixar-a-ia-avancar.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/18/video-toquio-testa-robos-coletores-de-lixo-na-estacao-de-trem-mais-movimentada-do-mundo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "'Soltamos a besta': como o mundo se dividiu sobre até onde deixar a IA avançar",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_d17630c",
       "views": 0,
       "date": "2026-09-22T05:16:39.463Z",
@@ -12620,7 +12661,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-22T05:16:28.209Z",
+      "lastScraped": "2026-09-22T08:16:27.490Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -12628,7 +12669,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-22T05:16:28.945Z",
+      "lastScraped": "2026-09-22T08:16:28.082Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -12641,7 +12682,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-21T21:09:32.300Z",
+      "lastScraped": "2026-09-22T08:16:29.297Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -12698,6 +12739,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790065062379",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Soltamos a besta': como o mundo se dividiu sobre até onde deixar a IA avançar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Soltamos a besta': como o mundo se dividiu sobre até onde deixar a IA avançar: o que muda para usuários e empresas?",
+      "postId": "rss-hash_264f6819",
+      "timestamp": "2026-09-22T08:16:29.311Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.0h (+8), Sem postagem há 14.0h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 26",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790054225369",
       "feedName": "G1 - Economia",

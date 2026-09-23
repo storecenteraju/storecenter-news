@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4f595c70",
+      "views": 0,
+      "date": "2026-09-23T14:58:16.018Z",
+      "title": "Brasil bate recorde com 103 milhões de pessoas ocupadas; mulheres puxam avanço desde: o que está em jogo no mercado?",
+      "subtitle": "Economia Carteira de Trabalho Digital Gil Leonardi/ImprensaMG O Brasil atingiu um recorde de 103 milhões de pessoas ocupadas em 2025, segundo a Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – Características Adicionais do Mercado.",
+      "slug": "brasil-bate-recorde-com-103-milhoes-de-pessoas-ocupadas-mulheres-puxam-avanco-desde-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Carteira de Trabalho Digital Gil Leonardi/ImprensaMG O Brasil atingiu um recorde de 103 milhões de pessoas ocupadas em 2025, segundo a Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua – Características Adicionais do Mercado de Trabalho, divulgada nesta quarta-feira (23) pelo Instituto Brasileiro de Geografia e Estatística (IBGE). Segundo o instituto, esse foi o maior contingente de ocupados da série histórica, iniciada em 2012.\n\nO que já foi informado\n\nAo mesmo tempo, o número de desocupados caiu para 6,1 milhões, o menor já registrado pela pesquisa. A força de trabalho do país soma 109,1 milhões de pessoas, enquanto 65 milhões estão fora do mercado de trabalho. Em comparação com 2012, o total de ocupados cresceu 15,4%, passando de 89,3 milhões para 103 milhões de trabalhadores. Agora no g1 Além do recorde de ocupação, os dados do IBGE mostram um avanço mais acelerado da participação feminina. Em 2025, o país contabilizou 44,8 milhões de mulheres ocupadas, o equivalente a 43,5% da população ocupada.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Brasil bate recorde com 103 milhões de pessoas Store Center",
+      "seoDescription": "Economia Carteira de Trabalho Digital Gil Leonardi/ImprensaMG O Brasil atingiu um recorde de 103 milhões de pessoas ocupadas em 2025,",
+      "keyword": "Brasil bate recorde com 103 milhões de pessoas ocupadas; mulheres puxam avanço desde 2012 Fonte 2 Por que os candidatos a presidente querem construir mais data centers no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/23/brasil-bate-recorde-de-pessoas-ocupadas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/23/brasil-bate-recorde-de-pessoas-ocupadas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/por-que-os-candidatos-a-presidente-querem-construir-mais-data-centers-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Brasil bate recorde com 103 milhões de pessoas ocupadas; mulheres puxam avanço desde 2012",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_6144374e",
       "views": 0,
       "date": "2026-09-23T13:01:19.198Z",
@@ -13147,7 +13188,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-23T13:01:17.593Z",
+      "lastScraped": "2026-09-23T14:58:14.286Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13155,7 +13196,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-23T13:01:18.192Z",
+      "lastScraped": "2026-09-23T14:58:14.900Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13168,7 +13209,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-23T13:01:19.190Z",
+      "lastScraped": "2026-09-23T14:58:16.004Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13225,6 +13266,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790175507494",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Brasil bate recorde com 103 milhões de pessoas ocupadas; mulheres puxam avanço desde 2012",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Brasil bate recorde com 103 milhões de pessoas ocupadas; mulheres puxam avanço desde: o que está em jogo no mercado?",
+      "postId": "rss-hash_4f595c70",
+      "timestamp": "2026-09-23T14:58:16.019Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.1h (+8), Sem postagem há 26.1h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790168538021",
       "feedName": "G1 - Economia",

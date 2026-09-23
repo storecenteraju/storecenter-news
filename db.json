@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_417dc3d5",
+      "views": 0,
+      "date": "2026-09-23T20:33:15.308Z",
+      "title": "Líderes de IA discutem riscos da tecnologia em reunião do Conselho de Segurança: o que muda para usuários e empresas?",
+      "subtitle": "Brendan McDermid Chefes de OpenAI, da Anthropic e da Hugging Face, três das maiores empresas de inteligência artificial do mundo, participaram de uma reunião do Conselho de Segurança da ONU (Organização das Nações Unidas) nesta quarta-feira (23).",
+      "slug": "lideres-de-ia-discutem-riscos-da-tecnologia-em-reuniao-do-conselho-de-seguranca-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nBrendan McDermid Chefes de OpenAI, da Anthropic e da Hugging Face, três das maiores empresas de inteligência artificial do mundo, participaram de uma reunião do Conselho de Segurança da ONU (Organização das Nações Unidas) nesta quarta-feira (23). A reunião foi convocada em meio aos alertas de que sistemas de IA mais poderosos poderiam se tornar mais capazes, escapar do controle humano e criar ameaças à segurança internacional.\n\nO que já foi informado\n\n\"Se mal gerenciada, acredito até que a IA poderia representar um risco para a humanidade como um todo\", disse Dario Amodei, CEO da Anthropic, criadora do assistente de IA Claude. O CEO da OpenAI, Sam Altman, defendeu cooperação internacional. \"Para que a IA seja democrática, as decisões mais importantes não podem ser tomadas apenas por laboratórios em São Francisco\", disse o líder da empresa criadora do ChatGPT. Agora no g1 Para Altman, a regulamentação da IA deve ser feita com processos democráticos e por governos que prestem contas às populações que servem.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Líderes de IA discutem riscos da tecnologia em reunião Store Center",
+      "seoDescription": "Brendan McDermid Chefes de OpenAI, da Anthropic e da Hugging Face, três das maiores empresas de inteligência artificial do mundo, participaram de uma",
+      "keyword": "Líderes de IA discutem riscos da tecnologia em reunião do Conselho de Segurança da ONU Fonte 2 Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem para 'pisar no freio'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/23/lideres-de-ia-discutem-riscos-da-tecnologia-em-reuniao-do-conselho-de-seguranca-da-onu.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/lideres-de-ia-discutem-riscos-da-tecnologia-em-reuniao-do-conselho-de-seguranca-da-onu.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/os-10-dias-que-abalaram-a-corrida-da-ia-por-que-lideres-do-setor-agora-pedem-para-pisar-no-freio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Líderes de IA discutem riscos da tecnologia em reunião do Conselho de Segurança da ONU",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_20131132",
       "views": 0,
       "date": "2026-09-23T18:45:08.806Z",
@@ -13270,7 +13311,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-23T18:44:57.462Z",
+      "lastScraped": "2026-09-23T20:33:13.878Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13278,7 +13319,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-23T18:44:58.284Z",
+      "lastScraped": "2026-09-23T20:33:14.412Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13291,7 +13332,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-23T14:58:16.004Z",
+      "lastScraped": "2026-09-23T20:33:15.290Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13348,6 +13389,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790195611768",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Líderes de IA discutem riscos da tecnologia em reunião do Conselho de Segurança da ONU",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Líderes de IA discutem riscos da tecnologia em reunião do Conselho de Segurança: o que muda para usuários e empresas?",
+      "postId": "rss-hash_417dc3d5",
+      "timestamp": "2026-09-23T20:33:15.308Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.4h (+8), Sem postagem há 10.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1790189147762",
       "feedName": "G1 - Economia",

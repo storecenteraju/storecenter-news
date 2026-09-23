@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_20131132",
+      "views": 0,
+      "date": "2026-09-23T18:45:08.806Z",
+      "title": "Globo recebe 5 indicações ao Emmy Internacional 2026 Fonte 2 Petrobras garante: por que esse movimento importa?",
+      "subtitle": "Economia Globo recebe 5 indicações ao Emmy Internacional de Jornalismo 2026 A Globo recebeu cinco indicações ao Emmy Internacional 2026, considerado o Oscar da TV.",
+      "slug": "globo-recebe-5-indicacoes-ao-emmy-internacional-2026-fonte-2-petrobras-garante-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Globo recebe 5 indicações ao Emmy Internacional de Jornalismo 2026 A Globo recebeu cinco indicações ao Emmy Internacional 2026, considerado o Oscar da TV. Os indicados foram anunciados nesta quarta-feira (23) pela Academia Internacional de Artes e Ciências Televisivas.\n\nO que já foi informado\n\nA cerimônia de premiação será realizada em 23 de novembro, em Nova York. Ao todo, são 64 indicados de 22 países, distribuídos em 16 categorias. Veja as indicações da Globo O Fantástico foi indicado na categoria Séries de Curta Duração por “A Jornada da Vida: Rio Mekong”. Na série de reportagens, Sônia Bridi e Paulo Zero fazem uma expedição pelo sudeste asiático e percorrem o Rio Mekong. A viagem começou na Tailândia e passou por Laos e Vietnã, acompanhando o curso do rio e contando histórias de sobrevivência e transformação. O Fantástico também foi indicado na categoria Notícias, pela reportagem especial \"Retorno à Terra Yanomami\", exibida em maio de 2025.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Globo recebe 5 indicações ao Emmy Internacional 2026 Store Center",
+      "seoDescription": "Economia Globo recebe 5 indicações ao Emmy Internacional de Jornalismo 2026 A Globo recebeu cinco indicações ao Emmy Internacional 20",
+      "keyword": "Globo recebe 5 indicações ao Emmy Internacional 2026 Fonte 2 Petrobras garante importação de 650 milhões de litros de diesel para outubro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/09/23/globo-recebe-indicacoes-ao-emmy-internacional-de-jornalismo-2026.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/09/23/globo-recebe-indicacoes-ao-emmy-internacional-de-jornalismo-2026.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/23/petrobras-garante-importacao-de-650-milhoes-de-litros-de-diesel-para-outubro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Globo recebe 5 indicações ao Emmy Internacional 2026",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_13e7dcc6",
       "views": 0,
       "date": "2026-09-23T17:25:44.648Z",
@@ -13229,7 +13270,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-23T17:25:33.513Z",
+      "lastScraped": "2026-09-23T18:44:57.462Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13237,7 +13278,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-23T17:25:34.127Z",
+      "lastScraped": "2026-09-23T18:44:58.284Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13307,6 +13348,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790189147762",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Globo recebe 5 indicações ao Emmy Internacional 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Globo recebe 5 indicações ao Emmy Internacional 2026 Fonte 2 Petrobras garante: por que esse movimento importa?",
+      "postId": "rss-hash_20131132",
+      "timestamp": "2026-09-23T18:45:08.808Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.2h (+8), Sem postagem há 18.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1790184345162",
       "feedName": "G1 - Economia",

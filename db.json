@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1cfa1038",
+      "views": 0,
+      "date": "2026-09-24T15:00:21.639Z",
+      "title": "Google testa chips de IA no espaço em lançamento de satélite Fonte 2 Os 10 dias: o que muda para usuários e empresas?",
+      "subtitle": "Lisi Niesner O Google anunciou nesta quinta-feira (24) que lançará um satélite protótipo na próxima semana.",
+      "slug": "google-testa-chips-de-ia-no-espaco-em-lancamento-de-satelite-fonte-2-os-10-dias-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nLisi Niesner O Google anunciou nesta quinta-feira (24) que lançará um satélite protótipo na próxima semana. A ação marca o primeiro teste em órbita do Projeto Suncatcher, uma pesquisa que investiga se o espaço pode abrigar infraestruturas de processamento de inteligência artificial em grande escala.\n\nO que já foi informado\n\nEmpresas como SpaceX e Starcloud desenvolvem planos para instalar centros de dados na órbita baixa da Terra. O objetivo é aproveitar a luz solar de forma quase contínua para alimentar o alto consumo de energia exigido pela computação de IA, além de evitar restrições do suprimento elétrico terrestre. A nova missão será realizada em parceria com a empresa de satélites Planet Labs, a bordo do voo compartilhado Transporter-18, da SpaceX. O teste vai avaliar como o hardware de IA do Google suporta as forças do lançamento, a radiação e as temperaturas extremas no espaço. Após o lançamento, o satélite protótipo equipado com as unidades de processamento de tensor (TPUs, na sigla em inglês) do Google será posicionado em órbita baixa para verificar se os chips operam com precisão no ambiente espacial.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Google testa chips de IA no espaço em lançamento de Store Center",
+      "seoDescription": "Lisi Niesner O Google anunciou nesta quinta-feira (24) que lançará um satélite protótipo na próxima semana.",
+      "keyword": "Google testa chips de IA no espaço em lançamento de satélite Fonte 2 Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem para 'pisar no freio'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/24/google-testa-chips-de-ia-no-espaco.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/24/google-testa-chips-de-ia-no-espaco.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/os-10-dias-que-abalaram-a-corrida-da-ia-por-que-lideres-do-setor-agora-pedem-para-pisar-no-freio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Google testa chips de IA no espaço em lançamento de satélite",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_3bf41014",
       "views": 0,
       "date": "2026-09-24T12:54:40.613Z",
@@ -13559,7 +13600,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-24T12:54:38.894Z",
+      "lastScraped": "2026-09-24T15:00:10.469Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13567,7 +13608,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-24T12:54:39.556Z",
+      "lastScraped": "2026-09-24T15:00:11.117Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13637,6 +13678,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790262070446",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Google testa chips de IA no espaço em lançamento de satélite",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Google testa chips de IA no espaço em lançamento de satélite Fonte 2 Os 10 dias: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1cfa1038",
+      "timestamp": "2026-09-24T15:00:21.639Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 28.8h (+8), Sem postagem há 28.8h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito",
+        "Economia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790254539085",
       "feedName": "G1 - Economia",

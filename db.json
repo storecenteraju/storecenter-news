@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3ef68594",
+      "views": 0,
+      "date": "2026-09-24T18:45:50.640Z",
+      "title": "Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem: o que muda para usuários e empresas?",
+      "subtitle": "Economia Inteligência artificial ganha espaço como diferencial competitivo nas empresas Inteligência Artificial Durante anos, a corrida para criar uma inteligência artificial cada vez mais poderosa seguiu um princípio conhecido no Vale do.",
+      "slug": "os-10-dias-que-abalaram-a-corrida-da-ia-por-que-lideres-do-setor-agora-pedem-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Inteligência artificial ganha espaço como diferencial competitivo nas empresas Inteligência Artificial Durante anos, a corrida para criar uma inteligência artificial cada vez mais poderosa seguiu um princípio conhecido no Vale do Silício: agir rápido e quebrar barreiras. Mas uma sequência de acontecimentos em apenas 10 dias abalou alguns dos maiores laboratórios de IA, à medida que pesquisadores passaram a alertar que as próprias criações do setor poderiam escapar do controle humano — e, em um cenário extremo, ameaçar a existência da humanidade.\n\nO que já foi informado\n\nUm pesquisador da Anthropic pediu demissão e afirmou que o ritmo de desenvolvimento da IA representa uma ameaça à humanidade, possivelmente dentro de uma década. Outro disse que as chances de extinção humana ultrapassavam 10%. Ao mesmo tempo, surgiram relatos de grupos de agentes de IA trabalhando em conjunto, invadindo sistemas de computador e contornando mecanismos criados para limitar sua atuação. Agora no g1 Esses episódios ajudaram a transformar em preocupação concreta o temor de que sistemas cada vez mais autônomos possam escapar do controle humano.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Os 10 dias que abalaram a corrida da IA: por que Store Center",
+      "seoDescription": "Economia Inteligência artificial ganha espaço como diferencial competitivo nas empresas Inteligência Artificial Durante anos, a corri",
+      "keyword": "Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem para 'pisar no freio' Fonte 2 Meta lança óculos inteligentes sem câmera após reclamações por vídeos sem consentimento; veja como eles funcionam",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/23/os-10-dias-que-abalaram-a-corrida-da-ia-por-que-lideres-do-setor-agora-pedem-para-pisar-no-freio.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/os-10-dias-que-abalaram-a-corrida-da-ia-por-que-lideres-do-setor-agora-pedem-para-pisar-no-freio.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/24/meta-lanca-oculos-inteligentes-sem-camera-apos-reclamacoes-por-videos-sem-consentimento-veja-como-eles-funcionam.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem para 'pisar no freio'",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_6b042e4e",
       "views": 0,
       "date": "2026-09-24T17:30:44.114Z",
@@ -13641,7 +13682,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-24T17:30:42.090Z",
+      "lastScraped": "2026-09-24T18:45:49.019Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13649,7 +13690,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-24T17:30:42.710Z",
+      "lastScraped": "2026-09-24T18:45:49.664Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13662,7 +13703,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-24T17:30:44.103Z",
+      "lastScraped": "2026-09-24T18:45:50.626Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13719,6 +13760,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790275603515",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem para 'pisar no freio'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Os 10 dias que abalaram a corrida da IA: por que líderes do setor agora pedem: o que muda para usuários e empresas?",
+      "postId": "rss-hash_3ef68594",
+      "timestamp": "2026-09-24T18:45:50.641Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 32.6h (+8), Sem postagem há 32.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Geopolítica",
+        "Economia",
+        "Direito",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790271074895",
       "feedName": "G1 - Economia",

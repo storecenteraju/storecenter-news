@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_14307edd",
+      "views": 0,
+      "date": "2026-09-24T10:15:43.939Z",
+      "title": "Eleições: como lidar com opiniões políticas diferentes no ambiente de trabalho?: qual pode ser o próximo passo?",
+      "subtitle": "Com a chegada das Eleições 2026 em outubro, o debate político pode chegar à rotina profissional. Embora a liberdade de expressão seja garantida pela Constituição Federal de 1988, é preciso ter cuidado para não ultrapassar alguns limites.",
+      "slug": "eleicoes-como-lidar-com-opinioes-politicas-diferentes-no-ambiente-de-trabalho-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nCom a chegada das Eleições 2026 em outubro, o debate político pode chegar à rotina profissional. Embora a liberdade de expressão seja garantida pela Constituição Federal de 1988, é preciso ter cuidado para não ultrapassar alguns limites.\n\nO que já foi informado\n\nA manifestação de opiniões políticas pode afetar a convivência entre colegas e, em determinadas situações, prejudicar o relacionamento entre equipes. Segundo especialistas ouvidos pelo g1, as eleições podem intensificar conflitos porque as discussões políticas não envolvem apenas candidatos ou partidos. Elas também estão relacionadas a valores, crenças, identidade e visão de mundo. Manifestar apoio a candidatos é permitido, mas a convivência profissional exige respeito e atenção para evitar que divergências se transformem em ofensas, discriminação, assédio ou outros problemas no ambiente de trabalho. Agora no g1 Mas é possível discutir política de forma saudável no trabalho? Para os especialistas, o principal é respeitar os limites do outro e separar a divergência de ideias das relações profissionais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições: como lidar com opiniões políticas diferentes Store Center",
+      "seoDescription": "Com a chegada das Eleições 2026 em outubro, o debate político pode chegar à rotina profissional. Embora a liberdade de expressão seja garantida pela C",
+      "keyword": "Eleições: como lidar com opiniões políticas diferentes no ambiente de trabalho? Entenda Fonte 2 Flávio Bolsonaro espera sair na frente no primeiro turno para atrair apoio do Centrão",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/24/eleicoes-como-lidar-com-opinioes-politicas-diferentes-no-ambiente-de-trabalho-entenda.ghtml",
+      "sourceName": "G1 - Economia + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/24/eleicoes-como-lidar-com-opinioes-politicas-diferentes-no-ambiente-de-trabalho-entenda.ghtml",
+        "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/09/23/flavio-bolsonaro-espera-sair-na-frente-no-primeiro-turno-para-atrair-apoio-do-centrao.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Eleições: como lidar com opiniões políticas diferentes no ambiente de trabalho? Entenda",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7be65276",
       "views": 0,
       "date": "2026-09-24T08:10:09.269Z",
@@ -13476,7 +13518,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-24T08:10:07.929Z",
+      "lastScraped": "2026-09-24T10:15:42.397Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13484,7 +13526,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-24T08:10:08.264Z",
+      "lastScraped": "2026-09-24T10:15:42.945Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13497,7 +13539,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-24T08:10:09.258Z",
+      "lastScraped": "2026-09-24T10:15:43.929Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13554,6 +13596,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790245007498",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Eleições: como lidar com opiniões políticas diferentes no ambiente de trabalho? Entenda",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições: como lidar com opiniões políticas diferentes no ambiente de trabalho?: qual pode ser o próximo passo?",
+      "postId": "rss-hash_14307edd",
+      "timestamp": "2026-09-24T10:15:43.940Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.0h (+8), Sem postagem há 26.0h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1790237460662",
       "feedName": "G1 - Economia",

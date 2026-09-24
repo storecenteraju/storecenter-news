@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3bf41014",
+      "views": 0,
+      "date": "2026-09-24T12:54:40.613Z",
+      "title": "Terras raras, tarifas, agro e IA: por que esse movimento importa?",
+      "subtitle": "Economia Presidente chinês é recebido por Trump nos EUA antes de reunião oficial nesta quinta O presidente dos Estados Unidos, Donald Trump, e o presidente da China, Xi Jinping, se reúnem nesta quinta-feira (24), na Casa Branca, em Washington.",
+      "slug": "terras-raras-tarifas-agro-e-ia-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Presidente chinês é recebido por Trump nos EUA antes de reunião oficial nesta quinta O presidente dos Estados Unidos, Donald Trump, e o presidente da China, Xi Jinping, se reúnem nesta quinta-feira (24), na Casa Branca, em Washington, para discutir os próximos passos da relação entre as duas maiores economias do mundo. A pauta inclui tarifas, terras raras, compras de produtos agrícolas, inteligência artificial, chips, aviação e investimentos, além de questões geopolíticas como Taiwan e Irã.\n\nO que já foi informado\n\nQualquer mudança na relação entre Washington e Pequim pode reverberar no comércio global, afetando preços, cadeias de produção e empresas de diferentes países. Os dois países chegam ao encontro depois de concordarem em estender até 10 de janeiro de 2027 a trégua comercial que venceria em novembro. A pausa dá mais tempo para que Washington e Pequim tentem avançar em acordos sobre pontos que continuam em aberto. Para o Brasil, dois setores concentram parte importante dos possíveis efeitos: o agronegócio, principalmente a soja, e a mineração, diante da busca internacional por fornecedores de terras raras fora da China.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Terras raras, tarifas, agro e IA: por que esse Store Center",
+      "seoDescription": "Economia Presidente chinês é recebido por Trump nos EUA antes de reunião oficial nesta quinta O presidente dos Estados Unidos, Donald",
+      "keyword": "Terras raras, tarifas, agro e IA: entenda o que Trump e Xi negociam e os impactos para o Brasil Fonte 2 Banco Central começa a avaliar ligação do PIX com a Europa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/24/trump-xi-negociacoes-encontro.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/24/trump-xi-negociacoes-encontro.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/24/banco-central-comeca-a-avaliar-ligacao-do-pix-com-a-europa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Terras raras, tarifas, agro e IA: entenda o que Trump e Xi negociam e os impactos para o Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_14307edd",
       "views": 0,
       "date": "2026-09-24T10:15:43.939Z",
@@ -13518,7 +13559,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-24T10:15:42.397Z",
+      "lastScraped": "2026-09-24T12:54:38.894Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13526,7 +13567,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-24T10:15:42.945Z",
+      "lastScraped": "2026-09-24T12:54:39.556Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13539,7 +13580,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-24T10:15:43.929Z",
+      "lastScraped": "2026-09-24T12:54:40.600Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13596,6 +13637,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790254539085",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Terras raras, tarifas, agro e IA: entenda o que Trump e Xi negociam e os impactos para o Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Terras raras, tarifas, agro e IA: por que esse movimento importa?",
+      "postId": "rss-hash_3bf41014",
+      "timestamp": "2026-09-24T12:54:40.614Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.7h (+8), Sem postagem há 7.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1790245007498",
       "feedName": "G1 - Economia",

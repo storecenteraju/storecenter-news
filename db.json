@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6b042e4e",
+      "views": 0,
+      "date": "2026-09-24T17:30:44.114Z",
+      "title": "BC está preocupado com ofertas 'agressivas e predatórias' de crédito, diz Galípolo: o que está em jogo no mercado?",
+      "subtitle": "Segundo ele, o consumidor muitas vezes olha principalmente se a parcela cabe no orçamento, sem avaliar o custo total da dívida e os juros cobrados.",
+      "slug": "bc-esta-preocupado-com-ofertas-agressivas-e-predatorias-de-credito-diz-galipolo-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nSegundo ele, o consumidor muitas vezes olha principalmente se a parcela cabe no orçamento, sem avaliar o custo total da dívida e os juros cobrados. Galípolo defendeu medidas para aumentar a transparência e a conscientização na contratação de empréstimos e financiamentos, além de mudanças na experiência de contratação que deem ao consumidor mais tempo e informações para avaliar o compromisso financeiro.\n\nO que já foi informado\n\n\"Você tem um problema de design. A gente vê que parte da população está olhando para aquilo ali com um processo de 'qual é o valor da prestação que eu consigo pagar? ', muito mais do que qual é a taxa de juros\", afirmou durante coletiva sobre o Relatório de Política Monetária.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "BC está preocupado com ofertas 'agressivas e Store Center",
+      "seoDescription": "Segundo ele, o consumidor muitas vezes olha principalmente se a parcela cabe no orçamento, sem avaliar o custo total da dívida e os juros cobrados.",
+      "keyword": "BC está preocupado com ofertas 'agressivas e predatórias' de crédito, diz Galípolo Fonte 2 Subvenções aos combustíveis já custaram R$ 40 bilhões, diz ministro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/09/24/bc-esta-preocupado-com-ofertas-agressivas-e-predatorias-de-credito-diz-galipolo.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/09/24/bc-esta-preocupado-com-ofertas-agressivas-e-predatorias-de-credito-diz-galipolo.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/09/24/subvencoes-aos-combustiveis-ja-custaram-r40-bi-diz-ministro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "BC está preocupado com ofertas 'agressivas e predatórias' de crédito, diz Galípolo",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1cfa1038",
       "views": 0,
       "date": "2026-09-24T15:00:21.639Z",
@@ -13600,7 +13641,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-24T15:00:10.469Z",
+      "lastScraped": "2026-09-24T17:30:42.090Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -13608,7 +13649,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-24T15:00:11.117Z",
+      "lastScraped": "2026-09-24T17:30:42.710Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -13621,7 +13662,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-24T12:54:40.600Z",
+      "lastScraped": "2026-09-24T17:30:44.103Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -13678,6 +13719,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790271074895",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "BC está preocupado com ofertas 'agressivas e predatórias' de crédito, diz Galípolo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "BC está preocupado com ofertas 'agressivas e predatórias' de crédito, diz Galípolo: o que está em jogo no mercado?",
+      "postId": "rss-hash_6b042e4e",
+      "timestamp": "2026-09-24T17:30:44.115Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.3h (+8), Sem postagem há 12.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito",
+        "Tecnologia",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790262070446",
       "feedName": "G1 - Economia",

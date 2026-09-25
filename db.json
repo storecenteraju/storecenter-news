@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1f556601",
+      "views": 0,
+      "date": "2026-09-25T20:35:24.466Z",
+      "title": "STF mantém suspensão de multas da NR-1 sobre saúde mental no trabalho por mais 90 dias: qual pode ser o próximo passo?",
+      "subtitle": "NR-1: Como saber se você está em um ambiente de trabalho tóxico?",
+      "slug": "stf-mantem-suspensao-de-multas-da-nr-1-sobre-saude-mental-no-trabalho-por-mais-90-dias-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nNR-1: Como saber se você está em um ambiente de trabalho tóxico? Faça o QUIZ O ministro André Mendonça, do Supremo Tribunal Federal (STF), prorrogou por mais 90 dias a suspensão da aplicação de multas e outras punições previstas na Norma Regulamentadora nº 1 (NR-1) relacionadas aos riscos psicossociais no ambiente de trabalho.\n\nO que já foi informado\n\nA atualização da regra passou a exigir que as empresas identifiquem, avaliem e gerenciem fatores que podem afetar a saúde mental dos trabalhadores, como assédio, pressão excessiva, sobrecarga de trabalho, jornadas extensas e falhas na organização do trabalho. A decisão, tomada nesta quinta-feira (24), mantém as penalidades suspensas. O objetivo é permitir que governo, empregadores e trabalhadores discutam como as regras devem ser aplicadas. Em junho, Mendonça já havia suspendido por 90 dias a aplicação das penalidades previstas nas regras questionadas da norma. Na ocasião, o ministro também encaminhou o caso para uma tentativa de acordo no Núcleo de Solução Consensual de Conflitos (Nusol) do STF. A decisão foi depois confirmada pelo plenário da Corte.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "STF mantém suspensão de multas da NR-1 sobre saúde Store Center",
+      "seoDescription": "NR-1: Como saber se você está em um ambiente de trabalho tóxico?",
+      "keyword": "STF mantém suspensão de multas da NR-1 sobre saúde mental no trabalho por mais 90 dias",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/25/stf-mantem-suspensao-de-multas-da-nr-1-sobre-saude-mental-no-trabalho-por-mais-90-dias.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/25/stf-mantem-suspensao-de-multas-da-nr-1-sobre-saude-mental-no-trabalho-por-mais-90-dias.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "STF mantém suspensão de multas da NR-1 sobre saúde mental no trabalho por mais 90 dias",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_6a4553ee",
       "views": 0,
       "date": "2026-09-25T19:03:22.523Z",
@@ -14093,7 +14133,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-25T19:03:20.442Z",
+      "lastScraped": "2026-09-25T20:35:13.973Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14101,7 +14141,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-25T19:03:21.282Z",
+      "lastScraped": "2026-09-25T20:35:14.308Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14171,6 +14211,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790368594268",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "STF mantém suspensão de multas da NR-1 sobre saúde mental no trabalho por mais 90 dias",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "STF mantém suspensão de multas da NR-1 sobre saúde mental no trabalho por mais 90 dias: qual pode ser o próximo passo?",
+      "postId": "rss-hash_1f556601",
+      "timestamp": "2026-09-25T20:35:24.468Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 55.6h (+8), Sem postagem há 55.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790363030740",
       "feedName": "G1 - Economia",

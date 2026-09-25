@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_133d3f99",
+      "views": 0,
+      "date": "2026-09-25T17:30:12.607Z",
+      "title": "Embraer entrega o primeiro avião C-390 Millennium à Força Aérea do Uzbequistão Fonte 2: o que está em jogo no mercado?",
+      "subtitle": "A Embraer entregou nesta sexta-feira (25) a primeira aeronave de transporte multimissão C-390 Millennium à Força Aérea do Uzbequistão durante uma cerimônia realizada nas instalações da Embraer em Gavião Peixoto (SP).",
+      "slug": "embraer-entrega-o-primeiro-aviao-c-390-millennium-a-forca-aerea-do-uzbequistao-fonte-2-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA Embraer entregou nesta sexta-feira (25) a primeira aeronave de transporte multimissão C-390 Millennium à Força Aérea do Uzbequistão durante uma cerimônia realizada nas instalações da Embraer em Gavião Peixoto (SP). A entrega contou com a presença do Major-General Akhmad Jamolovich Burkhonov, Comandante da Força Aérea, e Olimkhon Bakiyevich Rustamov, diretor da empresa estatal \"O‘ztextreyd\", representando a República do Uzbequistão.\n\nO que já foi informado\n\nSiga o g1 São Carlos e Araraquara no Instagram O contrato, assinado no final de 2024, também inclui um pacote de treinamento e suporte, além do fornecimento de peças de reposição. O Uzbequistão se torna o primeiro operador do C-390 Millennium na Ásia Central, assinalando um marco importante nos esforços do país para modernizar e fortalecer capacidades de mobilidade aérea. VÍDEO: Cargueiro militar da Embraer vendido à República Tcheca faz voo inaugural em Gavião Peixoto Cargueiro militar da Embraer faz voo inaugural em Gavião Peixoto \"A entrega do primeiro C-390 Millennium representa um passo significativo para a modernização da Força Aérea do Uzbequistão.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Embraer entrega o primeiro avião C-390 Millennium à Store Center",
+      "seoDescription": "A Embraer entregou nesta sexta-feira (25) a primeira aeronave de transporte multimissão C-390 Millennium à Força Aérea do Uzbequistão durante uma ceri",
+      "keyword": "Embraer entrega o primeiro avião C-390 Millennium à Força Aérea do Uzbequistão Fonte 2 Volkswagen e Audi anunciam recall de quase 3 milhões de carros em todo o mundo; veja modelos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/09/25/embraer-entrega-o-primeiro-c-390-millennium-a-forca-aerea-do-uzbequistao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/09/25/embraer-entrega-o-primeiro-c-390-millennium-a-forca-aerea-do-uzbequistao.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/09/25/volkswagen-e-audi-anunciam-recall-de-quase-3-milhoes-de-carros-veja-modelos-afetados.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Embraer entrega o primeiro avião C-390 Millennium à Força Aérea do Uzbequistão",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_154e95b9",
       "views": 0,
       "date": "2026-09-25T15:12:35.634Z",
@@ -14011,7 +14052,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-25T15:12:24.407Z",
+      "lastScraped": "2026-09-25T17:30:00.369Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14019,7 +14060,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-25T15:12:25.110Z",
+      "lastScraped": "2026-09-25T17:30:02.082Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14089,6 +14130,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790357498618",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Embraer entrega o primeiro avião C-390 Millennium à Força Aérea do Uzbequistão",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Embraer entrega o primeiro avião C-390 Millennium à Força Aérea do Uzbequistão Fonte 2: o que está em jogo no mercado?",
+      "postId": "rss-hash_133d3f99",
+      "timestamp": "2026-09-25T17:30:12.608Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.2h (+8), Sem postagem há 7.2h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Saúde",
+        "Direito",
+        "Geopolítica",
+        "Política",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790349250744",
       "feedName": "G1 - Economia",

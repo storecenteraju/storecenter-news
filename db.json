@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_54e6cd17",
+      "views": 0,
+      "date": "2026-09-25T22:50:12.044Z",
+      "title": "A 9 dias das eleições, governo Lula anuncia proibição de bets no Brasil Fonte 2: o que muda para os próximos jogos?",
+      "subtitle": "Economia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-feira (25), em São Paulo, a proibição total de apostas de quota fixa no país, as chamadas bets.",
+      "slug": "a-9-dias-das-eleicoes-governo-lula-anuncia-proibicao-de-bets-no-brasil-fonte-2-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-feira (25), em São Paulo, a proibição total de apostas de quota fixa no país, as chamadas bets. A vedação inclui também jogos online e cassinos virtuais no país, como por exemplo, o \"Jogo do Tigrinho\".\n\nO que já foi informado\n\nA proibição, feita a nove dias das eleições, foi formalizada em uma Medida Provisória (MP) assinada pelo presidente Lula. As medidas provisórias são editadas pelo governo federal e enviadas ao Congresso Nacional. Para se tornarem leis definitivamente precisam ser votadas em até 120 dias na Câmara dos Deputados e no Senado Federal. Lula também enviou ao Congresso um projeto de lei que estabelece penas para quem explorar, operar ou divulgar as chamadas bets . \"Eu tomei a decisão de tomar medida dura e drástica necessária. É como câncer, ou tira tumor, ou tumor vai matar a gente.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "A 9 dias das eleições, governo Lula anuncia proibição Store Center",
+      "seoDescription": "Economia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-fei",
+      "keyword": "A 9 dias das eleições, governo Lula anuncia proibição de bets no Brasil Fonte 2 'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/proibicao-de-bets-no-brasil.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/proibicao-de-bets-no-brasil.ghtml",
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/posicionamento-anjl-e-ibjr.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "A 9 dias das eleições, governo Lula anuncia proibição de bets no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1f556601",
       "views": 0,
       "date": "2026-09-25T20:35:24.466Z",
@@ -14133,7 +14174,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-25T20:35:13.973Z",
+      "lastScraped": "2026-09-25T22:50:10.229Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14141,7 +14182,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-25T20:35:14.308Z",
+      "lastScraped": "2026-09-25T22:50:10.993Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14154,7 +14195,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-25T19:03:22.510Z",
+      "lastScraped": "2026-09-25T22:50:12.029Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14211,6 +14252,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790376682323",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "A 9 dias das eleições, governo Lula anuncia proibição de bets no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "A 9 dias das eleições, governo Lula anuncia proibição de bets no Brasil Fonte 2: o que muda para os próximos jogos?",
+      "postId": "rss-hash_54e6cd17",
+      "timestamp": "2026-09-25T22:50:12.044Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 36.6h (+8), Sem postagem há 36.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790368594268",
       "feedName": "G1 - Economia",

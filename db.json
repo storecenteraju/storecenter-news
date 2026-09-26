@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_38a571b1",
+      "views": 0,
+      "date": "2026-09-26T14:25:46.048Z",
+      "title": "OpenAI admite publicação indevida de imagens de usuários do ChatGPT Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Dado Ruvic A OpenAI reconheceu nesta sexta-feira (25) que agentes de inteligência artificial (IA) usados pela empresa publicaram na internet 53 imagens enviadas por usuários ao ChatGPT.",
+      "slug": "openai-admite-publicacao-indevida-de-imagens-de-usuarios-do-chatgpt-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nDado Ruvic A OpenAI reconheceu nesta sexta-feira (25) que agentes de inteligência artificial (IA) usados pela empresa publicaram na internet 53 imagens enviadas por usuários ao ChatGPT. O episódio é mais um incidente envolvendo o uso indevido de dados pela companhia.\n\nO que já foi informado\n\nSegundo a OpenAI, as imagens foram publicadas em sites de hospedagem por meio de links que não estavam listados publicamente. A maioria das imagens já foi retirada com a ajuda dos serviços de hospedagem envolvidos, e a empresa afirma que trabalha para remover o restante. Agentes de IA são sistemas baseados em modelos de inteligência artificial capazes de executar uma sequência de tarefas com maior autonomia. Agora no g1 As imagens haviam sido enviadas por usuários que permitiam que suas interações com o ChatGPT fossem usadas para treinar os modelos da OpenAI. Antes de usar os dados para esse fim, a empresa afirma que retira informações que poderiam identificar a conta e aplica um filtro para ocultar dados pessoais. Por isso, diz não conseguir mais identificar quem enviou o conteúdo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "OpenAI admite publicação indevida de imagens de Store Center",
+      "seoDescription": "Dado Ruvic A OpenAI reconheceu nesta sexta-feira (25) que agentes de inteligência artificial (IA) usados pela empresa publicaram na internet 53 imagen",
+      "keyword": "OpenAI admite publicação indevida de imagens de usuários do ChatGPT Fonte 2 Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram e usam PIX para receber",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/26/openai-publicacao-imagens.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/26/openai-publicacao-imagens.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/26/criminosos-vendem-pacotes-de-videos-de-abuso-sexual-infantil-por-r-10-no-telegram-e-usam-pix-para-receber.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "OpenAI admite publicação indevida de imagens de usuários do ChatGPT",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_3db4ed14",
       "views": 0,
       "date": "2026-09-26T12:28:31.747Z",
@@ -14380,7 +14421,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T12:28:30.102Z",
+      "lastScraped": "2026-09-26T14:25:44.422Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14388,7 +14429,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T12:28:30.756Z",
+      "lastScraped": "2026-09-26T14:25:45.013Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14401,7 +14442,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-26T12:28:31.739Z",
+      "lastScraped": "2026-09-26T14:25:46.028Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14458,6 +14499,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790432752391",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "OpenAI admite publicação indevida de imagens de usuários do ChatGPT",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "OpenAI admite publicação indevida de imagens de usuários do ChatGPT Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_38a571b1",
+      "timestamp": "2026-09-26T14:25:46.048Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.4h (+8), Sem postagem há 25.4h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Saúde",
+        "Política",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790425760241",
       "feedName": "G1 - Economia",

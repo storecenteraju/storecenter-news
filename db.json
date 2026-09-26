@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_32d8f39b",
+      "views": 0,
+      "date": "2026-09-26T18:11:03.697Z",
+      "title": "Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram: o que muda para os próximos jogos?",
+      "subtitle": "Economia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil.",
+      "slug": "criminosos-vendem-pacotes-de-videos-de-abuso-sexual-infantil-por-r-10-no-telegram-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil. Ao final dela, veja como denunciar casos desse tipo.\n\nO que já foi informado\n\nCriminosos usam TikTok para promover de conteúdo de abuso sexual infantil no Telegram Uma reportagem do g1 mostrou que criminosos usam o TikTok como vitrine para promover a venda de conteúdo de abuso sexual infantil, negociado dentro do Telegram. O g1 localizou ao menos 35 links publicados no TikTok que dão acesso à venda desse tipo de material. Alguns levam a sites externos, mas a maioria direciona os interessados para grupos, chats privados e robôs de venda no Telegram. Os pacotes anunciados pelos criminosos custam a partir de R$ 10 e chegam a R$ 150. Alguns vendedores aceitam pagamentos em criptomoedas, como bitcoin e ether. Mas o g1 também encontrou canais em que os criminosos aceitam PIX como forma de pagamento.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Criminosos vendem pacotes de vídeos de abuso sexual Store Center",
+      "seoDescription": "Economia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil.",
+      "keyword": "Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram e usam PIX para receber Fonte 2 Por que é tão difícil ganhar dinheiro com bets? A matemática explica",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/26/criminosos-vendem-pacotes-de-videos-de-abuso-sexual-infantil-por-r-10-no-telegram-e-usam-pix-para-receber.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/26/criminosos-vendem-pacotes-de-videos-de-abuso-sexual-infantil-por-r-10-no-telegram-e-usam-pix-para-receber.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/25/por-que-e-tao-dificil-ganhar-dinheiro-com-bets-a-matematica-explica.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram e usam PIX para receber",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_d4f3eab",
       "views": 0,
       "date": "2026-09-26T16:43:02.913Z",
@@ -14463,7 +14504,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T16:43:00.819Z",
+      "lastScraped": "2026-09-26T18:11:01.914Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14471,7 +14512,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T16:43:01.914Z",
+      "lastScraped": "2026-09-26T18:11:02.536Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14484,7 +14525,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-26T16:43:02.899Z",
+      "lastScraped": "2026-09-26T18:11:03.683Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14541,6 +14582,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790446319038",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram e usam PIX para receber",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Criminosos vendem pacotes de vídeos de abuso sexual infantil por R$ 10 no Telegram: o que muda para os próximos jogos?",
+      "postId": "rss-hash_32d8f39b",
+      "timestamp": "2026-09-26T18:11:03.697Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.2h (+8), Sem postagem há 29.2h (+5). Recência: Posição 3 (+5). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Saúde",
+        "Política",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790441010780",
       "feedName": "G1 - Economia",

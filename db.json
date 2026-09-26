@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_323c335f",
+      "views": 0,
+      "date": "2026-09-26T05:19:15.825Z",
+      "title": "Proibição das bets: governo prevê advertência, multa e suspensão das atividades: o que muda para os próximos jogos?",
+      "subtitle": "Economia O governo federal proíbe todas as bets no país O governo publicou nesta sexta-feira (25) uma medida provisória que proíbe apostas de quota fixa no país, as chamadas bets.",
+      "slug": "proibicao-das-bets-governo-preve-advertencia-multa-e-suspensao-das-atividades-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia O governo federal proíbe todas as bets no país O governo publicou nesta sexta-feira (25) uma medida provisória que proíbe apostas de quota fixa no país, as chamadas bets. A vedação inclui também jogos online e cassinos virtuais no país, como por exemplo, o \"Jogo do Tigrinho\" O texto estabelece punições para provedores de internet, plataformas digitais e lojas de aplicativos que não adotarem medidas para retirar conteúdos, anúncios ou serviços de apostas proibidos pelo governo.\n\nO que já foi informado\n\nEntre as punições estão multas, suspensão temporária das atividades e até proibição do exercício das atividades . As medidas provisórias são editadas pelo governo federal e enviadas ao Congresso Nacional. Para se tornarem leis definitivamente precisam ser votadas em até 120 dias na Câmara dos Deputados e no Senado Federal. A medida provisória estabelece um chamado \"dever de cuidado\" para os provedores de aplicações de internet. Na prática, empresas responsáveis por redes sociais, plataformas digitais, mecanismos de distribuição de conteúdo e outros serviços online deverão agir para impedir a circulação de conteúdos relacionados a serviços proibidos pela nova legislação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Proibição das bets: governo prevê advertência, multa e Store Center",
+      "seoDescription": "Economia O governo federal proíbe todas as bets no país O governo publicou nesta sexta-feira (25) uma medida provisória que proíbe ap",
+      "keyword": "Proibição das bets: governo prevê advertência, multa e suspensão das atividades para empresas que descumprirem regras Fonte 2 'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/26/proibicao-das-bets-governo-preve-advertencia-multa-e-suspensao-das-atividades-para-empresas-que-descumprirem-regras.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/26/proibicao-das-bets-governo-preve-advertencia-multa-e-suspensao-das-atividades-para-empresas-que-descumprirem-regras.ghtml",
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/posicionamento-anjl-e-ibjr.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Proibição das bets: governo prevê advertência, multa e suspensão das atividades para empresas que descumprirem regras",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_60845a63",
       "views": 0,
       "date": "2026-09-26T00:37:50.575Z",
@@ -14216,7 +14257,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T00:37:39.548Z",
+      "lastScraped": "2026-09-26T05:19:14.156Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14224,7 +14265,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T00:37:40.053Z",
+      "lastScraped": "2026-09-26T05:19:14.787Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14237,7 +14278,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-25T22:50:12.029Z",
+      "lastScraped": "2026-09-26T05:19:15.811Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14294,6 +14335,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790400007276",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Proibição das bets: governo prevê advertência, multa e suspensão das atividades para empresas que descumprirem regras",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Proibição das bets: governo prevê advertência, multa e suspensão das atividades: o que muda para os próximos jogos?",
+      "postId": "rss-hash_323c335f",
+      "timestamp": "2026-09-26T05:19:15.826Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.5h (+8), Sem postagem há 6.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Saúde",
+        "Tecnologia",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790383146426",
       "feedName": "G1 - Economia",

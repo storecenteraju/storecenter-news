@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3db4ed14",
+      "views": 0,
+      "date": "2026-09-26T12:28:31.747Z",
+      "title": "Antes da proibição das bets, o que os candidatos à Presidência defendiam para as: o que muda para os próximos jogos?",
+      "subtitle": "Economia O governo federal proíbe todas as bets no país O governo federal proíbe todas as bets no país Antes de editar a medida provisória que proíbe as bets no Brasil, o presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, não.",
+      "slug": "antes-da-proibicao-das-bets-o-que-os-candidatos-a-presidencia-defendiam-para-as-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia O governo federal proíbe todas as bets no país O governo federal proíbe todas as bets no país Antes de editar a medida provisória que proíbe as bets no Brasil, o presidente Luiz Inácio Lula da Silva (PT), candidato à reeleição, não previa encerrar a atividade em seu plano de governo apresentado ao Tribunal Superior Eleitoral (TSE). O documento propunha manter mecanismos de controle de gastos excessivos com apostas on-line e ampliar o atendimento a pessoas com problemas relacionados aos jogos.\n\nO que já foi informado\n\nUm levantamento do g1 nos planos de governo apresentados ao Tribunal Superior Eleitoral (TSE) pelos 13 candidatos à Presidência mostra que sete mencionavam os jogos de apostas. A análise se restringe aos planos de governo e não inclui declarações em entrevistas, debates ou atos de campanha. Nos programas que abordavam o tema, havia propostas para restringir o uso de dinheiro de programas sociais, proibir , endurecer a fiscalização e tratar o jogo compulsivo. Também havia críticas aos efeitos das apostas e menções ao setor no contexto do combate ao crime organizado e do financiamento do esporte.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Antes da proibição das bets, o que os candidatos à Store Center",
+      "seoDescription": "Economia O governo federal proíbe todas as bets no país O governo federal proíbe todas as bets no país Antes de editar a medida provi",
+      "keyword": "Antes da proibição das bets, o que os candidatos à Presidência defendiam para as apostas on-line Fonte 2 'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/26/propostas-candidatos-presidencia-bets-apostas.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/26/propostas-candidatos-presidencia-bets-apostas.ghtml",
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/posicionamento-anjl-e-ibjr.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Antes da proibição das bets, o que os candidatos à Presidência defendiam para as apostas on-line",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_3ca0037d",
       "views": 0,
       "date": "2026-09-26T09:59:04.918Z",
@@ -14339,7 +14380,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T09:58:53.417Z",
+      "lastScraped": "2026-09-26T12:28:30.102Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14347,7 +14388,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T09:58:54.391Z",
+      "lastScraped": "2026-09-26T12:28:30.756Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14360,7 +14401,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-26T08:20:30.027Z",
+      "lastScraped": "2026-09-26T12:28:31.739Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14417,6 +14458,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790425760241",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Antes da proibição das bets, o que os candidatos à Presidência defendiam para as apostas on-line",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Antes da proibição das bets, o que os candidatos à Presidência defendiam para as: o que muda para os próximos jogos?",
+      "postId": "rss-hash_3db4ed14",
+      "timestamp": "2026-09-26T12:28:31.748Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.6h (+8), Sem postagem há 13.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Saúde",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790416821396",
       "feedName": "G1 - Economia",

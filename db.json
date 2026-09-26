@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_72d4b539",
+      "views": 0,
+      "date": "2026-09-26T08:20:30.044Z",
+      "title": "Saiba quais são as 100 melhores empresas para trabalhar no Brasil, segundo a revista: o que está em jogo no mercado?",
+      "subtitle": "A Microsoft foi eleita, pelo segundo ano consecutivo, a melhor empresa para se trabalhar no país, segundo o ranking Melhores Empregadores do Brasil 2026, elaborado pela Revista Time em parceria com a empresa de pesquisa Statista.",
+      "slug": "saiba-quais-sao-as-100-melhores-empresas-para-trabalhar-no-brasil-segundo-a-revista-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nA Microsoft foi eleita, pelo segundo ano consecutivo, a melhor empresa para se trabalhar no país, segundo o ranking Melhores Empregadores do Brasil 2026, elaborado pela Revista Time em parceria com a empresa de pesquisa Statista. O levantamento considera avaliações de profissionais de diferentes setores, além de indicadores financeiros e da reputação das empresas no mercado de trabalho.\n\nO que já foi informado\n\nAo todo, mais de 4 mil empresas foram avaliadas, e 500 foram selecionadas para a lista brasileira. As quatro primeiras posições são ocupadas por empresas estrangeiras de tecnologia: Microsoft, SAP, Alphabet (dona do Google) e IBM. Segundo a Time, o resultado ocorre em um momento de expansão dos investimentos do setor de tecnologia no Brasil, impulsionados, entre outros fatores, pelo crescimento do mercado de data centers e pela oferta de energia renovável. Agora no g1 A publicação também destaca programas de treinamento e certificação profissional oferecidos por empresas como Microsoft e IBM. As iniciativas buscam ampliar a qualificação dos trabalhadores e reduzir a falta de mão de obra especializada no setor.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Saiba quais são as 100 melhores empresas para trabalhar Store Center",
+      "seoDescription": "A Microsoft foi eleita, pelo segundo ano consecutivo, a melhor empresa para se trabalhar no país, segundo o ranking Melhores Empregadores do Brasil 20",
+      "keyword": "Saiba quais são as 100 melhores empresas para trabalhar no Brasil, segundo a revista Time Fonte 2 Por que os candidatos a presidente querem construir mais data centers no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/26/melhores-empresas-para-trabalhar-no-brasil.ghtml",
+      "sourceName": "G1 - Economia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/26/melhores-empresas-para-trabalhar-no-brasil.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/por-que-os-candidatos-a-presidente-querem-construir-mais-data-centers-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Saiba quais são as 100 melhores empresas para trabalhar no Brasil, segundo a revista Time",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_323c335f",
       "views": 0,
       "date": "2026-09-26T05:19:15.825Z",
@@ -14257,7 +14298,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T05:19:14.156Z",
+      "lastScraped": "2026-09-26T08:20:27.907Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14265,7 +14306,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T05:19:14.787Z",
+      "lastScraped": "2026-09-26T08:20:28.953Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14278,7 +14319,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-26T05:19:15.811Z",
+      "lastScraped": "2026-09-26T08:20:30.027Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14335,6 +14376,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790410833787",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Saiba quais são as 100 melhores empresas para trabalhar no Brasil, segundo a revista Time",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Saiba quais são as 100 melhores empresas para trabalhar no Brasil, segundo a revista: o que está em jogo no mercado?",
+      "postId": "rss-hash_72d4b539",
+      "timestamp": "2026-09-26T08:20:30.044Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 65.4h (+8), Sem postagem há 65.4h (+5). Recência: Posição 3 (+5). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Saúde",
+        "Política",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1790400007276",
       "feedName": "G1 - Economia",

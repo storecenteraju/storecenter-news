@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3ca0037d",
+      "views": 0,
+      "date": "2026-09-26T09:59:04.918Z",
+      "title": "Mais espaço, cama e cardápio gourmet: como é viajar no avião que só tem classe: por que esse movimento importa?",
+      "subtitle": "Economia Como é viajar no avião que só tem classe executiva Poltronas espaçosas em vez de assentos apertados e atendimento prioritário no lugar de longas filas: assim é viajar em um avião que dispensa a classe econômica e têm somente classe.",
+      "slug": "mais-espaco-cama-e-cardapio-gourmet-como-e-viajar-no-aviao-que-so-tem-classe-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Como é viajar no avião que só tem classe executiva Poltronas espaçosas em vez de assentos apertados e atendimento prioritário no lugar de longas filas: assim é viajar em um avião que dispensa a classe econômica e têm somente classe executiva. Os voos são realizados pela companhia aérea francesa La Compagnie, que faz rotas em aeroportos da França, dos Estados Unidos, do Canadá e da Itália somente com assentos mais confortáveis.\n\nO que já foi informado\n\nA empresa opera dois aviões do modelo A321neo, fabricados pela Airbus e com cerca de 200 lugares na configuração padrão. Para garantir mais conforto, a companhia reduz o limite para apenas 76 passageiros, distribuídos em fileiras com quatro poltronas cada uma. A diferença também está nos preços: enquanto aéreas convencionais cobram cerca de R$ 1.800 por um voo de Nova York a Paris, a La Compagnie tem passagens por mais de R$ 10 mil, considerando a cotação para uma viagem em dezembro de 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mais espaço, cama e cardápio gourmet: como é viajar no Store Center",
+      "seoDescription": "Economia Como é viajar no avião que só tem classe executiva Poltronas espaçosas em vez de assentos apertados e atendimento prioritári",
+      "keyword": "Mais espaço, cama e cardápio gourmet: como é viajar no avião que só tem classe executiva Fonte 2 Morango cravejado: trend aumenta procura, mas chuvas prejudicam produção; preço sobe até 177%",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/inovacao/noticia/2026/09/26/mais-espaco-cama-e-cardapio-gourmet-como-e-viajar-no-aviao-que-so-tem-classe-executiva.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/inovacao/noticia/2026/09/26/mais-espaco-cama-e-cardapio-gourmet-como-e-viajar-no-aviao-que-so-tem-classe-executiva.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/09/26/morango-cravejado-trend-aumenta-procura-mas-chuvas-prejudicam-producao-preco-sobe-ate-177percent.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mais espaço, cama e cardápio gourmet: como é viajar no avião que só tem classe executiva",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_72d4b539",
       "views": 0,
       "date": "2026-09-26T08:20:30.044Z",
@@ -14298,7 +14339,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T08:20:27.907Z",
+      "lastScraped": "2026-09-26T09:58:53.417Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14306,7 +14347,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T08:20:28.953Z",
+      "lastScraped": "2026-09-26T09:58:54.391Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14376,6 +14417,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790416821396",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mais espaço, cama e cardápio gourmet: como é viajar no avião que só tem classe executiva",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mais espaço, cama e cardápio gourmet: como é viajar no avião que só tem classe: por que esse movimento importa?",
+      "postId": "rss-hash_3ca0037d",
+      "timestamp": "2026-09-26T09:59:04.920Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.3h (+8), Sem postagem há 9.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Saúde",
+        "Política",
+        "Direito",
+        "Geopolítica",
+        "Nacional"
+      ]
+    },
     {
       "id": "1790410833787",
       "feedName": "G1 - Economia",

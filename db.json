@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7bacc958",
+      "views": 0,
+      "date": "2026-09-27T20:15:29.667Z",
+      "title": "'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe: o que muda para os próximos jogos?",
+      "subtitle": "Economia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-feira (25), em São Paulo, novas medidas para endurecer as regras sobre as bets no Brasil.",
+      "slug": "proibir-nao-e-proteger-associacoes-se-posicionam-contra-a-mp-de-lula-que-proibe-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-feira (25), em São Paulo, novas medidas para endurecer as regras sobre as bets no Brasil. Associações de jogos se manifestaram contra a Medida Provisória (MP) e disseram que \"proibir não é proteger\".\n\nO que já foi informado\n\nO manifesto, assinado pelo Instituto Brasileiro de Jogo Responsável (IBJR), pela Associação Nacional de Jogos e Loterias (ANJL) e por operadoras licenciadas, defende que proibir as apostas legais não eliminaria a prática, mas poderia levar apostadores para sites clandestinos, onde não há mecanismos de fiscalização e proteção. \"A proibição total das apostas de quota fixa representaria uma ruptura do marco regulatório construído pelo próprio Estado brasileiro e colocaria em risco uma atividade econômica que, desde janeiro de 2025, opera sob autorização, fiscalização e regras definidas pelo Governo Federal\", escreveram.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Proibir não é proteger': associações se posicionam Store Center",
+      "seoDescription": "Economia Governo anuncia proibição das bets no Brasil O governo do presidente Luiz Inácio Lula da Silva (PT) anunciou nesta sexta-fei",
+      "keyword": "'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil Fonte 2 Flávio Bolsonaro espera sair na frente no primeiro turno para atrair apoio do Centrão",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/posicionamento-anjl-e-ibjr.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/09/25/posicionamento-anjl-e-ibjr.ghtml",
+        "https://g1.globo.com/politica/blog/valdo-cruz/post/2026/09/23/flavio-bolsonaro-espera-sair-na-frente-no-primeiro-turno-para-atrair-apoio-do-centrao.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_34d6c281",
       "views": 0,
       "date": "2026-09-27T18:47:37.261Z",
@@ -14909,7 +14950,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T18:47:35.900Z",
+      "lastScraped": "2026-09-27T20:15:17.723Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14917,7 +14958,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T18:47:36.427Z",
+      "lastScraped": "2026-09-27T20:15:19.140Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14987,6 +15028,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790540152684",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe bets no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Proibir não é proteger': associações se posicionam contra a MP de Lula que proíbe: o que muda para os próximos jogos?",
+      "postId": "rss-hash_7bacc958",
+      "timestamp": "2026-09-27T20:15:29.668Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 31.8h (+8), Sem postagem há 31.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790534860392",
       "feedName": "G1 - Economia",

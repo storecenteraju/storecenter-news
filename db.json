@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3b33a1d4",
+      "views": 0,
+      "date": "2026-09-27T10:38:02.713Z",
+      "title": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo?",
+      "subtitle": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo Adobe Stock Fernanda tinha acabado de completar 18 anos quando recebeu o primeiro salário.",
+      "slug": "por-que-ostentamos-o-que-a-psicologia-e-a-economia-explicam-sobre-o-consumo-de-luxo",
+      "content": "O que aconteceu\n\nPor que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo Adobe Stock Fernanda tinha acabado de completar 18 anos quando recebeu o primeiro salário.\n\nO que já foi informado\n\nCom o dinheiro na conta, decidiu comprar uma bolsa que, diz ela, talvez custasse, na época, mais do que ela havia recebido naquele mês já que, por isso, a compra foi parcelada diversas vezes. Aquela foi, segundo ela, a primeira de muitas compras feitas acima do que precisava ou podia pagar, buscando \"o melhor”. O padrão se repetiu com outros itens e, mais tarde, com um carro que ela própria considera maior e mais sofisticado do que sua rotina exigia. \"Eu sempre fui sozinha com meu filho. Então, eu não precisava comprar um carro grande, cheio de coisas. E eu queria sempre o melhor, o mais caro, com mais sofisticação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Saúde. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que ostentamos? O que a psicologia e a economia Store Center",
+      "seoDescription": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo Adobe Stock Fernanda tinha acabado de completar 18 anos quando r",
+      "keyword": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/saude/saude-mental/noticia/2026/09/26/por-que-ostentamos-o-que-a-psicologia-e-a-economia-explicam-sobre-o-consumo-de-luxo.ghtml",
+      "sourceName": "G1 - Saúde",
+      "sourceUrls": [
+        "https://g1.globo.com/saude/saude-mental/noticia/2026/09/26/por-que-ostentamos-o-que-a-psicologia-e-a-economia-explicam-sobre-o-consumo-de-luxo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Saúde"
+      ],
+      "rssOriginalTitle": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_66fdfd65",
       "views": 0,
       "date": "2026-09-27T08:58:16.390Z",
@@ -14706,7 +14745,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T08:58:14.667Z",
+      "lastScraped": "2026-09-27T10:38:01.297Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14714,7 +14753,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T08:58:15.539Z",
+      "lastScraped": "2026-09-27T10:38:02.000Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14727,7 +14766,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-27T08:58:16.376Z",
+      "lastScraped": "2026-09-27T10:38:02.696Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14784,6 +14823,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790505535631",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que ostentamos? O que a psicologia e a economia explicam sobre o consumo de luxo?",
+      "postId": "rss-hash_3b33a1d4",
+      "timestamp": "2026-09-27T10:38:02.713Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.3h (+8), Sem postagem há 29.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1790499510004",
       "feedName": "G1 - Economia",

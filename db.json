@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3c359130",
+      "views": 0,
+      "date": "2026-09-27T05:36:39.073Z",
+      "title": "Por que uma dívida sai do controle?",
+      "subtitle": "Economia Dívida e inadimplência: O problema começa quando elas deixam de ser pagas e viram inadimplência — sinal de que a dívida cresceu além da capacidade de pagamento, seja por juros altos, prazos curtos, imprevistos ou queda de renda.",
+      "slug": "por-que-uma-divida-sai-do-controle",
+      "content": "O que aconteceu\n\nEconomia Dívida e inadimplência: O problema começa quando elas deixam de ser pagas e viram inadimplência — sinal de que a dívida cresceu além da capacidade de pagamento, seja por juros altos, prazos curtos, imprevistos ou queda de renda. Esse desequilíbrio já afeta mais do que as famílias.\n\nO que já foi informado\n\nSair desse ciclo exige estratégia, como priorizar dívidas caras, renegociar e evitar novos compromissos. Neste vídeo, você vai entender os riscos da inadimplência e como escapar da bola de neve. Toda semana, o g1 Explica simplifica a economia, o mercado financeiro e a educação financeira, mostrando como tudo isso afeta o seu bolso. Fonte 2 — G1 - Economia Como funciona a Mega-Sena? O concurso 3.063 da Mega-Sena pode pagar um prêmio de R$ 45 milhões para os apostadores que acertarem as seis dezenas. O sorteio ocorre às 11h deste domingo (27), em São Paulo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que uma dívida sai do controle? Store Center",
+      "seoDescription": "Economia Dívida e inadimplência: O problema começa quando elas deixam de ser pagas e viram inadimplência — sinal de que a dívida cres",
+      "keyword": "Por que uma dívida sai do controle? Entenda como evitar a bola de neve Fonte 2 Mega-Sena pode pagar R$ 45 milhões neste domingo; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/09/27/por-que-uma-divida-sai-do-controle-entenda-como-evitar-a-bola-de-neve.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/g1-explica/noticia/2026/09/27/por-que-uma-divida-sai-do-controle-entenda-como-evitar-a-bola-de-neve.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/27/mega-sena-pode-pagar-r-45-milhoes-neste-domingo-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que uma dívida sai do controle? Entenda como evitar a bola de neve",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1a514827",
       "views": 0,
       "date": "2026-09-27T00:36:11.512Z",
@@ -14623,7 +14664,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T00:36:10.247Z",
+      "lastScraped": "2026-09-27T05:36:28.029Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14631,7 +14672,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T00:36:10.497Z",
+      "lastScraped": "2026-09-27T05:36:28.551Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14701,6 +14742,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790487474551",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que uma dívida sai do controle? Entenda como evitar a bola de neve",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que uma dívida sai do controle?",
+      "postId": "rss-hash_3c359130",
+      "timestamp": "2026-09-27T05:36:39.074Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.6h (+8), Sem postagem há 9.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Saúde",
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790469413440",
       "feedName": "G1 - Economia",

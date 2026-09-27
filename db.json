@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_25d57437",
+      "views": 0,
+      "date": "2026-09-27T13:19:42.569Z",
+      "title": "Risco de guerra pode salvar montadoras europeias? Fonte 2 Os segredos do campo: o que está em jogo no mercado?",
+      "subtitle": "Economia A Ford participa de uma proposta que disputa o fornecimento de veículos para o programa de mobilidade leve do Exército britânico BBC É verde, robusto e intimidador.",
+      "slug": "risco-de-guerra-pode-salvar-montadoras-europeias-fonte-2-os-segredos-do-campo-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia A Ford participa de uma proposta que disputa o fornecimento de veículos para o programa de mobilidade leve do Exército britânico BBC É verde, robusto e intimidador. O mais recente carro da Ford parece uma picape que passou por uma transformação digna do Incrível Hulk.\n\nO que já foi informado\n\nBaseada na popular linha Ranger, o modelo estacionado diante da fábrica da Ford em Dagenham, no leste de Londres, pode transportar até duas toneladas, rebocar até quatro toneladas e também carrega as esperanças dos cerca de 2.000 funcionários que ainda produzem motores no local. Dentro da fábrica, os motores a diesel de três litros que vão equipar o veículo camuflado passam por uma linha de produção que, na última década, viu o volume anual cair de 90 mil unidades para cerca da metade. A Ford espera que a entrada no mercado de veículos militares ajude a compensar essa queda. O chefe da empresa no Reino Unido descreve o momento atual como o cenário mais desafiador para o setor desde a invenção do automóvel.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Risco de guerra pode salvar montadoras europeias? Fonte Store Center",
+      "seoDescription": "Economia A Ford participa de uma proposta que disputa o fornecimento de veículos para o programa de mobilidade leve do Exército britâ",
+      "keyword": "Risco de guerra pode salvar montadoras europeias? Fonte 2 Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no campo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/09/27/risco-de-guerra-pode-salvar-montadoras-europeias.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/09/27/risco-de-guerra-pode-salvar-montadoras-europeias.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/27/os-segredos-do-campo-projeto-leva-alunos-de-promissao-a-vivenciar-rotina-no-campo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Risco de guerra pode salvar montadoras europeias?",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3b33a1d4",
       "views": 0,
       "date": "2026-09-27T10:38:02.713Z",
@@ -14745,7 +14786,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T10:38:01.297Z",
+      "lastScraped": "2026-09-27T13:19:40.745Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14753,7 +14794,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T10:38:02.000Z",
+      "lastScraped": "2026-09-27T13:19:41.702Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14766,7 +14807,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-27T10:38:02.696Z",
+      "lastScraped": "2026-09-27T13:19:42.549Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14823,6 +14864,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790515194071",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Risco de guerra pode salvar montadoras europeias?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Risco de guerra pode salvar montadoras europeias? Fonte 2 Os segredos do campo: o que está em jogo no mercado?",
+      "postId": "rss-hash_25d57437",
+      "timestamp": "2026-09-27T13:19:42.570Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.7h (+8), Sem postagem há 7.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1790505535631",
       "feedName": "G1 - Economia",

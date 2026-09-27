@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1a514827",
+      "views": 0,
+      "date": "2026-09-27T00:36:11.512Z",
+      "title": "Por que os candidatos a presidente querem construir mais data centers no Brasil?",
+      "subtitle": "Entre Dois Mundos: falhas na IA viram nova disputa entre China e EUA Em 20 de agosto, o presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) foi a Macaíba (RN) anunciar um supercomputador para inteligência artificial, com investimento estimado em.",
+      "slug": "por-que-os-candidatos-a-presidente-querem-construir-mais-data-centers-no-brasil",
+      "content": "O que aconteceu\n\nEntre Dois Mundos: falhas na IA viram nova disputa entre China e EUA Em 20 de agosto, o presidente e candidato à reeleição Luiz Inácio Lula da Silva (PT) foi a Macaíba (RN) anunciar um supercomputador para inteligência artificial, com investimento estimado em R$ 1 bilhão. Em outra frente, o governo também anunciou outra estrutura de computação avançada no Rio de Janeiro, em parceria com empresas chinesas.\n\nO que já foi informado\n\nOs projetos integram uma estratégia para ampliar a capacidade computacional do Brasil, um dos recursos necessários para treinar e operar sistemas de inteligência artificial (IA). Essa agenda de ampliar a infraestrutura para a IA não é exclusividade do petista: aparece também em praticamente todos os planos de governo de presidenciáveis que atingem maior intenção de voto nas pesquisas: Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Romeu Zema (Novo) e Renan Santos (Missão). Os candidatos defendem, de alguma forma, incentivos à instalação ou à expansão de data centers, grandes instalações que reúnem servidores para armazenar e processar dados e serviços digitais, incluindo sistemas de IA.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que os candidatos a presidente querem construir Store Center",
+      "seoDescription": "Entre Dois Mundos: falhas na IA viram nova disputa entre China e EUA Em 20 de agosto, o presidente e candidato à reeleição Luiz Inácio Lula da Silva (",
+      "keyword": "Por que os candidatos a presidente querem construir mais data centers no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/23/por-que-os-candidatos-a-presidente-querem-construir-mais-data-centers-no-brasil.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/23/por-que-os-candidatos-a-presidente-querem-construir-mais-data-centers-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Por que os candidatos a presidente querem construir mais data centers no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_735280c7",
       "views": 0,
       "date": "2026-09-26T22:13:26.176Z",
@@ -14584,7 +14623,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-26T22:13:24.799Z",
+      "lastScraped": "2026-09-27T00:36:10.247Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14592,7 +14631,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-26T22:13:25.330Z",
+      "lastScraped": "2026-09-27T00:36:10.497Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14605,7 +14644,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-26T22:13:26.162Z",
+      "lastScraped": "2026-09-27T00:36:11.500Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14662,6 +14701,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790469413440",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que os candidatos a presidente querem construir mais data centers no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que os candidatos a presidente querem construir mais data centers no Brasil?",
+      "postId": "rss-hash_1a514827",
+      "timestamp": "2026-09-27T00:36:11.513Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 81.6h (+8), Sem postagem há 81.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Saúde",
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790460879742",
       "feedName": "G1 - Economia",

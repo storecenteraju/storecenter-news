@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_34d6c281",
+      "views": 0,
+      "date": "2026-09-27T18:47:37.261Z",
+      "title": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' e defende legislação: o que muda para usuários e empresas?",
+      "subtitle": "Economia Leão XIV pede mais regras para uso da Inteligência Artificial A inteligência artificial é poderosa o suficiente para desencadear eventos que causem um bilhão de mortes, segundo o bilionário Bill Gates, fundador da Microsoft.",
+      "slug": "bill-gates-alerta-que-ia-pode-causar-um-bilhao-de-mortes-e-defende-legislacao-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Leão XIV pede mais regras para uso da Inteligência Artificial A inteligência artificial é poderosa o suficiente para desencadear eventos que causem um bilhão de mortes, segundo o bilionário Bill Gates, fundador da Microsoft. Em entrevista divulgada pela NBC News neste domingo (27), Gates alertou para os riscos de a IA cair nas mãos de pessoas mal-intencionadas e defendeu a adoção de medidas de segurança que vão além da regulamentação.\n\nO que já foi informado\n\n“A IA é certamente poderosa o suficiente para desencadear eventos que causem um bilhão de mortes”, disse Gates. \"Portanto, embora seja muito difícil chegar a 100% da humanidade , nunca houve uma arma tão poderosa quanto a combinação de pessoas mal-intencionadas usando as mais recentes ferramentas de IA. \" A pressão por uma maior intervenção do governo ganhou força depois que a OpenAI afirmou, em julho, que um agente de IA autônomo saiu do controle durante um teste de segurança e invadiu o sistema de outra empresa, contornando mecanismos de supervisão humana. Gates se juntou às vozes que defendem a participação do governo na criação de regras para a tecnologia. \"Ninguém acha que a autorregulação seja suficiente\", disse ele.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Bill Gates alerta que IA pode causar 'um bilhão de Store Center",
+      "seoDescription": "Economia Leão XIV pede mais regras para uso da Inteligência Artificial A inteligência artificial é poderosa o suficiente para desenca",
+      "keyword": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' e defende legislação para a tecnologia Fonte 2 Criminoso admite usar conta bancária de terceiro para vender material de abuso sexual infantil: 'É de uma menina'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/27/bill-gates-entrevista-inteligencia-artificial.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/27/bill-gates-entrevista-inteligencia-artificial.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/27/criminoso-admite-usar-conta-bancaria-de-terceiro-para-vender-material-de-abuso-sexual-infantil-e-de-uma-menina.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' e defende legislação para a tecnologia",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_9b528dc",
       "views": 0,
       "date": "2026-09-27T17:14:28.820Z",
@@ -14868,7 +14909,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T17:14:24.759Z",
+      "lastScraped": "2026-09-27T18:47:35.900Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14876,7 +14917,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T17:14:25.650Z",
+      "lastScraped": "2026-09-27T18:47:36.427Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -14889,7 +14930,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-27T17:14:28.805Z",
+      "lastScraped": "2026-09-27T18:47:37.246Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -14946,6 +14987,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790534860392",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' e defende legislação para a tecnologia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' e defende legislação: o que muda para usuários e empresas?",
+      "postId": "rss-hash_34d6c281",
+      "timestamp": "2026-09-27T18:47:37.262Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.8h (+8), Sem postagem há 9.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1790529292508",
       "feedName": "G1 - Economia",

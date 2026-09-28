@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7d63af5d",
+      "views": 0,
+      "date": "2026-09-28T09:24:33.257Z",
+      "title": "Golpe com IA: os sinais que você aprendeu a procurar já não funcionam tão bem: o que muda para os próximos jogos?",
+      "subtitle": "Economia Operação contra fraude financeira Entre as fraudes que mais avançam está o roubo de contas.",
+      "slug": "golpe-com-ia-os-sinais-que-voce-aprendeu-a-procurar-ja-nao-funcionam-tao-bem-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Operação contra fraude financeira Entre as fraudes que mais avançam está o roubo de contas. Dados do relatório da Unico em parceria com a Liminal estimam 6 milhões de vítimas em 2025, um aumento de 141% em relação a 2021.\n\nO que já foi informado\n\nTambém chama atenção a injeção de imagens e vídeos manipulados, que representa 45,8% dos casos classificados. O avanço da inteligência artificial está mudando o perfil dos fraudadores. Golpes que, até pouco tempo, exigiam grupos criminosos especializados, equipamentos caros e conhecimento técnico passaram a poder ser executados de forma praticamente doméstica, com ferramentas disponíveis por cerca de US$ 30 (R$ 153) por mês. Por isso mesmo, especialistas ouvidos pelos g1 orientam que mudar a forma como o consumidor identifica uma possível fraude pode ser crucial. “A tecnologia evolui rapidamente e esses defeitos estão ficando mais raros.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Golpe com IA: os sinais que você aprendeu a procurar já Store Center",
+      "seoDescription": "Economia Operação contra fraude financeira Entre as fraudes que mais avançam está o roubo de contas.",
+      "keyword": "Golpe com IA: os sinais que você aprendeu a procurar já não funcionam tão bem; veja como se proteger Fonte 2 Criminoso admite usar conta bancária de terceiro para vender material de abuso sexual infantil: 'É de uma menina'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/28/golpe-com-ia-os-sinais-que-voce-aprendeu-a-procurar-ja-nao-funcionam-tao-bem-veja-como-se-proteger.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/28/golpe-com-ia-os-sinais-que-voce-aprendeu-a-procurar-ja-nao-funcionam-tao-bem-veja-como-se-proteger.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/27/criminoso-admite-usar-conta-bancaria-de-terceiro-para-vender-material-de-abuso-sexual-infantil-e-de-uma-menina.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Golpe com IA: os sinais que você aprendeu a procurar já não funcionam tão bem; veja como se proteger",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_579b4a3",
       "views": 0,
       "date": "2026-09-28T05:44:51.797Z",
@@ -15071,7 +15112,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-28T05:44:41.300Z",
+      "lastScraped": "2026-09-28T09:24:31.555Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15079,7 +15120,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-28T05:44:41.544Z",
+      "lastScraped": "2026-09-28T09:24:32.331Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15092,7 +15133,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-28T00:46:27.635Z",
+      "lastScraped": "2026-09-28T09:24:33.244Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15149,6 +15190,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790587529394",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Golpe com IA: os sinais que você aprendeu a procurar já não funcionam tão bem; veja como se proteger",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Golpe com IA: os sinais que você aprendeu a procurar já não funcionam tão bem: o que muda para os próximos jogos?",
+      "postId": "rss-hash_7d63af5d",
+      "timestamp": "2026-09-28T09:24:33.257Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 24.4h (+8), Sem postagem há 24.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Economia"
+      ]
+    },
     {
       "id": "1790574337473",
       "feedName": "G1 - Economia",

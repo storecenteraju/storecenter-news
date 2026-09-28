@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_439a9eb9",
+      "views": 0,
+      "date": "2026-09-28T15:59:51.567Z",
+      "title": "Maior poder do Congresso aumenta importância do voto para o Legislativo, diz especialista: o que pode mudar agora?",
+      "subtitle": "Os brasileiros vão às urnas neste domingo (4) para escolher presidente da República, governadores, senadores e deputados federais, estaduais e distritais.",
+      "slug": "maior-poder-do-congresso-aumenta-importancia-do-voto-para-o-legislativo-diz-especialista-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nOs brasileiros vão às urnas neste domingo (4) para escolher presidente da República, governadores, senadores e deputados federais, estaduais e distritais. Entre tantas escolhas, a de deputado nem sempre é feita com antecedência.\n\nO que já foi informado\n\nMuitos deixam para decidir em quem votar para o Legislativo em cima da hora. Em entrevista ao podcast Me Conta+, produzido pela Câmara dos Deputados, o cientista político e professor da Universidade de Brasília (UnB) Lúcio Rennó ressaltou, no entanto, que prestar atenção na escolha dos parlamentares se tornou ainda mais importante nos últimos anos. Assista à entrevista na íntegra “É cada vez mais importante prestar atenção no voto para deputado, deputada federal, senador e senadora. O Congresso é cada vez mais poderoso no Brasil, influencia cada vez mais as políticas públicas, seja diretamente pela produção de leis, seja via Orçamento”, afirmou. Um dos principais exemplos desse fortalecimento, segundo Rennó, é a participação no Orçamento.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Maior poder do Congresso aumenta importância do voto Store Center",
+      "seoDescription": "Os brasileiros vão às urnas neste domingo (4) para escolher presidente da República, governadores, senadores e deputados federais, estaduais e distrit",
+      "keyword": "Maior poder do Congresso aumenta importância do voto para o Legislativo, diz especialista",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1306941-maior-poder-do-congresso-aumenta-importancia-do-voto-para-o-legislativo-diz-especialista",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1306941-maior-poder-do-congresso-aumenta-importancia-do-voto-para-o-legislativo-diz-especialista"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Maior poder do Congresso aumenta importância do voto para o Legislativo, diz especialista",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_878fed0",
       "views": 0,
       "date": "2026-09-28T11:50:23.403Z",
@@ -15153,7 +15192,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-28T11:50:12.914Z",
+      "lastScraped": "2026-09-28T15:59:49.934Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15161,7 +15200,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-28T11:50:13.175Z",
+      "lastScraped": "2026-09-28T15:59:50.541Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15174,7 +15213,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-28T09:24:33.244Z",
+      "lastScraped": "2026-09-28T15:59:51.555Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15231,6 +15270,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790611236310",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Maior poder do Congresso aumenta importância do voto para o Legislativo, diz especialista",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Maior poder do Congresso aumenta importância do voto para o Legislativo, diz especialista: o que pode mudar agora?",
+      "postId": "rss-hash_439a9eb9",
+      "timestamp": "2026-09-28T15:59:51.568Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.7h (+8), Sem postagem há 19.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790596262187",
       "feedName": "G1 - Economia",

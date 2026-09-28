@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_a29de96",
+      "views": 0,
+      "date": "2026-09-28T22:35:32.466Z",
+      "title": "Criminoso admite usar conta bancária de terceiro para vender material de abuso: o que muda para os próximos jogos?",
+      "subtitle": "Economia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil.",
+      "slug": "criminoso-admite-usar-conta-bancaria-de-terceiro-para-vender-material-de-abuso-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil. Ao final dela, veja como denunciar casos desse tipo.\n\nO que já foi informado\n\nCriminosos usam TikTok para promover de conteúdo de abuso sexual infantil no Telegram Uma investigação do g1 revelou como agem criminosos que comercializam material de abuso sexual infantil na internet. A reportagem mostrou que eles usam o TikTok como vitrine para promover a venda do conteúdo ilegal. A negociação do conteúdo, porém, é feita dentro do aplicativo de mensagens Telegram. Em um dos casos identificados pelo g1, um criminoso admite usar a conta bancária de um terceiro, a quem chama de \"menina\". Ele garante, porém, que a transação do interessado não será rastreada, o que não é verdade, segundo a Polícia Federal ouvidos pelo g1. ( Eu recebo muito PIX nele.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Criminoso admite usar conta bancária de terceiro para Store Center",
+      "seoDescription": "Economia Aviso: esta reportagem contém conteúdo sensível sobre abuso sexual infantil.",
+      "keyword": "Criminoso admite usar conta bancária de terceiro para vender material de abuso sexual infantil: 'É de uma menina' Fonte 2 Por que é tão difícil ganhar dinheiro com bets? A matemática explica",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/27/criminoso-admite-usar-conta-bancaria-de-terceiro-para-vender-material-de-abuso-sexual-infantil-e-de-uma-menina.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/27/criminoso-admite-usar-conta-bancaria-de-terceiro-para-vender-material-de-abuso-sexual-infantil-e-de-uma-menina.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/25/por-que-e-tao-dificil-ganhar-dinheiro-com-bets-a-matematica-explica.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Criminoso admite usar conta bancária de terceiro para vender material de abuso sexual infantil: 'É de uma menina'",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_599b55ba",
       "views": 0,
       "date": "2026-09-28T20:57:13.355Z",
@@ -15315,7 +15356,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-28T20:57:12.010Z",
+      "lastScraped": "2026-09-28T22:35:30.995Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15323,7 +15364,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-28T20:57:12.524Z",
+      "lastScraped": "2026-09-28T22:35:31.293Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15336,7 +15377,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-28T20:57:13.342Z",
+      "lastScraped": "2026-09-28T22:35:32.450Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15393,6 +15434,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790635019607",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Criminoso admite usar conta bancária de terceiro para vender material de abuso sexual infantil: 'É de uma menina'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Criminoso admite usar conta bancária de terceiro para vender material de abuso: o que muda para os próximos jogos?",
+      "postId": "rss-hash_a29de96",
+      "timestamp": "2026-09-28T22:35:32.467Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.2h (+8), Sem postagem há 13.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790629056059",
       "feedName": "G1 - Economia",

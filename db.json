@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2cf68470",
+      "views": 0,
+      "date": "2026-09-28T00:46:27.652Z",
+      "title": "Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no: por que isso importa para a economia?",
+      "subtitle": "Chamado “Os segredos do campo”, o programa promove visitas técnicas a três propriedades rurais da cidade, onde os estudantes aprendem sobre o cultivo de banana, morango e uva.",
+      "slug": "os-segredos-do-campo-projeto-leva-alunos-de-promissao-a-vivenciar-rotina-no-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nChamado “Os segredos do campo”, o programa promove visitas técnicas a três propriedades rurais da cidade, onde os estudantes aprendem sobre o cultivo de banana, morango e uva. A coordenadora da escola, Érica Cabral, destaca que a iniciativa gera troca de experiências entre produtores e alunos.\n\nO que já foi informado\n\n“É um benefício mútuo”, afirma. Na propriedade de Antônio Pereira Cabral, os jovens acompanham o plantio de bananeiras, coleta de solo e cuidados necessários para manter a produção. Para o produtor, levar estudantes ao campo ajuda a renovar ideias e fortalecer o trabalho rural. Entre os participantes estão Tayla Raphaela e Kawane Petini, alunas do 2º ano do ensino médio. Elas estudam administração e veem no projeto uma oportunidade para desenvolver futuros negócios. “É uma experiência de cuidar das propriedades”, dizem.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Os segredos do campo: projeto leva alunos de Promissão Store Center",
+      "seoDescription": "Chamado “Os segredos do campo”, o programa promove visitas técnicas a três propriedades rurais da cidade, onde os estudantes aprendem sobre o cultivo",
+      "keyword": "Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no campo Fonte 2 Uva núbia ganha espaço em Jales com alta produtividade e resistência ao clima",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/27/os-segredos-do-campo-projeto-leva-alunos-de-promissao-a-vivenciar-rotina-no-campo.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/27/os-segredos-do-campo-projeto-leva-alunos-de-promissao-a-vivenciar-rotina-no-campo.ghtml",
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/09/27/uva-nubia-ganha-espaco-em-jales-com-alta-produtividade-e-resistencia-ao-clima.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no campo",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7d82f537",
       "views": 0,
       "date": "2026-09-27T22:34:51.859Z",
@@ -14991,7 +15032,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-27T22:34:50.404Z",
+      "lastScraped": "2026-09-28T00:46:26.294Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -14999,7 +15040,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-27T22:34:50.940Z",
+      "lastScraped": "2026-09-28T00:46:26.808Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15012,7 +15053,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-27T22:34:51.844Z",
+      "lastScraped": "2026-09-28T00:46:27.635Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15069,6 +15110,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790556419916",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no campo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Os segredos do campo: projeto leva alunos de Promissão a vivenciar rotina no: por que isso importa para a economia?",
+      "postId": "rss-hash_2cf68470",
+      "timestamp": "2026-09-28T00:46:27.653Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 23",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1790548521470",
       "feedName": "G1 - Economia",

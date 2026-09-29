@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_521ec616",
+      "views": 0,
+      "date": "2026-09-29T18:14:04.491Z",
+      "title": "Apple avalia reformulação para lançar produtos mais rápido, diz site Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Jeenah Moon O novo diretor-executivo da Apple, John Ternus, está avaliando uma ampla reformulação na fabricante do iPhone para dar mais foco à engenharia, lançar produtos com maior frequência e tornar a estrutura da empresa mais enxuta, informou a Bloomberg.",
+      "slug": "apple-avalia-reformulacao-para-lancar-produtos-mais-rapido-diz-site-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nJeenah Moon O novo diretor-executivo da Apple, John Ternus, está avaliando uma ampla reformulação na fabricante do iPhone para dar mais foco à engenharia, lançar produtos com maior frequência e tornar a estrutura da empresa mais enxuta, informou a Bloomberg News nesta terça-feira (29). Entre as primeiras ideias em análise estão a mudança do tradicional calendário de lançamentos de produtos, concentrado em setembro, e a redução de cargos de gerência intermediária.\n\nO que já foi informado\n\nA medida teria como objetivo aproximar os engenheiros dos principais executivos da companhia, segundo a reportagem, que citou fontes familiarizadas com o assunto. Ternus é veterano da Apple, onde trabalha há 25 anos. Ele comandava a área de hardware havia vários anos e supervisionou diferentes gerações do iPhone. Ele sucedeu Tim Cook no cargo de CEO no ínicio deste mês. Analistas afirmaram que a mudança no comando reforçou a importância dos produtos e dispositivos da Apple para o crescimento da empresa. Agora no g1 Segundo a Bloomberg News, a Apple já iniciou esforços para reduzir custos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple avalia reformulação para lançar produtos mais Store Center",
+      "seoDescription": "Jeenah Moon O novo diretor-executivo da Apple, John Ternus, está avaliando uma ampla reformulação na fabricante do iPhone para dar mais foco à engenha",
+      "keyword": "Apple avalia reformulação para lançar produtos mais rápido, diz site Fonte 2 Dona do ChatGPT pede desculpas por invasão de IA em site do governo australiano",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/29/apple-avalia-reformulacao-para-lancar-produtos-mais-rapido-diz-site.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/29/apple-avalia-reformulacao-para-lancar-produtos-mais-rapido-diz-site.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/29/dona-do-chatgpt-pede-desculpas-por-invasao-de-ia-em-site-do-governo-australiano.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple avalia reformulação para lançar produtos mais rápido, diz site",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_96b7e70",
       "views": 0,
       "date": "2026-09-29T16:29:02.695Z",
@@ -15642,7 +15683,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T16:29:01.457Z",
+      "lastScraped": "2026-09-29T18:13:53.271Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15650,7 +15691,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T16:29:02.005Z",
+      "lastScraped": "2026-09-29T18:13:53.974Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15720,6 +15761,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790705665477",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple avalia reformulação para lançar produtos mais rápido, diz site",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple avalia reformulação para lançar produtos mais rápido, diz site Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_521ec616",
+      "timestamp": "2026-09-29T18:14:04.492Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.7h (+8), Sem postagem há 8.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790699347516",
       "feedName": "G1 - Economia",

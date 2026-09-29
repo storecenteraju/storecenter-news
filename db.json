@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4b486f28",
+      "views": 0,
+      "date": "2026-09-29T09:30:04.835Z",
+      "title": "Dá para desligar uma IA?",
+      "subtitle": "Economia ChatGPT, DeepSeek, Claude, Mistral AI, Gemini, Copilot e Poe Solen Feyissa/Unsplash É possível parar uma inteligência artificial?",
+      "slug": "da-para-desligar-uma-ia",
+      "content": "O que aconteceu\n\nEconomia ChatGPT, DeepSeek, Claude, Mistral AI, Gemini, Copilot e Poe Solen Feyissa/Unsplash É possível parar uma inteligência artificial? Tecnicamente, uma IA pode ser interrompida, enquanto estiver em um ambiente controlado.\n\nO que já foi informado\n\nMas quanto mais essa tecnologia atua de forma autônoma em vários sistemas, mais complexo se torna o bloqueio, alertam os especialistas. A pergunta parece cada vez mais pertinente, levando-se em conta que se multiplicam os incidentes de segurança relacionados com a IA e aumentam os temores sobre os riscos desta tecnologia. Existe um \"botão de emergência\"? \"No campo da cibersegurança ligada à IA\", um botão de desligamento de emergência, ou kill switch em inglês, designa \"a capacidade de interromper a execução da ação de um agente de IA\" - um programa construído sobre um modelo de IA generativa capaz de encadear sozinho uma série de tarefas -, explica à Nicolas Papernot, professor na Universidade de Toronto e especialista em segurança informática e IA. Esse mecanismo teria que poder ser acionado no caso de uma IA escapar a qualquer controle e representar um risco para a segurança.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Dá para desligar uma IA? Store Center",
+      "seoDescription": "Economia ChatGPT, DeepSeek, Claude, Mistral AI, Gemini, Copilot e Poe Solen Feyissa/Unsplash É possível parar uma inteligência artifi",
+      "keyword": "Dá para desligar uma IA? Entenda por que um 'botão de emergência' pode não ser tão simples Fonte 2 OpenAI cancela lançamento de novo modelo de IA por preocupações de segurança",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/29/da-para-desligar-uma-ia-entenda-por-que-um-botao-de-emergencia-pode-nao-ser-tao-simples.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/29/da-para-desligar-uma-ia-entenda-por-que-um-botao-de-emergencia-pode-nao-ser-tao-simples.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/28/openai-abandona-lancamento-de-novo-modelo-de-ia-por-preocupacoes-de-seguranca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Dá para desligar uma IA? Entenda por que um 'botão de emergência' pode não ser tão simples",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_98144ed",
       "views": 0,
       "date": "2026-09-29T06:01:22.390Z",
@@ -15478,7 +15519,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T06:01:20.650Z",
+      "lastScraped": "2026-09-29T09:30:03.240Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15486,7 +15527,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T06:01:21.393Z",
+      "lastScraped": "2026-09-29T09:30:03.838Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15499,7 +15540,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-29T06:01:22.381Z",
+      "lastScraped": "2026-09-29T09:30:04.825Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15556,6 +15597,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790674281493",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Dá para desligar uma IA? Entenda por que um 'botão de emergência' pode não ser tão simples",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Dá para desligar uma IA?",
+      "postId": "rss-hash_4b486f28",
+      "timestamp": "2026-09-29T09:30:04.836Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.9h (+8), Sem postagem há 10.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Política",
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790661774312",
       "feedName": "G1 - Economia",

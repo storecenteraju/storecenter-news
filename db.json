@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_147055a6",
+      "views": 0,
+      "date": "2026-09-29T01:57:20.679Z",
+      "title": "Governo adia reunião com clubes para discutir impactos da proibição das bets: o que muda para os próximos jogos?",
+      "subtitle": "O governo federal decidiu adiar a reunião com representantes de clubes de futebol para discutir os impactos da proibição das bets no país, prevista para esta terça-feira (29).",
+      "slug": "governo-adia-reuniao-com-clubes-para-discutir-impactos-da-proibicao-das-bets-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nO governo federal decidiu adiar a reunião com representantes de clubes de futebol para discutir os impactos da proibição das bets no país, prevista para esta terça-feira (29). Nova data ainda não foi marcada.\n\nO que já foi informado\n\nSegundo o governo, a alteração foi necessária em razão da proximidade da data inicialmente proposta e dos horários dos voos disponíveis para o deslocamento dos participantes. A nova data e o horário serão definidos e comunicados à Confederação Brasileira de Futebol para que possa informar os clubes e as Federações Estaduais de Futebol. Agora no g1 O encontro foi marcado após a reação negativa dos clubes à medida provisória que determinou o fim das plataformas de apostas de quota fixa. Representantes dos ministérios do Planejamento, Fazenda e Casa Civil também devem participar. A medida provisória que proíbe sites e aplicativos de bets foi publicada na sexta-feira (25). Pelas regras, as empresas terão até 6 de outubro para sair do ar.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Esporte",
+      "author": "Redação Store Center",
+      "tags": [
+        "Esporte",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo adia reunião com clubes para discutir impactos Store Center",
+      "seoDescription": "O governo federal decidiu adiar a reunião com representantes de clubes de futebol para discutir os impactos da proibição das bets no país, prevista pa",
+      "keyword": "Governo adia reunião com clubes para discutir impactos da proibição das bets",
+      "imagePrompt": "FORCE_FOOTBALL_RSS: soccer stadium football match fans world cup, no cycling, no bicycles, no cyclists, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/28/governo-adia-reuniao-com-clubes-para-discutir-impactos-da-proibicao-das-bets.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/28/governo-adia-reuniao-com-clubes-para-discutir-impactos-da-proibicao-das-bets.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Governo adia reunião com clubes para discutir impactos da proibição das bets",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_e93411b",
       "views": 0,
       "date": "2026-09-28T23:57:52.624Z",
@@ -15397,7 +15436,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-28T23:57:51.217Z",
+      "lastScraped": "2026-09-29T01:57:19.141Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15405,7 +15444,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-28T23:57:51.606Z",
+      "lastScraped": "2026-09-29T01:57:19.721Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15418,7 +15457,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-28T23:57:52.613Z",
+      "lastScraped": "2026-09-29T01:57:20.670Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15475,6 +15514,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790647046156",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo adia reunião com clubes para discutir impactos da proibição das bets",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_FOOTBALL_RSS: soccer stadium football match fans world cup, no cycling, no bicycles, no cyclists, realistic editorial photo, no text",
+      "antiRepetitionResult": "RSS imagem fixa de futebol para Copa/FIFA/selecao",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo adia reunião com clubes para discutir impactos da proibição das bets: o que muda para os próximos jogos?",
+      "postId": "rss-hash_147055a6",
+      "timestamp": "2026-09-29T01:57:20.679Z",
+      "chosenCategory": "Esporte",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.0h (+8), Sem postagem há 10.0h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790639879916",
       "feedName": "G1 - Economia",

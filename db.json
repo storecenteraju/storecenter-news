@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_27776819",
+      "views": 0,
+      "date": "2026-09-29T11:27:14.167Z",
+      "title": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade Fonte 2 Política",
+      "subtitle": "A medida provisória que proibiu as empresas de apostas online, chamadas de bets, foi publicada na última sexta-feira (25), com validade imediata, a nove dias do primeiro turno das eleições.",
+      "slug": "mp-que-proibe-bets-precisa-ser-aprovada-pelo-congresso-ate-o-comeco-de-marco-para-nao-perder-validade-fonte-2-politica",
+      "content": "O que aconteceu\n\nA medida provisória que proibiu as empresas de apostas online, chamadas de bets, foi publicada na última sexta-feira (25), com validade imediata, a nove dias do primeiro turno das eleições. Mas para que seja mantida, ela tem de ser votada e aprovada pelo Congresso Nacional em até 120 dias, ou seja, até o fim de janeiro do ano que vem.\n\nO que já foi informado\n\nEsse prazo legal, entretanto, fica suspenso durante eventual recesso do Congresso Nacional, conforme as regras das medidas provisórias. A Constituição federal prevê dois períodos de suspensão dos trabalhos legislativos: de 23 de dezembro a 1º de fevereiro e de 17 a 31 de julho. Com isso, a MP precisa ser aprovada pelo Congresso Nacional até 5 de março para não perder a validade. Se não for votada e aprovada dentro desse prazo, a MP caduca e a proibição deixa de produzir efeitos a partir de 6 de março. Se a MP não for votada e aprovada pelo Congresso dentro desse prazo, ela perde a validade e as apostas voltam a ser liberadas no país em março de 2027 — já com um novo Congresso Nacional eleito.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "MP que proíbe bets precisa ser aprovada pelo Congresso Store Center",
+      "seoDescription": "A medida provisória que proibiu as empresas de apostas online, chamadas de bets, foi publicada na última sexta-feira (25), com validade imediata, a no",
+      "keyword": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade Fonte 2 Política no trabalho: onde termina a conversa e começa o assédio eleitoral?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/29/mp-que-proibe-bets-precisa-ser-aprovada-pelo-congresso-ate-o-comeco-de-marco-para-nao-perder-validade.ghtml",
+      "sourceName": "G1 - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/29/mp-que-proibe-bets-precisa-ser-aprovada-pelo-congresso-ate-o-comeco-de-marco-para-nao-perder-validade.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/29/politica-no-trabalho-onde-termina-a-conversa-e-comeca-o-assedio-eleitoral.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4b486f28",
       "views": 0,
       "date": "2026-09-29T09:30:04.835Z",
@@ -15519,7 +15560,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T09:30:03.240Z",
+      "lastScraped": "2026-09-29T11:27:12.678Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15527,7 +15568,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T09:30:03.838Z",
+      "lastScraped": "2026-09-29T11:27:13.255Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15540,7 +15581,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-29T09:30:04.825Z",
+      "lastScraped": "2026-09-29T11:27:14.152Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15597,6 +15638,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790681245962",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "MP que proíbe bets precisa ser aprovada pelo Congresso até o começo de março para não perder validade Fonte 2 Política",
+      "postId": "rss-hash_27776819",
+      "timestamp": "2026-09-29T11:27:14.168Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.5h (+8), Sem postagem há 19.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790674281493",
       "feedName": "G1 - Economia",

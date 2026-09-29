@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_98144ed",
+      "views": 0,
+      "date": "2026-09-29T06:01:22.390Z",
+      "title": "Por que a corrupção custa tanto? Entenda os efeitos além do dinheiro desviado Fonte 2 Mega-Sena pode pagar R$ 52?",
+      "subtitle": "Economia Quanto custa a corrupção para a economia? Não há um cálculo preciso de quanto custa a corrupção.",
+      "slug": "por-que-a-corrupcao-custa-tanto-entenda-os-efeitos-alem-do-dinheiro-desviado-fonte-2-mega-sena-pode-pagar-r-52",
+      "content": "O que aconteceu\n\nEconomia Quanto custa a corrupção para a economia? Não há um cálculo preciso de quanto custa a corrupção.\n\nO que já foi informado\n\nO prejuízo vai além do dinheiro desviado e inclui recursos que deixam de chegar a áreas como saúde, educação e infraestrutura. A corrupção também distorce a concorrência. Quando contratos dependem de relações privilegiadas ou propina, nem sempre vence quem oferece o melhor serviço ou preço, tornando a economia menos eficiente. Outro impacto é a perda de confiança nas instituições. Quando cresce a percepção de que as regras não valem para todos, diminui a disposição de segui-las. Por isso, o custo da corrupção também aparece nos serviços que não foram feitos, nos investimentos que não vieram e na confiança que se perdeu.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que a corrupção custa tanto? Entenda os efeitos Store Center",
+      "seoDescription": "Economia Quanto custa a corrupção para a economia? Não há um cálculo preciso de quanto custa a corrupção.",
+      "keyword": "Por que a corrupção custa tanto? Entenda os efeitos além do dinheiro desviado Fonte 2 Mega-Sena pode pagar R$ 52 milhões nesta terça-feira; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/09/29/por-que-a-corrupcao-custa-tanto-entenda-os-efeitos-alem-do-dinheiro-desviado.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/g1-explica/noticia/2026/09/29/por-que-a-corrupcao-custa-tanto-entenda-os-efeitos-alem-do-dinheiro-desviado.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/09/29/mega-sena-pode-pagar-r-52-milhoes-nesta-terca-feira-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que a corrupção custa tanto? Entenda os efeitos além do dinheiro desviado",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_147055a6",
       "views": 0,
       "date": "2026-09-29T01:57:20.679Z",
@@ -15436,7 +15478,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T01:57:19.141Z",
+      "lastScraped": "2026-09-29T06:01:20.650Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15444,7 +15486,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T01:57:19.721Z",
+      "lastScraped": "2026-09-29T06:01:21.393Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15457,7 +15499,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-29T01:57:20.670Z",
+      "lastScraped": "2026-09-29T06:01:22.381Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15514,6 +15556,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790661774312",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que a corrupção custa tanto? Entenda os efeitos além do dinheiro desviado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que a corrupção custa tanto? Entenda os efeitos além do dinheiro desviado Fonte 2 Mega-Sena pode pagar R$ 52?",
+      "postId": "rss-hash_98144ed",
+      "timestamp": "2026-09-29T06:01:22.391Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.2h (+8), Sem postagem há 10.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1790647046156",
       "feedName": "G1 - Economia",

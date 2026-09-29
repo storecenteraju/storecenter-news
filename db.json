@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_49259f56",
+      "views": 0,
+      "date": "2026-09-29T21:28:19.362Z",
+      "title": "Rede Legislativa de Rádio e TV faz cobertura da eleição ao vivo e em tempo integral Fonte 2 Política no trabalho: onde",
+      "subtitle": "Agência Câmara - Política A Rede Legislativa de Rádio e TV faz a cobertura da eleição, em 4 de outubro, com potencial de chegar a cerca de 130 milhões de brasileiros.",
+      "slug": "rede-legislativa-de-radio-e-tv-faz-cobertura-da-eleicao-ao-vivo-e-em-tempo-integral-fonte-2-politica-no-trabalho-onde",
+      "content": "O que aconteceu\n\nAgência Câmara - Política A Rede Legislativa de Rádio e TV faz a cobertura da eleição, em 4 de outubro, com potencial de chegar a cerca de 130 milhões de brasileiros. Ao vivo e em tempo integral, as TVs Câmara e Senado, as Rádios Câmara e Senado e as emissoras das assembleias legislativas e das câmaras municipais mobilizam suas equipes de comunicação na cobertura jornalística integrada desde o início da votação até o resultado final do primeiro turno.\n\nO que já foi informado\n\n“A gente espera que o cidadão receba uma cobertura de qualidade. Uma cobertura com isenção e que ouça todas as vozes possíveis\", afirma a diretora da TV Câmara, Daniela André. Confira página especial da Câmara sobre as Eleições 2026 Ao todo, a Rede Legislativa tem 1.651 emissoras de TV. Já a Rede Câmara de Rádio, 30 emissoras; e a Rádio Senado está em Brasília e em 17 estados. No total, a abrangência chega a todas as capitais estaduais e dezenas de municípios espalhados pelo país. Programação Ao longo do domingo, estão previstas reportagens de serviço e de utilidade pública para tirar dúvidas do eleitor, esclarecer as atribuições dos cargos em disputa e combater fake news.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Rede Legislativa de Rádio e TV faz cobertura da eleição Store Center",
+      "seoDescription": "Agência Câmara - Política A Rede Legislativa de Rádio e TV faz a cobertura da eleição, em 4 de outubro, com potencial de chegar a cerca de",
+      "keyword": "Rede Legislativa de Rádio e TV faz cobertura da eleição ao vivo e em tempo integral Fonte 2 Política no trabalho: onde termina a conversa e começa o assédio eleitoral?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1307393-rede-legislativa-de-radio-e-tv-faz-cobertura-da-eleicao-ao-vivo-e-em-tempo-integral",
+      "sourceName": "Agência Câmara - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1307393-rede-legislativa-de-radio-e-tv-faz-cobertura-da-eleicao-ao-vivo-e-em-tempo-integral",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/29/politica-no-trabalho-onde-termina-a-conversa-e-comeca-o-assedio-eleitoral.ghtml"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Rede Legislativa de Rádio e TV faz cobertura da eleição ao vivo e em tempo integral",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_644ea8c4",
       "views": 0,
       "date": "2026-09-29T19:43:21.767Z",
@@ -15724,7 +15765,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T19:43:17.409Z",
+      "lastScraped": "2026-09-29T21:28:17.832Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15732,7 +15773,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T19:43:18.052Z",
+      "lastScraped": "2026-09-29T21:28:18.400Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15745,7 +15786,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-29T19:43:21.759Z",
+      "lastScraped": "2026-09-29T21:28:19.346Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15802,6 +15843,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790717353151",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Rede Legislativa de Rádio e TV faz cobertura da eleição ao vivo e em tempo integral",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Rede Legislativa de Rádio e TV faz cobertura da eleição ao vivo e em tempo integral Fonte 2 Política no trabalho: onde",
+      "postId": "rss-hash_49259f56",
+      "timestamp": "2026-09-29T21:28:19.362Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 29.5h (+8), Sem postagem há 29.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1790711055000",
       "feedName": "G1 - Economia",

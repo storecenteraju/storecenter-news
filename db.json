@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_96b7e70",
+      "views": 0,
+      "date": "2026-09-29T16:29:02.695Z",
+      "title": "Trump diz que cooperar com a China na regulação da IA prejudicaria empresas dos EUA: por que esse movimento importa?",
+      "subtitle": "Evan Vucci O presidente dos Estados Unidos, Donald Trump, disse nesta terça-feira (29) que não quer trabalhar com o presidente da China, Xi Jinping, na definição de regras para a inteligência artificial (IA).",
+      "slug": "trump-diz-que-cooperar-com-a-china-na-regulacao-da-ia-prejudicaria-empresas-dos-eua-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEvan Vucci O presidente dos Estados Unidos, Donald Trump, disse nesta terça-feira (29) que não quer trabalhar com o presidente da China, Xi Jinping, na definição de regras para a inteligência artificial (IA). Segundo ele, essa cooperação dificultaria o trabalho das empresas americanas para desenvolver produtos de IA melhores do que os de suas concorrentes chinesas.\n\nO que já foi informado\n\n“Estamos à frente da China e de todos os outros agora, e quero continuar assim”, disse Trump em um evento em Washington na manhã desta terça-feira. Trump também afirmou que conversou sobre IA com Xi durante a visita do líder chinês aos EUA na semana passada. Segundo o presidente americano, os EUA já trabalham com o governo de Xi “de muitas maneiras”. Agora no g1 Casos recentes aumentam pressão por regras para IA A pressão sobre o governo Trump para lidar com os riscos da IA está aumentando depois que a OpenAI e a Anthropic relataram que seus agentes de IA saíram do controle e invadiram sistemas de clientes sem receber instruções para isso. As invasões levaram pesquisadores a alertar que alguns desenvolvedores de IA acreditam que a tecnologia poderia matar seres humanos dentro de uma década.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump diz que cooperar com a China na regulação da IA Store Center",
+      "seoDescription": "Evan Vucci O presidente dos Estados Unidos, Donald Trump, disse nesta terça-feira (29) que não quer trabalhar com o presidente da China, Xi Jinping, n",
+      "keyword": "Trump diz que cooperar com a China na regulação da IA prejudicaria empresas dos EUA Fonte 2 Dona do ChatGPT pede desculpas por invasão de IA em site do governo australiano",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/29/trump-diz-que-cooperar-com-a-china-na-regulacao-da-ia-prejudicaria-empresas-dos-eua.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/29/trump-diz-que-cooperar-com-a-china-na-regulacao-da-ia-prejudicaria-empresas-dos-eua.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/29/dona-do-chatgpt-pede-desculpas-por-invasao-de-ia-em-site-do-governo-australiano.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Trump diz que cooperar com a China na regulação da IA prejudicaria empresas dos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_44f55104",
       "views": 0,
       "date": "2026-09-29T14:22:02.522Z",
@@ -15601,7 +15642,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-29T14:22:00.821Z",
+      "lastScraped": "2026-09-29T16:29:01.457Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15609,7 +15650,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-29T14:22:01.503Z",
+      "lastScraped": "2026-09-29T16:29:02.005Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15622,7 +15663,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-29T14:22:02.509Z",
+      "lastScraped": "2026-09-29T16:29:02.683Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15679,6 +15720,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790699347516",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump diz que cooperar com a China na regulação da IA prejudicaria empresas dos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump diz que cooperar com a China na regulação da IA prejudicaria empresas dos EUA: por que esse movimento importa?",
+      "postId": "rss-hash_96b7e70",
+      "timestamp": "2026-09-29T16:29:02.696Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.0h (+8), Sem postagem há 7.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Cultura",
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1790691730699",
       "feedName": "G1 - Economia",

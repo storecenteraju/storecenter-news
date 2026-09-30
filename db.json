@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4d21bc68",
+      "views": 0,
+      "date": "2026-09-30T11:15:09.538Z",
+      "title": "Tribunal japonês determina que a voz humana está protegida em caso de IA do: o que muda para usuários e empresas?",
+      "subtitle": "Economia Conteúdo de abuso infantil é divulgado no TikTok Um tribunal de Tóquio decidiu nesta quarta-feira (30) que a voz humana tem proteção legal no Japão, depois que um renomado dublador de anime processou o TikTok por alguns vídeos que.",
+      "slug": "tribunal-japones-determina-que-a-voz-humana-esta-protegida-em-caso-de-ia-do-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Conteúdo de abuso infantil é divulgado no TikTok Um tribunal de Tóquio decidiu nesta quarta-feira (30) que a voz humana tem proteção legal no Japão, depois que um renomado dublador de anime processou o TikTok por alguns vídeos que, segundo ele, usam um clone de sua voz criado por inteligência artificial. A decisão representa uma vitória parcial para Kenjiro Tsuda, conhecido por seus papéis de destaque em grandes franquias como \"Jujutsu Kaisen\" e \"Yu-Gi-Oh!\n\nO que já foi informado\n\n\". O tribunal, no entanto, rejeitou seu pedido para a remoção dos vídeos. \"O uso não autorizado da voz de um intérprete (... A imitação por IA é uma preocupação crescente entre artistas de todo o mundo. A ameaça abalou a histórica indústria de animação do Japão, com alguns dubladores tão adorados pelos fãs quanto seus personagens. O processo é considerado o primeiro no país asiático a buscar a defesa da identidade vocal de uma pessoa contra cópias geradas por IA.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Tribunal japonês determina que a voz humana está Store Center",
+      "seoDescription": "Economia Conteúdo de abuso infantil é divulgado no TikTok Um tribunal de Tóquio decidiu nesta quarta-feira (30) que a voz humana tem",
+      "keyword": "Tribunal japonês determina que a voz humana está protegida em caso de IA do TikTok Fonte 2 Por que algumas pessoas acreditam que a IA é um Anticristo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/30/tribunal-japones-determina-que-a-voz-humana-esta-protegida-em-caso-de-ia-do-tiktok.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/tribunal-japones-determina-que-a-voz-humana-esta-protegida-em-caso-de-ia-do-tiktok.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/por-que-algumas-pessoas-acreditam-que-a-ia-e-um-anticristo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Tribunal japonês determina que a voz humana está protegida em caso de IA do TikTok",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_d93876",
       "views": 0,
       "date": "2026-09-30T09:21:06.979Z",
@@ -15927,7 +15968,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-30T09:21:05.286Z",
+      "lastScraped": "2026-09-30T11:15:07.581Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15935,7 +15976,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-30T09:21:05.969Z",
+      "lastScraped": "2026-09-30T11:15:08.402Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15948,7 +15989,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-30T09:21:06.970Z",
+      "lastScraped": "2026-09-30T11:15:09.525Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16005,6 +16046,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790767000832",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Tribunal japonês determina que a voz humana está protegida em caso de IA do TikTok",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Tribunal japonês determina que a voz humana está protegida em caso de IA do: o que muda para usuários e empresas?",
+      "postId": "rss-hash_4d21bc68",
+      "timestamp": "2026-09-30T11:15:09.539Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.8h (+8), Sem postagem há 25.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790760135992",
       "feedName": "G1 - Economia",

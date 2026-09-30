@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_24467a59",
+      "views": 0,
+      "date": "2026-09-30T16:23:21.811Z",
+      "title": "WhatsApp anuncia novos controles parentais para adolescentes no Brasil: por que isso importa para a economia?",
+      "subtitle": "WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) novos recursos de controle parental para adolescentes no Brasil.",
+      "slug": "whatsapp-anuncia-novos-controles-parentais-para-adolescentes-no-brasil-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nWhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) novos recursos de controle parental para adolescentes no Brasil. Segundo a empresa, as ferramentas permitem que pais e responsáveis configurem a forma como menores de idade podem usar o aplicativo de mensagens.\n\nO que já foi informado\n\nAs novidades fazem parte de uma atualização feita pela Meta em março, quando a empresa liberou recursos semelhantes de proteção para menores de 13 anos no WhatsApp. Agora, o foco são os adolescentes.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "WhatsApp anuncia novos controles parentais para Store Center",
+      "seoDescription": "WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) novos recursos de controle pa",
+      "keyword": "WhatsApp anuncia novos controles parentais para adolescentes no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/30/whatsapp-anuncia-novos-controles-parentais-para-adolescentes-no-brasil.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/whatsapp-anuncia-novos-controles-parentais-para-adolescentes-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "WhatsApp anuncia novos controles parentais para adolescentes no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4a594945",
       "views": 0,
       "date": "2026-09-30T14:14:53.335Z",
@@ -16009,7 +16048,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-30T14:14:51.613Z",
+      "lastScraped": "2026-09-30T16:23:20.483Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16017,7 +16056,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-30T14:14:52.347Z",
+      "lastScraped": "2026-09-30T16:23:20.996Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16030,7 +16069,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-30T14:14:53.323Z",
+      "lastScraped": "2026-09-30T16:23:21.794Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16087,6 +16126,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790785436257",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "WhatsApp anuncia novos controles parentais para adolescentes no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "WhatsApp anuncia novos controles parentais para adolescentes no Brasil: por que isso importa para a economia?",
+      "postId": "rss-hash_24467a59",
+      "timestamp": "2026-09-30T16:23:21.812Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 169.4h (+8), Sem postagem há 169.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790777754082",
       "feedName": "G1 - Economia",

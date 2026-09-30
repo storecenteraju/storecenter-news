@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3040515e",
+      "views": 0,
+      "date": "2026-09-30T21:28:46.635Z",
+      "title": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como ministro do TCU Fonte 2 Política no trabalho: onde termina a",
+      "subtitle": "Economia Rodrigo Pacheco, novo ministro do TCU Edilson Rodrigues/Agência Senado.",
+      "slug": "aliado-de-alcolumbre-rodrigo-pacheco-toma-posse-como-ministro-do-tcu-fonte-2-politica-no-trabalho-onde-termina-a",
+      "content": "O que aconteceu\n\nEconomia Rodrigo Pacheco, novo ministro do TCU Edilson Rodrigues/Agência Senado. O ex-presidente do Senado Rodrigo Pacheco tomou posse nesta quarta-feira (30) como ministro do Tribunal de Contas da União (TCU), mas não participou daquela que seria sua primeira sessão plenária após assumir o cargo.\n\nO que já foi informado\n\nNo início dos trabalhos, o presidente da Corte, ministro Vital do Rêgo, informou que Pacheco apresentou uma justificativa para a ausência. Ele passa a ocupar a vaga aberta com a saída de Bruno Dantas, que renunciou ao cargo para atuar na iniciativa privada. De perfil discreto, o novo ministro dispensou cerimônia pública de boas-vindas. A posse ocorreu em um ato reservado realizado pela manhã na sede da Corte de Contas, em Brasília, com a presença de autoridades dos três Poderes. Senado aprova Rodrigo Pacheco para vaga no TCU Participaram da cerimônia o vice-presidente da República, Geraldo Alckmin; os ministros do Supremo Tribunal Federal (STF) Gilmar Mendes, Alexandre de Moraes, Kassio Nunes Marques e Cristiano Zanin; além do procurador-geral da República, Paulo Gonet.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como Store Center",
+      "seoDescription": "Economia Rodrigo Pacheco, novo ministro do TCU Edilson Rodrigues/Agência Senado.",
+      "keyword": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como ministro do TCU Fonte 2 Política no trabalho: onde termina a conversa e começa o assédio eleitoral?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/09/30/aliado-de-alcolumbre-rodrigo-pacheco-toma-posse-como-ministro-do-tcu.ghtml",
+      "sourceName": "G1 - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/09/30/aliado-de-alcolumbre-rodrigo-pacheco-toma-posse-como-ministro-do-tcu.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/29/politica-no-trabalho-onde-termina-a-conversa-e-comeca-o-assedio-eleitoral.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como ministro do TCU",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_354e0b24",
       "views": 0,
       "date": "2026-09-30T19:45:40.820Z",
@@ -16130,7 +16171,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-30T19:45:39.269Z",
+      "lastScraped": "2026-09-30T21:28:44.833Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16138,7 +16179,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-30T19:45:39.800Z",
+      "lastScraped": "2026-09-30T21:28:45.581Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16151,7 +16192,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-30T19:45:40.806Z",
+      "lastScraped": "2026-09-30T21:28:46.625Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16208,6 +16249,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790803735987",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como ministro do TCU",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Aliado de Alcolumbre, Rodrigo Pacheco toma posse como ministro do TCU Fonte 2 Política no trabalho: onde termina a",
+      "postId": "rss-hash_3040515e",
+      "timestamp": "2026-09-30T21:28:46.636Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 24.0h (+8), Sem postagem há 24.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1790797579466",
       "feedName": "G1 - Economia",

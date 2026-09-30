@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_d93876",
+      "views": 0,
+      "date": "2026-09-30T09:21:06.979Z",
+      "title": "'Nunca é suficiente': como a falta de reconhecimento no trabalho pode afetar a saúde: o que está em jogo no mercado?",
+      "subtitle": "Estresse crônico, assédio e sobrecarga de tarefas estão entre os riscos psicossociais relacionados ao trabalho.",
+      "slug": "nunca-e-suficiente-como-a-falta-de-reconhecimento-no-trabalho-pode-afetar-a-saude-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEstresse crônico, assédio e sobrecarga de tarefas estão entre os riscos psicossociais relacionados ao trabalho. People Images / iStock / Quais fatores podem levar à exaustão?\n\nO que já foi informado\n\nO pesquisador brasileiro Ricardo Bertoni Pompeu, da Faculdade de Ciências Aplicadas da Unicamp (SP), interessou-se por um deles em particular: a falta de reconhecimento profissional e seu impacto na saúde mental dos trabalhadores. O estudo inédito, que ganhou destaque no Jornal da Unicamp (Universidade de Campinas), resultou na tese de doutorado “Reconhecimento no ambiente de trabalho: indo além da Justiça Organizacional”. A pesquisa traz vários depoimentos de assalariados de diferentes setores sobre a exposição contínua a riscos ocupacionais que levaram ao adoecimento. Assédio, presenteísmo, metas inalcançáveis, estagnação, falta de recursos, perspectivas ou invisibilização: a lista é longa na mesma proporção dos estragos que provoca na saúde dos trabalhadores. Segundo o pesquisador, sua inspiração veio principalmente da convivência com seus alunos da Fatec (Faculdade de Tecnologia de Americana), no interior de São Paulo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Nunca é suficiente': como a falta de reconhecimento no Store Center",
+      "seoDescription": "Estresse crônico, assédio e sobrecarga de tarefas estão entre os riscos psicossociais relacionados ao trabalho.",
+      "keyword": "'Nunca é suficiente': como a falta de reconhecimento no trabalho pode afetar a saúde",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/30/nunca-e-suficiente-como-a-falta-de-reconhecimento-no-trabalho-pode-afetar-a-saude.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/30/nunca-e-suficiente-como-a-falta-de-reconhecimento-no-trabalho-pode-afetar-a-saude.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "'Nunca é suficiente': como a falta de reconhecimento no trabalho pode afetar a saúde",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_b0fd45d",
       "views": 0,
       "date": "2026-09-30T05:51:16.345Z",
@@ -15888,7 +15927,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-09-30T05:51:15.271Z",
+      "lastScraped": "2026-09-30T09:21:05.286Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -15896,7 +15935,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-09-30T05:51:15.514Z",
+      "lastScraped": "2026-09-30T09:21:05.969Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -15909,7 +15948,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-09-30T05:51:16.328Z",
+      "lastScraped": "2026-09-30T09:21:06.970Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -15966,6 +16005,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790760135992",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Nunca é suficiente': como a falta de reconhecimento no trabalho pode afetar a saúde",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Nunca é suficiente': como a falta de reconhecimento no trabalho pode afetar a saúde: o que está em jogo no mercado?",
+      "postId": "rss-hash_d93876",
+      "timestamp": "2026-09-30T09:21:06.979Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 64.1h (+8), Sem postagem há 64.1h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790747477523",
       "feedName": "G1 - Economia",

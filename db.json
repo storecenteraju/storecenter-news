@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_47bf3ffb",
+      "views": 0,
+      "date": "2026-10-01T21:53:25.692Z",
+      "title": "Eleições 2026: o que o eleitor pode e não pode fazer antes, durante e logo após a votação Fonte 2 Política no",
+      "subtitle": "Agência Câmara - Política A Justiça Eleitoral tem uma série de regras aplicáveis aos eleitores antes, durante e logo após a votação de 4 de outubro.",
+      "slug": "eleicoes-2026-o-que-o-eleitor-pode-e-nao-pode-fazer-antes-durante-e-logo-apos-a-votacao-fonte-2-politica-no",
+      "content": "O que aconteceu\n\nAgência Câmara - Política A Justiça Eleitoral tem uma série de regras aplicáveis aos eleitores antes, durante e logo após a votação de 4 de outubro. O consultor legislativo da Câmara dos Deputados Maurício Chiaramonte cita, por exemplo, as restrições ao uso de conteúdo de inteligência artificial.\n\nO que já foi informado\n\n“Não é possível fazer tanto o impulsionamento, publicação de conteúdo novo e uso de inteligência artificial no dia da eleição. Nós temos um negócio chamado janela da IA ou lei seca da IA: 72 horas antes da eleição não é possível usar conteúdo sintético com IA, nem nas 24 horas depois da eleição”, explica. Essa restrição vale não só para os eleitores, mas também para partidos políticos, candidatos e provedores de internet. Confira a página especial da Câmara sobre as Eleições 2026 No momento da votação, o uso de qualquer material capaz de registrar o voto do eleitor é proibido - como, por exemplo, celular e óculos inteligentes.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições 2026: o que o eleitor pode e não pode fazer Store Center",
+      "seoDescription": "Agência Câmara - Política A Justiça Eleitoral tem uma série de regras aplicáveis aos eleitores antes, durante e logo após a votação de 4 d",
+      "keyword": "Eleições 2026: o que o eleitor pode e não pode fazer antes, durante e logo após a votação Fonte 2 Política no trabalho: onde termina a conversa e começa o assédio eleitoral?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1307940-eleicoes-2026-o-que-o-eleitor-pode-e-nao-pode-fazer-antes-durante-e-logo-apos-a-votacao",
+      "sourceName": "Agência Câmara - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1307940-eleicoes-2026-o-que-o-eleitor-pode-e-nao-pode-fazer-antes-durante-e-logo-apos-a-votacao",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/09/29/politica-no-trabalho-onde-termina-a-conversa-e-comeca-o-assedio-eleitoral.ghtml"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Eleições 2026: o que o eleitor pode e não pode fazer antes, durante e logo após a votação",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1d66d2f6",
       "views": 0,
       "date": "2026-10-01T19:59:44.551Z",
@@ -16540,7 +16581,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-01T19:59:42.982Z",
+      "lastScraped": "2026-10-01T21:53:23.365Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16548,7 +16589,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-01T19:59:43.522Z",
+      "lastScraped": "2026-10-01T21:53:24.144Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16561,7 +16602,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-01T19:59:44.538Z",
+      "lastScraped": "2026-10-01T21:53:25.679Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16618,6 +16659,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790891702792",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Eleições 2026: o que o eleitor pode e não pode fazer antes, durante e logo após a votação",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições 2026: o que o eleitor pode e não pode fazer antes, durante e logo após a votação Fonte 2 Política no",
+      "postId": "rss-hash_47bf3ffb",
+      "timestamp": "2026-10-01T21:53:25.692Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 24.4h (+8), Sem postagem há 24.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1790884792036",
       "feedName": "G1 - Economia",

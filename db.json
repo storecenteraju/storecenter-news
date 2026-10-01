@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2aa0b27c",
+      "views": 0,
+      "date": "2026-10-01T09:48:20.335Z",
+      "title": "Tarifaço de Trump já derruba vendas de empresas brasileiras: por que esse movimento importa?",
+      "subtitle": "Empresas brasileiras já sentem no caixa o impacto do tarifaço de Donald Trump. Em alguns casos, as vendas para os Estados Unidos caíram 60%.",
+      "slug": "tarifaco-de-trump-ja-derruba-vendas-de-empresas-brasileiras-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEmpresas brasileiras já sentem no caixa o impacto do tarifaço de Donald Trump. Em alguns casos, as vendas para os Estados Unidos caíram 60%.\n\nO que já foi informado\n\nEm outros, foram zeradas. “O mercado americano representava 40% do faturamento em 2025 e este ano 2026 representa zero”, afirma João Baroni, diretor-geral da Engemasa, do setor de manufatura. O executivo acrescenta que, além do impacto das tarifas, os clientes têm reclamado da falta de previsibilidade na compra de equipamentos. \"O que tem nos afetado muito, pois foi um mercado que levou décadas para construirmos e agora vemos ele se despedaçar em questão de meses\", diz. José Neto, diretor da Utilinox, empresa que vende máquinas e equipamentos para uso industrial, afirma que alguns produtos registraram queda de 60% nas vendas para os EUA. No caso da empresa, o tarifaço começou no início do ano, com a alíquota de 50% sobre aço e alumínio, prevista na Seção 232.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Tarifaço de Trump já derruba vendas de empresas Store Center",
+      "seoDescription": "Empresas brasileiras já sentem no caixa o impacto do tarifaço de Donald Trump. Em alguns casos, as vendas para os Estados Unidos caíram 60%.",
+      "keyword": "Tarifaço de Trump já derruba vendas de empresas brasileiras; veja o desafio para substituir os EUA Fonte 2 Dia do Idoso: os 10 melhores países para se aposentar — e quanto você precisa ganhar para morar lá",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/01/tarifaco-de-trump-ja-derruba-vendas-de-empresas-brasileiras-veja-o-desafio-para-substituir-os-eua.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/01/tarifaco-de-trump-ja-derruba-vendas-de-empresas-brasileiras-veja-o-desafio-para-substituir-os-eua.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/01/dia-do-idoso-os-10-melhores-paises-para-se-aposentar-e-quanto-voce-precisa-ganhar-para-morar-la.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Tarifaço de Trump já derruba vendas de empresas brasileiras; veja o desafio para substituir os EUA",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_e6f1de0",
       "views": 0,
       "date": "2026-10-01T06:24:11.627Z",
@@ -16294,7 +16335,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-01T06:24:10.098Z",
+      "lastScraped": "2026-10-01T09:48:18.854Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16302,7 +16343,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-01T06:24:10.773Z",
+      "lastScraped": "2026-10-01T09:48:19.511Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16315,7 +16356,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-01T06:24:11.611Z",
+      "lastScraped": "2026-10-01T09:48:20.321Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16372,6 +16413,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790848133544",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Tarifaço de Trump já derruba vendas de empresas brasileiras; veja o desafio para substituir os EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Tarifaço de Trump já derruba vendas de empresas brasileiras: por que esse movimento importa?",
+      "postId": "rss-hash_2aa0b27c",
+      "timestamp": "2026-10-01T09:48:20.336Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790835941668",
       "feedName": "G1 - Economia",

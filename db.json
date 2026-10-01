@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_34875932",
+      "views": 0,
+      "date": "2026-10-01T17:00:22.887Z",
+      "title": "Polícia espanhola prende adolescente de 16 anos suspeito de liderar grupo de: o que muda para usuários e empresas?",
+      "subtitle": "Economia Rússia fala em ataque hacker ao sistema eleitoral em meio a votações para o Congresso.",
+      "slug": "policia-espanhola-prende-adolescente-de-16-anos-suspeito-de-liderar-grupo-de-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Rússia fala em ataque hacker ao sistema eleitoral em meio a votações para o Congresso. A polícia da Espanha informou nesta quinta-feira (1º) que prendeu um adolescente de 16 anos suspeito de ser o principal responsável pelo grupo de hackers KillSec.\n\nO que já foi informado\n\nA prisão faz parte de uma investigação que envolve vários países europeus e apura cerca de mil ataques com programas de extorsão digital registrados nos últimos dois anos. O adolescente, de nacionalidade romena, foi preso na cidade de Alicante, segundo comunicado da polícia espanhola. Ele é suspeito de atuar como administrador do KillSec, ou seja, de coordenar o funcionamento do grupo, informou uma porta-voz da Europol, agência responsável pela cooperação entre as forças policiais dos países da União Europeia. Além dele, outras duas pessoas na faixa dos 20 anos foram presas: uma no Reino Unido e outra na Romênia. Segundo a porta-voz, Porto Rico apresentou um pedido de extradição do homem detido no Reino Unido, para que ele seja levado ao território e responda às acusações. Uma quarta pessoa, identificada como desenvolvedora do grupo, também foi localizada.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Polícia espanhola prende adolescente de 16 anos Store Center",
+      "seoDescription": "Economia Rússia fala em ataque hacker ao sistema eleitoral em meio a votações para o Congresso.",
+      "keyword": "Polícia espanhola prende adolescente de 16 anos suspeito de liderar grupo de hackers em investigação na Europa Fonte 2 Agentes de IA tentam invadir site do governo do Canadá; caso acende alerta após ataque na Austrália",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/01/policia-espanhola-prende-adolescente-de-16-anos-suspeito-de-liderar-grupo-de-hackers-em-investigacao-na-europa.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/01/policia-espanhola-prende-adolescente-de-16-anos-suspeito-de-liderar-grupo-de-hackers-em-investigacao-na-europa.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/01/agentes-de-ia-tentam-invadir-site-do-governo-do-canada-caso-acende-alerta-apos-ataque-na-australia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Polícia espanhola prende adolescente de 16 anos suspeito de liderar grupo de hackers em investigação na Europa",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_2235b843",
       "views": 0,
       "date": "2026-10-01T14:47:13.155Z",
@@ -16417,7 +16458,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-01T14:47:11.724Z",
+      "lastScraped": "2026-10-01T17:00:21.496Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16425,7 +16466,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-01T14:47:12.246Z",
+      "lastScraped": "2026-10-01T17:00:22.043Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16438,7 +16479,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-01T14:47:13.140Z",
+      "lastScraped": "2026-10-01T17:00:22.875Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16495,6 +16536,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790874072238",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Polícia espanhola prende adolescente de 16 anos suspeito de liderar grupo de hackers em investigação na Europa",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Polícia espanhola prende adolescente de 16 anos suspeito de liderar grupo de: o que muda para usuários e empresas?",
+      "postId": "rss-hash_34875932",
+      "timestamp": "2026-10-01T17:00:22.888Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 24.6h (+8), Sem postagem há 24.6h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790866081709",
       "feedName": "G1 - Economia",

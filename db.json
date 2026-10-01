@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1de4b8b3",
+      "views": 0,
+      "date": "2026-10-01T11:42:40.389Z",
+      "title": "Empresa australiana compra projeto de terras raras em Minas Gerais por R$ 3,5: o que muda para os próximos jogos?",
+      "subtitle": "Economia MP pede que TCU faça auditoria nos projetos de exploração de terras raras no Sul de MG.",
+      "slug": "empresa-australiana-compra-projeto-de-terras-raras-em-minas-gerais-por-r-3-5-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia MP pede que TCU faça auditoria nos projetos de exploração de terras raras no Sul de MG. A Lynas Rare Earths anunciou nesta quinta-feira (1º) um acordo para adquirir a Meteoric Resources por cerca de A$ 968 milhões (aproximadamente R$ 3,5 bilhões, na cotação atual).\n\nO que já foi informado\n\nCom a operação, a empresa australiana passará a controlar o projeto Caldeira, de terras raras, em Minas Gerais. A Meteoric Resources, também australiana, é responsável pelo desenvolvimento do Caldeira, considerado um dos principais projetos de terras raras do Brasil. Segundo o comunicado, a compra será feita por meio de uma troca de ações. Os acionistas da Meteoric receberão 0,0207 ação da Lynas para cada ação que possuem. O valor oferecido equivale a A$ 0,286 por ação da Meteoric, 68,4% acima do preço de fechamento do papel em 30 de setembro. A transação ainda depende da aprovação dos acionistas da Meteoric, de autorização judicial e de aprovações regulatórias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Empresa australiana compra projeto de terras raras em Store Center",
+      "seoDescription": "Economia MP pede que TCU faça auditoria nos projetos de exploração de terras raras no Sul de MG.",
+      "keyword": "Empresa australiana compra projeto de terras raras em Minas Gerais por R$ 3,5 bilhões Fonte 2 Dia do Idoso: os 10 melhores países para se aposentar — e quanto você precisa ganhar para morar lá",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/01/lynas-terras-raras-minas-gerais.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/01/lynas-terras-raras-minas-gerais.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/01/dia-do-idoso-os-10-melhores-paises-para-se-aposentar-e-quanto-voce-precisa-ganhar-para-morar-la.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Empresa australiana compra projeto de terras raras em Minas Gerais por R$ 3,5 bilhões",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2aa0b27c",
       "views": 0,
       "date": "2026-10-01T09:48:20.335Z",
@@ -16335,7 +16376,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-01T09:48:18.854Z",
+      "lastScraped": "2026-10-01T11:42:38.333Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16343,7 +16384,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-01T09:48:19.511Z",
+      "lastScraped": "2026-10-01T11:42:39.059Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16356,7 +16397,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-01T09:48:20.321Z",
+      "lastScraped": "2026-10-01T11:42:40.381Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16413,6 +16454,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790855008919",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Empresa australiana compra projeto de terras raras em Minas Gerais por R$ 3,5 bilhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Empresa australiana compra projeto de terras raras em Minas Gerais por R$ 3,5: o que muda para os próximos jogos?",
+      "postId": "rss-hash_1de4b8b3",
+      "timestamp": "2026-10-01T11:42:40.390Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790848133544",
       "feedName": "G1 - Economia",

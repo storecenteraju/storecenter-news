@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6ea7894c",
+      "views": 0,
+      "date": "2026-10-01T23:26:41.642Z",
+      "title": "'Temos que sobreviver', diz presidente da Disney sobre onda de demissões Fonte 2 Jaecoo 5 mira sucesso do Omoda 5 e",
+      "subtitle": "Brown A presidente da Walt Disney Company, Dana Walden, falou nesta quinta-feira (1º) sobre as demissões na empresa e afirmou que uma reestruturação constante é necessária para a sobrevivência da indústria, segundo a agência de notícias France Press.",
+      "slug": "temos-que-sobreviver-diz-presidente-da-disney-sobre-onda-de-demissoes-fonte-2-jaecoo-5-mira-sucesso-do-omoda-5-e",
+      "content": "O que aconteceu\n\nBrown A presidente da Walt Disney Company, Dana Walden, falou nesta quinta-feira (1º) sobre as demissões na empresa e afirmou que uma reestruturação constante é necessária para a sobrevivência da indústria, segundo a agência de notícias France Press. \"É extremamente doloroso\", descreveu Dana, na conferência Bloomberg Screentime, em Los Angeles.\n\nO que já foi informado\n\nA empresa vem realizando cortes de funcionários nos últimos anos. Cerca de 1000 empregados deixaram a Disney em abril, após a chegada de seu novo CEO, Josh D'Amaro. Dana explicou que a onda mais recente fez parte de um programa de desligamento voluntário que deu a um grupo de executivos \"a oportunidade de decidir se era o momento adequado para sair ou permanecer, cientes de que essa evolução nunca vai parar\". Agora no g1 Em entrevista a Lucas Shaw, editor da Bloomberg, Dana ressaltou que reestruturações são esperadas nesse tipo de indústria. \"A tecnologia colocou nosso negócio na mira e temos que sobreviver, prosperar e crescer\", disse.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Temos que sobreviver', diz presidente da Disney sobre Store Center",
+      "seoDescription": "Brown A presidente da Walt Disney Company, Dana Walden, falou nesta quinta-feira (1º) sobre as demissões na empresa e afirmou que uma reestruturação c",
+      "keyword": "'Temos que sobreviver', diz presidente da Disney sobre onda de demissões Fonte 2 Jaecoo 5 mira sucesso do Omoda 5 e quer desbancar Hyundai Creta e VW T-Cross; será que consegue?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/01/temos-que-sobreviver-diz-presidente-da-disney-sobre-onda-de-demissoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/01/temos-que-sobreviver-diz-presidente-da-disney-sobre-onda-de-demissoes.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/01/jaecoo-5-mira-sucesso-do-omoda-5-e-quer-desbancar-hyundai-creta-e-vw-t-cross-sera-que-consegue.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "'Temos que sobreviver', diz presidente da Disney sobre onda de demissões",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_47bf3ffb",
       "views": 0,
       "date": "2026-10-01T21:53:25.692Z",
@@ -16581,7 +16622,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-01T21:53:23.365Z",
+      "lastScraped": "2026-10-01T23:26:39.856Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16589,7 +16630,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-01T21:53:24.144Z",
+      "lastScraped": "2026-10-01T23:26:40.205Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16602,7 +16643,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-01T21:53:25.679Z",
+      "lastScraped": "2026-10-01T23:26:41.627Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16659,6 +16700,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790897272142",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Temos que sobreviver', diz presidente da Disney sobre onda de demissões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Temos que sobreviver', diz presidente da Disney sobre onda de demissões Fonte 2 Jaecoo 5 mira sucesso do Omoda 5 e",
+      "postId": "rss-hash_6ea7894c",
+      "timestamp": "2026-10-01T23:26:41.643Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.7h (+8), Sem postagem há 8.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790891702792",
       "feedName": "Agência Câmara - Política",

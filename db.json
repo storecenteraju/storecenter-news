@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_10383fd6",
+      "views": 0,
+      "date": "2026-10-02T19:41:59.985Z",
+      "title": "Presidente da Petrobras diz que petróleo encontrado é de 'boa qualidade' e que operação no poço Morpho vai até o fim",
+      "subtitle": "Economia Petrobras anuncia descoberta de petróleo em águas ainda mais profundas na Foz do Amazonas A presidente da Petrobras, Magda Chambriard, afirmou nesta sexta-feira (2), em coletiva de imprensa, que a nova descoberta de petróleo no poço.",
+      "slug": "presidente-da-petrobras-diz-que-petroleo-encontrado-e-de-boa-qualidade-e-que-operacao-no-poco-morpho-vai-ate-o-fim",
+      "content": "O que aconteceu\n\nEconomia Petrobras anuncia descoberta de petróleo em águas ainda mais profundas na Foz do Amazonas A presidente da Petrobras, Magda Chambriard, afirmou nesta sexta-feira (2), em coletiva de imprensa, que a nova descoberta de petróleo no poço Morpho, na costa do Amapá, revelou um óleo de \"boa qualidade\". \"Temos óleo de boa qualidade, como vem sendo de praxe no poço Morpho\", afirmou Chambriard.\n\nO que já foi informado\n\n\"Tal como anunciamos na descoberta de agosto e como estou mostrando para vocês neste tubinho\", acrescentou, exibindo uma amostra da substância coletada há pouco mais de um mês. A empresa já havia encontrado petróleo no mesmo poço em agosto. Agora, ao avançar a perfuração para uma área mais profunda, identificou uma nova zona com presença de petróleo. A descoberta foi confirmada por análises de rochas e de amostras de fluidos coletadas durante a perfuração. O poço Morpho fica no bloco FZA-M-59, na Bacia da Foz do Amazonas, a cerca de 175 quilômetros da costa de Oiapoque (AP).\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente da Petrobras diz que petróleo encontrado é Store Center",
+      "seoDescription": "Economia Petrobras anuncia descoberta de petróleo em águas ainda mais profundas na Foz do Amazonas A presidente da Petrobras, Magda C",
+      "keyword": "Presidente da Petrobras diz que petróleo encontrado é de 'boa qualidade' e que operação no poço Morpho vai até o fim do mês Fonte 2 Leapmotor B10 híbrido é mais barato que os rivais e tenta fazer marca decolar no Brasil; vale a pena?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/02/coletiva-chambriard-petrobras.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/02/coletiva-chambriard-petrobras.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/02/leapmotor-b10-teste.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Presidente da Petrobras diz que petróleo encontrado é de 'boa qualidade' e que operação no poço Morpho vai até o fim do mês",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7fc11493",
       "views": 0,
       "date": "2026-10-02T18:00:29.173Z",
@@ -16909,7 +16950,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T18:00:25.867Z",
+      "lastScraped": "2026-10-02T19:41:58.200Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16917,7 +16958,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T18:00:26.556Z",
+      "lastScraped": "2026-10-02T19:41:58.870Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16930,7 +16971,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T18:00:29.160Z",
+      "lastScraped": "2026-10-02T19:41:59.968Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16987,6 +17028,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790970142725",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Presidente da Petrobras diz que petróleo encontrado é de 'boa qualidade' e que operação no poço Morpho vai até o fim do mês",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente da Petrobras diz que petróleo encontrado é de 'boa qualidade' e que operação no poço Morpho vai até o fim",
+      "postId": "rss-hash_10383fd6",
+      "timestamp": "2026-10-02T19:41:59.986Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.0h (+8), Sem postagem há 18.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790964044862",
       "feedName": "G1 - Economia",

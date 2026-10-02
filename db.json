@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7fc11493",
+      "views": 0,
+      "date": "2026-10-02T18:00:29.173Z",
+      "title": "Quem é Shivon Zilis, ex-companheira de Elon Musk e executiva da Neuralink Fonte 2 Executiva Shivon Zilis diz que seu?",
+      "subtitle": "Economia Shivon Zilis é executiva na Neuralink.",
+      "slug": "quem-e-shivon-zilis-ex-companheira-de-elon-musk-e-executiva-da-neuralink-fonte-2-executiva-shivon-zilis-diz-que-seu",
+      "content": "O que aconteceu\n\nEconomia Shivon Zilis é executiva na Neuralink. Repropdução/X Shivon Zilis, executiva da Neuralink, empresa de Elon Musk voltada ao desenvolvimento de implantes cerebrais, confirmou nesta sexta-feira (2) o fim de seu relacionamento com o bilionário.\n\nO que já foi informado\n\nOs dois tiveram quatro filhos em cinco anos, concebidos por fertilização in vitro (FIV), técnica que utiliza óvulos e espermatozoides em laboratório antes de transferir o embrião para o útero. Nascida no Canadá, Zilis é formada pela Universidade Yale e tem trajetória profissional ligada à inteligência artificial (IA) e ao aprendizado de máquina, área da computação que permite a sistemas identificar padrões e aprender com dados. Desde 2017, ela atua na Neuralink como diretora de operações e projetos especiais. Antes disso, foi diretora de projetos da Tesla, onde trabalhou em projetos de IA ligados às equipes do Autopilot e de desenvolvimento de chips. Agora no g1 Na OpenAI, foi consultora entre 2016 e 2019 e integrou o conselho da empresa de 2020 a 2023.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quem é Shivon Zilis, ex-companheira de Elon Musk e Store Center",
+      "seoDescription": "Economia Shivon Zilis é executiva na Neuralink.",
+      "keyword": "Quem é Shivon Zilis, ex-companheira de Elon Musk e executiva da Neuralink Fonte 2 Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou sentir falta dele'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/02/quem-e-shivon-zilis-ex-companheira-de-elon-musk-e-executiva-da-neuralink.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/02/quem-e-shivon-zilis-ex-companheira-de-elon-musk-e-executiva-da-neuralink.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/02/shivon-zilis-e-elon-musk.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Quem é Shivon Zilis, ex-companheira de Elon Musk e executiva da Neuralink",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_52e4fb26",
       "views": 0,
       "date": "2026-10-02T16:15:06.054Z",
@@ -16868,7 +16909,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T16:15:04.092Z",
+      "lastScraped": "2026-10-02T18:00:25.867Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16876,7 +16917,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T16:15:04.444Z",
+      "lastScraped": "2026-10-02T18:00:26.556Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16889,7 +16930,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T16:15:06.042Z",
+      "lastScraped": "2026-10-02T18:00:29.160Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16946,6 +16987,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790964044862",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quem é Shivon Zilis, ex-companheira de Elon Musk e executiva da Neuralink",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quem é Shivon Zilis, ex-companheira de Elon Musk e executiva da Neuralink Fonte 2 Executiva Shivon Zilis diz que seu?",
+      "postId": "rss-hash_7fc11493",
+      "timestamp": "2026-10-02T18:00:29.174Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 49.6h (+8), Sem postagem há 49.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790957789811",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2eb370be",
+      "views": 0,
+      "date": "2026-10-02T21:23:04.000Z",
+      "title": "Leapmotor B10 híbrido é mais barato que rivais e tenta fazer marca decolar; vale a: o que está em jogo no mercado?",
+      "subtitle": "Leapmotor Com um ano de operação no Brasil, a Leapmotor ainda tenta ganhar espaço no mercado brasileiro, disputado por outras marcas chinesas, como GAC, Omoda Jaecoo, Geely, GWM e BYD.",
+      "slug": "leapmotor-b10-hibrido-e-mais-barato-que-rivais-e-tenta-fazer-marca-decolar-vale-a-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nLeapmotor Com um ano de operação no Brasil, a Leapmotor ainda tenta ganhar espaço no mercado brasileiro, disputado por outras marcas chinesas, como GAC, Omoda Jaecoo, Geely, GWM e BYD. A versão híbrida do SUV B10 chega ao país por R$ 179.990 e aposta na tecnologia REEV para se diferenciar.\n\nO que já foi informado\n\nO sistema é um híbrido plug-in \"às avessas\", em que o motor a combustão não movimenta as rodas, mas funciona como gerador para recarregar a bateria que alimenta o motor elétrico. O B10 utiliza um motor 1.5 aspirado como gerador de eletricidade e tem bateria de 18,8 kWh. Com o tanque cheio e a bateria totalmente carregada por meio do sistema plug-in, o B10 promete autonomia de até 900 km. O g1 percorreu quase 120 km pelas proximidades de São Paulo (SP) para entender se o modelo tem vantagens suficientes para fazer seu nome. Agora no g1 Como anda o Leapmotor B10 A tecnologia do Leapmotor B10 híbrido não faz com que o carro se destaque pelo desempenho. Ele segue sendo um SUV focado no conforto, com bom espaço interno e adequado para famílias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Leapmotor B10 híbrido é mais barato que rivais e tenta Store Center",
+      "seoDescription": "Leapmotor Com um ano de operação no Brasil, a Leapmotor ainda tenta ganhar espaço no mercado brasileiro, disputado por outras marcas chinesas, como GA",
+      "keyword": "Leapmotor B10 híbrido é mais barato que rivais e tenta fazer marca decolar; vale a pena? Fonte 2 Caso Master: Fachin marca reunião com PF para tratar de menções a ministros do STF",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/02/leapmotor-b10-teste.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/02/leapmotor-b10-teste.ghtml",
+        "https://g1.globo.com/economia/blog/ana-flor/post/2026/10/02/fachin-marca-reuniao-com-pf-para-tratar-de-mencoes-a-ministros-do-stf-no-master.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Leapmotor B10 híbrido é mais barato que rivais e tenta fazer marca decolar; vale a pena?",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_10383fd6",
       "views": 0,
       "date": "2026-10-02T19:41:59.985Z",
@@ -16950,7 +16991,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T19:41:58.200Z",
+      "lastScraped": "2026-10-02T21:23:02.061Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16958,7 +16999,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T19:41:58.870Z",
+      "lastScraped": "2026-10-02T21:23:02.607Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16971,7 +17012,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T19:41:59.968Z",
+      "lastScraped": "2026-10-02T21:23:03.985Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17028,6 +17069,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790976277052",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Leapmotor B10 híbrido é mais barato que rivais e tenta fazer marca decolar; vale a pena?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Leapmotor B10 híbrido é mais barato que rivais e tenta fazer marca decolar; vale a: o que está em jogo no mercado?",
+      "postId": "rss-hash_2eb370be",
+      "timestamp": "2026-10-02T21:23:04.000Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 20",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790970142725",
       "feedName": "G1 - Economia",

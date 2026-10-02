@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4e2b90de",
+      "views": 0,
+      "date": "2026-10-02T11:12:19.886Z",
+      "title": "Empresa registra mais de 15,7 mil dias de atestados em 6 meses no ES: número: por que isso importa para a economia?",
+      "subtitle": "Economia Empresa no ES registra mais de 15 mil dias de atestados em seis meses Uma rede de supermercados com dez unidades na Grande Vitória, no Espírito Santo, registrou 15.705 dias de atestados entre janeiro e julho deste ano.",
+      "slug": "empresa-registra-mais-de-15-7-mil-dias-de-atestados-em-6-meses-no-es-numero-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Empresa no ES registra mais de 15 mil dias de atestados em seis meses Uma rede de supermercados com dez unidades na Grande Vitória, no Espírito Santo, registrou 15.705 dias de atestados entre janeiro e julho deste ano. A empresa, que possui 5.500 funcionários, não especificou os motivos dos afastamentos.\n\nO que já foi informado\n\nPara mostrar o que esse volume de licenças médicas representa na prática, o g1 traduziu os números em três comparações práticas: Se os 15,7 mil dias de licenças fossem divididos igualmente entre os 5,5 mil empregados, cada trabalhador teria uma média de 2,8 dias de afastamento em seis meses. Se o total de atestados fosse distribuído de forma contínua ao longo dos 181 dias do semestre, a média seria de 87 trabalhadores ausentes por dia. Se todas as ausências acontecessem de uma só vez, o acumulado de atestados seria suficiente para manter uma unidade com 500 colaboradores de portas fechadas por um mês inteiro (500 funcionários x 30 dias 15 mil ausências).\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Empresa registra mais de 15,7 mil dias de atestados em Store Center",
+      "seoDescription": "Economia Empresa no ES registra mais de 15 mil dias de atestados em seis meses Uma rede de supermercados com dez unidades na Grande V",
+      "keyword": "Empresa registra mais de 15,7 mil dias de atestados em 6 meses no ES: número alto de afastamentos pode gerar demissão? Fonte 2 Leilão da Receita tem iPhone por R$ 3 mil e Camaro Amarelo por R$ 50 mil; saiba como participar",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/noticia/2026/10/02/empresa-registra-mais-de-157-mil-dias-de-atestados-em-6-meses-no-es-numero-alto-de-afastamentos-pode-gerar-demissao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/es/espirito-santo/noticia/2026/10/02/empresa-registra-mais-de-157-mil-dias-de-atestados-em-6-meses-no-es-numero-alto-de-afastamentos-pode-gerar-demissao.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/02/leilao-da-receita-tem-iphone-por-r-3-mil-e-camaro-amarelo-por-r-50-mil-saiba-como-participar.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Empresa registra mais de 15,7 mil dias de atestados em 6 meses no ES: número alto de afastamentos pode gerar demissão?",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_7e481b8e",
       "views": 0,
       "date": "2026-10-02T09:24:30.841Z",
@@ -16745,7 +16786,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T09:24:26.824Z",
+      "lastScraped": "2026-10-02T11:12:18.326Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16753,7 +16794,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T09:24:27.930Z",
+      "lastScraped": "2026-10-02T11:12:18.864Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16766,7 +16807,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T09:24:30.831Z",
+      "lastScraped": "2026-10-02T11:12:19.871Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16823,6 +16864,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790939565760",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Empresa registra mais de 15,7 mil dias de atestados em 6 meses no ES: número alto de afastamentos pode gerar demissão?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Empresa registra mais de 15,7 mil dias de atestados em 6 meses no ES: número: por que isso importa para a economia?",
+      "postId": "rss-hash_4e2b90de",
+      "timestamp": "2026-10-02T11:12:19.887Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.5h (+8), Sem postagem há 9.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790933107038",
       "feedName": "G1 - Economia",

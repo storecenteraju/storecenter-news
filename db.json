@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_52e4fb26",
+      "views": 0,
+      "date": "2026-10-02T16:15:06.054Z",
+      "title": "Trump deve nomear Jay Clayton, atual diretor de espionagem, como 'czar' da: por que esse movimento importa?",
+      "subtitle": "VIA O presidente dos Estados Unidos, Donald Trump, deve escolher Jay Clayton para o posto de \"czar\" de inteligência artificial da Casa Branca.",
+      "slug": "trump-deve-nomear-jay-clayton-atual-diretor-de-espionagem-como-czar-da-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nVIA O presidente dos Estados Unidos, Donald Trump, deve escolher Jay Clayton para o posto de \"czar\" de inteligência artificial da Casa Branca. A informação foi divulgada pela rede CNN, a partir de duas fontes familiarizadas com as discussões.\n\nO que já foi informado\n\nA decisão envolvendo Clayton, que hoje ocupa o cargo de diretor de inteligência nacional, pode ser oficializada pelo presidente já nesta sexta-feira (2). A escolha do nome avança na promessa feita por Trump em setembro, quando confirmou a criação do cargo e a estruturação de uma força-tarefa voltada ao fomento da tecnologia no país. Na ocasião, o presidente defendeu a aceleração da inteligência artificial e afirmou que o governo não vai \"impedir ou sufocar o crescimento desta indústria incrível\". Trump anuncia que vai nomear 'czar da IA' e criar força-tarefa para tecnologia A estratégia da Casa Branca contrasta com apelos recentes por uma desaceleração do desenvolvimento da tecnologia. Trump já descartou a elaboração de leis e normas nacionais para regular o setor e chegou a classificar ações contra a inteligência artificial e os centros de dados como uma \"conspiração doentia\". O presidente americano defende uma autorregulação do setor de IA.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump deve nomear Jay Clayton, atual diretor de Store Center",
+      "seoDescription": "VIA O presidente dos Estados Unidos, Donald Trump, deve escolher Jay Clayton para o posto de \"czar\" de inteligência artificial da Casa Branca.",
+      "keyword": "Trump deve nomear Jay Clayton, atual diretor de espionagem, como 'czar' da inteligência artificial, diz TV Fonte 2 Como ativar o controle parental para adolescentes no WhatsApp",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/02/trump-czar-ia.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/02/trump-czar-ia.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/como-ativar-o-controle-parental-para-adolescentes-no-whatsapp.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Trump deve nomear Jay Clayton, atual diretor de espionagem, como 'czar' da inteligência artificial, diz TV",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_79ec6c54",
       "views": 0,
       "date": "2026-10-02T14:09:35.541Z",
@@ -16827,7 +16868,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T14:09:34.449Z",
+      "lastScraped": "2026-10-02T16:15:04.092Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -16835,7 +16876,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T14:09:34.692Z",
+      "lastScraped": "2026-10-02T16:15:04.444Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -16848,7 +16889,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T14:09:35.528Z",
+      "lastScraped": "2026-10-02T16:15:06.042Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -16905,6 +16946,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790957789811",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump deve nomear Jay Clayton, atual diretor de espionagem, como 'czar' da inteligência artificial, diz TV",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump deve nomear Jay Clayton, atual diretor de espionagem, como 'czar' da: por que esse movimento importa?",
+      "postId": "rss-hash_52e4fb26",
+      "timestamp": "2026-10-02T16:15:06.055Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 47.9h (+8), Sem postagem há 47.9h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura",
+        "Política"
+      ]
+    },
     {
       "id": "1790950239507",
       "feedName": "Agência Câmara - Política",

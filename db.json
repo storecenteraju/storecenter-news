@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4ef85aac",
+      "views": 0,
+      "date": "2026-10-03T20:01:39.802Z",
+      "title": "'O gado está morrendo de sede e fome': o impacto devastador do El Niño no: por que isso importa para a economia?",
+      "subtitle": "Economia 'Nunca vi uma seca como esta', afirma o agricultor Juan Estanislao Muñoz, que mora no sul de Honduras.",
+      "slug": "o-gado-esta-morrendo-de-sede-e-fome-o-impacto-devastador-do-el-nino-no-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia 'Nunca vi uma seca como esta', afirma o agricultor Juan Estanislao Muñoz, que mora no sul de Honduras. Gentileza WFP Juan Estanislao Muñoz está acostumado com secas intensas.\n\nO que já foi informado\n\nMas ele garante que a seca atual não tem precedentes. \"Tenho 61 anos e nunca, na minha vida, vi uma seca como esta\", afirma ele. \"Não haverá colheita, não haverá nada. \" Muñoz é agricultor e mora com um sobrinho na comunidade das Chácaras no Departamento de Choluteca, no sul de Honduras. Sua casa fica no Corredor Seco da América Central, uma faixa de terra que atravessa parte da Guatemala, Honduras, El Salvador, Nicarágua e Costa Rica. Agora no g1 Mais de 10 milhões de pessoas moram na região.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'O gado está morrendo de sede e fome': o impacto Store Center",
+      "seoDescription": "Economia 'Nunca vi uma seca como esta', afirma o agricultor Juan Estanislao Muñoz, que mora no sul de Honduras.",
+      "keyword": "'O gado está morrendo de sede e fome': o impacto devastador do El Niño no Corredor Seco da América Central Fonte 2 Países já liberaram 325 milhões de barris de petróleo para conter alta dos preços, diz IEA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/03/o-gado-esta-morrendo-de-sede-e-fome-o-impacto-devastador-do-el-nino-no-corredor-seco-da-america-central.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/03/o-gado-esta-morrendo-de-sede-e-fome-o-impacto-devastador-do-el-nino-no-corredor-seco-da-america-central.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/03/paises-ja-liberaram-325-milhoes-de-barris-de-petroleo-para-conter-alta-dos-precos-diz-iea.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "'O gado está morrendo de sede e fome': o impacto devastador do El Niño no Corredor Seco da América Central",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_7477acde",
       "views": 0,
       "date": "2026-10-03T18:27:55.236Z",
@@ -17352,7 +17393,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T18:27:53.582Z",
+      "lastScraped": "2026-10-03T20:01:37.197Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17360,7 +17401,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T18:27:54.219Z",
+      "lastScraped": "2026-10-03T20:01:38.760Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17373,7 +17414,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T18:27:55.227Z",
+      "lastScraped": "2026-10-03T20:01:39.787Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17430,6 +17471,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791057708156",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'O gado está morrendo de sede e fome': o impacto devastador do El Niño no Corredor Seco da América Central",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'O gado está morrendo de sede e fome': o impacto devastador do El Niño no: por que isso importa para a economia?",
+      "postId": "rss-hash_4ef85aac",
+      "timestamp": "2026-10-03T20:01:39.803Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.5h (+8), Sem postagem há 9.5h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Geopolítica",
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791052102104",
       "feedName": "G1 - Economia",

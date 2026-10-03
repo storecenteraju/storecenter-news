@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4d8ef2ed",
+      "views": 0,
+      "date": "2026-10-03T08:53:36.791Z",
+      "title": "Mico ou inovação? Por que candidatos querem mais data centers no Brasil enquanto: por que esse movimento importa?",
+      "subtitle": "Jonathan Ernst Incentivos fiscais, fabricação local de componentes e IA brasileira: os candidatos à Presidência mais bem colocados nas pesquisas apresentam essas como algumas das propostas em seus planos de governo para atrair a construção de data centers no.",
+      "slug": "mico-ou-inovacao-por-que-candidatos-querem-mais-data-centers-no-brasil-enquanto-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nJonathan Ernst Incentivos fiscais, fabricação local de componentes e IA brasileira: os candidatos à Presidência mais bem colocados nas pesquisas apresentam essas como algumas das propostas em seus planos de governo para atrair a construção de data centers no Brasil. Um data center (\"centro de dados\", em inglês) é um local que armazena e processa informações.\n\nO que já foi informado\n\nEntre os modelos mais comuns, estão os de nuvem — cloud, para armazenar arquivos e operar serviços na internet — e de inteligência artificial, para treinar modelos de linguagem complexos. Facilitar a construção de data centers é uma ação que alguns dos candidatos consideram importante para aproveitar o avanço da IA. Mas, enquanto o Brasil tenta atrair essas instalações, países como os Estados Unidos têm enfrentado protestos contra o avanço do setor. Com rejeição em outros lugares, por que candidatos no Brasil querem atrair mais data centers? Entre os motivos, estão as diferenças no tamanho dos mercados e nas matrizes energéticas dos países. Manifestantes protestam contra expansão de centros de dados de IA nos EUA Os EUA têm mais de 4.700 data centers e lideram o segmento, segundo dados de setembro do site Data Center Map.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mico ou inovação? Por que candidatos querem mais data Store Center",
+      "seoDescription": "Jonathan Ernst Incentivos fiscais, fabricação local de componentes e IA brasileira: os candidatos à Presidência mais bem colocados nas pesquisas apres",
+      "keyword": "Mico ou inovação? Por que candidatos querem mais data centers no Brasil enquanto cresce a rejeição nos EUA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/03/mico-ou-inovacao-por-que-candidatos-querem-mais-data-centers-no-brasil-enquanto-cresce-a-rejeicao-nos-eua.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/03/mico-ou-inovacao-por-que-candidatos-querem-mais-data-centers-no-brasil-enquanto-cresce-a-rejeicao-nos-eua.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Mico ou inovação? Por que candidatos querem mais data centers no Brasil enquanto cresce a rejeição nos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_218a6d87",
       "views": 0,
       "date": "2026-10-03T05:36:56.254Z",
@@ -17110,7 +17149,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T05:36:54.930Z",
+      "lastScraped": "2026-10-03T08:53:35.048Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17118,7 +17157,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T05:36:55.169Z",
+      "lastScraped": "2026-10-03T08:53:35.582Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17131,7 +17170,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T05:36:56.242Z",
+      "lastScraped": "2026-10-03T08:53:36.780Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17188,6 +17227,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791017629513",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mico ou inovação? Por que candidatos querem mais data centers no Brasil enquanto cresce a rejeição nos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mico ou inovação? Por que candidatos querem mais data centers no Brasil enquanto: por que esse movimento importa?",
+      "postId": "rss-hash_4d8ef2ed",
+      "timestamp": "2026-10-03T08:53:36.792Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 233.9h (+8), Sem postagem há 233.9h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791005851459",
       "feedName": "G1 - Economia",

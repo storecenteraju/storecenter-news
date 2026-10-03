@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "rss-hash_317e57a1",
+      "views": 0,
+      "date": "2026-10-03T22:26:55.042Z",
+      "title": "Por que a Espanha, que construía casas demais, vive hoje uma grave crise de moradia?",
+      "subtitle": "Milhares foram às ruas de Madri neste sábado EPA Nos últimos dias, o nome da aposentada Maricarmen Abascal, de 87 anos, esteve presente em muitas rodas de conversa na Espanha.",
+      "slug": "por-que-a-espanha-que-construia-casas-demais-vive-hoje-uma-grave-crise-de-moradia",
+      "content": "O que aconteceu\n\nMilhares foram às ruas de Madri neste sábado EPA Nos últimos dias, o nome da aposentada Maricarmen Abascal, de 87 anos, esteve presente em muitas rodas de conversa na Espanha. As imagens da idosa sendo retirada de maca pelos paramédicos do apartamento no centro de Madri, onde ela morou de aluguel por sete décadas, comoveram o país.\n\nO que já foi informado\n\nSiga o canal de notícias internacionais do g1 no WhatsApp Abascal finalmente poderá voltar para casa, depois de celebrar um acordo com a empresa proprietária do imóvel. Mas o impacto causado pelo incidente não termina por aqui. Além de provocar uma onda de protestos, o caso voltou a colocar no centro do debate público um dos problemas que mais preocupam os espanhóis há anos, segundo as pesquisas: o acesso à moradia. Crise habitacional na Espanha: Parlamento derruba decretos do governo que mudavam regras de aluguel Neste sábado (3/10), milhares de manifestantes foram às ruas em toda a Espanha exigindo maior proteção aos inquilinos, após o governo não conseguir aprovar no parlamento, na sexta-feira (2/10), uma legislação emergencial sobre habitação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que a Espanha, que construía casas demais, vive Store Center",
+      "seoDescription": "Milhares foram às ruas de Madri neste sábado EPA Nos últimos dias, o nome da aposentada Maricarmen Abascal, de 87 anos, esteve presente em muitas roda",
+      "keyword": "Por que a Espanha, que construía casas demais, vive hoje uma grave crise de moradia",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/10/03/por-que-a-espanha-que-construia-casas-demais-vive-hoje-uma-grave-crise-de-moradia.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/10/03/por-que-a-espanha-que-construia-casas-demais-vive-hoje-uma-grave-crise-de-moradia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que a Espanha, que construía casas demais, vive hoje uma grave crise de moradia",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_4ef85aac",
       "views": 0,
       "date": "2026-10-03T20:01:39.802Z",
@@ -17393,7 +17433,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T20:01:37.197Z",
+      "lastScraped": "2026-10-03T22:26:53.743Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17401,7 +17441,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T20:01:38.760Z",
+      "lastScraped": "2026-10-03T22:26:54.223Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17414,7 +17454,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T20:01:39.787Z",
+      "lastScraped": "2026-10-03T22:26:55.028Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17471,6 +17511,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791066514167",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que a Espanha, que construía casas demais, vive hoje uma grave crise de moradia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que a Espanha, que construía casas demais, vive hoje uma grave crise de moradia?",
+      "postId": "rss-hash_317e57a1",
+      "timestamp": "2026-10-03T22:26:55.043Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791057708156",
       "feedName": "G1 - Economia",

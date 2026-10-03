@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7477acde",
+      "views": 0,
+      "date": "2026-10-03T18:27:55.236Z",
+      "title": "Por que algumas pessoas acreditam que a IA é um Anticristo?",
+      "subtitle": "\"A IA terá papel central nos tempos finais.",
+      "slug": "por-que-algumas-pessoas-acreditam-que-a-ia-e-um-anticristo",
+      "content": "O que aconteceu\n\n\"A IA terá papel central nos tempos finais. \" Estas palavras não vêm de mais um profissional das empresas de tecnologia, alertando sobre uma iminente ameaça à humanidade, mas sim de Philip Anthony Mitchell, um pastor de enorme influência, de Atlanta, nos Estados Unidos.\n\nO que já foi informado\n\nPor \"tempos finais\", ele quis dizer o fim do mundo. Mais de um ano se passou após a profecia de Mitchell. E muitos outros cristãos importantes, em fóruns que variam do TikTok e podcasts até o setor editorial, estão discutindo se a inteligência artificial poderá ser um catalisador da destruição do planeta. Agora no g1 \"A IA pode fazer parte de um cenário de fim dos tempos? \", questiona o megapastor americano Greg Laurie. \"É muito possível.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que algumas pessoas acreditam que a IA é um Store Center",
+      "seoDescription": "\"A IA terá papel central nos tempos finais.",
+      "keyword": "Por que algumas pessoas acreditam que a IA é um Anticristo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/30/por-que-algumas-pessoas-acreditam-que-a-ia-e-um-anticristo.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/por-que-algumas-pessoas-acreditam-que-a-ia-e-um-anticristo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Por que algumas pessoas acreditam que a IA é um Anticristo",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_4f6f351c",
       "views": 0,
       "date": "2026-10-03T16:39:13.137Z",
@@ -17313,7 +17352,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T16:39:11.808Z",
+      "lastScraped": "2026-10-03T18:27:53.582Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17321,7 +17360,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T16:39:12.305Z",
+      "lastScraped": "2026-10-03T18:27:54.219Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17334,7 +17373,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T16:39:13.125Z",
+      "lastScraped": "2026-10-03T18:27:55.227Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17391,6 +17430,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791052102104",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que algumas pessoas acreditam que a IA é um Anticristo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que algumas pessoas acreditam que a IA é um Anticristo?",
+      "postId": "rss-hash_7477acde",
+      "timestamp": "2026-10-03T18:27:55.237Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.6h (+8), Sem postagem há 9.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791045597598",
       "feedName": "G1 - Economia",

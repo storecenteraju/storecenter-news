@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2162de1b",
+      "views": 0,
+      "date": "2026-10-03T12:44:38.499Z",
+      "title": "Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou: o que muda para usuários e empresas?",
+      "subtitle": "Elon Musk terminou abruptamente seu relacionamento com a executiva Shivon Zilis, afirmou ela em uma postagem no X nesta sexta-feira (2).",
+      "slug": "executiva-shivon-zilis-diz-que-seu-relacionamento-com-elon-musk-terminou-vou-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nElon Musk terminou abruptamente seu relacionamento com a executiva Shivon Zilis, afirmou ela em uma postagem no X nesta sexta-feira (2). Segundo Zilis, os dois passaram do amor à separação em apenas uma semana, sem aviso prévio.\n\nO que já foi informado\n\n\"É difícil passar do amor para deixar ir em uma semana sem aviso, mas às vezes é assim mesmo\", escreveu. Em seguida, acrescentou: \"Vou sentir muita falta dele\". (Leia a íntegra ao final da reportagem). Vale lembrar que Shivon Zilis trabalha com Musk. Ela faz parte do alto escalão da Neuralink, empresa de neurotecnologia do trilionário. Na vida pessoal, os dois tiveram quatro filhos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Executiva Shivon Zilis diz que seu relacionamento com Store Center",
+      "seoDescription": "Elon Musk terminou abruptamente seu relacionamento com a executiva Shivon Zilis, afirmou ela em uma postagem no X nesta sexta-feira (2).",
+      "keyword": "Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou sentir falta dele' Fonte 2 Como ativar o controle parental para adolescentes no WhatsApp",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/02/shivon-zilis-e-elon-musk.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/02/shivon-zilis-e-elon-musk.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/como-ativar-o-controle-parental-para-adolescentes-no-whatsapp.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou sentir falta dele'",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_61d434a0",
       "views": 0,
       "date": "2026-10-03T10:29:43.690Z",
@@ -17190,7 +17231,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T10:29:41.388Z",
+      "lastScraped": "2026-10-03T12:44:34.187Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17198,7 +17239,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T10:29:42.020Z",
+      "lastScraped": "2026-10-03T12:44:34.651Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17211,7 +17252,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T10:29:43.677Z",
+      "lastScraped": "2026-10-03T12:44:38.488Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17268,6 +17309,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791031491666",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou sentir falta dele'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Executiva Shivon Zilis diz que seu relacionamento com Elon Musk terminou: 'Vou: o que muda para usuários e empresas?",
+      "postId": "rss-hash_2162de1b",
+      "timestamp": "2026-10-03T12:44:38.500Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 10",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791023467605",
       "feedName": "G1 - Economia",

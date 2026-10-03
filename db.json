@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_61d434a0",
+      "views": 0,
+      "date": "2026-10-03T10:29:43.690Z",
+      "title": "O que deu errado para a Nike? Como gigante mundial de artigos esportivos perdeu 'brilho' Fonte 2 Não são só as contas?",
+      "subtitle": "A maior marca de roupas esportivas do planeta, batizada em homenagem à antiga deusa grega da vitória, vem sofrendo perdas ultimamente.",
+      "slug": "o-que-deu-errado-para-a-nike-como-gigante-mundial-de-artigos-esportivos-perdeu-brilho-fonte-2-nao-sao-so-as-contas",
+      "content": "O que aconteceu\n\nA maior marca de roupas esportivas do planeta, batizada em homenagem à antiga deusa grega da vitória, vem sofrendo perdas ultimamente. Perdendo vendas, perdendo clientes e ficando para trás em relação aos concorrentes.\n\nO que já foi informado\n\nA empresa que outrora revolucionou o setor agora faz parte do grupo tradicional de empresas que dominam o mercado, e está no meio de um complexo plano de reestruturação para manter sua posição dominante. Os resultados financeiros mais recentes da Nike mostram sinais de que a estratégia de reestruturação implementada pelo veterano da empresa, Elliott Hill, que foi convencido a sair da aposentadoria há cerca de dois anos para liderar a companhia, está funcionando – mas o ritmo da mudança é mais de maratona do que de corrida de velocidade. No entanto, sua recuperação foi prejudicada pela perda do astro do futebol Kylian Mbappé, que encerrou sua associação de 20 anos com a marca na semana passada para se juntar à concorrente suíça On, que está em rápido crescimento.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que deu errado para a Nike? Como gigante mundial de Store Center",
+      "seoDescription": "A maior marca de roupas esportivas do planeta, batizada em homenagem à antiga deusa grega da vitória, vem sofrendo perdas ultimamente.",
+      "keyword": "O que deu errado para a Nike? Como gigante mundial de artigos esportivos perdeu 'brilho' Fonte 2 Não são só as contas públicas: economistas listam desafios do próximo governo, seja ele qual for",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/03/o-que-deu-errado-para-a-nike-como-gigante-mundial-de-artigos-esportivos-perdeu-brilho.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/03/o-que-deu-errado-para-a-nike-como-gigante-mundial-de-artigos-esportivos-perdeu-brilho.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/03/nao-sao-so-as-contas-publicas-economistas-listam-desafios-do-proximo-governo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "O que deu errado para a Nike? Como gigante mundial de artigos esportivos perdeu 'brilho'",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_4d8ef2ed",
       "views": 0,
       "date": "2026-10-03T08:53:36.791Z",
@@ -17149,7 +17190,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T08:53:35.048Z",
+      "lastScraped": "2026-10-03T10:29:41.388Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17157,7 +17198,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T08:53:35.582Z",
+      "lastScraped": "2026-10-03T10:29:42.020Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17170,7 +17211,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T08:53:36.780Z",
+      "lastScraped": "2026-10-03T10:29:43.677Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17227,6 +17268,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791023467605",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que deu errado para a Nike? Como gigante mundial de artigos esportivos perdeu 'brilho'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que deu errado para a Nike? Como gigante mundial de artigos esportivos perdeu 'brilho' Fonte 2 Não são só as contas?",
+      "postId": "rss-hash_61d434a0",
+      "timestamp": "2026-10-03T10:29:43.690Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.3h (+8), Sem postagem há 9.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791017629513",
       "feedName": "G1 - Economia",

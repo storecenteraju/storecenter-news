@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_64a14076",
+      "views": 0,
+      "date": "2026-10-03T01:12:18.316Z",
+      "title": "Honda lança City 2027 sem baixar preços e ignora 'avalanche' de chineses mais baratos: o que está em jogo no mercado?",
+      "subtitle": "Honda A Honda apresentou nesta sexta-feira (2) a linha 2027 do City. A principal novidade é a inédita versão RS.",
+      "slug": "honda-lanca-city-2027-sem-baixar-precos-e-ignora-avalanche-de-chineses-mais-baratos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nHonda A Honda apresentou nesta sexta-feira (2) a linha 2027 do City. A principal novidade é a inédita versão RS.\n\nO que já foi informado\n\nOferecida exclusivamente na carroceria hatch, a configuração assume o topo do catálogo do modelo no Brasil, acima da versão Touring. É o primeiro Honda RS no Brasil. A marca também atualizou o design do City hatch e sedã, e apresentou uma nova central multimídia com tela de 10 polegadas. O motor 1.5 aspirado de 126 cv e o câmbio automático CVT não sofreram alterações. A pré-venda começa neste sábado (5), com um lote promocional de 3 mil unidades e os mesmos preços da linha 2026. Os valores variam de R$ 117.500, na opção de entrada LX, a R$ 156.400, na nova versão RS.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Honda lança City 2027 sem baixar preços e ignora Store Center",
+      "seoDescription": "Honda A Honda apresentou nesta sexta-feira (2) a linha 2027 do City. A principal novidade é a inédita versão RS.",
+      "keyword": "Honda lança City 2027 sem baixar preços e ignora 'avalanche' de chineses mais baratos Fonte 2 Câmara dos Deputados abre concurso com salários acima de R$ 32 mil; veja vagas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/02/honda-lanca-city-2027-sem-baixar-precos-e-ignora-avalanche-de-chineses-mais-baratos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/02/honda-lanca-city-2027-sem-baixar-precos-e-ignora-avalanche-de-chineses-mais-baratos.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/10/02/camara-dos-deputados-abre-concurso.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Honda lança City 2027 sem baixar preços e ignora 'avalanche' de chineses mais baratos",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5174f168",
       "views": 0,
       "date": "2026-10-02T23:16:55.884Z",
@@ -17030,7 +17071,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-02T23:16:54.794Z",
+      "lastScraped": "2026-10-03T01:12:16.864Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17038,7 +17079,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-02T23:16:55.047Z",
+      "lastScraped": "2026-10-03T01:12:17.406Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17051,7 +17092,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-02T23:16:55.872Z",
+      "lastScraped": "2026-10-03T01:12:18.302Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17108,6 +17149,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1790990006570",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Honda lança City 2027 sem baixar preços e ignora 'avalanche' de chineses mais baratos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Honda lança City 2027 sem baixar preços e ignora 'avalanche' de chineses mais baratos: o que está em jogo no mercado?",
+      "postId": "rss-hash_64a14076",
+      "timestamp": "2026-10-03T01:12:18.316Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1790983024160",
       "feedName": "G1 - Economia",

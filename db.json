@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_218a6d87",
+      "views": 0,
+      "date": "2026-10-03T05:36:56.254Z",
+      "title": "TSE chega às eleições com 100% do consumo de energia compensado por geração solar: o que muda para os próximos jogos?",
+      "subtitle": "O Tribunal Superior Eleitoral (TSE) vai chegar ao primeiro turno das Eleições 2026, neste domingo (4), com todo o seu consumo de energia elétrica compensado por geração solar.",
+      "slug": "tse-chega-as-eleicoes-com-100-do-consumo-de-energia-compensado-por-geracao-solar-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nO Tribunal Superior Eleitoral (TSE) vai chegar ao primeiro turno das Eleições 2026, neste domingo (4), com todo o seu consumo de energia elétrica compensado por geração solar. É a primeira vez que isso acontece.\n\nO que já foi informado\n\n“Pela primeira vez, vamos realizar uma eleição aqui no TSE com o consumo de 100% de energia solar. Energia limpa na Administração Pública também é eficiência e responsabilidade com o dinheiro público”, afirmou o presidente do TSE, ministro Kássio Nunes Marques. A energia vem de uma usina fotovoltaica que entrou em operação na segunda-feira (28), próximo a primeira casa em que Juscelino Kubitschek viveu, em Brasília. A usina foi instalada em uma área da Companhia Imobiliária de Brasília (Terracap), em parceria com a CEB Participações, ambas empresas públicas do Distrito Federal. Agora no g1 \"O empreendimento é fruto de uma parceria entre Terracap e CEB, empresas públicas que têm investido em geração de energias limpas, contribuindo para a sustentabilidade e para crescimento econômico do Distrito Federal\", explica o presidente da Terracap, Júlio César Reis.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "TSE chega às eleições com 100% do consumo de energia Store Center",
+      "seoDescription": "O Tribunal Superior Eleitoral (TSE) vai chegar ao primeiro turno das Eleições 2026, neste domingo (4), com todo o seu consumo de energia elétrica comp",
+      "keyword": "TSE chega às eleições com 100% do consumo de energia compensado por geração solar; economia será de R$ 745 mil por ano",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/tse-chega-as-eleicoes-com-100percent-do-consumo-de-energia-compensado-por-geracao-solar-economia-sera-de-r-745-mil-por-ano.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/03/tse-chega-as-eleicoes-com-100percent-do-consumo-de-energia-compensado-por-geracao-solar-economia-sera-de-r-745-mil-por-ano.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "TSE chega às eleições com 100% do consumo de energia compensado por geração solar; economia será de R$ 745 mil por ano",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_64a14076",
       "views": 0,
       "date": "2026-10-03T01:12:18.316Z",
@@ -17071,7 +17110,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T01:12:16.864Z",
+      "lastScraped": "2026-10-03T05:36:54.930Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17079,7 +17118,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T01:12:17.406Z",
+      "lastScraped": "2026-10-03T05:36:55.169Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17092,7 +17131,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T01:12:18.302Z",
+      "lastScraped": "2026-10-03T05:36:56.242Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17149,6 +17188,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791005851459",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "TSE chega às eleições com 100% do consumo de energia compensado por geração solar; economia será de R$ 745 mil por ano",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "TSE chega às eleições com 100% do consumo de energia compensado por geração solar: o que muda para os próximos jogos?",
+      "postId": "rss-hash_218a6d87",
+      "timestamp": "2026-10-03T05:36:56.255Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.3h (+8), Sem postagem há 6.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1790990006570",
       "feedName": "G1 - Economia",

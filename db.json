@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_13d07b2b",
+      "views": 0,
+      "date": "2026-10-03T14:42:43.391Z",
+      "title": "Como ativar o controle parental para adolescentes no WhatsApp Fonte 2 EUA abrem investigação inédita sobre OpenAI e?",
+      "subtitle": "Economia WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) novos controles parentais para adolescentes no Brasil.",
+      "slug": "como-ativar-o-controle-parental-para-adolescentes-no-whatsapp-fonte-2-eua-abrem-investigacao-inedita-sobre-openai-e",
+      "content": "O que aconteceu\n\nEconomia WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) novos controles parentais para adolescentes no Brasil. Segundo a empresa, pais e responsáveis poderão definir como menores de idade usam o aplicativo de mensagens.\n\nO que já foi informado\n\nAs novidades já estão disponíveis para todos a partir de hoje. (Veja abaixo como habilitar. ) As novidades dão continuidade a uma atualização feita pela Meta em março, quando foram liberadas ferramentas semelhantes de proteção para menores de 13 anos no WhatsApp. Agora, os controles também passam a atender adolescentes. Como habilitar o controle parental A configuração precisa ser feita primeiro no celular do adolescente e depois vinculada ao aparelho do pai, mãe ou responsável. No celular do adolescente: Baixe o WhatsApp e escolha o idioma.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como ativar o controle parental para adolescentes no Store Center",
+      "seoDescription": "Economia WhatsApp ganha nomes de usuário e vai dispensar número para começar conversa O WhatsApp anunciou nesta quarta-feira (30) nov",
+      "keyword": "Como ativar o controle parental para adolescentes no WhatsApp Fonte 2 EUA abrem investigação inédita sobre OpenAI e Anthropic após agentes de IA invadirem sistemas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/09/30/como-ativar-o-controle-parental-para-adolescentes-no-whatsapp.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/como-ativar-o-controle-parental-para-adolescentes-no-whatsapp.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/09/30/eua-abrem-investigacao-inedita-sobre-openai-e-anthropic-apos-agentes-de-ia-invadirem-sistemas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Como ativar o controle parental para adolescentes no WhatsApp",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_2162de1b",
       "views": 0,
       "date": "2026-10-03T12:44:38.499Z",
@@ -17231,7 +17272,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-03T12:44:34.187Z",
+      "lastScraped": "2026-10-03T14:42:42.081Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17239,7 +17280,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-03T12:44:34.651Z",
+      "lastScraped": "2026-10-03T14:42:42.389Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17252,7 +17293,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-03T12:44:38.488Z",
+      "lastScraped": "2026-10-03T14:42:43.381Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17309,6 +17350,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791038567738",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como ativar o controle parental para adolescentes no WhatsApp",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como ativar o controle parental para adolescentes no WhatsApp Fonte 2 EUA abrem investigação inédita sobre OpenAI e?",
+      "postId": "rss-hash_13d07b2b",
+      "timestamp": "2026-10-03T14:42:43.392Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 10",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Cultura"
+      ]
+    },
     {
       "id": "1791031491666",
       "feedName": "G1 - Economia",

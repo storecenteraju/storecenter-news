@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_380f5423",
+      "views": 0,
+      "date": "2026-10-04T22:32:26.254Z",
+      "title": "Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para: por que isso importa para a economia?",
+      "subtitle": "Economia Urnas eletrônicas 2024 do Paraná Giuliano Gomes/PR. Press Para milhões de brasileiros, o primeiro turno das eleições, neste domingo (4), também será dia de expediente.",
+      "slug": "vai-trabalhar-no-dia-da-eleicao-veja-se-a-empresa-pode-descontar-o-tempo-para-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Urnas eletrônicas 2024 do Paraná Giuliano Gomes/PR. Press Para milhões de brasileiros, o primeiro turno das eleições, neste domingo (4), também será dia de expediente.\n\nO que já foi informado\n\nProfissionais da saúde, da segurança, da hotelaria e de outros serviços essenciais precisarão conciliar a jornada de trabalho com a ida às urnas. É nesse momento que surgem dúvidas recorrentes como: a empresa é obrigada a liberar o funcionário para votar? O tempo utilizado pode ser descontado do salário? É preciso compensar essas horas depois? A legislação brasileira garante ao trabalhador o direito de se ausentar pelo tempo necessário para votar, sem sofrer qualquer prejuízo. O empregador não pode criar obstáculos ao deslocamento nem adotar medidas que dificultem o exercício desse direito.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Vai trabalhar no dia da eleição? Veja se a empresa pode Store Center",
+      "seoDescription": "Economia Urnas eletrônicas 2024 do Paraná Giuliano Gomes/PR. Press Para milhões de brasileiros, o primeiro turno das eleições, neste",
+      "keyword": "Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para votar Fonte 2 Países já liberaram 325 milhões de barris de petróleo para conter alta dos preços, diz IEA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/04/vai-trabalhar-no-dia-da-eleicao-veja-se-a-empresa-pode-descontar-o-tempo-para-votar.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/04/vai-trabalhar-no-dia-da-eleicao-veja-se-a-empresa-pode-descontar-o-tempo-para-votar.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/03/paises-ja-liberaram-325-milhoes-de-barris-de-petroleo-para-conter-alta-dos-precos-diz-iea.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para votar",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_521c44fa",
       "views": 0,
       "date": "2026-10-04T20:16:07.560Z",
@@ -17797,7 +17838,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T20:16:06.271Z",
+      "lastScraped": "2026-10-04T22:32:23.578Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17805,7 +17846,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T20:16:06.742Z",
+      "lastScraped": "2026-10-04T22:32:23.892Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17818,7 +17859,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T20:16:07.547Z",
+      "lastScraped": "2026-10-04T22:32:26.241Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17875,6 +17916,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791153178030",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para votar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para: por que isso importa para a economia?",
+      "postId": "rss-hash_380f5423",
+      "timestamp": "2026-10-04T22:32:26.255Z",
+      "chosenCategory": "Direito",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.0h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 0",
+      "discardedCategories": []
+    },
     {
       "id": "1791145033916",
       "feedName": "G1 - Economia",

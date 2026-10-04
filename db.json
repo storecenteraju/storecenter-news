@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2c66e220",
+      "views": 0,
+      "date": "2026-10-04T18:29:26.629Z",
+      "title": "INSS vai pagar afastamento para vítimas de violência doméstica: o que muda para os próximos jogos?",
+      "subtitle": "Nesta quinta-feira (1º), o presidente Luiz Inácio Lula da Silva (PT) assinou um parecer que garante o afastamento remunerado do trabalho para mulheres vítimas de violência doméstica.",
+      "slug": "inss-vai-pagar-afastamento-para-vitimas-de-violencia-domestica-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nNesta quinta-feira (1º), o presidente Luiz Inácio Lula da Silva (PT) assinou um parecer que garante o afastamento remunerado do trabalho para mulheres vítimas de violência doméstica. A mulher poderá ficar afastada do trabalho por até seis meses, sem perder a remuneração durante o período.\n\nO que já foi informado\n\nNos primeiros 15 dias, o pagamento ficará sob responsabilidade do empregador. A partir do 16º dia, ficará a cargo do Instituto Nacional do Seguro Social (INSS). Há, porém, duas situações específicas em que o pagamento funciona de forma diferente: Para mulheres que contribuem para a Previdência, mas não têm vínculo formal de emprego — como autônomas, microempreendedoras individuais (MEIs), contribuintes facultativas e seguradas especiais —, o INSS pagará integralmente o benefício desde o primeiro dia de afastamento. Já as mulheres que não contribuem para o INSS e não são seguradas da Previdência, como trabalhadoras informais que nunca fizeram recolhimentos, receberão um benefício assistencial. Nesse caso, o pagamento ficará a cargo do Estado, do Distrito Federal ou do município indicado pelo juiz. A seguir, veja as principais dúvidas sobre o benefício e Agora no g1 Do que se trata o parecer?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "INSS vai pagar afastamento para vítimas de violência Store Center",
+      "seoDescription": "Nesta quinta-feira (1º), o presidente Luiz Inácio Lula da Silva (PT) assinou um parecer que garante o afastamento remunerado do trabalho para mulheres",
+      "keyword": "INSS vai pagar afastamento para vítimas de violência doméstica; veja quem tem direito e como pedir Fonte 2 Trabalhar nas eleições dá direito a folga? Quanto ganha um mesário? Veja os benefícios",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/02/inss-vai-pagar-afastamento-para-vitimas-de-violencia-domestica-veja-quem-tem-direito-e-como-pedir.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/02/inss-vai-pagar-afastamento-para-vitimas-de-violencia-domestica-veja-quem-tem-direito-e-como-pedir.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/02/trabalhar-nas-eleicoes-da-direito-a-folga-quanto-ganha-um-mesario.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "INSS vai pagar afastamento para vítimas de violência doméstica; veja quem tem direito e como pedir",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_55e79be0",
       "views": 0,
       "date": "2026-10-04T16:58:05.955Z",
@@ -17717,7 +17758,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T16:58:04.271Z",
+      "lastScraped": "2026-10-04T18:29:24.919Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17725,7 +17766,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T16:58:04.851Z",
+      "lastScraped": "2026-10-04T18:29:25.516Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17738,7 +17779,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T16:58:05.942Z",
+      "lastScraped": "2026-10-04T18:29:26.614Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17795,6 +17836,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791138600822",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "INSS vai pagar afastamento para vítimas de violência doméstica; veja quem tem direito e como pedir",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "INSS vai pagar afastamento para vítimas de violência doméstica: o que muda para os próximos jogos?",
+      "postId": "rss-hash_2c66e220",
+      "timestamp": "2026-10-04T18:29:26.630Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 5",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791133181596",
       "feedName": "Agência Câmara - Política",

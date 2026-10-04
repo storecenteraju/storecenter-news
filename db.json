@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_bd49fd5",
+      "views": 0,
+      "date": "2026-10-04T15:19:58.745Z",
+      "title": "Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos: por que isso importa para a economia?",
+      "subtitle": "O próximo presidente vai herdar problemas do agronegócio que não cabem em um mandato de quatro anos, segundo os especialistas entrevistados pelo g1.",
+      "slug": "do-endividamento-a-imagem-ruim-os-problemas-que-o-agro-quer-ver-resolvidos-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO próximo presidente vai herdar problemas do agronegócio que não cabem em um mandato de quatro anos, segundo os especialistas entrevistados pelo g1. A Associação Brasileira do Agronegócio (Abag) propõe cinco políticas públicas para enfrentar gargalos que vão do financiamento rural e dos eventos climáticos extremos à infraestrutura, à dependência de insumos importados e à abertura de mercados no exterior.\n\nO que já foi informado\n\nAs propostas são: Política nacional de financiamento, seguro rural e resiliência climática da agroindústria: criação de um marco plurianual para ampliar os recursos destinados ao setor, incluindo um Fundo Nacional de Catástrofes Climáticas. Política industrial para fortalecer as cadeias estratégicas da agroindústria brasileira: estímulo à produção de insumos, para garantir a competitividade da indústria brasileira, eliminando o \"passivo regulatório\" para agilizar a aprovação de novas tecnologias. Política nacional de governança, planejamento e financiamento de infraestrutura agroindustrial: modernização e harmonização dos processos de licenciamento e autorização de empreendimentos de infraestrutura.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Do endividamento à imagem ruim: os problemas que o agro Store Center",
+      "seoDescription": "O próximo presidente vai herdar problemas do agronegócio que não cabem em um mandato de quatro anos, segundo os especialistas entrevistados pelo g1.",
+      "keyword": "Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos pelo próximo presidente Fonte 2 Vai trabalhar no dia da eleição? Veja se a empresa pode descontar o tempo para votar",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/04/do-endividamento-a-imagem-ruim-os-problemas-que-o-agro-quer-ver-resolvidos-pelo-proximo-presidente.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/04/do-endividamento-a-imagem-ruim-os-problemas-que-o-agro-quer-ver-resolvidos-pelo-proximo-presidente.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/04/vai-trabalhar-no-dia-da-eleicao-veja-se-a-empresa-pode-descontar-o-tempo-para-votar.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos pelo próximo presidente",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_68efddfe",
       "views": 0,
       "date": "2026-10-04T13:29:21.233Z",
@@ -17637,7 +17678,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T13:29:20.146Z",
+      "lastScraped": "2026-10-04T15:19:57.407Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17645,7 +17686,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T13:29:20.406Z",
+      "lastScraped": "2026-10-04T15:19:57.727Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17658,7 +17699,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T13:29:21.215Z",
+      "lastScraped": "2026-10-04T15:19:58.732Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17715,6 +17756,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791127278648",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos pelo próximo presidente",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos: por que isso importa para a economia?",
+      "postId": "rss-hash_bd49fd5",
+      "timestamp": "2026-10-04T15:19:58.746Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1791120620271",
       "feedName": "G1 - Economia",

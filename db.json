@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_324207c9",
+      "views": 0,
+      "date": "2026-10-04T11:11:23.550Z",
+      "title": "Eleição é feriado nacional? O que muda para quem trabalha na data? Veja direitos Fonte: qual pode ser o próximo passo?",
+      "subtitle": "O que muita gente não sabe é que o dia da votação é considerado feriado nacional. A previsão está no artigo 380 do Código Eleitoral, que estabelece que \"será feriado nacional o dia em que se realizarem eleições de data fixada pela Constituição Federal\".",
+      "slug": "eleicao-e-feriado-nacional-o-que-muda-para-quem-trabalha-na-data-veja-direitos-fonte-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nO que muita gente não sabe é que o dia da votação é considerado feriado nacional. A previsão está no artigo 380 do Código Eleitoral, que estabelece que \"será feriado nacional o dia em que se realizarem eleições de data fixada pela Constituição Federal\".\n\nO que já foi informado\n\nIsso significa que o primeiro turno das Eleições Gerais de 2026, marcado para este domingo (4), será feriado em todo o país. Se houver segundo turno para a eleição presidencial ou para a escolha de governadores, uma nova votação será realizada em 25 de outubro. Nos locais onde ocorrer, a data também será considerada feriado eleitoral. Agora no g1 Mesmo nos feriados nacionais, nem todos os trabalhadores são dispensados. A legislação permite que atividades essenciais e outras categorias autorizadas continuem funcionando nessas datas. A existência do feriado não significa que todas as atividades precisem parar.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleição é feriado nacional? O que muda para quem Store Center",
+      "seoDescription": "O que muita gente não sabe é que o dia da votação é considerado feriado nacional. A previsão está no artigo 380 do Código Eleitoral, que estabelece qu",
+      "keyword": "Eleição é feriado nacional? O que muda para quem trabalha na data? Veja direitos Fonte 2 INSS vai pagar afastamento para vítimas de violência doméstica; veja quem tem direito e como pedir",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/04/eleicao-e-feriado-nacional-o-que-muda-para-quem-trabalha-na-data-veja-direitos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/04/eleicao-e-feriado-nacional-o-que-muda-para-quem-trabalha-na-data-veja-direitos.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/02/inss-vai-pagar-afastamento-para-vitimas-de-violencia-domestica-veja-quem-tem-direito-e-como-pedir.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Eleição é feriado nacional? O que muda para quem trabalha na data? Veja direitos",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_73b32ec1",
       "views": 0,
       "date": "2026-10-04T09:22:58.091Z",
@@ -17554,7 +17596,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T09:22:55.613Z",
+      "lastScraped": "2026-10-04T11:11:22.105Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17562,7 +17604,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T09:22:57.260Z",
+      "lastScraped": "2026-10-04T11:11:22.716Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17575,7 +17617,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T09:22:58.076Z",
+      "lastScraped": "2026-10-04T11:11:23.539Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17632,6 +17674,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791112305761",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Eleição é feriado nacional? O que muda para quem trabalha na data? Veja direitos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleição é feriado nacional? O que muda para quem trabalha na data? Veja direitos Fonte: qual pode ser o próximo passo?",
+      "postId": "rss-hash_324207c9",
+      "timestamp": "2026-10-04T11:11:23.550Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 13",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791105859191",
       "feedName": "G1 - Economia",

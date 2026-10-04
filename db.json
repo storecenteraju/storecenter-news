@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_68efddfe",
+      "views": 0,
+      "date": "2026-10-04T13:29:21.233Z",
+      "title": "R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o: o que está em jogo no mercado?",
+      "subtitle": "Dos R$ 2,826 trilhões previstos em despesas primárias, 90% estão comprometidos com aposentadorias, salários, benefícios sociais e outras despesas obrigatórias.",
+      "slug": "r-9-a-cada-r-10-das-despesas-ja-tem-destino-o-que-sobra-do-orcamento-de-2027-para-o-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nDos R$ 2,826 trilhões previstos em despesas primárias, 90% estão comprometidos com aposentadorias, salários, benefícios sociais e outras despesas obrigatórias. Os números constam do Raio X do Projeto de Lei Orçamentária Anual de 2027 (PLOA).\n\nO que já foi informado\n\nO levantamento foi elaborado pela Consultoria de Orçamento e Fiscalização Financeira da Câmara dos Deputados (CONOF), com base na proposta enviada pelo governo ao Congresso. Os R$ 2,826 trilhões correspondem às despesas primárias. Esse valor inclui os gastos obrigatórios e aqueles sobre os quais o governo tem alguma margem para definir prioridades. O Orçamento total é de R$ 7,4491 trilhões e abrange despesas financeiras, como juros, pagamento de parcelas e renovação da dívida. Como o projeto ainda está em análise, os valores podem mudar até a aprovação definitiva, prevista para dezembro de 2026. Os 10% restantes, equivalentes a R$ 283,2 bilhões, correspondem às chamadas despesas discricionárias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "R$ 9 a cada R$ 10 das despesas já têm destino: o que Store Center",
+      "seoDescription": "Dos R$ 2,826 trilhões previstos em despesas primárias, 90% estão comprometidos com aposentadorias, salários, benefícios sociais e outras despesas obri",
+      "keyword": "R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o próximo presidente? Fonte 2 Do endividamento à imagem ruim: os problemas que o agro quer ver resolvidos pelo próximo presidente",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/04/o-que-sobra-do-orcamento-de-2027-para-o-proximo-presidente.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/04/o-que-sobra-do-orcamento-de-2027-para-o-proximo-presidente.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/04/do-endividamento-a-imagem-ruim-os-problemas-que-o-agro-quer-ver-resolvidos-pelo-proximo-presidente.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o próximo presidente?",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_324207c9",
       "views": 0,
       "date": "2026-10-04T11:11:23.550Z",
@@ -17596,7 +17637,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T11:11:22.105Z",
+      "lastScraped": "2026-10-04T13:29:20.146Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17604,7 +17645,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T11:11:22.716Z",
+      "lastScraped": "2026-10-04T13:29:20.406Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17617,7 +17658,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T11:11:23.539Z",
+      "lastScraped": "2026-10-04T13:29:21.215Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17674,6 +17715,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791120620271",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o próximo presidente?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o: o que está em jogo no mercado?",
+      "postId": "rss-hash_68efddfe",
+      "timestamp": "2026-10-04T13:29:21.234Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1791112305761",
       "feedName": "G1 - Economia",

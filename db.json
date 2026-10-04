@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_73b32ec1",
+      "views": 0,
+      "date": "2026-10-04T09:22:58.091Z",
+      "title": "Como os candidatos pretendem mexer na economia? Compare propostas para 5 temas Fonte 2 R$ 9 a cada R$ 10 das despesas",
+      "subtitle": "Economia Montagem com fotos dos candidatos à Presidência: Lula (PT), Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Augusto Cury (Avante) e Romeu Zema (Novo) Globo A poucos dias do primeiro turno das eleições de 2026, os principais candidatos à.",
+      "slug": "como-os-candidatos-pretendem-mexer-na-economia-compare-propostas-para-5-temas-fonte-2-r-9-a-cada-r-10-das-despesas",
+      "content": "O que aconteceu\n\nEconomia Montagem com fotos dos candidatos à Presidência: Lula (PT), Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Augusto Cury (Avante) e Romeu Zema (Novo) Globo A poucos dias do primeiro turno das eleições de 2026, os principais candidatos à Presidência apresentam caminhos diferentes para lidar com alguns dos maiores desafios da economia brasileira. Entre os temas que estarão na mesa do próximo presidente estão o equilíbrio das contas públicas, os juros, o endividamento das famílias, o crescimento econômico e a produtividade.\n\nO que já foi informado\n\nLuiz Inácio Lula da Silva (PT), Flávio Bolsonaro (PL), Augusto Cury (Avante), Ronaldo Caiado (PSD) e Romeu Zema (Novo) apresentam em seus planos de governo propostas para enfrentar esses desafios. O g1 reuniu as principais ideias econômicas dos candidatos para mostrar o que cada um propõe para o país em áreas que afetam diretamente as contas do governo, as empresas e o bolso dos brasileiros. Confira, a seguir, os principais temas econômicos e as propostas dos candidatos para cada um deles. As medidas foram reunidas a partir dos planos de governo apresentados ao Tribunal Superior Eleitoral (TSE).\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Como os candidatos pretendem mexer na economia? Compare Store Center",
+      "seoDescription": "Economia Montagem com fotos dos candidatos à Presidência: Lula (PT), Flávio Bolsonaro (PL), Ronaldo Caiado (PSD), Augusto Cury (Avant",
+      "keyword": "Como os candidatos pretendem mexer na economia? Compare propostas para 5 temas Fonte 2 R$ 9 a cada R$ 10 das despesas já têm destino: o que sobra do Orçamento de 2027 para o próximo presidente?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/04/como-os-candidatos-pretendem-mexer-na-economia-compare-propostas-para-5-temas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/04/como-os-candidatos-pretendem-mexer-na-economia-compare-propostas-para-5-temas.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/04/o-que-sobra-do-orcamento-de-2027-para-o-proximo-presidente.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Como os candidatos pretendem mexer na economia? Compare propostas para 5 temas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_7ccfbe17",
       "views": 0,
       "date": "2026-10-04T06:12:12.272Z",
@@ -17513,7 +17554,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-04T06:12:10.976Z",
+      "lastScraped": "2026-10-04T09:22:55.613Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17521,7 +17562,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-04T06:12:11.285Z",
+      "lastScraped": "2026-10-04T09:22:57.260Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17534,7 +17575,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T06:12:12.263Z",
+      "lastScraped": "2026-10-04T09:22:58.076Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17591,6 +17632,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791105859191",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Como os candidatos pretendem mexer na economia? Compare propostas para 5 temas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Como os candidatos pretendem mexer na economia? Compare propostas para 5 temas Fonte 2 R$ 9 a cada R$ 10 das despesas",
+      "postId": "rss-hash_73b32ec1",
+      "timestamp": "2026-10-04T09:22:58.092Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.7h (+8), Sem postagem há 8.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1791094337359",
       "feedName": "G1 - Economia",

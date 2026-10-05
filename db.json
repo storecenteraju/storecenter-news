@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4fb55459",
+      "views": 0,
+      "date": "2026-10-05T23:14:19.518Z",
+      "title": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da: o que muda para usuários e empresas?",
+      "subtitle": "O alerta foi feito nesta segunda-feira (5) por Jacob Coxon, ex-funcionário da OpenAI e da Anthropic que critica a forma como a indústria lida com a segurança da tecnologia.",
+      "slug": "empresas-de-ia-sao-incapazes-de-controlar-seus-modelos-alerta-ex-pesquisador-da-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nO alerta foi feito nesta segunda-feira (5) por Jacob Coxon, ex-funcionário da OpenAI e da Anthropic que critica a forma como a indústria lida com a segurança da tecnologia. No início de setembro, o pesquisador britânico explicou, em uma publicação no X, por que decidiu deixar a Anthropic.\n\nO que já foi informado\n\nSegundo ele, desenvolvedores de inteligência artificial (IA) acreditavam que a tecnologia poderia acabar com a humanidade \"antes do fim da década\". A declaração repercutiu mundialmente. Desde então, vários funcionários e ex-funcionários das principais empresas de IA também expressaram preocupações semelhantes. \"As empresas estão sendo extremamente imprudentes dadas as circunstâncias\", disse Coxon nesta segunda-feira (05) durante uma audiência com vereadores da Câmara Municipal de Nova York Agora no g1 Embora a IA possa trazer \"benefícios enormes\" para a sociedade, \"na trajetória atual, acredito que seja mais provável que a humanidade perca o controle dessas IAs e que isso possa levar à extinção humana\", reiterou.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Empresas de IA são incapazes de controlar seus modelos Store Center",
+      "seoDescription": "O alerta foi feito nesta segunda-feira (5) por Jacob Coxon, ex-funcionário da OpenAI e da Anthropic que critica a forma como a indústria lida com a se",
+      "keyword": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/05/empresas-de-ia-sao-incapazes-de-controlar-seus-modelos-alerta-ex-pesquisador-da-openai.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/05/empresas-de-ia-sao-incapazes-de-controlar-seus-modelos-alerta-ex-pesquisador-da-openai.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_1b8da70a",
       "views": 0,
       "date": "2026-10-05T21:44:54.880Z",
@@ -18160,7 +18199,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-05T21:44:53.587Z",
+      "lastScraped": "2026-10-05T23:14:17.642Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18168,7 +18207,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-05T21:44:53.898Z",
+      "lastScraped": "2026-10-05T23:14:18.489Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18181,7 +18220,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-05T21:44:54.864Z",
+      "lastScraped": "2026-10-05T23:14:19.504Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18238,6 +18277,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791242113035",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da OpenAI",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Empresas de IA são incapazes de controlar seus modelos, alerta ex-pesquisador da: o que muda para usuários e empresas?",
+      "postId": "rss-hash_4fb55459",
+      "timestamp": "2026-10-05T23:14:19.519Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.2h (+8), Sem postagem há 13.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791236738852",
       "feedName": "G1 - Economia",

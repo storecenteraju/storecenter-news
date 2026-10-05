@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4a8010df",
+      "views": 0,
+      "date": "2026-10-05T06:04:55.581Z",
+      "title": "Prazo para sacar o dinheiro nas bets termina nesta segunda: o que muda para os próximos jogos?",
+      "subtitle": "Economia Governo anuncia proibição das bets no Brasil Com a proibição de apostas e jogos virtuais online, como o \"jogo do tigrinho\", os apostadores terão até as 23h59 desta segunda-feira (5) para retirar os valores mantidos nas plataformas.",
+      "slug": "prazo-para-sacar-o-dinheiro-nas-bets-termina-nesta-segunda-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Governo anuncia proibição das bets no Brasil Com a proibição de apostas e jogos virtuais online, como o \"jogo do tigrinho\", os apostadores terão até as 23h59 desta segunda-feira (5) para retirar os valores mantidos nas plataformas. Caso os apostadores percam o prazo — ou seja, não resgatem os valores até 5 de outubro —, a devolução será feita posteriormente pelos bancos que operam com as casas de apostas.\n\nO que já foi informado\n\nSegundo o governo, essa devolução deverá ser feita entre os dias 9 e 14 de outubro. Os resgate vale para bets até então autorizadas pelo governo. As lojas de aplicativos, os provedores de internet e o CGI. Segundo o governo, quem tentar acessar as plataformas será redirecionado para uma página com orientações sobre o resgate dos valores e as garantias de devolução dos recursos. Veja abaixo perguntas e respostas sobre o tema. Como fica, então, o cronograma?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Prazo para sacar o dinheiro nas bets termina nesta Store Center",
+      "seoDescription": "Economia Governo anuncia proibição das bets no Brasil Com a proibição de apostas e jogos virtuais online, como o \"jogo do tigrinho\",",
+      "keyword": "Prazo para sacar o dinheiro nas bets termina nesta segunda; veja perguntas e respostas Fonte 2 Liderança de Flávio Bolsonaro faz fundo de Ibovespa disparar quase 10% em Tóquio",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/05/prazo-para-sacar-o-dinheiro-nas-bets-termina-nesta-segunda.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/05/prazo-para-sacar-o-dinheiro-nas-bets-termina-nesta-segunda.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/04/lideranca-de-flavio-bolsonaro-faz-fundo-de-ibovespa-disparar-quase-10percent-em-toquio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Prazo para sacar o dinheiro nas bets termina nesta segunda; veja perguntas e respostas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_3400d86c",
       "views": 0,
       "date": "2026-10-05T00:55:52.583Z",
@@ -17879,7 +17920,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-05T00:55:41.562Z",
+      "lastScraped": "2026-10-05T06:04:54.038Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -17887,7 +17928,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-05T00:55:42.055Z",
+      "lastScraped": "2026-10-05T06:04:54.569Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -17900,7 +17941,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-04T22:32:26.241Z",
+      "lastScraped": "2026-10-05T06:04:55.568Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -17957,6 +17998,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791180351394",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Prazo para sacar o dinheiro nas bets termina nesta segunda; veja perguntas e respostas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Prazo para sacar o dinheiro nas bets termina nesta segunda: o que muda para os próximos jogos?",
+      "postId": "rss-hash_4a8010df",
+      "timestamp": "2026-10-05T06:04:55.582Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.6h (+8), Sem postagem há 11.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": []
+    },
     {
       "id": "1791161773615",
       "feedName": "G1 - Economia",

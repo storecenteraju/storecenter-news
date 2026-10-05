@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_66f0015f",
+      "views": 0,
+      "date": "2026-10-05T20:52:48.294Z",
+      "title": "23 deputados federais são eleitos para outros cargos: 1 governador, 17 senadores e 5: o que pode mudar agora?",
+      "subtitle": "O resultado das eleições de 2026 mostra que 23 deputados federais foram eleitos para outros cargos – governador, senador e deputado estadual.",
+      "slug": "23-deputados-federais-sao-eleitos-para-outros-cargos-1-governador-17-senadores-e-5-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO resultado das eleições de 2026 mostra que 23 deputados federais foram eleitos para outros cargos – governador, senador e deputado estadual. Seis serão suplentes.\n\nO que já foi informado\n\nO deputado Zucco (PL-RS) foi eleito em primeiro turno governador do Rio Grande do Sul, com 3.516.048 votos. 17 deputados federais foram eleitos para o Senado e outros cinco para assembleias legislativas estaduais. Suplentes Dois parlamentares foram eleitos suplente de senador e quatro como suplentes de deputado estadual. Segundo turno No Tocantins, o deputado Vicentinho Júnior (PSDB-TO) obteve 372.848 votos (43,94% dos válidos) e disputará o segundo turno contra a senadora Professora Dorinha (45,52%). Não eleitos Outros 31 deputados candidatos não foram eleitos. Leia mais notícias sobre as eleições 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "23 deputados federais são eleitos para outros cargos: 1 Store Center",
+      "seoDescription": "O resultado das eleições de 2026 mostra que 23 deputados federais foram eleitos para outros cargos – governador, senador e deputado estadual.",
+      "keyword": "23 deputados federais são eleitos para outros cargos: 1 governador, 17 senadores e 5 estaduais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1309452-23-deputados-federais-sao-eleitos-para-outros-cargos-1-governador-17-senadores-e-5-estaduais",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1309452-23-deputados-federais-sao-eleitos-para-outros-cargos-1-governador-17-senadores-e-5-estaduais"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "23 deputados federais são eleitos para outros cargos: 1 governador, 17 senadores e 5 estaduais",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_5e2f577e",
       "views": 0,
       "date": "2026-10-05T19:16:41.749Z",
@@ -18080,7 +18119,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-05T19:16:40.395Z",
+      "lastScraped": "2026-10-05T20:52:46.696Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18088,7 +18127,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-05T19:16:40.887Z",
+      "lastScraped": "2026-10-05T20:52:47.164Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18101,7 +18140,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-05T19:16:41.734Z",
+      "lastScraped": "2026-10-05T20:52:48.281Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18158,6 +18197,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791233629374",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "23 deputados federais são eleitos para outros cargos: 1 governador, 17 senadores e 5 estaduais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "23 deputados federais são eleitos para outros cargos: 1 governador, 17 senadores e 5: o que pode mudar agora?",
+      "postId": "rss-hash_66f0015f",
+      "timestamp": "2026-10-05T20:52:48.295Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 27.9h (+8), Sem postagem há 27.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791227828269",
       "feedName": "G1 - Economia",

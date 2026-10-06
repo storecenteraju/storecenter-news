@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3251bccd",
+      "views": 0,
+      "date": "2026-10-06T14:29:10.464Z",
+      "title": "Coreia do Sul investiga ataques a bancos após presidente dizer que há indícios: o que muda para usuários e empresas?",
+      "subtitle": "Por que tanta gente está falando do Claude?",
+      "slug": "coreia-do-sul-investiga-ataques-a-bancos-apos-presidente-dizer-que-ha-indicios-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nPor que tanta gente está falando do Claude? Conheça a IA mais perigosa do mundo A Coreia do Sul investiga uma série de ataques cibernéticos contra instituições financeiras após o presidente Lee Jae Myung afirmar nesta terça-feira (6) que há indícios de uso de inteligência artificial (IA) em parte das invasões.\n\nO que já foi informado\n\nOs ataques atingiram pelo menos sete empresas do setor financeiro e expuseram informações pessoais de clientes. Entre as instituições afetadas estão os bancos Shinhan, KB Kookmin e Hana, segundo autoridades sul-coreanas e a agência de notícias Yonhap. \"Em alguns casos de invasão, surgiram indícios do uso de IA, causando considerável preocupação e ansiedade na população\", afirmou Lee durante uma reunião do gabinete. O presidente determinou uma investigação rápida e pediu que recursos e equipes fossem concentrados para reduzir os danos. A polícia sul-coreana abriu uma investigação sobre os ataques. Uma equipe com 28 integrantes foi formada para apurar o caso e verificar possíveis violações da legislação de redes e informações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Coreia do Sul investiga ataques a bancos após Store Center",
+      "seoDescription": "Por que tanta gente está falando do Claude?",
+      "keyword": "Coreia do Sul investiga ataques a bancos após presidente dizer que há indícios de uso de IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/06/ia-coreia-bancos.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/06/ia-coreia-bancos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Coreia do Sul investiga ataques a bancos após presidente dizer que há indícios de uso de IA",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_512868cf",
       "views": 0,
       "date": "2026-10-06T12:07:33.168Z",
@@ -18400,7 +18439,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T12:07:31.798Z",
+      "lastScraped": "2026-10-06T14:29:08.768Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18408,7 +18447,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T12:07:32.389Z",
+      "lastScraped": "2026-10-06T14:29:09.402Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18421,7 +18460,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T12:07:33.152Z",
+      "lastScraped": "2026-10-06T14:29:10.450Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18478,6 +18517,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791296977357",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Coreia do Sul investiga ataques a bancos após presidente dizer que há indícios de uso de IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Coreia do Sul investiga ataques a bancos após presidente dizer que há indícios: o que muda para usuários e empresas?",
+      "postId": "rss-hash_3251bccd",
+      "timestamp": "2026-10-06T14:29:10.465Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 28.4h (+8), Sem postagem há 28.4h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791288518738",
       "feedName": "G1 - Economia",

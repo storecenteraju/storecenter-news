@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_51a91ea",
+      "views": 0,
+      "date": "2026-10-06T19:55:39.471Z",
+      "title": "Fim da escala 6x1: Governo quer expor posicionamento de aliados de Flávio e oposição: por que esse movimento importa?",
+      "subtitle": "Economia Base quer expor voto da oposição sobre fim da 6x1 No dia em que a proposta de emenda à Constituição (PEC) do fim da escala 6x1 começa a ser discutida no Senado, governistas planejam usar o debate para expor o posicionamento de aliados.",
+      "slug": "fim-da-escala-6x1-governo-quer-expor-posicionamento-de-aliados-de-flavio-e-oposicao-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Base quer expor voto da oposição sobre fim da 6x1 No dia em que a proposta de emenda à Constituição (PEC) do fim da escala 6x1 começa a ser discutida no Senado, governistas planejam usar o debate para expor o posicionamento de aliados do senador Flávio Bolsonaro (PL-RJ), que já sinalizaram ser contrários à medida. \"Eu quero ver a turma do Flávio Bolsonaro votar contra.\n\nO que já foi informado\n\nEu estou pagando pra ver, pra ver essa atitude que eles puderem tomar\", disse o ministro das Relações Institucionais, José Guimarães, logo após encontro com o presidente do Senado, Davi Alcolumbre (União-AP). Ao chegar no Senado, o senador e ex-líder do governo Jaques Wagner (PT-BA) disse que há acordo por parte do governo para votar, mas \"precisa saber do candidato a presidente Flávio\". \"Eu estou vindo ao plenário porque, pelo que eu percebo, o pessoal da oposição, ou seja, os torcedores do candidato Flávio Bolsonaro, não estão dando presença na tentativa de inviabilizar o debate do fim do trabalho aos sábados\", disse. \"O candidato terá que mostrar a cara e dizer que é contra.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fim da escala 6x1: Governo quer expor posicionamento de Store Center",
+      "seoDescription": "Economia Base quer expor voto da oposição sobre fim da 6x1 No dia em que a proposta de emenda à Constituição (PEC) do fim da escala 6",
+      "keyword": "Fim da escala 6x1: Governo quer expor posicionamento de aliados de Flávio e oposição planeja estratégia Fonte 2 Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146%",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/fim-da-escala-6x1-governo-quer-expor-posicionamento-de-aliados-de-flavio-e-oposicao-planeja-estrategia.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/06/fim-da-escala-6x1-governo-quer-expor-posicionamento-de-aliados-de-flavio-e-oposicao-planeja-estrategia.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/10/06/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro-alta-de-146percent.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Fim da escala 6x1: Governo quer expor posicionamento de aliados de Flávio e oposição planeja estratégia",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_ed6db49",
       "views": 0,
       "date": "2026-10-06T18:34:50.520Z",
@@ -18519,7 +18560,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T18:34:48.848Z",
+      "lastScraped": "2026-10-06T19:55:37.628Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18527,7 +18568,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T18:34:49.515Z",
+      "lastScraped": "2026-10-06T19:55:38.159Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18540,7 +18581,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T18:34:50.505Z",
+      "lastScraped": "2026-10-06T19:55:39.458Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18597,6 +18638,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791316544067",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fim da escala 6x1: Governo quer expor posicionamento de aliados de Flávio e oposição planeja estratégia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fim da escala 6x1: Governo quer expor posicionamento de aliados de Flávio e oposição: por que esse movimento importa?",
+      "postId": "rss-hash_51a91ea",
+      "timestamp": "2026-10-06T19:55:39.472Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 23.0h (+8), Sem postagem há 23.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791311714602",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_20572baf",
+      "views": 0,
+      "date": "2026-10-06T02:18:05.474Z",
+      "title": "Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões: por que isso importa para a economia?",
+      "subtitle": "O grupo Smart Fit anunciou nesta segunda-feira (5) um acordo para investir até R$ 32 milhões no Buddha Spa.",
+      "slug": "smart-fit-fecha-acordo-para-comprar-ate-20-do-buddha-spa-por-r-32-milhoes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO grupo Smart Fit anunciou nesta segunda-feira (5) um acordo para investir até R$ 32 milhões no Buddha Spa. Com a operação, a empresa poderá adquirir uma participação de até 20% na rede de spas.\n\nO que já foi informado\n\nSegundo a Smart Fit, o investimento faz parte da estratégia da companhia de Operação ainda depende do cumprimento de condições previstas no acordo; participação da Smart Fit no Buddha Spa poderá chegar a 30% incorporando serviços complementares ao seu negócio. De acordo com a empresa, o Buddha Spa é atualmente a maior rede de spas do Brasil, com 149 unidades em 12 estados. Desse total, 96% são franquias. Fundada em 2001, a rede oferece tratamentos de massagem, serviços de day spa e outros serviços voltados ao bem-estar. Agora no g1 A Smart Fit informou ainda que, no fechamento da operação, será firmado um acordo de acionistas que dará à companhia a opção de adquirir mais 10% do capital do Buddha Spa. Com isso, sua participação poderá chegar a 30%.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Smart Fit fecha acordo para comprar até 20% do Buddha Store Center",
+      "seoDescription": "O grupo Smart Fit anunciou nesta segunda-feira (5) um acordo para investir até R$ 32 milhões no Buddha Spa.",
+      "keyword": "Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões Fonte 2 Como funcionam as reservas de petróleo usadas para enfrentar crises de abastecimento",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/05/smartfit-buddha-spa.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/05/smartfit-buddha-spa.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/05/como-funcionam-as-reservas-de-petroleo-usadas-para-enfrentar-crises-de-abastecimento.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_29b2c230",
       "views": 0,
       "date": "2026-10-06T00:58:43.274Z",
@@ -18240,7 +18281,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T00:58:39.040Z",
+      "lastScraped": "2026-10-06T02:18:03.528Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18248,7 +18289,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T00:58:39.404Z",
+      "lastScraped": "2026-10-06T02:18:04.076Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18261,7 +18302,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T00:58:43.261Z",
+      "lastScraped": "2026-10-06T02:18:05.465Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18318,6 +18359,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791253168887",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões: por que isso importa para a economia?",
+      "postId": "rss-hash_20572baf",
+      "timestamp": "2026-10-06T02:18:05.474Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": []
+    },
     {
       "id": "1791248394227",
       "feedName": "G1 - Economia",

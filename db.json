@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_49334a83",
+      "views": 0,
+      "date": "2026-10-06T23:17:50.826Z",
+      "title": "Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes: o que muda para usuários e empresas?",
+      "subtitle": "Discovery, as empresas formarão uma gigante capaz de alcançar 200 milhões de assinantes. A fusão criará a empresa Skydance, que será dona de marcas como Warner Bros.",
+      "slug": "compra-da-warner-bros-pela-paramount-cria-gigante-com-200-milhoes-de-assinantes-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nDiscovery, as empresas formarão uma gigante capaz de alcançar 200 milhões de assinantes. A fusão criará a empresa Skydance, que será dona de marcas como Warner Bros.\n\nO que já foi informado\n\n, Paramount Pictures, HBO, CNN, CBS, além dos serviços de streaming Paramount+ e HBO Max. No catálogo, há franquias como \"Harry Potter\" e \"Game of Thrones\", \"Batman\", \"Missão: Impossível\" e \"Top Gun\". O grupo será comandado por David Ellison, filho do bilionário Larry Ellison, cofundador da Oracle – os dois já controlam a Paramount Skydance. Ynon Kreiz, ex-CEO da Mattel, será co-CEO e responsável pelas operações da nova empresa. O acordo avaliado em US$ 110 bilhões encerra uma das maiores disputas recentes pelo controle de ativos em Hollywood. A venda da Warner Bros.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Compra da Warner Bros. pela Paramount cria gigante com Store Center",
+      "seoDescription": "Discovery, as empresas formarão uma gigante capaz de alcançar 200 milhões de assinantes. A fusão criará a empresa Skydance, que será dona de marcas co",
+      "keyword": "Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes; veja os números Fonte 2 Musk é trilionário de novo: fortuna chega a US$ 1,04 trilhão após disparada da SpaceX",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/06/paramount-warner-bros-200-milhoes-assinantes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/06/paramount-warner-bros-200-milhoes-assinantes.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/06/musk-e-trilionario-de-novo-fortuna-chega-a-us-104-trilhao-apos-disparada-da-spacex.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes; veja os números",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_3f6ffb5",
       "views": 0,
       "date": "2026-10-06T21:45:48.422Z",
@@ -18601,7 +18642,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T21:45:46.706Z",
+      "lastScraped": "2026-10-06T23:17:49.541Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18609,7 +18650,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T21:45:47.421Z",
+      "lastScraped": "2026-10-06T23:17:49.841Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18622,7 +18663,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T21:45:48.413Z",
+      "lastScraped": "2026-10-06T23:17:50.813Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18679,6 +18720,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791328683707",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes; veja os números",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes: o que muda para usuários e empresas?",
+      "postId": "rss-hash_49334a83",
+      "timestamp": "2026-10-06T23:17:50.826Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.6h (+8), Sem postagem há 6.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política"
+      ]
+    },
     {
       "id": "1791323246480",
       "feedName": "G1 - Economia",

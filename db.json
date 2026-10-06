@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3f6ffb5",
+      "views": 0,
+      "date": "2026-10-06T21:45:48.422Z",
+      "title": "Aena assume gestão do Galeão e ficará à frente do aeroporto até 2039 Fonte 2: o que muda para os próximos jogos?",
+      "subtitle": "A empresa espanhola Aena assinou nesta terça-feira (6) o contrato de compra e venda de ações (SPA) do Aeroporto Internacional Tom Jobim, o Galeão, e passa a ser responsável pela administração do terminal até 2039.",
+      "slug": "aena-assume-gestao-do-galeao-e-ficara-a-frente-do-aeroporto-ate-2039-fonte-2-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nA empresa espanhola Aena assinou nesta terça-feira (6) o contrato de compra e venda de ações (SPA) do Aeroporto Internacional Tom Jobim, o Galeão, e passa a ser responsável pela administração do terminal até 2039. A empresa venceu, no fim de março, o leilão de venda assistida do aeroporto, com um lance de R$ 2,9 bilhões.\n\nO que já foi informado\n\nCom a incorporação do Galeão, a Aena passa a administrar 18 aeroportos brasileiros, distribuídos por dez estados, com um fluxo superior a 63 milhões de passageiros por ano. Segundo a empresa, a gestão do Galeão terá como foco a eficiência operacional, a melhoria da experiência dos passageiros, o fortalecimento do transporte de cargas e a geração de valor para o Rio de Janeiro. Empresa espanhola ganha leilão e vai administrar o aeroporto do Galeão, no Rio O Galeão também passa a integrar a rede global da Aena, formada por 81 aeroportos em cinco países. Segundo a concessionária, a integração permitirá ao aeroporto ter acesso à escala e à experiência operacional da empresa, além de ampliar o diálogo com companhias aéreas, parceiros comerciais e o poder público.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Aena assume gestão do Galeão e ficará à frente do Store Center",
+      "seoDescription": "A empresa espanhola Aena assinou nesta terça-feira (6) o contrato de compra e venda de ações (SPA) do Aeroporto Internacional Tom Jobim, o Galeão, e p",
+      "keyword": "Aena assume gestão do Galeão e ficará à frente do aeroporto até 2039 Fonte 2 Compra da Warner Bros. pela Paramount cria gigante com 200 milhões de assinantes; veja os números",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/10/06/aena-assume-gestao-do-galeao-e-ficara-a-frente-do-aeroporto-ate-2039.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/rj/rio-de-janeiro/noticia/2026/10/06/aena-assume-gestao-do-galeao-e-ficara-a-frente-do-aeroporto-ate-2039.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/06/paramount-warner-bros-200-milhoes-assinantes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Aena assume gestão do Galeão e ficará à frente do aeroporto até 2039",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_51a91ea",
       "views": 0,
       "date": "2026-10-06T19:55:39.471Z",
@@ -18560,7 +18601,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T19:55:37.628Z",
+      "lastScraped": "2026-10-06T21:45:46.706Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18568,7 +18609,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T19:55:38.159Z",
+      "lastScraped": "2026-10-06T21:45:47.421Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18581,7 +18622,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T19:55:39.458Z",
+      "lastScraped": "2026-10-06T21:45:48.413Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18638,6 +18679,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791323246480",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Aena assume gestão do Galeão e ficará à frente do aeroporto até 2039",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Aena assume gestão do Galeão e ficará à frente do aeroporto até 2039 Fonte 2: o que muda para os próximos jogos?",
+      "postId": "rss-hash_3f6ffb5",
+      "timestamp": "2026-10-06T21:45:48.423Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Política"
+      ]
+    },
     {
       "id": "1791316544067",
       "feedName": "G1 - Economia",

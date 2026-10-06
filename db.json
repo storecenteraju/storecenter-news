@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_29b2c230",
+      "views": 0,
+      "date": "2026-10-06T00:58:43.274Z",
+      "title": "Starbucks é processada nos EUA por bebidas anunciadas como 'sem açúcar' Fonte 2 Smart: por que esse movimento importa?",
+      "subtitle": "Tingshu Wang A Starbucks foi processada por consumidores nos Estados Unidos que acusam a empresa de anunciar falsamente oito bebidas proteicas como \"sem açúcar\", embora elas contenham lactose, um tipo de açúcar naturalmente presente no leite.",
+      "slug": "starbucks-e-processada-nos-eua-por-bebidas-anunciadas-como-sem-acucar-fonte-2-smart-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nTingshu Wang A Starbucks foi processada por consumidores nos Estados Unidos que acusam a empresa de anunciar falsamente oito bebidas proteicas como \"sem açúcar\", embora elas contenham lactose, um tipo de açúcar naturalmente presente no leite. De acordo com uma ação coletiva apresentada na sexta-feira (02), consumidores não esperariam encontrar de 13 a 21 gramas de açúcar em bebidas anunciadas dessa forma, nas versões de 20 ou 24 onças (\"venti\").\n\nO que já foi informado\n\nA denúncia afirma que a legislação federal proíbe a Starbucks de usar a expressão \"sem açúcar\" para descrever bebidas que tenham mais de 0,5 grama de açúcar por porção de 355 ml (12 onças). Os consumidores acusam a empresa de tentar se beneficiar do interesse de 75% dos norte-americanos em reduzir ou eliminar o consumo de açúcar. Agora no g1 Eles também afirmam que a Starbucks não apresentou as advertências exigidas pela legislação federal, que informam que as bebidas proteicas não são alimentos de baixa caloria nem têm como finalidade o controle de peso. A Starbucks, com sede em Seattle, não se pronunciou imediatamente na última segunda-feira. O advogado dos consumidores também não respondeu de imediato aos pedidos de comentário.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Starbucks é processada nos EUA por bebidas anunciadas Store Center",
+      "seoDescription": "Tingshu Wang A Starbucks foi processada por consumidores nos Estados Unidos que acusam a empresa de anunciar falsamente oito bebidas proteicas como \"s",
+      "keyword": "Starbucks é processada nos EUA por bebidas anunciadas como 'sem açúcar' Fonte 2 Smart Fit fecha acordo para comprar até 20% do Buddha Spa por R$ 32 milhões",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/05/starbucks-e-processada-nos-eua-por-bebidas-anunciadas-como-sem-acucar.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/05/starbucks-e-processada-nos-eua-por-bebidas-anunciadas-como-sem-acucar.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/05/smartfit-buddha-spa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Starbucks é processada nos EUA por bebidas anunciadas como 'sem açúcar'",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4fb55459",
       "views": 0,
       "date": "2026-10-05T23:14:19.518Z",
@@ -18199,7 +18240,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-05T23:14:17.642Z",
+      "lastScraped": "2026-10-06T00:58:39.040Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18207,7 +18248,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-05T23:14:18.489Z",
+      "lastScraped": "2026-10-06T00:58:39.404Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18220,7 +18261,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-05T23:14:19.504Z",
+      "lastScraped": "2026-10-06T00:58:43.261Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18277,6 +18318,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791248394227",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Starbucks é processada nos EUA por bebidas anunciadas como 'sem açúcar'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Starbucks é processada nos EUA por bebidas anunciadas como 'sem açúcar' Fonte 2 Smart: por que esse movimento importa?",
+      "postId": "rss-hash_29b2c230",
+      "timestamp": "2026-10-06T00:58:43.274Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": []
+    },
     {
       "id": "1791242113035",
       "feedName": "G1 - Economia",

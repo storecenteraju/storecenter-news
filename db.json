@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1ae60480",
+      "views": 0,
+      "date": "2026-10-06T09:48:35.179Z",
+      "title": "Fim da escala 6x1: Senado inicia nova etapa de discussão da PEC: o que está em jogo no mercado?",
+      "subtitle": "Economia Sessão de Debates - Fim da escala 6x1 no Brasil. Edilson Rodrigues/Agência Senado.",
+      "slug": "fim-da-escala-6x1-senado-inicia-nova-etapa-de-discussao-da-pec-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Sessão de Debates - Fim da escala 6x1 no Brasil. Edilson Rodrigues/Agência Senado.\n\nO que já foi informado\n\nO Senado Federal inicia nesta terça-feira (6) uma nova etapa da tramitação da proposta que prevê o fim da escala 6x1, modelo em que o trabalhador atua por seis dias consecutivos e tem direito a apenas um dia de folga. Serão três sessões seguidas de discussão em plenário, marcadas para hoje, quarta (7) e quinta-feira (8), sempre às 14h. As sessões fazem parte do rito obrigatório da Proposta de Emenda à Constituição (PEC) 221/2019, que reduz a jornada máxima de trabalho de 44 para 40 horas semanais e garante dois dias de descanso remunerado por semana, sem redução salarial. O presidente do Senado, Davi Alcolumbre (União Brasil-AP), foi quem pautou o início das discussões. As reuniões serão realizadas em formato semipresencial, permitindo que os senadores participem tanto presencialmente quanto à distância. Em nota divulgada na semana passada, a Presidência do Senado afirmou que o tema será debatido com \"responsabilidade, equilíbrio e respeito às diferentes perspectivas envolvidas\".\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fim da escala 6x1: Senado inicia nova etapa de Store Center",
+      "seoDescription": "Economia Sessão de Debates - Fim da escala 6x1 no Brasil. Edilson Rodrigues/Agência Senado.",
+      "keyword": "Fim da escala 6x1: Senado inicia nova etapa de discussão da PEC; veja o que falta para proposta ser aprovada Fonte 2 Mega-Sena pode pagar R$ 92 milhões nesta terça-feira; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/06/fim-da-escala-6x1-senado-inicia-nova-etapa-de-discussao-da-pec-veja-o-que-falta-para-proposta-ser-aprovada.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/06/fim-da-escala-6x1-senado-inicia-nova-etapa-de-discussao-da-pec-veja-o-que-falta-para-proposta-ser-aprovada.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/06/mega-sena-pode-pagar-r-92-milhoes-nesta-terca-feira-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Fim da escala 6x1: Senado inicia nova etapa de discussão da PEC; veja o que falta para proposta ser aprovada",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_4682b63b",
       "views": 0,
       "date": "2026-10-06T06:44:21.637Z",
@@ -18320,7 +18361,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T06:44:20.192Z",
+      "lastScraped": "2026-10-06T09:48:33.194Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18328,7 +18369,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T06:44:20.725Z",
+      "lastScraped": "2026-10-06T09:48:34.068Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18341,7 +18382,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T06:44:21.624Z",
+      "lastScraped": "2026-10-06T09:48:35.164Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18398,6 +18439,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791280125180",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fim da escala 6x1: Senado inicia nova etapa de discussão da PEC; veja o que falta para proposta ser aprovada",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fim da escala 6x1: Senado inicia nova etapa de discussão da PEC: o que está em jogo no mercado?",
+      "postId": "rss-hash_1ae60480",
+      "timestamp": "2026-10-06T09:48:35.179Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.5h (+8), Sem postagem há 7.5h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1791269091697",
       "feedName": "G1 - Economia",

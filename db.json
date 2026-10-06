@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_512868cf",
+      "views": 0,
+      "date": "2026-10-06T12:07:33.168Z",
+      "title": "Vai trabalhar no feriado de 12 de outubro? Veja se dá para emendar e quais são seus: o que está em jogo no mercado?",
+      "subtitle": "Santuário Nacional Muitos trabalhadores já estão de olho no tão esperado “feriadão”, que chega na próxima segunda-feira (12), Dia de Nossa Senhora Aparecida, padroeira do Brasil, e também Dia das Crianças.",
+      "slug": "vai-trabalhar-no-feriado-de-12-de-outubro-veja-se-da-para-emendar-e-quais-sao-seus-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nSantuário Nacional Muitos trabalhadores já estão de olho no tão esperado “feriadão”, que chega na próxima segunda-feira (12), Dia de Nossa Senhora Aparecida, padroeira do Brasil, e também Dia das Crianças. A data é um feriado nacional e garante, em regra, um dia de descanso aos trabalhadores.\n\nO que já foi informado\n\nO fato de as duas celebrações ocorrerem no mesmo dia é apenas uma coincidência: o feriado é referente somente a Nossa Senhora Aparecida, padroeira do Brasil. O Dia das Crianças, apesar de ser uma data comemorativa mais antiga, não é feriado. (veja como surgiu a data) Como cai no início da semana, a data garante três dias consecutivos de descanso para quem não trabalha aos sábados e domingos. Veja como fica o calendário: 10 de outubro (sábado): folga para quem não trabalha aos fins de semana; 11 de outubro (domingo): folga para quem não trabalha aos fins de semana; 12 de outubro (segunda-feira): feriado nacional de Nossa Senhora Aparecida. Ao todo, ainda restam quatro feriados nacionais em 2026 — e três deles podem render um fim de semana prolongado, aumentando os dias de descanso.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Vai trabalhar no feriado de 12 de outubro? Veja se dá Store Center",
+      "seoDescription": "Santuário Nacional Muitos trabalhadores já estão de olho no tão esperado “feriadão”, que chega na próxima segunda-feira (12), Dia de Nossa Senhora Apa",
+      "keyword": "Vai trabalhar no feriado de 12 de outubro? Veja se dá para emendar e quais são seus direitos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/06/feriado-de-12-de-outubro-veja-se-da-para-emendar-e-direitos.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/06/feriado-de-12-de-outubro-veja-se-da-para-emendar-e-direitos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Vai trabalhar no feriado de 12 de outubro? Veja se dá para emendar e quais são seus direitos",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1ae60480",
       "views": 0,
       "date": "2026-10-06T09:48:35.179Z",
@@ -18361,7 +18400,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T09:48:33.194Z",
+      "lastScraped": "2026-10-06T12:07:31.798Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18369,7 +18408,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T09:48:34.068Z",
+      "lastScraped": "2026-10-06T12:07:32.389Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18382,7 +18421,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T09:48:35.164Z",
+      "lastScraped": "2026-10-06T12:07:33.152Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18439,6 +18478,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791288518738",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Vai trabalhar no feriado de 12 de outubro? Veja se dá para emendar e quais são seus direitos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Vai trabalhar no feriado de 12 de outubro? Veja se dá para emendar e quais são seus: o que está em jogo no mercado?",
+      "postId": "rss-hash_512868cf",
+      "timestamp": "2026-10-06T12:07:33.169Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 23",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791280125180",
       "feedName": "G1 - Economia",

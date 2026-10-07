@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1466a24c",
+      "views": 0,
+      "date": "2026-10-07T06:20:06.258Z",
+      "title": "Além dos ovos: granja em SC cria codornas para consumo da carne e exporta metade da: como isso afeta a população?",
+      "subtitle": "Economia Você já comeu carne de codorna? O ovo de codorna é conhecido nas saladas, nos petiscos e nas conservas.",
+      "slug": "alem-dos-ovos-granja-em-sc-cria-codornas-para-consumo-da-carne-e-exporta-metade-da-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Você já comeu carne de codorna? O ovo de codorna é conhecido nas saladas, nos petiscos e nas conservas.\n\nO que já foi informado\n\nMas, no oeste de Santa Catarina, a criação da ave também abastece outro mercado: o de carne. Em uma propriedade de Coronel Freitas, são abatidas de 15 mil a 16 mil codornas por dia, e metade da produção é exportada. Na região, a carne também faz parte do cardápio de restaurantes. No município de Arvoredo, a codorna recheada é uma das especialidades de Marta Bianchin, que prepara a receita no fogão a lenha. O recheio leva carne bovina, queijo ralado, milho, azeitona e um pouco de farinha de rosca para dar consistência. Na hora de preencher as aves, é preciso deixar espaço, porque a mistura aumenta de volume durante o cozimento.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Além dos ovos: granja em SC cria codornas para consumo Store Center",
+      "seoDescription": "Economia Você já comeu carne de codorna? O ovo de codorna é conhecido nas saladas, nos petiscos e nas conservas.",
+      "keyword": "Além dos ovos: granja em SC cria codornas para consumo da carne e exporta metade da produção Fonte 2 'Ninguém conseguia prever': chefe da Stellantis admite erro do setor diante da disparada chinesa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/07/alem-dos-ovos-granja-em-sc-cria-codornas-para-consumo-da-carne-e-exporta-metade-da-producao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/07/alem-dos-ovos-granja-em-sc-cria-codornas-para-consumo-da-carne-e-exporta-metade-da-producao.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/07/ninguem-conseguia-prever-chefe-da-stellantis-admite-erro-do-setor-diante-da-disparada-chinesa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Além dos ovos: granja em SC cria codornas para consumo da carne e exporta metade da produção",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_1e5e57d6",
       "views": 0,
       "date": "2026-10-07T01:32:31.057Z",
@@ -18683,7 +18724,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-07T01:32:29.722Z",
+      "lastScraped": "2026-10-07T06:20:04.920Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18691,7 +18732,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-07T01:32:30.084Z",
+      "lastScraped": "2026-10-07T06:20:05.250Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18704,7 +18745,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-07T01:32:31.042Z",
+      "lastScraped": "2026-10-07T06:20:06.246Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18761,6 +18802,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791354037450",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Além dos ovos: granja em SC cria codornas para consumo da carne e exporta metade da produção",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Além dos ovos: granja em SC cria codornas para consumo da carne e exporta metade da: como isso afeta a população?",
+      "postId": "rss-hash_1466a24c",
+      "timestamp": "2026-10-07T06:20:06.258Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.6h (+8), Sem postagem há 13.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Política"
+      ]
+    },
     {
       "id": "1791336829276",
       "feedName": "G1 - Economia",

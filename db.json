@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_c060949",
+      "views": 0,
+      "date": "2026-10-07T17:24:39.229Z",
+      "title": "Jaguar apresenta elétrico Type 01 em meio a polêmica de design e anúncio de demissões: o que está em jogo no mercado?",
+      "subtitle": "Mike Segar A Jaguar apresentou nesta quarta-feira (7) em Nova York o Type 01, seu novo carro elétrico de quatro portas, com preço inicial de US$ 130.500 (R$ 648 mil em conversão direta).",
+      "slug": "jaguar-apresenta-eletrico-type-01-em-meio-a-polemica-de-design-e-anuncio-de-demissoes-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nMike Segar A Jaguar apresentou nesta quarta-feira (7) em Nova York o Type 01, seu novo carro elétrico de quatro portas, com preço inicial de US$ 130.500 (R$ 648 mil em conversão direta). O modelo tem capô muito longo, não possui vidro traseiro e concentra uma série de recursos tecnológicos.\n\nO que já foi informado\n\nO lançamento marca, segundo a Jaguar, o início de uma nova geração de veículos da marca e de uma nova fase para a fabricante britânica, controlada pela indiana Tata Motors. O preço elevado representa uma aposta no mercado norte-americano, onde a aceitação de carros elétricos tem sido menor do que na Europa. Segundo a , a JLR, grupo ao qual a marca pertence, pretende aumentar o foco nos consumidores dos Estados Unidos enquanto enfrenta dificuldades no mercado europeu. Agora no g1 Entre os desafios estão a concorrência de carros chineses com preços mais baixos, custos relacionados a tarifas e interrupções provocadas pela guerra entre Estados Unidos e Israel contra o Irã. O desenho do Type 01 busca inspiração nos esportivos Jaguar E-Type dos anos 1960, modelos que se tornaram valorizados entre colecionadores.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Jaguar apresenta elétrico Type 01 em meio a polêmica de Store Center",
+      "seoDescription": "Mike Segar A Jaguar apresentou nesta quarta-feira (7) em Nova York o Type 01, seu novo carro elétrico de quatro portas, com preço inicial de US$ 130.5",
+      "keyword": "Jaguar apresenta elétrico Type 01 em meio a polêmica de design e anúncio de demissões Fonte 2 Estrangeiros colocam recorde de R$ 10 bilhões na Bolsa brasileira após 1º turno; entenda o movimento",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/07/jaguar-type-01.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/07/jaguar-type-01.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/07/bolsa-10bi-estrangeiros.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Jaguar apresenta elétrico Type 01 em meio a polêmica de design e anúncio de demissões",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7636d51e",
       "views": 0,
       "date": "2026-10-07T14:45:33.412Z",
@@ -18845,7 +18886,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-07T14:45:32.321Z",
+      "lastScraped": "2026-10-07T17:24:37.882Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18853,7 +18894,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-07T14:45:32.571Z",
+      "lastScraped": "2026-10-07T17:24:38.202Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18866,7 +18907,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-07T14:45:33.400Z",
+      "lastScraped": "2026-10-07T17:24:39.212Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18923,6 +18964,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791393907863",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Jaguar apresenta elétrico Type 01 em meio a polêmica de design e anúncio de demissões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Jaguar apresenta elétrico Type 01 em meio a polêmica de design e anúncio de demissões: o que está em jogo no mercado?",
+      "postId": "rss-hash_c060949",
+      "timestamp": "2026-10-07T17:24:39.230Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.5h (+8), Sem postagem há 7.5h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1791384430375",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2020cd47",
+      "views": 0,
+      "date": "2026-10-07T22:06:55.935Z",
+      "title": "STF exclui crédito de ICMS da base de cálculo de impostos federais e União estima: por que esse movimento importa?",
+      "subtitle": "Economia O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (7) que incentivos concedidos por estados e o Distrito Federal via ICMS não devem entrar na base de cálculo das contribuições ao PIS (Programa de Integração Social) e a.",
+      "slug": "stf-exclui-credito-de-icms-da-base-de-calculo-de-impostos-federais-e-uniao-estima-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (7) que incentivos concedidos por estados e o Distrito Federal via ICMS não devem entrar na base de cálculo das contribuições ao PIS (Programa de Integração Social) e a Contribuição para o Financiamento da Seguridade Social (Cofins). O Imposto sobre Circulação de Mercadorias e Serviços (ICMS) é um tributo estadual.\n\nO que já foi informado\n\nOs créditos presumidos são uma forma de incentivar empresas e setores da economia. O impacto, segundo os riscos fiscais inscritos na Lei de Diretrizes Orçamentárias de 2026, é de R$16,5 bilhões. A votação acabou 7 a 4 – ficaram vencidos os ministros Alexandre de Moraes, Gilmar Mendes, Nunes Marques e Luiz Fux. Os ministros André Mendonça, Cristiano Zanin e Flávio Dino não votaram, já que seus antecessores – Marco Aurélio, Ricardo Lewandowski e Rosa Weber – já haviam votado. Agora no g1 Valores não podem compor base de cálculo O ministro Alexandre de Moraes, que saiu vencido do julgamento, entendeu que ao conceder o incentivo fiscal o estado não pode “dar mais do que tem”, ou seja, dar o benefício em relação ao ente federativo e à União.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "STF exclui crédito de ICMS da base de cálculo de Store Center",
+      "seoDescription": "Economia O Supremo Tribunal Federal (STF) decidiu nesta quarta-feira (7) que incentivos concedidos por estados e o Distrito Federal v",
+      "keyword": "STF exclui crédito de ICMS da base de cálculo de impostos federais e União estima impacto de R$16,5 bilhões Fonte 2 Shake Shack, rede de hambúrgueres dos EUA, chega ao Brasil com plano de abrir 40 restaurantes; veja cardápio",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/07/stf-exclui-credito-de-icms-da-base-de-calculo-de-impostos-federais-e-uniao-deve-perder-r165-bilhoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/07/stf-exclui-credito-de-icms-da-base-de-calculo-de-impostos-federais-e-uniao-deve-perder-r165-bilhoes.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/07/shake-shack-rede-de-hamburgueres-dos-eua-chega-ao-brasil-com-plano-de-abrir-40-restaurantes-veja-cardapio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "STF exclui crédito de ICMS da base de cálculo de impostos federais e União estima impacto de R$16,5 bilhões",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_7b966cf1",
       "views": 0,
       "date": "2026-10-07T20:21:24.437Z",
@@ -18966,7 +19007,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-07T20:21:22.709Z",
+      "lastScraped": "2026-10-07T22:06:54.599Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18974,7 +19015,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-07T20:21:23.347Z",
+      "lastScraped": "2026-10-07T22:06:54.927Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18987,7 +19028,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-07T20:21:24.423Z",
+      "lastScraped": "2026-10-07T22:06:55.924Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19044,6 +19085,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791410837211",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "STF exclui crédito de ICMS da base de cálculo de impostos federais e União estima impacto de R$16,5 bilhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "STF exclui crédito de ICMS da base de cálculo de impostos federais e União estima: por que esse movimento importa?",
+      "postId": "rss-hash_2020cd47",
+      "timestamp": "2026-10-07T22:06:55.936Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1791404567951",
       "feedName": "G1 - Economia",

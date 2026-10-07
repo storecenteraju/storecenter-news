@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7c6ee8aa",
+      "views": 0,
+      "date": "2026-10-07T23:51:26.520Z",
+      "title": "PF arquiva investigação sobre suposta interferência dos EUA nas eleições brasileiras: por que esse movimento importa?",
+      "subtitle": "Economia A Polícia Federal decidiu arquivar uma investigação sobre suposta interferência do governo de Donald Trump nas eleições brasileiras.",
+      "slug": "pf-arquiva-investigacao-sobre-suposta-interferencia-dos-eua-nas-eleicoes-brasileiras-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia A Polícia Federal decidiu arquivar uma investigação sobre suposta interferência do governo de Donald Trump nas eleições brasileiras. O pedido, feito pela Advocacia-Geral da União (AGU), falava sobre o eventual uso de dinheiro público dos Estados Unidos no financiamento de organizações e grupos que operam em território brasileiro.\n\nO que já foi informado\n\nO pedido de investigação foi encaminhado na última quinta-feira (1) ao diretor-geral da PF, Andrei Rodrigues, e ao procurador-geral da República, Paulo Gonet. No domingo (4), dia do primeiro turno das eleições, Andrei Rodrigues afirmou que a PF estava realizando uma apuração preliminar sobre o caso, sem instauração formal de inquérito. Agora no g1 \"Recebemos uma representação da AGU sugerindo apuração de interferência externa. Foi encaminhado para a Diretoria de Inteligência para dar início à apuração. É uma investigação em andamento, um procedimento prévio. Não foi publicada a portaria do inquérito, mas já temos uma investigação em curso\", disse Andrei.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "PF arquiva investigação sobre suposta interferência dos Store Center",
+      "seoDescription": "Economia A Polícia Federal decidiu arquivar uma investigação sobre suposta interferência do governo de Donald Trump nas eleições bras",
+      "keyword": "PF arquiva investigação sobre suposta interferência dos EUA nas eleições brasileiras Fonte 2 Shake Shack, rede de hambúrgueres dos EUA, chega ao Brasil com plano de abrir 40 restaurantes; veja cardápio",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/blog/ana-flor/post/2026/10/07/pf-arquiva-investigacao-sobre-suposta-interferencia-dos-eua-nas-eleicoes-brasileiras.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/blog/ana-flor/post/2026/10/07/pf-arquiva-investigacao-sobre-suposta-interferencia-dos-eua-nas-eleicoes-brasileiras.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/07/shake-shack-rede-de-hamburgueres-dos-eua-chega-ao-brasil-com-plano-de-abrir-40-restaurantes-veja-cardapio.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "PF arquiva investigação sobre suposta interferência dos EUA nas eleições brasileiras",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2020cd47",
       "views": 0,
       "date": "2026-10-07T22:06:55.935Z",
@@ -19007,7 +19048,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-07T22:06:54.599Z",
+      "lastScraped": "2026-10-07T23:51:24.892Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19015,7 +19056,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-07T22:06:54.927Z",
+      "lastScraped": "2026-10-07T23:51:25.476Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19028,7 +19069,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-07T22:06:55.924Z",
+      "lastScraped": "2026-10-07T23:51:26.512Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19085,6 +19126,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791417165329",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "PF arquiva investigação sobre suposta interferência dos EUA nas eleições brasileiras",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "PF arquiva investigação sobre suposta interferência dos EUA nas eleições brasileiras: por que esse movimento importa?",
+      "postId": "rss-hash_7c6ee8aa",
+      "timestamp": "2026-10-07T23:51:26.520Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1791410837211",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1e5e57d6",
+      "views": 0,
+      "date": "2026-10-07T01:32:31.057Z",
+      "title": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões: o que muda para usuários e empresas?",
+      "subtitle": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.067 da Mega-Sena foi realizado na noite desta terça-feira (6), em São Paulo.",
+      "slug": "mega-sena-3067-acumula-e-premio-vai-a-r-100-milhoes-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Como funciona a Mega-Sena? O sorteio do concurso 3.067 da Mega-Sena foi realizado na noite desta terça-feira (6), em São Paulo.\n\nO que já foi informado\n\nO prêmio para as apostas que acertassem as seis dezenas era de R$ 90,1 milhões. No entanto, ninguém levou a faixa principal e o valor acumulou para R$ 100 milhões. Veja os números sorteados: 01 - 04 - 17 - 33 - 41 - 52 5 acertos: 85 apostas ganhadoras, R$ 33.382,67 4 acertos: 7.264 apostas ganhadoras, R$ 643,89 Resultado do concurso 3067 da Mega-Sena.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões: o Store Center",
+      "seoDescription": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.067 da Mega-Sena foi realizado na noite desta terça-feira (6), em São Pau",
+      "keyword": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões; confira os números sorteados Fonte 2 Musk é trilionário de novo: fortuna chega a US$ 1,04 trilhão após disparada da SpaceX",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/06/mega-sena-concurso-3067-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/06/mega-sena-concurso-3067-confira-os-numeros-sorteados.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/06/musk-e-trilionario-de-novo-fortuna-chega-a-us-104-trilhao-apos-disparada-da-spacex.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões; confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_49334a83",
       "views": 0,
       "date": "2026-10-06T23:17:50.826Z",
@@ -18642,7 +18683,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-06T23:17:49.541Z",
+      "lastScraped": "2026-10-07T01:32:29.722Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18650,7 +18691,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-06T23:17:49.841Z",
+      "lastScraped": "2026-10-07T01:32:30.084Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18663,7 +18704,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-06T23:17:50.813Z",
+      "lastScraped": "2026-10-07T01:32:31.042Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18720,6 +18761,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791336829276",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões; confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena 3067 acumula e prêmio vai a R$ 100 milhões: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1e5e57d6",
+      "timestamp": "2026-10-07T01:32:31.057Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.8h (+8), Sem postagem há 8.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política"
+      ]
+    },
     {
       "id": "1791328683707",
       "feedName": "G1 - Economia",

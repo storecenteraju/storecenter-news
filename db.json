@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_182750b2",
+      "views": 0,
+      "date": "2026-10-07T19:03:49.127Z",
+      "title": "Produção de veículos cai em setembro, mas vendas sobem: o que está em jogo no mercado?",
+      "subtitle": "Volkswagen A produção de veículos no Brasil caiu 1,1% em setembro, na comparação com agosto, enquanto as vendas de veículos novos subiram 2,3%, segundo dados divulgados nesta quarta-feira (7) pela Associação Nacional dos Fabricantes de Veículos Automotores.",
+      "slug": "producao-de-veiculos-cai-em-setembro-mas-vendas-sobem-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nVolkswagen A produção de veículos no Brasil caiu 1,1% em setembro, na comparação com agosto, enquanto as vendas de veículos novos subiram 2,3%, segundo dados divulgados nesta quarta-feira (7) pela Associação Nacional dos Fabricantes de Veículos Automotores (Anfavea). Na comparação com setembro do ano passado, porém, a produção cresceu 10,2%, para 268,3 mil veículos.\n\nO que já foi informado\n\nO número inclui carros, veículos comerciais leves, caminhões e ônibus. No acumulado de janeiro a setembro, a produção aumentou 8,7%, para 2,17 milhões de veículos. As vendas de veículos novos, medidas pelo número de veículos licenciados, também cresceram na comparação anual. Em setembro, foram 281,4 mil unidades, alta de 15,7% ante o mesmo mês de 2025. Agora no g1 Com isso, as vendas acumulam alta de 18,1% no ano, para 2,26 milhões de veículos. No comércio exterior, as exportações de veículos caíram 24,2% em setembro, na comparação com o mesmo mês do ano passado, para 39,8 mil unidades.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Produção de veículos cai em setembro, mas vendas sobem Store Center",
+      "seoDescription": "Volkswagen A produção de veículos no Brasil caiu 1,1% em setembro, na comparação com agosto, enquanto as vendas de veículos novos subiram 2,3%, segund",
+      "keyword": "Produção de veículos cai em setembro, mas vendas sobem; veja os números Fonte 2 Estrangeiros colocam recorde de R$ 10 bilhões na Bolsa brasileira após 1º turno; entenda o movimento",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/07/producao-de-veiculos-cai-em-setembro-mas-vendas-sobem.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/07/producao-de-veiculos-cai-em-setembro-mas-vendas-sobem.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/07/bolsa-10bi-estrangeiros.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Produção de veículos cai em setembro, mas vendas sobem; veja os números",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_c060949",
       "views": 0,
       "date": "2026-10-07T17:24:39.229Z",
@@ -18886,7 +18927,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-07T17:24:37.882Z",
+      "lastScraped": "2026-10-07T19:03:47.995Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -18894,7 +18935,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-07T17:24:38.202Z",
+      "lastScraped": "2026-10-07T19:03:48.291Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -18907,7 +18948,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-07T17:24:39.212Z",
+      "lastScraped": "2026-10-07T19:03:49.113Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -18964,6 +19005,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791399832397",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Produção de veículos cai em setembro, mas vendas sobem; veja os números",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Produção de veículos cai em setembro, mas vendas sobem: o que está em jogo no mercado?",
+      "postId": "rss-hash_182750b2",
+      "timestamp": "2026-10-07T19:03:49.128Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.2h (+8), Sem postagem há 9.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1791393907863",
       "feedName": "G1 - Economia",

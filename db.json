@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_475da8c3",
+      "views": 0,
+      "date": "2026-10-08T23:58:23.393Z",
+      "title": "Gol lança ‘check-in’ pelo ChatGPT: o que muda para os próximos jogos?",
+      "subtitle": "Economia Chat GPT: Veja profissões que podem despontar com chegada da ferramenta A Gol Linhas Aéreas anunciou nesta quinta-feira (8) uma integração com o ChatGPT que permitirá aos passageiros fazer o check-in e gerar o cartão de embarque.",
+      "slug": "gol-lanca-check-in-pelo-chatgpt-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Chat GPT: Veja profissões que podem despontar com chegada da ferramenta A Gol Linhas Aéreas anunciou nesta quinta-feira (8) uma integração com o ChatGPT que permitirá aos passageiros fazer o check-in e gerar o cartão de embarque diretamente no assistente de inteligência artificial da OpenAI. Segundo a companhia, a Gol será a primeira empresa aérea da América Latina a oferecer esse serviço.\n\nO que já foi informado\n\nA ferramenta já está em fase de testes restritos e será disponibilizada para toda a base de clientes em 19 de outubro, sem custo adicional. Como irá funcionar? Para usar o serviço, o passageiro deverá acessar o ChatGPT, pelo aplicativo ou pela versão web, digitar gol e solicitar a visualização de suas viagens. O sistema então abrirá uma página de login no ambiente oficial da Gol, onde o cliente fará a autenticação. Segundo a companhia, o processo segue seus protocolos de segurança e as regras da Lei Geral de Proteção de Dados (LGPD). As credenciais usadas no login e os dados considerados sensíveis não ficam disponíveis para o ChatGPT.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Gol lança ‘check-in’ pelo ChatGPT: o que muda para os Store Center",
+      "seoDescription": "Economia Chat GPT: Veja profissões que podem despontar com chegada da ferramenta A Gol Linhas Aéreas anunciou nesta quinta-feira (8)",
+      "keyword": "Gol lança ‘check-in’ pelo ChatGPT; veja como fazer e quando começa Fonte 2 Google lança agente de IA para tarefas de trabalho",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/08/gol-lanca-check-in-pelo-chatgpt-veja-como-fazer-e-quando-comeca.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/08/gol-lanca-check-in-pelo-chatgpt-veja-como-fazer-e-quando-comeca.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/08/google-lanca-agente-de-ia-para-tarefas-de-trabalho.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Gol lança ‘check-in’ pelo ChatGPT; veja como fazer e quando começa",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_65ba4b21",
       "views": 0,
       "date": "2026-10-08T22:14:28.733Z",
@@ -19414,7 +19455,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-08T22:14:27.081Z",
+      "lastScraped": "2026-10-08T23:58:21.817Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19422,7 +19463,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-08T22:14:27.808Z",
+      "lastScraped": "2026-10-08T23:58:22.371Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19435,7 +19476,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-08T22:14:28.719Z",
+      "lastScraped": "2026-10-08T23:58:23.382Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19492,6 +19533,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791503967322",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Gol lança ‘check-in’ pelo ChatGPT; veja como fazer e quando começa",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Gol lança ‘check-in’ pelo ChatGPT: o que muda para os próximos jogos?",
+      "postId": "rss-hash_475da8c3",
+      "timestamp": "2026-10-08T23:58:23.393Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.9h (+8), Sem postagem há 13.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1791497750702",
       "feedName": "G1 - Economia",

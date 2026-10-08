@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_65ba4b21",
+      "views": 0,
+      "date": "2026-10-08T22:14:28.733Z",
+      "title": "Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146% Fonte 2: por que esse movimento importa?",
+      "subtitle": "Economia A balança comercial registrou superávit de US$ 7,7 bilhões em setembro, informou o Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) nesta terça-feira (6).",
+      "slug": "balanca-comercial-tem-superavit-de-us-7-7-bilhoes-em-setembro-alta-de-146-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia A balança comercial registrou superávit de US$ 7,7 bilhões em setembro, informou o Ministério do Desenvolvimento, Indústria, Comércio e Serviços (MDIC) nesta terça-feira (6). O resultado é de superávit quanto as exportações superam as importações.\n\nO que já foi informado\n\nQuando acontece o contrário, o resultado é deficitário. O saldo positivo foi de 146,4% em relação ao mesmo período ano passado, quando somou US$ 3,1 bilhões. Agora no g1 Segundo o governo, em setembro: As exportações somaram U$ 34,4 bilhões com aumento de 12,9% As importações somaram US$ 26,7 bilhões, com queda de 2,4%. Entre os produtos exportados pelo país, se destacaram em setembro: Óleos brutos de petróleo: US$ 2,83 bilhões, com alta 77,3%; Soja: US$ 0,37 bilhões, com aumento de 11,9%; Café não torrado: US$ 0,10 bilhões bilhão, com alta de 8,7%; Centeio, aveia e outros cereais não moídos: US$ 0,13 bilhões, com alta de 31.239,5%. Na relação comercial com os Estados Unidos, o Brasil registrou resultados positivos tanto em relação as exportações quanto as importações. No que diz respeito às exportações, o resultado foi de U$3,5 bilhões e, as importações, por sua vez, de U$4,4 bilhões.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Balança comercial tem superávit de US$ 7,7 bilhões em Store Center",
+      "seoDescription": "Economia A balança comercial registrou superávit de US$ 7,7 bilhões em setembro, informou o Ministério do Desenvolvimento, Indústria,",
+      "keyword": "Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146% Fonte 2 Executiva da BYD afirma que maior desafio para expansão é a geopolítica",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/06/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro-alta-de-146percent.ghtml",
+      "sourceName": "G1 - Política + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/06/balanca-comercial-tem-superavit-de-us-77-bilhoes-em-setembro-alta-de-146percent.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/08/executiva-da-byd-afirma-que-maior-desafio-para-expansao-e-a-geopolitica.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146%",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3662f30d",
       "views": 0,
       "date": "2026-10-08T20:24:00.112Z",
@@ -19373,7 +19414,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-08T20:23:58.097Z",
+      "lastScraped": "2026-10-08T22:14:27.081Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19381,7 +19422,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-08T20:23:59.100Z",
+      "lastScraped": "2026-10-08T22:14:27.808Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19394,7 +19435,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-08T20:24:00.098Z",
+      "lastScraped": "2026-10-08T22:14:28.719Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19451,6 +19492,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791497750702",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146%",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Balança comercial tem superávit de US$ 7,7 bilhões em setembro, alta de 146% Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_65ba4b21",
+      "timestamp": "2026-10-08T22:14:28.734Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 31.5h (+8), Sem postagem há 31.5h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1791491074971",
       "feedName": "G1 - Economia",

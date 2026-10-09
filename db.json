@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_58fdb215",
+      "views": 0,
+      "date": "2026-10-09T21:47:58.216Z",
+      "title": "Exportações brasileiras de carne bovina para os EUA sobem 524% Fonte 2 Governo zera: por que esse movimento importa?",
+      "subtitle": "Economia Exportadores brasileiros de carne bovina não podem mais vender para a União Europeia As exportações brasileiras de carne bovina para os Estados Unidos dispararam 524,3% em setembro, na comparação com o mesmo mês de 2025, segundo.",
+      "slug": "exportacoes-brasileiras-de-carne-bovina-para-os-eua-sobem-524-fonte-2-governo-zera-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Exportadores brasileiros de carne bovina não podem mais vender para a União Europeia As exportações brasileiras de carne bovina para os Estados Unidos dispararam 524,3% em setembro, na comparação com o mesmo mês de 2025, segundo levantamento da Câmara Americana de Comércio para o Brasil (Amcham). O avanço, porém, não foi suficiente para reverter a queda das vendas brasileiras ao mercado americano no acumulado do ano, em um período marcado pelas sobretaxas impostas pelo governo de Donald Trump a produtos brasileiros.\n\nO que já foi informado\n\nDe janeiro a setembro, as exportações do Brasil para os Estados Unidos somaram US$ 27,5 bilhões, uma queda de 6,5% em relação ao mesmo período do ano passado. O valor representa uma redução de US$ 1,9 bilhão e é o menor para os nove primeiros meses do ano desde 2023. Em setembro, entretanto, houve recuperação. As exportações brasileiras para os americanos alcançaram US$ 3,5 bilhões, alta de 31,9% em relação ao mesmo mês de 2025. O crescimento foi impulsionado tanto pelo aumento da quantidade de produtos vendidos, de 3,1%, quanto pela elevação de 28% no preço médio das mercadorias exportadas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Exportações brasileiras de carne bovina para os EUA Store Center",
+      "seoDescription": "Economia Exportadores brasileiros de carne bovina não podem mais vender para a União Europeia As exportações brasileiras de carne bov",
+      "keyword": "Exportações brasileiras de carne bovina para os EUA sobem 524% Fonte 2 Governo zera tributos sobre gasolina e publica MP que libera R$ 7,5 bilhões para segurar preço do diesel",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/09/carne-bovina-dispara-524percent-nos-eua-mas-exportacoes-brasileiras-ao-pais-tem-pior-resultado-desde-2023.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/09/carne-bovina-dispara-524percent-nos-eua-mas-exportacoes-brasileiras-ao-pais-tem-pior-resultado-desde-2023.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/09/governo-publica-mp-que-libera-r-75-bilhoes-para-segurar-precos-dos-combustiveis.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Exportações brasileiras de carne bovina para os EUA sobem 524%",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_14d4109f",
       "views": 0,
       "date": "2026-10-09T19:56:32.615Z",
@@ -19777,7 +19818,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-09T19:56:31.648Z",
+      "lastScraped": "2026-10-09T21:47:56.617Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19785,7 +19826,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-09T19:56:31.895Z",
+      "lastScraped": "2026-10-09T21:47:57.204Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19798,7 +19839,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-09T19:56:32.600Z",
+      "lastScraped": "2026-10-09T21:47:58.203Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19855,6 +19896,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791582500691",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Exportações brasileiras de carne bovina para os EUA sobem 524%",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Exportações brasileiras de carne bovina para os EUA sobem 524% Fonte 2 Governo zera: por que esse movimento importa?",
+      "postId": "rss-hash_58fdb215",
+      "timestamp": "2026-10-09T21:47:58.217Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.1h (+8), Sem postagem há 7.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1791575871488",
       "feedName": "G1 - Economia",

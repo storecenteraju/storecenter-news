@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_295dac56",
+      "views": 0,
+      "date": "2026-10-09T16:58:25.624Z",
+      "title": "Grosseria tem limite até para a IA: Anthropic quer barrar abusos e autoriza Claude: o que muda para os próximos jogos?",
+      "subtitle": "Economia Claude, rival do ChatGPT, vai revelar quem criou texto com IA; veja como vai funcionar Tem gente que agradece ao chatbot pelas respostas e não dispensa um “por favor”.",
+      "slug": "grosseria-tem-limite-ate-para-a-ia-anthropic-quer-barrar-abusos-e-autoriza-claude-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Claude, rival do ChatGPT, vai revelar quem criou texto com IA; veja como vai funcionar Tem gente que agradece ao chatbot pelas respostas e não dispensa um “por favor”. Outros preferem ir direto ao ponto.\n\nO que já foi informado\n\nJá alguns perdem a paciência quando a inteligência artificial erra e não fazem questão de esconder a irritação. Afinal, é só um robô, não é? Ou será que ele tem sentimentos? ( A Anthropic, empresa responsável pelo Claude, atualizou sua política de uso para proibir comportamentos abusivos ou cruéis persistentes e desnecessários contra seus modelos de inteligência artificial (IA). Segundo a empresa, a capacidade de o Claude encerrar conversas desse tipo continuará sendo o principal mecanismo para aplicar a regra. A política, porém, não proíbe qualquer crítica ou manifestação de insatisfação com as respostas do chatbot: a restrição se refere a interações abusivas ou cruéis persistentes e desnecessárias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Grosseria tem limite até para a IA: Anthropic quer Store Center",
+      "seoDescription": "Economia Claude, rival do ChatGPT, vai revelar quem criou texto com IA; veja como vai funcionar Tem gente que agradece ao chatbot pel",
+      "keyword": "Grosseria tem limite até para a IA: Anthropic quer barrar abusos e autoriza Claude a encerrar conversas Fonte 2 US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos, mansões e mais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/09/grosseria-tem-limite-ate-para-a-ia-anthropic-quer-barrar-abusos-e-autoriza-claude-a-encerrar-conversas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/09/grosseria-tem-limite-ate-para-a-ia-anthropic-quer-barrar-abusos-e-autoriza-claude-a-encerrar-conversas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/09/us-1-tri-simulador-permite-gastar-toda-a-fortuna-de-musk-com-hamburgueres-cavalos-mansoes-e-mais.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Grosseria tem limite até para a IA: Anthropic quer barrar abusos e autoriza Claude a encerrar conversas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_21e056ee",
       "views": 0,
       "date": "2026-10-09T14:41:42.229Z",
@@ -19656,7 +19697,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-09T14:41:40.582Z",
+      "lastScraped": "2026-10-09T16:58:22.660Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19664,7 +19705,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-09T14:41:40.880Z",
+      "lastScraped": "2026-10-09T16:58:23.241Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19677,7 +19718,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-09T14:41:42.216Z",
+      "lastScraped": "2026-10-09T16:58:25.612Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19734,6 +19775,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791565201252",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Grosseria tem limite até para a IA: Anthropic quer barrar abusos e autoriza Claude a encerrar conversas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Grosseria tem limite até para a IA: Anthropic quer barrar abusos e autoriza Claude: o que muda para os próximos jogos?",
+      "postId": "rss-hash_295dac56",
+      "timestamp": "2026-10-09T16:58:25.624Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.0h (+8), Sem postagem há 17.0h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 26",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1791556922007",
       "feedName": "G1 - Economia",

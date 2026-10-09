@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1b817eb9",
+      "views": 0,
+      "date": "2026-10-09T18:29:41.657Z",
+      "title": "US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos: o que está em jogo no mercado?",
+      "subtitle": "Nele, é possível torrar toda essa grana comprando desde cafés, Big Macs e iPhones até ônibus escolares, Lamborghinis, carros de Fórmula 1, satélites, navios e estádios de futebol.",
+      "slug": "us-1-tri-simulador-permite-gastar-toda-a-fortuna-de-musk-com-hamburgueres-cavalos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nNele, é possível torrar toda essa grana comprando desde cafés, Big Macs e iPhones até ônibus escolares, Lamborghinis, carros de Fórmula 1, satélites, navios e estádios de futebol. Também é possível gastar dinheiro com advogados e tanques de guerra, entre outros itens.\n\nO que já foi informado\n\nO simulador é gratuito e foi desenvolvido pela revista norte-americana de tecnologia Wired em parceria com o site de jogos Neal. Em junho deste ano, Elon Musk se tornou o primeiro trilionário da história após a estreia da SpaceX na Nasdaq, principal bolsa de tecnologia dos Estados Unidos, que reúne empresas como Apple, Google e Microsoft. Nascido na África do Sul, Musk é hoje a pessoa mais rica do mundo e construiu sua fortuna com empresas como Tesla, SpaceX, Starlink e X, o antigo Twitter. Agora no g1 Segundo a revista Wired, pesquisas mostram que as pessoas têm dificuldade para compreender números tão altos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Esporte",
+      "author": "Redação Store Center",
+      "tags": [
+        "Esporte",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "US$ 1 tri: simulador permite gastar toda a fortuna de Store Center",
+      "seoDescription": "Nele, é possível torrar toda essa grana comprando desde cafés, Big Macs e iPhones até ônibus escolares, Lamborghinis, carros de Fórmula 1, satélites,",
+      "keyword": "US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos, mansões e mais Fonte 2 Google lança agente de IA para tarefas de trabalho",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/09/us-1-tri-simulador-permite-gastar-toda-a-fortuna-de-musk-com-hamburgueres-cavalos-mansoes-e-mais.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/09/us-1-tri-simulador-permite-gastar-toda-a-fortuna-de-musk-com-hamburgueres-cavalos-mansoes-e-mais.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/08/google-lanca-agente-de-ia-para-tarefas-de-trabalho.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos, mansões e mais",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_295dac56",
       "views": 0,
       "date": "2026-10-09T16:58:25.624Z",
@@ -19697,7 +19738,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-09T16:58:22.660Z",
+      "lastScraped": "2026-10-09T18:29:39.597Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19705,7 +19746,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-09T16:58:23.241Z",
+      "lastScraped": "2026-10-09T18:29:40.213Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19718,7 +19759,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-09T16:58:25.612Z",
+      "lastScraped": "2026-10-09T18:29:41.642Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19775,6 +19816,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791570636423",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos, mansões e mais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "US$ 1 tri: simulador permite gastar toda a fortuna de Musk com hambúrgueres, cavalos: o que está em jogo no mercado?",
+      "postId": "rss-hash_1b817eb9",
+      "timestamp": "2026-10-09T18:29:41.657Z",
+      "chosenCategory": "Esporte",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 3 (+5). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 13",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1791565201252",
       "feedName": "G1 - Economia",

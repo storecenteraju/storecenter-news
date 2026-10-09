@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_61e87747",
+      "views": 0,
+      "date": "2026-10-09T02:09:52.431Z",
+      "title": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões: por que isso importa para a economia?",
+      "subtitle": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.068 da Mega-Sena foi realizado na noite desta quinta-feira (8), em São Paulo.",
+      "slug": "mega-sena-3068-acumula-e-premio-vai-a-r-112-milhoes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Como funciona a Mega-Sena? O sorteio do concurso 3.068 da Mega-Sena foi realizado na noite desta quinta-feira (8), em São Paulo.\n\nO que já foi informado\n\nO prêmio para as apostas que acertassem as seis dezenas era de R$ 100 milhões. No entanto, ninguém levou a faixa principal e valor acumulou para R$ 112 milhões. Veja os números sorteados: 07 - 10 - 39 - 40 - 43 - 57 5 acertos: 62 apostas ganhadoras, R$ 51.808,94 4 acertos: 4.884 apostas ganhadoras, R$ 1.084,10 Resultado do concurso 3068 da Mega-Sena.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões Store Center",
+      "seoDescription": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.068 da Mega-Sena foi realizado na noite desta quinta-feira (8), em São Pa",
+      "keyword": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões; confira os números sorteados Fonte 2 'Imposto do pecado': discussão sobre alíquotas ficará para depois das eleições, diz ministro da Fazenda",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/08/mega-sena-concurso-3068-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/08/mega-sena-concurso-3068-confira-os-numeros-sorteados.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/08/imposto-do-pecado-discussao-sobre-aliquotas-ficara-para-depois-das-eleicoes-diz-ministro-da-fazenda.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões; confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_475da8c3",
       "views": 0,
       "date": "2026-10-08T23:58:23.393Z",
@@ -19455,7 +19496,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-08T23:58:21.817Z",
+      "lastScraped": "2026-10-09T02:09:50.969Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19463,7 +19504,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-08T23:58:22.371Z",
+      "lastScraped": "2026-10-09T02:09:51.522Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19476,7 +19517,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-08T23:58:23.382Z",
+      "lastScraped": "2026-10-09T02:09:52.418Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19533,6 +19574,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791511803635",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões; confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena 3068 acumula e prêmio vai a R$ 112 milhões: por que isso importa para a economia?",
+      "postId": "rss-hash_61e87747",
+      "timestamp": "2026-10-09T02:09:52.432Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1791503967322",
       "feedName": "G1 - Economia",

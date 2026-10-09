@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2837dedb",
+      "views": 0,
+      "date": "2026-10-09T10:06:35.407Z",
+      "title": "Faturamento do turismo no Brasil bate recorde e pode chegar a R$ 300 bilhões em 2026: o que está em jogo no mercado?",
+      "subtitle": "PUBLICAR E INCLUIR 15040649 O turismo no Brasil cresceu no primeiro semestre e registrou um faturamento recorde de R$ 25,5 milhões em julho, maior valor já registrado para o mês desde 2012.",
+      "slug": "faturamento-do-turismo-no-brasil-bate-recorde-e-pode-chegar-a-r-300-bilhoes-em-2026-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nPUBLICAR E INCLUIR 15040649 O turismo no Brasil cresceu no primeiro semestre e registrou um faturamento recorde de R$ 25,5 milhões em julho, maior valor já registrado para o mês desde 2012. De acordo com um levantamento da FecomercioSP, com dados do IBGE, entre janeiro e julho, o setor avançou 3,4% na comparação com o mesmo período do ano passado, com um faturamento de R$ 168,8 bilhões, também o maior valor já registrado nesse período.\n\nO que já foi informado\n\nO transporte aéreo de passageiros foi a atividade que liderou os gastos, com R$ 8,1 bilhões. A demanda por voos domésticos subiu 4% e o crescimento do número de passageiros foi de 2,4%. Depois das companhias aéreas, os meios de hospedagem tiveram a segunda maior participação no resultado: faturaram cerca de R$ 5,6 bilhões em julho, mas houve queda de 1,4% na comparação anual. Os setores que mais faturaram no Turismo Ainda segundo os dados, na análise regional, 16 estados e o Distrito Federal registraram alta no período, enquanto 10 sofreram queda. São Paulo manteve a liderança nacional, com faturamento de aproximadamente R$ 7 bilhões, equivalente a cerca de 40% do total do país.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Faturamento do turismo no Brasil bate recorde e pode Store Center",
+      "seoDescription": "PUBLICAR E INCLUIR 15040649 O turismo no Brasil cresceu no primeiro semestre e registrou um faturamento recorde de R$ 25,5 milhões em julho, maior val",
+      "keyword": "Faturamento do turismo no Brasil bate recorde e pode chegar a R$ 300 bilhões em 2026",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/turismo-e-viagem/noticia/2026/10/09/faturamento-do-turismo-no-brasil-bate-recorde-e-pode-chegar-a-r-300-bilhoes-em-2026.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/turismo-e-viagem/noticia/2026/10/09/faturamento-do-turismo-no-brasil-bate-recorde-e-pode-chegar-a-r-300-bilhoes-em-2026.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Faturamento do turismo no Brasil bate recorde e pode chegar a R$ 300 bilhões em 2026",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_3b722a95",
       "views": 0,
       "date": "2026-10-09T06:32:39.364Z",
@@ -19535,7 +19574,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-09T06:32:37.925Z",
+      "lastScraped": "2026-10-09T10:06:33.466Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19543,7 +19582,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-09T06:32:38.449Z",
+      "lastScraped": "2026-10-09T10:06:34.442Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19556,7 +19595,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-09T06:32:39.348Z",
+      "lastScraped": "2026-10-09T10:06:35.397Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19613,6 +19652,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791540458645",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Faturamento do turismo no Brasil bate recorde e pode chegar a R$ 300 bilhões em 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Faturamento do turismo no Brasil bate recorde e pode chegar a R$ 300 bilhões em 2026: o que está em jogo no mercado?",
+      "postId": "rss-hash_2837dedb",
+      "timestamp": "2026-10-09T10:06:35.407Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 379.1h (+8), Sem postagem há 379.1h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1791527635760",
       "feedName": "G1 - Economia",

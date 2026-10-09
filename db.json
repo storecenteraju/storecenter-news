@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_14d4109f",
+      "views": 0,
+      "date": "2026-10-09T19:56:32.615Z",
+      "title": "87% dos brasileiros consideram comprar carro elétrico; preço da gasolina pesa na: o que está em jogo no mercado?",
+      "subtitle": "O que motivou a mudança de carro 100% elétrico para híbrido O preço dos combustíveis é um dos principais fatores que levam motoristas brasileiros a considerar a compra de um carro elétrico.",
+      "slug": "87-dos-brasileiros-consideram-comprar-carro-eletrico-preco-da-gasolina-pesa-na-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nO que motivou a mudança de carro 100% elétrico para híbrido O preço dos combustíveis é um dos principais fatores que levam motoristas brasileiros a considerar a compra de um carro elétrico. Segundo pesquisa do Instituto Locomotiva, 78% dos entrevistados que cogitam comprar um veículo desse tipo apontam a possibilidade de economizar com combustível por quilômetro rodado ou no longo prazo como um dos atrativos.\n\nO que já foi informado\n\nO levantamento, realizado em julho, também mostra que do total de motoristas consultados, 87% considerariam comprar um carro elétrico. Desse total, 50% afirmam que \"certamente\" comprariam um veículo desse tipo, enquanto 37% dizem que \"provavelmente\" fariam a aquisição. O tema ganha relevância nesta sexta-feira (9), quando o governo Lula anunciou medidas com custo estimado em R$ 5,2 bilhões por mês para conter a alta dos combustíveis, incluindo a redução a zero dos tributos federais sobre a gasolina por 30 dias, com possibilidade de prorrogação. A decisão ocorre em meio à pressão sobre os preços do petróleo provocada pelos conflitos no Oriente Médio.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "87% dos brasileiros consideram comprar carro elétrico Store Center",
+      "seoDescription": "O que motivou a mudança de carro 100% elétrico para híbrido O preço dos combustíveis é um dos principais fatores que levam motoristas brasileiros a co",
+      "keyword": "87% dos brasileiros consideram comprar carro elétrico; preço da gasolina pesa na decisão",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/09/gasolina-pesa-no-bolso-e-faz-78percent-dos-brasileiros-considerar-carro-eletrico-diz-pesquisa.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/09/gasolina-pesa-no-bolso-e-faz-78percent-dos-brasileiros-considerar-carro-eletrico-diz-pesquisa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "87% dos brasileiros consideram comprar carro elétrico; preço da gasolina pesa na decisão",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1b817eb9",
       "views": 0,
       "date": "2026-10-09T18:29:41.657Z",
@@ -19738,7 +19777,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-09T18:29:39.597Z",
+      "lastScraped": "2026-10-09T19:56:31.648Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -19746,7 +19785,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-09T18:29:40.213Z",
+      "lastScraped": "2026-10-09T19:56:31.895Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -19759,7 +19798,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-09T18:29:41.642Z",
+      "lastScraped": "2026-10-09T19:56:32.600Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -19816,6 +19855,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791575871488",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "87% dos brasileiros consideram comprar carro elétrico; preço da gasolina pesa na decisão",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "87% dos brasileiros consideram comprar carro elétrico; preço da gasolina pesa na: o que está em jogo no mercado?",
+      "postId": "rss-hash_14d4109f",
+      "timestamp": "2026-10-09T19:56:32.616Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.8h (+8), Sem postagem há 9.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1791570636423",
       "feedName": "G1 - Economia",

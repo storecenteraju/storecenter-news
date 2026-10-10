@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_281cc682",
+      "views": 0,
+      "date": "2026-10-10T19:04:46.789Z",
+      "title": "Por que a China considera uma ameaça a IA que imita as relações humanas Fonte 2 Jovem na China usou agente de IA em?",
+      "subtitle": "Economia 'Terceirizar' a vida para a IA pode ser um problema? Importante: esta reportagem contém descrições de tentativas de suicídio.",
+      "slug": "por-que-a-china-considera-uma-ameaca-a-ia-que-imita-as-relacoes-humanas-fonte-2-jovem-na-china-usou-agente-de-ia-em",
+      "content": "O que aconteceu\n\nEconomia 'Terceirizar' a vida para a IA pode ser um problema? Importante: esta reportagem contém descrições de tentativas de suicídio.\n\nO que já foi informado\n\nNo início de 2024, um jovem da cidade de Huangshi, no sudeste da China, publicou uma mensagem no aplicativo Douyin, a versão chinesa do TikTok. A legenda dizia: \"Adeus a este mundo. \" Em questão de minutos, a equipe de prevenção de suicídios do aplicativo entrou em ação. Ativa 24 horas por dia, ela compartilhou as postagens do jovem com cinco delegacias da cidade. Depois de geolocalizar um dos seus vídeos em um parque local, a polícia o encontrou em estresse emocional e interveio antes que ele conseguisse tirar a própria vida. Esta história faz parte de um documentário produzido pelo Douyin e publicado na imprensa estatal chinesa no ano passado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que a China considera uma ameaça a IA que imita as Store Center",
+      "seoDescription": "Economia 'Terceirizar' a vida para a IA pode ser um problema? Importante: esta reportagem contém descrições de tentativas de suicídio",
+      "keyword": "Por que a China considera uma ameaça a IA que imita as relações humanas Fonte 2 Jovem na China usou agente de IA em ataques a bancos da Coreia do Sul, diz CrowdStrike",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/10/por-que-a-china-considera-uma-ameaca-a-ia-que-imita-as-relacoes-humanas.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/10/por-que-a-china-considera-uma-ameaca-a-ia-que-imita-as-relacoes-humanas.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/08/jovem-na-china-usou-agente-de-ia-em-ataques-a-bancos-da-coreia-do-sul-diz-crowdstrike.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Por que a China considera uma ameaça a IA que imita as relações humanas",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_780ba282",
       "views": 0,
       "date": "2026-10-10T17:27:03.557Z",
@@ -20146,7 +20187,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-10T17:27:01.813Z",
+      "lastScraped": "2026-10-10T19:04:45.418Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20154,7 +20195,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-10T17:27:02.457Z",
+      "lastScraped": "2026-10-10T19:04:45.660Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20167,7 +20208,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-10T17:27:03.542Z",
+      "lastScraped": "2026-10-10T19:04:46.775Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20224,6 +20265,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791659154597",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que a China considera uma ameaça a IA que imita as relações humanas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que a China considera uma ameaça a IA que imita as relações humanas Fonte 2 Jovem na China usou agente de IA em?",
+      "postId": "rss-hash_281cc682",
+      "timestamp": "2026-10-10T19:04:46.789Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.1h (+8), Sem postagem há 26.1h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1791653315230",
       "feedName": "G1 - Economia",

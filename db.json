@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_780ba282",
+      "views": 0,
+      "date": "2026-10-10T17:27:03.557Z",
+      "title": "Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a: por que isso importa para a economia?",
+      "subtitle": "Economia Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia Antes de falar de peixe, o cacique Kara'í Perú e a mãe, Keretxu Emdey, de 86 anos, que é pajé da Aldeia Piraquê-Açu, em Aracruz, no Espírito.",
+      "slug": "da-oracao-a-rede-tradicao-do-pescado-conecta-rio-mar-e-tanques-e-movimenta-a-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia Antes de falar de peixe, o cacique Kara'í Perú e a mãe, Keretxu Emdey, de 86 anos, que é pajé da Aldeia Piraquê-Açu, em Aracruz, no Espírito Santo, abrem os braços e fazem orações no rio Rio Piraquê-Açu, que margeia a aldeia onde vivem. O canto, em guarani, pede proteção para os rios, para o mar e para os peixes.\n\nO que já foi informado\n\nÉ também um pedido pela comunidade e por quem depende das águas para viver. Não é uma oração qualquer. É uma bênção feita por mãe e filho para aquilo que, para os indígenas, representa muito mais do que uma paisagem. O rio, como explica Perú, é parte da vida da comunidade. É onde as crianças aprendem a nadar, onde os meninos desenvolvem a pesca e de onde, durante muito tempo, veio parte do alimento que sustenta as famílias. “O rio, para nós, é uma vida.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Da oração à rede: tradição do pescado conecta rio, mar Store Center",
+      "seoDescription": "Economia Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia Antes de falar de peixe, o cacique K",
+      "keyword": "Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia no ES Fonte 2 Embrapa tem cartilha gratuita sobre retorno econômico de touros nelore melhorados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: seafood market tilapia fish export economy trade Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/es/espirito-santo/noticia/2026/10/10/da-oracao-a-rede-tradicao-do-pescado-conecta-rio-mar-e-tanques-e-movimenta-a-economia-no-es.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/es/espirito-santo/noticia/2026/10/10/da-oracao-a-rede-tradicao-do-pescado-conecta-rio-mar-e-tanques-e-movimenta-a-economia-no-es.ghtml",
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/09/embrapa-tem-cartilha-gratuita-sobre-retorno-economico-de-touros-nelore-melhorados.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia no ES",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_46de707c",
       "views": 0,
       "date": "2026-10-10T15:51:22.030Z",
@@ -20105,7 +20146,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-10T15:51:20.666Z",
+      "lastScraped": "2026-10-10T17:27:01.813Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20113,7 +20154,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-10T15:51:20.999Z",
+      "lastScraped": "2026-10-10T17:27:02.457Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20126,7 +20167,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-10T15:51:22.016Z",
+      "lastScraped": "2026-10-10T17:27:03.542Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20183,6 +20224,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791653315230",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a economia no ES",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: seafood market tilapia fish export economy trade Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: seafood market tilapia fish export economy trade Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Da oração à rede: tradição do pescado conecta rio, mar e tanques e movimenta a: por que isso importa para a economia?",
+      "postId": "rss-hash_780ba282",
+      "timestamp": "2026-10-10T17:27:03.558Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.2h (+8), Sem postagem há 6.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1791647570491",
       "feedName": "G1 - Economia",

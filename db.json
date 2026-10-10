@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_47c3d356",
+      "views": 0,
+      "date": "2026-10-10T22:58:18.506Z",
+      "title": "Café: poder de compra de fertilizantes pelo produtor recua no início da: por que isso importa para a economia?",
+      "subtitle": "Economia Café robusta Globo Rural/Tv Globo Em setembro, as principais regiões produtoras de café no Brasil, como o interior paulista e o Sul de Minas, enfrentaram cenário de menor poder de compra de fertilizantes no período inicial da abudação.",
+      "slug": "cafe-poder-de-compra-de-fertilizantes-pelo-produtor-recua-no-inicio-da-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Café robusta Globo Rural/Tv Globo Em setembro, as principais regiões produtoras de café no Brasil, como o interior paulista e o Sul de Minas, enfrentaram cenário de menor poder de compra de fertilizantes no período inicial da abudação da safra de 2027/2028. O inverno foi atipicamente chuvoso na maior parte das lavouras do sudeste.\n\nO que já foi informado\n\nEm setembro, o cafeicultor precisava de quase 20% a mais de café para adquirir a mesma quantidade de adubo em comparação com agosto, indica análise do Centro de Estudos Avançados em Economia Aplicada (Cepea/Esalq/USP), de Piracicaba (SP), em boletim publicado nesta quinta-feira (8). \"Considerando-se o Indicador Cepea/Esalq do café arábica e os preços médios dos insumos no estado de São Paulo, o produtor precisa de 19,4% mais café neste mês para comprar a mesma quantidade de adubo que em agosto, quando os produtores já se organizavam para a primeira adubação da safra 2027/28\", especificou o Centro de estudos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Café: poder de compra de fertilizantes pelo produtor Store Center",
+      "seoDescription": "Economia Café robusta Globo Rural/Tv Globo Em setembro, as principais regiões produtoras de café no Brasil, como o interior paulista",
+      "keyword": "Café: poder de compra de fertilizantes pelo produtor recua no início da abubação da safra; entenda Fonte 2 Funcionária é demitida após trocar mensagens sexuais com colegas pelo Teams; empresa monitorava conversas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/10/10/cafe-poder-de-compra-de-fertilizantes-pelo-produtor-recua-no-inicio-da-abubacao-da-safra-entenda.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/piracicaba-regiao/noticia/2026/10/10/cafe-poder-de-compra-de-fertilizantes-pelo-produtor-recua-no-inicio-da-abubacao-da-safra-entenda.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/10/funcionaria-demitida-justa-causa-teams.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Café: poder de compra de fertilizantes pelo produtor recua no início da abubação da safra; entenda",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_5d570be2",
       "views": 0,
       "date": "2026-10-10T20:37:15.379Z",
@@ -20226,7 +20267,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-10T20:37:14.087Z",
+      "lastScraped": "2026-10-10T22:58:16.769Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20234,7 +20275,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-10T20:37:14.389Z",
+      "lastScraped": "2026-10-10T22:58:17.406Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20247,7 +20288,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-10T20:37:15.371Z",
+      "lastScraped": "2026-10-10T22:58:18.492Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20304,6 +20345,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791673116523",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Café: poder de compra de fertilizantes pelo produtor recua no início da abubação da safra; entenda",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Café: poder de compra de fertilizantes pelo produtor recua no início da: por que isso importa para a economia?",
+      "postId": "rss-hash_47c3d356",
+      "timestamp": "2026-10-10T22:58:18.507Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1791664662454",
       "feedName": "G1 - Economia",

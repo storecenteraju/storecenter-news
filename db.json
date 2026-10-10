@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1d001654",
+      "views": 0,
+      "date": "2026-10-10T13:59:05.205Z",
+      "title": "Trump anuncia acordo com Putin para liberar diesel russo para mercado mundial Fonte 2: por que esse movimento importa?",
+      "subtitle": "O presidente dos Estados Unidos, Donald Trump, anunciou que Vladimir Putin concordou em liberar imediatamente 300 mil toneladas de óleo diesel da Rússia \"para o mercado americano e global\" — seguidas por 500 mil toneladas em novembro e mais um milhão.",
+      "slug": "trump-anuncia-acordo-com-putin-para-liberar-diesel-russo-para-mercado-mundial-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nO presidente dos Estados Unidos, Donald Trump, anunciou que Vladimir Putin concordou em liberar imediatamente 300 mil toneladas de óleo diesel da Rússia \"para o mercado americano e global\" — seguidas por 500 mil toneladas em novembro e mais um milhão posteriormente. Analistas acreditam que o Departamento do Tesouro dos EUA está suspendendo as sanções às exportações de diesel russo até 7 de abril do próximo ano como parte do acordo, mas que outros ativos — como os depositados em bancos americanos — continuam congelados.\n\nO que já foi informado\n\nEm sua postagem no Truth Social, Trump acrescentou que mais três milhões de toneladas de diesel russo seriam entregues \"em breve\", dependendo das condições de suas refinarias, que foram atacadas pela Ucrânia. O anúncio de Trump provocou indignação do presidente da Ucrânia, Volodymyr Zelensky. Ele chamou a medida de um presente para o presidente russo, que equivale a \"um investimento em uma guerra que deve ser encerrada, não prolongada\". Em uma publicação nas redes sociais, Zelensky disse que a Rússia retribuiria o dano causado ao diesel com \"mais terror\".\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump anuncia acordo com Putin para liberar diesel Store Center",
+      "seoDescription": "O presidente dos Estados Unidos, Donald Trump, anunciou que Vladimir Putin concordou em liberar imediatamente 300 mil toneladas de óleo diesel da Rúss",
+      "keyword": "Trump anuncia acordo com Putin para liberar diesel russo para mercado mundial Fonte 2 Brasil tem 11 empresas entre os melhores empregadores do mundo; veja a lista",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/10/10/trump-anuncia-acordo-com-putin-para-liberar-diesel-russo-para-mercado-mundial.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/10/10/trump-anuncia-acordo-com-putin-para-liberar-diesel-russo-para-mercado-mundial.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/10/brasil-tem-11-empresas-entre-os-melhores-empregadores-do-mundo-veja-a-lista.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Trump anuncia acordo com Putin para liberar diesel russo para mercado mundial",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_decb95e",
       "views": 0,
       "date": "2026-10-10T11:16:24.879Z",
@@ -20023,7 +20064,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-10T11:16:23.366Z",
+      "lastScraped": "2026-10-10T13:59:03.127Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20031,7 +20072,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-10T11:16:23.965Z",
+      "lastScraped": "2026-10-10T13:59:03.762Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20044,7 +20085,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-10T11:16:24.870Z",
+      "lastScraped": "2026-10-10T13:59:05.191Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20101,6 +20142,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791640756459",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump anuncia acordo com Putin para liberar diesel russo para mercado mundial",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump anuncia acordo com Putin para liberar diesel russo para mercado mundial Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_1d001654",
+      "timestamp": "2026-10-10T13:59:05.206Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.2h (+8), Sem postagem há 12.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1791631051625",
       "feedName": "G1 - Economia",

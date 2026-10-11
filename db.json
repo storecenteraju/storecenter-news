@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5dc53564",
+      "views": 0,
+      "date": "2026-10-11T09:42:33.409Z",
+      "title": "Justiça mantém justa causa de homem que entregou 88 atestados em um ano, mas atuava: o que está em jogo no mercado?",
+      "subtitle": "Economia Leitura da Bíblia Cristina Medeiros/CMBH Um operador de produção que apresentou 88 atestados médicos em um único ano teve a sua demissão por justa causa mantida pela Justiça do Trabalho após a empresa apresentar registros de que ele.",
+      "slug": "justica-mantem-justa-causa-de-homem-que-entregou-88-atestados-em-um-ano-mas-atuava-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Leitura da Bíblia Cristina Medeiros/CMBH Um operador de produção que apresentou 88 atestados médicos em um único ano teve a sua demissão por justa causa mantida pela Justiça do Trabalho após a empresa apresentar registros de que ele atuava como pastor durante parte dos períodos de afastamento. Imagens retiradas das redes sociais de uma igreja e anexadas ao processo mostram o trabalhador palestrando e participando de eventos religiosos nos mesmos dias em que estava oficialmente afastado do trabalho por recomendação médica.\n\nO que já foi informado\n\nO caso foi analisado pela 2ª Vara do Trabalho de São Caetano do Sul, no ABC Paulista. A empresa sustentou que as atividades exercidas pelo empregado eram incompatíveis com as restrições médicas que justificavam suas ausências. Agora no g1 Ao recorrer à Justiça, o trabalhador tentou reverter a demissão e retornar ao emprego. Alegou que a empresa havia criado uma justificativa para promover uma dispensa ilegal, mas os argumentos foram rejeitados em primeira instância. Um dos pontos que mais chamaram atenção no processo foi a quantidade de afastamentos médicos registrados. Ao longo de 2025, o trabalhador apresentou 88 atestados médicos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Justiça mantém justa causa de homem que entregou 88 Store Center",
+      "seoDescription": "Economia Leitura da Bíblia Cristina Medeiros/CMBH Um operador de produção que apresentou 88 atestados médicos em um único ano teve a",
+      "keyword": "Justiça mantém justa causa de homem que entregou 88 atestados em um ano, mas atuava como pastor na licença Fonte 2 12 de outubro é feriado? Dá para emendar? Entenda quais são os direitos de quem trabalha na data",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/11/justica-mantem-justa-causa-de-homem-que-entregou-88-atestados-em-um-ano-mas-atuava-como-pastor-na-licenca.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/11/justica-mantem-justa-causa-de-homem-que-entregou-88-atestados-em-um-ano-mas-atuava-como-pastor-na-licenca.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/09/12-de-outubro-e-feriado-entenda-quais-sao-os-direitos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Justiça mantém justa causa de homem que entregou 88 atestados em um ano, mas atuava como pastor na licença",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_2910bd6e",
       "views": 0,
       "date": "2026-10-11T06:13:51.639Z",
@@ -20347,7 +20388,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-11T06:13:50.099Z",
+      "lastScraped": "2026-10-11T09:42:31.864Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20355,7 +20396,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-11T06:13:50.640Z",
+      "lastScraped": "2026-10-11T09:42:32.229Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20368,7 +20409,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-11T06:13:51.627Z",
+      "lastScraped": "2026-10-11T09:42:33.395Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20425,6 +20466,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791711785061",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Justiça mantém justa causa de homem que entregou 88 atestados em um ano, mas atuava como pastor na licença",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Justiça mantém justa causa de homem que entregou 88 atestados em um ano, mas atuava: o que está em jogo no mercado?",
+      "postId": "rss-hash_5dc53564",
+      "timestamp": "2026-10-11T09:42:33.410Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791699317191",
       "feedName": "G1 - Economia",

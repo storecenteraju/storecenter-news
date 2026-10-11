@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2910bd6e",
+      "views": 0,
+      "date": "2026-10-11T06:13:51.639Z",
+      "title": "Árvore gigante de até 500 anos cai em SC, e cientistas tentam cloná-la para: por que isso importa para a economia?",
+      "subtitle": "Economia Gigantes pré-históricas A queda de uma das maiores árvores do país mobilizou equipes de pesquisadores em uma verdadeira operação de resgate científico.",
+      "slug": "arvore-gigante-de-ate-500-anos-cai-em-sc-e-cientistas-tentam-clona-la-para-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Gigantes pré-históricas A queda de uma das maiores árvores do país mobilizou equipes de pesquisadores em uma verdadeira operação de resgate científico. Conhecida carinhosamente como Pinheirão, a araucária de mais de 40 metros de altura ficava em uma floresta experimental compartilhada pela Embrapa Florestas e pela Empresa de Pesquisa Agropecuária e Extensão Rural de Santa Catarina (Epagri), no município de Caçador (SC).\n\nO que já foi informado\n\nBaixe o app do g1 para ver notícias em tempo real e de graça A suspeita é de que a árvore tenha tombado em fevereiro deste ano, mas a queda só foi descoberta dois meses depois, no final de abril, durante a manutenção de uma estrada que corta a floresta. Para garantir que a história e as características genéticas da árvore não se percam, cientistas da Embrapa foram ao local em busca de brotações vivas no tronco e nos galhos. Pesquisador anda sob a araucária gigante que caiu em Santa Catarina.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Árvore gigante de até 500 anos cai em SC, e cientistas Store Center",
+      "seoDescription": "Economia Gigantes pré-históricas A queda de uma das maiores árvores do país mobilizou equipes de pesquisadores em uma verdadeira oper",
+      "keyword": "Árvore gigante de até 500 anos cai em SC, e cientistas tentam cloná-la para preservar seu DNA Fonte 2 Mega-Sena 3069 pode pagar R$ 112 milhões neste domingo; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/11/arvore-gigante-de-ate-500-anos-cai-em-sc-e-cientistas-tentam-clona-la-para-preservar-seu-dna.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/11/arvore-gigante-de-ate-500-anos-cai-em-sc-e-cientistas-tentam-clona-la-para-preservar-seu-dna.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/11/mega-sena-3069-pode-pagar-r-112-milhoes-neste-domingo-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Árvore gigante de até 500 anos cai em SC, e cientistas tentam cloná-la para preservar seu DNA",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_6ad82e0d",
       "views": 0,
       "date": "2026-10-11T01:00:44.146Z",
@@ -20306,7 +20347,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-11T01:00:42.350Z",
+      "lastScraped": "2026-10-11T06:13:50.099Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20314,7 +20355,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-11T01:00:43.300Z",
+      "lastScraped": "2026-10-11T06:13:50.640Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20327,7 +20368,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-11T01:00:44.125Z",
+      "lastScraped": "2026-10-11T06:13:51.627Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20384,6 +20425,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791699317191",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Árvore gigante de até 500 anos cai em SC, e cientistas tentam cloná-la para preservar seu DNA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Árvore gigante de até 500 anos cai em SC, e cientistas tentam cloná-la para: por que isso importa para a economia?",
+      "postId": "rss-hash_2910bd6e",
+      "timestamp": "2026-10-11T06:13:51.639Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.3h (+8), Sem postagem há 7.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito"
+      ]
+    },
     {
       "id": "1791680529427",
       "feedName": "G1 - Economia",

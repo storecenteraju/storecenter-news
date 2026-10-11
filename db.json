@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7305cf43",
+      "views": 0,
+      "date": "2026-10-11T23:12:01.296Z",
+      "title": "Produtores de lichia ampliam mercado e apostam em novos produtos para reduzir: por que isso importa para a economia?",
+      "subtitle": "Para aumentar o período de colheita e reduzir perdas, produtores investem em diferentes variedades de lichia e na diversificação dos produtos comercializados.",
+      "slug": "produtores-de-lichia-ampliam-mercado-e-apostam-em-novos-produtos-para-reduzir-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nPara aumentar o período de colheita e reduzir perdas, produtores investem em diferentes variedades de lichia e na diversificação dos produtos comercializados. Para evitar desperdícios e ampliar a oferta da fruta ao longo da safra, o produtor rural Ricardo Pinto cultiva variedades precoces, médias e tardias.\n\nO que já foi informado\n\nCom isso, a colheita se estende do fim de novembro até janeiro. As vendas, porém, vão além da fruta in natura. Segundo o produtor, cerca de 20% das lichias colhidas eram descartadas por não atenderem aos padrões de comercialização. Para aproveitar melhor a produção, a propriedade desenvolveu novos produtos. Hoje, comercializa nove opções derivadas da fruta, entre elas lichia congelada, desidratada, liofilizada e aguardente. A estratégia também ampliou o período de geração de renda.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Produtores de lichia ampliam mercado e apostam em novos Store Center",
+      "seoDescription": "Para aumentar o período de colheita e reduzir perdas, produtores investem em diferentes variedades de lichia e na diversificação dos produtos comercia",
+      "keyword": "Produtores de lichia ampliam mercado e apostam em novos produtos para reduzir perdas Fonte 2 FMI alerta: disparadas e choques de preços podem ser mais frequentes e afetar inflação por anos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/10/11/produtores-de-lichia-ampliam-mercado-e-apostam-em-novos-produtos-para-reduzir-perdas.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sp/sorocaba-jundiai/nosso-campo/noticia/2026/10/11/produtores-de-lichia-ampliam-mercado-e-apostam-em-novos-produtos-para-reduzir-perdas.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/11/fmi-alerta-disparadas-e-choques-de-precos-podem-ser-mais-frequentes-e-afetar-inflacao-por-anos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Produtores de lichia ampliam mercado e apostam em novos produtos para reduzir perdas",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_6424eab4",
       "views": 0,
       "date": "2026-10-11T21:00:45.517Z",
@@ -20634,7 +20675,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-11T21:00:44.084Z",
+      "lastScraped": "2026-10-11T23:11:59.586Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20642,7 +20683,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-11T21:00:44.686Z",
+      "lastScraped": "2026-10-11T23:12:00.202Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20655,7 +20696,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-11T21:00:45.504Z",
+      "lastScraped": "2026-10-11T23:12:01.280Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20712,6 +20753,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791760345064",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Produtores de lichia ampliam mercado e apostam em novos produtos para reduzir perdas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Produtores de lichia ampliam mercado e apostam em novos produtos para reduzir: por que isso importa para a economia?",
+      "postId": "rss-hash_7305cf43",
+      "timestamp": "2026-10-11T23:12:01.297Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.9h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 0",
+      "discardedCategories": []
+    },
     {
       "id": "1791752514672",
       "feedName": "G1 - Economia",

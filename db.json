@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6ad82e0d",
+      "views": 0,
+      "date": "2026-10-11T01:00:44.146Z",
+      "title": "Brasil tem 11 empresas entre os melhores empregadores do mundo: o que está em jogo no mercado?",
+      "subtitle": "Agora no g1 O Brasil emplacou 11 empresas na edição de 2026 do ranking World's Best Employers (\"Melhores Empregadores do Mundo\", em português), elaborado pela revista Forbes em parceria com a consultoria Statista.",
+      "slug": "brasil-tem-11-empresas-entre-os-melhores-empregadores-do-mundo-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nAgora no g1 O Brasil emplacou 11 empresas na edição de 2026 do ranking World's Best Employers (\"Melhores Empregadores do Mundo\", em português), elaborado pela revista Forbes em parceria com a consultoria Statista. A Petrobras foi a empresa brasileira mais bem colocada.\n\nO que já foi informado\n\nO estudo reuniu 900 empresas de 52 países e avaliou fatores como salário, oportunidades de crescimento, equilíbrio entre vida pessoal e profissional e reputação corporativa. Além da Petrobras, aparecem na lista nomes como Embraer, Vale, Natura Co. , Banco do Brasil, Nubank, Bradesco e Suzano. As 11 representantes do Brasil g1 No topo do ranking global está a Microsoft. Para identificar os melhores empregadores do mundo, a Forbes e a Statista entrevistaram mais de 300 mil trabalhadores. A pesquisa foi realizada online e de forma independente, garantindo o anonimato dos participantes.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Brasil tem 11 empresas entre os melhores empregadores Store Center",
+      "seoDescription": "Agora no g1 O Brasil emplacou 11 empresas na edição de 2026 do ranking World's Best Employers (\"Melhores Empregadores do Mundo\", em português), elabor",
+      "keyword": "Brasil tem 11 empresas entre os melhores empregadores do mundo; veja a lista",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/10/brasil-tem-11-empresas-entre-os-melhores-empregadores-do-mundo-veja-a-lista.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/10/brasil-tem-11-empresas-entre-os-melhores-empregadores-do-mundo-veja-a-lista.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Brasil tem 11 empresas entre os melhores empregadores do mundo; veja a lista",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_47c3d356",
       "views": 0,
       "date": "2026-10-10T22:58:18.506Z",
@@ -20267,7 +20306,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-10T22:58:16.769Z",
+      "lastScraped": "2026-10-11T01:00:42.350Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20275,7 +20314,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-10T22:58:17.406Z",
+      "lastScraped": "2026-10-11T01:00:43.300Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20288,7 +20327,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-10T22:58:18.492Z",
+      "lastScraped": "2026-10-11T01:00:44.125Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20345,6 +20384,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791680529427",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Brasil tem 11 empresas entre os melhores empregadores do mundo; veja a lista",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Brasil tem 11 empresas entre os melhores empregadores do mundo: o que está em jogo no mercado?",
+      "postId": "rss-hash_6ad82e0d",
+      "timestamp": "2026-10-11T01:00:44.147Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 23",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1791673116523",
       "feedName": "G1 - Economia",

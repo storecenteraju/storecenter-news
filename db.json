@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5e1b8dfc",
+      "views": 0,
+      "date": "2026-10-12T23:40:25.273Z",
+      "title": "Além do Planalto: como a eleição para o Congresso pode afetar impostos, empresas e dinheiro público Fonte 2 Dar",
+      "subtitle": "Economia Palácio do Congresso Nacional fica iluminado de amarelo, de 2 a 5 de agosto, em uma ação do Ministério da Saúde relacionada à Semana Mundial do Aleitamento Materno.",
+      "slug": "alem-do-planalto-como-a-eleicao-para-o-congresso-pode-afetar-impostos-empresas-e-dinheiro-publico-fonte-2-dar",
+      "content": "O que aconteceu\n\nEconomia Palácio do Congresso Nacional fica iluminado de amarelo, de 2 a 5 de agosto, em uma ação do Ministério da Saúde relacionada à Semana Mundial do Aleitamento Materno. Carlos Moura/Agência Senado Não é apenas a eleição presidencial que pode mexer na economia, no imposto pago pelas famílias, no custo das empresas para manter funcionários e no destino de bilhões de reais enviados a estados e municípios.\n\nO que já foi informado\n\nOs deputados e senadores eleitos, que tomam posse em 1º de fevereiro de 2027, terão de lidar com decisões econômicas já previstas ou ainda pendentes. Em alguns casos, poderão mudar as regras. Em outros, a legislação atual produzirá efeitos mesmo sem uma nova votação. Os parlamentares chegarão ao Congresso no mesmo ano em que uma etapa importante da reforma tributária começará a funcionar. Poderão decidir também sobre o limite nacional do imposto sobre heranças, uma possível prorrogação da redução de impostos sobre a folha de salários e o destino das emendas parlamentares executadas em 2027.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Além do Planalto: como a eleição para o Congresso pode Store Center",
+      "seoDescription": "Economia Palácio do Congresso Nacional fica iluminado de amarelo, de 2 a 5 de agosto, em uma ação do Ministério da Saúde relacionada",
+      "keyword": "Além do Planalto: como a eleição para o Congresso pode afetar impostos, empresas e dinheiro público Fonte 2 Dar mesada, ensinar a poupar ou deixar gastar? Veja como falar de dinheiro com os filhos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/12/alem-do-planalto-como-a-eleicao-para-o-congresso-pode-afetar-impostos-empresas-e-dinheiro-publico.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/12/alem-do-planalto-como-a-eleicao-para-o-congresso-pode-afetar-impostos-empresas-e-dinheiro-publico.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/12/dar-mesada-ensinar-a-poupar-ou-deixar-gastar-veja-como-falar-de-dinheiro-com-os-filhos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Além do Planalto: como a eleição para o Congresso pode afetar impostos, empresas e dinheiro público",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_bc25260",
       "views": 0,
       "date": "2026-10-12T22:20:00.582Z",
@@ -20956,7 +20997,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-12T22:19:58.501Z",
+      "lastScraped": "2026-10-12T23:40:23.960Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20964,7 +21005,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-12T22:19:59.743Z",
+      "lastScraped": "2026-10-12T23:40:24.264Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20977,7 +21018,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-12T22:20:00.567Z",
+      "lastScraped": "2026-10-12T23:40:25.262Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21034,6 +21075,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791848502029",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Além do Planalto: como a eleição para o Congresso pode afetar impostos, empresas e dinheiro público",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Além do Planalto: como a eleição para o Congresso pode afetar impostos, empresas e dinheiro público Fonte 2 Dar",
+      "postId": "rss-hash_5e1b8dfc",
+      "timestamp": "2026-10-12T23:40:25.274Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": -25,
+      "choiceReason": "Prioridade Categoria: Dominante com 50% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: -5",
+      "discardedCategories": []
+    },
     {
       "id": "1791843690278",
       "feedName": "G1 - Economia",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1f4b569c",
+      "views": 0,
+      "date": "2026-10-12T21:23:27.046Z",
+      "title": "Leite enfrenta mais exigências de segurança do que IA, diz presidente da: o que muda para usuários e empresas?",
+      "subtitle": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' O presidente da Microsoft, Brad Smith, afirmou que a IA precisa de regras globais urgentes de segurança e de avaliadores independentes capazes de analisar novos avanços.",
+      "slug": "leite-enfrenta-mais-exigencias-de-seguranca-do-que-ia-diz-presidente-da-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nBill Gates alerta que IA pode causar 'um bilhão de mortes' O presidente da Microsoft, Brad Smith, afirmou que a IA precisa de regras globais urgentes de segurança e de avaliadores independentes capazes de analisar novos avanços. Segundo ele, a tecnologia está sujeita a menos exigências de segurança do que o leite vendido em supermercados.\n\nO que já foi informado\n\nEm entrevista à BBC publicada nesta segunda-feira (12), Smith defendeu que essas regras obriguem as empresas a avisar as vítimas caso seus sistemas sejam invadidos por um agente de IA que aja fora de controle. Ele também afirmou que deve existir um “freio de emergência” e uma obrigação legal de produzir relatórios sobre incidentes. “Sabemos como fazer isso para outros produtos”, disse Smith. “Devemos aproveitar esse conhecimento e pensar em como aplicá-lo à IA. ” “Hoje, sua máquina de lavar está sujeita a mais regras de segurança do que a IA. Toda caixa de leite que você vê no supermercado está sujeita a regras de segurança e fiscalização\", afirmou.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Leite enfrenta mais exigências de segurança do que IA Store Center",
+      "seoDescription": "Bill Gates alerta que IA pode causar 'um bilhão de mortes' O presidente da Microsoft, Brad Smith, afirmou que a IA precisa de regras globais urgentes",
+      "keyword": "Leite enfrenta mais exigências de segurança do que IA, diz presidente da Microsoft",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/12/leite-enfrenta-mais-exigencias-de-seguranca-do-que-ia-diz-presidente-da-microsoft.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/12/leite-enfrenta-mais-exigencias-de-seguranca-do-que-ia-diz-presidente-da-microsoft.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Leite enfrenta mais exigências de segurança do que IA, diz presidente da Microsoft",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_144b0a0d",
       "views": 0,
       "date": "2026-10-12T19:47:00.057Z",
@@ -20876,7 +20915,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-12T19:46:58.498Z",
+      "lastScraped": "2026-10-12T21:23:24.727Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20884,7 +20923,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-12T19:46:59.068Z",
+      "lastScraped": "2026-10-12T21:23:25.361Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20897,7 +20936,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-12T19:47:00.047Z",
+      "lastScraped": "2026-10-12T21:23:27.034Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20954,6 +20993,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791840249446",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Leite enfrenta mais exigências de segurança do que IA, diz presidente da Microsoft",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Leite enfrenta mais exigências de segurança do que IA, diz presidente da: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1f4b569c",
+      "timestamp": "2026-10-12T21:23:27.047Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 76.4h (+8), Sem postagem há 76.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791834512273",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_144b0a0d",
+      "views": 0,
+      "date": "2026-10-12T19:47:00.057Z",
+      "title": "Meta lança Muse Wonder, seu modelo de IA mais avançado, para pressionar OpenAI e: o que muda para usuários e empresas?",
+      "subtitle": "Segundo a empresa, eles são os mais avançados já desenvolvidos pela companhia.",
+      "slug": "meta-lanca-muse-wonder-seu-modelo-de-ia-mais-avancado-para-pressionar-openai-e-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nSegundo a empresa, eles são os mais avançados já desenvolvidos pela companhia. Com a novidade, a dona do Facebook, do Instagram e do WhatsApp busca aumentar sua competitividade na disputa com empresas como OpenAI (ChatGPT) e Anthropic (Claude), que também desenvolvem tecnologias de IA.\n\nO que já foi informado\n\nSegundo a Meta, o Muse Wonder será integrado em breve ao Muse, seu assistente pessoal de IA, inicialmente para usuários que pagam uma assinatura. Já o Muse Wonder Full, versão mais poderosa da tecnologia, está disponível para assinantes do Muse Code, ferramenta de inteligência artificial da empresa voltada à programação. Agora no g1 Lançado no início de setembro, o Muse é um assistente de inteligência artificial projetado para executar ações em nome dos usuários. Para isso, pode acessar contas e informações em aplicativos de e-mail, agenda, pagamentos, saúde, compras e casa inteligente, por exemplo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Meta lança Muse Wonder, seu modelo de IA mais avançado Store Center",
+      "seoDescription": "Segundo a empresa, eles são os mais avançados já desenvolvidos pela companhia.",
+      "keyword": "Meta lança Muse Wonder, seu modelo de IA mais avançado, para pressionar OpenAI e Anthropic Fonte 2 Leite enfrenta mais exigências de segurança do que IA, diz presidente da Microsoft",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/12/meta-lanca-muse-wonder-seus-modelos-de-ia-mais-avancados-para-pressionar-openai-e-anthropic.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/12/meta-lanca-muse-wonder-seus-modelos-de-ia-mais-avancados-para-pressionar-openai-e-anthropic.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/12/leite-enfrenta-mais-exigencias-de-seguranca-do-que-ia-diz-presidente-da-microsoft.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Meta lança Muse Wonder, seu modelo de IA mais avançado, para pressionar OpenAI e Anthropic",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7a78ad70",
       "views": 0,
       "date": "2026-10-12T17:01:35.708Z",
@@ -20835,7 +20876,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-12T17:01:33.873Z",
+      "lastScraped": "2026-10-12T19:46:58.498Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -20843,7 +20884,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-12T17:01:34.673Z",
+      "lastScraped": "2026-10-12T19:46:59.068Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -20856,7 +20897,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-12T17:01:35.694Z",
+      "lastScraped": "2026-10-12T19:47:00.047Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -20913,6 +20954,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791834512273",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Meta lança Muse Wonder, seu modelo de IA mais avançado, para pressionar OpenAI e Anthropic",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Meta lança Muse Wonder, seu modelo de IA mais avançado, para pressionar OpenAI e: o que muda para usuários e empresas?",
+      "postId": "rss-hash_144b0a0d",
+      "timestamp": "2026-10-12T19:47:00.058Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 74.8h (+8), Sem postagem há 74.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1791824577314",
       "feedName": "G1 - Economia",

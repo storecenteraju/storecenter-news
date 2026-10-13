@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_13c4b45a",
+      "views": 0,
+      "date": "2026-10-13T01:38:44.257Z",
+      "title": "Dar mesada, ensinar a poupar ou deixar gastar?",
+      "subtitle": "Economia Lucas e Rafinha Arquivo familiar Dar R$ 10 para uma criança fazer compras no supermercado pode ser mais do que uma forma de deixá-la escolher o que quer levar para casa.",
+      "slug": "dar-mesada-ensinar-a-poupar-ou-deixar-gastar",
+      "content": "O que aconteceu\n\nEconomia Lucas e Rafinha Arquivo familiar Dar R$ 10 para uma criança fazer compras no supermercado pode ser mais do que uma forma de deixá-la escolher o que quer levar para casa. Para o bancário Silas Gabriel, é também uma oportunidade de ensinar o filho, Rafinha, de 5 anos, a lidar com o dinheiro.\n\nO que já foi informado\n\nNas visitas ao mercado, o menino recebe a quantia e pode escolher alguns produtos. Observa os preços, compara opções e, quando percebe que algo custa caro demais, às vezes desiste da compra e procura uma alternativa. “Ele vai olhando os preços, escolhendo o que quer comprar. E, quando vê alguma coisa muito cara, às vezes ele mesmo desiste, procura outra opção”, conta Silas. A experiência chamou a atenção nas redes sociais da família. Segundo o pai, três publicações sobre o assunto ultrapassaram 10 milhões de visualizações cada.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Dar mesada, ensinar a poupar ou deixar gastar? Store Center",
+      "seoDescription": "Economia Lucas e Rafinha Arquivo familiar Dar R$ 10 para uma criança fazer compras no supermercado pode ser mais do que uma forma de",
+      "keyword": "Dar mesada, ensinar a poupar ou deixar gastar? Veja como falar de dinheiro com os filhos Fonte 2 Cliente ou rival? Como a China pode passar de grande compradora a concorrente do frango brasileiro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/12/dar-mesada-ensinar-a-poupar-ou-deixar-gastar-veja-como-falar-de-dinheiro-com-os-filhos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/12/dar-mesada-ensinar-a-poupar-ou-deixar-gastar-veja-como-falar-de-dinheiro-com-os-filhos.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/12/cliente-ou-rival-como-a-china-pode-passar-de-grande-compradora-a-concorrente-do-frango-brasileiro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Dar mesada, ensinar a poupar ou deixar gastar? Veja como falar de dinheiro com os filhos",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_5e1b8dfc",
       "views": 0,
       "date": "2026-10-12T23:40:25.273Z",
@@ -20997,7 +21038,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-12T23:40:23.960Z",
+      "lastScraped": "2026-10-13T01:38:43.188Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21005,7 +21046,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-12T23:40:24.264Z",
+      "lastScraped": "2026-10-13T01:38:43.432Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21018,7 +21059,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-12T23:40:25.262Z",
+      "lastScraped": "2026-10-13T01:38:44.243Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21075,6 +21116,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791855605012",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Dar mesada, ensinar a poupar ou deixar gastar? Veja como falar de dinheiro com os filhos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Dar mesada, ensinar a poupar ou deixar gastar?",
+      "postId": "rss-hash_13c4b45a",
+      "timestamp": "2026-10-13T01:38:44.258Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.3h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 0",
+      "discardedCategories": []
+    },
     {
       "id": "1791848502029",
       "feedName": "G1 - Economia",

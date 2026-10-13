@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3d37963d",
+      "views": 0,
+      "date": "2026-10-13T03:03:18.511Z",
+      "title": "Sorteio da Mega-Sena será realizado nesta quarta (14); prêmio pode chegar a R$: por que isso importa para a economia?",
+      "subtitle": "Economia Concurso 3069 da Mega-Sena: veja os números sorteados O próximo sorteio da Mega-Sena será realizado nesta quarta-feira (14), e o prêmio pode chegar a mais de R$ 150 milhões para a aposta vencedora.",
+      "slug": "sorteio-da-mega-sena-sera-realizado-nesta-quarta-14-premio-pode-chegar-a-r-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Concurso 3069 da Mega-Sena: veja os números sorteados O próximo sorteio da Mega-Sena será realizado nesta quarta-feira (14), e o prêmio pode chegar a mais de R$ 150 milhões para a aposta vencedora. A mudança na data do sorteio, da tradicional terça-feira para a quarta, ocorre por causa do feriado nacional de Nossa Senhora Aparecida, padroeira do Brasil, comemorado na segunda-feira (12).\n\nO que já foi informado\n\nOutras loterias, como Quina, Lotofácil e Dia de Sorte, também não tiveram sorteio na segunda e serão retomadas nesta terça-feira (13). Ninguém acertou as seis dezenas do sorteio 3.069, realizado no domingo (11), em São Paulo. Os números sorteados foram: 05 - 19 - 22 - 44 - 47 - 57. 5 acertos: 150 apostas ganhadoras, R$ 26.095,23; 4 acertos: 9.096 apostas ganhadoras, R$ 709,33. O ranking abaixo mostra os maiores prêmios da loteria, segundo a Caixa Econômica Federal, e considera apenas os sorteios regulares. Veja abaixo:\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Sorteio da Mega-Sena será realizado nesta quarta (14) Store Center",
+      "seoDescription": "Economia Concurso 3069 da Mega-Sena: veja os números sorteados O próximo sorteio da Mega-Sena será realizado nesta quarta-feira (14),",
+      "keyword": "Sorteio da Mega-Sena será realizado nesta quarta (14); prêmio pode chegar a R$ 150 milhões Fonte 2 Próximo feriadão é em novembro; veja os quatro feriados que ainda restam em 2026",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/13/mega-sena-sorteio-quarta-14-outubro-premio-pode-chegar-150-milhoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/13/mega-sena-sorteio-quarta-14-outubro-premio-pode-chegar-150-milhoes.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/13/proximo-feriadao-e-em-novembro-feriados-que-ainda-restam-em-2026.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Sorteio da Mega-Sena será realizado nesta quarta (14); prêmio pode chegar a R$ 150 milhões",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_13c4b45a",
       "views": 0,
       "date": "2026-10-13T01:38:44.257Z",
@@ -21038,7 +21079,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-13T01:38:43.188Z",
+      "lastScraped": "2026-10-13T03:03:16.997Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21046,7 +21087,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-13T01:38:43.432Z",
+      "lastScraped": "2026-10-13T03:03:17.507Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21059,7 +21100,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-13T01:38:44.243Z",
+      "lastScraped": "2026-10-13T03:03:18.502Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21116,6 +21157,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791860690940",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Sorteio da Mega-Sena será realizado nesta quarta (14); prêmio pode chegar a R$ 150 milhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Sorteio da Mega-Sena será realizado nesta quarta (14); prêmio pode chegar a R$: por que isso importa para a economia?",
+      "postId": "rss-hash_3d37963d",
+      "timestamp": "2026-10-13T03:03:18.512Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -25,
+      "choiceReason": "Prioridade Categoria: Dominante com 50% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: -2",
+      "discardedCategories": []
+    },
     {
       "id": "1791855605012",
       "feedName": "G1 - Economia",

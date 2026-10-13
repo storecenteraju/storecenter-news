@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5007b710",
+      "views": 0,
+      "date": "2026-10-13T19:29:50.686Z",
+      "title": "Bumble encontra um novo par: aplicativo de namoro é vendido por R$ 6,5 bilhões: por que isso importa para a economia?",
+      "subtitle": "Bumble O aplicativo de relacionamentos Bumble anunciou nesta terça-feira (13) um acordo para ser comprado pela Ithaca Holdings por US$ 1,3 bilhão (R$ 6,5 bilhões), em uma operação integralmente em dinheiro.",
+      "slug": "bumble-encontra-um-novo-par-aplicativo-de-namoro-e-vendido-por-r-6-5-bilhoes-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nBumble O aplicativo de relacionamentos Bumble anunciou nesta terça-feira (13) um acordo para ser comprado pela Ithaca Holdings por US$ 1,3 bilhão (R$ 6,5 bilhões), em uma operação integralmente em dinheiro. Com a conclusão do negócio, a empresa deixará de ter ações negociadas na bolsa e passará a ser uma companhia de capital fechado.\n\nO que já foi informado\n\nPelo acordo, os acionistas do Bumble receberão US$ 6,05 por ação. O valor representa um prêmio de aproximadamente 138% em relação ao preço de fechamento das ações na última sexta-feira (9) e de 119% sobre a média ponderada pelo volume negociado nos 30 dias anteriores à mesma data. A fundadora e atual diretora-executiva do Bumble, Whitney Wolfe Herd, continuará envolvida na companhia após a conclusão da operação. Ravi Gupta e John Hegeman, cofundadores e co-diretores-executivos da Ithaca Holdings, assumirão o comando do aplicativo e trabalharão em conjunto com Wolfe Herd. Segundo o comunicado, a Ithaca pretende ampliar a atuação do Bumble e investir no desenvolvimento do negócio. A empresa afirma que busca combinar tecnologias avançadas com experiência em gestão para renovar empresas e ampliar seu potencial de longo prazo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Bumble encontra um novo par: aplicativo de namoro é Store Center",
+      "seoDescription": "Bumble O aplicativo de relacionamentos Bumble anunciou nesta terça-feira (13) um acordo para ser comprado pela Ithaca Holdings por US$ 1,3 bilhão (R$",
+      "keyword": "Bumble encontra um novo par: aplicativo de namoro é vendido por R$ 6,5 bilhões Fonte 2 Com volta ao presencial e empresas em expansão, preço do aluguel de escritórios bate recorde em SP",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/13/bumble-encontra-um-novo-par-aplicativo-de-namoro-e-vendido-por-r-65-bilhoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/13/bumble-encontra-um-novo-par-aplicativo-de-namoro-e-vendido-por-r-65-bilhoes.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/13/preco-aluguel-escritorios-sp.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Bumble encontra um novo par: aplicativo de namoro é vendido por R$ 6,5 bilhões",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_4857b7ad",
       "views": 0,
       "date": "2026-10-13T17:34:08.669Z",
@@ -21200,7 +21241,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-13T17:34:07.621Z",
+      "lastScraped": "2026-10-13T19:29:49.321Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21208,7 +21249,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-13T17:34:07.867Z",
+      "lastScraped": "2026-10-13T19:29:49.570Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21221,7 +21262,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-13T17:34:08.656Z",
+      "lastScraped": "2026-10-13T19:29:50.671Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21278,6 +21319,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791919812283",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Bumble encontra um novo par: aplicativo de namoro é vendido por R$ 6,5 bilhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Bumble encontra um novo par: aplicativo de namoro é vendido por R$ 6,5 bilhões: por que isso importa para a economia?",
+      "postId": "rss-hash_5007b710",
+      "timestamp": "2026-10-13T19:29:50.687Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 16.4h (+8), Sem postagem há 16.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791912909888",
       "feedName": "G1 - Economia",

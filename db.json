@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4cd2f81f",
+      "views": 0,
+      "date": "2026-10-13T23:26:56.839Z",
+      "title": "Governo consegue apoio para acelerar votação da PEC que acaba com a escala 6x1 e: o que está em jogo no mercado?",
+      "subtitle": "Senadora Teresa Leitão (PT-PE), líder do governo no Senado Ton Molina/Agência Senado.",
+      "slug": "governo-consegue-apoio-para-acelerar-votacao-da-pec-que-acaba-com-a-escala-6x1-e-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nSenadora Teresa Leitão (PT-PE), líder do governo no Senado Ton Molina/Agência Senado. A líder do governo no Senado, Teresa Leitão (PT-PE), conseguiu nesta terça-feira (13) as 54 assinaturas necessárias para ingressar com um pedido para votar no mesmo dia, em primeiro e segundo turnos, a proposta que acaba com a escala 6x1 e prevê dois dias de folga remunerados para o trabalhador.\n\nO que já foi informado\n\nO presidente do Senado, Davi Alcolumbre (União-AP), confirmou que deve votar o requerimento nesta quarta-feira (14), quando os senadores também realizam a quinta e última sessão de discussão da proposta antes da primeira votação. Se o pedido for aprovado, os senadores poderão passar à votação da proposta em si. Para ser aprovada, uma Proposta de Emenda à Constituição (PEC) precisa ter ao menos três quintos dos votos favoráveis nas duas votações. Ou seja, conseguir o apoio de, no mínimo, 49 senadores. \"Esta matéria estará apta para sua deliberação no dia de amanhã. Lógico que é público, vários senadores assinaram um requerimento de calendário especial solicitado por lideranças partidárias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo consegue apoio para acelerar votação da PEC que Store Center",
+      "seoDescription": "Senadora Teresa Leitão (PT-PE), líder do governo no Senado Ton Molina/Agência Senado.",
+      "keyword": "Governo consegue apoio para acelerar votação da PEC que acaba com a escala 6x1 e aprovar texto nesta quarta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/13/governo-consegue-apoio-e-deve-concluir-votacao-da-pec-que-acaba-com-a-escala-6x1-nesta-quarta.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/13/governo-consegue-apoio-e-deve-concluir-votacao-da-pec-que-acaba-com-a-escala-6x1-nesta-quarta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Governo consegue apoio para acelerar votação da PEC que acaba com a escala 6x1 e aprovar texto nesta quarta",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7257a0bd",
       "views": 0,
       "date": "2026-10-13T21:54:35.156Z",
@@ -21321,7 +21360,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-13T21:54:32.852Z",
+      "lastScraped": "2026-10-13T23:26:55.750Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21329,7 +21368,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-13T21:54:33.701Z",
+      "lastScraped": "2026-10-13T23:26:55.991Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21342,7 +21381,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-13T21:54:35.142Z",
+      "lastScraped": "2026-10-13T23:26:56.830Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21399,6 +21438,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791934076935",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo consegue apoio para acelerar votação da PEC que acaba com a escala 6x1 e aprovar texto nesta quarta",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo consegue apoio para acelerar votação da PEC que acaba com a escala 6x1 e: o que está em jogo no mercado?",
+      "postId": "rss-hash_4cd2f81f",
+      "timestamp": "2026-10-13T23:26:56.840Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 152.7h (+8), Sem postagem há 152.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791928529993",
       "feedName": "Agência Câmara - Política",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_38bcba1d",
+      "views": 0,
+      "date": "2026-10-13T12:49:10.027Z",
+      "title": "IA impulsiona crescimento global e leva FMI a elevar projeção para 2026 Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Economia FMI reduz projeção de crescimento para o Brasil O Fundo Monetário Internacional (FMI) elevou de 3,0% para 3,1% a previsão de crescimento da economia global em 2026, impulsionada pelos fortes investimentos em inteligência artificial.",
+      "slug": "ia-impulsiona-crescimento-global-e-leva-fmi-a-elevar-projecao-para-2026-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia FMI reduz projeção de crescimento para o Brasil O Fundo Monetário Internacional (FMI) elevou de 3,0% para 3,1% a previsão de crescimento da economia global em 2026, impulsionada pelos fortes investimentos em inteligência artificial (IA). Segundo o Fundo, o avanço da tecnologia ajuda a compensar os efeitos da guerra no Oriente Médio e da alta dos preços da energia, mas não elimina os riscos para a economia mundial.\n\nO que já foi informado\n\nApesar do prolongamento da guerra e dos preços do petróleo acima de US$ 100 por barril, o FMI prevê crescimento global de 3,1% em 2026, ligeiramente acima dos 3,0% projetados em julho. A projeção faz parte do relatório “Perspectiva Econômica Global”, divulgado durante as reuniões anuais do FMI e do Banco Mundial, em Bangcoc. A estimativa está praticamente em linha com a apresentada em abril, mas abaixo dos 3,5% de crescimento registrados pela economia global em 2025. Para 2027, o FMI prevê crescimento global de 3,4%. A estimativa foi mantida em relação a julho e está 0,2 ponto percentual acima da projeção de abril. A ligeira melhora se deve, em grande parte, aos fortes investimentos em infraestrutura de inteligência artificial.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "IA impulsiona crescimento global e leva FMI a elevar Store Center",
+      "seoDescription": "Economia FMI reduz projeção de crescimento para o Brasil O Fundo Monetário Internacional (FMI) elevou de 3,0% para 3,1% a previsão de",
+      "keyword": "IA impulsiona crescimento global e leva FMI a elevar projeção para 2026 Fonte 2 Alemanha investiga suposto caso de assédio sexual cometido por um robô",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/13/ia-impulsiona-crescimento-global-e-leva-fmi-a-elevar-projecao-para-2026.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/ia-impulsiona-crescimento-global-e-leva-fmi-a-elevar-projecao-para-2026.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/alemanha-investiga-suposto-caso-de-assedio-sexual-cometido-por-um-robo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "IA impulsiona crescimento global e leva FMI a elevar projeção para 2026",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3d37963d",
       "views": 0,
       "date": "2026-10-13T03:03:18.511Z",
@@ -21079,7 +21120,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-13T03:03:16.997Z",
+      "lastScraped": "2026-10-13T12:49:08.359Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21087,7 +21128,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-13T03:03:17.507Z",
+      "lastScraped": "2026-10-13T12:49:09.018Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21100,7 +21141,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-13T03:03:18.502Z",
+      "lastScraped": "2026-10-13T12:49:10.017Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21157,6 +21198,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791895847712",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "IA impulsiona crescimento global e leva FMI a elevar projeção para 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "IA impulsiona crescimento global e leva FMI a elevar projeção para 2026 Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_38bcba1d",
+      "timestamp": "2026-10-13T12:49:10.028Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 91.8h (+8), Sem postagem há 91.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Geopolítica",
+        "Economia"
+      ]
+    },
     {
       "id": "1791860690940",
       "feedName": "G1 - Economia",

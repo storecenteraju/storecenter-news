@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_35887ffb",
+      "views": 0,
+      "date": "2026-10-14T15:03:54.162Z",
+      "title": "Dólar opera em alta, com foco em inflação americana e cenário político brasileiro: por que esse movimento importa?",
+      "subtitle": "Economia ou cair O dólar opera em alta nesta quarta-feira (14), com um avanço de 0,29% perto das 9h50, cotado a R$ 5,0346.",
+      "slug": "dolar-opera-em-alta-com-foco-em-inflacao-americana-e-cenario-politico-brasileiro-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia ou cair O dólar opera em alta nesta quarta-feira (14), com um avanço de 0,29% perto das 9h50, cotado a R$ 5,0346. Já as negociações do Ibovespa, principal índice da bolsa brasileira, começam às 10h.\n\nO que já foi informado\n\nNo noticiário nacional, investidores seguem atentos ao andamento da PEC que propõe o fim da escala 6x1 no Senado e à nova pesquisa eleitoral Quaest, prevista para às 18h. No Brasil, o cenário político segue no radar. Ao longo do dia, o destaque fica com a votação da PEC que prevê o fim da escala 6x1, que enfrenta nesta quarta-feira uma das votações mais importantes de sua tramitação no Congresso Nacional. Já no quadro eleitoral, a Quaest divulga, após o fechamento do mercado, sua primeira pesquisa de intenção de voto para o 2º turno. A pesquisa também deve trazer votos no primeiro turno, nívei de rejeição aos candidatos, conhecimento sobre propostas dos presidenciáveis e avaliação do governo Lula.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Dólar opera em alta, com foco em inflação americana e Store Center",
+      "seoDescription": "Economia ou cair O dólar opera em alta nesta quarta-feira (14), com um avanço de 0,29% perto das 9h50, cotado a R$ 5,0346.",
+      "keyword": "Dólar opera em alta, com foco em inflação americana e cenário político brasileiro Fonte 2 Manuel Belmar recebe reconhecimento concedido pelo MIPCOM e pela ONU à Agenda ESG da Globo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/14/dolar-ibovespa.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/14/dolar-ibovespa.ghtml",
+        "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/10/14/globo-recebe-reconhecimento-da-onu-por-impacto-social-e-praticas-sustentaveis.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Dólar opera em alta, com foco em inflação americana e cenário político brasileiro",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_63e98471",
       "views": 0,
       "date": "2026-10-14T13:06:03.031Z",
@@ -21565,7 +21606,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-14T13:06:01.769Z",
+      "lastScraped": "2026-10-14T15:03:52.206Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21573,7 +21614,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-14T13:06:02.064Z",
+      "lastScraped": "2026-10-14T15:03:52.805Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21586,7 +21627,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-14T13:06:03.016Z",
+      "lastScraped": "2026-10-14T15:03:54.153Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21643,6 +21684,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791990253176",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Dólar opera em alta, com foco em inflação americana e cenário político brasileiro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Dólar opera em alta, com foco em inflação americana e cenário político brasileiro: por que esse movimento importa?",
+      "postId": "rss-hash_35887ffb",
+      "timestamp": "2026-10-14T15:03:54.162Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.8h (+8), Sem postagem há 9.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791983167896",
       "feedName": "G1 - Economia",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2a9f839b",
+      "views": 0,
+      "date": "2026-10-14T19:05:34.202Z",
+      "title": "'Rouanet Games': governo anuncia R$ 200 milhões para desenvolver games no Brasil: o que pode mudar agora?",
+      "subtitle": "Os recursos serão disponibilizados por meio da Financiadora de Estudos e Projetos (Finep), agência pública que apoia projetos de pesquisa e inovação.",
+      "slug": "rouanet-games-governo-anuncia-r-200-milhoes-para-desenvolver-games-no-brasil-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nOs recursos serão disponibilizados por meio da Financiadora de Estudos e Projetos (Finep), agência pública que apoia projetos de pesquisa e inovação. As medidas também buscam facilitar o acesso das empresas brasileiras de games a empréstimos e incluem a criação do chamado “Rouanet Games”, que permitirá captar patrocínios por meio da Lei Rouanet, em parceria com empresas públicas.\n\nO que já foi informado\n\nO anúncio ocorre durante a disputa do segundo turno da eleição presidencial entre o presidente Luiz Inácio Lula da Silva e o senador Flávio Bolsonaro (PL). Durante o governo de seu pai, Jair Bolsonaro, houve redução do Imposto de Importação sobre videogames. Agora no g1 Uma das medidas prevê diminuir o valor mínimo dos empréstimos destinados ao setor por meio do Fundo Setorial do Audiovisual (FSA). A proposta da Agência Nacional do Cinema (Ancine), que será apresentada ao comitê gestor do fundo, é reduzir o piso de R$ 500 mil para R$ 150 mil.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Rouanet Games': governo anuncia R$ 200 milhões para Store Center",
+      "seoDescription": "Os recursos serão disponibilizados por meio da Financiadora de Estudos e Projetos (Finep), agência pública que apoia projetos de pesquisa e inovação.",
+      "keyword": "'Rouanet Games': governo anuncia R$ 200 milhões para desenvolver games no Brasil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/14/governo-lula-anuncia-r-200-milhoes-para-desenvolver-games-no-brasil.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/14/governo-lula-anuncia-r-200-milhoes-para-desenvolver-games-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "'Rouanet Games': governo anuncia R$ 200 milhões para desenvolver games no Brasil",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_6b65a48d",
       "views": 0,
       "date": "2026-10-14T17:33:41.315Z",
@@ -21647,7 +21686,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-14T17:33:39.333Z",
+      "lastScraped": "2026-10-14T19:05:32.912Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21655,7 +21694,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-14T17:33:40.359Z",
+      "lastScraped": "2026-10-14T19:05:33.466Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21668,7 +21707,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-14T17:33:41.300Z",
+      "lastScraped": "2026-10-14T19:05:34.191Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21725,6 +21764,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792004772108",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Rouanet Games': governo anuncia R$ 200 milhões para desenvolver games no Brasil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Rouanet Games': governo anuncia R$ 200 milhões para desenvolver games no Brasil: o que pode mudar agora?",
+      "postId": "rss-hash_2a9f839b",
+      "timestamp": "2026-10-14T19:05:34.202Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 21.2h (+8), Sem postagem há 21.2h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791999289117",
       "feedName": "G1 - Economia",

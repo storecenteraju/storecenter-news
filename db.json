@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_41d91674",
+      "views": 0,
+      "date": "2026-10-14T22:40:45.662Z",
+      "title": "Partidos de centro da Câmara dos Deputados decidem manter bloco na próxima legislatura Fonte: o que pode mudar agora?",
+      "subtitle": "Agência Câmara - Política O bloco parlamentar majoritário da Câmara dos Deputados, formado por União, PP, PSD, Republicanos, MDB, federação PSDB-Cidadania e Podemos, atualmente com 271 integrantes, será mantido na próxima legislatura, a partir de.",
+      "slug": "partidos-de-centro-da-camara-dos-deputados-decidem-manter-bloco-na-proxima-legislatura-fonte-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nAgência Câmara - Política O bloco parlamentar majoritário da Câmara dos Deputados, formado por União, PP, PSD, Republicanos, MDB, federação PSDB-Cidadania e Podemos, atualmente com 271 integrantes, será mantido na próxima legislatura, a partir de fevereiro de 2027. De acordo com o Regimento Interno da Câmara, o tamanho de cada bloco partidário na Casa define as preferências nas comissões permanentes e nas escolhas de cargos para a Mesa Diretora.\n\nO que já foi informado\n\nA partir do ano que vem, o bloco terá 240 deputados. Em nota assinada pelos líderes partidários, as agremiações se comprometem a atuar de forma unida, buscando convergência de propostas. “Reafirmamos nossa disposição de caminhar juntos, respeitando as diferenças e buscando convergências em favor do Brasil. Nosso objetivo é dar continuidade ao trabalho que temos construído por uma Câmara plural, independente e aberta ao diálogo com todas as correntes políticas”, diz o texto. O bloco também se compromete a apoiar a recondução do presidente Hugo Motta ao cargo a partir do próximo ano.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Partidos de centro da Câmara dos Deputados decidem Store Center",
+      "seoDescription": "Agência Câmara - Política O bloco parlamentar majoritário da Câmara dos Deputados, formado por União, PP, PSD, Republicanos, MDB, federaçã",
+      "keyword": "Partidos de centro da Câmara dos Deputados decidem manter bloco na próxima legislatura Fonte 2 Lula diz que para se fazer uma política pública é difícil, mas, para destruir, basta um passo: 'Tem maluco pra tudo'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1311237-partidos-de-centro-da-camara-dos-deputados-decidem-manter-bloco-na-proxima-legislatura",
+      "sourceName": "Agência Câmara - Política + G1 - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1311237-partidos-de-centro-da-camara-dos-deputados-decidem-manter-bloco-na-proxima-legislatura",
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/14/lula-diz-que-na-politica-tem-maluco-pra-tudo-e-que-para-fazer-um-programa-e-dificil-mas-para-destruir-e-um-passo.ghtml"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Partidos de centro da Câmara dos Deputados decidem manter bloco na próxima legislatura",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_3e1d0b8c",
       "views": 0,
       "date": "2026-10-14T20:48:59.692Z",
@@ -21727,7 +21768,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-14T20:48:58.364Z",
+      "lastScraped": "2026-10-14T22:40:44.369Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21735,7 +21776,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-14T20:48:58.858Z",
+      "lastScraped": "2026-10-14T22:40:44.823Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21748,7 +21789,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-14T20:48:59.679Z",
+      "lastScraped": "2026-10-14T22:40:45.648Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21805,6 +21846,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792017722068",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Partidos de centro da Câmara dos Deputados decidem manter bloco na próxima legislatura",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Partidos de centro da Câmara dos Deputados decidem manter bloco na próxima legislatura Fonte: o que pode mudar agora?",
+      "postId": "rss-hash_41d91674",
+      "timestamp": "2026-10-14T22:40:45.664Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 23.2h (+8), Sem postagem há 23.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1792010981093",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3e1d0b8c",
+      "views": 0,
+      "date": "2026-10-14T20:48:59.692Z",
+      "title": "Gol corta voos após preço do combustível dobrar: o que está em jogo no mercado?",
+      "subtitle": "Economia A Gol está ajustando sua malha aérea, com redução ou suspensão de voos em algumas rotas, em meio à alta do combustível de aviação.",
+      "slug": "gol-corta-voos-apos-preco-do-combustivel-dobrar-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia A Gol está ajustando sua malha aérea, com redução ou suspensão de voos em algumas rotas, em meio à alta do combustível de aviação. Segundo a companhia, o preço do querosene de aviação (QAV) dobrou e o insumo representa cerca de 40% de seus custos operacionais.\n\nO que já foi informado\n\nEm nota, a empresa afirmou que o planejamento das rotas é um processo contínuo e acompanha as necessidades da operação. Segundo a Gol, as mudanças são feitas “sem qualquer distinção ou priorização regional”. A companhia informou que continuará oferecendo alternativas de viagem aos passageiros, seja por meio de voos com conexão — quando é necessário trocar de avião durante o trajeto —, seja por parcerias com outras empresas aéreas. A Gol afirma ter mais de 60 acordos de codeshare e interline, modalidades de parceria que permitem às companhias comercializar voos em conjunto ou integrar trechos de uma mesma viagem. O que é recomendado aos passageiros?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Gol corta voos após preço do combustível dobrar: o que Store Center",
+      "seoDescription": "Economia A Gol está ajustando sua malha aérea, com redução ou suspensão de voos em algumas rotas, em meio à alta do combustível de av",
+      "keyword": "Gol corta voos após preço do combustível dobrar; veja o que muda para passageiros Fonte 2 Minerais críticos e estratégicos concentram 57% dos empregos da mineração em 2025, diz ANM",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/14/gol-corta-voos-apos-preco-do-combustivel-dobrar-veja-o-que-muda-para-passageiros.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/14/gol-corta-voos-apos-preco-do-combustivel-dobrar-veja-o-que-muda-para-passageiros.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/14/minerais-criticos-e-estrategicos-concentram-57percent-dos-empregos-da-mineracao-em-2025-diz-anm.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Gol corta voos após preço do combustível dobrar; veja o que muda para passageiros",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2a9f839b",
       "views": 0,
       "date": "2026-10-14T19:05:34.202Z",
@@ -21686,7 +21727,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-14T19:05:32.912Z",
+      "lastScraped": "2026-10-14T20:48:58.364Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21694,7 +21735,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-14T19:05:33.466Z",
+      "lastScraped": "2026-10-14T20:48:58.858Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21707,7 +21748,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-14T19:05:34.191Z",
+      "lastScraped": "2026-10-14T20:48:59.679Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21764,6 +21805,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792010981093",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Gol corta voos após preço do combustível dobrar; veja o que muda para passageiros",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Gol corta voos após preço do combustível dobrar: o que está em jogo no mercado?",
+      "postId": "rss-hash_3e1d0b8c",
+      "timestamp": "2026-10-14T20:48:59.692Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1792004772108",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5b220d42",
+      "views": 0,
+      "date": "2026-10-14T01:13:33.957Z",
+      "title": "Character.AI pede recuperação judicial nos EUA e negocia venda à Disney por R$ 100: por que esse movimento importa?",
+      "subtitle": "Character. AI A Character.",
+      "slug": "character-ai-pede-recuperacao-judicial-nos-eua-e-negocia-venda-a-disney-por-r-100-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nCharacter. AI A Character.\n\nO que já foi informado\n\nAI, plataforma que permite criar personagens virtuais com inteligência artificial para conversar sobre diferentes assuntos, informou nesta segunda-feira (12) que pediu recuperação judicial nos Estados Unidos e aceitou vender parte de seus ativos à Walt Disney por US$ 20 milhões (cerca de R$ 99,7 milhões). Fundada por ex-engenheiros do Google, a empresa ficou conhecida por oferecer chatbots que simulam conversas humanas e podem interagir com usuários sobre temas como entretenimento, amizade e apoio emocional. Segundo a , a empresa iniciou o processo de venda de ativos, que inclui o licenciamento de parte de sua propriedade intelectual. Também pediu à Justiça que aprove as regras do leilão, que preveem a Disney como primeira ofertante. Nesse modelo, a proposta da Disney serve como referência para as demais ofertas, mas outros interessados podem apresentar propostas com valores mais altos. A expectativa é concluir a negociação até o fim de novembro ou o início de dezembro de 2026.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Character.AI pede recuperação judicial nos EUA e Store Center",
+      "seoDescription": "Character. AI A Character.",
+      "keyword": "Character.AI pede recuperação judicial nos EUA e negocia venda à Disney por R$ 100 milhões Fonte 2 Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/13/inteligencia-artificial-characterai-recuperacao-judicial.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/inteligencia-artificial-characterai-recuperacao-judicial.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/apple-homeview.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Character.AI pede recuperação judicial nos EUA e negocia venda à Disney por R$ 100 milhões",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_4cd2f81f",
       "views": 0,
       "date": "2026-10-13T23:26:56.839Z",
@@ -21360,7 +21401,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-13T23:26:55.750Z",
+      "lastScraped": "2026-10-14T01:13:31.799Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21368,7 +21409,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-13T23:26:55.991Z",
+      "lastScraped": "2026-10-14T01:13:32.952Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21381,7 +21422,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-13T23:26:56.830Z",
+      "lastScraped": "2026-10-14T01:13:33.947Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21438,6 +21479,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791940454019",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Character.AI pede recuperação judicial nos EUA e negocia venda à Disney por R$ 100 milhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Character.AI pede recuperação judicial nos EUA e negocia venda à Disney por R$ 100: por que esse movimento importa?",
+      "postId": "rss-hash_5b220d42",
+      "timestamp": "2026-10-14T01:13:33.957Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 104.3h (+8), Sem postagem há 104.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791934076935",
       "feedName": "G1 - Economia",

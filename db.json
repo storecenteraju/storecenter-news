@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6b65a48d",
+      "views": 0,
+      "date": "2026-10-14T17:33:41.315Z",
+      "title": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas não de 'Lula 13' nem de: o que muda para os próximos jogos?",
+      "subtitle": "Economia Interação com a Meta AI para criar arte de campanha de Lula e Bolsonaro. .",
+      "slug": "ia-da-meta-no-whatsapp-cria-imagem-de-flavio-22-mas-nao-de-lula-13-nem-de-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Interação com a Meta AI para criar arte de campanha de Lula e Bolsonaro. .\n\nO que já foi informado\n\nA IA respondeu que houve um \"bloqueio automático do sistema de criação de imagens\". Agora no g1 A diferença nas respostas ocorreu apenas na Meta AI dentro do WhatsApp. No site do assistente, que tem funcionamento semelhante ao ChatGPT, a tecnologia se recusou a criar imagens de campanha para ambos os candidatos. Pela Lei das Eleições, esse tipo de comportamento é proibido. A resolução 23.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas Store Center",
+      "seoDescription": "Economia Interação com a Meta AI para criar arte de campanha de Lula e Bolsonaro. .",
+      "keyword": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas não de 'Lula 13' nem de 'Flávio Bolsonaro 22' Fonte 2 Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/14/ia-da-meta-no-whatsapp-reluta-em-criar-imagem-de-campanha-de-lula-mas-aceita-pedidos-para-flavio.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/14/ia-da-meta-no-whatsapp-reluta-em-criar-imagem-de-campanha-de-lula-mas-aceita-pedidos-para-flavio.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/apple-homeview.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas não de 'Lula 13' nem de 'Flávio Bolsonaro 22'",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_35887ffb",
       "views": 0,
       "date": "2026-10-14T15:03:54.162Z",
@@ -21606,7 +21647,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-14T15:03:52.206Z",
+      "lastScraped": "2026-10-14T17:33:39.333Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21614,7 +21655,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-14T15:03:52.805Z",
+      "lastScraped": "2026-10-14T17:33:40.359Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21627,7 +21668,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-14T15:03:54.153Z",
+      "lastScraped": "2026-10-14T17:33:41.300Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21684,6 +21725,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1791999289117",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas não de 'Lula 13' nem de 'Flávio Bolsonaro 22'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "IA da Meta no WhatsApp cria imagem de 'Flávio 22', mas não de 'Lula 13' nem de: o que muda para os próximos jogos?",
+      "postId": "rss-hash_6b65a48d",
+      "timestamp": "2026-10-14T17:33:41.315Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1791990253176",
       "feedName": "G1 - Economia",

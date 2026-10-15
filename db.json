@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1e9488bc",
+      "views": 0,
+      "date": "2026-10-15T20:26:02.814Z",
+      "title": "Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até: o que está em jogo no mercado?",
+      "subtitle": "Economia Petrobras faz nova descoberta de petróleo em poço na costa do Amapá A Petrobras bateu recorde no valor de mercado ao atingir R$ 800 bilhões no encerramento do pregão na B3 nesta quarta-feira (14), a primeira vez que a companhia supera.",
+      "slug": "petrobras-bate-recorde-e-chega-a-r-800-bilhoes-em-valor-de-mercado-acoes-sobem-ate-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Petrobras faz nova descoberta de petróleo em poço na costa do Amapá A Petrobras bateu recorde no valor de mercado ao atingir R$ 800 bilhões no encerramento do pregão na B3 nesta quarta-feira (14), a primeira vez que a companhia supera esse patamar. Ao longo de 2026, as ações preferenciais da Petrobras (PETR4) subiram cerca de 100% e as ações ordinárias (PETR3) tiveram alta de aproximadamente 110%.\n\nO que já foi informado\n\n“Ao longo dos últimos meses, afirmei diversas vezes que quem apostasse contra a Petrobras iria perder dinheiro. ... A companhia está forte, eficiente e cada vez mais capaz de gerar valor”, destaca Magda Chambriard, presidente da Petrobras. Nesta quarta-feira, as ações preferenciais (PETR4) avançaram 2,22%, enquanto as ordinárias (PETR3) registraram alta de 1,94%. Qual foi o 'trampolim' da Petrobras? Além do impulso trazido pelo cenário internacional de preços do petróleo, o mercado também reagiu a aos acordos de equalização de gastos e volumes referentes às jazidas compartilhadas de Berbigão e Sururu, na Bacia de Santos, assinados com as parceiras Shell, Total Energies e Petrogal.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Petrobras bate recorde e chega a R$ 800 bilhões em Store Center",
+      "seoDescription": "Economia Petrobras faz nova descoberta de petróleo em poço na costa do Amapá A Petrobras bateu recorde no valor de mercado ao atingir",
+      "keyword": "Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026 Fonte 2 Grupo Globo comunica desligamento de Frederic Kachar e reforça independência editorial de seus veículos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/15/petrobras-bate-recorde-e-chega-a-r-800-bilhoes-em-valor-de-mercado-acoes-sobem-ate-110percent-em-2026.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/15/petrobras-bate-recorde-e-chega-a-r-800-bilhoes-em-valor-de-mercado-acoes-sobem-ate-110percent-em-2026.ghtml",
+        "https://g1.globo.com/economia/midia-e-marketing/noticia/2026/10/15/grupo-globo-comunica-desligamento-de-frederic-kachar-e-reforca-independencia-editorial-de-seus-veiculos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_628a5396",
       "views": 0,
       "date": "2026-10-15T18:47:32.977Z",
@@ -22092,7 +22133,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T18:47:31.588Z",
+      "lastScraped": "2026-10-15T20:26:01.799Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22100,7 +22141,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T18:47:31.838Z",
+      "lastScraped": "2026-10-15T20:26:02.052Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22113,7 +22154,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T18:47:32.966Z",
+      "lastScraped": "2026-10-15T20:26:02.798Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22170,6 +22211,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792096052425",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até 110% em 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Petrobras bate recorde e chega a R$ 800 bilhões em valor de mercado; ações sobem até: o que está em jogo no mercado?",
+      "postId": "rss-hash_1e9488bc",
+      "timestamp": "2026-10-15T20:26:02.815Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 19.9h (+8), Sem postagem há 19.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792090130698",
       "feedName": "G1 - Economia",

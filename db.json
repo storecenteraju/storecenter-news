@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_40fbd682",
+      "views": 0,
+      "date": "2026-10-15T10:08:19.033Z",
+      "title": "NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não: o que está em jogo no mercado?",
+      "subtitle": "Economia Bolsa Família não teve reajuste maior que salário mínimo nos últimos 3 anos g1 Circulam nas redes sociais publicações alegando que o governo Lula (PT) deu mais de 15% de reajuste para o Bolsa Família, mas corrigiu em apenas 6% o.",
+      "slug": "naoebemassim-bolsa-familia-teve-reajuste-maior-que-do-salario-minimo-em-2026-mas-nao-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Bolsa Família não teve reajuste maior que salário mínimo nos últimos 3 anos g1 Circulam nas redes sociais publicações alegando que o governo Lula (PT) deu mais de 15% de reajuste para o Bolsa Família, mas corrigiu em apenas 6% o salário mínimo. NÃOÉBEMASSIM.\n\nO que já foi informado\n\nSiga o canal de Fato ou Fake no WhatsApp Selo Não é Bem Assim (Horizontal) g1 Como são os posts? Abaixo, há o seguinte texto: \"Discurso que gera polêmica: 'Como um partido que se diz dos trabalhadores dá mais de 15% de aumento para quem não trabalha e apenas 6% para quem trabalha? ', diz trabalhador CLT\".\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do Store Center",
+      "seoDescription": "Economia Bolsa Família não teve reajuste maior que salário mínimo nos últimos 3 anos g1 Circulam nas redes sociais publicações alegan",
+      "keyword": "NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não supera aumento dos últimos três anos Fonte 2 Volkswagen ID.4 chega por R$ 299.990 para uma disputa difícil com os chineses; g1 testou",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/15/naoebemassim-bolsa-familia-teve-reajuste-maior-que-do-salario-minimo-em-2026-mas-nao-supera-aumento-dos-ultimos-tres-anos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/fato-ou-fake/noticia/2026/10/15/naoebemassim-bolsa-familia-teve-reajuste-maior-que-do-salario-minimo-em-2026-mas-nao-supera-aumento-dos-ultimos-tres-anos.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/15/teste-volkswagen-id4.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "#NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não supera aumento dos últimos três anos",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_17b2dd0",
       "views": 0,
       "date": "2026-10-15T08:00:43.175Z",
@@ -21889,7 +21930,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T08:00:41.899Z",
+      "lastScraped": "2026-10-15T10:08:17.055Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21897,7 +21938,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T08:00:42.201Z",
+      "lastScraped": "2026-10-15T10:08:17.927Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21910,7 +21951,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T08:00:43.167Z",
+      "lastScraped": "2026-10-15T10:08:19.020Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21967,6 +22008,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792058995970",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "#NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não supera aumento dos últimos três anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "NÃOÉBEMASSIM: Bolsa Família teve reajuste maior que do salário mínimo em 2026, mas não: o que está em jogo no mercado?",
+      "postId": "rss-hash_40fbd682",
+      "timestamp": "2026-10-15T10:08:19.033Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.6h (+8), Sem postagem há 9.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Geopolítica",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792051302324",
       "feedName": "G1 - Economia",

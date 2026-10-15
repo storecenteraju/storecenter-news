@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_40908424",
+      "views": 0,
+      "date": "2026-10-15T05:01:59.321Z",
+      "title": "Abono salarial PIS/Pasep 2026: pagamento complementar começa nesta quinta: o que está em jogo no mercado?",
+      "subtitle": "Economia Antigo PIS/Pasep: novo lote de dinheiro esquecido começa a ser pago nesta sexta (25) O Ministério do Trabalho e Emprego (MTE) começa a pagar nesta quinta-feira (15) um lote complementar do abono salarial referente ao ano-base 2024.",
+      "slug": "abono-salarial-pis-pasep-2026-pagamento-complementar-comeca-nesta-quinta-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Antigo PIS/Pasep: novo lote de dinheiro esquecido começa a ser pago nesta sexta (25) O Ministério do Trabalho e Emprego (MTE) começa a pagar nesta quinta-feira (15) um lote complementar do abono salarial referente ao ano-base 2024. Ao todo, 1.030.899 trabalhadores receberão R$ 804,2 milhões.\n\nO que já foi informado\n\nOs valores variam de R$ 136 a R$ 1.621, conforme o número de meses trabalhados em 2024. O pagamento contempla trabalhadores cujos empregadores enviaram ou corrigiram informações entre 1º de setembro de 2025 e 20 de junho de 2026. O abono salarial é um benefício no valor de até um salário-mínimo concedido anualmente a trabalhadores da iniciativa privada (PIS) e a servidores públicos (Pasep) que atendem aos requisitos do programa. A revisão dos dados permitiu identificar pessoas que tinham direito ao benefício, mas não haviam sido incluídas nos pagamentos anteriores, além de corrigir valores de trabalhadores que já estavam habilitados. O lote inclui 704.398 trabalhadores da iniciativa privada, que recebem o Programa de Integração Social (PIS) pela Caixa Econômica Federal, e 326.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Abono salarial PIS/Pasep 2026: pagamento complementar Store Center",
+      "seoDescription": "Economia Antigo PIS/Pasep: novo lote de dinheiro esquecido começa a ser pago nesta sexta (25) O Ministério do Trabalho e Emprego (MTE",
+      "keyword": "Abono salarial PIS/Pasep 2026: pagamento complementar começa nesta quinta; veja quem recebe Fonte 2 Mega-Sena pode pagar R$ 170 milhões nesta quinta-feira; g1 transmite ao vivo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/15/abono-salarial-pispasep-2026-pagamento-complementar-comeca-nesta-quinta-veja-quem-recebe.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/15/abono-salarial-pispasep-2026-pagamento-complementar-comeca-nesta-quinta-veja-quem-recebe.ghtml",
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/15/mega-sena-pode-pagar-r-170-milhoes-nesta-quinta-feira-g1-transmite-ao-vivo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Abono salarial PIS/Pasep 2026: pagamento complementar começa nesta quinta; veja quem recebe",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_75fcfad5",
       "views": 0,
       "date": "2026-10-15T00:31:33.932Z",
@@ -21809,7 +21850,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T00:31:32.394Z",
+      "lastScraped": "2026-10-15T05:01:57.657Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21817,7 +21858,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T00:31:32.959Z",
+      "lastScraped": "2026-10-15T05:01:58.255Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21830,7 +21871,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T00:31:33.920Z",
+      "lastScraped": "2026-10-15T05:01:59.303Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21887,6 +21928,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792040617661",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Abono salarial PIS/Pasep 2026: pagamento complementar começa nesta quinta; veja quem recebe",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Abono salarial PIS/Pasep 2026: pagamento complementar começa nesta quinta: o que está em jogo no mercado?",
+      "postId": "rss-hash_40908424",
+      "timestamp": "2026-10-15T05:01:59.322Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Geopolítica",
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792024365284",
       "feedName": "G1 - Economia",

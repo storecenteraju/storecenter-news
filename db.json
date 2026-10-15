@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_628a5396",
+      "views": 0,
+      "date": "2026-10-15T18:47:32.977Z",
+      "title": "Netflix reajusta preços dos planos no Brasil: por que esse assunto merece atenção?",
+      "subtitle": "Francis Mascarenhas A Netflix aumentou nesta semana os preços dos três planos de assinatura no Brasil.",
+      "slug": "netflix-reajusta-precos-dos-planos-no-brasil-por-que-esse-assunto-merece-atencao",
+      "content": "O que aconteceu\n\nFrancis Mascarenhas A Netflix aumentou nesta semana os preços dos três planos de assinatura no Brasil. Com a mudança, o plano mais caro, que permite assistir a conteúdos em até quatro telas simultâneas e oferece qualidade 4K+HDR, passa a custar R$ 71,90 por mês.\n\nO que já foi informado\n\nO reajuste ocorre em meio à notícia de que a Netflix pretende demitir cerca de mil funcionários, o equivalente a 6% de sua força de trabalho global. Essa será a maior rodada de cortes da plataforma de streaming desde 2022. O maior aumento percentual foi no plano Padrão com anúncios, que ficou 23,9% mais caro. A modalidade permite assistir a conteúdos em até dois dispositivos simultaneamente, com qualidade Full HD. Veja os novos preços da Netflix: Padrão com anúncios: de R$ 20,90 para R$ 25,90 (alta de 23,9%); Padrão: de R$ 44,90 para R$ 51,90 (alta de 15,6%); Premium: de R$ 59,90 para R$ 71,90 (alta de 20%). Em resposta ao g1, a empresa afirmou que busca entregar \"mais valor\" aos assinantes e por isso optou por atualizar os preços, \"para continuar investindo em entretenimento de qualidade e melhorar a experiência de todos\".\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Entretenimento. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Netflix reajusta preços dos planos no Brasil: por que Store Center",
+      "seoDescription": "Francis Mascarenhas A Netflix aumentou nesta semana os preços dos três planos de assinatura no Brasil.",
+      "keyword": "Netflix reajusta preços dos planos no Brasil; veja novos valores",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/15/netflix-reajusta-precos-dos-planos-no-brasil.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/15/netflix-reajusta-precos-dos-planos-no-brasil.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Netflix reajusta preços dos planos no Brasil; veja novos valores",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_36516db3",
       "views": 0,
       "date": "2026-10-15T17:18:24.858Z",
@@ -22053,7 +22092,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T17:18:23.479Z",
+      "lastScraped": "2026-10-15T18:47:31.588Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22061,7 +22100,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T17:18:24.038Z",
+      "lastScraped": "2026-10-15T18:47:31.838Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22074,7 +22113,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T17:18:24.848Z",
+      "lastScraped": "2026-10-15T18:47:32.966Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22131,6 +22170,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792090130698",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Netflix reajusta preços dos planos no Brasil; veja novos valores",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Netflix reajusta preços dos planos no Brasil: por que esse assunto merece atenção?",
+      "postId": "rss-hash_628a5396",
+      "timestamp": "2026-10-15T18:47:32.978Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 44.9h (+8), Sem postagem há 44.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792084781773",
       "feedName": "G1 - Economia",

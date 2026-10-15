@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_17b2dd0",
+      "views": 0,
+      "date": "2026-10-15T08:00:43.175Z",
+      "title": "Agrotóxicos, água e câncer: por que a saúde virou tema das eleições em potência: por que esse movimento importa?",
+      "subtitle": "Um riacho atravessa uma área de cultivo em Marshalltown, em Iowa. Brittany Peterson/AP.",
+      "slug": "agrotoxicos-agua-e-cancer-por-que-a-saude-virou-tema-das-eleicoes-em-potencia-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nUm riacho atravessa uma área de cultivo em Marshalltown, em Iowa. Brittany Peterson/AP.\n\nO que já foi informado\n\nO estado de Iowa, uma das potências do agronegócio dos Estados Unidos, enfrenta um déficit orçamentário, custos elevados e dificuldades econômicas provocadas por disputas comerciais que têm pressionado os agricultores. Mas dois problemas que se arrastam há décadas — a qualidade da água e os índices de câncer — ganharam destaque nas campanhas para as eleições de meio de mandato, conhecidas como midterms. Baixe o app do g1 para ver notícias em tempo real e de graça As midterms são realizadas na metade do mandato presidencial. Elas renovam toda a Câmara dos Representantes e cerca de um terço do Senado, além de definir governadores e outros cargos estaduais e locais. Em Iowa, esses temas polêmicos estão sendo abordados em debates, mesas-redondas e propagandas eleitorais de candidatos democratas e republicanos a diferentes cargos. Agora no g1 Historicamente, o assunto tem sido um tabu político para evitar apontar responsabilidades da indústria agropecuária de Iowa, um dos principais produtores de milho, soja e suínos dos Estados Unidos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Agrotóxicos, água e câncer: por que a saúde virou tema Store Center",
+      "seoDescription": "Um riacho atravessa uma área de cultivo em Marshalltown, em Iowa. Brittany Peterson/AP.",
+      "keyword": "Agrotóxicos, água e câncer: por que a saúde virou tema das eleições em potência agrícola dos EUA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/15/agrotoxicos-agua-e-cancer-por-que-a-saude-virou-tema-das-eleicoes-em-potencia-agricola-dos-eua.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/15/agrotoxicos-agua-e-cancer-por-que-a-saude-virou-tema-das-eleicoes-em-potencia-agricola-dos-eua.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Agrotóxicos, água e câncer: por que a saúde virou tema das eleições em potência agrícola dos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_40908424",
       "views": 0,
       "date": "2026-10-15T05:01:59.321Z",
@@ -21850,7 +21889,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T05:01:57.657Z",
+      "lastScraped": "2026-10-15T08:00:41.899Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -21858,7 +21897,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T05:01:58.255Z",
+      "lastScraped": "2026-10-15T08:00:42.201Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -21871,7 +21910,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T05:01:59.303Z",
+      "lastScraped": "2026-10-15T08:00:43.167Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -21928,6 +21967,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792051302324",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Agrotóxicos, água e câncer: por que a saúde virou tema das eleições em potência agrícola dos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Agrotóxicos, água e câncer: por que a saúde virou tema das eleições em potência: por que esse movimento importa?",
+      "postId": "rss-hash_17b2dd0",
+      "timestamp": "2026-10-15T08:00:43.176Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.2h (+8), Sem postagem há 11.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Geopolítica",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792040617661",
       "feedName": "G1 - Economia",

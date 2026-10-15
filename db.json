@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_65abcfc3",
+      "views": 0,
+      "date": "2026-10-15T22:41:39.417Z",
+      "title": "Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes Fonte 2: o que pode mudar agora?",
+      "subtitle": "Economia Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes O Senado Federal aprovou nesta quinta-feira (15) projeto de lei que amplia o limite de faturamento para enquadramento de Microempreendedor Individual.",
+      "slug": "senado-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes-fonte-2-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nEconomia Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes O Senado Federal aprovou nesta quinta-feira (15) projeto de lei que amplia o limite de faturamento para enquadramento de Microempreendedor Individual (MEI) e também perdoa dívidas de inadimplentes da categoria. Ambas as mudanças foram enviadas pelo governo Lula, com o perdão das dívidas do MEI sendo a última medida anunciada pela campanha de Lula nesta semana como tentativa de reaproximação com o grupo a poucos dias do 2º turno.\n\nO que já foi informado\n\nA proposta foi aprovada pela Câmara dos Deputados nesta quarta-feira (14) e agora, segue para sanção do presidente Luiz Inácio Lula da Silva (PT). A proposta foi aprovada por 78 votos favoráveis e nenhum contra. O projeto amplia o enquadramento no MEI para os empreendedores com faturamento anual de R$ 110 mil em 2027 e de R$ 140 mil a partir de 2028, ante os R$ 80 mil atuais. \"Esse MEI hoje às vezes dispensa um contrato para não extrapolar a faixa do MEI\", explicou o relator do projeto na Câmara, deputado Rubens Pereira Jr. (PT-MA). A proposta também amplia o número de funcionários que podem ser contratados pelos microempreendedores individuais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Senado aprova projeto que amplia limite do MEI e perdoa Store Center",
+      "seoDescription": "Economia Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes O Senado Federal aprovou nesta quinta-feira",
+      "keyword": "Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes Fonte 2 Câmara pode votar proposta que obriga SUS a aceitar exames da rede privada",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/15/senado-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes.ghtml",
+      "sourceName": "G1 - Política + Agência Câmara - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/15/senado-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes.ghtml",
+        "https://www.camara.leg.br/noticias/1311362-camara-pode-votar-proposta-que-obriga-sus-a-aceitar-exames-da-rede-privada"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1e9488bc",
       "views": 0,
       "date": "2026-10-15T20:26:02.814Z",
@@ -22133,7 +22174,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T20:26:01.799Z",
+      "lastScraped": "2026-10-15T22:41:37.367Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22141,7 +22182,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T20:26:02.052Z",
+      "lastScraped": "2026-10-15T22:41:38.396Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22154,7 +22195,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T20:26:02.798Z",
+      "lastScraped": "2026-10-15T22:41:39.404Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22211,6 +22252,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792104133989",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Senado aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes Fonte 2: o que pode mudar agora?",
+      "postId": "rss-hash_65abcfc3",
+      "timestamp": "2026-10-15T22:41:39.418Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 24.0h (+8), Sem postagem há 24.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792096052425",
       "feedName": "G1 - Economia",

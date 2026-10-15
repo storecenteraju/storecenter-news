@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_36516db3",
+      "views": 0,
+      "date": "2026-10-15T17:18:24.858Z",
+      "title": "Amazon lança dispositivos de IA que resumem conversas e criam lembretes Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Economia Celular tá caro: o que a IA tem a ver com o aumento do preço de celulares?",
+      "slug": "amazon-lanca-dispositivos-de-ia-que-resumem-conversas-e-criam-lembretes-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Celular tá caro: o que a IA tem a ver com o aumento do preço de celulares? A Amazon anunciou nesta quinta-feira (15) dois novos dispositivos de inteligência artificial (IA) da linha Bee, capazes de transformar conversas em resumos, listas de tarefas, lembretes e recomendações personalizadas.\n\nO que já foi informado\n\nSegundo a companhia, os aparelhos foram desenvolvidos para ajudar o usuário a guardar informações importantes e organizar as atividades do dia a dia. A partir das conversas captadas, a IA identifica os principais assuntos discutidos e sugere ações, como tarefas a cumprir e compromissos a agendar. Os novos produtos são o Bee Frontier, que pode ser usado no pulso ou preso à roupa, e o Bee Eclipse, um dispositivo compacto que se conecta magneticamente à parte traseira do celular. Em julho de 2025, a Amazon adquiriu a Bee, startup de São Francisco, nos EUA, conhecida por desenvolver uma pulseira equipada com IA e microfones capazes de captar, transcrever e analisar conversas. O valor da aquisição não foi divulgado. Além dos novos aparelhos, a empresa anunciou recursos que permitem conectar o Bee a aplicativos como Gmail, Google Agenda e Microsoft Outlook.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Amazon lança dispositivos de IA que resumem conversas e Store Center",
+      "seoDescription": "Economia Celular tá caro: o que a IA tem a ver com o aumento do preço de celulares?",
+      "keyword": "Amazon lança dispositivos de IA que resumem conversas e criam lembretes Fonte 2 OpenAI acusa ex-funcionário de levar arquivos sobre aparelho não lançado para a Apple",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/15/amazon-lanca-dispositivos-de-ia-que-resumem-conversas-e-criam-lembretes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/15/amazon-lanca-dispositivos-de-ia-que-resumem-conversas-e-criam-lembretes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/15/openai-acusa-ex-funcionario-de-levar-arquivos-sobre-aparelho-nao-lancado-para-a-apple.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Amazon lança dispositivos de IA que resumem conversas e criam lembretes",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_9b456a6",
       "views": 0,
       "date": "2026-10-15T14:57:13.828Z",
@@ -22012,7 +22053,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T14:57:12.482Z",
+      "lastScraped": "2026-10-15T17:18:23.479Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22020,7 +22061,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T14:57:12.799Z",
+      "lastScraped": "2026-10-15T17:18:24.038Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22033,7 +22074,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T14:57:13.815Z",
+      "lastScraped": "2026-10-15T17:18:24.848Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22090,6 +22131,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792084781773",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Amazon lança dispositivos de IA que resumem conversas e criam lembretes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Amazon lança dispositivos de IA que resumem conversas e criam lembretes Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_36516db3",
+      "timestamp": "2026-10-15T17:18:24.859Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.2h (+8), Sem postagem há 22.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792076301432",
       "feedName": "G1 - Economia",

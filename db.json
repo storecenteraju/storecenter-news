@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2730fd96",
+      "views": 0,
+      "date": "2026-10-16T09:58:51.637Z",
+      "title": "Lojas viraram vitrines da internet?",
+      "subtitle": "Como mostrou o g1 em agosto, o comércio varejista tem enfrentado dificuldades para fechar as contas.",
+      "slug": "lojas-viraram-vitrines-da-internet",
+      "content": "O que aconteceu\n\nComo mostrou o g1 em agosto, o comércio varejista tem enfrentado dificuldades para fechar as contas. Reduzir o número de lojas, cortar custos e investir em operações mais eficientes se tornaram parte das estratégias para reverter os números ruins.\n\nO que já foi informado\n\nOutro motivo para essa revisão das operações é a mudança no comportamento do consumidor. Ele pesquisa preços na internet, visita lojas para conhecer os produtos e, muitas vezes, finaliza a compra no comércio eletrônico. Esse comportamento, conhecido como \"showrooming\", ajuda a ilustrar um dos desafios do varejo tradicional: Como manter a relevância das lojas físicas em um mercado no qual os consumidores comparam preços com facilidade e têm cada vez mais opções on-line? Nesse cenário, a loja física está perdendo espaço para o comércio eletrônico ou ganhando um novo papel na jornada de compra?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lojas viraram vitrines da internet? Store Center",
+      "seoDescription": "Como mostrou o g1 em agosto, o comércio varejista tem enfrentado dificuldades para fechar as contas.",
+      "keyword": "Lojas viraram vitrines da internet? Entenda como os brasileiros estão mudando a forma de comprar",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/empreendedorismo/noticia/2026/10/16/lojas-viraram-vitrines-da-internet-entenda-como-os-brasileiros-estao-mudando-a-forma-de-comprar.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/empreendedorismo/noticia/2026/10/16/lojas-viraram-vitrines-da-internet-entenda-como-os-brasileiros-estao-mudando-a-forma-de-comprar.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Lojas viraram vitrines da internet? Entenda como os brasileiros estão mudando a forma de comprar",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_42a285ee",
       "views": 0,
       "date": "2026-10-16T07:55:13.244Z",
@@ -22297,7 +22336,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-16T07:55:11.838Z",
+      "lastScraped": "2026-10-16T09:58:50.109Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22305,7 +22344,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-16T07:55:12.381Z",
+      "lastScraped": "2026-10-16T09:58:50.481Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22318,7 +22357,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-16T07:55:13.233Z",
+      "lastScraped": "2026-10-16T09:58:51.626Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22375,6 +22414,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792144801932",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lojas viraram vitrines da internet? Entenda como os brasileiros estão mudando a forma de comprar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lojas viraram vitrines da internet?",
+      "postId": "rss-hash_2730fd96",
+      "timestamp": "2026-10-16T09:58:51.638Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 60.1h (+8), Sem postagem há 60.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792137405834",
       "feedName": "G1 - Economia",

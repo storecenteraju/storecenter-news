@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_736eb092",
+      "views": 0,
+      "date": "2026-10-16T14:48:05.345Z",
+      "title": "Fim da escala 6x1 é promulgado e prazos começam a contar: por que isso importa para a economia?",
+      "subtitle": "Economia Fim da escala 6x1: Quando começa a valer e quais são as profissões impactadas A Proposta de Emenda à Constituição (PEC) que prevê o fim da escala 6x1 e garante dois dias de descanso remunerado por semana foi promulgada pelo Congresso.",
+      "slug": "fim-da-escala-6x1-e-promulgado-e-prazos-comecam-a-contar-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Fim da escala 6x1: Quando começa a valer e quais são as profissões impactadas A Proposta de Emenda à Constituição (PEC) que prevê o fim da escala 6x1 e garante dois dias de descanso remunerado por semana foi promulgada pelo Congresso Nacional nesta sexta-feira (16). O ato marca o início do período de transição até a entrada em vigor das novas regras.\n\nO que já foi informado\n\nEssa é a primeira mudança nas regras gerais da jornada de trabalho desde a Constituição de 1988, há 38 anos. Durante a Assembleia Nacional Constituinte, a redução da jornada de 48 para 40 horas semanais chegou a ser discutida. Sem apoio suficiente, porém, o limite foi fixado em 44 horas. Agora, a Constituição passa a estabelecer o limite máximo de 40 horas semanais, com dois dias de descanso remunerado por semana em todo o país. A mudança, no entanto, não será imediata. Segundo Hugo Luiz Schiavo, advogado trabalhista e sócio do A.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fim da escala 6x1 é promulgado e prazos começam a Store Center",
+      "seoDescription": "Economia Fim da escala 6x1: Quando começa a valer e quais são as profissões impactadas A Proposta de Emenda à Constituição (PEC) que",
+      "keyword": "Fim da escala 6x1 é promulgado e prazos começam a contar; entenda como será a transição Fonte 2 Brasil tem 1,5 milhão de crianças e adolescentes no trabalho infantil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/16/transicao-fim-da-escala-6x1.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/16/transicao-fim-da-escala-6x1.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/16/brasil-tem-15-milhao-de-criancas-e-adolescentes-no-trabalho-infantil-menor-numero-desde-2016.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Fim da escala 6x1 é promulgado e prazos começam a contar; entenda como será a transição",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_7f8fc5d5",
       "views": 0,
       "date": "2026-10-16T12:45:03.314Z",
@@ -22377,7 +22418,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-16T12:45:01.408Z",
+      "lastScraped": "2026-10-16T14:48:03.380Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22385,7 +22426,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-16T12:45:02.400Z",
+      "lastScraped": "2026-10-16T14:48:04.198Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22398,7 +22439,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-16T12:45:03.301Z",
+      "lastScraped": "2026-10-16T14:48:05.325Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22455,6 +22496,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792162123523",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fim da escala 6x1 é promulgado e prazos começam a contar; entenda como será a transição",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fim da escala 6x1 é promulgado e prazos começam a contar: por que isso importa para a economia?",
+      "postId": "rss-hash_736eb092",
+      "timestamp": "2026-10-16T14:48:05.345Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.9h (+8), Sem postagem há 6.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792154783963",
       "feedName": "Agência Câmara - Política",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_22b1a9ab",
+      "views": 0,
+      "date": "2026-10-16T00:24:35.595Z",
+      "title": "Brasil deve voltar ao top 8 das maiores economias do mundo em 2027, prevê FMI Fonte 2: o que está em jogo no mercado?",
+      "subtitle": "Economia FMI diz que inteligência artificial e geopolítica estão moldando a economia global O Brasil deve voltar ao posto de oitava maior economia do mundo em 2027, ultrapassando a Itália e a Rússia, segundo as projeções do Fundo Monetário.",
+      "slug": "brasil-deve-voltar-ao-top-8-das-maiores-economias-do-mundo-em-2027-preve-fmi-fonte-2-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia FMI diz que inteligência artificial e geopolítica estão moldando a economia global O Brasil deve voltar ao posto de oitava maior economia do mundo em 2027, ultrapassando a Itália e a Rússia, segundo as projeções do Fundo Monetário Internacional (FMI) em sua base de dados atualizada. O Produto Interno Bruto (PIB) brasileiro deve alcançar US$ 2,796 trilhões no ano, ante US$ 2,772 trilhões da economia italiana e US$ 2,675 trilhões da russa.\n\nO que já foi informado\n\nO PIB é a soma dos bens e serviços produzidos por um país em determinado período. Os valores usados na comparação são nominais, ou seja, não descontam os efeitos da inflação, e estão expressos em dólares. Esse indicador permite comparar o tamanho das economias em uma mesma moeda. Em 2026, o Brasil ainda deve ocupar a décima posição, com PIB projetado em US$ 2,655 trilhões. A Rússia aparece à frente, com US$ 2,861 trilhões, seguida pela Itália, com US$ 2,702 trilhões. A mudança prevista para 2027 ocorre porque o PIB brasileiro projetado supera o das duas economias europeias.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Brasil deve voltar ao top 8 das maiores economias do Store Center",
+      "seoDescription": "Economia FMI diz que inteligência artificial e geopolítica estão moldando a economia global O Brasil deve voltar ao posto de oitava m",
+      "keyword": "Brasil deve voltar ao top 8 das maiores economias do mundo em 2027, prevê FMI Fonte 2 Casas Bahia fecha acordo que prevê mais de R$ 33 milhões para trabalhadores demitidos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/15/brasil-deve-voltar-ao-top-8-das-maiores-economias-do-mundo-em-2027-preve-fmi.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/15/brasil-deve-voltar-ao-top-8-das-maiores-economias-do-mundo-em-2027-preve-fmi.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/15/casas-bahia-acordo-demissao-massa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Brasil deve voltar ao top 8 das maiores economias do mundo em 2027, prevê FMI",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_65abcfc3",
       "views": 0,
       "date": "2026-10-15T22:41:39.417Z",
@@ -22174,7 +22215,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-15T22:41:37.367Z",
+      "lastScraped": "2026-10-16T00:24:33.633Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22182,7 +22223,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-15T22:41:38.396Z",
+      "lastScraped": "2026-10-16T00:24:34.486Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22195,7 +22236,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-15T22:41:39.404Z",
+      "lastScraped": "2026-10-16T00:24:35.582Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22252,6 +22293,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792110356849",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Brasil deve voltar ao top 8 das maiores economias do mundo em 2027, prevê FMI",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Brasil deve voltar ao top 8 das maiores economias do mundo em 2027, prevê FMI Fonte 2: o que está em jogo no mercado?",
+      "postId": "rss-hash_22b1a9ab",
+      "timestamp": "2026-10-16T00:24:35.596Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Direito"
+      ]
+    },
     {
       "id": "1792104133989",
       "feedName": "G1 - Economia",

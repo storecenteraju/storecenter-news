@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6816a084",
+      "views": 0,
+      "date": "2026-10-16T16:54:03.425Z",
+      "title": "Fim da escala 6x1: como é a jornada de trabalho em outros países? Fonte 2: o que muda para usuários e empresas?",
+      "subtitle": "Economia Plenário do Senado discute proposta sobre o fim da escala 6x1 O Senado Federal aprovou, nesta quarta-feira (14), a Proposta de Emenda à Constituição (PEC) que acaba com a escala de trabalho 6x1 no país.",
+      "slug": "fim-da-escala-6x1-como-e-a-jornada-de-trabalho-em-outros-paises-fonte-2-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Plenário do Senado discute proposta sobre o fim da escala 6x1 O Senado Federal aprovou, nesta quarta-feira (14), a Proposta de Emenda à Constituição (PEC) que acaba com a escala de trabalho 6x1 no país. A proposta altera a Constituição para diminuir as horas de trabalho semanais de 44 para 40 horas, e coloca o Brasil entre os países que estão reduzindo as jornadas de trabalho previstas em lei.\n\nO que já foi informado\n\nA mudança será gradual e estará totalmente implementada em cerca de 14 meses, segundo o texto. Siga o canal de notícias internacionais do g1 no WhatsApp A PEC, que agora segue para promulgação em sessão conjunta do Congresso Nacional, assegura que os trabalhadores tenham dois dias de descanso por semana sem redução salarial. Em 2026, três países da América Latina começaram, deram continuidade ou concluíram as discussões acerca da carga horária trabalhada de seus cidadãos. Enquanto o Chile e a Colômbia chegaram a 42 horas semanais, o México deve começar a implementação da nova jornada a partir de 2027. Reduzir o limite semanal de horas não significa necessariamente acabar com a escala 6x1.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fim da escala 6x1: como é a jornada de trabalho em Store Center",
+      "seoDescription": "Economia Plenário do Senado discute proposta sobre o fim da escala 6x1 O Senado Federal aprovou, nesta quarta-feira (14), a Proposta",
+      "keyword": "Fim da escala 6x1: como é a jornada de trabalho em outros países? Fonte 2 Cientistas pedem órgão internacional para supervisionar sistemas de IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/10/14/fim-da-escala-6x1-como-e-a-jornada-de-trabalho-em-outros-paises.ghtml",
+      "sourceName": "G1 - Economia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/10/14/fim-da-escala-6x1-como-e-a-jornada-de-trabalho-em-outros-paises.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/cientistas-pedem-orgao-internacional-para-supervisionar-sistemas-de-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Fim da escala 6x1: como é a jornada de trabalho em outros países?",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_736eb092",
       "views": 0,
       "date": "2026-10-16T14:48:05.345Z",
@@ -22418,7 +22459,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-16T14:48:03.380Z",
+      "lastScraped": "2026-10-16T16:54:01.728Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22426,7 +22467,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-16T14:48:04.198Z",
+      "lastScraped": "2026-10-16T16:54:02.332Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22439,7 +22480,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-16T14:48:05.325Z",
+      "lastScraped": "2026-10-16T16:54:03.410Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22496,6 +22537,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792169665445",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fim da escala 6x1: como é a jornada de trabalho em outros países?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fim da escala 6x1: como é a jornada de trabalho em outros países? Fonte 2: o que muda para usuários e empresas?",
+      "postId": "rss-hash_6816a084",
+      "timestamp": "2026-10-16T16:54:03.426Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 63.7h (+8), Sem postagem há 63.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792162123523",
       "feedName": "G1 - Economia",

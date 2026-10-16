@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_72f71ab1",
+      "views": 0,
+      "date": "2026-10-16T18:32:53.948Z",
+      "title": "Cientistas pedem órgão internacional para supervisionar sistemas de IA: o que muda para usuários e empresas?",
+      "subtitle": "Cerca de 400 cientistas, entre eles os pioneiros da inteligência artificial (IA) Geoffrey Hinton e Yoshua Bengio, defenderam nesta terça-feira (13) a criação de um órgão internacional para reforçar a segurança de sistemas avançados da tecnologia.",
+      "slug": "cientistas-pedem-orgao-internacional-para-supervisionar-sistemas-de-ia-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nCerca de 400 cientistas, entre eles os pioneiros da inteligência artificial (IA) Geoffrey Hinton e Yoshua Bengio, defenderam nesta terça-feira (13) a criação de um órgão internacional para reforçar a segurança de sistemas avançados da tecnologia. A proposta surge após casos em que modelos de IA conseguiram ultrapassar barreiras impostas durante testes e comprometer sistemas externos, segundo os pesquisadores.\n\nO que já foi informado\n\nO órgão seria responsável por estabelecer padrões de segurança para todo o setor e manter um registro de incidentes relevantes. Segundo os cientistas, essas informações deveriam, futuramente, ser divulgadas ao público. Em uma carta aberta, os pesquisadores defendem que os modelos mais avançados de IA sejam, inicialmente, mantidos isolados de redes externas e submetidos a uma supervisão independente. Entre as medidas recomendadas está o chamado “air gap”, que consiste em manter o sistema desconectado da internet. Para eles, os compromissos voluntários assumidos pelas empresas do setor não são suficientes. Agora no g1 O pedido ocorre um mês depois de Anthropic, OpenAI, Google, Meta, xAI e Nvidia assinarem um acordo na Casa Branca para adotar medidas voluntárias de segurança.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Cientistas pedem órgão internacional para supervisionar Store Center",
+      "seoDescription": "Cerca de 400 cientistas, entre eles os pioneiros da inteligência artificial (IA) Geoffrey Hinton e Yoshua Bengio, defenderam nesta terça-feira (13) a",
+      "keyword": "Cientistas pedem órgão internacional para supervisionar sistemas de IA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/13/cientistas-pedem-orgao-internacional-para-supervisionar-sistemas-de-ia.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/cientistas-pedem-orgao-internacional-para-supervisionar-sistemas-de-ia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Cientistas pedem órgão internacional para supervisionar sistemas de IA",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_6816a084",
       "views": 0,
       "date": "2026-10-16T16:54:03.425Z",
@@ -22459,7 +22498,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-16T16:54:01.728Z",
+      "lastScraped": "2026-10-16T18:32:52.564Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22467,7 +22506,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-16T16:54:02.332Z",
+      "lastScraped": "2026-10-16T18:32:53.111Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22480,7 +22519,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-16T16:54:03.410Z",
+      "lastScraped": "2026-10-16T18:32:53.937Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22537,6 +22576,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792175583579",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Cientistas pedem órgão internacional para supervisionar sistemas de IA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Cientistas pedem órgão internacional para supervisionar sistemas de IA: o que muda para usuários e empresas?",
+      "postId": "rss-hash_72f71ab1",
+      "timestamp": "2026-10-16T18:32:53.949Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 65.3h (+8), Sem postagem há 65.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792169665445",
       "feedName": "G1 - Economia",

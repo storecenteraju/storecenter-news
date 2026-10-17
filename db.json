@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_37636bcb",
+      "views": 0,
+      "date": "2026-10-17T00:29:08.277Z",
+      "title": "Câmara aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes: o que muda para os próximos jogos?",
+      "subtitle": "Economia Lula perdoa dívidas dos MEIs e anuncia pé-de-meia para universitários A Câmara dos Deputados aprovou nesta quarta-feira (14) projeto de lei que amplia o limite de faturamento para enquadramento de Microempreendedor Individual (MEI) e.",
+      "slug": "camara-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Lula perdoa dívidas dos MEIs e anuncia pé-de-meia para universitários A Câmara dos Deputados aprovou nesta quarta-feira (14) projeto de lei que amplia o limite de faturamento para enquadramento de Microempreendedor Individual (MEI) e também perdoa dívidas de inadimplentes da categoria. O placar foi de 461 deputados favoráveis e quatro contra.\n\nO que já foi informado\n\nAmbas as mudanças foram enviadas pelo governo Lula, com o perdão das dívidas do MEI sendo a última medida anunciada pela campanha de Lula nesta semana como tentativa de reaproximação com o grupo a poucos dias do 2º turno. Agora, o texto segue para análise do Senado Federal. O projeto amplia o enquadramento no MEI para os empreendedores com faturamento anual de R$ 110 mil em 2027 e de R$ 140 mil a partir de 2028, ante os R$ 80 mil atuais. \"Esse MEI hoje às vezes dispensa um contrato para não extrapolar a faixa do MEI\", disse o relator, deputado Rubens Pereira Jr. (PT-MA). O projeto também amplia o número de funcionários que podem ser contratados pelos microempreendedores individuais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Câmara aprova projeto que amplia limite do MEI e perdoa Store Center",
+      "seoDescription": "Economia Lula perdoa dívidas dos MEIs e anuncia pé-de-meia para universitários A Câmara dos Deputados aprovou nesta quarta-feira (14)",
+      "keyword": "Câmara aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes Fonte 2 Regra de transição e dois dias de folga: entenda como ficou a proposta que acaba com a escala 6x1",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/14/camara-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/14/camara-aprova-projeto-que-amplia-limite-do-mei-e-perdoa-dividas-de-inadimplentes.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/10/15/regra-de-transicao-e-dois-dias-de-folga-entenda-como-ficou-a-proposta-que-acaba-com-a-escala-6x1.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Câmara aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_7dd08570",
       "views": 0,
       "date": "2026-10-16T22:12:53.317Z",
@@ -22580,7 +22621,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-16T22:12:51.967Z",
+      "lastScraped": "2026-10-17T00:29:06.708Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22588,7 +22629,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-16T22:12:52.467Z",
+      "lastScraped": "2026-10-17T00:29:07.305Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22601,7 +22642,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-16T22:12:53.300Z",
+      "lastScraped": "2026-10-17T00:29:08.264Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22658,6 +22699,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792196952092",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Câmara aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Câmara aprova projeto que amplia limite do MEI e perdoa dívidas de inadimplentes: o que muda para os próximos jogos?",
+      "postId": "rss-hash_37636bcb",
+      "timestamp": "2026-10-17T00:29:08.278Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.8h (+8), Sem postagem há 25.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792188824780",
       "feedName": "G1 - Economia",

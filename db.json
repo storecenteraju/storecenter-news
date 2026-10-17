@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_b001d80",
+      "views": 0,
+      "date": "2026-10-17T07:33:02.121Z",
+      "title": "'Superinteligência'? Por que Trump insiste em tentar mudar o termo 'IA', usado há 70: por que esse movimento importa?",
+      "subtitle": "Eric Lee O atual hiperfoco de Donald Trump é... O presidente dos Estados Unidos tem insistido que quer mudar o nome da tecnologia para \"superinteligência (SI)\".",
+      "slug": "superinteligencia-por-que-trump-insiste-em-tentar-mudar-o-termo-ia-usado-ha-70-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEric Lee O atual hiperfoco de Donald Trump é... O presidente dos Estados Unidos tem insistido que quer mudar o nome da tecnologia para \"superinteligência (SI)\".\n\nO que já foi informado\n\nEm seu discurso na Assembleia Geral da ONU, no mês passado, Trump afirmou que \"o nome inteligência artificial faz soar como se ela fosse falsa\". Disse ainda que \"de agora em diante, todos os documentos dos EUA e, espero, de todo o mundo, vão utilizar o nome Superinteligência\". Antes de decidir por \"Superinteligência\", Trump chegou a abrir uma enquete em sua rede social, a Truth Social, com as opções \"Inteligência Superior (IS)\", \"Inteligência Extrema (IE)\" e \"Inteligência Suprema (IS)\", traduzidas para o português. Dois dias depois, ele fez uma nova enquete, desta vez com \"Superinteligência\" e \"Inteligência Superior\". Em nenhuma das postagens, ele explicou como a alteração seria feita ou se o mercado de tecnologia concordava com a mudança. E tem mais: em seguida, Trump causou polêmica ao afirmar que passaria a tratar como \"inimigo\" quem usasse o termo \"inteligência artificial\" em vez de \"Superinteligência\".\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "'Superinteligência'? Por que Trump insiste em tentar Store Center",
+      "seoDescription": "Eric Lee O atual hiperfoco de Donald Trump é... O presidente dos Estados Unidos tem insistido que quer mudar o nome da tecnologia para \"superinteligên",
+      "keyword": "'Superinteligência'? Por que Trump insiste em tentar mudar o termo 'IA', usado há 70 anos Fonte 2 Deepfakes estão cada vez mais difíceis de detectar, alertam especialistas da OpenAI e Meta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/17/superinteligencia-por-que-trump-insiste-em-tentar-mudar-o-termo-ia-usado-ha-70-anos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/17/superinteligencia-por-que-trump-insiste-em-tentar-mudar-o-termo-ia-usado-ha-70-anos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/15/deepfakes-estao-cada-vez-mais-dificeis-de-detectar-alertam-especialistas-da-openai-e-meta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "'Superinteligência'? Por que Trump insiste em tentar mudar o termo 'IA', usado há 70 anos",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_33ad910d",
       "views": 0,
       "date": "2026-10-17T04:52:05.616Z",
@@ -22662,7 +22703,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-17T04:52:04.013Z",
+      "lastScraped": "2026-10-17T07:32:59.995Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22670,7 +22711,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-17T04:52:04.594Z",
+      "lastScraped": "2026-10-17T07:33:01.017Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22683,7 +22724,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-17T04:52:05.601Z",
+      "lastScraped": "2026-10-17T07:33:02.111Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22740,6 +22781,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792222410256",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "'Superinteligência'? Por que Trump insiste em tentar mudar o termo 'IA', usado há 70 anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "'Superinteligência'? Por que Trump insiste em tentar mudar o termo 'IA', usado há 70: por que esse movimento importa?",
+      "postId": "rss-hash_b001d80",
+      "timestamp": "2026-10-17T07:33:02.121Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.5h (+8), Sem postagem há 11.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792212786800",
       "feedName": "G1 - Economia",

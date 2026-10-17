@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5238faed",
+      "views": 0,
+      "date": "2026-10-17T15:53:50.699Z",
+      "title": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG bate recorde em leilão no Japão: o que está em jogo no mercado?",
+      "subtitle": "Um café produzido em Minas Gerais bateu essa marca: a saca de 60 kg foi vendida por US$ 26.456, o equivalente a R$ 134.581,67, durante o SCAJ 2026 — World Specialty Coffee Conference and Exhibition, evento organizado pela Associação de Cafés Especiais do.",
+      "slug": "voce-pagaria-r-2-000-por-um-quilo-de-cafe-grao-de-mg-bate-recorde-em-leilao-no-japao-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nUm café produzido em Minas Gerais bateu essa marca: a saca de 60 kg foi vendida por US$ 26.456, o equivalente a R$ 134.581,67, durante o SCAJ 2026 — World Specialty Coffee Conference and Exhibition, evento organizado pela Associação de Cafés Especiais do Japão, em Tóquio. O valor foi o maior já alcançado por um café brasileiro em leilões da Alliance for Coffee Excellence (ACE).\n\nO que já foi informado\n\nA Alliance for Coffee Excellence reúne produtores reconhecidos como lendas do setor por cultivarem cafés de qualidade excepcional e acumularem diversos prêmios do Cup of Excellence, o \"Oscar\" do setor. Apenas seis países fazem parte: Brasil, Costa Rica, El Salvador, Honduras, Guatemala e Nicarágua. A Fazenda Santuário Sul, em Carmo de Minas, é considerada uma referência brasileira na produção de cafés especiais e já foi premiada no \"Oscar\" do setor. A compra foi feita pela empresa japonesa Snow Beans Coffee durante o leilão na sexta-feira (16). Seu café tradicional mudou?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG Store Center",
+      "seoDescription": "Um café produzido em Minas Gerais bateu essa marca: a saca de 60 kg foi vendida por US$ 26.456, o equivalente a R$ 134.581,67, durante o SCAJ 2026 — W",
+      "keyword": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG bate recorde em leilão no Japão Fonte 2 Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango até 20% mais barato",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/17/voce-pagaria-r-2000-por-um-quilo-de-cafe-grao-de-mg-bate-recorde-em-leilao-no-japao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/17/voce-pagaria-r-2000-por-um-quilo-de-cafe-grao-de-mg-bate-recorde-em-leilao-no-japao.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/17/depois-dos-carros-a-carne-como-a-china-avanca-sobre-clientes-do-brasil-com-frango-ate-20percent-mais-barato.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG bate recorde em leilão no Japão",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_10c4e339",
       "views": 0,
       "date": "2026-10-17T13:41:52.153Z",
@@ -22826,7 +22867,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-17T13:41:50.689Z",
+      "lastScraped": "2026-10-17T15:53:48.874Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22834,7 +22875,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-17T13:41:51.045Z",
+      "lastScraped": "2026-10-17T15:53:49.736Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22847,7 +22888,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-17T13:41:52.141Z",
+      "lastScraped": "2026-10-17T15:53:50.690Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -22904,6 +22945,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792252485056",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG bate recorde em leilão no Japão",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Você pagaria R$ 2.000 por um quilo de café? Grão de MG bate recorde em leilão no Japão: o que está em jogo no mercado?",
+      "postId": "rss-hash_5238faed",
+      "timestamp": "2026-10-17T15:53:50.700Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.4h (+8), Sem postagem há 6.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792244608309",
       "feedName": "G1 - Economia",

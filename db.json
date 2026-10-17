@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_343817a0",
+      "views": 0,
+      "date": "2026-10-17T21:45:48.749Z",
+      "title": "México vai exigir que plataformas digitais protejam menores de conteúdos: o que muda para usuários e empresas?",
+      "subtitle": "Economia Agora no g1 A presidente do México, Claudia Sheinbaum, anunciou nesta quarta-feira (14) que assinará um decreto para exigir que plataformas digitais, incluindo redes sociais e serviços de streaming, protejam crianças e adolescentes de.",
+      "slug": "mexico-vai-exigir-que-plataformas-digitais-protejam-menores-de-conteudos-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 A presidente do México, Claudia Sheinbaum, anunciou nesta quarta-feira (14) que assinará um decreto para exigir que plataformas digitais, incluindo redes sociais e serviços de streaming, protejam crianças e adolescentes de conteúdos violentos, sexuais e outros materiais considerados prejudiciais. As empresas terão um mês para cumprir as novas exigências, segundo Luisa María Alcalde, integrante do governo mexicano.\n\nO que já foi informado\n\nSheinbaum afirmou que, caso as plataformas não cumpram as regras, o governo apoiará um projeto de lei para estabelecer punições. A medida amplia a pressão sobre as grandes empresas de tecnologia no México, a segunda maior economia da América Latina. Segundo autoridades mexicanas, representantes de empresas como Meta, Microsoft, Apple, TikTok, Google, X e Huawei já participaram de reuniões com o governo para discutir o assunto. O que o decreto exige das plataformas digitais Retirar imediatamente contas e conteúdos que promovam ou gerem violência. Verificar a idade dos usuários e classificar conteúdos por faixa etária. Oferecer ferramentas de supervisão parental.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "México vai exigir que plataformas digitais protejam Store Center",
+      "seoDescription": "Economia Agora no g1 A presidente do México, Claudia Sheinbaum, anunciou nesta quarta-feira (14) que assinará um decreto para exigir",
+      "keyword": "México vai exigir que plataformas digitais protejam menores de conteúdos violentos e sexuais Fonte 2 Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/14/mexico-plataformas-conteudos.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/14/mexico-plataformas-conteudos.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/apple-homeview.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "México vai exigir que plataformas digitais protejam menores de conteúdos violentos e sexuais",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_5cb4a7d1",
       "views": 0,
       "date": "2026-10-17T19:34:08.787Z",
@@ -22949,7 +22990,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-17T19:34:07.251Z",
+      "lastScraped": "2026-10-17T21:45:47.063Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22957,7 +22998,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-17T19:34:07.832Z",
+      "lastScraped": "2026-10-17T21:45:47.793Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -22970,7 +23011,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-17T19:34:08.775Z",
+      "lastScraped": "2026-10-17T21:45:48.737Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23027,6 +23068,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792273560206",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "México vai exigir que plataformas digitais protejam menores de conteúdos violentos e sexuais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "México vai exigir que plataformas digitais protejam menores de conteúdos: o que muda para usuários e empresas?",
+      "postId": "rss-hash_343817a0",
+      "timestamp": "2026-10-17T21:45:48.750Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.8h (+8), Sem postagem há 25.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792265696570",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_8d49423",
+      "views": 0,
+      "date": "2026-10-18T13:58:32.459Z",
+      "title": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin' Fonte 2 A eleição do",
+      "subtitle": "E acredito que o bitcoin possa ser uma delas.",
+      "slug": "o-que-aconteceu-com-o-experimento-de-bukele-para-transformar-el-salvador-no-pais-do-bitcoin-fonte-2-a-eleicao-do",
+      "content": "O que aconteceu\n\nE acredito que o bitcoin possa ser uma delas. \" Foi o que disse o presidente Nayib Bukele em uma mensagem gravada e exibida durante a conferência Bitcoin 2021, realizada em março daquele ano, em Miami, na Flórida, nos Estados Unidos, diante de um público entusiasmado com a criptomoeda Bitcoin.\n\nO que já foi informado\n\nNa ocasião, Bukele anunciou que enviaria à Assembleia Legislativa um projeto de lei para fazer de El Salvador o primeiro país do mundo a adotar o bitcoin. O anúncio foi recebido com uma salva de palmas pelo público, que via um antigo ideal prestes a se concretizar — e em setembro daquele ano, o país adotou o Bitcoin como moeda de curso legal no país (ao lado do dólar americano). Agora no g1 Cinco anos depois, o dólar voltou a ser a única moeda oficial de El Salvador, a aceitação do bitcoin passou a ser facultativa e a promessa de construir uma cidade futurista, abastecida pela energia geotérmica de um vulcão e dedicada à mineração da criptomoeda, nunca saiu do papel.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que aconteceu com o experimento de Bukele para Store Center",
+      "seoDescription": "E acredito que o bitcoin possa ser uma delas.",
+      "keyword": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin' Fonte 2 A eleição do churrasco: por que candidatos nos EUA estão disputando quem gosta mais de carne?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/18/o-que-aconteceu-com-o-experimento-de-bukele-para-transformar-el-salvador-no-pais-do-bitcoin.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/18/o-que-aconteceu-com-o-experimento-de-bukele-para-transformar-el-salvador-no-pais-do-bitcoin.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/18/a-eleicao-do-churrasco-por-que-candidatos-nos-eua-estao-disputando-quem-gosta-mais-de-carne.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin'",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_3f197384",
       "views": 0,
       "date": "2026-10-18T12:12:03.784Z",
@@ -23194,7 +23235,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-18T12:12:02.024Z",
+      "lastScraped": "2026-10-18T13:58:31.110Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23202,7 +23243,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-18T12:12:02.720Z",
+      "lastScraped": "2026-10-18T13:58:31.443Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23215,7 +23256,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-18T12:12:03.768Z",
+      "lastScraped": "2026-10-18T13:58:32.439Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23272,6 +23313,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792331957854",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que aconteceu com o experimento de Bukele para transformar El Salvador no 'país do bitcoin' Fonte 2 A eleição do",
+      "postId": "rss-hash_8d49423",
+      "timestamp": "2026-10-18T13:58:32.459Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 20",
+      "discardedCategories": [
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792325575865",
       "feedName": "G1 - Economia",

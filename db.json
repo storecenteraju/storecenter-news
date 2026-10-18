@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3bd96ac0",
+      "views": 0,
+      "date": "2026-10-18T19:30:24.711Z",
+      "title": "Lula diz que para se fazer uma política pública é difícil, mas, para destruir: por que isso importa para a economia?",
+      "subtitle": "Economia Lula diz que para fazer uma política pública é 'difícil', mas, para destruir, basta 'um pa O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta quarta-feira (14) que, na política, \"tem maluco pra tudo\" e que, para elaborar um.",
+      "slug": "lula-diz-que-para-se-fazer-uma-politica-publica-e-dificil-mas-para-destruir-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Lula diz que para fazer uma política pública é 'difícil', mas, para destruir, basta 'um pa O presidente Luiz Inácio Lula da Silva (PT) afirmou nesta quarta-feira (14) que, na política, \"tem maluco pra tudo\" e que, para elaborar um programa em uma gestão, é \"difícil\" porque demanda participação de vários setores, mas que, para \"destruir\" uma política pública, basta \"um passo\". O petista deu a declaração a 11 dias do segundo turno da eleição presidencial, no qual concorre contra o candidato do PL, Flávio Bolsonaro (PL).\n\nO que já foi informado\n\nEle discursou durante a cerimônia de regulamentação do Marco Legal dos Jogos Eletrônicos no Palácio do Planalto. A campanha de Lula tem afirmado que, se eleito, o filho de Jair Bolsonaro vai acabar com programas sociais criados em governos petistas, como o Pé-de-Meia; o Minha Casa, Minha Vida; e o Farmácia Popular – o que Flávio nega. Ao discursar no evento no Planalto nesta quarta, Lula disse aos jovens presentes que eles precisam se organizar para evitar a perda de conquistas sociais. \"Se preparem, porque fazer é difícil, para destruir, é apenas um passo. É um passo.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula diz que para se fazer uma política pública é Store Center",
+      "seoDescription": "Economia Lula diz que para fazer uma política pública é 'difícil', mas, para destruir, basta 'um pa O presidente Luiz Inácio Lula da",
+      "keyword": "Lula diz que para se fazer uma política pública é difícil, mas, para destruir, basta um passo: 'Tem maluco pra tudo' Fonte 2 Senado deve votar nesta quarta PEC que acaba com a escala 6x1",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/14/lula-diz-que-na-politica-tem-maluco-pra-tudo-e-que-para-fazer-um-programa-e-dificil-mas-para-destruir-e-um-passo.ghtml",
+      "sourceName": "G1 - Política + G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/14/lula-diz-que-na-politica-tem-maluco-pra-tudo-e-que-para-fazer-um-programa-e-dificil-mas-para-destruir-e-um-passo.ghtml",
+        "https://g1.globo.com/politica/noticia/2026/10/14/senado-deve-votar-nesta-quarta-pec-que-acaba-com-a-escala-6x1.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política",
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Lula diz que para se fazer uma política pública é difícil, mas, para destruir, basta um passo: 'Tem maluco pra tudo'",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_768a990f",
       "views": 0,
       "date": "2026-10-18T17:42:05.363Z",
@@ -23317,7 +23358,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-18T17:42:04.020Z",
+      "lastScraped": "2026-10-18T19:30:22.926Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23325,7 +23366,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-18T17:42:04.537Z",
+      "lastScraped": "2026-10-18T19:30:23.604Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23338,7 +23379,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-18T17:42:05.344Z",
+      "lastScraped": "2026-10-18T19:30:24.697Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23395,6 +23436,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792351856793",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula diz que para se fazer uma política pública é difícil, mas, para destruir, basta um passo: 'Tem maluco pra tudo'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula diz que para se fazer uma política pública é difícil, mas, para destruir: por que isso importa para a economia?",
+      "postId": "rss-hash_3bd96ac0",
+      "timestamp": "2026-10-18T19:30:24.712Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 25.8h (+8), Sem postagem há 25.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792345358003",
       "feedName": "G1 - Economia",

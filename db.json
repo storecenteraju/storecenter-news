@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_281cefd7",
+      "views": 0,
+      "date": "2026-10-18T00:03:08.459Z",
+      "title": "Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango: o que está em jogo no mercado?",
+      "subtitle": "Economia Com preços mais baixos e investimentos em tecnologia, empresas chinesas avançam sobre mercados tradicionalmente abastecidos por países como o Brasil.",
+      "slug": "depois-dos-carros-a-carne-como-a-china-avanca-sobre-clientes-do-brasil-com-frango-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Com preços mais baixos e investimentos em tecnologia, empresas chinesas avançam sobre mercados tradicionalmente abastecidos por países como o Brasil. O movimento é resultado de uma mudança no consumo interno e de uma estratégia do governo chinês para ampliar a segurança alimentar.\n\nO que já foi informado\n\nNos últimos anos, o país incentivou a expansão da produção agropecuária, mas a demanda doméstica perdeu força, criando um excesso de oferta. Dados alfandegários mostrados pela agência mostram agora que a China exportou US$ 2,6 bilhões em produtos de frango em 2025, quase o dobro do valor registrado em 2020. No ano passado, o país também se tornou exportador líquido de carne de frango, ou seja, passou a exportar mais do que importar o produto. China produz mais, mas consumo mudou Durante décadas, a carne suína foi a principal proteína da dieta chinesa. Houve uma redução do consumo de porco, especialmente entre moradores de áreas urbanas, que passaram a dar mais espaço a outras opções, como o frango. O consumo per capita de carne suína caiu 13% desde o pico registrado em 2023, segundo dados oficiais e informações da imprensa estatal chinesa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Depois dos carros, a carne: como a China avança sobre Store Center",
+      "seoDescription": "Economia Com preços mais baixos e investimentos em tecnologia, empresas chinesas avançam sobre mercados tradicionalmente abastecidos",
+      "keyword": "Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango até 20% mais barato Fonte 2 Starlink tem uma 'irmã militar' controlada pelos EUA; entenda o que é a Starshield",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/17/depois-dos-carros-a-carne-como-a-china-avanca-sobre-clientes-do-brasil-com-frango-ate-20percent-mais-barato.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/17/depois-dos-carros-a-carne-como-a-china-avanca-sobre-clientes-do-brasil-com-frango-ate-20percent-mais-barato.ghtml",
+        "https://g1.globo.com/inovacao/noticia/2026/10/17/starlink-tem-uma-irma-militar-controlada-pelos-eua-entenda-o-que-e-a-starshield.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango até 20% mais barato",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_343817a0",
       "views": 0,
       "date": "2026-10-17T21:45:48.749Z",
@@ -22990,7 +23031,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-17T21:45:47.063Z",
+      "lastScraped": "2026-10-18T00:03:06.530Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -22998,7 +23039,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-17T21:45:47.793Z",
+      "lastScraped": "2026-10-18T00:03:07.109Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23011,7 +23052,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-17T21:45:48.737Z",
+      "lastScraped": "2026-10-18T00:03:08.450Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23068,6 +23109,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792281882316",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango até 20% mais barato",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Depois dos carros, a carne: como a China avança sobre clientes do Brasil com frango: o que está em jogo no mercado?",
+      "postId": "rss-hash_281cefd7",
+      "timestamp": "2026-10-18T00:03:08.459Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.2h (+8), Sem postagem há 8.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Política",
+        "Direito",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792273560206",
       "feedName": "G1 - Economia",

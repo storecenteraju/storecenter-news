@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_150cf00f",
+      "views": 0,
+      "date": "2026-10-18T09:44:52.420Z",
+      "title": "Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa: o que muda para usuários e empresas?",
+      "subtitle": "Apple A Apple apresentou nesta terça-feira (13) o HomeView, um novo dispositivo com tela e inteligência artificial para controlar aparelhos conectados dentro de casa.",
+      "slug": "apple-lanca-homeview-dispositivo-com-ia-para-controlar-aparelhos-da-casa-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nApple A Apple apresentou nesta terça-feira (13) o HomeView, um novo dispositivo com tela e inteligência artificial para controlar aparelhos conectados dentro de casa. Com preço a partir de US$ 299 (R$ 1.491,77), o produto usa uma nova versão da Siri e pode ser instalado na parede ou colocado sobre mesas.\n\nO que já foi informado\n\nCom tela de 7 polegadas e reconhecimento facial, o HomeView identifica diferentes usuários e adapta o conteúdo exibido a cada um deles. O aparelho também permite controlar campainhas, termostatos, fechaduras e outros dispositivos conectados. A Apple afirma que o reconhecimento facial permite personalizar a experiência de cada morador da casa. Agora no g1 O HomeView começa a ser vendido em 13 de novembro nos Estados Unidos, Austrália, Canadá, Índia, Nova Zelândia, Reino Unido, Singapura e África do Sul. O Brasil não está entre os mercados anunciados pela Apple nesta primeira fase de lançamento e a empresa não informou se o produto será vendido no país posteriormente. O lançamento do HomeView foi acompanhado de atualizações para o alto-falante inteligente HomePod e para a Apple TV.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Apple lança HomeView, dispositivo com IA para controlar Store Center",
+      "seoDescription": "Apple A Apple apresentou nesta terça-feira (13) o HomeView, um novo dispositivo com tela e inteligência artificial para controlar aparelhos conectados",
+      "keyword": "Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/13/apple-homeview.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/13/apple-homeview.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_27e08aa1",
       "views": 0,
       "date": "2026-10-18T07:48:05.388Z",
@@ -23113,7 +23152,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-18T07:48:04.302Z",
+      "lastScraped": "2026-10-18T09:44:50.425Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23121,7 +23160,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-18T07:48:04.551Z",
+      "lastScraped": "2026-10-18T09:44:51.259Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23134,7 +23173,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-18T07:48:05.374Z",
+      "lastScraped": "2026-10-18T09:44:52.400Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23191,6 +23230,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792316717095",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Apple lança HomeView, dispositivo com IA para controlar aparelhos da casa: o que muda para usuários e empresas?",
+      "postId": "rss-hash_150cf00f",
+      "timestamp": "2026-10-18T09:44:52.421Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 37.7h (+8), Sem postagem há 37.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792309755483",
       "feedName": "G1 - Economia",

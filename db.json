@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_75f8d750",
+      "views": 0,
+      "date": "2026-10-19T16:57:44.764Z",
+      "title": "Governo antecipa calendário do Bolsa Família a seis dias do 2º turno: o que muda para os próximos jogos?",
+      "subtitle": "A parcela deste mês será a primeira com o piso de R$ 691, anunciado pelo governo em 17 de setembro. A antecipação foi anunciada nesta segunda-feira (19), seis dias antes do segundo turno das eleições, marcado para 25 de outubro.",
+      "slug": "governo-antecipa-calendario-do-bolsa-familia-a-seis-dias-do-2-turno-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nA parcela deste mês será a primeira com o piso de R$ 691, anunciado pelo governo em 17 de setembro. A antecipação foi anunciada nesta segunda-feira (19), seis dias antes do segundo turno das eleições, marcado para 25 de outubro.\n\nO que já foi informado\n\nVeja quem vai receber antes. Baixe o app do g1 para ver notícias em tempo real e de graça Segundo o governo federal, a mudança busca reduzir os impactos do super El Niño sobre as famílias mais vulneráveis. A unificação também será adotada em novembro e dezembro, meses em que o fenômeno climático pode intensificar seus efeitos no país. Agora no g1 A decisão foi tomada pelo Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome (MDS), com base em análises sobre o aumento de desastres climáticos e nas previsões para os próximos meses. Como fica o calendário de pagamentos? Mesmo com a medida anunciada pelo governo nesta segunda-feira, os beneficiários com Número de Identificação Social (NIS) terminado em 1 e 2 recebem nas datas já previstas pelo calendário regular.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo antecipa calendário do Bolsa Família a seis Store Center",
+      "seoDescription": "A parcela deste mês será a primeira com o piso de R$ 691, anunciado pelo governo em 17 de setembro. A antecipação foi anunciada nesta segunda-feira (1",
+      "keyword": "Governo antecipa calendário do Bolsa Família a seis dias do 2º turno; veja as datas Fonte 2 Ri Happy pede recuperação extrajudicial para renegociar R$ 827 milhões em dívidas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/19/bolsa-familia-pagamentos-calendario.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/19/bolsa-familia-pagamentos-calendario.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/19/ri-happy-pede-recuperacao-extrajudicial.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Governo antecipa calendário do Bolsa Família a seis dias do 2º turno; veja as datas",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_4a472a9e",
       "views": 0,
       "date": "2026-10-19T14:59:29.836Z",
@@ -23597,7 +23638,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-19T14:59:28.318Z",
+      "lastScraped": "2026-10-19T16:57:43.310Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23605,7 +23646,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-19T14:59:28.849Z",
+      "lastScraped": "2026-10-19T16:57:43.897Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23618,7 +23659,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-19T14:59:29.828Z",
+      "lastScraped": "2026-10-19T16:57:44.753Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23675,6 +23716,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792429088215",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo antecipa calendário do Bolsa Família a seis dias do 2º turno; veja as datas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo antecipa calendário do Bolsa Família a seis dias do 2º turno: o que muda para os próximos jogos?",
+      "postId": "rss-hash_75f8d750",
+      "timestamp": "2026-10-19T16:57:44.764Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.0h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 21",
+      "discardedCategories": [
+        "Cultura",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792422028269",
       "feedName": "G1 - Economia",

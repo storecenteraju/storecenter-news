@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2cd18954",
+      "views": 0,
+      "date": "2026-10-19T00:13:07.274Z",
+      "title": "Rubio diz que Trump terá até 60 dias para reavaliar suspensão de sanções à Rússia: por que esse movimento importa?",
+      "subtitle": "O presidente dos Estados Unidos, Donald Trump, terá até 60 dias para avaliar os impactos econômicos da suspensão de sanções e tarifas relacionadas à Rússia, afirmou neste sábado (17) o secretário de Estado americano, Marco Rubio.",
+      "slug": "rubio-diz-que-trump-tera-ate-60-dias-para-reavaliar-suspensao-de-sancoes-a-russia-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nO presidente dos Estados Unidos, Donald Trump, terá até 60 dias para avaliar os impactos econômicos da suspensão de sanções e tarifas relacionadas à Rússia, afirmou neste sábado (17) o secretário de Estado americano, Marco Rubio. As medidas haviam sido suspensas na véspera, e Trump ainda não anunciou uma decisão definitiva sobre o assunto.\n\nO que já foi informado\n\n“Acho que o presidente quer usar esse período de 60 dias para analisar o que a aplicação de sanções e tarifas significaria para a economia global e até mesmo para a economia dos EUA”, disse Rubio a jornalistas antes de embarcar para uma viagem ao Uzbequistão. Trump assinou na sexta-feira uma ordem executiva que suspendeu sanções e tarifas previstas na chamada Lei Graham. Ele havia sancionado a legislação no mês passado, após pressão de parlamentares que defendem medidas para pressionar Moscou por causa da guerra na Ucrânia. Agora no g1 As medidas incluem tarifas sobre produtos russos e penalidades a países que compram petróleo e gás da Rússia.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Rubio diz que Trump terá até 60 dias para reavaliar Store Center",
+      "seoDescription": "O presidente dos Estados Unidos, Donald Trump, terá até 60 dias para avaliar os impactos econômicos da suspensão de sanções e tarifas relacionadas à R",
+      "keyword": "Rubio diz que Trump terá até 60 dias para reavaliar suspensão de sanções à Rússia",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/mundo/noticia/2026/10/18/rubio-diz-que-trump-tera-ate-60-dias-para-reavaliar-suspensao-de-sancoes-a-russia.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/mundo/noticia/2026/10/18/rubio-diz-que-trump-tera-ate-60-dias-para-reavaliar-suspensao-de-sancoes-a-russia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Rubio diz que Trump terá até 60 dias para reavaliar suspensão de sanções à Rússia",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_5aadc40c",
       "views": 0,
       "date": "2026-10-18T21:54:55.238Z",
@@ -23399,7 +23438,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-18T21:54:53.468Z",
+      "lastScraped": "2026-10-19T00:13:05.896Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23407,7 +23446,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-18T21:54:54.244Z",
+      "lastScraped": "2026-10-19T00:13:06.425Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23420,7 +23459,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-18T21:54:55.230Z",
+      "lastScraped": "2026-10-19T00:13:07.260Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23477,6 +23516,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792368835894",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Rubio diz que Trump terá até 60 dias para reavaliar suspensão de sanções à Rússia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Rubio diz que Trump terá até 60 dias para reavaliar suspensão de sanções à Rússia: por que esse movimento importa?",
+      "postId": "rss-hash_2cd18954",
+      "timestamp": "2026-10-19T00:13:07.275Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 40.7h (+8), Sem postagem há 40.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia",
+        "Política",
+        "Direito"
+      ]
+    },
     {
       "id": "1792360499390",
       "feedName": "G1 - Economia",

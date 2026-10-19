@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6cb6588c",
+      "views": 0,
+      "date": "2026-10-19T10:59:52.755Z",
+      "title": "Após três anos de alta, pedidos de recuperação judicial no agro caem no 2º: por que isso importa para a economia?",
+      "subtitle": "Economia Seu café tradicional mudou? Foi a primeira queda para um segundo trimestre desde 2022, segundo análise da Serasa Experian divulgada nesta segunda-feira (19).",
+      "slug": "apos-tres-anos-de-alta-pedidos-de-recuperacao-judicial-no-agro-caem-no-2-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Seu café tradicional mudou? Foi a primeira queda para um segundo trimestre desde 2022, segundo análise da Serasa Experian divulgada nesta segunda-feira (19).\n\nO que já foi informado\n\nO indicador, que reúne pedidos feitos por produtores rurais que atuam como pessoa física e jurídica, além de empresas da cadeia produtiva, também mostrou retração em relação aos três primeiros meses de 2026, quando as solicitações de recuperação judicial somaram 474 (-5,5%). Apesar de positiva diante do atual cenário de endividamento dos produtores rurais, a desaceleração deve ser interpretada com cautela, disse o head de agronegócio da Serasa Experian, Marcelo Pimenta. \"A retração nesse segundo trimestre registrada em pelo menos dois dos três perfis analisados pode estar relacionada a um período de maior entrada de receitas para parte dos produtores, à sazonalidade das atividades agropecuárias e ao avanço de renegociações com credores\", explicou Pimenta. \"Por isso, é importante acompanhar se essa redução será sustentada nos próximos trimestres\", acrescentou.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Após três anos de alta, pedidos de recuperação judicial Store Center",
+      "seoDescription": "Economia Seu café tradicional mudou? Foi a primeira queda para um segundo trimestre desde 2022, segundo análise da Serasa Experian di",
+      "keyword": "Após três anos de alta, pedidos de recuperação judicial no agro caem no 2º trimestre Fonte 2 País mais feliz do mundo, Finlândia enfrenta crise, pode cortar serviços públicos e benefícios",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/19/pedidos-de-recuperacao-judicial-no-agro-caem-207percent-no-2o-trimestre.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/19/pedidos-de-recuperacao-judicial-no-agro-caem-207percent-no-2o-trimestre.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/19/pais-mais-feliz-do-mundo-finlandia-enfrenta-crise-pode-cortar-servicos-publicos-e-beneficios.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Após três anos de alta, pedidos de recuperação judicial no agro caem no 2º trimestre",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_64955c9f",
       "views": 0,
       "date": "2026-10-19T08:31:41.271Z",
@@ -23517,7 +23558,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-19T08:31:39.775Z",
+      "lastScraped": "2026-10-19T10:59:51.673Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23525,7 +23566,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-19T08:31:40.133Z",
+      "lastScraped": "2026-10-19T10:59:51.918Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23538,7 +23579,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-19T08:31:41.257Z",
+      "lastScraped": "2026-10-19T10:59:52.741Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23595,6 +23636,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792407638395",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Após três anos de alta, pedidos de recuperação judicial no agro caem no 2º trimestre",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern Brazilian agriculture technology farm field drones tractors sensors rural automation agribusiness, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Após três anos de alta, pedidos de recuperação judicial no agro caem no 2º: por que isso importa para a economia?",
+      "postId": "rss-hash_6cb6588c",
+      "timestamp": "2026-10-19T10:59:52.755Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.3h (+8), Sem postagem há 17.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": []
+    },
     {
       "id": "1792398781800",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6ee9b3d8",
+      "views": 0,
+      "date": "2026-10-20T08:13:03.525Z",
+      "title": "Jeep Compass 2027 ganha versões híbridas, mas ainda custa e consome mais que rivais: o que está em jogo no mercado?",
+      "subtitle": "Stellantis A Jeep anunciou nesta segunda-feira (19) as versões híbridas leves do Compass na linha 2027.",
+      "slug": "jeep-compass-2027-ganha-versoes-hibridas-mas-ainda-custa-e-consome-mais-que-rivais-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nStellantis A Jeep anunciou nesta segunda-feira (19) as versões híbridas leves do Compass na linha 2027. A novidade, porém, não muda uma realidade recente do SUV em relação aos concorrentes chineses: o modelo continua mais caro e consome mais combustível.\n\nO que já foi informado\n\nA nova motorização MHEV de 48 volts chega a duas configurações: Longitude Night Eagle, por R$ 206.990, e Série S, por R$ 233.990. (compare todas as versões mais abaixo) Segundo a Jeep, o sistema híbrido pode reduzir o consumo de combustível em até 11%. A tecnologia trabalha em conjunto com o motor TurboFlex, que entrega 176 cavalos de potência. O câmbio é automático de seis marchas. A motorização MHEV, sigla em inglês para híbrido-leve, utiliza um sistema elétrico de 48 volts para auxiliar o motor a combustão. Um motor elétrico entra no lugar do motor de partida.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Jeep Compass 2027 ganha versões híbridas, mas ainda Store Center",
+      "seoDescription": "Stellantis A Jeep anunciou nesta segunda-feira (19) as versões híbridas leves do Compass na linha 2027.",
+      "keyword": "Jeep Compass 2027 ganha versões híbridas, mas ainda custa e consome mais que rivais chineses Fonte 2 Doença de Newcastle: mais de 130 granjas são monitoradas após confirmação de foco em SC",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/20/jeep-compass-2027.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/20/jeep-compass-2027.ghtml",
+        "https://g1.globo.com/sc/santa-catarina/noticia/2026/10/20/doenca-newcastle-130-granjas-monitoradas-confirmacao-foco-sc.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Jeep Compass 2027 ganha versões híbridas, mas ainda custa e consome mais que rivais chineses",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_64a19c7e",
       "views": 0,
       "date": "2026-10-20T05:09:06.487Z",
@@ -23879,7 +23920,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T05:09:04.951Z",
+      "lastScraped": "2026-10-20T08:13:02.224Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23887,7 +23928,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T05:09:05.551Z",
+      "lastScraped": "2026-10-20T08:13:02.531Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23900,7 +23941,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T05:09:06.475Z",
+      "lastScraped": "2026-10-20T08:13:03.515Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23957,6 +23998,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792484055304",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Jeep Compass 2027 ganha versões híbridas, mas ainda custa e consome mais que rivais chineses",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Jeep Compass 2027 ganha versões híbridas, mas ainda custa e consome mais que rivais: o que está em jogo no mercado?",
+      "postId": "rss-hash_6ee9b3d8",
+      "timestamp": "2026-10-20T08:13:03.526Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.1h (+8), Sem postagem há 9.1h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 11",
+      "discardedCategories": [
+        "Cultura"
+      ]
+    },
     {
       "id": "1792473023131",
       "feedName": "G1 - Economia",

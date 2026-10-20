@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_47a534f5",
+      "views": 0,
+      "date": "2026-10-20T20:44:52.523Z",
+      "title": "VW faz recall de 73 mil carros elétricos por risco de incêndio Fonte 2 IBGE terá: o que está em jogo no mercado?",
+      "subtitle": "Economia Agora no g1 Defeito está nas baterias de alta voltagem. Atravessando crise, empresa tem a terceira chamada de produtos às fábricas deste ano.",
+      "slug": "vw-faz-recall-de-73-mil-carros-eletricos-por-risco-de-incendio-fonte-2-ibge-tera-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 Defeito está nas baterias de alta voltagem. Atravessando crise, empresa tem a terceira chamada de produtos às fábricas deste ano.\n\nO que já foi informado\n\nA Volkswagen (VW) convocou um recall de quase 73 mil veículos elétricos devido a baterias defeituosas, segundo dados publicados nesta terça-feira (20/10) pela Autoridade Federal de Transporte Motorizado da Alemanha (KBA). Cerca de 10 mil veículos, em sua maioria da linha ID da Volkswagen, são afetados apenas na Alemanha. Outros recalls já estão em andamento no Reino Unido e nos Estados Unidos. No mercado americano, mais de 22 mil unidades do modelo ID. 4 são afetadas, segundo autoridades dos EUA. A preparação do recall alemão já havia sido divulgada na semana passada, após verificações internas de qualidade identificarem que determinadas células de baterias de alta voltagem em veículos da família ID não atendem aos requisitos de qualidade.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "VW faz recall de 73 mil carros elétricos por risco de Store Center",
+      "seoDescription": "Economia Agora no g1 Defeito está nas baterias de alta voltagem. Atravessando crise, empresa tem a terceira chamada de produtos às fá",
+      "keyword": "VW faz recall de 73 mil carros elétricos por risco de incêndio Fonte 2 IBGE terá seleção com 325 vagas temporárias; veja o que se sabe",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/20/vw-faz-recall-de-73-mil-carros-eletricos-por-risco-de-incendio.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/20/vw-faz-recall-de-73-mil-carros-eletricos-por-risco-de-incendio.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/10/20/ibge-selecao-vagas-concurso.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "VW faz recall de 73 mil carros elétricos por risco de incêndio",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_2765f239",
       "views": 0,
       "date": "2026-10-20T18:50:32.540Z",
@@ -24117,7 +24158,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T18:50:30.688Z",
+      "lastScraped": "2026-10-20T20:44:51.056Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24125,7 +24166,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T18:50:31.374Z",
+      "lastScraped": "2026-10-20T20:44:51.417Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24138,7 +24179,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T18:50:32.531Z",
+      "lastScraped": "2026-10-20T20:44:52.507Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24195,6 +24236,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792529169732",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "VW faz recall de 73 mil carros elétricos por risco de incêndio",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "VW faz recall de 73 mil carros elétricos por risco de incêndio Fonte 2 IBGE terá: o que está em jogo no mercado?",
+      "postId": "rss-hash_47a534f5",
+      "timestamp": "2026-10-20T20:44:52.523Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Base neutra (0). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 23",
+      "discardedCategories": []
+    },
     {
       "id": "1792522262489",
       "feedName": "G1 - Economia",

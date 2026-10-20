@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2765f239",
+      "views": 0,
+      "date": "2026-10-20T18:50:32.540Z",
+      "title": "Receita devolve valor recorde de R$ 41 bilhões em restituições do IR 2026 Fonte: por que isso importa para a economia?",
+      "subtitle": "Economia Alguns contribuintes que caíram na malha fina vão receber carta da Receita Federal A Receita Federal restituiu mais de R$ 41 bilhões a 35,9 milhões de contribuintes que declararam o Imposto de Renda de 2026, segundo dados divulgados.",
+      "slug": "receita-devolve-valor-recorde-de-r-41-bilhoes-em-restituicoes-do-ir-2026-fonte-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Alguns contribuintes que caíram na malha fina vão receber carta da Receita Federal A Receita Federal restituiu mais de R$ 41 bilhões a 35,9 milhões de contribuintes que declararam o Imposto de Renda de 2026, segundo dados divulgados pela instituição nesta terça-feira (20). De acordo com a Receita, o valor restituído foi recorde, e cerca de 80% do total foi devolvido em até um mês após o fim do prazo de entrega da declaração.\n\nO que já foi informado\n\nO quarto e último lote do calendário regular de restituição do IRPF 2026 foi pago em 31 de agosto e contemplou 521.935 contribuintes, em um total de R$ 1,24 bilhão. Após essa etapa, os pagamentos passam a ser feitos por meio de lotes residuais mensais. Além das restituições tradicionais, o Imposto de Renda 2026 trouxe como novidade o cashback, que devolveu R$ 460 milhões a 3,4 milhões de pessoas que não haviam apresentado declaração no ano anterior, segundo a Receita. Com a conclusão dos pagamentos, a Receita Federal passou a orientar contribuintes que ainda têm valores a receber, mas cujas declarações foram retidas na malha fina por pendências simples. Ao todo, 498.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Receita devolve valor recorde de R$ 41 bilhões em Store Center",
+      "seoDescription": "Economia Alguns contribuintes que caíram na malha fina vão receber carta da Receita Federal A Receita Federal restituiu mais de R$ 41",
+      "keyword": "Receita devolve valor recorde de R$ 41 bilhões em restituições do IR 2026 Fonte 2 A 5 dias do 2º turno, Flávio propõe devolver via PIX parte de gastos com contas e prestações, mas não detalha custos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/20/receita-federal-imposto-de-renda-2026.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/20/receita-federal-imposto-de-renda-2026.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/20/a-5-dias-do-segundo-turno-flavio-propoe-devolver-via-pix-parte-de-gastos-com-contas-e-prestacoes-mas-nao-detalha-proposta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Receita devolve valor recorde de R$ 41 bilhões em restituições do IR 2026",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_e36746d",
       "views": 0,
       "date": "2026-10-20T17:28:55.123Z",
@@ -24076,7 +24117,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T17:28:53.518Z",
+      "lastScraped": "2026-10-20T18:50:30.688Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24084,7 +24125,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T17:28:54.103Z",
+      "lastScraped": "2026-10-20T18:50:31.374Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24097,7 +24138,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T17:28:55.109Z",
+      "lastScraped": "2026-10-20T18:50:32.531Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24154,6 +24195,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792522262489",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Receita devolve valor recorde de R$ 41 bilhões em restituições do IR 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Receita devolve valor recorde de R$ 41 bilhões em restituições do IR 2026 Fonte: por que isso importa para a economia?",
+      "postId": "rss-hash_2765f239",
+      "timestamp": "2026-10-20T18:50:32.540Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.6h (+8), Sem postagem há 10.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": []
+    },
     {
       "id": "1792517393817",
       "feedName": "G1 - Economia",

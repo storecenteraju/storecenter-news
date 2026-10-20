@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_203ac184",
+      "views": 0,
+      "date": "2026-10-20T13:01:47.019Z",
+      "title": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas: o que está em jogo no mercado?",
+      "subtitle": "Como carros elétricos e montadoras chinesas redesenham a indústria automotiva brasileira No início do ano circulou a informação — falsa — de que a Bahia sofria uma invasão chinesa.",
+      "slug": "efeito-byd-como-brasil-virou-laboratorio-de-empresas-chinesas-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nComo carros elétricos e montadoras chinesas redesenham a indústria automotiva brasileira No início do ano circulou a informação — falsa — de que a Bahia sofria uma invasão chinesa. Vídeos compartilhados nas redes sociais mostravam a construção de um complexo de alojamentos que, na retórica da fake news, estaria sendo erguido para receber 10 mil chineses para trabalhar na recém-inaugurada fábrica da BYD.\n\nO que já foi informado\n\nEssa é a montadora chinesa que superou a Tesla de Elon Musk em 2025 e se tornou a maior produtora de veículos elétricos do mundo. Clique aqui e entre no grupo do WhatsApp do g1 Bahia E escolheu Camaçari, na região metropolitana de Salvador, para sediar sua maior fábrica na América Latina. Com parte do projeto ainda em obras, a planta foi inaugurada em outubro de 2025. Em menos de um ano, dela já saíram mais de 100 mil carros montados com kits importados, que chegaram a concessionárias em todo o país e alçaram a marca à lista das mais vendidas. A produção made in Brasil está prevista para começar no fim de 2026. Ainda assim, a unidade já soma 7.618 funcionários diretos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Efeito BYD: como Brasil virou 'laboratório' de empresas Store Center",
+      "seoDescription": "Como carros elétricos e montadoras chinesas redesenham a indústria automotiva brasileira No início do ano circulou a informação — falsa — de que a Bah",
+      "keyword": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/ba/bahia/noticia/2026/10/20/efeito-byd-como-brasil-virou-laboratorio-de-empresas-chinesas.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/ba/bahia/noticia/2026/10/20/efeito-byd-como-brasil-virou-laboratorio-de-empresas-chinesas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_748d0522",
       "views": 0,
       "date": "2026-10-20T10:13:17.977Z",
@@ -23959,7 +23998,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T10:13:15.584Z",
+      "lastScraped": "2026-10-20T13:01:44.299Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23967,7 +24006,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T10:13:16.545Z",
+      "lastScraped": "2026-10-20T13:01:46.189Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23980,7 +24019,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T10:13:17.966Z",
+      "lastScraped": "2026-10-20T13:01:47.001Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24037,6 +24076,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792501399493",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Efeito BYD: como Brasil virou 'laboratório' de empresas chinesas: o que está em jogo no mercado?",
+      "postId": "rss-hash_203ac184",
+      "timestamp": "2026-10-20T13:01:47.020Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 99.0h (+8), Sem postagem há 99.0h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792491236831",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e2e9e90",
+      "views": 0,
+      "date": "2026-10-20T22:41:21.207Z",
+      "title": "TCU recua e aprova contas do BC, tribunal tinha condicionado análise à conclusão: o que muda para os próximos jogos?",
+      "subtitle": "Economia Dias depois de condicionar o julgamento das contas do Banco Central à conclusão de um processo sobre a liquidação do Banco Master, o Tribunal de Contas da União (TCU) voltou atrás nesta terça-feira (20) e aprovou as contas da.",
+      "slug": "tcu-recua-e-aprova-contas-do-bc-tribunal-tinha-condicionado-analise-a-conclusao-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Dias depois de condicionar o julgamento das contas do Banco Central à conclusão de um processo sobre a liquidação do Banco Master, o Tribunal de Contas da União (TCU) voltou atrás nesta terça-feira (20) e aprovou as contas da autoridade monetária referentes a 2025. Na quinta-feira (15), o TCU tinha decidido condicionar o julgamento das contas do BC à conclusão do processo que analisa a atuação da autoridade monetária na liquidação extrajudicial do Banco Master.\n\nO que já foi informado\n\nO TCU entendeu que as conclusões desse processo podem influenciar a análise das contas do BC e, por isso, decidiu aguardar uma decisão definitiva sobre o caso antes de concluir o julgamento das contas. A posição dos ministros seguiu a recomendação do Ministério Público junto ao TCU (MPTCU) e contrariou o entendimento da área técnica do tribunal. Na decisão desta terça, os ministros da Segunda Câmara do TCU determinaram o levantamento da suspensão que impedia a conclusão do julgamento. Com isso, as contas dos responsáveis foram consideradas regulares, com quitação plena, e o processo foi arquivado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem será o próximo adversário — e o que pode decidir a disputa pelo título?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "TCU recua e aprova contas do BC, tribunal tinha Store Center",
+      "seoDescription": "Economia Dias depois de condicionar o julgamento das contas do Banco Central à conclusão de um processo sobre a liquidação do Banco M",
+      "keyword": "TCU recua e aprova contas do BC, tribunal tinha condicionado análise à conclusão da avaliação da liquidação do Banco Master Fonte 2 IBGE terá seleção com 325 vagas temporárias; veja o que se sabe",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/20/tcu-recua-e-aprova-contas-do-bc-tribunal-tinha-condicionado-analise-a-conclusao-da-avaliacao-da-liquidacao-do-banco-master.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/20/tcu-recua-e-aprova-contas-do-bc-tribunal-tinha-condicionado-analise-a-conclusao-da-avaliacao-da-liquidacao-do-banco-master.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/concursos/noticia/2026/10/20/ibge-selecao-vagas-concurso.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "TCU recua e aprova contas do BC, tribunal tinha condicionado análise à conclusão da avaliação da liquidação do Banco Master",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_47a534f5",
       "views": 0,
       "date": "2026-10-20T20:44:52.523Z",
@@ -24158,7 +24199,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T20:44:51.056Z",
+      "lastScraped": "2026-10-20T22:41:19.233Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24166,7 +24207,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T20:44:51.417Z",
+      "lastScraped": "2026-10-20T22:41:19.871Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24179,7 +24220,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T20:44:52.507Z",
+      "lastScraped": "2026-10-20T22:41:21.190Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24236,6 +24277,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792536176184",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "TCU recua e aprova contas do BC, tribunal tinha condicionado análise à conclusão da avaliação da liquidação do Banco Master",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "TCU recua e aprova contas do BC, tribunal tinha condicionado análise à conclusão: o que muda para os próximos jogos?",
+      "postId": "rss-hash_7e2e9e90",
+      "timestamp": "2026-10-20T22:41:21.208Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792529169732",
       "feedName": "G1 - Economia",

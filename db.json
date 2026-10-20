@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_748d0522",
+      "views": 0,
+      "date": "2026-10-20T10:13:17.977Z",
+      "title": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC: como isso afeta a população?",
+      "subtitle": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC. O Ministério da Agricultura (MAPA) registrou um foco da doença de Newcastle (DNC) em uma criação comercial de perus em Nova Itaberaba, no Oeste de Santa Catarina.",
+      "slug": "ministerio-da-agricultura-confirma-foco-da-doenca-de-newcastle-em-granja-de-perus-em-sc-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nMinistério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC. O Ministério da Agricultura (MAPA) registrou um foco da doença de Newcastle (DNC) em uma criação comercial de perus em Nova Itaberaba, no Oeste de Santa Catarina.\n\nO que já foi informado\n\nA informação foi confirmada nesta segunda-feira (19) em coletiva de imprensa pelo ministro André de Paula. A TV Globo apurou em Brasília que a granja foi fechada e tem 6.000 animais. Foram iniciados também trabalhos para eliminar o foco e outros estabelecimentos na região serão analisados. \"O estabelecimento foi interditado pelo Serviço Veterinário Oficial, com suspensão da movimentação de aves. As medidas de controle, contenção e erradicação do foco serão executadas conforme as diretrizes do Plano de Contingência para Influenza Aviária e Doença de Newcastle\", disse o MAPA, em nota. Clique e siga o canal do g1 SC no WhatsApp O ministério esclareceu ainda que, apesar da necessidade de adoção de medidas sanitárias, o consumo de produtos avícolas submetidos à inspeção oficial permanece seguro, sem contraindicações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ministério da Agricultura confirma foco da doença de Store Center",
+      "seoDescription": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC. O Ministério da Agricultura (MAPA) registrou um foco da doenç",
+      "keyword": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/sc/santa-catarina/noticia/2026/10/19/ministerio-da-agricultura-confirma-foco-da-doenca-de-newcastle-em-sc.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/sc/santa-catarina/noticia/2026/10/19/ministerio-da-agricultura-confirma-foco-da-doenca-de-newcastle-em-sc.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_6ee9b3d8",
       "views": 0,
       "date": "2026-10-20T08:13:03.525Z",
@@ -23920,7 +23959,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T08:13:02.224Z",
+      "lastScraped": "2026-10-20T10:13:15.584Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23928,7 +23967,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T08:13:02.531Z",
+      "lastScraped": "2026-10-20T10:13:16.545Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23941,7 +23980,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T08:13:03.515Z",
+      "lastScraped": "2026-10-20T10:13:17.966Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23998,6 +24037,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792491236831",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ministério da Agricultura confirma foco da doença de Newcastle em granja de perus em SC: como isso afeta a população?",
+      "postId": "rss-hash_748d0522",
+      "timestamp": "2026-10-20T10:13:17.977Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 5",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1792484055304",
       "feedName": "G1 - Economia",

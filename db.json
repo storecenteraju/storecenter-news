@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_64a19c7e",
+      "views": 0,
+      "date": "2026-10-20T05:09:06.487Z",
+      "title": "ANPD dá cinco dias para Meta explicar suspensão de contas e remoção de posts: o que muda para usuários e empresas?",
+      "subtitle": "A Agência Nacional de Proteção de Dados (ANPD) deu cinco dias úteis para que a Meta, dona do Instagram, do WhatsApp e do Facebook, esclareça denúncias de possíveis violações aos direitos dos usuários na suspensão de contas, na remoção de publicações e na.",
+      "slug": "anpd-da-cinco-dias-para-meta-explicar-suspensao-de-contas-e-remocao-de-posts-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nA Agência Nacional de Proteção de Dados (ANPD) deu cinco dias úteis para que a Meta, dona do Instagram, do WhatsApp e do Facebook, esclareça denúncias de possíveis violações aos direitos dos usuários na suspensão de contas, na remoção de publicações e na restrição do alcance de conteúdos. Os ofícios foram enviados à Meta nesta segunda-feira (19), após a abertura de um procedimento administrativo na última sexta-feira (16).\n\nO que já foi informado\n\nO processo de fiscalização foi iniciado depois que a agência recebeu denúncias sobre possíveis irregularidades nos critérios adotados pelas plataformas e nos mecanismos disponíveis para contestar decisões. Os relatos com potencial repercussão na legislação eleitoral foram encaminhados ao Tribunal Superior Eleitoral (TSE), responsável por avaliar questões relacionadas à aplicação dessas normas. ( A partir desses relatos, abriu um procedimento administrativo para apurar possíveis irregularidades de caráter geral, sem relação direta com o processo eleitoral. Já as denúncias envolvendo conteúdos e publicações com possível repercussão nas eleições foram encaminhadas ao Tribunal Superior Eleitoral (TSE).\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "ANPD dá cinco dias para Meta explicar suspensão de Store Center",
+      "seoDescription": "A Agência Nacional de Proteção de Dados (ANPD) deu cinco dias úteis para que a Meta, dona do Instagram, do WhatsApp e do Facebook, esclareça denúncias",
+      "keyword": "ANPD dá cinco dias para Meta explicar suspensão de contas e remoção de posts",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/19/anpd-da-cinco-dias-para-meta-explicar-suspensao-de-contas-e-remocao-de-posts.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/19/anpd-da-cinco-dias-para-meta-explicar-suspensao-de-contas-e-remocao-de-posts.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "ANPD dá cinco dias para Meta explicar suspensão de contas e remoção de posts",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_3d71f2b5",
       "views": 0,
       "date": "2026-10-20T01:05:58.989Z",
@@ -23840,7 +23879,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T01:05:57.659Z",
+      "lastScraped": "2026-10-20T05:09:04.951Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23848,7 +23887,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T01:05:58.152Z",
+      "lastScraped": "2026-10-20T05:09:05.551Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23861,7 +23900,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T01:05:58.977Z",
+      "lastScraped": "2026-10-20T05:09:06.475Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23918,6 +23957,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792473023131",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "ANPD dá cinco dias para Meta explicar suspensão de contas e remoção de posts",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "ANPD dá cinco dias para Meta explicar suspensão de contas e remoção de posts: o que muda para usuários e empresas?",
+      "postId": "rss-hash_64a19c7e",
+      "timestamp": "2026-10-20T05:09:06.488Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 14.2h (+8), Sem postagem há 14.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Cultura"
+      ]
+    },
     {
       "id": "1792458386438",
       "feedName": "G1 - Economia",

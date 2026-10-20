@@ -1,6 +1,46 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3d71f2b5",
+      "views": 0,
+      "date": "2026-10-20T01:05:58.989Z",
+      "title": "Justiça encerra recuperação judicial da Americanas: qual pode ser o próximo passo?",
+      "subtitle": "A Americanas anunciou nesta segunda-feira (19) que a Justiça do Rio de Janeiro decretou o fim de sua recuperação judicial, aberta em janeiro de 2023 após a revelação de um esquema bilionário de fraudes contábeis.",
+      "slug": "justica-encerra-recuperacao-judicial-da-americanas-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nA Americanas anunciou nesta segunda-feira (19) que a Justiça do Rio de Janeiro decretou o fim de sua recuperação judicial, aberta em janeiro de 2023 após a revelação de um esquema bilionário de fraudes contábeis. A varejista afirmou ter cumprido integralmente as metas do plano aprovado por 91% dos credores.\n\nO que já foi informado\n\nTambém informou que, no primeiro semestre de 2026, as vendas nas lojas já em funcionamento avançaram 9,3% e os ganhos de eficiência operacional somaram R$ 500 milhões. O encerramento do processo de recuperação judicial atende a um pedido feito pela companhia em março deste ano. A decisão foi tomada pela 4ª Vara Empresarial do Rio de Janeiro após pareceres favoráveis da Administração Judicial e do Ministério Público do Estado do Rio de Janeiro. \"Com a conclusão dessa etapa, a companhia segue comprometida com o crescimento de suas operações, o fortalecimento sustentável do seu modelo de negócio e o desenvolvimento da experiência de seus clientes\", afirmou a Americanas, em fato relevante. A ação da Americanas encerrou o dia em alta de quase 7%, cotada a R$ 5,97.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Justiça encerra recuperação judicial da Americanas Store Center",
+      "seoDescription": "A Americanas anunciou nesta segunda-feira (19) que a Justiça do Rio de Janeiro decretou o fim de sua recuperação judicial, aberta em janeiro de 2023 a",
+      "keyword": "Justiça encerra recuperação judicial da Americanas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/19/justica-do-rj-fim-de-recuperacao-judicial-da-americanas.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/19/justica-do-rj-fim-de-recuperacao-judicial-da-americanas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Justiça encerra recuperação judicial da Americanas",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_6b49cdf9",
       "views": 0,
       "date": "2026-10-19T23:06:23.931Z",
@@ -23800,7 +23840,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-19T23:06:22.850Z",
+      "lastScraped": "2026-10-20T01:05:57.659Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -23808,7 +23848,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-19T23:06:23.097Z",
+      "lastScraped": "2026-10-20T01:05:58.152Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -23821,7 +23861,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-19T23:06:23.914Z",
+      "lastScraped": "2026-10-20T01:05:58.977Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -23878,6 +23918,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792458386438",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Justiça encerra recuperação judicial da Americanas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Justiça encerra recuperação judicial da Americanas: qual pode ser o próximo passo?",
+      "postId": "rss-hash_3d71f2b5",
+      "timestamp": "2026-10-20T01:05:58.990Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 20",
+      "discardedCategories": [
+        "Economia",
+        "Cultura",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792451198154",
       "feedName": "G1 - Economia",

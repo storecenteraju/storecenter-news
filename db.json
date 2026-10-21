@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_44b4ae6f",
+      "views": 0,
+      "date": "2026-10-21T00:37:34.920Z",
+      "title": "Hugo Motta defende diálogo e respeito entre os Poderes para fortalecer instituições: o que pode mudar agora?",
+      "subtitle": "O presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que o fortalecimento das instituições ocorre por meio do diálogo, do respeito às competências de cada Poder e da busca por convergências.",
+      "slug": "hugo-motta-defende-dialogo-e-respeito-entre-os-poderes-para-fortalecer-instituicoes-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que o fortalecimento das instituições ocorre por meio do diálogo, do respeito às competências de cada Poder e da busca por convergências. \"Nada mais importante que recordar que instituições fortes não surgem fortuitamente.\n\nO que já foi informado\n\nConstroem-se com diálogo, com respeito às competências de cada Poder e com a disposição de buscar convergências, mesmo, e sobretudo, quando o debate é difícil\", afirmou. As declarações foram feitas na noite desta terça-feira (20), em Brasília, durante a abertura do 29º Congresso Internacional de Direito Constitucional do Instituto Brasileiro de Ensino, Desenvolvimento e Pesquisa (IDP). Motta destacou que \"uma Constituição se mantém viva quando acompanha as mudanças do país pela via do debate democrático\". \"A Câmara dos Deputados tem ajudado a construir esse caminho se debruçando sobre temas de grande impacto na vida dos brasileiros\", declarou. O presidente da Câmara ressaltou a atuação do Parlamento na discussão de temas relacionados ao desenvolvimento econômico, à proteção social e à segurança pública.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Hugo Motta defende diálogo e respeito entre os Poderes Store Center",
+      "seoDescription": "O presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), afirmou que o fortalecimento das instituições ocorre por meio do diálogo, do respe",
+      "keyword": "Hugo Motta defende diálogo e respeito entre os Poderes para fortalecer instituições",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1312584-hugo-motta-defende-dialogo-e-respeito-entre-os-poderes-para-fortalecer-instituicoes",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1312584-hugo-motta-defende-dialogo-e-respeito-entre-os-poderes-para-fortalecer-instituicoes"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Hugo Motta defende diálogo e respeito entre os Poderes para fortalecer instituições",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_7e2e9e90",
       "views": 0,
       "date": "2026-10-20T22:41:21.207Z",
@@ -24199,7 +24238,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-20T22:41:19.233Z",
+      "lastScraped": "2026-10-21T00:37:33.402Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24207,7 +24246,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-20T22:41:19.871Z",
+      "lastScraped": "2026-10-21T00:37:33.769Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24220,7 +24259,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-20T22:41:21.190Z",
+      "lastScraped": "2026-10-21T00:37:34.902Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24277,6 +24316,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792543132073",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Hugo Motta defende diálogo e respeito entre os Poderes para fortalecer instituições",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Hugo Motta defende diálogo e respeito entre os Poderes para fortalecer instituições: o que pode mudar agora?",
+      "postId": "rss-hash_44b4ae6f",
+      "timestamp": "2026-10-21T00:37:34.921Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 43.5h (+8), Sem postagem há 43.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1792536176184",
       "feedName": "G1 - Economia",

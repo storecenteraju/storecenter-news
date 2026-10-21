@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_34f0c112",
+      "views": 0,
+      "date": "2026-10-21T10:22:29.539Z",
+      "title": "Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado: o que está em jogo no mercado?",
+      "subtitle": "Boeing O Boeing 737 MAX 10, a maior versão da família 737 MAX, recebeu nesta terça-feira (20) a aprovação final da Administração Federal de Aviação dos Estados Unidos (FAA, na sigla em inglês).",
+      "slug": "apos-seis-anos-de-atraso-e-crises-de-seguranca-maior-boeing-737-max-10-e-aprovado-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nBoeing O Boeing 737 MAX 10, a maior versão da família 737 MAX, recebeu nesta terça-feira (20) a aprovação final da Administração Federal de Aviação dos Estados Unidos (FAA, na sigla em inglês). A certificação permite que a fabricante comece a entregar, nos próximos meses, o avião, que tem capacidade para até 230 passageiros.\n\nO que já foi informado\n\nO modelo tem capacidade superior à das outras versões da família: o 737 MAX 9 transporta até 195 passageiros, enquanto o MAX 7 pode levar até 160 pessoas. A Boeing já construiu algumas unidades do MAX 10, que aguardavam a autorização para serem entregues. Segundo a consultoria do setor aéreo IBA, as companhias aéreas encomendaram mais de 1.550 unidades do modelo, que representam 31% dos pedidos ainda pendentes da família 737 da fabricante. Agora no g1 A presidente e diretora-executiva da Boeing Commercial Airplanes, Stephanie Pope, afirmou que as entregas começarão nos próximos meses. Segundo ela, o MAX 10 oferece maior capacidade de passageiros, mais autonomia de voo e maior eficiência econômica por assento em sua categoria. O avião também é importante para os planos de expansão de diversas companhias aéreas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Após seis anos de atraso e crises de segurança, maior Store Center",
+      "seoDescription": "Boeing O Boeing 737 MAX 10, a maior versão da família 737 MAX, recebeu nesta terça-feira (20) a aprovação final da Administração Federal de Aviação do",
+      "keyword": "Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado para voar; conheça Fonte 2 Os maiores salários para 2027: veja ranking de carreiras por setor, para quem quer ou não ser chefe",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/21/apos-seis-anos-de-atraso-e-crises-de-seguranca-maior-boeing-737-max-10-e-aprovado-para-voar-conheca.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/21/apos-seis-anos-de-atraso-e-crises-de-seguranca-maior-boeing-737-max-10-e-aprovado-para-voar-conheca.ghtml",
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/21/os-maiores-salarios-para-2027-veja-ranking-de-carreiras-por-setor-para-quem-quer-ou-nao-ser-chefe.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado para voar; conheça",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_280ddfa2",
       "views": 0,
       "date": "2026-10-21T08:18:05.218Z",
@@ -24320,7 +24361,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-21T08:18:03.213Z",
+      "lastScraped": "2026-10-21T10:22:27.714Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24328,7 +24369,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-21T08:18:04.119Z",
+      "lastScraped": "2026-10-21T10:22:28.529Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24341,7 +24382,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-21T08:18:05.206Z",
+      "lastScraped": "2026-10-21T10:22:29.530Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24398,6 +24439,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792578225805",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado para voar; conheça",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado: o que está em jogo no mercado?",
+      "postId": "rss-hash_34f0c112",
+      "timestamp": "2026-10-21T10:22:29.539Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 15.5h (+8), Sem postagem há 15.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1792570708198",
       "feedName": "G1 - Economia",

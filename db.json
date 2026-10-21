@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_280ddfa2",
+      "views": 0,
+      "date": "2026-10-21T08:18:05.218Z",
+      "title": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde Fonte 2 Após seis anos de?",
+      "subtitle": "Para isso, ele usou citações da Bíblia e também alguns números. A mensagem era dirigida àqueles que o conhecem há muitos anos.",
+      "slug": "por-que-ajuste-fiscal-do-novo-presidente-do-chile-leva-a-crise-com-desemprego-recorde-fonte-2-apos-seis-anos-de",
+      "content": "O que aconteceu\n\nPara isso, ele usou citações da Bíblia e também alguns números. A mensagem era dirigida àqueles que o conhecem há muitos anos.\n\nO que já foi informado\n\nQuiroz desenvolveu toda a sua carreira profissional como empresário no setor privado. \"Não percam a calma, nem se desesperem\", declarou ele em Santiago no início de outubro, após a publicação de uma série de indicadores fracos sobre a economia chilena. Agora no g1 Os investimentos produtivos, privados e públicos, apresentaram crescimento nulo no segundo trimestre deste ano, principalmente devido à queda da construção civil. O desemprego atingiu o nível recorde de 9,6%, o maior em mais de cinco anos. E a demanda interna apresentou crescimento praticamente nulo. O custo de vida no país aumentou em julho para 4,1%, com base nos últimos 12 meses.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que ajuste fiscal do novo presidente do Chile leva Store Center",
+      "seoDescription": "Para isso, ele usou citações da Bíblia e também alguns números. A mensagem era dirigida àqueles que o conhecem há muitos anos.",
+      "keyword": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde Fonte 2 Após seis anos de atraso e crises de segurança, maior Boeing 737 MAX 10 é aprovado para voar; conheça",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/21/por-que-ajuste-fiscal-do-novo-presidente-do-chile-leva-a-crise-com-desemprego-recorde.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/21/por-que-ajuste-fiscal-do-novo-presidente-do-chile-leva-a-crise-com-desemprego-recorde.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/21/apos-seis-anos-de-atraso-e-crises-de-seguranca-maior-boeing-737-max-10-e-aprovado-para-voar-conheca.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_410c3588",
       "views": 0,
       "date": "2026-10-21T05:10:20.194Z",
@@ -24279,7 +24320,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-21T05:10:18.888Z",
+      "lastScraped": "2026-10-21T08:18:03.213Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24287,7 +24328,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-21T05:10:19.355Z",
+      "lastScraped": "2026-10-21T08:18:04.119Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24300,7 +24341,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-21T05:10:20.181Z",
+      "lastScraped": "2026-10-21T08:18:05.206Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24357,6 +24398,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792570708198",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que ajuste fiscal do novo presidente do Chile leva a crise com desemprego recorde Fonte 2 Após seis anos de?",
+      "postId": "rss-hash_280ddfa2",
+      "timestamp": "2026-10-21T08:18:05.219Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.5h (+8), Sem postagem há 13.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1792559426198",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7c5152c1",
+      "views": 0,
+      "date": "2026-10-21T20:44:58.592Z",
+      "title": "Golpe do QR Code: criminosos adulteram códigos para roubar dinheiro: o que muda para os próximos jogos?",
+      "subtitle": "Economia Golpe do QR Code adulterado afeta compras por Pix; veja orientação do Procon A popularização dos pagamentos por QR Code também tem atraído a atenção de criminosos, que usam códigos falsos para desviar dinheiro de consumidores.",
+      "slug": "golpe-do-qr-code-criminosos-adulteram-codigos-para-roubar-dinheiro-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Golpe do QR Code adulterado afeta compras por Pix; veja orientação do Procon A popularização dos pagamentos por QR Code também tem atraído a atenção de criminosos, que usam códigos falsos para desviar dinheiro de consumidores. Conhecido como quishing, é um tipo de golpe digital em que fraudadores adulteram ou criam QR Codes para direcionar pagamentos a contas controladas por criminosos.\n\nO que já foi informado\n\nA fraude pode ocorrer tanto em compras pela internet quanto em estabelecimentos físicos. Em sites de comércio eletrônico, por exemplo, os golpistas podem substituir o código de pagamento sem alterar aparentemente a página ou as informações da compra. O consumidor acredita estar pagando pela mercadoria, mas o dinheiro é enviado a outra pessoa. Outra estratégia utilizada por criminosos é criar páginas falsas que imitam sites de lojas conhecidas. Para evitar o golpe, a Federação Brasileira de Bancos (Febraban) recomenda fazer compras nos sites oficiais, conferir o endereço eletrônico e evitar iniciar transações por links recebidos em mensagens, e-mails ou redes sociais.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuais condições ainda precisam ser cumpridas para a operação avançar — e o que pode mudar depois da conclusão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Golpe do QR Code: criminosos adulteram códigos para Store Center",
+      "seoDescription": "Economia Golpe do QR Code adulterado afeta compras por Pix; veja orientação do Procon A popularização dos pagamentos por QR Code tamb",
+      "keyword": "Golpe do QR Code: criminosos adulteram códigos para roubar dinheiro; veja como se proteger Fonte 2 Smart Sampa: como funciona o sistema de 58 mil câmeras de SP que teve senhas expostas por 11 meses",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/21/golpe-do-qr-code-criminosos-adulteram-codigos-para-roubar-dinheiro-veja-como-se-proteger.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/21/golpe-do-qr-code-criminosos-adulteram-codigos-para-roubar-dinheiro-veja-como-se-proteger.ghtml",
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/21/smart-sampa-como-funciona-o-sistema-de-58-mil-cameras-de-sp-que-teve-senhas-expostas-por-11-meses.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Golpe do QR Code: criminosos adulteram códigos para roubar dinheiro; veja como se proteger",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_e4fe3a8",
       "views": 0,
       "date": "2026-10-21T19:03:17.209Z",
@@ -24526,7 +24567,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-21T19:03:15.856Z",
+      "lastScraped": "2026-10-21T20:44:56.371Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24534,7 +24575,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-21T19:03:16.175Z",
+      "lastScraped": "2026-10-21T20:44:56.993Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24547,7 +24588,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-21T19:03:17.197Z",
+      "lastScraped": "2026-10-21T20:44:58.577Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24604,6 +24645,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792615516929",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Golpe do QR Code: criminosos adulteram códigos para roubar dinheiro; veja como se proteger",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital payment banking app smartphone financial transaction economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Golpe do QR Code: criminosos adulteram códigos para roubar dinheiro: o que muda para os próximos jogos?",
+      "postId": "rss-hash_7c5152c1",
+      "timestamp": "2026-10-21T20:44:58.592Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 27.3h (+8), Sem postagem há 27.3h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Política"
+      ]
+    },
     {
       "id": "1792609466324",
       "feedName": "G1 - Economia",

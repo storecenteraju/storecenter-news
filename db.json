@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6d235949",
+      "views": 0,
+      "date": "2026-10-22T22:46:59.140Z",
+      "title": "Trabalhadora grávida impedida de pausar atendimento para vomitar receberá R$ 30 mil: o que está em jogo no mercado?",
+      "subtitle": "Economia Gravidez, mulher grávida. A decisão, divulgada nesta quarta-feira (21), considerou que a conduta das empresas ultrapassou o controle do uso do banheiro e violou a intimidade e a dignidade da trabalhadora.",
+      "slug": "trabalhadora-gravida-impedida-de-pausar-atendimento-para-vomitar-recebera-r-30-mil-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Gravidez, mulher grávida. A decisão, divulgada nesta quarta-feira (21), considerou que a conduta das empresas ultrapassou o controle do uso do banheiro e violou a intimidade e a dignidade da trabalhadora.\n\nO que já foi informado\n\nA relatora do caso, ministra Margareth Costa, afirmou que o valor definido anteriormente não era compatível com a gravidade da situação. Supervisão restringia idas ao banheiro Agora no g1 Na reclamação trabalhista, a operadora relatou que só podia ir ao banheiro com autorização do supervisor e por períodos de até cinco minutos. Durante a gravidez, porém, precisava ir mais vezes e, por causa das náuseas, podia demorar mais do que o limite estabelecido. Segundo a trabalhadora, o supervisor levou uma lata de lixo para que ela vomitasse no próprio posto de atendimento, sem interromper o serviço.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trabalhadora grávida impedida de pausar atendimento Store Center",
+      "seoDescription": "Economia Gravidez, mulher grávida. A decisão, divulgada nesta quarta-feira (21), considerou que a conduta das empresas ultrapassou o",
+      "keyword": "Trabalhadora grávida impedida de pausar atendimento para vomitar receberá R$ 30 mil Fonte 2 Governo Federal decreta emergência zoosanitária em SC após foco de doença de Newcastle",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/22/gravida-funcionaria-sera-indenizada-em-r-30-mil-apos-ser-obrigada-a-vomitar-em-lixeira-no-trabalho.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/22/gravida-funcionaria-sera-indenizada-em-r-30-mil-apos-ser-obrigada-a-vomitar-em-lixeira-no-trabalho.ghtml",
+        "https://g1.globo.com/sc/santa-catarina/noticia/2026/10/22/governo-federal-emergencia-sanitaria-em-sc-doenca-de-newcastle.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Trabalhadora grávida impedida de pausar atendimento para vomitar receberá R$ 30 mil",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_12d19586",
       "views": 0,
       "date": "2026-10-22T20:39:50.013Z",
@@ -24971,7 +25012,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T20:39:48.922Z",
+      "lastScraped": "2026-10-22T22:46:57.542Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24979,7 +25020,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T20:39:49.169Z",
+      "lastScraped": "2026-10-22T22:46:58.099Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24992,7 +25033,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T20:39:49.999Z",
+      "lastScraped": "2026-10-22T22:46:59.129Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25049,6 +25090,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792709228730",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trabalhadora grávida impedida de pausar atendimento para vomitar receberá R$ 30 mil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trabalhadora grávida impedida de pausar atendimento para vomitar receberá R$ 30 mil: o que está em jogo no mercado?",
+      "postId": "rss-hash_6d235949",
+      "timestamp": "2026-10-22T22:46:59.140Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792701684573",
       "feedName": "G1 - Economia",

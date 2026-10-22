@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_54f1013d",
+      "views": 0,
+      "date": "2026-10-22T08:20:27.258Z",
+      "title": "CLT, aposentado, estudante ou MEI? Veja as propostas de Lula e Flávio para o seu bolso: o que está em jogo no mercado?",
+      "subtitle": "Os planos de governo de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) para a Presidência da República trazem diferentes diretrizes para temas estruturais do país.",
+      "slug": "clt-aposentado-estudante-ou-mei-veja-as-propostas-de-lula-e-flavio-para-o-seu-bolso-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nOs planos de governo de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) para a Presidência da República trazem diferentes diretrizes para temas estruturais do país. Além de visões contrastantes sobre o papel do Estado na economia, os dois candidatos também apresentam caminhos diferentes para lidar com as contas públicas, o mercado de trabalho, a renda e a inflação.\n\nO que já foi informado\n\nNo mercado de trabalho, por exemplo, os planos partem de estratégias diferentes: enquanto Lula concentra propostas na renda e na jornada de trabalho, Flávio Bolsonaro prioriza a redução do custo de contratação pelas empresas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "CLT, aposentado, estudante ou MEI? Veja as propostas de Store Center",
+      "seoDescription": "Os planos de governo de Luiz Inácio Lula da Silva (PT) e Flávio Bolsonaro (PL) para a Presidência da República trazem diferentes diretrizes para temas",
+      "keyword": "CLT, aposentado, estudante ou MEI? Veja as propostas de Lula e Flávio para o seu bolso Fonte 2 Abóbora de 1.500 kg bate recorde mundial e entra para o Guinness; fruto renderia 3 mil tortas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/22/propostas-de-lula-e-flavio-para-o-seu-bolso.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/22/propostas-de-lula-e-flavio-para-o-seu-bolso.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/22/abobora-de-1500-kg-bate-recorde-mundial-e-entra-para-o-guinness-fruto-renderia-3-mil-tortas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "CLT, aposentado, estudante ou MEI? Veja as propostas de Lula e Flávio para o seu bolso",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_5de8bbe0",
       "views": 0,
       "date": "2026-10-22T05:14:21.853Z",
@@ -24690,7 +24731,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T05:14:20.500Z",
+      "lastScraped": "2026-10-22T08:20:25.408Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24698,7 +24739,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T05:14:20.838Z",
+      "lastScraped": "2026-10-22T08:20:26.209Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24711,7 +24752,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T05:14:21.843Z",
+      "lastScraped": "2026-10-22T08:20:27.239Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24768,6 +24809,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792657293337",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "CLT, aposentado, estudante ou MEI? Veja as propostas de Lula e Flávio para o seu bolso",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "CLT, aposentado, estudante ou MEI? Veja as propostas de Lula e Flávio para o seu bolso: o que está em jogo no mercado?",
+      "postId": "rss-hash_54f1013d",
+      "timestamp": "2026-10-22T08:20:27.259Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.6h (+8), Sem postagem há 7.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1792646099483",
       "feedName": "G1 - Economia",

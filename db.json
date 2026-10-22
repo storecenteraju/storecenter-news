@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5f9c30d8",
+      "views": 0,
+      "date": "2026-10-22T18:58:51.190Z",
+      "title": "LemFi amplia serviços financeiros para brasileiros que vivem no exterior Fonte: por que isso importa para a economia?",
+      "subtitle": "A LemFi, plataforma financeira voltada a pessoas que vivem e constroem suas vidas em diferentes países, anunciou a maior expansão de produtos de sua história.",
+      "slug": "lemfi-amplia-servicos-financeiros-para-brasileiros-que-vivem-no-exterior-fonte-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nA LemFi, plataforma financeira voltada a pessoas que vivem e constroem suas vidas em diferentes países, anunciou a maior expansão de produtos de sua história. A empresa apresentou uma nova identidade global, com o slogan “Ambition has no passport” — em tradução livre, “A ambição não tem passaporte” - e um aplicativo reformulado para reunir diferentes serviços financeiros em uma única plataforma.\n\nO que já foi informado\n\nA novidade para a comunidade brasileira no exterior é a possibilidade de enviar dinheiro ao Brasil por meio do Pix, sem tarifa de transferência, segundo a companhia. “A comunidade brasileira que vive no exterior é muito importante para a LemFi.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "LemFi amplia serviços financeiros para brasileiros que Store Center",
+      "seoDescription": "A LemFi, plataforma financeira voltada a pessoas que vivem e constroem suas vidas em diferentes países, anunciou a maior expansão de produtos de sua h",
+      "keyword": "LemFi amplia serviços financeiros para brasileiros que vivem no exterior Fonte 2 Hóspede de Airbnb não será mais obrigado a lavar louça e tirar lixo no check-out",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/especial-publicitario/lemfi/noticia/2026/10/22/lemfi-amplia-servicos-financeiros-para-brasileiros-que-vivem-no-exterior.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/especial-publicitario/lemfi/noticia/2026/10/22/lemfi-amplia-servicos-financeiros-para-brasileiros-que-vivem-no-exterior.ghtml",
+        "https://g1.globo.com/turismo-e-viagem/noticia/2026/10/22/hospede-de-airbnb-nao-sera-mais-obrigado-a-lavar-louca-e-tirar-lixo-no-check-out.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "LemFi amplia serviços financeiros para brasileiros que vivem no exterior",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_2597c4ad",
       "views": 0,
       "date": "2026-10-22T17:34:06.245Z",
@@ -24889,7 +24930,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T17:34:05.035Z",
+      "lastScraped": "2026-10-22T18:58:49.584Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24897,7 +24938,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T17:34:05.323Z",
+      "lastScraped": "2026-10-22T18:58:50.231Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24910,7 +24951,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T17:34:06.229Z",
+      "lastScraped": "2026-10-22T18:58:51.174Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24967,6 +25008,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792695616036",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "LemFi amplia serviços financeiros para brasileiros que vivem no exterior",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "LemFi amplia serviços financeiros para brasileiros que vivem no exterior Fonte: por que isso importa para a economia?",
+      "postId": "rss-hash_5f9c30d8",
+      "timestamp": "2026-10-22T18:58:51.191Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.6h (+8), Sem postagem há 10.6h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792690489759",
       "feedName": "Agência Câmara - Política",

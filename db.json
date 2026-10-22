@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2060d08b",
+      "views": 0,
+      "date": "2026-10-22T10:21:14.130Z",
+      "title": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de: por que isso importa para a economia?",
+      "subtitle": "Sebrae O presidente Luiz Inácio Lula da Silva (PT) sanciona nesta quarta-feira (21) a lei que cria o programa Prospera MEI, criado para oferecer recursos financeiros aos microempreendedores individuais (MEIs).",
+      "slug": "lula-sanciona-nesta-quarta-lei-que-preve-perdao-de-dividas-e-aumento-do-teto-de-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nSebrae O presidente Luiz Inácio Lula da Silva (PT) sanciona nesta quarta-feira (21) a lei que cria o programa Prospera MEI, criado para oferecer recursos financeiros aos microempreendedores individuais (MEIs). Na última terça-feira (20), durante entrevista em São Luís (MA), Lula antecipou que sancionaria a proposta nesta quarta-feira.\n\nO que já foi informado\n\nO projeto de lei foi encaminhado pelo governo ao Congresso Nacional após o anúncio do governo e aprovado no último dia 15. A medida foi anunciada pela equipe econômica do governo a poucas semanas do segundo turno das eleições presidenciais e prevê benefícios econômicos como por exemplo, o perdão de dívidas com a União e o aumento do limite de faturamento anual dos microempreendedores. Agora no g1 O que prevê o Prospera Mei?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula sanciona nesta quarta lei que prevê perdão de Store Center",
+      "seoDescription": "Sebrae O presidente Luiz Inácio Lula da Silva (PT) sanciona nesta quarta-feira (21) a lei que cria o programa Prospera MEI, criado para oferecer recur",
+      "keyword": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de faturamento para MEI",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/21/lula-sanciona-nesta-quarta-lei-que-preve-perdao-de-dividas-e-aumento-do-teto-de-faturamento-para-mei.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/21/lula-sanciona-nesta-quarta-lei-que-preve-perdao-de-dividas-e-aumento-do-teto-de-faturamento-para-mei.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de faturamento para MEI",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_54f1013d",
       "views": 0,
       "date": "2026-10-22T08:20:27.258Z",
@@ -24731,7 +24770,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T08:20:25.408Z",
+      "lastScraped": "2026-10-22T10:21:12.645Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24739,7 +24778,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T08:20:26.209Z",
+      "lastScraped": "2026-10-22T10:21:13.201Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24752,7 +24791,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T08:20:27.239Z",
+      "lastScraped": "2026-10-22T10:21:14.118Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24809,6 +24848,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792664545471",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de faturamento para MEI",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula sanciona nesta quarta lei que prevê perdão de dívidas e aumento do teto de: por que isso importa para a economia?",
+      "postId": "rss-hash_2060d08b",
+      "timestamp": "2026-10-22T10:21:14.130Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 33.7h (+8), Sem postagem há 33.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792657293337",
       "feedName": "G1 - Economia",

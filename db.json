@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2347e3a8",
+      "views": 0,
+      "date": "2026-10-22T00:41:45.981Z",
+      "title": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no 3º trimestre; redes sociais: o que muda para os próximos jogos?",
+      "subtitle": "Economia Meta recebeu mais de R$ 290 milhões de campanhas Entre julho e setembro de 2026, a Meta registrou lucro líquido de US$ 9,86 bilhões (R$ 49,3 bilhões), alta de 264% em relação ao mesmo período de 2025.",
+      "slug": "lucro-da-meta-dispara-264-e-chega-a-r-324-bilhoes-no-3-trimestre-redes-sociais-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Meta recebeu mais de R$ 290 milhões de campanhas Entre julho e setembro de 2026, a Meta registrou lucro líquido de US$ 9,86 bilhões (R$ 49,3 bilhões), alta de 264% em relação ao mesmo período de 2025. Nos mesmos três meses, a receita somou US$ 64,60 bilhões (R$ 324,2 bilhões), avanço de 26% na comparação com o terceiro trimestre do ano passado.\n\nO que já foi informado\n\nDona do Facebook, Instagram e WhatsApp, a companhia divulga os resultados financeiros dessas plataformas de forma agrupada, na divisão chamada Family of Apps (Família de Aplicativos). Entre julho e setembro, o segmento faturou US$ 64,16 bilhões (R$ 320 bilhões), o equivalente a cerca de 99% da receita total da empresa. A maior parte desse valor veio da , que respondeu por US$ 63,06 bilhões (R$ 315 bilhões). Os US$ 1,10 bilhão (R$ 5,5 bilhões) restantes foram obtidos com outras fontes de receita. O avanço da foi impulsionado tanto pelo aumento do número de anúncios exibidos quanto pela alta dos preços. Na comparação com o terceiro trimestre de 2025, as impressões de anúncios — ou seja, o número de vezes que as propagandas foram exibidas — cresceram 10%.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no Store Center",
+      "seoDescription": "Economia Meta recebeu mais de R$ 290 milhões de campanhas Entre julho e setembro de 2026, a Meta registrou lucro líquido de US$ 9,86",
+      "keyword": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no 3º trimestre; redes sociais concentram receita Fonte 2 Desenrola 3.0: Durigan diz que governo vai lançar edital para comprar dívidas na quinta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/21/lucro-da-meta-dispara-no-3o-trimestre.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/21/lucro-da-meta-dispara-no-3o-trimestre.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/21/desenrola-30-durigan-diz-que-governo-vai-lancar-edital-para-comprar-dividas-na-quinta.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no 3º trimestre; redes sociais concentram receita",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_3cb6a367",
       "views": 0,
       "date": "2026-10-21T22:48:02.335Z",
@@ -24608,7 +24649,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-21T22:48:00.663Z",
+      "lastScraped": "2026-10-22T00:41:44.098Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24616,7 +24657,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-21T22:48:00.961Z",
+      "lastScraped": "2026-10-22T00:41:44.827Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24629,7 +24670,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-21T22:48:02.322Z",
+      "lastScraped": "2026-10-22T00:41:45.967Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24686,6 +24727,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792629713913",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no 3º trimestre; redes sociais concentram receita",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lucro da Meta dispara 264% e chega a R$ 324 bilhões no 3º trimestre; redes sociais: o que muda para os próximos jogos?",
+      "postId": "rss-hash_2347e3a8",
+      "timestamp": "2026-10-22T00:41:45.981Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1792622899794",
       "feedName": "G1 - Economia",

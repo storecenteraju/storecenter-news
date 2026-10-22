@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4288bd29",
+      "views": 0,
+      "date": "2026-10-22T13:12:59.543Z",
+      "title": "O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar Fonte 2 Quem inventou o nome?",
+      "subtitle": "Foi preciso que a inteligência artificial as trouxesse à tona, causando um alerta global de segurança cibernética.",
+      "slug": "o-que-e-php-e-a-falha-grave-de-seguranca-detectada-por-ia-que-tirou-sites-do-ar-fonte-2-quem-inventou-o-nome",
+      "content": "O que aconteceu\n\nFoi preciso que a inteligência artificial as trouxesse à tona, causando um alerta global de segurança cibernética. As vulnerabilidades estão em uma linguagem de programação chamada PHP, que tem sido usada no mundo todo desde os anos 2000 para construir sites.\n\nO que já foi informado\n\nGovernos e agências de segurança cibernética em todo o mundo estão se mobilizando para conter as consequências da descoberta feita na quarta-feira (21/10) e instaram os operadores de sites a instalarem uma nova correção de emergência ou a considerarem a possibilidade de desativar suas plataformas. A empresa de cibersegurança Wiz — cujos pesquisadores ajudaram a descobrir as vulnerabilidades — descreveu as falhas como as \"mais graves\" já detectadas por IA. Agora no g1 A OpenAI — cuja tecnologia foi usada para encontrar as falhas — classificou a descoberta como \"um dos problemas de segurança mais impactantes da história recente\". O que é PHP? Muitas pessoas podem nunca ter ouvido falar de PHP, mas provavelmente interagem com ele diariamente. PHP é uma sigla em inglês para Hypertext Preprocessor.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que é PHP e a falha grave de segurança detectada por Store Center",
+      "seoDescription": "Foi preciso que a inteligência artificial as trouxesse à tona, causando um alerta global de segurança cibernética.",
+      "keyword": "O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar Fonte 2 Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/22/o-que-e-php-e-a-falha-grave-de-seguranca-detectada-por-ia-que-tirou-sites-do-ar.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/22/o-que-e-php-e-a-falha-grave-de-seguranca-detectada-por-ia-que-tirou-sites-do-ar.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/22/quem-inventou-o-nome-inteligencia-artificial-e-por-que-trump-quer-muda-lo.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_2060d08b",
       "views": 0,
       "date": "2026-10-22T10:21:14.130Z",
@@ -24770,7 +24811,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T10:21:12.645Z",
+      "lastScraped": "2026-10-22T13:12:57.535Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -24778,7 +24819,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T10:21:13.201Z",
+      "lastScraped": "2026-10-22T13:12:58.124Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -24791,7 +24832,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T10:21:14.118Z",
+      "lastScraped": "2026-10-22T13:12:59.527Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -24848,6 +24889,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792674870697",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar Fonte 2 Quem inventou o nome?",
+      "postId": "rss-hash_4288bd29",
+      "timestamp": "2026-10-22T13:12:59.544Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.0h (+8), Sem postagem há 8.0h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 26",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792664545471",
       "feedName": "G1 - Economia",

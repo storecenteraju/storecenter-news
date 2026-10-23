@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5dd388f8",
+      "views": 0,
+      "date": "2026-10-23T22:39:24.633Z",
+      "title": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de: por que esse movimento importa?",
+      "subtitle": "As instituições não poderão oferecer novos recursos a esses clientes por meio dessas abordagens.",
+      "slug": "bc-passa-a-exigir-autorizacao-previa-para-oferecer-credito-a-clientes-com-risco-de-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nAs instituições não poderão oferecer novos recursos a esses clientes por meio dessas abordagens.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "BC passa a exigir autorização prévia para oferecer Store Center",
+      "seoDescription": "As instituições não poderão oferecer novos recursos a esses clientes por meio dessas abordagens.",
+      "keyword": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de endividamento Fonte 2 Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e alimentos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/23/bc-exige-autorizacao-previa-para-oferecer-credito-a-clientes-em-situacao-de-vulnerabilidade-financeira.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/23/bc-exige-autorizacao-previa-para-oferecer-credito-a-clientes-em-situacao-de-vulnerabilidade-financeira.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/23/trump-retira-tarifa-de-50percent-sobre-alguns-produtos-do-canada-incluindo-madeira-e-alimentos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de endividamento",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_1a0b114c",
       "views": 0,
       "date": "2026-10-23T20:32:35.498Z",
@@ -25377,7 +25418,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-23T20:32:34.256Z",
+      "lastScraped": "2026-10-23T22:39:23.694Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25385,7 +25426,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-23T20:32:34.794Z",
+      "lastScraped": "2026-10-23T22:39:23.933Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25398,7 +25439,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-23T20:32:35.483Z",
+      "lastScraped": "2026-10-23T22:39:24.620Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25455,6 +25496,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792795222357",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de endividamento",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "BC passa a exigir autorização prévia para oferecer crédito a clientes com risco de: por que esse movimento importa?",
+      "postId": "rss-hash_5dd388f8",
+      "timestamp": "2026-10-23T22:39:24.634Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.4h (+8), Sem postagem há 12.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792787577961",
       "feedName": "G1 - Economia",

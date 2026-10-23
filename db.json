@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7e6683df",
+      "views": 0,
+      "date": "2026-10-23T18:49:02.328Z",
+      "title": "Após Flávio citar volta do Perse, governo fala em projeto para perdoar dívidas de bares: o que pode mudar agora?",
+      "subtitle": "A campanha do presidente Luiz Inácio Lula da Silva (PT) afirmou que o governo do petista vai enviar ao Congresso Nacional um projeto de lei para anistiar dívida ativa da União de empresas do Simples Nacional do setor de eventos, bares e restaurantes.",
+      "slug": "apos-flavio-citar-volta-do-perse-governo-fala-em-projeto-para-perdoar-dividas-de-bares-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA campanha do presidente Luiz Inácio Lula da Silva (PT) afirmou que o governo do petista vai enviar ao Congresso Nacional um projeto de lei para anistiar dívida ativa da União de empresas do Simples Nacional do setor de eventos, bares e restaurantes. O anúncio foi feito três dias depois do senador Flávio Bolsonaro (PL-RJ), candidato do PL à Presidência da República, afirmar que, se eleito, quer retomar o Programa Emergencial para Retomada do Setor de Eventos (Perse).\n\nO que já foi informado\n\n\"O presidente Lula autorizou que a gente fizesse estudo em relação à questão do setor de eventos e artistas do país. Na pandemia tivemos o Perse e que praticamente muitos dos setores, seguimentos, ficaram endividados. Hoje estive com presidente Hugo Motta e a proposta é que pudesse encaminhar ainda este ano um projeto de lei para que fosse debatido no Congresso em primeiro lugar pudesse propor que nem os MEIs encaminhar PL que possa perdoar dívida ativa da União de todos os setores de eventos\", disse o senador Camilo Santana (PT-CE). Segundo Santana, que é o coordenador político da campanha de Lula, atualmente a dívida desse grupo chega a R$ 15 bilhões para um total de cerca de 400 mil empreendimentos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Após Flávio citar volta do Perse, governo fala em Store Center",
+      "seoDescription": "A campanha do presidente Luiz Inácio Lula da Silva (PT) afirmou que o governo do petista vai enviar ao Congresso Nacional um projeto de lei para anist",
+      "keyword": "Após Flávio citar volta do Perse, governo fala em projeto para perdoar dívidas de bares, restaurantes e empresas de eventos do Simples",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/apos-flavio-citar-volta-do-perse-governo-fala-em-projeto-para-perdoar-dividas-de-bares-restaurantes-e-empresas-de-eventos-do-simples.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/eleicoes/2026/noticia/2026/10/23/apos-flavio-citar-volta-do-perse-governo-fala-em-projeto-para-perdoar-dividas-de-bares-restaurantes-e-empresas-de-eventos-do-simples.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Após Flávio citar volta do Perse, governo fala em projeto para perdoar dívidas de bares, restaurantes e empresas de eventos do Simples",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1e2c6c3b",
       "views": 0,
       "date": "2026-10-23T17:23:49.202Z",
@@ -25297,7 +25336,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-23T17:23:47.200Z",
+      "lastScraped": "2026-10-23T18:49:00.582Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25305,7 +25344,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-23T17:23:47.999Z",
+      "lastScraped": "2026-10-23T18:49:01.471Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25318,7 +25357,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-23T17:23:49.193Z",
+      "lastScraped": "2026-10-23T18:49:02.317Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25375,6 +25414,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792781388801",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Após Flávio citar volta do Perse, governo fala em projeto para perdoar dívidas de bares, restaurantes e empresas de eventos do Simples",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Após Flávio citar volta do Perse, governo fala em projeto para perdoar dívidas de bares: o que pode mudar agora?",
+      "postId": "rss-hash_7e6683df",
+      "timestamp": "2026-10-23T18:49:02.328Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.8h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792776306004",
       "feedName": "G1 - Economia",

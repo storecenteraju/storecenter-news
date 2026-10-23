@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_38bc33c8",
+      "views": 0,
+      "date": "2026-10-23T10:16:34.963Z",
+      "title": "Da 'motosserra' ao custo social: como o modelo econômico de Milei virou tema da: por que isso importa para a economia?",
+      "subtitle": "O presidente da Argentina, Javier Milei, virou assunto ao longo da eleição brasileira. O ultraliberal assumiu o governo do país vizinho em 2023 com a promessa de recuperar a economia por meio do “Plano Motosserra”.",
+      "slug": "da-motosserra-ao-custo-social-como-o-modelo-economico-de-milei-virou-tema-da-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO presidente da Argentina, Javier Milei, virou assunto ao longo da eleição brasileira. O ultraliberal assumiu o governo do país vizinho em 2023 com a promessa de recuperar a economia por meio do “Plano Motosserra”.\n\nO que já foi informado\n\nO duro programa de ajuste incluía cortes profundos nos gastos públicos, fim de subsídios, desvalorização do peso argentino e desregulamentação. Como mostrou o g1, um dos principais temas econômicos das campanhas presidenciais no Brasil é justamente o equilíbrio das contas públicas. Nesse debate, Milei se tornou mais um símbolo da polarização: enquanto Flávio Bolsonaro (PL) vê o argentino como exemplo a ser seguido, Lula (PT) alerta para os custos sociais de medidas tão severas na economia. Esse é o mesmo dilema que Milei enfrenta hoje na Argentina: Por um lado, após quase três anos de governo, as medidas de ajuste econômico reduziram a inflação e melhoraram importantes indicadores da economia, como o equilíbrio das contas públicas do país.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Da 'motosserra' ao custo social: como o modelo Store Center",
+      "seoDescription": "O presidente da Argentina, Javier Milei, virou assunto ao longo da eleição brasileira. O ultraliberal assumiu o governo do país vizinho em 2023 com a",
+      "keyword": "Da 'motosserra' ao custo social: como o modelo econômico de Milei virou tema da eleição brasileira Fonte 2 'Orelha-de-elefante': moradora encontra planta misteriosa no quintal, e especialista alerta que espécie é tóxica",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/23/da-motosserra-ao-custo-social-como-o-modelo-economico-de-milei-virou-tema-da-eleicao-brasileira.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/23/da-motosserra-ao-custo-social-como-o-modelo-economico-de-milei-virou-tema-da-eleicao-brasileira.ghtml",
+        "https://g1.globo.com/economia/agronegocios/globo-rural/noticia/2026/10/23/orelha-de-elefante-moradora-encontra-planta-misteriosa-no-quintal-e-especialista-alerta-que-especie-e-toxica.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Da 'motosserra' ao custo social: como o modelo econômico de Milei virou tema da eleição brasileira",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_6611dc14",
       "views": 0,
       "date": "2026-10-23T08:16:31.112Z",
@@ -25135,7 +25176,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-23T08:16:29.806Z",
+      "lastScraped": "2026-10-23T10:16:33.396Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25143,7 +25184,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-23T08:16:30.112Z",
+      "lastScraped": "2026-10-23T10:16:34.229Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25156,7 +25197,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-23T08:16:31.101Z",
+      "lastScraped": "2026-10-23T10:16:34.952Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25213,6 +25254,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792750595315",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Da 'motosserra' ao custo social: como o modelo econômico de Milei virou tema da eleição brasileira",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Da 'motosserra' ao custo social: como o modelo econômico de Milei virou tema da: por que isso importa para a economia?",
+      "postId": "rss-hash_38bc33c8",
+      "timestamp": "2026-10-23T10:16:34.964Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 25",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792743437873",
       "feedName": "G1 - Economia",

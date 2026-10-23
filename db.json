@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7ed7524b",
+      "views": 0,
+      "date": "2026-10-23T00:40:10.103Z",
+      "title": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões: como isso afeta a população?",
+      "subtitle": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.073 da Mega-Sena foi realizado na noite desta quinta-feira (22), em São Paulo.",
+      "slug": "mega-sena-3073-acumula-e-premio-vai-a-r-230-milhoes-como-isso-afeta-a-populacao",
+      "content": "O que aconteceu\n\nEconomia Como funciona a Mega-Sena? O sorteio do concurso 3.073 da Mega-Sena foi realizado na noite desta quinta-feira (22), em São Paulo.\n\nO que já foi informado\n\nO prêmio para as apostas que acertassem as seis dezenas era de R$ 206,4 milhões. No entanto, ninguém levou a faixa principal e o valor acumulou para R$ 230 milhões. Veja os números sorteados: 04 - 13 - 23 - 28 - 41 - 58 5 acertos: 203 apostas ganhadoras, R$ 23.138,67 4 acertos: 13.143 apostas ganhadoras, R$ 510,55 Resultado do concurso 3073 da Mega-Sena.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Nacional. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO que muda na vida prática da população — e qual informação ainda falta?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões Store Center",
+      "seoDescription": "Economia Como funciona a Mega-Sena? O sorteio do concurso 3.073 da Mega-Sena foi realizado na noite desta quinta-feira (22), em São P",
+      "keyword": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões; confira os números sorteados Fonte 2 Governo Federal decreta emergência zoosanitária em SC após foco de doença de Newcastle",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/22/mega-sena-concurso-3073-confira-os-numeros-sorteados.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/loterias/mega-sena/noticia/2026/10/22/mega-sena-concurso-3073-confira-os-numeros-sorteados.ghtml",
+        "https://g1.globo.com/sc/santa-catarina/noticia/2026/10/22/governo-federal-emergencia-sanitaria-em-sc-doenca-de-newcastle.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões; confira os números sorteados",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_6d235949",
       "views": 0,
       "date": "2026-10-22T22:46:59.140Z",
@@ -25012,7 +25053,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-22T22:46:57.542Z",
+      "lastScraped": "2026-10-23T00:40:08.316Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25020,7 +25061,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-22T22:46:58.099Z",
+      "lastScraped": "2026-10-23T00:40:08.946Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25033,7 +25074,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-22T22:46:59.129Z",
+      "lastScraped": "2026-10-23T00:40:10.089Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25090,6 +25131,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792716102443",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões; confira os números sorteados",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mega-Sena 3073 acumula e prêmio vai a R$ 230 milhões: como isso afeta a população?",
+      "postId": "rss-hash_7ed7524b",
+      "timestamp": "2026-10-23T00:40:10.103Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792709228730",
       "feedName": "G1 - Economia",

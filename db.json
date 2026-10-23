@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6611dc14",
+      "views": 0,
+      "date": "2026-10-23T08:16:31.112Z",
+      "title": "Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo Fonte 2 Austrália abre ação coletiva?",
+      "subtitle": "Economia Por que Trump quer mudar o nome da IA? Você já parou para pensar por que a inteligência artificial (IA) tem esse nome?",
+      "slug": "quem-inventou-o-nome-inteligencia-artificial-e-por-que-trump-quer-muda-lo-fonte-2-australia-abre-acao-coletiva",
+      "content": "O que aconteceu\n\nEconomia Por que Trump quer mudar o nome da IA? Você já parou para pensar por que a inteligência artificial (IA) tem esse nome?\n\nO que já foi informado\n\nE quem foi que decidiu chamar essa tecnologia assim? A expressão surgiu em 1955, nos Estados Unidos, a partir do trabalho de pesquisadores que buscavam entender como criar máquinas capazes de demonstrar alguma forma de raciocínio e inteligência semelhante à dos seres humanos. Entre os nomes envolvidos nessa história estão John McCarthy (matemático), Marvin Minsky (matemático e cientista da computação), Claude Shannon (matemático e engenheiro eletrônico) e Nathaniel Rochester (cientista da computação). Eles trabalhavam em diferentes áreas, como engenharia, matemática e estatística, explicou ao g1 Cleber Zanchettin, professor de Engenharia da Computação da Universidade Federal de Pernambuco (UFPE) e especialista em IA. \"Eles precisavam de uma nomenclatura para pesquisas que misturavam matemática, engenharia e estatística para criar máquinas capazes de exibir raciocínio, algo que não se enquadrava no software tradicional da época\", disse Zanchettin.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Quem inventou o nome 'inteligência artificial' e por Store Center",
+      "seoDescription": "Economia Por que Trump quer mudar o nome da IA? Você já parou para pensar por que a inteligência artificial (IA) tem esse nome?",
+      "keyword": "Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo Fonte 2 Austrália abre ação coletiva contra Meta por danos a crianças",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/22/quem-inventou-o-nome-inteligencia-artificial-e-por-que-trump-quer-muda-lo.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/22/quem-inventou-o-nome-inteligencia-artificial-e-por-que-trump-quer-muda-lo.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/22/australia-abre-acao-coletiva-contra-meta-por-danos-a-criancas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_6022a826",
       "views": 0,
       "date": "2026-10-23T05:13:02.405Z",
@@ -25094,7 +25135,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-23T05:13:00.624Z",
+      "lastScraped": "2026-10-23T08:16:29.806Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25102,7 +25143,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-23T05:13:01.393Z",
+      "lastScraped": "2026-10-23T08:16:30.112Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25115,7 +25156,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-23T05:13:02.394Z",
+      "lastScraped": "2026-10-23T08:16:31.101Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25172,6 +25213,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792743437873",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Quem inventou o nome 'inteligência artificial' e por que Trump quer mudá-lo Fonte 2 Austrália abre ação coletiva?",
+      "postId": "rss-hash_6611dc14",
+      "timestamp": "2026-10-23T08:16:31.113Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.6h (+8), Sem postagem há 11.6h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792732417963",
       "feedName": "G1 - Economia",

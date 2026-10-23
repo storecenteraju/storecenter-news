@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1a0b114c",
+      "views": 0,
+      "date": "2026-10-23T20:32:35.498Z",
+      "title": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em: o que muda para usuários e empresas?",
+      "subtitle": "Economia O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar O Japão anunciou nesta sexta-feira (23) que criará uma equipe para simular ataques cibernéticos com inteligência artificial (IA) e identificar falhas em.",
+      "slug": "japao-vai-simular-ataques-hackers-com-ia-apos-falha-no-php-tirar-sites-do-ar-em-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar O Japão anunciou nesta sexta-feira (23) que criará uma equipe para simular ataques cibernéticos com inteligência artificial (IA) e identificar falhas em sistemas tecnológicos. A medida ocorre em meio a uma onda de ataques que levou empresas e órgãos públicos de vários países a tirar sites do ar para se proteger de vulnerabilidades na linguagem de programação PHP, usada em grande parte da internet.\n\nO que já foi informado\n\nUm dos efeitos da crise foi a suspensão, pela SoftBank, terceira maior operadora de telefonia móvel do Japão, de seu sistema de alertas de emergência para celulares. Com mais de 30 milhões de clientes de smartphones, a empresa informou nesta sexta-feira que o serviço ficará indisponível durante a manutenção para corrigir uma falha no PHP. Com isso, os usuários deixarão de receber alertas antecipados de terremotos, avisos de tsunamis e informações sobre desastres e evacuações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Japão vai simular ataques hackers com IA após falha no Store Center",
+      "seoDescription": "Economia O que é PHP e a falha grave de segurança detectada por IA que tirou sites do ar O Japão anunciou nesta sexta-feira (23) que",
+      "keyword": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em vários países Fonte 2 Grécia aprova proibição de redes sociais para menores de 15 anos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/23/japao-vai-simular-ataques-hackers-com-ia-apos-falha-no-php-tirar-sites-do-ar-em-varios-paises.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/23/japao-vai-simular-ataques-hackers-com-ia-apos-falha-no-php-tirar-sites-do-ar-em-varios-paises.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/23/grecia-aprova-proibicao-de-redes-sociais-para-menores-de-15-anos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em vários países",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7e6683df",
       "views": 0,
       "date": "2026-10-23T18:49:02.328Z",
@@ -25336,7 +25377,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-23T18:49:00.582Z",
+      "lastScraped": "2026-10-23T20:32:34.256Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25344,7 +25385,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-23T18:49:01.471Z",
+      "lastScraped": "2026-10-23T20:32:34.794Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25357,7 +25398,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-23T18:49:02.317Z",
+      "lastScraped": "2026-10-23T20:32:35.483Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25414,6 +25455,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792787577961",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em vários países",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Japão vai simular ataques hackers com IA após falha no PHP tirar sites do ar em: o que muda para usuários e empresas?",
+      "postId": "rss-hash_1a0b114c",
+      "timestamp": "2026-10-23T20:32:35.499Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 23.9h (+8), Sem postagem há 23.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Direito"
+      ]
+    },
     {
       "id": "1792781388801",
       "feedName": "G1 - Economia",

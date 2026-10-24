@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_8f5d2dd",
+      "views": 0,
+      "date": "2026-10-24T07:54:37.297Z",
+      "title": "INSS: faltou ao 1º turno? Votar no segundo pode servir como prova de vida: por que esse movimento importa?",
+      "subtitle": "Economia Voto nas eleições de 2026 vale como prova de vida automática para o INSS Ir às urnas no segundo turno das eleições, no domingo (25), pode servir como prova de vida para aposentados, pensionistas e beneficiários de programas.",
+      "slug": "inss-faltou-ao-1-turno-votar-no-segundo-pode-servir-como-prova-de-vida-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Voto nas eleições de 2026 vale como prova de vida automática para o INSS Ir às urnas no segundo turno das eleições, no domingo (25), pode servir como prova de vida para aposentados, pensionistas e beneficiários de programas assistenciais do Instituto Nacional do Seguro Social (INSS). A comprovação é feita automaticamente, por meio do cruzamento de dados entre a Justiça Eleitoral e a Previdência Social.\n\nO que já foi informado\n\nNão é necessário apresentar documentos nem ir a uma agência. Quem não votou no primeiro turno também pode usar a votação do segundo para comprovar que está vivo. A ausência na primeira votação não invalida o comparecimento à segunda. Segundo o INSS, a integração dos sistemas com a Justiça Eleitoral já está em funcionamento. Em 2024, a participação nas eleições contribuiu para atualizar a prova de vida de aproximadamente 5 milhões de pessoas. É FATO: Voto nas eleições de 2026 vale como prova de vida automática para o INSS Como funciona a prova de vida pelo voto?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "INSS: faltou ao 1º turno? Votar no segundo pode servir Store Center",
+      "seoDescription": "Economia Voto nas eleições de 2026 vale como prova de vida automática para o INSS Ir às urnas no segundo turno das eleições, no domin",
+      "keyword": "INSS: faltou ao 1º turno? Votar no segundo pode servir como prova de vida; veja como funciona Fonte 2 Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e alimentos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/24/inss-faltou-ao-1o-turno-votar-no-segundo-pode-servir-como-prova-de-vida-veja-como-funciona.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/24/inss-faltou-ao-1o-turno-votar-no-segundo-pode-servir-como-prova-de-vida-veja-como-funciona.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/23/trump-retira-tarifa-de-50percent-sobre-alguns-produtos-do-canada-incluindo-madeira-e-alimentos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "INSS: faltou ao 1º turno? Votar no segundo pode servir como prova de vida; veja como funciona",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_614c9c7b",
       "views": 0,
       "date": "2026-10-24T04:55:39.832Z",
@@ -25500,7 +25541,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-24T04:55:38.513Z",
+      "lastScraped": "2026-10-24T07:54:35.571Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25508,7 +25549,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-24T04:55:39.141Z",
+      "lastScraped": "2026-10-24T07:54:36.453Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25521,7 +25562,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-24T04:55:39.816Z",
+      "lastScraped": "2026-10-24T07:54:37.288Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25578,6 +25619,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792828500773",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "INSS: faltou ao 1º turno? Votar no segundo pode servir como prova de vida; veja como funciona",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "INSS: faltou ao 1º turno? Votar no segundo pode servir como prova de vida: por que esse movimento importa?",
+      "postId": "rss-hash_8f5d2dd",
+      "timestamp": "2026-10-24T07:54:37.297Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.3h (+8), Sem postagem há 9.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Nacional",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792817798878",
       "feedName": "G1 - Economia",

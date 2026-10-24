@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4e3fc3bc",
+      "views": 0,
+      "date": "2026-10-24T09:39:18.751Z",
+      "title": "BYD quer dobrar capacidade de produção no Brasil e superar Volkswagen e Chevrolet: o que está em jogo no mercado?",
+      "subtitle": "BYD A fabricante chinesa de carros elétricos BYD iniciou os pedidos de licenças para dobrar para 600.000 veículos a capacidade anual de produção de sua fábrica brasileira.",
+      "slug": "byd-quer-dobrar-capacidade-de-producao-no-brasil-e-superar-volkswagen-e-chevrolet-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nBYD A fabricante chinesa de carros elétricos BYD iniciou os pedidos de licenças para dobrar para 600.000 veículos a capacidade anual de produção de sua fábrica brasileira. Ao mesmo tempo, a empresa entra na fase final de obras e testes dos galpões de estamparia, soldagem e pintura, disse à o principal executivo da companhia no país.\n\nO que já foi informado\n\nA unidade da BYD no Brasil deve iniciar 2027 com mais do que o mínimo exigido de 50% de nacionalização de componentes. Isso permitirá à empresa atender às exigências regulatórias e iniciar as exportações regionais, afirmou em entrevista o vice-presidente sênior Alexandre Baldy. A empresa enfrentou reclamações de grupos da indústria local por depender muito de importações e de tarifas temporariamente baixas. \"A gente trabalha para inaugurar 2027 já ultrapassando essa posição e termos essas etapas em operação para sermos considerados um fabricante local\", disse Baldy. Agora no g1 A BYD tem como meta se tornar a maior montadora do Brasil em volume de vendas até 2030, mas a demanda já supera sua capacidade atual de produção, disse Baldy.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "BYD quer dobrar capacidade de produção no Brasil e Store Center",
+      "seoDescription": "BYD A fabricante chinesa de carros elétricos BYD iniciou os pedidos de licenças para dobrar para 600.000 veículos a capacidade anual de produção de su",
+      "keyword": "BYD quer dobrar capacidade de produção no Brasil e superar Volkswagen e Chevrolet",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/23/byd-quer-dobrar-capacidade-de-producao-no-brasil-e-superar-volkswagen-e-chevrolet.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/23/byd-quer-dobrar-capacidade-de-producao-no-brasil-e-superar-volkswagen-e-chevrolet.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "BYD quer dobrar capacidade de produção no Brasil e superar Volkswagen e Chevrolet",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_8f5d2dd",
       "views": 0,
       "date": "2026-10-24T07:54:37.297Z",
@@ -25541,7 +25580,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-24T07:54:35.571Z",
+      "lastScraped": "2026-10-24T09:39:17.561Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25549,7 +25588,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-24T07:54:36.453Z",
+      "lastScraped": "2026-10-24T09:39:18.038Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25562,7 +25601,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-24T07:54:37.288Z",
+      "lastScraped": "2026-10-24T09:39:18.736Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25619,6 +25658,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792834837088",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "BYD quer dobrar capacidade de produção no Brasil e superar Volkswagen e Chevrolet",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "BYD quer dobrar capacidade de produção no Brasil e superar Volkswagen e Chevrolet: o que está em jogo no mercado?",
+      "postId": "rss-hash_4e3fc3bc",
+      "timestamp": "2026-10-24T09:39:18.752Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 191.7h (+8), Sem postagem há 191.7h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1792828500773",
       "feedName": "G1 - Economia",

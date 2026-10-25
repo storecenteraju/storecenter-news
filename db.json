@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6140ebf9",
+      "views": 0,
+      "date": "2026-10-25T18:00:27.139Z",
+      "title": "Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões: o que está em jogo no mercado?",
+      "subtitle": "Economia Anvisa alerta para riscos de canetas emagrecedoras caseiras com tirzepatida em pó O mercado de medicamentos para emagrecer, como as canetas de GLP-1, no Brasil, na China e na Índia pode crescer dos atuais US$ 6,6 bilhões (cerca de R$.",
+      "slug": "mercado-de-canetas-emagrecedoras-pode-triplicar-ate-2035-e-chegar-a-us-22-bilhoes-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Anvisa alerta para riscos de canetas emagrecedoras caseiras com tirzepatida em pó O mercado de medicamentos para emagrecer, como as canetas de GLP-1, no Brasil, na China e na Índia pode crescer dos atuais US$ 6,6 bilhões (cerca de R$ 33 bilhões) para US$ 22 bilhões (R$ 110 bilhões) até 2035, segundo estimativa do banco de investimentos J. P.\n\nO que já foi informado\n\nMorgan. O avanço deve ser impulsionado pela redução dos preços e pela ampliação do acesso aos tratamentos, que ainda são pouco utilizados nesses países. De acordo com analistas do banco liderados por Yang Huang, o mercado dos três países pode crescer a uma taxa média de 15% ao ano até 2035. A projeção considera o grande número de pessoas com diabetes e obesidade nessas populações. Medicamentos como Ozempic e Wegovy, da farmacêutica Novo Nordisk, e Zepbound, da Eli Lilly, pertencem à classe dos agonistas do receptor GLP-1. Esses remédios imitam a ação de um hormônio que ajuda a controlar o açúcar no sangue e a reduzir o apetite, sendo utilizados no tratamento do diabetes e, em determinados casos, da obesidade.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Mercado de canetas emagrecedoras pode triplicar até Store Center",
+      "seoDescription": "Economia Anvisa alerta para riscos de canetas emagrecedoras caseiras com tirzepatida em pó O mercado de medicamentos para emagrecer,",
+      "keyword": "Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões Fonte 2 Governo vai estudar recarga de carros elétricos para expandir a infraestrutura de carregadores",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/23/mercado-de-canetas-emagrecedoras-pode-triplicar-ate-2035-e-chegar-a-us-22-bilhoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/23/mercado-de-canetas-emagrecedoras-pode-triplicar-ate-2035-e-chegar-a-us-22-bilhoes.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/23/governo-vai-estudar-recarga-de-carros-eletricos-para-expandir-a-infraestrutura.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_159141a2",
       "views": 0,
       "date": "2026-10-25T16:45:41.862Z",
@@ -26112,7 +26153,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T16:45:40.031Z",
+      "lastScraped": "2026-10-25T18:00:25.992Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26120,7 +26161,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T16:45:41.029Z",
+      "lastScraped": "2026-10-25T18:00:26.293Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26133,7 +26174,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T16:45:41.848Z",
+      "lastScraped": "2026-10-25T18:00:27.131Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26190,6 +26231,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792951262747",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões: o que está em jogo no mercado?",
+      "postId": "rss-hash_6140ebf9",
+      "timestamp": "2026-10-25T18:00:27.139Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 5.2h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 3",
+      "discardedCategories": []
+    },
     {
       "id": "1792946780499",
       "feedName": "G1 - Economia",

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_29625476",
+      "views": 0,
+      "date": "2026-10-25T08:08:31.070Z",
+      "title": "INSS: Justiça libera R$ 2,9 bilhões em atrasados: qual pode ser o próximo passo?",
+      "subtitle": "INSS O Conselho da Justiça Federal (CJF) liberou R$ 3,5 bilhões para o pagamento de valores atrasados a pessoas que venceram ações contra órgãos do governo federal.",
+      "slug": "inss-justica-libera-r-2-9-bilhoes-em-atrasados-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nINSS O Conselho da Justiça Federal (CJF) liberou R$ 3,5 bilhões para o pagamento de valores atrasados a pessoas que venceram ações contra órgãos do governo federal. Do total, R$ 2,9 bilhões são destinados a ações relacionadas ao INSS e a benefícios assistenciais, incluindo casos de revisão de aposentadorias, pensões, auxílio por incapacidade e outros benefícios.\n\nO que já foi informado\n\nOs recursos atendem 313.181 beneficiários em 243.718 processos no total. Em número de processos, as ações relacionadas ao INSS e a benefícios assistenciais representam 57% do total de Requisições de Pequeno Valor (RPVs) liberadas e concentram aproximadamente 83% do dinheiro. São valores que o governo deixou de pagar ou pagou a menos e que, após decisão judicial, precisam ser quitados. Esses valores são chamados de atrasados. Estagiário de agência do INSS é preso por envolvimento em fraudes de benefícios Como são feitos os pagamentos? O CJF libera os recursos para os Tribunais Regionais Federais (TRFs), que são responsáveis por fazer os depósitos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual decisão pode vir agora — e quem será diretamente afetado por ela?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "INSS: Justiça libera R$ 2,9 bilhões em atrasados: qual Store Center",
+      "seoDescription": "INSS O Conselho da Justiça Federal (CJF) liberou R$ 3,5 bilhões para o pagamento de valores atrasados a pessoas que venceram ações contra órgãos do go",
+      "keyword": "INSS: Justiça libera R$ 2,9 bilhões em atrasados; veja quem tem direito a receber e como consultar Fonte 2 Justiça libera plano do GPA: dona do Pão de Açúcar inicia reestruturação de dívidas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/21/inss-justica-libera-r-29-bilhoes-em-atrasados-veja-quem-tem-direito-a-receber-e-como-consultar.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/21/inss-justica-libera-r-29-bilhoes-em-atrasados-veja-quem-tem-direito-a-receber-e-como-consultar.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/21/justica-libera-plano-do-gpa-dona-do-pao-de-acucar-inicia-reestruturacao-de-dividas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "INSS: Justiça libera R$ 2,9 bilhões em atrasados; veja quem tem direito a receber e como consultar",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_16f7cd2",
       "views": 0,
       "date": "2026-10-25T05:08:00.475Z",
@@ -25906,7 +25948,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T05:07:59.110Z",
+      "lastScraped": "2026-10-25T08:08:29.988Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -25914,7 +25956,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T05:07:59.631Z",
+      "lastScraped": "2026-10-25T08:08:30.237Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -25927,7 +25969,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T05:08:00.462Z",
+      "lastScraped": "2026-10-25T08:08:31.056Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -25984,6 +26026,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792915785296",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "INSS: Justiça libera R$ 2,9 bilhões em atrasados; veja quem tem direito a receber e como consultar",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "INSS: Justiça libera R$ 2,9 bilhões em atrasados: qual pode ser o próximo passo?",
+      "postId": "rss-hash_29625476",
+      "timestamp": "2026-10-25T08:08:31.070Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 0,
+      "choiceReason": "Prioridade Categoria: Padrão. Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 8",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1792904901541",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3efb15f3",
+      "views": 0,
+      "date": "2026-10-25T19:48:34.857Z",
+      "title": "Ministro da Fazenda fala em ajuste das contas públicas sem 'dar cavalo de pau' ou: o que está em jogo no mercado?",
+      "subtitle": "Economia Agora no g1 O ministro da Fazenda, Dario Durigan, afirmou nesta sexta-feira (23) que o programa de governo do presidente Luiz Inácio Lula da Silva, candidato do PT à reeleição, contempla um ajuste das contas públicas sem sem \"dar.",
+      "slug": "ministro-da-fazenda-fala-em-ajuste-das-contas-publicas-sem-dar-cavalo-de-pau-ou-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 O ministro da Fazenda, Dario Durigan, afirmou nesta sexta-feira (23) que o programa de governo do presidente Luiz Inácio Lula da Silva, candidato do PT à reeleição, contempla um ajuste das contas públicas sem sem \"dar cavalo de pau\" ou \"fazer loucuras\" na economia. O objetivo seria tentar conter a alta no endividamento público para baixar a taxa de juros e, com isso, promover uma melhora da economia — que rem registrando desaceleração.\n\nO que já foi informado\n\nDurante entrevista ao Uol, falando como representante da campanha de Lula, Durigan afirmou que considera impossível um ajuste das contas de R$ 200 bilhões em um ano. \"A gente tem de melhorar o fiscal, mas sem retrocesso. Não dá pra fazer R$ 200 bilhões como eles estão dizendo. Se dissessem que parariam com reajustes, cortariam programas, seria bastante difícil, mas teria mais clareza da proposta deles\", disse o ministro da Fazenda. Analistas têm manifestado reiteradamente preocupação com a trajetória das contas públicas. Eles avaliam que os reiterados déficits fiscais dos últimos anos pressionam a taxa de juros, e consequentemente, o endividamento público.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ministro da Fazenda fala em ajuste das contas públicas Store Center",
+      "seoDescription": "Economia Agora no g1 O ministro da Fazenda, Dario Durigan, afirmou nesta sexta-feira (23) que o programa de governo do presidente Lui",
+      "keyword": "Ministro da Fazenda fala em ajuste das contas públicas sem 'dar cavalo de pau' ou 'fazer loucuras'; Flávio tem prometido 'tesouraço' Fonte 2 Governo vai estudar recarga de carros elétricos para expandir a infraestrutura de carregadores",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/23/ministro-da-fazenda-fala-em-ajuste-das-contas-publicas-sem-dar-cavalo-de-pau-ou-fazer-loucuras-flavio-tem-prometido-tesouraco.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/23/ministro-da-fazenda-fala-em-ajuste-das-contas-publicas-sem-dar-cavalo-de-pau-ou-fazer-loucuras-flavio-tem-prometido-tesouraco.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/23/governo-vai-estudar-recarga-de-carros-eletricos-para-expandir-a-infraestrutura.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ministro da Fazenda fala em ajuste das contas públicas sem 'dar cavalo de pau' ou 'fazer loucuras'; Flávio tem prometido 'tesouraço'",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_6140ebf9",
       "views": 0,
       "date": "2026-10-25T18:00:27.139Z",
@@ -26153,7 +26194,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T18:00:25.992Z",
+      "lastScraped": "2026-10-25T19:48:33.368Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26161,7 +26202,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T18:00:26.293Z",
+      "lastScraped": "2026-10-25T19:48:34.009Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26174,7 +26215,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T18:00:27.131Z",
+      "lastScraped": "2026-10-25T19:48:34.846Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26231,6 +26272,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792957722249",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ministro da Fazenda fala em ajuste das contas públicas sem 'dar cavalo de pau' ou 'fazer loucuras'; Flávio tem prometido 'tesouraço'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ministro da Fazenda fala em ajuste das contas públicas sem 'dar cavalo de pau' ou: o que está em jogo no mercado?",
+      "postId": "rss-hash_3efb15f3",
+      "timestamp": "2026-10-25T19:48:34.858Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 7.0h (+8), Sem postagem há 7.0h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 8",
+      "discardedCategories": []
+    },
     {
       "id": "1792951262747",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_159141a2",
+      "views": 0,
+      "date": "2026-10-25T16:45:41.862Z",
+      "title": "Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e: por que esse movimento importa?",
+      "subtitle": "Economia Após tarifas de Trump, Canadá anuncia retaliação de até 50% contra os EUA O presidente dos Estados Unidos, Donald Trump, assinou nesta sexta-feira (23) uma ordem para retirar a tarifa de 50% sobre alguns produtos agrícolas e.",
+      "slug": "trump-retira-tarifa-de-50-sobre-alguns-produtos-do-canada-incluindo-madeira-e-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Após tarifas de Trump, Canadá anuncia retaliação de até 50% contra os EUA O presidente dos Estados Unidos, Donald Trump, assinou nesta sexta-feira (23) uma ordem para retirar a tarifa de 50% sobre alguns produtos agrícolas e florestais importados do Canadá. A medida pode beneficiar empresas americanas do setor agrícola que dependem desses produtos.\n\nO que já foi informado\n\nEntre os produtos que deixarão de pagar a tarifa estão chapas de madeira compensada, alguns tipos de papel, determinadas máquinas, equipamentos de refrigeração e caixas e embalagens para transporte de mercadorias, informou a Casa Branca. \"Esses produtores são uma parte vital da economia do nosso estado e sustentam nossas comunidades rurais e costeiras\", disse a senadora Susan Collins, do Maine. Segundo ela, muitos agricultores e produtores dependem de equipamentos especializados, materiais para embalagens e outros produtos canadenses que não estão disponíveis com fornecedores americanos ou cuja substituição teria custos elevados. A decisão foi tomada após a senadora republicana pedir à Casa Branca que revisasse as tarifas sobre produtos que afetam empresas e agricultores de seu estado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Trump retira tarifa de 50% sobre alguns produtos do Store Center",
+      "seoDescription": "Economia Após tarifas de Trump, Canadá anuncia retaliação de até 50% contra os EUA O presidente dos Estados Unidos, Donald Trump, ass",
+      "keyword": "Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e alimentos Fonte 2 Mercado de canetas emagrecedoras pode triplicar até 2035 e chegar a US$ 22 bilhões",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/23/trump-retira-tarifa-de-50percent-sobre-alguns-produtos-do-canada-incluindo-madeira-e-alimentos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/23/trump-retira-tarifa-de-50percent-sobre-alguns-produtos-do-canada-incluindo-madeira-e-alimentos.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/23/mercado-de-canetas-emagrecedoras-pode-triplicar-ate-2035-e-chegar-a-us-22-bilhoes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e alimentos",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_730bc93",
       "views": 0,
       "date": "2026-10-25T14:19:59.290Z",
@@ -26071,7 +26112,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T14:19:57.959Z",
+      "lastScraped": "2026-10-25T16:45:40.031Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26079,7 +26120,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T14:19:58.589Z",
+      "lastScraped": "2026-10-25T16:45:41.029Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26092,7 +26133,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T14:19:59.272Z",
+      "lastScraped": "2026-10-25T16:45:41.848Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26149,6 +26190,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792946780499",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e alimentos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international trade cargo port export import containers cargo ship economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Trump retira tarifa de 50% sobre alguns produtos do Canadá, incluindo madeira e: por que esse movimento importa?",
+      "postId": "rss-hash_159141a2",
+      "timestamp": "2026-10-25T16:45:41.862Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.0h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 3",
+      "discardedCategories": []
+    },
     {
       "id": "1792938094528",
       "feedName": "G1 - Economia",

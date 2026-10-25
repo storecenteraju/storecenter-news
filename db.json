@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1bcc8444",
+      "views": 0,
+      "date": "2026-10-25T22:05:07.062Z",
+      "title": "Eleições 2026: Anac diz não ter identificado anormalidades na programação de voos: o que está em jogo no mercado?",
+      "subtitle": "Economia A Agência Nacional de Aviação Civil (Anac) informou neste domingo (25) que o fluxo aéreo brasileiro operou dentro da regularidade e sem registro de anormalidades durante o fim de semana do segundo turno das Eleições 2026.",
+      "slug": "eleicoes-2026-anac-diz-nao-ter-identificado-anormalidades-na-programacao-de-voos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia A Agência Nacional de Aviação Civil (Anac) informou neste domingo (25) que o fluxo aéreo brasileiro operou dentro da regularidade e sem registro de anormalidades durante o fim de semana do segundo turno das Eleições 2026. A agência enviou a manifestação ao g1 após repercussão de queixas nas redes sociais envolvendo cancelamentos e atrasos de voos.\n\nO que já foi informado\n\nSegundo a Anac: 3.797 voos estavam programados para este fim de semana, dias 24 e 25 de outubro; 35 cancelamentos foram contabilizados até as 13h de domingo. Suspensão de voos da Gol impacta passageiros em Campina Grande O volume, segundo a agência, representa uma taxa de cancelamento de 0,9%, índice equivalente ao do fim de semana anterior (17 e 18 de outubro), quando houve 36 cancelamentos entre 4.233 voos previstos. \"Atrasos e cancelamentos de voos fazem parte da rotina da aviação comercial e nenhuma anormalidade foi identificada\", pontuou a agência reguladora em nota oficial. A Anac afirmou que, apesar disso, notificou as três principais companhias aéreas do país para que informem, com urgência, as medidas adotadas para a reacomodação imediata dos passageiros impactados.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Eleições 2026: Anac diz não ter identificado Store Center",
+      "seoDescription": "Economia A Agência Nacional de Aviação Civil (Anac) informou neste domingo (25) que o fluxo aéreo brasileiro operou dentro da regular",
+      "keyword": "Eleições 2026: Anac diz não ter identificado anormalidades na programação de voos comerciais Fonte 2 Governo vai estudar recarga de carros elétricos para expandir a infraestrutura de carregadores",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/25/eleicoes-2026-anac-diz-nao-ter-identificado-anormalidades-na-programacao-de-voos-comerciais.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/25/eleicoes-2026-anac-diz-nao-ter-identificado-anormalidades-na-programacao-de-voos-comerciais.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/23/governo-vai-estudar-recarga-de-carros-eletricos-para-expandir-a-infraestrutura.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Eleições 2026: Anac diz não ter identificado anormalidades na programação de voos comerciais",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3efb15f3",
       "views": 0,
       "date": "2026-10-25T19:48:34.857Z",
@@ -26194,7 +26235,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T19:48:33.368Z",
+      "lastScraped": "2026-10-25T22:05:05.140Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26202,7 +26243,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T19:48:34.009Z",
+      "lastScraped": "2026-10-25T22:05:05.476Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26215,7 +26256,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T19:48:34.846Z",
+      "lastScraped": "2026-10-25T22:05:07.047Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26272,6 +26313,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792965975035",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Eleições 2026: Anac diz não ter identificado anormalidades na programação de voos comerciais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Eleições 2026: Anac diz não ter identificado anormalidades na programação de voos: o que está em jogo no mercado?",
+      "postId": "rss-hash_1bcc8444",
+      "timestamp": "2026-10-25T22:05:07.063Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -25,
+      "choiceReason": "Prioridade Categoria: Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: -2",
+      "discardedCategories": []
+    },
     {
       "id": "1792957722249",
       "feedName": "G1 - Economia",

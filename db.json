@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_199e5fb2",
+      "views": 0,
+      "date": "2026-10-26T23:22:45.545Z",
+      "title": "Circuit breaker é acionado pela primeira vez desde a pandemia de Covid-19; relembre todas as: o que pode mudar agora?",
+      "subtitle": "Economia Circuit breaker: Com a vitória do petista e a derrota de Flávio Bolsonaro (PL) nas urnas, o mercado financeiro passou esta segunda-feira (26) no vermelho, chegando a registrar queda de 16,48% e acionando o circuit breaker — algo que.",
+      "slug": "circuit-breaker-e-acionado-pela-primeira-vez-desde-a-pandemia-de-covid-19-relembre-todas-as-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nEconomia Circuit breaker: Com a vitória do petista e a derrota de Flávio Bolsonaro (PL) nas urnas, o mercado financeiro passou esta segunda-feira (26) no vermelho, chegando a registrar queda de 16,48% e acionando o circuit breaker — algo que não acontecia desde o início da pandemia de Covid-19 no Brasil, em 2020. O circuit breaker é um mecanismo de segurança da Bolsa de Valores brasileira (B3) que interrompe temporariamente as negociações quando o Ibovespa registra quedas muito acentuadas.\n\nO que já foi informado\n\nO objetivo é conter movimentos de pânico no mercado financeiro e dar tempo para que os investidores reavaliem suas decisões. Naquela ocasião, o coronavírus avançava rapidamente pelo país, os primeiros óbitos pela doença começavam a ser registrados e estados e municípios começavam a adotar medidas de isolamento social para tentar conter a disseminação do vírus. Com toda a incerteza que pairava sob a pandemia e a economia global, o mercado financeiro protagonizou uma debandada do Ibovespa, resultando em uma queda vertiginosa.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Circuit breaker é acionado pela primeira vez desde a Store Center",
+      "seoDescription": "Economia Circuit breaker: Com a vitória do petista e a derrota de Flávio Bolsonaro (PL) nas urnas, o mercado financeiro passou esta s",
+      "keyword": "Circuit breaker é acionado pela primeira vez desde a pandemia de Covid-19; relembre todas as vezes em que a Bolsa parou Fonte 2 Ibovespa desaba após reeleição de Lula e ações recuam até 58%; veja as maiores quedas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/26/circuit-breaker-e-acionado-pela-primeira-vez-desde-a-pandemia-de-covid-19-relembre-todas-as-vezes-em-que-a-bolsa-parou.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/26/circuit-breaker-e-acionado-pela-primeira-vez-desde-a-pandemia-de-covid-19-relembre-todas-as-vezes-em-que-a-bolsa-parou.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/26/ibovespa-desaba-reeleicao-lula-acoes-recuam.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Circuit breaker é acionado pela primeira vez desde a pandemia de Covid-19; relembre todas as vezes em que a Bolsa parou",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_414212b",
       "views": 0,
       "date": "2026-10-26T21:43:23.397Z",
@@ -26559,7 +26600,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T21:43:21.456Z",
+      "lastScraped": "2026-10-26T23:22:43.836Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26567,7 +26608,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T21:43:22.420Z",
+      "lastScraped": "2026-10-26T23:22:44.438Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26580,7 +26621,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-26T21:43:23.380Z",
+      "lastScraped": "2026-10-26T23:22:45.530Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26637,6 +26678,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793057023020",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Circuit breaker é acionado pela primeira vez desde a pandemia de Covid-19; relembre todas as vezes em que a Bolsa parou",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Circuit breaker é acionado pela primeira vez desde a pandemia de Covid-19; relembre todas as: o que pode mudar agora?",
+      "postId": "rss-hash_199e5fb2",
+      "timestamp": "2026-10-26T23:22:45.546Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.1h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 3",
+      "discardedCategories": []
+    },
     {
       "id": "1793051095826",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1db9309d",
+      "views": 0,
+      "date": "2026-10-26T14:35:02.242Z",
+      "title": "Anthropic, dona do Claude, divulga pedido de IPO nos EUA e revela prejuízo bilionário: por que esse movimento importa?",
+      "subtitle": "BBC A Anthropic, uma das principais empresas de inteligência artificial do mundo e desenvolvedora do Claude, divulgou nesta segunda-feira (26) seus planos de abrir capital na bolsa dos Estados Unidos.",
+      "slug": "anthropic-dona-do-claude-divulga-pedido-de-ipo-nos-eua-e-revela-prejuizo-bilionario-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nBBC A Anthropic, uma das principais empresas de inteligência artificial do mundo e desenvolvedora do Claude, divulgou nesta segunda-feira (26) seus planos de abrir capital na bolsa dos Estados Unidos. A operação pode se tornar uma das maiores do mercado e servirá como teste para avaliar se o crescimento acelerado do setor de IA pode se traduzir em lucros.\n\nO que já foi informado\n\nA companhia, que havia apresentado um pedido confidencial em junho, tornou públicos os documentos de sua estreia na bolsa americana. Os dados revelam forte aumento das receitas, mas também prejuízos bilionários e os elevados custos necessários para desenvolver sistemas de inteligência artificial cada vez mais avançados. Considerando o dólar a R$ 5,6048, a Anthropic registrou, no primeiro semestre de 2026, prejuízo líquido de US$ 80,7 bilhões (R$ 452,3 bilhões), enquanto sua receita somou cerca de US$ 16,3 bilhões (R$ 91,4 bilhões). Segundo a Anthropic, boa parte do prejuízo se deve ao aumento do valor de dívidas que podem ser transformadas em ações da empresa. Esse aumento é registrado como uma perda nas contas da companhia, mas não significa que ela tenha desembolsado todo esse dinheiro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Anthropic, dona do Claude, divulga pedido de IPO nos Store Center",
+      "seoDescription": "BBC A Anthropic, uma das principais empresas de inteligência artificial do mundo e desenvolvedora do Claude, divulgou nesta segunda-feira (26) seus pl",
+      "keyword": "Anthropic, dona do Claude, divulga pedido de IPO nos EUA e revela prejuízo bilionário Fonte 2 Modelo de IA da Anthropic acessou dados de eleitores dos EUA",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/26/anthropic-ipo-eua.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/26/anthropic-ipo-eua.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/26/modelo-de-ia-da-anthropic-acessou-dados-de-eleitores-dos-eua.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Anthropic, dona do Claude, divulga pedido de IPO nos EUA e revela prejuízo bilionário",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_12f96fb6",
       "views": 0,
       "date": "2026-10-26T11:19:32.461Z",
@@ -26356,7 +26397,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T11:19:21.376Z",
+      "lastScraped": "2026-10-26T14:35:00.520Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26364,7 +26405,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T11:19:21.938Z",
+      "lastScraped": "2026-10-26T14:35:01.265Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26377,7 +26418,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-26T08:33:55.206Z",
+      "lastScraped": "2026-10-26T14:35:02.232Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26434,6 +26475,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793025373934",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Anthropic, dona do Claude, divulga pedido de IPO nos EUA e revela prejuízo bilionário",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Anthropic, dona do Claude, divulga pedido de IPO nos EUA e revela prejuízo bilionário: por que esse movimento importa?",
+      "postId": "rss-hash_1db9309d",
+      "timestamp": "2026-10-26T14:35:02.243Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 44.8h (+8), Sem postagem há 44.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1793013647874",
       "feedName": "G1 - Economia",

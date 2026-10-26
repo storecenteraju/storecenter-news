@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_414212b",
+      "views": 0,
+      "date": "2026-10-26T21:43:23.397Z",
+      "title": "Globoplay inclui sportv no plano de entrada e muda diferenças entre assinaturas: o que muda para os próximos jogos?",
+      "subtitle": "Tela inicial do Globoplay. Segundo a plataforma, a oferta reúne mais de 2.500 jogos e eventos ao vivo por ano.",
+      "slug": "globoplay-inclui-sportv-no-plano-de-entrada-e-muda-diferencas-entre-assinaturas-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nTela inicial do Globoplay. Segundo a plataforma, a oferta reúne mais de 2.500 jogos e eventos ao vivo por ano.\n\nO que já foi informado\n\nCom a mudança, os planos \"Com Anúncios\" e \"Premium\" passam a oferecer o mesmo catálogo de conteúdos. A diferença é que o primeiro exibe nos filmes, séries e outros vídeos sob demanda, enquanto o \"Premium\" permite assistir a esses conteúdos sem anúncios. A plataforma mantém uma terceira opção, o \"Premium + Premiere\", que acrescenta a oferta de futebol nacional do Premiere, incluindo nove dos dez jogos de cada rodada do Brasileirão. Agora no g1 Os novos planos já estão disponíveis para novas assinaturas. Para os clientes atuais, a migração começa agora em outubro e será feita gradualmente nos meses seguintes, conforme cada contrato. Quanto custam os planos e o que muda entre eles?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO resultado muda o cenário dos próximos compromissos — ou aumenta ainda mais a pressão?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Globoplay inclui sportv no plano de entrada e muda Store Center",
+      "seoDescription": "Tela inicial do Globoplay. Segundo a plataforma, a oferta reúne mais de 2.500 jogos e eventos ao vivo por ano.",
+      "keyword": "Globoplay inclui sportv no plano de entrada e muda diferenças entre assinaturas",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/26/globoplay-inclui-sportv-no-plano-de-entrada-e-muda-diferencas-entre-assinaturas.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/26/globoplay-inclui-sportv-no-plano-de-entrada-e-muda-diferencas-entre-assinaturas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Globoplay inclui sportv no plano de entrada e muda diferenças entre assinaturas",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_ab6f6a0",
       "views": 0,
       "date": "2026-10-26T20:14:33.886Z",
@@ -26520,7 +26559,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T20:14:22.859Z",
+      "lastScraped": "2026-10-26T21:43:21.456Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26528,7 +26567,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T20:14:23.366Z",
+      "lastScraped": "2026-10-26T21:43:22.420Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26541,7 +26580,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-26T18:50:46.568Z",
+      "lastScraped": "2026-10-26T21:43:23.380Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26598,6 +26637,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793051095826",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Globoplay inclui sportv no plano de entrada e muda diferenças entre assinaturas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Globoplay inclui sportv no plano de entrada e muda diferenças entre assinaturas: o que muda para os próximos jogos?",
+      "postId": "rss-hash_414212b",
+      "timestamp": "2026-10-26T21:43:23.398Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 52.0h (+8), Sem postagem há 52.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1793045706607",
       "feedName": "G1 - Economia",

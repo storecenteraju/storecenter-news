@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_121d96f9",
+      "views": 0,
+      "date": "2026-10-26T08:33:55.221Z",
+      "title": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários Fonte 2 PIB?",
+      "subtitle": "Pilar Olivares Reeleito neste domingo (25), Luiz Inácio Lula da Silva (PT) dará início ao quarto mandato de sua carreira política em janeiro de 2027.",
+      "slug": "o-que-lula-promete-para-o-seu-bolso-veja-as-propostas-para-trabalhadores-aposentados-e-empresarios-fonte-2-pib",
+      "content": "O que aconteceu\n\nPilar Olivares Reeleito neste domingo (25), Luiz Inácio Lula da Silva (PT) dará início ao quarto mandato de sua carreira política em janeiro de 2027. O plano de governo traz uma série de diretrizes para temas estruturais do país.\n\nO que já foi informado\n\nVeja abaixo quais propostas de Lula podem mexer com sua vida financeira, de acordo com o seu perfil. Agora no g1 Sou empregado CLT ou doméstico Sou servidor público Sou trabalhador por conta própria Tenho meu próprio negócio Estou procurando emprego Sou estudante Sou aposentado ou pensionista Recebo benefícios sociais Custo de vida e apoio às famílias Trabalho no campo Quero comprar minha casa A reportagem considera exclusivamente a proposta apresentada no plano de governo. Sou empregado CLT ou doméstico Salário mínimo e remuneração: Promete manter a política de valorização do salário mínimo, com reajustes acima da inflação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "O que Lula promete para o seu bolso? Veja as propostas Store Center",
+      "seoDescription": "Pilar Olivares Reeleito neste domingo (25), Luiz Inácio Lula da Silva (PT) dará início ao quarto mandato de sua carreira política em janeiro de 2027.",
+      "keyword": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários Fonte 2 PIB cresceu, desemprego caiu, mas juros e dívidas pesaram: veja o balanço da economia de Lula 3",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/26/lula-eleito-propostas-economia.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/26/lula-eleito-propostas-economia.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/26/pib-cresceu-desemprego-caiu-mas-juros-e-dividas-pesaram-veja-o-balanco-da-economia-de-lula-3.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5e8f7237",
       "views": 0,
       "date": "2026-10-26T05:10:24.673Z",
@@ -26274,7 +26315,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T05:10:23.596Z",
+      "lastScraped": "2026-10-26T08:33:53.653Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26282,7 +26323,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T05:10:23.839Z",
+      "lastScraped": "2026-10-26T08:33:54.205Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26295,7 +26336,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-26T05:10:24.659Z",
+      "lastScraped": "2026-10-26T08:33:55.206Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26352,6 +26393,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793003656576",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "O que Lula promete para o seu bolso? Veja as propostas para trabalhadores, aposentados e empresários Fonte 2 PIB?",
+      "postId": "rss-hash_121d96f9",
+      "timestamp": "2026-10-26T08:33:55.222Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.5h (+8), Sem postagem há 10.5h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 8",
+      "discardedCategories": []
+    },
     {
       "id": "1792991487254",
       "feedName": "Agência Câmara - Política",

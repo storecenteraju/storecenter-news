@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_12f96fb6",
+      "views": 0,
+      "date": "2026-10-26T11:19:32.461Z",
+      "title": "Fundo de ações brasileiras despenca 26% em Nova York após reeleição de Lula Fonte 2: o que está em jogo no mercado?",
+      "subtitle": "Economia Fundo de ações brasileiras despenca 19% nos EUA após reeleição de Lula O fundo de investimentos EWZ, que acompanha o desempenho de ações de grandes empresas brasileiras na bolsa de Nova York, registrava queda de 26,02% no pré-mercado.",
+      "slug": "fundo-de-acoes-brasileiras-despenca-26-em-nova-york-apos-reeleicao-de-lula-fonte-2-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Fundo de ações brasileiras despenca 19% nos EUA após reeleição de Lula O fundo de investimentos EWZ, que acompanha o desempenho de ações de grandes empresas brasileiras na bolsa de Nova York, registrava queda de 26,02% no pré-mercado desta segunda-feira (26), após a confirmação da reeleição do presidente Luiz Inácio Lula da Silva (PT). Por volta das 7h41 (horário de Brasília), o fundo era negociado a US$ 31,51, contra US$ 42,59 no fechamento de sexta-feira (23).\n\nO que já foi informado\n\nO movimento reflete a reação negativa de investidores ao resultado das eleições presidenciais, em que Lula derrotou o senador Flávio Bolsonaro (PL). O EWZ é um fundo negociado em bolsa, conhecido pela sigla ETF, que permite aos investidores aplicar dinheiro em um conjunto de ações de empresas brasileiras. Por ser negociado nos Estados Unidos, funciona como um dos termômetros da percepção dos investidores estrangeiros sobre o mercado brasileiro. Como o Ibovespa, principal índice da bolsa brasileira, não funciona aos domingos, o EWZ é uma das referências usadas para acompanhar a reação dos investidores fora do horário de funcionamento da B3. Nesta segunda, o Ibovespa começa as negociações às 10h.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fundo de ações brasileiras despenca 26% em Nova York Store Center",
+      "seoDescription": "Economia Fundo de ações brasileiras despenca 19% nos EUA após reeleição de Lula O fundo de investimentos EWZ, que acompanha o desempe",
+      "keyword": "Fundo de ações brasileiras despenca 26% em Nova York após reeleição de Lula Fonte 2 PIB cresceu, desemprego caiu, mas juros e dívidas pesaram: veja o balanço da economia de Lula 3",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/26/mercado-financeiro-acoes-brasileiras-bolsa-eua.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/26/mercado-financeiro-acoes-brasileiras-bolsa-eua.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/26/pib-cresceu-desemprego-caiu-mas-juros-e-dividas-pesaram-veja-o-balanco-da-economia-de-lula-3.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Fundo de ações brasileiras despenca 26% em Nova York após reeleição de Lula",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_121d96f9",
       "views": 0,
       "date": "2026-10-26T08:33:55.221Z",
@@ -26315,7 +26356,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T08:33:53.653Z",
+      "lastScraped": "2026-10-26T11:19:21.376Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26323,7 +26364,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T08:33:54.205Z",
+      "lastScraped": "2026-10-26T11:19:21.938Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26393,6 +26434,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793013647874",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fundo de ações brasileiras despenca 26% em Nova York após reeleição de Lula",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fundo de ações brasileiras despenca 26% em Nova York após reeleição de Lula Fonte 2: o que está em jogo no mercado?",
+      "postId": "rss-hash_12f96fb6",
+      "timestamp": "2026-10-26T11:19:32.462Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.2h (+8), Sem postagem há 13.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": []
+    },
     {
       "id": "1793003656576",
       "feedName": "G1 - Economia",

@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7844bebe",
+      "views": 0,
+      "date": "2026-10-26T16:46:29.905Z",
+      "title": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos: qual pode ser o próximo passo?",
+      "subtitle": "Economia Circuit breaker: Foram realizadas três operações. Os leilões de recompra foram realizados um dia após a vitória de Luiz Inácio Lula da Silva (PT) nas eleições presidenciais, algo que surpreendeu e gerou tensão no mercado financeiro.",
+      "slug": "em-dia-de-nervosismo-no-mercado-tesouro-nacional-recompra-r-7-1-bilhoes-em-titulos-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nEconomia Circuit breaker: Foram realizadas três operações. Os leilões de recompra foram realizados um dia após a vitória de Luiz Inácio Lula da Silva (PT) nas eleições presidenciais, algo que surpreendeu e gerou tensão no mercado financeiro.\n\nO que já foi informado\n\nNesta segunda, o Ibovespa, principal índice da bolsa brasileira, teve as negociações interrompidas por 30 minutos após registrar queda de mais de 10% nos primeiros minutos do pregão. Na retomada dos negócios, voltou com um recuo de mais de 17%. Perto das 12h, caía 15,81%, aos 172.669 pontos. Além disso, o dólar opera em alta, com um avanço de 9,29% perto das 12h, cotado a R$ 5,4568. Na máxima do dia, chegou a R$ 5,6048. O que significa isso?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Em dia de nervosismo no mercado, Tesouro Nacional Store Center",
+      "seoDescription": "Economia Circuit breaker: Foram realizadas três operações. Os leilões de recompra foram realizados um dia após a vitória de Luiz Inác",
+      "keyword": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos públicos Fonte 2 Aplicativos de bancos e corretoras têm instabilidade em meio à turbulência nos mercados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/26/em-dia-de-nervosismo-no-mercado-tesouro-nacional-recompra-r-71-bilhoes-em-titulos-publicos.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/26/em-dia-de-nervosismo-no-mercado-tesouro-nacional-recompra-r-71-bilhoes-em-titulos-publicos.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/26/corretoras-instabilidade.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos públicos",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1db9309d",
       "views": 0,
       "date": "2026-10-26T14:35:02.242Z",
@@ -26397,7 +26439,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-26T14:35:00.520Z",
+      "lastScraped": "2026-10-26T16:46:27.923Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26405,7 +26447,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-26T14:35:01.265Z",
+      "lastScraped": "2026-10-26T16:46:28.462Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26418,7 +26460,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-26T14:35:02.232Z",
+      "lastScraped": "2026-10-26T16:46:29.894Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26475,6 +26517,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793033235351",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos públicos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Em dia de nervosismo no mercado, Tesouro Nacional recompra R$ 7,1 bilhões em títulos: qual pode ser o próximo passo?",
+      "postId": "rss-hash_7844bebe",
+      "timestamp": "2026-10-26T16:46:29.906Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 18.7h (+8), Sem postagem há 18.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia"
+      ]
+    },
     {
       "id": "1793025373934",
       "feedName": "G1 - Economia",

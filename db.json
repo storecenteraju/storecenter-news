@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5e8f7237",
+      "views": 0,
+      "date": "2026-10-26T05:10:24.673Z",
+      "title": "Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias: o que pode mudar agora?",
+      "subtitle": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, afirmou, na noite deste domingo (25), que a decisão liminar que prorrogou o horário de votação no segundo turno das eleições gerou dificuldades para a Justiça Eleitoral.",
+      "slug": "presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nO presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, afirmou, na noite deste domingo (25), que a decisão liminar que prorrogou o horário de votação no segundo turno das eleições gerou dificuldades para a Justiça Eleitoral. Segundo ele, a equipe técnica conseguiu contornar os problemas e dar continuidade à totalização dos votos após as 19h.\n\nO que já foi informado\n\nNunes Marques disse que recebeu o pedido de prorrogação por volta das 15h30 e buscou informações técnicas junto ao Tribunal Regional Eleitoral da Bahia, às prefeituras envolvidas e às equipes do TSE. Segundo ele, não havia norma que autorizasse a prorrogação. “Não seria possível, em poucas horas, construir um juízo de certeza de que nenhum efeito colateral, especialmente no aspecto tecnológico, advindo de uma decisão judicial, viesse a impactar significativamente a apuração”, afirmou. O ministro explicou que foi necessário bloquear o recebimento dos boletins de urna para impedir que servidores da Justiça Eleitoral e integrantes do tribunal tivessem acesso aos resultados durante o período de prorrogação. “Isso gerou uma contenção extraordinária nos boletins de urna.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Judiciário",
+      "author": "Redação Store Center",
+      "tags": [
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Presidente do TSE afirma que a decisão de prorrogar a Store Center",
+      "seoDescription": "O presidente do Tribunal Superior Eleitoral (TSE), ministro Kassio Nunes Marques, afirmou, na noite deste domingo (25), que a decisão liminar que pror",
+      "keyword": "Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1313728-presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1313728-presidente-do-tse-afirma-que-a-decisao-de-prorrogar-a-votacao-exigiu-medidas-extraordinarias"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_1bcc8444",
       "views": 0,
       "date": "2026-10-25T22:05:07.062Z",
@@ -26235,7 +26274,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-25T22:05:05.140Z",
+      "lastScraped": "2026-10-26T05:10:23.596Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26243,7 +26282,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-25T22:05:05.476Z",
+      "lastScraped": "2026-10-26T05:10:23.839Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26256,7 +26295,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-25T22:05:07.047Z",
+      "lastScraped": "2026-10-26T05:10:24.659Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26313,6 +26352,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1792991487254",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian supreme court justice building judges legal documents courtroom judiciary, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Presidente do TSE afirma que a decisão de prorrogar a votação exigiu medidas extraordinárias: o que pode mudar agora?",
+      "postId": "rss-hash_5e8f7237",
+      "timestamp": "2026-10-26T05:10:24.673Z",
+      "chosenCategory": "Judiciário",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 62.2h (+8), Sem postagem há 62.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1792965975035",
       "feedName": "G1 - Economia",

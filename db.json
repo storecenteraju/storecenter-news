@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_670f40d4",
+      "views": 0,
+      "date": "2026-10-27T19:46:12.541Z",
+      "title": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede: por que isso importa para a economia?",
+      "subtitle": "Economia Ministro da Fazenda fala sobre reação do mercado O ministro da Fazenda, Dario Durigan, anunciou nesta terça-feira (27) que o governo federal enviará ao Congresso Nacional um projeto de lei para estabelecer expressamente o compromisso.",
+      "slug": "durigan-anuncia-projeto-para-cumprir-centro-da-meta-fiscal-e-pede-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Ministro da Fazenda fala sobre reação do mercado O ministro da Fazenda, Dario Durigan, anunciou nesta terça-feira (27) que o governo federal enviará ao Congresso Nacional um projeto de lei para estabelecer expressamente o compromisso de atingir o centro da meta fiscal em 2027. Ao mirar o centro da meta, em tese, o governo poderá precisar bloquear mais recursos ao longo de 2027, limitando os gastos dos ministérios.\n\nO que já foi informado\n\nA medida busca recuperar a confiança do mercado financeiro, que enfrentou fortes turbulências nesta segunda-feira (26), após a confirmação da reeleição do presidente Luiz Inácio Lula da Silva (PT) no fim de semana. \"Depois da eleição, o presidente vai definir a equipe dele, depois a equipe vai apresentar quais serão essas medidas em termos de ajuste, em termos de perseguição da meta, para mostrar que o compromisso nosso, o compromisso desse governo do presidente é com responsabilidade fiscal\", disse o ministro. Sem dar detalhes, Durigan também afirmou que a equipe econômica prepara outras medidas para reforçar a confiança na trajetória das contas públicas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Durigan anuncia projeto para cumprir centro da meta Store Center",
+      "seoDescription": "Economia Ministro da Fazenda fala sobre reação do mercado O ministro da Fazenda, Dario Durigan, anunciou nesta terça-feira (27) que o",
+      "keyword": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado Fonte 2 Bilionários brasileiros perdem R$ 75 bilhões em um dia após tombo da bolsa; veja os mais afetados",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/27/bilionarios-brasileiros-perdem-us-14-bilhoes-apos-tombo-do-ibovespa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_4ce709d7",
       "views": 0,
       "date": "2026-10-27T18:12:34.594Z",
@@ -26887,7 +26928,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-27T18:12:33.160Z",
+      "lastScraped": "2026-10-27T19:46:10.962Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26895,7 +26936,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-27T18:12:33.749Z",
+      "lastScraped": "2026-10-27T19:46:11.497Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26908,7 +26949,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-27T18:12:34.578Z",
+      "lastScraped": "2026-10-27T19:46:12.523Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26965,6 +27006,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793130389577",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Durigan anuncia projeto para cumprir centro da meta fiscal e pede: por que isso importa para a economia?",
+      "postId": "rss-hash_670f40d4",
+      "timestamp": "2026-10-27T19:46:12.542Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -25,
+      "choiceReason": "Prioridade Categoria: Dominante com 50% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: -2",
+      "discardedCategories": []
+    },
     {
       "id": "1793124843937",
       "feedName": "G1 - Economia",

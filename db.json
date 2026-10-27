@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4ce709d7",
+      "views": 0,
+      "date": "2026-10-27T18:12:34.594Z",
+      "title": "El Niño pode provocar perdas de R$ 33 bilhões na safra de soja do Brasil: por que isso importa para a economia?",
+      "subtitle": "Aprosoja A safra brasileira de soja 2026/27 pode ter uma queda de cerca de 10% caso o El Niño seja forte, reduzindo a produção de 181,2 milhões para 163,6 milhões de toneladas.",
+      "slug": "el-nino-pode-provocar-perdas-de-r-33-bilhoes-na-safra-de-soja-do-brasil-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nAprosoja A safra brasileira de soja 2026/27 pode ter uma queda de cerca de 10% caso o El Niño seja forte, reduzindo a produção de 181,2 milhões para 163,6 milhões de toneladas. A estimativa faz parte de um estudo divulgado nesta terça-feira (27) pela Serasa Experian, que analisou os possíveis impactos do fenômeno climático nas principais regiões produtoras do país.\n\nO que já foi informado\n\nO Brasil é o maior produtor e exportador mundial de soja. Segundo o estudo, a projeção considera uma expansão de 900 mil hectares na área plantada, alta de 1,8% em relação à safra anterior, chegando a 49,9 milhões de hectares. Mesmo com a expansão da área plantada, porém, a falta de chuva e as temperaturas elevadas poderiam reduzir a produtividade das lavouras. Agora no g1 As maiores perdas se concentrariam no Centro-Oeste. Segundo a Serasa, Mato Grosso poderia perder 9,7 milhões de toneladas de soja, enquanto Goiás teria uma redução de 4 milhões de toneladas na produção. O levantamento foi divulgado enquanto o plantio da safra avança rapidamente em várias regiões do país.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "El Niño pode provocar perdas de R$ 33 bilhões na safra Store Center",
+      "seoDescription": "Aprosoja A safra brasileira de soja 2026/27 pode ter uma queda de cerca de 10% caso o El Niño seja forte, reduzindo a produção de 181,2 milhões para 1",
+      "keyword": "El Niño pode provocar perdas de R$ 33 bilhões na safra de soja do Brasil; entenda os riscos Fonte 2 Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/27/el-nino-pode-reduzir-safra-de-soja-do-brasil-em-10percent-projeta-serasa.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/27/el-nino-pode-reduzir-safra-de-soja-do-brasil-em-10percent-projeta-serasa.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "El Niño pode provocar perdas de R$ 33 bilhões na safra de soja do Brasil; entenda os riscos",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_41c62697",
       "views": 0,
       "date": "2026-10-27T15:51:22.643Z",
@@ -26846,7 +26887,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-27T15:51:20.727Z",
+      "lastScraped": "2026-10-27T18:12:33.160Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26854,7 +26895,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-27T15:51:21.254Z",
+      "lastScraped": "2026-10-27T18:12:33.749Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26867,7 +26908,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-27T15:51:22.626Z",
+      "lastScraped": "2026-10-27T18:12:34.578Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26924,6 +26965,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793124843937",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "El Niño pode provocar perdas de R$ 33 bilhões na safra de soja do Brasil; entenda os riscos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "El Niño pode provocar perdas de R$ 33 bilhões na safra de soja do Brasil: por que isso importa para a economia?",
+      "postId": "rss-hash_4ce709d7",
+      "timestamp": "2026-10-27T18:12:34.594Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -20,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.6h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 3",
+      "discardedCategories": []
+    },
     {
       "id": "1793116346373",
       "feedName": "G1 - Economia",

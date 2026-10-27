@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7a50b708",
+      "views": 0,
+      "date": "2026-10-27T13:36:16.428Z",
+      "title": "Ministro da Fazenda diz que deve enviar nesta semana projeto do imposto do: por que isso importa para a economia?",
+      "subtitle": "Economia Passadas as eleições, a equipe econômica se prepara para enviar ao Congresso Nacional a proposta para regulamentar o imposto seletivo, conhecido como \"imposto do pecado\".",
+      "slug": "ministro-da-fazenda-diz-que-deve-enviar-nesta-semana-projeto-do-imposto-do-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEconomia Passadas as eleições, a equipe econômica se prepara para enviar ao Congresso Nacional a proposta para regulamentar o imposto seletivo, conhecido como \"imposto do pecado\". Nesta terça-feira (27), o ministro da Fazenda, Dario Durigan, afirmou que a proposta para o novo imposto será enviada em breve ao Congresso Nacional, provavelmente nesta semana.\n\nO que já foi informado\n\n— G1 - Economia O ministro da Fazenda, Dario Durigan, anunciou nesta terça-feira (27) que o governo federal encaminhará um projeto de lei ao Congresso Nacional para definir claramente que perseguirá o centro da meta fiscal em 2027. Ao mirar o centro da meta, em tese, o governo terá de realizar bloqueios maiores de recursos ao longo do próximo ano, contendo despesas dos ministérios. A medida busca tentar recuperar a confiança do mercado financeiro, que passou por fortes turbulências nesta segunda-feira (26) após confirmada a reeleição do presidente Luiz Inácio Lula da Silva no fim de semana.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Ministro da Fazenda diz que deve enviar nesta semana Store Center",
+      "seoDescription": "Economia Passadas as eleições, a equipe econômica se prepara para enviar ao Congresso Nacional a proposta para regulamentar o imposto",
+      "keyword": "Ministro da Fazenda diz que deve enviar nesta semana projeto do imposto do pecado Fonte 2 Ministro da Fazenda anuncia projeto para mirar centro da meta fiscal e diz que espera 'racionalidade' do mercado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-diz-que-deve-enviar-nesta-semana-projeto-do-imposto-do-pecado.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-diz-que-deve-enviar-nesta-semana-projeto-do-imposto-do-pecado.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Ministro da Fazenda diz que deve enviar nesta semana projeto do imposto do pecado",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_2c0c1bfb",
       "views": 0,
       "date": "2026-10-27T10:43:53.836Z",
@@ -26764,7 +26805,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-27T10:43:52.286Z",
+      "lastScraped": "2026-10-27T13:36:15.052Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26772,7 +26813,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-27T10:43:52.833Z",
+      "lastScraped": "2026-10-27T13:36:15.371Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26785,7 +26826,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-27T10:43:53.827Z",
+      "lastScraped": "2026-10-27T13:36:16.413Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26842,6 +26883,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793108192890",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Ministro da Fazenda diz que deve enviar nesta semana projeto do imposto do pecado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Ministro da Fazenda diz que deve enviar nesta semana projeto do imposto do: por que isso importa para a economia?",
+      "postId": "rss-hash_7a50b708",
+      "timestamp": "2026-10-27T13:36:16.429Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.2h (+8), Sem postagem há 8.2h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 11",
+      "discardedCategories": []
+    },
     {
       "id": "1793097883854",
       "feedName": "G1 - Economia",

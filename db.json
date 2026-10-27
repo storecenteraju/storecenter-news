@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_484ca8e5",
+      "views": 0,
+      "date": "2026-10-27T23:14:30.673Z",
+      "title": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Motta para presidente da Câmara: o que pode mudar agora?",
+      "subtitle": "A federação de partidos formada por PT, PCdoB e PV anunciou nesta terça-feira (27) o apoio à reeleição do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), na próxima legislatura.",
+      "slug": "federacao-pt-pcdob-pv-anuncia-apoio-a-reeleicao-de-motta-para-presidente-da-camara-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nA federação de partidos formada por PT, PCdoB e PV anunciou nesta terça-feira (27) o apoio à reeleição do presidente da Câmara dos Deputados, Hugo Motta (Republicanos-PB), na próxima legislatura. Os três partidos, que compõem a chamada Federação Brasil da Esperança, também vão participar do bloco parlamentar composto com partidos de centro, como União, PP, PSD, Republicanos, MDB, Federação PSDB-Cidadania e Podemos.\n\nO que já foi informado\n\nDe acordo com o Regimento Interno da Câmara, o tamanho de cada bloco partidário na Casa define as preferências nas comissões permanentes e nas escolhas de cargos para a Mesa Diretora. No ano que vem, a federação PT-PCdoB-PV será composta por 88 deputados, e o bloco parlamentar pode chegar a 328 deputados federais. O líder do PT, deputado Pedro Uczai (SC), afirmou que a decisão foi tomada para ampliar a governabilidade do novo governo do presidente Lula e permitir o avanço das pautas defendidas pelos três partidos que compõem a federação. “Estamos compondo com o bloco do centro, no espaço prático dentro da Casa, para permitir que a pauta avance.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA concentração da campanha nas redes amplia o debate político — ou favorece apenas quem já tem grande audiência?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Store Center",
+      "seoDescription": "A federação de partidos formada por PT, PCdoB e PV anunciou nesta terça-feira (27) o apoio à reeleição do presidente da Câmara dos Deputados, Hugo Mot",
+      "keyword": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Motta para presidente da Câmara",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1314337-federacao-pt-pcdob-pv-anuncia-apoio-a-reeleicao-de-motta-para-presidente-da-camara",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1314337-federacao-pt-pcdob-pv-anuncia-apoio-a-reeleicao-de-motta-para-presidente-da-camara"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Motta para presidente da Câmara",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_670f40d4",
       "views": 0,
       "date": "2026-10-27T19:46:12.541Z",
@@ -26928,7 +26967,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-27T19:46:10.962Z",
+      "lastScraped": "2026-10-27T23:14:29.099Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26936,7 +26975,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-27T19:46:11.497Z",
+      "lastScraped": "2026-10-27T23:14:29.634Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26949,7 +26988,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-27T19:46:12.523Z",
+      "lastScraped": "2026-10-27T23:14:30.661Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27006,6 +27045,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793142875271",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Motta para presidente da Câmara",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Federação PT-PCdoB-PV anuncia apoio à reeleição de Motta para presidente da Câmara: o que pode mudar agora?",
+      "postId": "rss-hash_484ca8e5",
+      "timestamp": "2026-10-27T23:14:30.674Z",
+      "chosenCategory": "Política",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 104.2h (+8), Sem postagem há 104.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1793130389577",
       "feedName": "G1 - Economia",

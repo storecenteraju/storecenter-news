@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_41c62697",
+      "views": 0,
+      "date": "2026-10-27T15:51:22.643Z",
+      "title": "Esportivo usado por Tony Stark no filme 'Os Vingadores' vai a leilão; lances já passam: o que está em jogo no mercado?",
+      "subtitle": "Um esportivo usado no filme \"Os Vingadores\" vai a leilão. O modelo exclusivo, um Acura NSX Roadster customizado para o personagem Tony Stark no longa da Marvel de 2012, está sendo oferecido em um site de leilões nos Estados Unidos.",
+      "slug": "esportivo-usado-por-tony-stark-no-filme-os-vingadores-vai-a-leilao-lances-ja-passam-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nUm esportivo usado no filme \"Os Vingadores\" vai a leilão. O modelo exclusivo, um Acura NSX Roadster customizado para o personagem Tony Stark no longa da Marvel de 2012, está sendo oferecido em um site de leilões nos Estados Unidos.\n\nO que já foi informado\n\nOs lances já passam de R$ 520 mil até o momento. O arremate online será encerrado no dia 31 de outubro, durante um evento em Las Vegas, Nevada, onde o veículo fará sua próxima aparição pública. A venda faz parte das comemorações do 35º aniversário da linha NSX. Todo o valor arrecadado com o lance vencedor será doado para uma instituição de caridade definida em comum acordo entre o comprador e o vendedor. O protótipo foi projetado pelo estúdio avançado de design da Acura em Los Angeles e construído pela empresa Trans FX. Por que o Honda Civic sumiu das ruas?\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Esportivo usado por Tony Stark no filme 'Os Vingadores' Store Center",
+      "seoDescription": "Um esportivo usado no filme \"Os Vingadores\" vai a leilão. O modelo exclusivo, um Acura NSX Roadster customizado para o personagem Tony Stark no longa",
+      "keyword": "Esportivo usado por Tony Stark no filme 'Os Vingadores' vai a leilão; lances já passam de R$ 520 mil Fonte 2 Durigan anuncia projeto para cumprir centro da meta fiscal e pede 'racionalidade' do mercado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/27/nsx-vingadores-leilao.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/27/nsx-vingadores-leilao.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/27/ministro-da-fazenda-anuncia-projeto-para-mirar-centro-da-meta-fiscal-e-diz-que-espera-racionalidade-do-mercado.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Esportivo usado por Tony Stark no filme 'Os Vingadores' vai a leilão; lances já passam de R$ 520 mil",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_7a50b708",
       "views": 0,
       "date": "2026-10-27T13:36:16.428Z",
@@ -26805,7 +26846,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-27T13:36:15.052Z",
+      "lastScraped": "2026-10-27T15:51:20.727Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -26813,7 +26854,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-27T13:36:15.371Z",
+      "lastScraped": "2026-10-27T15:51:21.254Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -26826,7 +26867,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-27T13:36:16.413Z",
+      "lastScraped": "2026-10-27T15:51:22.626Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -26883,6 +26924,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793116346373",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Esportivo usado por Tony Stark no filme 'Os Vingadores' vai a leilão; lances já passam de R$ 520 mil",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Esportivo usado por Tony Stark no filme 'Os Vingadores' vai a leilão; lances já passam: o que está em jogo no mercado?",
+      "postId": "rss-hash_41c62697",
+      "timestamp": "2026-10-27T15:51:22.644Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": -25,
+      "choiceReason": "Prioridade Categoria: Dominante com 50% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: -2",
+      "discardedCategories": []
+    },
     {
       "id": "1793108192890",
       "feedName": "G1 - Economia",

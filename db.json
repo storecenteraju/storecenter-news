@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_49c77f54",
+      "views": 0,
+      "date": "2026-10-28T21:46:53.831Z",
+      "title": "Lula quer criar Ministério do Idoso Fonte 2 Raízen fecha acordo de R$ 22,4 bilhões com: qual pode ser o próximo passo?",
+      "subtitle": "Economia O presidente Luiz Inácio Lula da Silva (PT) decidiu criar o Ministério do Idoso para seu quarto mandato.",
+      "slug": "lula-quer-criar-ministerio-do-idoso-fonte-2-raizen-fecha-acordo-de-r-22-4-bilhoes-com-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nEconomia O presidente Luiz Inácio Lula da Silva (PT) decidiu criar o Ministério do Idoso para seu quarto mandato. O blog apurou que auxiliares próximos de Lula procuraram especialistas do setor para montar um ministério que inclua atenção social, em saúde e proteção desta faixa da população.\n\nO que já foi informado\n\nAuxiliares de Lula querem aproveitar a experiência da Universidade Aberta da Terceira Idade, integrada ao Núcleo do Envelhecimento Humano da Universidade do Estado do Rio de Janeiro. Agora no g1 Um dos nomes cotados para comandar o ministério é o do médico e ex-deputado federal Alexandre Cardoso, que foi secretário de Ciência e Tecnologia do governo do Rio de Janeiro na gestão de Sérgio Cabral e trabalha em projetos para terceira idade, entre eles o de inclusão digital e social. No discurso de vitória de Lula, na noite de domingo (25), o presidente reeleito agradeceu o voto de idosos, muitos dos quais foram às urnas mesmo sem a obrigatoriedade de votar por terem mais de 70 anos. Ao celebrar seus 81 anos, nesta terça-feira, Lula recebeu idosos e voltou a falar da importância do voto deles. “Eu estava vendo o vídeo dos velhinhos votarem.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Lula quer criar Ministério do Idoso Fonte 2 Raízen Store Center",
+      "seoDescription": "Economia O presidente Luiz Inácio Lula da Silva (PT) decidiu criar o Ministério do Idoso para seu quarto mandato.",
+      "keyword": "Lula quer criar Ministério do Idoso Fonte 2 Raízen fecha acordo de R$ 22,4 bilhões com a União e abate R$ 8,5 bilhões em multas e juros",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/blog/ana-flor/post/2026/10/28/lula-quer-criar-ministerio-do-idoso.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/blog/ana-flor/post/2026/10/28/lula-quer-criar-ministerio-do-idoso.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/28/raizen-fecha-acordo-tributario.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Lula quer criar Ministério do Idoso",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_73f6babe",
       "views": 0,
       "date": "2026-10-28T20:00:02.087Z",
@@ -27289,7 +27331,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-28T20:00:00.336Z",
+      "lastScraped": "2026-10-28T21:46:52.202Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27297,7 +27339,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-28T20:00:00.995Z",
+      "lastScraped": "2026-10-28T21:46:53.005Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27310,7 +27352,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-28T20:00:02.072Z",
+      "lastScraped": "2026-10-28T21:46:53.818Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27367,6 +27409,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793224048695",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Lula quer criar Ministério do Idoso",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Lula quer criar Ministério do Idoso Fonte 2 Raízen fecha acordo de R$ 22,4 bilhões com: qual pode ser o próximo passo?",
+      "postId": "rss-hash_49c77f54",
+      "timestamp": "2026-10-28T21:46:53.832Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.4h (+8), Sem postagem há 12.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Direito",
+        "Tecnologia",
+        "Geopolítica",
+        "Política"
+      ]
+    },
     {
       "id": "1793217684281",
       "feedName": "G1 - Economia",

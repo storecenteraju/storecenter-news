@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_38ef4acb",
+      "views": 0,
+      "date": "2026-10-28T14:31:32.172Z",
+      "title": "Snapchat é julgado nos EUA pela primeira vez em caso de dependência em redes sociais: por que esse movimento importa?",
+      "subtitle": "A plataforma de mensagens Snapchat terá que se defender, pela primeira vez, diante de um júri contra acusações de vício em redes sociais entre os jovens, ao lado do Instagram (Meta), em um novo julgamento que começa nesta quarta-feira (28) em Los Angeles.",
+      "slug": "snapchat-e-julgado-nos-eua-pela-primeira-vez-em-caso-de-dependencia-em-redes-sociais-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA plataforma de mensagens Snapchat terá que se defender, pela primeira vez, diante de um júri contra acusações de vício em redes sociais entre os jovens, ao lado do Instagram (Meta), em um novo julgamento que começa nesta quarta-feira (28) em Los Angeles. Nos últimos anos, foram apresentados milhares de processos em tribunais locais, estaduais e federais por todos os Estados Unidos, contendo diversas acusações sobre supostos danos a crianças e adolescentes causados por essas plataformas.\n\nO que já foi informado\n\nA seleção dos jurados começa nesta quarta-feira (28), e as audiências, que devem prosseguir até 4 de novembro, estão previstas para durar até meados de dezembro. A Snap, empresa matriz do Snapchat, e a Meta ainda podem optar por um acordo antes do veredicto. Agora no g1 Espera-se que os responsáveis pela Meta e pela Snap, Mark Zuckerberg e Evan Spiegel, prestem depoimento em meados de novembro, assim como o chefe do Instagram, Adam Mosseri, segundo os advogados das partes demandantes. Elas acusam as plataformas de terem sido projetadas para gerar dependência, resultando em quadros de depressão, ansiedade, transtornos alimentares e automutilação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Snapchat é julgado nos EUA pela primeira vez em caso de Store Center",
+      "seoDescription": "A plataforma de mensagens Snapchat terá que se defender, pela primeira vez, diante de um júri contra acusações de vício em redes sociais entre os jove",
+      "keyword": "Snapchat é julgado nos EUA pela primeira vez em caso de dependência em redes sociais",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/28/snapchat-e-julgado-nos-eua-pela-primeira-vez-em-caso-de-dependencia-em-redes-sociais.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/28/snapchat-e-julgado-nos-eua-pela-primeira-vez-em-caso-de-dependencia-em-redes-sociais.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Snapchat é julgado nos EUA pela primeira vez em caso de dependência em redes sociais",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_2743f8e3",
       "views": 0,
       "date": "2026-10-28T11:27:31.971Z",
@@ -27127,7 +27166,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-28T11:27:30.750Z",
+      "lastScraped": "2026-10-28T14:31:30.909Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27135,7 +27174,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-28T11:27:31.255Z",
+      "lastScraped": "2026-10-28T14:31:31.201Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27148,7 +27187,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-28T11:27:31.957Z",
+      "lastScraped": "2026-10-28T14:31:32.162Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27205,6 +27244,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793197942251",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Snapchat é julgado nos EUA pela primeira vez em caso de dependência em redes sociais",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Snapchat é julgado nos EUA pela primeira vez em caso de dependência em redes sociais: por que esse movimento importa?",
+      "postId": "rss-hash_38ef4acb",
+      "timestamp": "2026-10-28T14:31:32.172Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 40.8h (+8), Sem postagem há 40.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Economia",
+        "Política"
+      ]
+    },
     {
       "id": "1793186880521",
       "feedName": "G1 - Economia",

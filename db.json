@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5a785fc",
+      "views": 0,
+      "date": "2026-10-28T09:20:30.964Z",
+      "title": "Governo renova subsídio ao diesel; por que o agro é tão vulnerável à alta do: o que está em jogo no mercado?",
+      "subtitle": "Economia Governo prorroga subvenção de R$ 2,12 por litro de diesel O governo federal prorrogou nesta terça-feira (27), por mais 30 dias, o subsídio ao diesel, mantendo o benefício em R$ 2,12 por litro.",
+      "slug": "governo-renova-subsidio-ao-diesel-por-que-o-agro-e-tao-vulneravel-a-alta-do-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Governo prorroga subvenção de R$ 2,12 por litro de diesel O governo federal prorrogou nesta terça-feira (27), por mais 30 dias, o subsídio ao diesel, mantendo o benefício em R$ 2,12 por litro. A medida busca conter os efeitos da alta dos preços internacionais do petróleo, principal matéria-prima do combustível, pressionados pelos conflitos no Oriente Médio e pela guerra entre Rússia e Ucrânia.\n\nO que já foi informado\n\nO barril do petróleo Brent, referência internacional, foi negociado entre US$ 100 e US$ 106 na primeira quinzena de outubro e chegou a US$ 113,17 no dia 22. Para o governo, qualquer valor acima dos US$ 70 gera pressão forte nos preços para o mercado interno. Além da alta da commodity, a desvalorização do real também pode encarecer a produção e a importação de diesel. Apesar de ser um grande produtor de petróleo, o Brasil importa cerca de um quinto do diesel que consome, segundo dados da Agência Nacional do Petróleo (ANP). Em agosto, o diesel importado correspondeu a 23,14% das vendas nacionais de diesel A, combustível ainda sem a mistura obrigatória de biodiesel.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo renova subsídio ao diesel; por que o agro é tão Store Center",
+      "seoDescription": "Economia Governo prorroga subvenção de R$ 2,12 por litro de diesel O governo federal prorrogou nesta terça-feira (27), por mais 30 di",
+      "keyword": "Governo renova subsídio ao diesel; por que o agro é tão vulnerável à alta do combustível? Fonte 2 LISTA: veja os 6 carros de até R$ 100 mil que consomem menos combustível",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/28/por-que-o-agro-e-tao-vulneravel-a-alta-do-diesel.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/28/por-que-o-agro-e-tao-vulneravel-a-alta-do-diesel.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/10/28/lista-veja-carros-economicos.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Governo renova subsídio ao diesel; por que o agro é tão vulnerável à alta do combustível?",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_5c8d3335",
       "views": 0,
       "date": "2026-10-28T06:05:31.131Z",
@@ -27047,7 +27088,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-28T06:05:29.494Z",
+      "lastScraped": "2026-10-28T09:20:29.623Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27055,7 +27096,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-28T06:05:30.047Z",
+      "lastScraped": "2026-10-28T09:20:29.938Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27068,7 +27109,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-28T06:05:31.117Z",
+      "lastScraped": "2026-10-28T09:20:30.955Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27125,6 +27166,25 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793179240199",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo renova subsídio ao diesel; por que o agro é tão vulnerável à alta do combustível?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian social benefit service citizens documents economy public assistance, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo renova subsídio ao diesel; por que o agro é tão vulnerável à alta do: o que está em jogo no mercado?",
+      "postId": "rss-hash_5a785fc",
+      "timestamp": "2026-10-28T09:20:30.964Z",
+      "chosenCategory": "Economia",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.0h (+8), Sem postagem há 8.0h (+5), Dominante com 50% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 11",
+      "discardedCategories": []
+    },
     {
       "id": "1793167540414",
       "feedName": "G1 - Economia",

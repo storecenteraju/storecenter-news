@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2743f8e3",
+      "views": 0,
+      "date": "2026-10-28T11:27:31.971Z",
+      "title": "Número de super-ricos na China atinge maior nível com ascensão de empresários de: por que esse movimento importa?",
+      "subtitle": "O número de super-ricos na China atingiu o maior nível já registrado neste ano, impulsionado pela entrada de empresários do setor de tecnologia na lista, entre eles o fundador da DeepSeek.",
+      "slug": "numero-de-super-ricos-na-china-atinge-maior-nivel-com-ascensao-de-empresarios-de-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nO número de super-ricos na China atingiu o maior nível já registrado neste ano, impulsionado pela entrada de empresários do setor de tecnologia na lista, entre eles o fundador da DeepSeek. Segundo a Hurun China Rich List, divulgada nesta terça-feira (28), o país tem agora o recorde de 1.529 pessoas com patrimônio superior a 5 bilhões de yuans, o equivalente a US$ 750 milhões ou R$ 4 bilhões.\n\nO que já foi informado\n\nO total supera o recorde anterior, de 1.460 pessoas, registrado em 2021. Quem são os brasileiros mais ricos segundo nova lista de bilionários da Forbes Liang Wenfeng, fundador da startup de inteligência artificial DeepSeek, estreou na sétima posição do ranking, com uma fortuna estimada em US$ 41,7 bilhões, cerca de R$ 223 bilhões. Ele está entre os 263 novos integrantes da lista, provenientes, em sua maioria, dos setores de semicondutores, inteligência artificial e robótica. A fortuna de Wenfeng aumentou após o lançamento do modelo de inteligência artificial R1, no ano passado.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Número de super-ricos na China atinge maior nível com Store Center",
+      "seoDescription": "O número de super-ricos na China atingiu o maior nível já registrado neste ano, impulsionado pela entrada de empresários do setor de tecnologia na lis",
+      "keyword": "Número de super-ricos na China atinge maior nível com ascensão de empresários de tecnologia",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/28/numero-de-super-ricos-na-china-atinge-maior-nivel-com-ascensao-de-empresarios-de-tecnologia.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/28/numero-de-super-ricos-na-china-atinge-maior-nivel-com-ascensao-de-empresarios-de-tecnologia.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Número de super-ricos na China atinge maior nível com ascensão de empresários de tecnologia",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_5a785fc",
       "views": 0,
       "date": "2026-10-28T09:20:30.964Z",
@@ -27088,7 +27127,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-28T09:20:29.623Z",
+      "lastScraped": "2026-10-28T11:27:30.750Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27096,7 +27135,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-28T09:20:29.938Z",
+      "lastScraped": "2026-10-28T11:27:31.255Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27109,7 +27148,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-28T09:20:30.955Z",
+      "lastScraped": "2026-10-28T11:27:31.957Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27166,6 +27205,27 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793186880521",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Número de super-ricos na China atinge maior nível com ascensão de empresários de tecnologia",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Número de super-ricos na China atinge maior nível com ascensão de empresários de: por que esse movimento importa?",
+      "postId": "rss-hash_2743f8e3",
+      "timestamp": "2026-10-28T11:27:31.972Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 37.7h (+8), Sem postagem há 37.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 43",
+      "discardedCategories": [
+        "Economia"
+      ]
+    },
     {
       "id": "1793179240199",
       "feedName": "G1 - Economia",

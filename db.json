@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2528750f",
+      "views": 0,
+      "date": "2026-10-29T19:59:17.065Z",
+      "title": "Bunge fecha fábrica de amônia usada na produção de fertilizantes na Argentina Fonte 2: por que esse movimento importa?",
+      "subtitle": "A unidade produzia amônia e tiossulfato de amônio, substâncias utilizadas na fabricação de fertilizantes.",
+      "slug": "bunge-fecha-fabrica-de-amonia-usada-na-producao-de-fertilizantes-na-argentina-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA unidade produzia amônia e tiossulfato de amônio, substâncias utilizadas na fabricação de fertilizantes. A amônia é uma matéria-prima utilizada na fabricação de fertilizantes nitrogenados, como a ureia, aplicada em culturas como milho, trigo, cevada e arroz.\n\nO que já foi informado\n\nJá o tiossulfato de amônio é usado na formulação de fertilizantes líquidos que fornecem nitrogênio e enxofre, nutrientes importantes para o desenvolvimento das plantas. Segundo a empresa, a decisão foi tomada após uma análise de alternativas operacionais e comerciais. A Bunge também atribui o fechamento a uma combinação de fatores que \"comprometem a viabilidade econômica da operação\", entre eles limitações de infraestrutura e tecnologia de uma planta com mais de 50 anos e mudanças nas condições de mercado e no abastecimento de insumos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Bunge fecha fábrica de amônia usada na produção de Store Center",
+      "seoDescription": "A unidade produzia amônia e tiossulfato de amônio, substâncias utilizadas na fabricação de fertilizantes.",
+      "keyword": "Bunge fecha fábrica de amônia usada na produção de fertilizantes na Argentina Fonte 2 Exportações beneficiadas por acordo com a União Europeia crescem 21% em cinco meses; mel e abacate são destaques",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/29/bunge-argentina-fertilizantes-fecha-fabrica.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/29/bunge-argentina-fertilizantes-fecha-fabrica.ghtml",
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/29/exportacoes-beneficiadas-por-acordo-com-a-uniao-europeia-crescem-21percent-em-cinco-meses-mel-e-abacate-sao-destaques.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Bunge fecha fábrica de amônia usada na produção de fertilizantes na Argentina",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_26572e09",
       "views": 0,
       "date": "2026-10-29T18:37:56.909Z",
@@ -27659,7 +27700,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-29T18:37:55.096Z",
+      "lastScraped": "2026-10-29T19:59:15.747Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27667,7 +27708,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-29T18:37:56.090Z",
+      "lastScraped": "2026-10-29T19:59:16.230Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27680,7 +27721,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-29T18:37:56.899Z",
+      "lastScraped": "2026-10-29T19:59:17.052Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27737,6 +27778,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793304028071",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Bunge fecha fábrica de amônia usada na produção de fertilizantes na Argentina",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Bunge fecha fábrica de amônia usada na produção de fertilizantes na Argentina Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_2528750f",
+      "timestamp": "2026-10-29T19:59:17.066Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 8.4h (+8), Sem postagem há 8.4h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Tecnologia",
+        "Nacional",
+        "Geopolítica",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1793299111772",
       "feedName": "G1 - Economia",

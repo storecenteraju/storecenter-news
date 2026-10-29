@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_477f29ba",
+      "views": 0,
+      "date": "2026-10-29T21:53:51.511Z",
+      "title": "Google vai colocar anúncios nas respostas da inteligência artificial no Brasil ainda em 2026 Fonte 2 Brasil deve R$ 11",
+      "subtitle": "A iniciativa faz parte da estratégia da empresa para adaptar sua às buscas feitas com inteligência artificial (IA), que permitem aos usuários fazer perguntas mais longas e em formato de conversa.",
+      "slug": "google-vai-colocar-anuncios-nas-respostas-da-inteligencia-artificial-no-brasil-ainda-em-2026-fonte-2-brasil-deve-r-11",
+      "content": "O que aconteceu\n\nA iniciativa faz parte da estratégia da empresa para adaptar sua às buscas feitas com inteligência artificial (IA), que permitem aos usuários fazer perguntas mais longas e em formato de conversa. O anúncio foi feito por Shashi Thakur, vice-presidente e gerente-geral do Google Ads, em uma publicação no blog oficial da companhia.\n\nO que já foi informado\n\nA expansão já começou em dez países: Austrália, Canadá, Índia, Quênia, Malásia, Nova Zelândia, Nigéria, Paquistão, Filipinas e Cingapura. Segundo Thakur, a empresa pretende levar o formato a outros mercados até o fim do ano, incluindo o brasileiro. No Modo IA, as pesquisas são, em média, três vezes mais longas do que as buscas tradicionais, de acordo com o executivo. A tecnologia permite que o Google interprete melhor a intenção do usuário e apresente anúncios de empresas e serviços relacionados ao que ele procura.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nEsse movimento muda decisões concretas — ou permanece apenas no campo do discurso?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Google vai colocar anúncios nas respostas da Store Center",
+      "seoDescription": "A iniciativa faz parte da estratégia da empresa para adaptar sua às buscas feitas com inteligência artificial (IA), que permitem aos usuários fazer pe",
+      "keyword": "Google vai colocar anúncios nas respostas da inteligência artificial no Brasil ainda em 2026 Fonte 2 Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/10/29/google-vai-colocar-anuncios-nas-respostas-da-inteligencia-artificial-no-brasil-ainda-em-2026.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/10/29/google-vai-colocar-anuncios-nas-respostas-da-inteligencia-artificial-no-brasil-ainda-em-2026.ghtml",
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/brasil-e-eua-por-que-as-dividas-preocupam-de-formas-diferentes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Google vai colocar anúncios nas respostas da inteligência artificial no Brasil ainda em 2026",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_2528750f",
       "views": 0,
       "date": "2026-10-29T19:59:17.065Z",
@@ -27700,7 +27741,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-29T19:59:15.747Z",
+      "lastScraped": "2026-10-29T21:53:50.022Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27708,7 +27749,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-29T19:59:16.230Z",
+      "lastScraped": "2026-10-29T21:53:50.678Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27721,7 +27762,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-29T19:59:17.052Z",
+      "lastScraped": "2026-10-29T21:53:51.501Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27778,6 +27819,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793310876717",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Google vai colocar anúncios nas respostas da inteligência artificial no Brasil ainda em 2026",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: criminal justice police investigation legal case Brazil police station court documents public security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Google vai colocar anúncios nas respostas da inteligência artificial no Brasil ainda em 2026 Fonte 2 Brasil deve R$ 11",
+      "postId": "rss-hash_477f29ba",
+      "timestamp": "2026-10-29T21:53:51.512Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 323.9h (+8), Sem postagem há 323.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito",
+        "Política"
+      ]
+    },
     {
       "id": "1793304028071",
       "feedName": "G1 - Economia",

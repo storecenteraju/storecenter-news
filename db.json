@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1aa70a4f",
+      "views": 0,
+      "date": "2026-10-29T06:16:45.573Z",
+      "title": "LISTA: o que está em jogo no mercado?",
+      "subtitle": "Economia Lista com 10 carros mais vendidos do Brasil arte/g1 O Programa Brasileiro de Etiquetagem Veicular (PBEV), do Inmetro, mostra o consumo de todos os carros zero km a venda no Brasil neste momento.",
+      "slug": "lista-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Lista com 10 carros mais vendidos do Brasil arte/g1 O Programa Brasileiro de Etiquetagem Veicular (PBEV), do Inmetro, mostra o consumo de todos os carros zero km a venda no Brasil neste momento. A última lista reúne 976 veículos homologados por 43 marcas, avaliados em testes de laboratório que analisam diversos critérios.\n\nO que já foi informado\n\nOs testes seguem a norma ABNT NBR 7024, em vigor desde 1989 e atualizada periodicamente. A regra define que o consumo de combustível seja medido por ciclos de condução em dinamômetro de chassi, que simulam a circulação em trechos urbanos e rodoviários. Nesta reportagem, o g1 cruza esses dados com a lista dos modelos zero km mais vendidos do Brasil entre janeiro e setembro deste ano, pela Federação Nacional Distribuição Veículos Automotores (Fenanbrave), para mostrar quais gastam menos combustível na cidade. Em alguns casos, também traz uma análise mais ampla do consumo. Na lista, foram considerados apenas veículos com motores a combustão, sem incluir híbridos ou elétricos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "LISTA: o que está em jogo no mercado? Store Center",
+      "seoDescription": "Economia Lista com 10 carros mais vendidos do Brasil arte/g1 O Programa Brasileiro de Etiquetagem Veicular (PBEV), do Inmetro, mostra",
+      "keyword": "LISTA: veja quais dos 10 carros mais vendidos do Brasil gastam menos combustível Fonte 2 Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/10/29/lista-veja-quais-dos-10-carros-mais-vendidos-do-brasil-gastam-menos-combustivel.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/10/29/lista-veja-quais-dos-10-carros-mais-vendidos-do-brasil-gastam-menos-combustivel.ghtml",
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/brasil-e-eua-por-que-as-dividas-preocupam-de-formas-diferentes.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "LISTA: veja quais dos 10 carros mais vendidos do Brasil gastam menos combustível",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_75177708",
       "views": 0,
       "date": "2026-10-29T01:47:47.703Z",
@@ -27413,7 +27454,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-29T01:47:46.388Z",
+      "lastScraped": "2026-10-29T06:16:44.315Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27421,7 +27462,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-29T01:47:46.858Z",
+      "lastScraped": "2026-10-29T06:16:44.756Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27434,7 +27475,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-29T01:47:47.689Z",
+      "lastScraped": "2026-10-29T06:16:45.557Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27491,6 +27532,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793254689490",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "LISTA: veja quais dos 10 carros mais vendidos do Brasil gastam menos combustível",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: modern car showroom automotive industry vehicle launch, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "LISTA: o que está em jogo no mercado?",
+      "postId": "rss-hash_1aa70a4f",
+      "timestamp": "2026-10-29T06:16:45.573Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 308.3h (+8), Sem postagem há 308.3h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 39",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Direito",
+        "Tecnologia",
+        "Política"
+      ]
+    },
     {
       "id": "1793238483231",
       "feedName": "Agência Câmara - Política",

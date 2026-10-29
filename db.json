@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_75177708",
+      "views": 0,
+      "date": "2026-10-29T01:47:47.703Z",
+      "title": "Líderes de partidos defendem busca da governabilidade após as eleições Fonte 2 Câmara pode: o que pode mudar agora?",
+      "subtitle": "Agência Câmara - Política Líderes de partidos na Câmara dos Deputados afirmam que, terminadas as eleições, é preciso voltar os olhos para a governabilidade do país.",
+      "slug": "lideres-de-partidos-defendem-busca-da-governabilidade-apos-as-eleicoes-fonte-2-camara-pode-o-que-pode-mudar-agora",
+      "content": "O que aconteceu\n\nAgência Câmara - Política Líderes de partidos na Câmara dos Deputados afirmam que, terminadas as eleições, é preciso voltar os olhos para a governabilidade do país. Lideranças governistas buscam composição com outros partidos e líderes oposicionistas defendem a necessidade de uma oposição propositiva.\n\nO que já foi informado\n\nO vice-líder do PT, deputado Airton Faleiro (PT-PA), afirma que a expressiva vitória do presidente Lula dá mais peso para as negociações. “O Lula conta, a seu favor, com a possibilidade de a sociedade brasileira continuar mobilizada, dando sustentação ao seu governo. Ao mesmo tempo que o presidente Lula tem a seu favor a capacidade de ser um grande negociador, como ele sempre foi como sindicalista, como ele foi nos governos que ele exerceu”, afirmou. Para o vice-líder do governo, deputado Bohn Gass (PT-RS), é possível conversar também com deputados de direita. “Esse movimento da extrema-direita é da extrema-direita, mas a direita, que pensa a democracia, isso faz parte do debate político. E nós vamos dialogar.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Política. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por Agência Câmara - Política + Agência Câmara - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Líderes de partidos defendem busca da governabilidade Store Center",
+      "seoDescription": "Agência Câmara - Política Líderes de partidos na Câmara dos Deputados afirmam que, terminadas as eleições, é preciso voltar os olhos para",
+      "keyword": "Líderes de partidos defendem busca da governabilidade após as eleições Fonte 2 Câmara pode votar hoje projetos sobre proteção às mulheres, segurança em presídios e clima",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1314541-lideres-de-partidos-defendem-busca-da-governabilidade-apos-as-eleicoes",
+      "sourceName": "Agência Câmara - Política + Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1314541-lideres-de-partidos-defendem-busca-da-governabilidade-apos-as-eleicoes",
+        "https://www.camara.leg.br/noticias/1314437-camara-pode-votar-hoje-projetos-sobre-protecao-as-mulheres-seguranca-em-presidios-e-clima"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política",
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Líderes de partidos defendem busca da governabilidade após as eleições",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_2a06ea47",
       "views": 0,
       "date": "2026-10-28T23:35:32.709Z",
@@ -27372,7 +27413,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-28T23:35:31.186Z",
+      "lastScraped": "2026-10-29T01:47:46.388Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27380,7 +27421,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-28T23:35:31.770Z",
+      "lastScraped": "2026-10-29T01:47:46.858Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27393,7 +27434,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-28T23:35:32.694Z",
+      "lastScraped": "2026-10-29T01:47:47.689Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27450,6 +27491,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793238483231",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Líderes de partidos defendem busca da governabilidade após as eleições",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Líderes de partidos defendem busca da governabilidade após as eleições Fonte 2 Câmara pode: o que pode mudar agora?",
+      "postId": "rss-hash_75177708",
+      "timestamp": "2026-10-29T01:47:47.704Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.2h (+8), Sem postagem há 9.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Tecnologia",
+        "Geopolítica"
+      ]
+    },
     {
       "id": "1793230541428",
       "feedName": "Agência Câmara - Política",

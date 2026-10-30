@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4de025e5",
+      "views": 0,
+      "date": "2026-10-30T21:38:04.480Z",
+      "title": "É FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde e na Educação após: o que muda para usuários e empresas?",
+      "subtitle": "Não houve anúncio de corte de gastos g1 Circulam nas redes sociais publicações alegando que o governo Lula (PT) anunciou um corte \"de quase R$ 6 bilhões\" na Saúde e na Educação após a vitória sobre Flávio Bolsonaro (PL) no segundo turno das eleições 2026.",
+      "slug": "e-fake-que-lula-anunciou-corte-de-r-6-bilhoes-na-saude-e-na-educacao-apos-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nNão houve anúncio de corte de gastos g1 Circulam nas redes sociais publicações alegando que o governo Lula (PT) anunciou um corte \"de quase R$ 6 bilhões\" na Saúde e na Educação após a vitória sobre Flávio Bolsonaro (PL) no segundo turno das eleições 2026. É FAKE.\n\nO que já foi informado\n\nSelo Fake (Horizontal) g1 Como são os posts? Compartilhadas desde segunda-feira (26) no X e no Instagram, as publicações têm esta caixa de texto, sobreposta às imagens: \"Lula acaba de cortar quase R$ 6 bilhões da Saúde e Educação\". Veja dois exemplos de legendas: \"Eu, de consciência tranquila, não fiz parte dessa escolha\"; e \"O corte vem justo no pilar de uma sociedade: a saúde e a educação. A segurança nunca teve, não precisa cortar. Ainda bem que os meus amigos fanáticos pelo Lula ficaram todos milionários no governo dele e podem pagar saúde e educação privadas para os seus filhos e netos\". Mas esses posts são mentirosos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nA novidade resolve um problema real — ou cria uma nova dependência para usuários e empresas?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "É FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde Store Center",
+      "seoDescription": "Não houve anúncio de corte de gastos g1 Circulam nas redes sociais publicações alegando que o governo Lula (PT) anunciou um corte \"de quase R$ 6 bilhõ",
+      "keyword": "É FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde e na Educação após eleição de 2026; vídeo foi exibido no ano retrasado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/fato-ou-fake/noticia/2026/10/30/e-fake-que-lula-anunciou-corte-de-r-6-bilhoes-na-saude-e-na-educacao-apos-eleicao-de-2026-video-foi-exibido-no-ano-retrasado.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/fato-ou-fake/noticia/2026/10/30/e-fake-que-lula-anunciou-corte-de-r-6-bilhoes-na-saude-e-na-educacao-apos-eleicao-de-2026-video-foi-exibido-no-ano-retrasado.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "É #FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde e na Educação após eleição de 2026; vídeo foi exibido no ano retrasado",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_63fc4a0",
       "views": 0,
       "date": "2026-10-30T19:48:03.971Z",
@@ -28109,7 +28148,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T19:48:02.522Z",
+      "lastScraped": "2026-10-30T21:38:02.979Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28117,7 +28156,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T19:48:03.062Z",
+      "lastScraped": "2026-10-30T21:38:03.583Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28130,7 +28169,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T19:48:03.954Z",
+      "lastScraped": "2026-10-30T21:38:04.469Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28187,6 +28226,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793396336077",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "É #FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde e na Educação após eleição de 2026; vídeo foi exibido no ano retrasado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "É FAKE que Lula anunciou corte de R$ 6 bilhões na Saúde e na Educação após: o que muda para usuários e empresas?",
+      "postId": "rss-hash_4de025e5",
+      "timestamp": "2026-10-30T21:38:04.480Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 22.0h (+8), Sem postagem há 22.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1793389724791",
       "feedName": "G1 - Economia",

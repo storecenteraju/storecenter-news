@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_8f703f4",
+      "views": 0,
+      "date": "2026-10-30T09:39:19.349Z",
+      "title": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de pessoas sem renda: por que isso importa para a economia?",
+      "subtitle": "O presidente Luiz Inácio Lula da Silva (PT) assumiu o terceiro mandato com o “compromisso número 1” de tirar o Brasil do Mapa da Fome, pela segunda vez.",
+      "slug": "fora-do-mapa-da-fome-brasil-ainda-tem-44-8-milhoes-de-pessoas-sem-renda-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nO presidente Luiz Inácio Lula da Silva (PT) assumiu o terceiro mandato com o “compromisso número 1” de tirar o Brasil do Mapa da Fome, pela segunda vez. A promessa foi cumprida em julho do ano passado, quando a Organização das Nações Unidas (ONU) anunciou que o país havia deixado o indicador.\n\nO que já foi informado\n\nMas o desafio que fica para o seu quarto mandato, não é pequeno: 44,8 milhões de brasileiros — cerca de um quinto da população — ainda não têm renda suficiente para manter uma alimentação saudável, composta por cereais, frutas, verduras, leguminosas e fontes de proteína, nas quantidades recomendadas pela ONU. (veja detalhes abaixo) O dado consta do relatório \"O Estado da Segurança Alimentar e da Nutrição no Mundo (Sofi)\", da agência da ONU para a Alimentação e a Agricultura (FAO), publicado em julho deste ano. A pesquisa também aponta que 20,3 milhões de pessoas enfrentaram insegurança alimentar moderada ou grave entre 2023 e 2025, ou seja, não tiveram acesso regular a alimentos nutritivos em quantidade suficiente para uma vida saudável. Entre 2021 e 2023, esse número era de 39,7 milhões. Onde estão essas pessoas? Nos domicílios chefiados por mulheres.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual efeito concreto esse fato pode produzir na economia — e quando ele poderá ser percebido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de Store Center",
+      "seoDescription": "O presidente Luiz Inácio Lula da Silva (PT) assumiu o terceiro mandato com o “compromisso número 1” de tirar o Brasil do Mapa da Fome, pela segunda ve",
+      "keyword": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de pessoas sem renda suficiente para manter alimentação saudável Fonte 2 Financiamento imobiliário mais caro? Bradesco, Itaú e Santander elevam taxas; Caixa não se manifesta",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/agronegocios/noticia/2026/10/30/fora-do-mapa-da-fome-brasil-ainda-tem-448-milhoes-sem-acesso-a-alimentacao-saudavel.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/agronegocios/noticia/2026/10/30/fora-do-mapa-da-fome-brasil-ainda-tem-448-milhoes-sem-acesso-a-alimentacao-saudavel.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/30/financiamento-imobiliario-taxas.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de pessoas sem renda suficiente para manter alimentação saudável",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Parcerias público-privadas e geopolítica (cooperação bilateral internacional, acordos estratégicos e fluxo global de capitais)"
+    },
+    {
       "id": "rss-hash_1c1b743c",
       "views": 0,
       "date": "2026-10-30T06:17:30.372Z",
@@ -27864,7 +27905,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T06:17:28.780Z",
+      "lastScraped": "2026-10-30T09:39:17.989Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27872,7 +27913,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T06:17:29.326Z",
+      "lastScraped": "2026-10-30T09:39:18.323Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27885,7 +27926,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T06:17:30.357Z",
+      "lastScraped": "2026-10-30T09:39:19.334Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27942,6 +27983,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793353159849",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de pessoas sem renda suficiente para manter alimentação saudável",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: food distribution market supermarket fresh food economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Fora do Mapa da Fome, Brasil ainda tem 44,8 milhões de pessoas sem renda: por que isso importa para a economia?",
+      "postId": "rss-hash_8f703f4",
+      "timestamp": "2026-10-30T09:39:19.350Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 13.7h (+8), Sem postagem há 13.7h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Direito",
+        "Nacional",
+        "Geopolítica",
+        "Política"
+      ]
+    },
     {
       "id": "1793341109206",
       "feedName": "G1 - Economia",

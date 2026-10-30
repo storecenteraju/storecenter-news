@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_17b9ac03",
+      "views": 0,
+      "date": "2026-10-30T23:16:52.364Z",
+      "title": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas: o que muda para os próximos jogos?",
+      "subtitle": "Economia Pedido de recuperação extrajudicial da Raízen preocupa produtores de cana Os acionistas da Raízen aprovaram nesta sexta-feira (30) medidas necessárias para colocar em prática o plano de recuperação extrajudicial (RE) da companhia.",
+      "slug": "raizen-aprova-plano-para-sair-de-crise-de-r-65-bilhoes-e-sera-dividida-em-duas-o-que-muda-para-os-proximos-jogos",
+      "content": "O que aconteceu\n\nEconomia Pedido de recuperação extrajudicial da Raízen preocupa produtores de cana Os acionistas da Raízen aprovaram nesta sexta-feira (30) medidas necessárias para colocar em prática o plano de recuperação extrajudicial (RE) da companhia. Com dívida de cerca de R$ 65 bilhões, é a maior RE da história do Brasil.\n\nO que já foi informado\n\nA crise da companhia ocorreu após uma série de apostas arriscadas, safras ruins e preços baixos das commodities. Entre as decisões estão mudanças nos estatutos das empresas, alterações no capital social, a separação dos negócios de energia e combustíveis e a eleição dos novos conselhos de administração. O plano prevê um aumento de capital de até R$ 39,8 bilhões. Desse total, a Shell poderá aportar até R$ 3,5 bilhões, enquanto a Aguassanta poderá contribuir com até R$ 500 milhões, caso decida participar. A operação também prevê a conversão de parte das dívidas de credores em participação na empresa e a possibilidade de os demais acionistas comprarem novas ações para manter sua participação na companhia. O aumento de capital ainda será submetido à aprovação do Conselho de Administração, em reunião prevista para 6 de novembro.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Esporte. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Raízen aprova plano para sair de crise de R$ 65 bilhões Store Center",
+      "seoDescription": "Economia Pedido de recuperação extrajudicial da Raízen preocupa produtores de cana Os acionistas da Raízen aprovaram nesta sexta-feir",
+      "keyword": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas Fonte 2 Conta de luz: Aneel mantém bandeira tarifária verde em novembro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/30/raizen-aprova-plano-para-evitar-falencia-e-preve-injecao-de-ate-r-398-bilhoes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/30/raizen-aprova-plano-para-evitar-falencia-e-preve-injecao-de-ate-r-398-bilhoes.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/30/conta-de-luz-aneel-mantem-bandeira-tarifaria-para-verde-em-novembro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_4de025e5",
       "views": 0,
       "date": "2026-10-30T21:38:04.480Z",
@@ -28148,7 +28189,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T21:38:02.979Z",
+      "lastScraped": "2026-10-30T23:16:50.784Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28156,7 +28197,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T21:38:03.583Z",
+      "lastScraped": "2026-10-30T23:16:51.408Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28169,7 +28210,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T21:38:04.469Z",
+      "lastScraped": "2026-10-30T23:16:52.356Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28226,6 +28267,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793402295706",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas empresas",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Raízen aprova plano para sair de crise de R$ 65 bilhões e será dividida em duas: o que muda para os próximos jogos?",
+      "postId": "rss-hash_17b9ac03",
+      "timestamp": "2026-10-30T23:16:52.364Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.5h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1793396336077",
       "feedName": "G1 - Economia",

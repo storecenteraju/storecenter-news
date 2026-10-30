@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_54903008",
+      "views": 0,
+      "date": "2026-10-30T14:32:16.749Z",
+      "title": "Desemprego cai no Brasil e atinge menor taxa para o terceiro trimestre em 14 anos: o que está em jogo no mercado?",
+      "subtitle": "Economia Agora no g1 A taxa de desemprego ficou em 5,2% no terceiro trimestre de 2026, o menor nível para o período desde 2012.",
+      "slug": "desemprego-cai-no-brasil-e-atinge-menor-taxa-para-o-terceiro-trimestre-em-14-anos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia Agora no g1 A taxa de desemprego ficou em 5,2% no terceiro trimestre de 2026, o menor nível para o período desde 2012. Os dados são da Pesquisa Nacional por Amostra de Domicílios (PNAD) Contínua, divulgada nesta sexta-feira (30) pelo Instituto Brasileiro de Geografia e Estatística (IBGE).\n\nO que já foi informado\n\nO resultado representa uma queda de 0,2 ponto percentual (p. ) em relação ao trimestre encerrado em junho, quando a taxa era de 5,4%. Na comparação com o mesmo período de 2025, a redução foi de 0,4 p. , já que o desemprego estava em 5,6%. (veja principais pontos da pesquisa) Segundo o IBGE, o país tinha 5,6 milhões de pessoas desocupadas no trimestre encerrado em setembro, uma redução de 4% (menos 234 mil pessoas) em relação aos três meses anteriores. Na comparação com o mesmo período do ano passado, o número caiu 6,9%, o equivalente a 417 mil pessoas.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Negócios",
+      "author": "Redação Store Center",
+      "tags": [
+        "Negócios",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Desemprego cai no Brasil e atinge menor taxa para o Store Center",
+      "seoDescription": "Economia Agora no g1 A taxa de desemprego ficou em 5,2% no terceiro trimestre de 2026, o menor nível para o período desde 2012.",
+      "keyword": "Desemprego cai no Brasil e atinge menor taxa para o terceiro trimestre em 14 anos Fonte 2 Ibovespa opera em queda e chega aos 167 mil pontos; dólar opera em alta, de olho em novos dados econômicos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/10/30/desocupacao-fica-em-52percent-a-menor-para-um-terceiro-trimestre-desde-2012.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/10/30/desocupacao-fica-em-52percent-a-menor-para-um-terceiro-trimestre-desde-2012.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/10/30/dolar-ibovespa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Desemprego cai no Brasil e atinge menor taxa para o terceiro trimestre em 14 anos",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_71dd7c82",
       "views": 0,
       "date": "2026-10-30T11:29:15.032Z",
@@ -27947,7 +27988,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T11:29:13.960Z",
+      "lastScraped": "2026-10-30T14:32:14.652Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27955,7 +27996,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T11:29:14.210Z",
+      "lastScraped": "2026-10-30T14:32:15.703Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27968,7 +28009,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T11:29:15.017Z",
+      "lastScraped": "2026-10-30T14:32:16.737Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28025,6 +28066,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793370810839",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Desemprego cai no Brasil e atinge menor taxa para o terceiro trimestre em 14 anos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: young professionals career job interview modern office workplace laptops, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Desemprego cai no Brasil e atinge menor taxa para o terceiro trimestre em 14 anos: o que está em jogo no mercado?",
+      "postId": "rss-hash_54903008",
+      "timestamp": "2026-10-30T14:32:16.750Z",
+      "chosenCategory": "Negócios",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 4.9h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica",
+        "Direito",
+        "Nacional",
+        "Política"
+      ]
+    },
     {
       "id": "1793359762839",
       "feedName": "G1 - Economia",

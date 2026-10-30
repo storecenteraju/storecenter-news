@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_63fc4a0",
+      "views": 0,
+      "date": "2026-10-30T19:48:03.971Z",
+      "title": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas; realização de provas depende da: o que está em jogo no mercado?",
+      "subtitle": "Economia O Ministério da Gestão e da Inovação (MGI) informou que uma eventual edição do Concurso Público Nacional Unificado (CPNU) em 2027 poderá ofertar entre 2 mil e 3 mil vagas.",
+      "slug": "governo-diz-que-cnu-2027-pode-ofertar-ate-3-mil-vagas-realizacao-de-provas-depende-da-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nEconomia O Ministério da Gestão e da Inovação (MGI) informou que uma eventual edição do Concurso Público Nacional Unificado (CPNU) em 2027 poderá ofertar entre 2 mil e 3 mil vagas. A realização do concurso, no entanto, depende da aprovação da proposta de orçamento do próximo ano, enviada ao Congresso Nacional no fim de agosto.\n\nO que já foi informado\n\n“Como sempre informamos, a realização de um novo CPNU em 2027 está condicionada à aprovação do PLOA e do espaço fiscal para novas vagas que será aprovado pelo Congresso Nacional”, afirmou o ministério, em nota. \"Considerando concursos já autorizados e novos que podem ser definidos (dependendo do PLOA), duas a três mil novas vagas compensam a realização de um CPNU em 2027\", completou a pasta. Saiba como se preparar para enfrentar um concurso No início desta semana, o MGI já havia informado ao g1 que a realização do certame dependeria da aprovação do orçamento do próximo ano. Na ocasião, o ministério também destacou que considera o CPNU uma política pública voltada à renovação, à modernização e à democratização do acesso ao serviço público federal.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQual é o próximo passo da proposta — e o que ainda pode mudar antes de uma decisão definitiva?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas Store Center",
+      "seoDescription": "Economia O Ministério da Gestão e da Inovação (MGI) informou que uma eventual edição do Concurso Público Nacional Unificado (CPNU) em",
+      "keyword": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas; realização de provas depende da aprovação do Orçamento de 2027 Fonte 2 Robô 'guarda-costas' enfrenta homem com faca e ergue até carro para socorrer pessoa",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/30/governo-diz-que-cnu-2027-pode-ofertar-ate-3-mil-vagas-realizacao-do-de-provas-depende-da-aprovacao-do-orcamento-de-2027.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/trabalho-e-carreira/noticia/2026/10/30/governo-diz-que-cnu-2027-pode-ofertar-ate-3-mil-vagas-realizacao-do-de-provas-depende-da-aprovacao-do-orcamento-de-2027.ghtml",
+        "https://g1.globo.com/inovacao/noticia/2026/10/30/robo-guarda-costas-enfrenta-homem-com-faca-e-ergue-ate-carro-para-socorrer-pessoa.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas; realização de provas depende da aprovação do Orçamento de 2027",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_67eab14f",
       "views": 0,
       "date": "2026-10-30T18:10:23.031Z",
@@ -28068,7 +28109,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T18:10:21.299Z",
+      "lastScraped": "2026-10-30T19:48:02.522Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28076,7 +28117,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T18:10:22.088Z",
+      "lastScraped": "2026-10-30T19:48:03.062Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28089,7 +28130,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T18:10:23.019Z",
+      "lastScraped": "2026-10-30T19:48:03.954Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28146,6 +28187,30 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793389724791",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas; realização de provas depende da aprovação do Orçamento de 2027",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo diz que CNU 2027 pode ofertar até 3 mil vagas; realização de provas depende da: o que está em jogo no mercado?",
+      "postId": "rss-hash_63fc4a0",
+      "timestamp": "2026-10-30T19:48:03.971Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 10.1h (+8), Sem postagem há 10.1h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Geopolítica",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1793383913010",
       "feedName": "G1 - Economia",

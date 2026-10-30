@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_45d85c0a",
+      "views": 0,
+      "date": "2026-10-30T01:58:11.396Z",
+      "title": "Vazamento expõe dados de mais de 40 mil funcionários da segurança dos EUA Fonte 2: por que esse movimento importa?",
+      "subtitle": "Economia Oficial do ICE, o Serviço de Imigração e Algândega dos EUA AP.",
+      "slug": "vazamento-expoe-dados-de-mais-de-40-mil-funcionarios-da-seguranca-dos-eua-fonte-2-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Oficial do ICE, o Serviço de Imigração e Algândega dos EUA AP. Photo/Julia Demaree Nikhinson Dados de mais de 40 mil funcionários do Departamento de Segurança Interna dos Estados Unidos (DHS) foram divulgados na quarta-feira (28) por um grupo que publica informações vazadas.\n\nO que já foi informado\n\nO material inclui detalhes sobre agentes que trabalham em áreas sensíveis, como vigilância, coleta de informações com pessoas e operações disfarçadas. Segundo o grupo que revelou o vazamento, os dados foram obtidos inicialmente por um outro grupo que se identifica como “Department of Peace” (“Departamento da Paz”, em tradução livre). Em nota, o Departamento de Segurança Interna dos Estados Unidos afirmou estar \"ciente de um possível vazamento\" e trabalhar para resolver a situação de forma rápida e eficaz. O órgão disse ainda que busca garantir a proteção de seus funcionários e que divulgará atualizações quando houver mais informações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Vazamento expõe dados de mais de 40 mil funcionários da Store Center",
+      "seoDescription": "Economia Oficial do ICE, o Serviço de Imigração e Algândega dos EUA AP.",
+      "keyword": "Vazamento expõe dados de mais de 40 mil funcionários da segurança dos EUA Fonte 2 Apple lança seu primeiro notebook com tela sensível ao toque; versão mais cara custa R$ 180 mil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/29/vazamento-expoe-dados-de-mais-de-40-mil-funcionarios-da-seguranca-dos-eua.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/29/vazamento-expoe-dados-de-mais-de-40-mil-funcionarios-da-seguranca-dos-eua.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/28/apple-apresenta-seu-primeiro-notebook-com-tela-sensivel-ao-toque.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Vazamento expõe dados de mais de 40 mil funcionários da segurança dos EUA",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_226ca0c9",
       "views": 0,
       "date": "2026-10-29T23:37:27.463Z",
@@ -27782,7 +27823,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-29T23:37:26.113Z",
+      "lastScraped": "2026-10-30T01:58:09.494Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27790,7 +27831,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-29T23:37:26.598Z",
+      "lastScraped": "2026-10-30T01:58:10.485Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27803,7 +27844,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-29T23:37:27.448Z",
+      "lastScraped": "2026-10-30T01:58:11.382Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27860,6 +27901,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793325562744",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Vazamento expõe dados de mais de 40 mil funcionários da segurança dos EUA",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Vazamento expõe dados de mais de 40 mil funcionários da segurança dos EUA Fonte 2: por que esse movimento importa?",
+      "postId": "rss-hash_45d85c0a",
+      "timestamp": "2026-10-30T01:58:11.397Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 76.2h (+8), Sem postagem há 76.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Direito",
+        "Economia",
+        "Nacional",
+        "Geopolítica",
+        "Política"
+      ]
+    },
     {
       "id": "1793317059251",
       "feedName": "G1 - Economia",

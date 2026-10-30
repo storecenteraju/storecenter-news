@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1c1b743c",
+      "views": 0,
+      "date": "2026-10-30T06:17:30.372Z",
+      "title": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes? Fonte 2 Como o",
+      "subtitle": "Economia Quanto custa a dívida de um país? Governos recorrem à dívida quando gastam mais do que arrecadam.",
+      "slug": "brasil-deve-r-11-trilhoes-e-eua-us-40-trilhoes-por-que-as-dividas-preocupam-de-formas-diferentes-fonte-2-como-o",
+      "content": "O que aconteceu\n\nEconomia Quanto custa a dívida de um país? Governos recorrem à dívida quando gastam mais do que arrecadam.\n\nO que já foi informado\n\nPara cobrir essa diferença, emitem títulos públicos e tomam dinheiro emprestado de bancos, fundos, empresas, outros países e também de pessoas físicas. Em 2026, a dívida bruta do Brasil chegou a R$ 11 trilhões. Já a dívida federal dos Estados Unidos ultrapassou US$ 40 trilhões em agosto (R$ 753 trilhões). Apesar dos valores elevados, os dois países enfrentam cenários diferentes para financiar essas dívidas. Mais do que o tamanho da dívida, é importante observar quanto custa financiá-la. No Brasil, juros mais altos pressionam o orçamento público.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por Store Center",
+      "seoDescription": "Economia Quanto custa a dívida de um país? Governos recorrem à dívida quando gastam mais do que arrecadam.",
+      "keyword": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes? Fonte 2 Como o PIX mudou o caminho do dinheiro no Brasil e por que isso incomoda Donald Trump?",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/10/29/brasil-e-eua-por-que-as-dividas-preocupam-de-formas-diferentes.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/brasil-e-eua-por-que-as-dividas-preocupam-de-formas-diferentes.ghtml",
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/como-o-pix-mudou-o-caminho-do-dinheiro-no-brasil-e-por-que-isso-incomoda-donald-trump.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes?",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_45d85c0a",
       "views": 0,
       "date": "2026-10-30T01:58:11.396Z",
@@ -27823,7 +27864,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T01:58:09.494Z",
+      "lastScraped": "2026-10-30T06:17:28.780Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27831,7 +27872,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T01:58:10.485Z",
+      "lastScraped": "2026-10-30T06:17:29.326Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27844,7 +27885,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T01:58:11.382Z",
+      "lastScraped": "2026-10-30T06:17:30.357Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27901,6 +27942,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793341109206",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Brasil deve R$ 11 trilhões e EUA, US$ 40 trilhões: por que as dívidas preocupam de formas diferentes? Fonte 2 Como o",
+      "postId": "rss-hash_1c1b743c",
+      "timestamp": "2026-10-30T06:17:30.373Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 332.3h (+8), Sem postagem há 332.3h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Direito",
+        "Geopolítica",
+        "Política"
+      ]
+    },
     {
       "id": "1793325562744",
       "feedName": "G1 - Economia",

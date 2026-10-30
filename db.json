@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_4199b69b",
+      "views": 0,
+      "date": "2026-10-30T16:40:53.817Z",
+      "title": "Câmara aprova projeto que prevê incentivos para a produção de cana no Nordeste: por que esse movimento importa?",
+      "subtitle": "A Câmara dos Deputados aprovou nesta terça-feira (27) um projeto de lei com incentivos fiscais para a produção de cana-de-açúcar no Nordeste como forma de mitigar os efeitos da taxação aplicada pelos Estados Unidos à exportação do produto.",
+      "slug": "camara-aprova-projeto-que-preve-incentivos-para-a-producao-de-cana-no-nordeste-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nA Câmara dos Deputados aprovou nesta terça-feira (27) um projeto de lei com incentivos fiscais para a produção de cana-de-açúcar no Nordeste como forma de mitigar os efeitos da taxação aplicada pelos Estados Unidos à exportação do produto. O projeto segue agora para análise do Senado.\n\nO que já foi informado\n\nEm julho deste ano, os EUA anunciaram a aplicação de tarifas sobre o etanol e sobre o açúcar orgânico. A aprovação do projeto aconteceu na véspera de uma medida provisória, editada pelo governo federal em julho, sobre o mesmo assunto perder validade. \"Nós pautamos esse projeto porque nós temos uma medida provisória em vigor, cujo prazo de validade se findará no dia de amanhã, e nós temos diversos produtores de cana-de-açúcar do Nordeste que não conseguiram ainda receber essa subvenção\", disse o presidente da Câmara, Hugo Motta (Republicanos-PB). Agora no g1 O projeto autoriza o pagamento de R$ 12 por tonelada de cana produzida e comprovadamente entregue a usinas, destilarias ou cooperativas localizadas no Nordeste durante a safra 2025/2026. O apoio financeiro poderá ser feito diretamente aos produtores ou por meio de cooperativas e associações.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Política. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Câmara aprova projeto que prevê incentivos para a Store Center",
+      "seoDescription": "A Câmara dos Deputados aprovou nesta terça-feira (27) um projeto de lei com incentivos fiscais para a produção de cana-de-açúcar no Nordeste como form",
+      "keyword": "Câmara aprova projeto que prevê incentivos para a produção de cana no Nordeste",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/politica/noticia/2026/10/27/camara-aprova-projeto-que-da-incentivos-para-a-producao-de-cana-no-nordeste.ghtml",
+      "sourceName": "G1 - Política",
+      "sourceUrls": [
+        "https://g1.globo.com/politica/noticia/2026/10/27/camara-aprova-projeto-que-da-incentivos-para-a-producao-de-cana-no-nordeste.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Política"
+      ],
+      "rssOriginalTitle": "Câmara aprova projeto que prevê incentivos para a produção de cana no Nordeste",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_54903008",
       "views": 0,
       "date": "2026-10-30T14:32:16.749Z",
@@ -27988,7 +28027,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T14:32:14.652Z",
+      "lastScraped": "2026-10-30T16:40:52.607Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27996,7 +28035,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T14:32:15.703Z",
+      "lastScraped": "2026-10-30T16:40:52.942Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28009,7 +28048,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T14:32:16.737Z",
+      "lastScraped": "2026-10-30T16:40:53.807Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28066,6 +28105,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793378492491",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Câmara aprova projeto que prevê incentivos para a produção de cana no Nordeste",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Câmara aprova projeto que prevê incentivos para a produção de cana no Nordeste: por que esse movimento importa?",
+      "postId": "rss-hash_4199b69b",
+      "timestamp": "2026-10-30T16:40:53.818Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 26.0h (+8), Sem postagem há 26.0h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 31",
+      "discardedCategories": [
+        "Tecnologia",
+        "Economia",
+        "Geopolítica",
+        "Direito",
+        "Nacional"
+      ]
+    },
     {
       "id": "1793370810839",
       "feedName": "G1 - Economia",

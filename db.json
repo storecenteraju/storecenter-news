@@ -1,6 +1,48 @@
 {
   "posts": [
     {
+      "id": "rss-hash_71dd7c82",
+      "views": 0,
+      "date": "2026-10-30T11:29:15.032Z",
+      "title": "Governo questionou Meta sobre perfis derrubados no Instagram antes das eleições Fonte: qual pode ser o próximo passo?",
+      "subtitle": "Economia Facebook e Instagram AP.",
+      "slug": "governo-questionou-meta-sobre-perfis-derrubados-no-instagram-antes-das-eleicoes-fonte-qual-pode-ser-o-proximo-passo",
+      "content": "O que aconteceu\n\nEconomia Facebook e Instagram AP. Photo/Richard Drew A Secretaria Nacional do Consumidor (Senacon), ligada ao Ministério da Justiça e Segurança, notificou a Meta em busca de informações sobre contas e publicações derrubadas no Instagram e no Facebook durante o período eleitoral.\n\nO que já foi informado\n\nO pedido foi feito após uma denúncia apontar que a empresa suspende, remove ou restringe contas de forma indevida. A Meta também é acusada de adotar as medidas sem comunicação prévia, indicação de regra supostamente violada ou espaço para defesa dos usuários. A denúncia foi feita pela CTRL+Z, entidade sem fins lucrativos que tem como uma de suas fundadoras Daniela da Silva, ex-chefe de políticas públicas do WhatsApp, outra plataforma da Meta. A Senacon enviou a notificação na última sexta-feira (23), antes do 2º turno das eleições, e definiu um prazo de dois dias corridos para receber a resposta, que não foi apresentada até quinta-feira (28). Procurada pelo g1, a Meta disse que não comentaria sobre o caso.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Judiciário. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "Judiciário",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Governo questionou Meta sobre perfis derrubados no Store Center",
+      "seoDescription": "Economia Facebook e Instagram AP.",
+      "keyword": "Governo questionou Meta sobre perfis derrubados no Instagram antes das eleições Fonte 2 Apple lança seu primeiro notebook com tela sensível ao toque; versão mais cara custa R$ 180 mil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/governo-questiona-meta-sobre-perfis-derrubados-no-instagram-antes-das-eleicoes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/governo-questiona-meta-sobre-perfis-derrubados-no-instagram-antes-das-eleicoes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/28/apple-apresenta-seu-primeiro-notebook-com-tela-sensivel-ao-toque.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Governo questionou Meta sobre perfis derrubados no Instagram antes das eleições",
+      "isAiGenerated": false,
+      "visualTheme": "fotografia corporativa",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_8f703f4",
       "views": 0,
       "date": "2026-10-30T09:39:19.349Z",
@@ -27905,7 +27947,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-30T09:39:17.989Z",
+      "lastScraped": "2026-10-30T11:29:13.960Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -27913,7 +27955,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-30T09:39:18.323Z",
+      "lastScraped": "2026-10-30T11:29:14.210Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -27926,7 +27968,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-30T09:39:19.334Z",
+      "lastScraped": "2026-10-30T11:29:15.017Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -27983,6 +28025,31 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793359762839",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Governo questionou Meta sobre perfis derrubados no Instagram antes das eleições",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Governo questionou Meta sobre perfis derrubados no Instagram antes das eleições Fonte: qual pode ser o próximo passo?",
+      "postId": "rss-hash_71dd7c82",
+      "timestamp": "2026-10-30T11:29:15.033Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 9.5h (+8), Sem postagem há 9.5h (+5). Recência: Posição 2 (+8). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 29",
+      "discardedCategories": [
+        "Economia",
+        "Direito",
+        "Nacional",
+        "Geopolítica",
+        "Política"
+      ]
+    },
     {
       "id": "1793353159849",
       "feedName": "G1 - Economia",

@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_5b4b4efa",
+      "views": 0,
+      "date": "2026-10-31T17:20:53.196Z",
+      "title": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo: por que esse movimento importa?",
+      "subtitle": "Economia Hackers roubam US$ 6 bilhões em criptomoedas A Binance, maior corretora de criptomoedas do mundo, foi alvo de um ataque hacker que resultou no roubo de US$ 6,3 bilhões (cerca de R$ 34 bilhões).",
+      "slug": "hackers-roubam-us-6-3-bilhoes-da-binance-maior-corretora-de-criptomoedas-do-mundo-por-que-esse-movimento-importa",
+      "content": "O que aconteceu\n\nEconomia Hackers roubam US$ 6 bilhões em criptomoedas A Binance, maior corretora de criptomoedas do mundo, foi alvo de um ataque hacker que resultou no roubo de US$ 6,3 bilhões (cerca de R$ 34 bilhões). Segundo especialistas, essa foi a maior ação criminosa já registrada na história do setor.\n\nO que já foi informado\n\nA ação aconteceu na quinta-feira (29) e levou aproximadamente 20 minutos. Fundada em 2017 em Xangai, na China, a Binance é uma plataforma que permite comprar, vender e guardar criptomoedas, como o Bitcoin. Segundo seu relatório anual de 2025, a empresa tem 335 milhões de usuários cadastrados em todo o mundo e mantinha sob sua responsabilidade cerca de US$ 162,8 bilhões (R$ 879 bilhões) em ativos digitais. O ataque levantou preocupações sobre a segurança dessas plataformas e provocou uma queda no preço das principais criptomoedas nesta sexta-feira (30). Segundo as empresas americanas TRM Labs e Chainalysis, especializadas em rastrear movimentações de criptomoedas, os responsáveis pelo roubo seriam hackers ligados à Coreia do Norte. A Binance, porém, afirmou que sua investigação ainda não identificou os criminosos.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Geopolítica. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Hackers roubam US$ 6,3 bilhões da Binance, maior Store Center",
+      "seoDescription": "Economia Hackers roubam US$ 6 bilhões em criptomoedas A Binance, maior corretora de criptomoedas do mundo, foi alvo de um ataque hack",
+      "keyword": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo Fonte 2 ‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas pode sair caro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/maior-plataforma-de-criptomoedas-do-mundo-suspende-saques-e-depositos-apos-possivel-ataque-hacker.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/maior-plataforma-de-criptomoedas-do-mundo-suspende-saques-e-depositos-apos-possivel-ataque-hacker.ghtml",
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/todo-mundo-esta-ganhando-por-que-copiar-os-investimentos-de-outras-pessoas-pode-sair-caro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_1088a041",
       "views": 0,
       "date": "2026-10-31T15:42:47.761Z",
@@ -28433,7 +28474,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-31T15:42:46.192Z",
+      "lastScraped": "2026-10-31T17:20:50.789Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28441,7 +28482,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-31T15:42:46.928Z",
+      "lastScraped": "2026-10-31T17:20:51.770Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28454,7 +28495,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-31T15:42:47.748Z",
+      "lastScraped": "2026-10-31T17:20:53.180Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28511,6 +28552,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793467318633",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Hackers roubam US$ 6,3 bilhões da Binance, maior corretora de criptomoedas do mundo: por que esse movimento importa?",
+      "postId": "rss-hash_5b4b4efa",
+      "timestamp": "2026-10-31T17:20:53.196Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 11.2h (+8), Sem postagem há 11.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 21",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1793461439219",
       "feedName": "G1 - Economia",

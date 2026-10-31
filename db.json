@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_57419c7a",
+      "views": 0,
+      "date": "2026-10-31T18:56:55.993Z",
+      "title": "‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas: por que isso importa para a economia?",
+      "subtitle": "Efeito manada: o perigo de investir como todo mundo Seguir as decisões da maioria é um comportamento comum e, na economia, recebe o nome de comportamento de manada.",
+      "slug": "todo-mundo-esta-ganhando-por-que-copiar-os-investimentos-de-outras-pessoas-por-que-isso-importa-para-a-economia",
+      "content": "O que aconteceu\n\nEfeito manada: o perigo de investir como todo mundo Seguir as decisões da maioria é um comportamento comum e, na economia, recebe o nome de comportamento de manada. A tendência faz com que muitas pessoas invistam em determinado ativo apenas porque ele está atraindo cada vez mais investidores.\n\nO que já foi informado\n\nNestes momentos, é melhor lembrar aquele conselho de mãe: você não é todo mundo. Esse movimento costuma ganhar força em momentos de alta dos mercados. Com mais compradores, os preços sobem, reforçando a percepção de que o investimento é uma aposta segura, mesmo quando a valorização não reflete o valor real do ativo. Episódios como a bolha das tulipas na Holanda, a crise das empresas de tecnologia e a crise financeira de 2008 mostram os riscos desse comportamento. Especialistas alertam que consenso não é garantia de acerto e que o entusiasmo coletivo pode aumentar a exposição a perdas. Toda semana, o g1 Explica simplifica a economia, o mercado financeiro e a educação financeira, mostrando como tudo isso afeta o seu bolso.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Economia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "‘Todo mundo está ganhando': por que copiar os Store Center",
+      "seoDescription": "Efeito manada: o perigo de investir como todo mundo Seguir as decisões da maioria é um comportamento comum e, na economia, recebe o nome de comportame",
+      "keyword": "‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas pode sair caro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/g1-explica/noticia/2026/10/29/todo-mundo-esta-ganhando-por-que-copiar-os-investimentos-de-outras-pessoas-pode-sair-caro.ghtml",
+      "sourceName": "G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/g1-explica/noticia/2026/10/29/todo-mundo-esta-ganhando-por-que-copiar-os-investimentos-de-outras-pessoas-pode-sair-caro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas pode sair caro",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_5b4b4efa",
       "views": 0,
       "date": "2026-10-31T17:20:53.196Z",
@@ -28474,7 +28513,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-31T17:20:50.789Z",
+      "lastScraped": "2026-10-31T18:56:54.674Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28482,7 +28521,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-31T17:20:51.770Z",
+      "lastScraped": "2026-10-31T18:56:55.174Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28495,7 +28534,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-31T17:20:53.180Z",
+      "lastScraped": "2026-10-31T18:56:55.979Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28552,6 +28591,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793473043431",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas pode sair caro",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: financial regulation government budget documents business meeting economy Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "‘Todo mundo está ganhando': por que copiar os investimentos de outras pessoas: por que isso importa para a economia?",
+      "postId": "rss-hash_57419c7a",
+      "timestamp": "2026-10-31T18:56:55.994Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 12.8h (+8), Sem postagem há 12.8h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 18",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1793467318633",
       "feedName": "G1 - Economia",

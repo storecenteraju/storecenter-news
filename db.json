@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_7b2849f",
+      "views": 0,
+      "date": "2026-10-31T20:31:55.930Z",
+      "title": "Binance: notebook invadido pode ter aberto caminho para roubo de US$ 6,3 bilhões: o que muda para usuários e empresas?",
+      "subtitle": "Economia Hackers roubam US$ 6 bilhões em criptomoedas Um notebook invadido de um dos engenheiros da Binance pode ter aberto caminho para o roubo de US$ 6,3 bilhões (cerca de R$ 34 bilhões) da corretora, a maior de criptomoedas do mundo.",
+      "slug": "binance-notebook-invadido-pode-ter-aberto-caminho-para-roubo-de-us-6-3-bilhoes-o-que-muda-para-usuarios-e-empresas",
+      "content": "O que aconteceu\n\nEconomia Hackers roubam US$ 6 bilhões em criptomoedas Um notebook invadido de um dos engenheiros da Binance pode ter aberto caminho para o roubo de US$ 6,3 bilhões (cerca de R$ 34 bilhões) da corretora, a maior de criptomoedas do mundo. Segundo a empresa, uma investigação inicial indica que o computador pode ter sido usado para acessar um de seus sistemas e fazer saques não autorizados.\n\nO que já foi informado\n\nO ataque é considerado por especialistas o maior roubo de moedas digitais já registrado. \"Nossa equipe de segurança está rastreando todo o caminho do ataque através do computador comprometido, que pode ser o ponto de entrada do incidente\", afirmou a Binance. Mais tarde, a empresa informou ter identificado outros pontos de invasão. Mark Karpeles, ex-chefe da corretora de bitcoin Mt Gox, disse à agência que os invasores provavelmente acessaram as chaves privadas de pelo menos duas carteiras da Binance. Sediada em Tóquio, a Mt Gox encerrou suas atividades há 12 anos, após o roubo de US$ 500 milhões em bitcoin.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Tecnologia. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nO lançamento entrega uma mudança relevante — ou apenas reposiciona uma oferta que já existia no mercado?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Tecnologia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Direito",
+      "author": "Redação Store Center",
+      "tags": [
+        "Direito",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Binance: notebook invadido pode ter aberto caminho para Store Center",
+      "seoDescription": "Economia Hackers roubam US$ 6 bilhões em criptomoedas Um notebook invadido de um dos engenheiros da Binance pode ter aberto caminho p",
+      "keyword": "Binance: notebook invadido pode ter aberto caminho para roubo de US$ 6,3 bilhões Fonte 2 Apple lança seu primeiro notebook com tela sensível ao toque; versão mais cara custa R$ 180 mil",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/binance-notebook-invadido-pode-ter-aberto-caminho-para-roubo-de-us-63-bilhoes.ghtml",
+      "sourceName": "G1 - Tecnologia + G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/ciberseguranca/noticia/2026/10/30/binance-notebook-invadido-pode-ter-aberto-caminho-para-roubo-de-us-63-bilhoes.ghtml",
+        "https://g1.globo.com/tecnologia/noticia/2026/10/28/apple-apresenta-seu-primeiro-notebook-com-tela-sensivel-ao-toque.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia",
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Binance: notebook invadido pode ter aberto caminho para roubo de US$ 6,3 bilhões",
+      "isAiGenerated": false,
+      "visualTheme": "logística",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_57419c7a",
       "views": 0,
       "date": "2026-10-31T18:56:55.993Z",
@@ -28513,7 +28554,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-10-31T18:56:54.674Z",
+      "lastScraped": "2026-10-31T20:31:54.650Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28521,7 +28562,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-10-31T18:56:55.174Z",
+      "lastScraped": "2026-10-31T20:31:54.956Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28534,7 +28575,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-10-31T18:56:55.979Z",
+      "lastScraped": "2026-10-31T20:31:55.918Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28591,6 +28632,28 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793478815872",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Binance: notebook invadido pode ter aberto caminho para roubo de US$ 6,3 bilhões",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: cybersecurity data breach smartphone app privacy servers digital security, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Binance: notebook invadido pode ter aberto caminho para roubo de US$ 6,3 bilhões: o que muda para usuários e empresas?",
+      "postId": "rss-hash_7b2849f",
+      "timestamp": "2026-10-31T20:31:55.931Z",
+      "chosenCategory": "Direito",
+      "categoryScore": 5,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 3.2h (+5). Recência: Posição antiga (+0). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 13",
+      "discardedCategories": [
+        "Economia",
+        "Direito"
+      ]
+    },
     {
       "id": "1793473043431",
       "feedName": "G1 - Economia",

@@ -1,4 +1,4 @@
-import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext } from "../src/lib/rss-editorial";
+import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext } from "../src/lib/rss-editorial.js";
 import express from "express";
 import path from "path";
 import fs from "fs";

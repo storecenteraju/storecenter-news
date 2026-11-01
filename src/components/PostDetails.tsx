@@ -216,12 +216,13 @@ export default function PostDetails({
     return `${day}/${month}/${year} ${hor}:${min}`;
   };
 
-  // Split content logically to inject "Ad Meio Artigo" between paragraph 2 and 3
-  const paragraphs = (post.content || '').split('\n\n');
-  const part1 = paragraphs.slice(0, 2).join('\n\n');
-  const part2 = paragraphs.slice(2).join('\n\n');
+  // Reserve a middle ad only when there are at least four actual paragraphs.
+  const paragraphs = (post.content || '').replace(/\r\n?/g, '\n').split(/\n\s*\n/).map(value => value.trim()).filter(Boolean);
+  const splitAt = adMiddle?.code?.trim() && paragraphs.length >= 4 ? 3 : paragraphs.length;
+  const part1 = paragraphs.slice(0, splitAt).join('\n\n');
+  const part2 = paragraphs.slice(splitAt).join('\n\n');
   const sectionHeadings = new Set(["O que aconteceu", "O que já foi informado", "A pergunta que fica", "O que observar agora"]);
-  const renderArticleParagraphs = (text: string) => text.split('\n\n').map((paragraph, index) => (
+  const renderArticleParagraphs = (text: string) => text.split(/\n\s*\n/).map(value => value.trim()).filter(Boolean).map((paragraph, index) => (
     sectionHeadings.has(paragraph.trim())
       ? <h2 key={index} className="text-lg font-black text-slate-950 mt-8 mb-2">{paragraph}</h2>
       : <p key={index} className="whitespace-pre-wrap">{paragraph}</p>
@@ -390,27 +391,26 @@ export default function PostDetails({
               </figure>
 
               {/* ARTICLE PARAGRAPH BLOCK 1 */}
-              <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed">
+              <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-4 leading-relaxed">
                 {renderArticleParagraphs(part1)}
               </div>
 
               {/* MIDDLE AD BLOCK (IF ACTIVE) */}
-              {adMiddle && (
+              {part2 && adMiddle?.code?.trim() && (
                 <div className="my-6 md:my-10 w-full flex justify-center overflow-hidden">
                   <AdSenseSlot code={adMiddle.code} minHeight="90px" />
                 </div>
               )}
 
               {/* ARTICLE PARAGRAPH BLOCK 2 */}
-              <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-6 leading-relaxed mt-6">
+              {part2 && <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-4 leading-relaxed mt-4">
                 {renderArticleParagraphs(part2)}
-              </div>
+              </div>}
 
               {safeSourceUrl && (
                 <aside className="mt-8 rounded-xl border border-blue-100 bg-blue-50/70 p-4 text-sm text-slate-700">
-                  <p className="font-bold text-slate-900">Transparência editorial</p>
+                  <p className="font-bold text-slate-900">Fonte</p>
                   <p className="mt-1 leading-relaxed">
-                    Esta matéria foi produzida a partir de informações distribuídas por{' '}
                     <a
                       href={safeSourceUrl}
                       target="_blank"

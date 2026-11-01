@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_50bc489d",
+      "views": 0,
+      "date": "2026-11-01T11:56:08.751Z",
+      "title": "Polymarket e Kalshi: por que apostas sobre as eleições preocupam especialistas nos: o que está em jogo no mercado?",
+      "subtitle": "Mike Segar As eleições legislativas dos Estados Unidos acontecem em um momento de expansão dos chamados mercados de previsão, plataformas nas quais os usuários podem apostar dinheiro em possíveis resultados de acontecimentos, incluindo disputas eleitorais.",
+      "slug": "polymarket-e-kalshi-por-que-apostas-sobre-as-eleicoes-preocupam-especialistas-nos-o-que-esta-em-jogo-no-mercado",
+      "content": "O que aconteceu\n\nMike Segar As eleições legislativas dos Estados Unidos acontecem em um momento de expansão dos chamados mercados de previsão, plataformas nas quais os usuários podem apostar dinheiro em possíveis resultados de acontecimentos, incluindo disputas eleitorais. O uso dessas plataformas em eleições, porém, preocupa especialistas pelo risco de disseminação de informações falsas e de interpretações equivocadas sobre os resultados das urnas.\n\nO que já foi informado\n\nEspecialistas alertam que os percentuais exibidos nessas plataformas podem ser interpretados como resultados praticamente garantidos, embora representem apenas estimativas. Há também situações em que grupos políticos tentam influenciar essas probabilidades. Se o resultado das urnas for diferente do indicado pelos mercados de previsão, alguns eleitores podem interpretar essa divergência como indício de fraude, mesmo que ela não represente uma irregularidade. Agora no g1 Plataformas como Polymarket e Kalshi permitem que usuários negociem contratos cujo valor depende de resultados eleitorais. Apesar do crescimento desse mercado, pesquisas indicam que a maioria dos americanos é contrária à realização de apostas sobre eleições.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuem pode ganhar espaço com essa movimentação — e qual risco ainda não está resolvido?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Polymarket e Kalshi: por que apostas sobre as eleições Store Center",
+      "seoDescription": "Mike Segar As eleições legislativas dos Estados Unidos acontecem em um momento de expansão dos chamados mercados de previsão, plataformas nas quais os",
+      "keyword": "Polymarket e Kalshi: por que apostas sobre as eleições preocupam especialistas nos EUA? Fonte 2 Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível'",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/economia/noticia/2026/11/01/polymarket-e-kalshi-por-que-apostas-sobre-as-eleicoes-preocupam-especialistas-nos-eua.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/economia/noticia/2026/11/01/polymarket-e-kalshi-por-que-apostas-sobre-as-eleicoes-preocupam-especialistas-nos-eua.ghtml",
+        "https://g1.globo.com/carros/noticia/2026/11/01/teste-honda-cr-v.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Polymarket e Kalshi: por que apostas sobre as eleições preocupam especialistas nos EUA?",
+      "isAiGenerated": false,
+      "visualTheme": "indústrias",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_7cedf35c",
       "views": 0,
       "date": "2026-11-01T10:07:14.324Z",
@@ -28718,7 +28759,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-01T10:07:12.541Z",
+      "lastScraped": "2026-11-01T11:56:06.343Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28726,7 +28767,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-01T10:07:13.220Z",
+      "lastScraped": "2026-11-01T11:56:07.597Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28739,7 +28780,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-01T10:07:14.307Z",
+      "lastScraped": "2026-11-01T11:56:08.738Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -28796,6 +28837,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793534209641",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Polymarket e Kalshi: por que apostas sobre as eleições preocupam especialistas nos EUA?",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Polymarket e Kalshi: por que apostas sobre as eleições preocupam especialistas nos: o que está em jogo no mercado?",
+      "postId": "rss-hash_50bc489d",
+      "timestamp": "2026-11-01T11:56:08.752Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 17.0h (+8), Sem postagem há 17.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Geopolítica",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1793527675743",
       "feedName": "G1 - Economia",

@@ -1,3 +1,4 @@
+import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext } from "../src/lib/rss-editorial";
 import express from "express";
 import path from "path";
 import fs from "fs";
@@ -570,6 +571,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
   const sourceCategory = inferCategoryFromSourceUrl(sourceUrl);
 
   // A section in the source URL is a stronger signal than a stale feed label.
+  if (isAutomotiveMarket(`${title} ${content.slice(0, 1200)}`)) return "Negócios";
   if (sourceCategory) return sourceCategory;
 
   const normalizeCategory = (value: string): string => {
@@ -660,8 +662,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 
   addTerms("Geopolítica", [
     "geopolítica", "geopolitica", "guerra", "exército", "exercito", "fronteira", "militar", "onu", "otan",
-    "oriente médio", "oriente medio", "conflito internacional", "estados unidos", "eua", "china", "rússia",
-    "russia", "sanções", "sancoes", "acordo bilateral", "tratado internacional", "relações internacionais",
+    "oriente médio", "oriente medio", "conflito internacional", "sanções", "sancoes", "acordo bilateral", "tratado internacional", "relações internacionais",
     "relacoes internacionais", "união europeia", "uniao europeia", "crise internacional", "pentágono",
     "pentagono", "força aérea", "forca aerea", "míssil", "missil", "mísseis", "misseis", "diplomacia",
     "embaixada", "conselho de segurança", "conselho de seguranca", "gaza", "israel", "ucrânia", "ucrania",
@@ -2446,41 +2447,17 @@ Trabalhe a cobertura focando prioritariamente sob o ângulo: **${editorialAngle}
 
 ESTRUTURA E ESTILO ANTI-REPETIÇÃO:
 1. NÃO COPIE o texto original. Escreva uma matéria totalmente inédita, formal, séria e analítica com suas próprias palavras.
-2. Escreva somente o que puder ser sustentado pelos títulos e resumos fornecidos. Para uma consolidação de duas fontes, desenvolva entre 600 e 900 palavras; para uma única fonte, prefira 400 a 700 palavras. Não invente conteúdo para atingir o tamanho.
+2. Escreva somente o que puder ser sustentado pelos títulos e resumos fornecidos. Para uma consolidação de duas fontes, use apenas os fatos complementares disponíveis; para uma única fonte, não imponha um mínimo de palavras. Não invente conteúdo para atingir o tamanho.
 3. NÃO invente nomes, números, datas, declarações, citações, estatísticas, contexto histórico, causas, consequências ou projeções. Se a fonte não trouxer um dado, omita-o ou declare de forma transparente que ele não foi informado.
 4. O foco visual obrigatório da imagem de cobertura (campo "imagePrompt") será o tema: **${chosenTheme}**. Redija o prompt em inglês detalhando uma fotografia jornalística de altíssima fidelidade, horizontal, profissional e realista, capturando com exatidão elementos relacionados a '${chosenTheme}', sem textos, legendas, logos ou marca d'água.
 
-Você DEVE estruturar o corpo do texto ("content") usando obrigatoriamente as seguintes 8 seções com cabeçalhos estruturais em Markdown (###):
-
-### 1. Introdução
-- Faça uma abertura contextualizada e elegante do assunto, direcionada pelo ângulo editorial.
-- Adicione as seguintes subseções obrigatórias integradas na introdução:
-  * **Explicação Simplificada**: Uma explicação curta, ultra acessível e sem jargões complexos direcionada para que qualquer pessoa consiga entender o núcleo do assunto perfeitamente de forma simples.
-  * **Contexto Histórico**: Um resgate de como esse segmento, setor ou problema se desenvolveu historicamente no Brasil ou no mundo até chegar a este ponto crítico atual.
-
-### 2. O que aconteceu
-- Desenvolva os fatos recentes de forma minuciosa, clara e objetiva para o leitor. Descreva o acontecimento principal e todos os desdobramentos de interesse público e corporativo.
-
-### 3. Contexto confirmado
-- Inclua apenas contexto presente nas informações de origem. Não use conhecimento presumido nem complete fatos ausentes.
-
-### 4. Impactos para empresas e consumidores
-- Desenvolva profundamente as repercussões cotidianas e estratégias de curto e longo prazo.
-- Detalhe obrigatoriamente sob as seguintes perspectivas integradas sob os seguintes rótulos em negrito:
-  * **Impacto Econômico**: Repercussão nas finanças públicas, corporativas, investimentos privados ou indicadores macroeconômicos do mercado.
-  * **Impacto para o Cidadão**: Como isso afeta a rotina real de um cidadão comum, o bolso, as tarifas, o consumo ou seus direitos práticos.
-
-### 5. Dados confirmados
-- Liste somente números que aparecem nas informações de origem, preservando unidades, atribuição e incertezas. Se não houver números, escreva "A fonte consultada não informou dados numéricos adicionais".
-
-### 6. Próximos passos
-- Informe apenas próximos passos explicitamente mencionados pela fonte. Não faça previsões próprias.
-
-### 7. Conclusão
-- Ofereça uma conclusão rica, robusta e madura com uma análise final aprofundada que sintetize todos os reflexos da transformação descrita sob a ótica jornalística setorial sofisticada.
-
-### 8. FAQ automático
-- Crie uma seção curta de perguntas frequentes e respostas automáticas (pelo menos 3 a 5 perguntas elaboradas em negrito e respondidas de forma assertiva e dinamicamente instrutiva, ideais para rich snippets de SEO).
+Escreva o corpo como texto corrido, com parágrafos separados por duas quebras de linha, sem cabeçalhos ou seções padronizadas.
+Abra com um resumo concreto do contexto do assunto. Em matérias automotivas, situe a marca, o modelo e o mercado usando apenas fatos presentes nas fontes; não invente história da marca, especificações ou causas para vendas.
+Depois desenvolva os fatos disponíveis, comparações, números e atribuições relevantes. O tamanho deve acompanhar a informação disponível: uma fonte curta pede uma matéria curta, sem preenchimento para atingir contagem de palavras.
+Não acrescente comentários sobre o processo de redação, leitura conjunta de resumos, linguagem humana, limites desta edição ou promessas de acompanhamento.
+Não termine com perguntas genéricas, FAQ, “o que observar agora” ou “esta matéria foi elaborada a partir de...”. A procedência ficará registrada nos metadados da publicação.
+Remova créditos fotográficos grudados no texto, duplicações como “Honda O Honda”, chamadas como “o g1 testou”, “clique”, “leia também” e marcadores [Fonte 1]/[Fonte 2] da versão publicada. Preserve atribuições factuais específicas, como “segundo a associação”, e não alegue que o Store Center realizou testes ou entrevistas feitos por terceiros.
+Classifique pelo tema central: vendas, comparação de modelos, preço e lançamento de carros são Negócios. Mencionar EUA, China ou outro país não transforma a matéria em Geopolítica; essa categoria exige que diplomacia, conflitos ou relações entre Estados sejam o assunto principal.
 
 Retorne estritamente um código JSON válido contendo exatamente as seguintes chaves do objeto JSON:
 {
@@ -3652,7 +3629,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       rewritten.editorialAngle = editorialAngle;
     }
 
-    const sanitizedTitle = cleanText(rewritten.title || item.title);
+    const sanitizedTitle = cleanRssTitle(cleanText(rewritten.title || item.title));
     const finalSlug = sanitizedTitle
       .toLowerCase()
       .normalize("NFD")
@@ -3663,7 +3640,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
-    const sanitizedContent = cleanArticleContent(rewritten.content || "");
+    const sanitizedContent = rssArticleParagraphs(cleanArticleContent(rewritten.content || "")).join("\n\n");
     const finalClassifierText = `${sanitizedTitle} ${sanitizedSubtitle}`.toLowerCase();
     const scraperCategory = autoCategorizeNews(
       sanitizedTitle,
@@ -3835,16 +3812,9 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       finalClassifierText.includes("fome")
     ) {
       correctedFinalCategory = "Economia";
-    } else if (
-      finalClassifierText.includes("eua") ||
-      finalClassifierText.includes("estados unidos") ||
-      finalClassifierText.includes("china") ||
-      finalClassifierText.includes("trump") ||
-      finalClassifierText.includes("tarifa") ||
-      finalClassifierText.includes("sobretaxa") ||
-      finalClassifierText.includes("trabalho forçado") ||
-      finalClassifierText.includes("trabalho forcado")
-    ) {
+    } else if (isAutomotiveMarket(finalClassifierText)) {
+      correctedFinalCategory = "Negócios";
+    } else if (isGeopoliticalTopic(finalClassifierText)) {
       correctedFinalCategory = "Geopolítica";
     }
 
@@ -4439,7 +4409,7 @@ function fallbackRewrite(item: any, feed: any) {
   // Eles servem apenas para o processamento editorial e nunca devem aparecer
   // publicados para o leitor.
   const firstSourceTitle = rawTitle.match(/\[?Fonte\s*1\]?\s*[:\-—]?\s*(.*?)(?:\s*\[?Fonte\s*2\]?\b|$)/i)?.[1];
-  const originalTitle = cleanText(firstSourceTitle || rawTitle)
+  const originalTitle = cleanRssTitle(cleanText(firstSourceTitle || rawTitle))
     .replace(/^Fonte\s*["'“”]?\s*1\b\s*[:\-—]?\s*/i, "")
     .trim() || "Atualização do RSS";
   let category = feed?.category || "Economia";
@@ -4453,7 +4423,7 @@ function fallbackRewrite(item: any, feed: any) {
     item.content ||
     "";
 
-  let summary = cleanCdataAndHtml(String(rawSummary));
+  let summary = cleanCdataAndHtml(String(rawSummary)).replace(/\[Fonte\s*\d+(?:\s*[—–-][^\]]*)?\]/gi, " ").trim();
 
   // Remove chamadas e ruídos comuns vindos dos portais de origem
   summary = summary
@@ -4479,35 +4449,7 @@ function fallbackRewrite(item: any, feed: any) {
   category = feed?.lockCategory ? (feed.category || inferredCategory) : inferredCategory;
 
   const primaryTopicText = `${originalTitle} ${summary.slice(0, 450)}`.toLowerCase();
-  const geoText = primaryTopicText;
-  if (
-    geoText.includes("eua") ||
-    geoText.includes("estados unidos") ||
-    geoText.includes("china") ||
-    geoText.includes("trump") ||
-    geoText.includes("tarifa") ||
-    geoText.includes("sobretaxa") ||
-    geoText.includes("importação") ||
-    geoText.includes("importacao") ||
-    geoText.includes("exportação") ||
-    geoText.includes("exportacao") ||
-    geoText.includes("trabalho forçado") ||
-    geoText.includes("trabalho forcado") ||
-    geoText.includes("governo brasileiro") ||
-    geoText.includes("relações comerciais") ||
-    geoText.includes("relacoes comerciais") ||
-    geoText.includes("comércio exterior") ||
-    geoText.includes("comercio exterior") ||
-    geoText.includes("balança comercial") ||
-    geoText.includes("balanca comercial") ||
-    geoText.includes("mdic") ||
-    geoText.includes("exportações") ||
-    geoText.includes("exportacoes") ||
-    geoText.includes("importações") ||
-    geoText.includes("importacoes")
-  ) {
-    category = "Geopolítica";
-  }
+  if (isGeopoliticalTopic(primaryTopicText)) category = "Geopolítica";
 
   const sportsText = primaryTopicText;
   if (
@@ -4562,11 +4504,11 @@ function fallbackRewrite(item: any, feed: any) {
     category = "Negócios";
   }
 
-  summary = summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim();
+  summary = cleanRssOpening(summary.replace(/^[\s|/\\:;,.\-–—]+/, "").trim());
 
-  let shortSummary = summary.slice(0, 1200).trim();
+  let shortSummary = summary.slice(0, 8000).trim();
 
-  if (summary.length > 1200) {
+  if (summary.length > 8000) {
     const lastSentenceEnd = Math.max(
       shortSummary.lastIndexOf("."),
       shortSummary.lastIndexOf("!"),
@@ -4591,25 +4533,13 @@ function fallbackRewrite(item: any, feed: any) {
 
   const safeSubtitle = buildCompleteExcerpt(shortSummary, 260) || `O que já foi confirmado e qual pergunta ainda precisa ser respondida neste assunto de ${category}.`;
   const curiosityTitle = buildCuriosityTitle(originalTitle, category);
-  const sentences = splitCompleteSentences(shortSummary).slice(0, 8);
-  const lead = sentences.slice(0, 2).join(" ") || safeSubtitle;
-  const details = sentences.slice(2).join(" ");
-  const specificQuestion = buildSpecificQuestion(originalTitle, shortSummary, category);
-  const contentParts = [
-    "O que aconteceu",
-    lead,
-    ...(details ? ["O que já foi informado", details] : []),
-    "Como as informações se conectam",
-    `A leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.`,
-    "O que isso representa",
-    `Além do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em ${category}. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.`,
-    "A pergunta que fica",
-    specificQuestion,
-    "O que observar agora",
-    "A resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.",
-    `Esta matéria foi elaborada a partir do conteúdo distribuído por ${sourceName}. O link para a publicação original está disponível ao final do texto.`
-  ];
-  const content = contentParts.join("\n\n");
+  const sentences = splitCompleteSentences(shortSummary);
+  const factualParagraphs: string[] = [];
+  for (let index = 0; index < sentences.length; index += 2) {
+    factualParagraphs.push(sentences.slice(index, index + 2).join(" "));
+  }
+  const context = automotiveContext(originalTitle, shortSummary);
+  const content = rssArticleParagraphs([context, ...factualParagraphs].filter(Boolean).join("\n\n")).join("\n\n");
   const imageText = (originalTitle + " " + summary).toLowerCase();
   let imageTopic = `${category} editorial news`;
 

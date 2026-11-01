@@ -1,6 +1,47 @@
 {
   "posts": [
     {
+      "id": "rss-hash_21c6360e",
+      "views": 0,
+      "date": "2026-11-01T21:17:51.929Z",
+      "title": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível' Fonte 2 Bolsa?",
+      "subtitle": "Honda O Honda CR-V é um sucesso de vendas no mercado norte-americano. O modelo vendeu mais de 226 mil unidades no primeiro semestre deste ano, sendo 51% de versão com motor híbrido.",
+      "slug": "por-que-o-honda-cr-v-e-um-sucesso-nos-eua-mas-quase-nao-vende-no-brasil-o-g1-testou-o-suv-invisivel-fonte-2-bolsa",
+      "content": "O que aconteceu\n\nHonda O Honda CR-V é um sucesso de vendas no mercado norte-americano. O modelo vendeu mais de 226 mil unidades no primeiro semestre deste ano, sendo 51% de versão com motor híbrido.\n\nO que já foi informado\n\nNo Brasil, a história é totalmente diferente. Em 2026, segundo dados da Associação Brasileira do Veículo Elétrico, a Honda conseguiu emplacar só 133 unidades do SUV. É como se o campeão de vendas fosse invisível para os consumidores brasileiros. E o preço de R$ 353.500 não pode ser desculpa. Os clientes no Brasil estão comprando SUVs nessa faixa de preço, até mais caros. Para ficar em apenas um exemplo, o BYD Atto 8 foi lançado em março, custa R$ 399 mil e já emplacou 1.231 unidades.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda a separar o fato principal dos elementos que ainda dependem de confirmação. Quando duas fontes tratam do mesmo assunto, esta edição prioriza os pontos coincidentes, identifica diferenças de abordagem e evita transformar hipótese em certeza. O objetivo é oferecer ao leitor uma explicação clara, com linguagem humana e contexto suficiente para compreender por que o tema merece atenção.\n\nO que isso representa\n\nAlém do acontecimento imediato, a pauta tem efeitos para pessoas, empresas e para o debate público em Negócios. A relevância prática depende das decisões que vierem a seguir e da forma como os envolvidos responderão às informações divulgadas. Por isso, o Store Center mantém a atribuição das fontes e sinaliza os limites do que está confirmado até o momento.\n\nA pergunta que fica\n\nQuando essa mudança pode chegar ao bolso — e quem tende a sentir primeiro os seus efeitos?\n\nO que observar agora\n\nA resposta depende das próximas informações e decisões ligadas ao caso. O Store Center continuará acompanhando o tema e atualizará esta matéria quando houver confirmação relevante.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1 - Economia + G1 - Economia. O link para a publicação original está disponível ao final do texto.",
+      "category": "Geopolítica",
+      "author": "Redação Store Center",
+      "tags": [
+        "Geopolítica",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Por que o Honda CR-V é um sucesso nos EUA, mas quase Store Center",
+      "seoDescription": "Honda O Honda CR-V é um sucesso de vendas no mercado norte-americano. O modelo vendeu mais de 226 mil unidades no primeiro semestre deste ano, sendo 5",
+      "keyword": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível' Fonte 2 Bolsa Família 2026: veja calendário de pagamentos em novembro",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/carros/noticia/2026/11/01/teste-honda-cr-v.ghtml",
+      "sourceName": "G1 - Economia + G1 - Economia",
+      "sourceUrls": [
+        "https://g1.globo.com/carros/noticia/2026/11/01/teste-honda-cr-v.ghtml",
+        "https://g1.globo.com/economia/noticia/2026/11/01/bolsa-familia-2026-veja-calendario-de-pagamentos-em-novembro.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Economia",
+        "G1 - Economia"
+      ],
+      "rssOriginalTitle": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível'",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_78e7efd",
       "views": 0,
       "date": "2026-11-01T19:17:38.835Z",
@@ -28923,7 +28964,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-01T19:17:37.181Z",
+      "lastScraped": "2026-11-01T21:17:50.575Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -28931,7 +28972,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-01T19:17:37.940Z",
+      "lastScraped": "2026-11-01T21:17:50.911Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -28944,7 +28985,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-01T19:17:38.822Z",
+      "lastScraped": "2026-11-01T21:17:51.911Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     }
@@ -29001,6 +29042,29 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793567898316",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível'",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: international diplomacy global trade map cargo ships government negotiation, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível' Fonte 2 Bolsa?",
+      "postId": "rss-hash_21c6360e",
+      "timestamp": "2026-11-01T21:17:51.930Z",
+      "chosenCategory": "Geopolítica",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 6.8h (+8), Sem postagem há 6.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 28",
+      "discardedCategories": [
+        "Geopolítica",
+        "Tecnologia",
+        "Direito"
+      ]
+    },
     {
       "id": "1793560720145",
       "feedName": "G1 - Economia",

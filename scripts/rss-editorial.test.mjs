@@ -30,9 +30,11 @@ test('context uses identified model and countries; does not invent brand history
 });
 
 test('existing RSS display is corrected while URL, image, sources and identity are preserved', () => {
-  const original = { id: 'honda-1', title: "Por que o Honda CR-V vende nos EUA e não no Brasil? O g1 testou o SUV", subtitle: 'Honda O Honda CR-V vendeu 226 mil unidades.', content: 'O que aconteceu\n\nHonda O Honda CR-V vendeu 226 mil unidades nos EUA.\n\nO que já foi informado\n\nNo Brasil, foram 133 unidades, segundo a associação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda o leitor.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1.', category: 'Geopolítica', rssOriginalTitle: 'Honda CR-V', slug: 'url-antiga-fonte-2', image: 'foto-existente.jpg', sourceUrl: 'https://g1.globo.com/noticia', status: 'published', date: '2026-11-01T12:00:00Z', tags: [] };
+  const original = { id: 'honda-1', title: "Por que o Honda CR-V vende nos EUA e não no Brasil? O g1 testou o SUV", subtitle: 'Honda O Honda CR-V vendeu 226 mil unidades.', content: 'O que aconteceu\n\nHonda O Honda CR-V vendeu 226 mil unidades nos EUA.\n\nO que já foi informado\n\nNo Brasil, foram 133 unidades, segundo a associação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda o leitor.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1.', category: 'Geopolítica', rssOriginalTitle: 'Honda CR-V', slug: 'url-antiga-fonte-2', image: 'foto-existente.jpg', sourceUrl: 'https://g1.globo.com/noticia', status: 'published', date: '2026-11-01T12:00:00Z', tags: ['Geopolítica', 'RSS', 'Store Center'] };
   const result = normalizePost(original);
   assert.equal(result.category, 'Negócios');
+  assert.deepEqual(result.tags, ['Negócios', 'RSS', 'Store Center']);
+  assert.deepEqual(original.tags, ['Geopolítica', 'RSS', 'Store Center']);
   assert.equal(result.slug, original.slug);
   assert.equal(result.id, original.id);
   assert.equal(result.image, original.image);

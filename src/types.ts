@@ -345,7 +345,16 @@ export function normalizePost(post: any): Post {
       if (context && !paragraphs.includes(context)) paragraphs.unshift(context);
     }
     p.content = paragraphs.join('\n\n');
-    if (isAutomotiveMarket(`${p.title} ${p.subtitle}`)) p.category = 'Negócios';
+    if (isAutomotiveMarket(`${p.title} ${p.subtitle}`)) {
+      const previousCategory = p.category;
+      p.category = 'Negócios';
+      if (Array.isArray(p.tags)) {
+        p.tags = [...new Set(p.tags.map((tag: string) =>
+          String(tag).trim().toLowerCase() === String(previousCategory || '').trim().toLowerCase()
+            ? p.category : tag
+        ))];
+      }
+    }
   }
 
   // Normalize status - handle "NO AR", boolean "published"

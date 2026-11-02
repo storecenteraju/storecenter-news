@@ -1,4 +1,3 @@
-import { sanitizeRssPost } from './lib/rss-editorial';
 export type CategoryType = 
   | 'Economia'
   | 'Política'
@@ -313,27 +312,7 @@ export function getCategoryFallbackImage(category?: string, seedStr?: string, av
 
 export function normalizePost(post: any): Post {
   if (!post) return post;
-  const p = sanitizeRssPost(post);
-
-  const stripSourceMarker = (value: unknown): string => typeof value === 'string'
-    ? value
-      .replace(/^\s*\[?Fonte\s*1\s*[—–-]\s*(?:(?:G1|Globo|CNN|BBC|Reuters|AFP|AP)\s*[—–-]\s*)?/i, '')
-      .replace(/^\s*\[?Fonte\s*\d+\]?\s+/i, '')
-      .trim()
-    : '';
-
-  // Marcadores usados internamente na consolidação de fontes nunca devem ser
-  // exibidos ao leitor (inclusive na cópia estática do portal).
-  if (typeof p.title === 'string') {
-    p.title = stripSourceMarker(p.title)
-      .split(/\s*\[?Fonte\s*2\]?\b/i)[0].trim();
-  }
-  if (typeof p.subtitle === 'string') p.subtitle = stripSourceMarker(p.subtitle);
-  if (typeof p.seoTitle === 'string') p.seoTitle = stripSourceMarker(p.seoTitle);
-  if (typeof p.seoDescription === 'string') p.seoDescription = stripSourceMarker(p.seoDescription);
-  if (typeof p.content === 'string') {
-    p.content = p.content.split(/\n\s*\n+/).map(stripSourceMarker).join('\n\n');
-  }
+  const p = { ...post };
 
   // Normalize status - handle "NO AR", boolean "published"
   const rawStatus = String(p.status || '').trim().toLowerCase();

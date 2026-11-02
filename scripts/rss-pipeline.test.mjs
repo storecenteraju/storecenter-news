@@ -21,6 +21,7 @@ test('RSS dry run alternates publishers, does not merge FGTS, cleans promotion a
     process.chdir(temporary);
     Object.assign(process.env, { STATIC_PUBLISH_MODE: 'true', VERCEL: '1', RSS_ENABLE_AI_IMAGE_GENERATION: 'false', RSS_DEFAULT_IMAGE_POLICY: 'reference_only' });
     delete process.env.GEMINI_API_KEY;
+    console.log('[TESTE SIMULADO] As respostas e falhas de feeds abaixo são fabricadas. Nenhuma notícia será salva.');
     globalThis.fetch = async input => {
       const url = String(input); requested.push(url);
       if (url.includes('g1.globo.com/dynamo')) return new Response(xml('Saque-aniversário FGTS novembro', 'https://g1.globo.com/economia/fgts', 'O calendário do FGTS informa as datas para consultar os pagamentos e os valores disponíveis.'));

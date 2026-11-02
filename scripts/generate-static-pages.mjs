@@ -1,11 +1,10 @@
 import fs from 'node:fs';
 import path from 'node:path';
-import { sanitizeRssPost } from '../src/lib/rss-editorial.ts';
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, 'dist');
 const templatePath = path.join(distDir, 'index.html');
-const databasePath = path.join(rootDir, 'db.json');
+const databasePath = path.join(rootDir, 'public', 'data', 'site-data.json');
 const siteUrl = String(process.env.SITE_URL || 'https://storecenter.com.br').replace(/\/$/, '');
 
 const database = JSON.parse(fs.readFileSync(databasePath, 'utf8'));
@@ -105,7 +104,6 @@ function articleSeo(post, slug) {
 }
 
 const posts = (Array.isArray(database.posts) ? database.posts : [])
-  .map(sanitizeRssPost)
   .filter(isPublished)
   .map(post => ({ ...post, resolvedSlug: String(post.slug || slugify(post.title)) }))
   .filter(post => post.resolvedSlug);

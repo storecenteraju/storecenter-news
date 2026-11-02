@@ -1,5 +1,6 @@
 import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext, buildRssHeadline, isSportsTopic, cleanRssPromotions, sanitizeRssPost } from "../src/lib/rss-editorial.js";
 import { withSupplementalRssFeeds, rankRssCandidates } from "../src/lib/rss-sources.js";
+import { editablePostFields, persistManualUpdate, manualOverrideFromPost, applyManualOverrides, automaticPostUpdate, repairSelectedPosts } from "../src/lib/editorial-protection.js";
 import express from "express";
 import path from "path";
 import fs from "fs";
@@ -58,7 +59,7 @@ app.use(async (req, res, next) => {
   const isLoginRoute = pathStr.includes("login") || pathStr.includes("/login");
   const isAssetRoute = pathStr.startsWith("/assets/") || pathStr.includes("/assets/");
   const isHealthRoute = pathStr === "/api/health";
-  const isPortalDataRoute = pathStr === "/api/portal-data";
+  const isPortalDataRoute = pathStr === "/api/portal-data" || pathStr === "/api/manual-edits";
   
   const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute && !isPortalDataRoute;
 
@@ -171,7 +172,11 @@ async function syncPost(post: any) {
       return false;
     }
     if (post && post.id) {
-      await dbStore.collection("posts").doc(String(post.id)).set(post);
+      const ref = dbStore.collection("posts").doc(String(post.id));
+      await dbStore.runTransaction(async (transaction: any) => {
+        const current = await transaction.get(ref);
+        transaction.set(ref, current.exists ? automaticPostUpdate(current.data(), post) : post, { merge: true });
+      });
       return true;
     }
     return false;
@@ -1011,6 +1016,33 @@ app.post("/api/settings/change-password", async (req, res) => {
   }
 });
 
+function readManualEditSnapshot(): any[] {
+  const file = path.join(process.cwd(), "manual-overrides.json");
+  return fs.existsSync(file) ? JSON.parse(fs.readFileSync(file, "utf8")) : [];
+}
+
+async function loadManualEdits(): Promise<any[]> {
+  if (!dbStore) throw new Error("Firestore administrativo indisponível.");
+  const snap = await dbStore.collection("posts").where("manuallyEdited", "==", true)
+    .select("id", ...editablePostFields, "manualFields", "manualEditedAt").get();
+  const merged = new Map(readManualEditSnapshot().map(item => [String(item.id), item]));
+  snap.forEach((doc: any) => {
+    const override = manualOverrideFromPost({ ...doc.data(), id: doc.data().id || doc.id });
+    const previous: any = merged.get(override.id);
+    merged.set(override.id, { ...override, fields: { ...(previous?.fields || {}), ...override.fields } });
+  });
+  return Array.from(merged.values());
+}
+
+app.get("/api/manual-edits", async (_req, res) => {
+  res.setHeader("Cache-Control", "no-store, max-age=0");
+  try {
+    res.json({ version: 1, overrides: await loadManualEdits() });
+  } catch (error: any) {
+    res.status(503).json({ error: error.message || "Não foi possível conferir as edições manuais." });
+  }
+});
+
 // 1. Posts CRUD
 app.get("/api/portal-data", async (req, res) => {
   try {
@@ -1023,10 +1055,13 @@ app.get("/api/portal-data", async (req, res) => {
   } catch (error: any) {
     console.error("[PORTAL] Falha ao carregar dados públicos do Firestore:", error);
     const db = readDatabase();
+    let fallbackPosts = db.posts || [];
+    try { fallbackPosts = applyManualOverrides(fallbackPosts, await loadManualEdits()); }
+    catch (manualError) { console.warn("[MANUAL] Usando o registro local protegido:", manualError); }
     res.setHeader("Cache-Control", "no-store, max-age=0");
     res.setHeader("X-Store-Center-Data-Source", "local-fallback");
     res.json({
-      posts: db.posts || [],
+      posts: fallbackPosts,
       feeds: db.feeds || [],
       ads: db.ads || [],
       settings: db.settings || {}
@@ -1043,108 +1078,28 @@ app.get("/api/posts", (req, res) => {
   res.json(db.posts || []);
 });
 
-app.post("/api/posts/cleanup-and-normalize", (req, res) => {
-  const db = readDatabase();
-  const originalCount = (db.posts || []).length;
-  
-  const seenIds = new Set<string>();
-  const normalizedPosts: any[] = [];
-
-  for (const p of (db.posts || [])) {
-    if (!p || !p.id) continue;
-    const pId = String(p.id);
-    if (seenIds.has(pId)) continue;
-    seenIds.add(pId);
-    
-    const normalized = { ...p };
-    const rawStatus = String(normalized.status || '').trim().toLowerCase();
-    
-    if (
-      rawStatus === 'published' || 
-      rawStatus === 'no ar' || 
-      rawStatus === 'no_ar' || 
-      normalized.published === true || 
-      normalized.published === 'true'
-    ) {
-      normalized.status = 'published';
-    } else if (rawStatus === 'scheduled') {
-      normalized.status = 'scheduled';
-    } else {
-      normalized.status = 'draft';
+app.post("/api/posts/cleanup-and-normalize", async (req, res) => {
+  try {
+    const ids = Array.isArray(req.body?.ids) ? req.body.ids.map(String) : [];
+    const fields = Array.isArray(req.body?.fields) ? req.body.fields.map(String) : [];
+    if (!ids.length || !fields.length) return res.status(400).json({ error: "Reparo global desativado. Informe os IDs e os campos exatos da correção." });
+    const db = readDatabase();
+    const repaired = repairSelectedPosts(db.posts || [], ids, fields, sanitizeRssPost, req.body.allowManual === true);
+    if (!dbStore) return res.status(503).json({ error: "O salvamento permanente não está disponível." });
+    let count = 0;
+    for (let index = 0; index < repaired.length; index++) {
+      if (repaired[index] === db.posts[index]) continue;
+      const patch: any = {};
+      for (const field of fields) patch[field] = repaired[index][field];
+      await dbStore.collection("posts").doc(String(repaired[index].id)).set(patch, { merge: true });
+      count++;
     }
-
-    // Priority order: 1. publishedAt, 2. updatedAt, 3. createdAt, 4. date
-    const resolveDateBackend = (post: any) => {
-      const candidates = [post.publishedAt, post.updatedAt, post.createdAt, post.date];
-      const now = new Date();
-      for (const val of candidates) {
-        if (val) {
-          const parsedTime = parseStoredDate(val);
-          if (parsedTime > 0) {
-            const parsed = new Date(parsedTime);
-            const isScheduled = String(post.status || '').trim().toLowerCase() === 'scheduled';
-            if (!isScheduled && parsed.getTime() > now.getTime()) {
-              continue; // Skip future date for non-scheduled posts
-            }
-            return parsed.toISOString();
-          }
-        }
-      }
-      // If we only have future uncapped/invalid candidate dates, clamp to now
-      for (const val of candidates) {
-        if (val) {
-          const parsedTime = parseStoredDate(val);
-          if (parsedTime > 0) return now.toISOString();
-        }
-      }
-      return now.toISOString();
-    };
-
-    normalized.date = resolveDateBackend(normalized);
-
-    if (normalized.status === 'scheduled') {
-      if (!normalized.publishAt) {
-        normalized.publishAt = normalized.scheduledAt || normalized.publishAt;
-      }
-      if (normalized.publishAt && new Date(normalized.publishAt) <= new Date()) {
-        normalized.status = 'published';
-        normalized.date = normalized.publishAt;
-      }
-    }
-
-    // Only explicit internal markers identify a test post. Editorial uses of the
-    // word "teste" (for example, a vehicle review) must remain publishable.
-    const titleLower = String(normalized.title || '').trim().toLowerCase();
-    const isTestByTitle =
-      /^\[(?:teste|test)\](?:\s|$)/i.test(titleLower) ||
-      /^(?:test post|test_post)(?:\s|:|-|$)/i.test(titleLower) ||
-      /^teste\s+(?:interno|autom[aá]tico)(?:\s|:|-|$)/i.test(titleLower);
-    if (normalized.isTestPost === 'true' || normalized.isTestPost === true || isTestByTitle) {
-      normalized.isTestPost = true;
-    } else {
-      normalized.isTestPost = false;
-    }
-
-    // Re-run the brand new autoCategorizeNews classification helper with advanced keyword groups!
-    normalized.category = autoCategorizeNews(
-      normalized.title || '',
-      normalized.content || '',
-      normalized.category || 'Economia',
-      normalized.sourceUrl || ''
-    );
-
-    normalizedPosts.push(normalized);
+    db.posts = repaired;
+    writeDatabase(db);
+    res.json({ success: true, correctedCount: count, ids, fields });
+  } catch (error: any) {
+    res.status(400).json({ error: error.message || "Reparo interrompido." });
   }
-
-  db.posts = normalizedPosts;
-  writeDatabase(db);
-
-  res.json({
-    success: true,
-    originalCount,
-    finalCount: normalizedPosts.length,
-    message: "Base de dados normalizada e higienizada com sucesso!"
-  });
 });
 
 app.post("/api/posts", async (req, res) => {
@@ -1173,10 +1128,11 @@ app.post("/api/posts", async (req, res) => {
     newPost.category = autoCategorizeNews(newPost.title || '', newPost.content || '', newPost.category || 'Economia', newPost.sourceUrl || '');
   }
 
+  if (!await syncPost(newPost)) {
+    return res.status(503).json({ error: "Não foi possível confirmar o salvamento permanente. A notícia não foi publicada." });
+  }
   db.posts.unshift(newPost);
   writeDatabase(db);
-  // Sincroniza granularmente com o Firestore
-  await syncPost(newPost);
   res.status(211).json(newPost);
 });
 
@@ -1187,38 +1143,7 @@ app.put("/api/posts/:id", async (req, res) => {
     const db = readDatabase();
     const requested = String(req.params.id);
     let index = db.posts.findIndex((p: any) => String(p.id) === String(req.params.id));
-    // O painel pode estar usando uma cópia estática gerada antes da última
-    // sincronização do Firestore. Nessa situação, localizamos a mesma matéria
-    // por slug, URL de origem ou título para não perder a edição.
-    if (index === -1) {
-      const slug = String(req.body?.slug || "").trim();
-      const sourceUrl = String(req.body?.sourceUrl || "").trim();
-      const title = String(req.body?.title || "").trim();
-      const originalTitle = String(req.body?.originalTitle || "").trim();
-      const originalSlug = String(req.body?.originalSlug || "").trim();
-      index = db.posts.findIndex((p: any) =>
-        (slug && String(p.slug || "").trim() === slug) ||
-        (originalSlug && String(p.slug || "").trim() === originalSlug) ||
-        (sourceUrl && String(p.sourceUrl || "").trim() === sourceUrl) ||
-        (title && String(p.title || "").trim() === title) ||
-        (originalTitle && String(p.title || "").trim() === originalTitle)
-      );
-      if (index === -1 && (title || originalTitle)) {
-        const key = (value: string) => String(value || "")
-          .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, "")
-          .replace(/\s*\[?Fonte\s*2\]?\b[\s\S]*$/i, "")
-          .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
-          .toLowerCase().replace(/[^a-z0-9]+/g, "");
-        const requestedKeys = [key(title), key(originalTitle)].filter(Boolean);
-        index = db.posts.findIndex((p: any) => {
-          const candidate = key(String(p.title || ""));
-          return requestedKeys.some((requestedKey) => candidate === requestedKey || candidate.startsWith(requestedKey) || requestedKey.startsWith(candidate));
-        });
-      }
-      if (index !== -1) {
-        console.warn(`[POSTS] ID ${requested} não estava no cache; matéria localizada por metadados.`);
-      }
-    }
+    // An edit must target exactly the requested ID, never a similar title.
     // Alguns registros antigos usam o ID do documento Firestore como chave,
     // embora o campo interno `id` seja diferente. Consulte o documento direto
     // antes de devolver 404 para não bloquear a edição do painel.
@@ -1242,19 +1167,16 @@ app.put("/api/posts/:id", async (req, res) => {
       }
     }
     if (index !== -1) {
-      const { originalTitle: _originalTitle, originalSlug: _originalSlug, ...postUpdates } = req.body || {};
-      db.posts[index] = { ...db.posts[index], ...postUpdates };
-      const hasManualEditCategory = Object.prototype.hasOwnProperty.call(req.body, "category") && typeof req.body.category === "string" && req.body.category.trim() !== "";
-      if (!hasManualEditCategory && (req.body.title || req.body.content)) {
-        db.posts[index].category = autoCategorizeNews(
-          db.posts[index].title || '',
-          db.posts[index].content || '',
-          db.posts[index].category || 'Economia',
-          db.posts[index].sourceUrl || ''
-        );
+      const postUpdates = req.body || {};
+      if (!Object.keys(postUpdates).length) return res.json(db.posts[index]);
+      try {
+        const saved = await persistManualUpdate(dbStore, db.posts[index], postUpdates, new Date().toISOString());
+        db.posts[index] = saved;
+        writeDatabase(db);
+        portalDataLoadedAt = 0;
+      } catch (saveError: any) {
+        return res.status(503).json({ error: saveError.message || "O salvamento permanente não foi confirmado." });
       }
-      writeDatabase(db);
-      await syncPost(db.posts[index]);
       return res.json(db.posts[index]);
     }
     return res.status(404).json({ error: "Post não encontrado" });
@@ -2068,17 +1990,8 @@ const cleanText = (txt: string) => {
   return res.trim();
 };
 
-const sanitizeStoredPost = (post: any) => {
-  if (!post || typeof post !== "object") return post;
-  return sanitizeRssPost({
-    ...post,
-    title: cleanText(post.title),
-    subtitle: cleanText(post.subtitle),
-    seoTitle: cleanText(post.seoTitle),
-    seoDescription: cleanText(post.seoDescription),
-    content: cleanArticleContent(post.content)
-  });
-};
+// Reading a publication must never rewrite its editorial fields.
+const sanitizeStoredPost = (post: any) => post && typeof post === "object" ? { ...post } : post;
 
 function mergeNewLocalPosts(remotePosts: any[]) {
   if (!fs.existsSync(DB_PATH)) return remotePosts;
@@ -3156,67 +3069,6 @@ async function getUniqueArticleImage(
   };
 }
 
-// Function to clean "[RSS]" from titles of existing posts in db.json
-async function fixExistingRssPosts() {
-  const db = readDatabase();
-  let updated = false;
-  const changedPosts: any[] = [];
-  if (db.posts && Array.isArray(db.posts)) {
-    db.posts.forEach((p: any) => {
-      let titleChanged = false;
-
-      if (p.title && (p.title.includes("[RSS]") || p.title.includes("RSS"))) {
-        p.title = cleanText(p.title);
-        titleChanged = true;
-      }
-      if (p.title && /^\s*\[?Fonte\s*["'“”]?\s*1\b/i.test(p.title)) {
-        const withoutMarker = p.title
-          .replace(/^\s*\[?Fonte\s*["'“”]?\s*1\]?\s*[:\-—]?\s*/i, "")
-          .split(/\s*\[?Fonte\s*2\]?\b/i)[0]
-          .trim();
-        if (withoutMarker) {
-          p.title = withoutMarker;
-          titleChanged = true;
-        }
-      }
-      if (p.seoTitle && (p.seoTitle.includes("[RSS]") || p.seoTitle.includes("RSS"))) {
-        p.seoTitle = cleanText(p.seoTitle);
-        titleChanged = true;
-      }
-      if (p.subtitle && (p.subtitle.includes("[RSS]") || p.subtitle.includes("RSS"))) {
-        p.subtitle = cleanText(p.subtitle);
-        titleChanged = true;
-      }
-
-      if (titleChanged) {
-        p.slug = p.title
-          .toLowerCase()
-          .normalize("NFD")
-          .replace(/[\u0300-\u036f]/g, "")
-          .replace(/[^a-z0-9]+/g, "-")
-          .replace(/(^-|-$)+/g, "");
-        updated = true;
-        changedPosts.push(p);
-      }
-    });
-
-    if (db.automationLogs && Array.isArray(db.automationLogs)) {
-      db.automationLogs.forEach((log: any) => {
-        if (log.publishedTitle && (log.publishedTitle.includes("[RSS]") || log.publishedTitle.includes("RSS"))) {
-          log.publishedTitle = cleanText(log.publishedTitle);
-          updated = true;
-        }
-      });
-    }
-
-    if (updated) {
-      writeDatabase(db);
-      for (const post of changedPosts) await syncPost(post);
-      console.log("[CLEANUP] Títulos e logs expurgados de resíduos '[RSS]' com sucesso!");
-    }
-  }
-}
-
 // 8. Auto Cron: Fetch & Rewrite RSS Feeds
 async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}) {
   const dryRun = options.dryRun === true;
@@ -3233,7 +3085,8 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     return { success: true, totalImported: 0, importedPosts: [], message: "Nenhum feed ativo cadastrado." };
   }
 
-  const upgradedLegacyPosts = dryRun ? [] : await upgradeLegacyRssPosts(db, activeFeeds);
+  // RSS runs only create new stories. Existing stories require an explicit scoped repair.
+  const upgradedLegacyPosts: string[] = [];
 
   // 1. Calculate historical category balance to rank categories
   const DESIRED_CATEGORIES = ["Economia", "Política", "Tecnologia", "Negócios", "Geopolítica", "Nacional", "Saúde", "Esporte", "Entretenimento"];
@@ -4568,61 +4421,6 @@ function fallbackRewrite(item: any, feed: any) {
   };
 }
 
-async function upgradeLegacyRssPosts(db: any, activeFeeds: any[]): Promise<string[]> {
-  const upgradedTitles: string[] = [];
-  const legacyMarker = /entrou no radar do Store Center por reunir elementos[\s\S]*?A pergunta central é:/i;
-  const sourceBlock = /(?:O material recebido da fonte aponta|A publicação original informa|O conteúdo de origem destaca|As informações captadas na matéria indicam|O texto original relata|A matéria monitorada pelo Store Center mostra|O resumo analisado pelo sistema destaca):\s*([\s\S]*?)\s+A pergunta central é:/i;
-
-  for (const post of (db.posts || [])) {
-    if (!post?.rssOriginalTitle || !post?.sourceUrl || !legacyMarker.test(String(post.content || ""))) continue;
-
-    const extractedSummary = String(post.content || "").match(sourceBlock)?.[1]?.trim() || String(post.subtitle || "").trim();
-    if (!extractedSummary) continue;
-
-    let matchingFeed = activeFeeds.find((feed: any) => {
-      try {
-        return new URL(String(feed.url || "")).hostname === new URL(String(post.sourceUrl)).hostname;
-      } catch {
-        return false;
-      }
-    });
-    matchingFeed ||= {
-      name: post.sourceName || "Fonte RSS",
-      category: post.category || "Economia"
-    };
-
-    const rewritten = fallbackRewrite({
-      title: post.rssOriginalTitle,
-      contentSnippet: extractedSummary,
-      link: post.sourceUrl
-    }, matchingFeed);
-    const upgradedPost = {
-      ...post,
-      title: cleanText(rewritten.title),
-      subtitle: cleanText(rewritten.subtitle),
-      content: cleanArticleContent(rewritten.content),
-      slug: cleanText(rewritten.title)
-        .toLowerCase()
-        .normalize("NFD")
-        .replace(/[\u0300-\u036f]/g, "")
-        .replace(/[^a-z0-9]+/g, "-")
-        .replace(/(^-|-$)+/g, ""),
-      seoTitle: cleanText(rewritten.seoTitle),
-      seoDescription: cleanText(rewritten.seoDescription),
-      tags: Array.from(new Set([post.category || rewritten.category, "RSS", "Store Center"])),
-      sourceName: matchingFeed.name || post.sourceName || "Fonte RSS",
-      editorialVersion: 2
-    };
-
-    if (await syncPost(upgradedPost)) {
-      Object.assign(post, upgradedPost);
-      upgradedTitles.push(upgradedPost.title);
-      console.log(`[CRON] Matéria RSS legada corrigida: "${upgradedPost.title}".`);
-    }
-  }
-
-  return upgradedTitles;
-}
 
 function isAuthorizedCron(req: express.Request): boolean {
   const cronSecret = String(process.env.CRON_SECRET || "").trim();
@@ -4797,12 +4595,7 @@ async function startServer() {
     console.error("[STARTUP] Erro primordial ao carregar do Firestore:", err);
   }
 
-  // Executa limpeza de posts [RSS] legados no banco de dados na inicialização
-  try {
-    await fixExistingRssPosts();
-  } catch (err) {
-    console.error("[STARTUP] Erro ao limpar títulos dos posts legados:", err);
-  }
+  // Startup never edits existing publications.
 
   if (process.env.NODE_ENV !== "production") {
     const { createServer } = await import("vite");

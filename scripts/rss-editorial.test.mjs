@@ -21,7 +21,7 @@ test('remove the detached photo caption, preserving the eligibility paragraph an
 
 test('Bolsa Família keeps its payment subject, including existing bad sports headlines and SEO', () => {
   const original = { id: 'bolsa', title: 'Bolsa Família 2026: o que muda para os próximos jogos?', seoTitle: 'Bolsa Família: jogos?', rssOriginalTitle: 'Bolsa Família 2026: veja calendário de pagamentos em novembro', content: 'As contrapartidas incluem vacinação. Os valores dependem da composição familiar.', category: 'Economia', slug: 'url-antiga', image: 'capa.svg', sourceUrl: 'https://g1.globo.com/economia/bolsa', sourceNames: ['G1'], tags: ['Economia'], date: '2026-11-01T12:00:00Z' };
-  const repaired = normalizePost(original);
+  const repaired = sanitizeRssPost(original);
   assert.equal(repaired.title, 'Bolsa Família 2026: calendário de pagamentos em novembro');
   assert.equal(repaired.seoTitle, repaired.title);
   assert.equal(repaired.category, 'Economia');
@@ -105,9 +105,9 @@ test('context uses identified model and countries; does not invent brand history
   assert.equal(rssArticleParagraphs(prose).join('\n\n'), prose);
 });
 
-test('existing RSS display is corrected while URL, image, sources and identity are preserved', () => {
+test('an explicitly requested RSS repair preserves URL, image, sources and identity', () => {
   const original = { id: 'honda-1', title: "Por que o Honda CR-V vende nos EUA e não no Brasil? O g1 testou o SUV", subtitle: 'Honda O Honda CR-V vendeu 226 mil unidades.', content: 'O que aconteceu\n\nHonda O Honda CR-V vendeu 226 mil unidades nos EUA.\n\nO que já foi informado\n\nNo Brasil, foram 133 unidades, segundo a associação.\n\nComo as informações se conectam\n\nA leitura conjunta dos resumos disponíveis ajuda o leitor.\n\nEsta matéria foi elaborada a partir do conteúdo distribuído por G1.', category: 'Geopolítica', rssOriginalTitle: 'Honda CR-V', slug: 'url-antiga-fonte-2', image: 'foto-existente.jpg', sourceUrl: 'https://g1.globo.com/noticia', status: 'published', date: '2026-11-01T12:00:00Z', tags: ['Geopolítica', 'RSS', 'Store Center'] };
-  const result = normalizePost(original);
+  const result = sanitizeRssPost(original);
   assert.equal(result.category, 'Negócios');
   assert.deepEqual(result.tags, ['Negócios', 'RSS', 'Store Center']);
   assert.deepEqual(original.tags, ['Geopolítica', 'RSS', 'Store Center']);
@@ -119,6 +119,6 @@ test('existing RSS display is corrected while URL, image, sources and identity a
   assert.doesNotMatch(result.content, /Honda O Honda|O que aconteceu|leitura conjunta|elaborada a partir/i);
   assert.match(result.content, /226 mil/);
   assert.match(result.content, /133 unidades, segundo a associação/);
-  assert.equal(normalizePost(result).content, result.content);
-  assert.equal(normalizePost({ ...original, rssOriginalTitle: undefined }).category, 'Geopolítica');
+  assert.equal(sanitizeRssPost(result).content, result.content);
+  assert.equal(sanitizeRssPost({ ...original, rssOriginalTitle: undefined }).category, 'Geopolítica');
 });

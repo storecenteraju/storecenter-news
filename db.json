@@ -16,7 +16,7 @@
         "Store Center"
       ],
       "status": "published",
-      "image": "/assets/editorial/economia.svg",
+      "image": "/assets/manual/rss-hash_171eeb96-89285c0ef2a91793.jpg",
       "imageSource": "Store Center Editorial",
       "imageStrategy": "editorial-template",
       "imageSubjectType": "group",
@@ -39,7 +39,12 @@
       "rssOriginalTitle": "Bolsa Família 2026: veja calendário de pagamentos em novembro",
       "isAiGenerated": false,
       "visualTheme": "infraestrutura",
-      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)",
+      "manuallyEdited": true,
+      "manualFields": {
+        "image": true
+      },
+      "manualEditedAt": "2026-11-02T00:51:44.931Z"
     },
     {
       "id": "rss-hash_21c6360e",
@@ -57,7 +62,7 @@
         "Store Center"
       ],
       "status": "published",
-      "image": "/assets/editorial/geral.svg",
+      "image": "/assets/manual/rss-hash_21c6360e-bfdb788c26f1c7ec.jpg",
       "imageSource": "Store Center Editorial",
       "imageStrategy": "editorial-template",
       "imageSubjectType": "generic",
@@ -80,7 +85,12 @@
       "rssOriginalTitle": "Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil? O g1 testou o SUV 'invisível'",
       "isAiGenerated": false,
       "visualTheme": "energia",
-      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)",
+      "manuallyEdited": true,
+      "manualFields": {
+        "image": true
+      },
+      "manualEditedAt": "2026-11-02T00:51:44.933Z"
     },
     {
       "id": "rss-hash_78e7efd",
@@ -98,7 +108,7 @@
         "Store Center"
       ],
       "status": "published",
-      "image": "/assets/editorial/politica.svg",
+      "image": "/assets/manual/rss-hash_78e7efd-40163e2a7969d4fb.jpg",
       "imageSource": "Store Center Editorial",
       "imageStrategy": "editorial-template",
       "imageSubjectType": "generic",
@@ -121,7 +131,12 @@
       "rssOriginalTitle": "Acordo Mercosul-UE completa 6 meses com alta de 14,8% nas exportações do agro",
       "isAiGenerated": false,
       "visualTheme": "logística",
-      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)",
+      "manuallyEdited": true,
+      "manualFields": {
+        "image": true
+      },
+      "manualEditedAt": "2026-11-02T00:51:44.935Z"
     },
     {
       "id": "rss-hash_6ac2729c",

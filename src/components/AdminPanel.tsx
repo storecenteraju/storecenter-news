@@ -8,6 +8,7 @@ import {
 } from 'lucide-react';
 import { Post, RSSFeed, AdUnit, SiteSettings, CategoryType, isPostUrgente, normalizePost } from '../types';
 import PhpExporter from './PhpExporter';
+import { changedPostFields } from '../lib/editorial-protection';
 
 interface AdminPanelProps {
   posts: Post[];
@@ -109,6 +110,7 @@ export default function AdminPanel({
   const [postKeyword, setPostKeyword] = useState('');
   const [postImagePrompt, setPostImagePrompt] = useState('');
   const [formSuccessMsg, setFormSuccessMsg] = useState('');
+  const [editingOriginalPost, setEditingOriginalPost] = useState<Post | null>(null);
 
   // RSS panel states
   const [newRssName, setNewRssName] = useState('');
@@ -283,6 +285,7 @@ export default function AdminPanel({
   // Pre-load form for editing an article
   const startEditPost = (post: Post) => {
     setEditingPostId(post.id);
+    setEditingOriginalPost({ ...post });
     setEditingPostSourceUrl(post.sourceUrl || '');
     setEditingPostOriginalTitle(post.title || '');
     setEditingPostOriginalSlug(post.slug || '');
@@ -309,6 +312,7 @@ export default function AdminPanel({
 
   const clearPostForm = () => {
     setEditingPostId(null);
+    setEditingOriginalPost(null);
     setEditingPostSourceUrl('');
     setEditingPostOriginalTitle('');
     setEditingPostOriginalSlug('');
@@ -350,19 +354,15 @@ export default function AdminPanel({
       publishAt: postStatus === 'scheduled' ? postPublishAt : undefined,
       isTestPost: postIsTestPost,
       isUrgente: postIsUrgente,
-      seoTitle: postSeoTitle || postTitle.slice(0, 55),
-      seoDescription: postSeoDesc || postSubtitle.slice(0, 145),
+      seoTitle: editingPostId ? postSeoTitle : (postSeoTitle || postTitle.slice(0, 55)),
+      seoDescription: editingPostId ? postSeoDesc : (postSeoDesc || postSubtitle.slice(0, 145)),
       keyword: postKeyword,
       imagePrompt: postImagePrompt
     };
-    if (editingPostId && editingPostSourceUrl) {
-      (payload as any).sourceUrl = editingPostSourceUrl;
-    }
-    if (editingPostId && editingPostOriginalTitle) {
-      (payload as any).originalTitle = editingPostOriginalTitle;
-    }
-    if (editingPostId && editingPostOriginalSlug) {
-      (payload as any).originalSlug = editingPostOriginalSlug;
+    const updates = editingPostId ? changedPostFields(editingOriginalPost, payload) : payload;
+    if (editingPostId && Object.keys(updates).length === 0) {
+      setFormSuccessMsg("Nenhuma alteração para salvar.");
+      return;
     }
 
     try {
@@ -371,7 +371,7 @@ export default function AdminPanel({
         response = await fetch(`/api/posts/${editingPostId}`, {
           method: 'PUT',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
+          body: JSON.stringify(updates)
         });
       } else {
         response = await fetch('/api/posts', {

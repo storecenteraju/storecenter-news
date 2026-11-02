@@ -2,6 +2,7 @@ import React from 'react';
 import { Newspaper, Clock, Eye, TrendingUp, Tag, ArrowRight, User, HelpCircle, AlertCircle, Sparkles } from 'lucide-react';
 import { Post, CategoryType, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import AdSenseSlot from './AdSenseSlot';
+import TonBanner from './TonBanner';
 import EditorialImage from './EditorialImage';
 
 interface PortalHomeProps {
@@ -98,7 +99,6 @@ export default function PortalHome({
     return ads.find(a => a.slot === slot && a.enabled);
   };
 
-  const adTop = getAdBySlot('top');
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
 
@@ -165,12 +165,10 @@ export default function PortalHome({
     <div className="bg-slate-50 min-h-screen">
       <main className="max-w-7xl mx-auto px-4 py-4 md:py-10">
         
-        {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE */}
-        {adTop && (
-          <div className="mb-4 md:mb-8 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
-            <AdSenseSlot code={adTop.code} minHeight="90px" />
-          </div>
-        )}
+        {/* TOP RESELLER BANNER */}
+        <div className="mb-4 md:mb-8 max-w-7xl mx-auto w-full">
+          <TonBanner placement="top" />
+        </div>
 
         {/* CATEGORY HEADER BANNER (IF FILTER APPLIED) */}
         {selectedCategory !== 'Home' && (

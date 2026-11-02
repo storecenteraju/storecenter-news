@@ -3,6 +3,7 @@ import { ArrowLeft, Clock, Eye, User, Share2, MessageCircle, Facebook, Instagram
 import { Post, AdUnit, isPostUrgente, normalizePost, getCategoryFallbackImage, getPostTimestamp } from '../types';
 import { G1AudioPlayer } from './G1AudioPlayer';
 import AdSenseSlot from './AdSenseSlot';
+import TonBanner from './TonBanner';
 import AdCashSlot from './AdCashSlot';
 import EditorialImage from './EditorialImage';
 
@@ -159,8 +160,6 @@ export default function PostDetails({
     return ads.find(a => a.slot === slot && a.enabled);
   };
 
-  const adTop = getAdBySlot('top');
-  const adMiddle = getAdBySlot('middle');
   const adBottom = getAdBySlot('bottom');
   const adSidebar = getAdBySlot('sidebar');
   const adFooter = getAdBySlot('footer');
@@ -216,9 +215,9 @@ export default function PostDetails({
     return `${day}/${month}/${year} ${hor}:${min}`;
   };
 
-  // Reserve a middle ad only when there are at least four actual paragraphs.
+  // Insert the reseller banner between paragraphs, without changing the text.
   const paragraphs = (post.content || '').replace(/\r\n?/g, '\n').split(/\n\s*\n/).map(value => value.trim()).filter(Boolean);
-  const splitAt = adMiddle?.code?.trim() && paragraphs.length >= 4 ? 3 : paragraphs.length;
+  const splitAt = Math.max(1, Math.ceil(paragraphs.length / 2));
   const part1 = paragraphs.slice(0, splitAt).join('\n\n');
   const part2 = paragraphs.slice(splitAt).join('\n\n');
   const sectionHeadings = new Set(["O que aconteceu", "O que já foi informado", "A pergunta que fica", "O que observar agora"]);
@@ -232,28 +231,10 @@ export default function PostDetails({
     <div className="bg-slate-50 min-h-screen py-8">
       <div className="max-w-7xl mx-auto px-4">
         
-        {/* BREADCRUMBS BAR */}
-        <div className="flex items-center justify-between text-xs text-slate-500 mb-6 bg-white border border-slate-200 py-3.5 px-4 rounded-xl shadow-sm">
-          <div className="flex items-center gap-2 overflow-hidden text-ellipsis">
-            <button 
-              onClick={onBack}
-              className="hover:text-blue-600 hover:underline cursor-pointer flex items-center gap-1 font-bold shrink-0 uppercase"
-            >
-              <ArrowLeft className="w-3.5 h-3.5" /> Voltar
-            </button>
-            <span className="text-slate-300 font-normal shrink-0">&bull;</span>
-            <span className="text-blue-600 font-extrabold uppercase shrink-0 select-none tracking-wide">{post.category}</span>
-            <span className="text-slate-300 font-normal shrink-0">&bull;</span>
-            <span className="text-slate-400 font-medium truncate max-w-[200px] md:max-w-md select-none">{post.title}</span>
-          </div>
+        {/* TOP RESELLER BANNER */}
+        <div className="mb-4 md:mb-6 max-w-7xl mx-auto w-full">
+          <TonBanner placement="top" />
         </div>
-
-        {/* TOP AD BANNER CONTAINER - SUPERIOR DESTAQUE NO ARTIGO */}
-        {adTop && (
-          <div className="mb-4 md:mb-6 max-w-7xl mx-auto flex justify-center w-full overflow-hidden">
-            <AdSenseSlot code={adTop.code} minHeight="90px" />
-          </div>
-        )}
 
         <div className="mb-6 rounded-xl bg-blue-600 px-6 py-5 text-center shadow-sm">
           <h1 className="text-2xl md:text-3xl font-black uppercase tracking-wide text-white">
@@ -385,10 +366,10 @@ export default function PostDetails({
                 {renderArticleParagraphs(part1)}
               </div>
 
-              {/* MIDDLE AD BLOCK (IF ACTIVE) */}
-              {part2 && adMiddle?.code?.trim() && (
-                <div className="my-6 md:my-10 w-full flex justify-center overflow-hidden">
-                  <AdSenseSlot code={adMiddle.code} minHeight="90px" />
+              {/* MIDDLE RESELLER BANNER */}
+              {paragraphs.length > 0 && (
+                <div className="my-6 md:my-10 w-full">
+                  <TonBanner placement="middle" />
                 </div>
               )}
 
@@ -417,18 +398,13 @@ export default function PostDetails({
                 </div>
               )}
 
-              {/* ACTION BACK BUTTON AT THE END OF THE CORE ARTICLE */}
+              {/* ARTICLE END NOTICE */}
               <div className="mt-12 pt-6 border-t border-slate-150 flex flex-col sm:flex-row items-center justify-between gap-4 select-none">
                 <div className="text-left w-full sm:w-auto">
                   <span className="text-xs font-bold text-slate-500 uppercase tracking-wider block mb-0.5">Fim da Matéria</span>
-                  <p className="text-[11px] text-slate-500 leading-relaxed max-w-sm">Você terminou de ler o artigo. Use o botão ao lado para retornar ao portal de notícias principais.</p>
+                  <p className="text-[11px] text-slate-500 leading-relaxed max-w-sm">Você terminou de ler o artigo.</p>
                 </div>
-                <button
-                  onClick={onBack}
-                  className="w-full sm:w-auto shrink-0 flex items-center justify-center gap-2 px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold text-xs uppercase tracking-wider rounded-xl transition-all shadow-md hover:shadow-lg hover:-translate-y-0.5 active:translate-y-0 select-none cursor-pointer"
-                >
-                  <ArrowLeft className="w-3.5 h-3.5" /> Voltar para Notícias
-                </button>
+
               </div>
 
             </article>

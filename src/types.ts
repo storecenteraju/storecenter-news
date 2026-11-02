@@ -1,4 +1,4 @@
-import { isAutomotiveMarket, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext } from './lib/rss-editorial';
+import { sanitizeRssPost } from './lib/rss-editorial';
 export type CategoryType = 
   | 'Economia'
   | 'Política'
@@ -313,7 +313,7 @@ export function getCategoryFallbackImage(category?: string, seedStr?: string, av
 
 export function normalizePost(post: any): Post {
   if (!post) return post;
-  const p = { ...post };
+  const p = sanitizeRssPost(post);
 
   const stripSourceMarker = (value: unknown): string => typeof value === 'string'
     ? value
@@ -333,28 +333,6 @@ export function normalizePost(post: any): Post {
   if (typeof p.seoDescription === 'string') p.seoDescription = stripSourceMarker(p.seoDescription);
   if (typeof p.content === 'string') {
     p.content = p.content.split(/\n\s*\n+/).map(stripSourceMarker).join('\n\n');
-  }
-
-  if (p.rssOriginalTitle) {
-    p.title = cleanRssTitle(p.title || '');
-    p.subtitle = cleanRssOpening(p.subtitle || '');
-    const previousContent = String(p.content || '');
-    const paragraphs = rssArticleParagraphs(previousContent);
-    if (/O que aconteceu|Como as informações se conectam/i.test(previousContent)) {
-      const context = automotiveContext(p.title, paragraphs.join(' '));
-      if (context && !paragraphs.includes(context)) paragraphs.unshift(context);
-    }
-    p.content = paragraphs.join('\n\n');
-    if (isAutomotiveMarket(`${p.title} ${p.subtitle}`)) {
-      const previousCategory = p.category;
-      p.category = 'Negócios';
-      if (Array.isArray(p.tags)) {
-        p.tags = [...new Set(p.tags.map((tag: string) =>
-          String(tag).trim().toLowerCase() === String(previousCategory || '').trim().toLowerCase()
-            ? p.category : tag
-        ))];
-      }
-    }
   }
 
   // Normalize status - handle "NO AR", boolean "published"

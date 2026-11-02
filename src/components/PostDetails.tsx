@@ -228,16 +228,6 @@ export default function PostDetails({
       : <p key={index} className="whitespace-pre-wrap">{paragraph}</p>
   ));
 
-  const safeSourceUrl = /^https?:\/\//i.test(String(post.sourceUrl || '')) ? String(post.sourceUrl) : '';
-  let sourceLabel = String(post.sourceName || '').trim();
-  if (!sourceLabel && safeSourceUrl) {
-    try {
-      sourceLabel = new URL(safeSourceUrl).hostname.replace(/^www\./, '');
-    } catch {
-      sourceLabel = 'publicação original';
-    }
-  }
-
   return (
     <div className="bg-slate-50 min-h-screen py-8">
       <div className="max-w-7xl mx-auto px-4">
@@ -406,22 +396,6 @@ export default function PostDetails({
               {part2 && <div className="prose prose-slate max-w-none text-slate-800 text-[15px] space-y-4 leading-relaxed mt-4">
                 {renderArticleParagraphs(part2)}
               </div>}
-
-              {safeSourceUrl && (
-                <aside className="mt-8 rounded-xl border border-blue-100 bg-blue-50/70 p-4 text-sm text-slate-700">
-                  <p className="font-bold text-slate-900">Fonte</p>
-                  <p className="mt-1 leading-relaxed">
-                    <a
-                      href={safeSourceUrl}
-                      target="_blank"
-                      rel="noopener noreferrer nofollow"
-                      className="font-bold text-blue-700 underline hover:text-blue-900"
-                    >
-                      {sourceLabel || 'a fonte original'}
-                    </a>.
-                  </p>
-                </aside>
-              )}
 
               {/* EXPLICIT METRICS */}
               <div className="flex flex-wrap items-center gap-3 border-t border-slate-100 mt-10 pt-6">

@@ -16,7 +16,8 @@ console.log(JSON.stringify({
   created: result.totalImported || 0,
   details: result.importedDetails || [],
   previewPost: result.previewPost || null,
-  message: result.message || null
+  message: result.message || null,
+  feedDiagnostics: result.feedDiagnostics || []
 }, null, 2));
 
 if (!result.success) {

@@ -1,7 +1,68 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import { normalizePost } from '../src/types.ts';
-import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssOpening, cleanRssTitle, rssArticleParagraphs, automotiveContext } from '../src/lib/rss-editorial.ts';
+import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssOpening, cleanRssTitle, rssArticleParagraphs, automotiveContext, buildRssHeadline, isSportsTopic, cleanRssPromotions, sanitizeRssPost } from '../src/lib/rss-editorial.ts';
+import { rankRssCandidates, withSupplementalRssFeeds, rssPublisherKey } from '../src/lib/rss-sources.ts';
+
+test('Bolsa Família keeps its payment subject, including existing bad sports headlines and SEO', () => {
+  const original = { id: 'bolsa', title: 'Bolsa Família 2026: o que muda para os próximos jogos?', seoTitle: 'Bolsa Família: jogos?', rssOriginalTitle: 'Bolsa Família 2026: veja calendário de pagamentos em novembro', content: 'As contrapartidas incluem vacinação. Os valores dependem da composição familiar.', category: 'Economia', slug: 'url-antiga', image: 'capa.svg', sourceUrl: 'https://g1.globo.com/economia/bolsa', sourceNames: ['G1'], tags: ['Economia'], date: '2026-11-01T12:00:00Z' };
+  const repaired = normalizePost(original);
+  assert.equal(repaired.title, 'Bolsa Família 2026: calendário de pagamentos em novembro');
+  assert.equal(repaired.seoTitle, repaired.title);
+  assert.equal(repaired.category, 'Economia');
+  for (const key of ['id', 'slug', 'image', 'sourceUrl']) assert.equal(repaired[key], original[key]);
+  assert.equal(Date.parse(repaired.date), Date.parse(original.date));
+  assert.deepEqual(repaired.sourceNames, original.sourceNames);
+  assert.match(repaired.content, /contrapartidas/);
+  assert.equal(original.title, 'Bolsa Família 2026: o que muda para os próximos jogos?');
+  assert.equal(isSportsTopic('Bolsa Família: contrapartidas e proteção contra golpes'), false);
+  assert.equal(isSportsTopic('Seleção de famílias e partida de motores'), false);
+  assert.equal(isSportsTopic('Flamengo faz dois gols e vence a partida do campeonato'), true);
+  assert.equal(buildRssHeadline('Honda CR-V: por que quase não vende no Brasil?'), 'Honda CR-V: por que quase não vende no Brasil?');
+  assert.ok(buildRssHeadline('Pagamento '.repeat(30)).length <= 100);
+});
+
+test('remove G1 promotion even when attached to a factual paragraph; keep Caixa instructions and attribution', () => {
+  const text = 'Baixe o app do g1 para ver notícias em tempo real e de graça Este é o segundo mês de pagamentos.\n\n(leia mais abaixo) Segundo a Caixa, use o aplicativo Caixa TEM.\n\nAgora no g1 Qual é o valor?';
+  const cleaned = rssArticleParagraphs(text).join('\n\n');
+  assert.equal(cleaned, 'Este é o segundo mês de pagamentos.\n\nSegundo a Caixa, use o aplicativo Caixa TEM.\n\nQual é o valor?');
+  assert.equal(cleanRssPromotions('Baixe o aplicativo Caixa TEM para consultar o benefício.'), 'Baixe o aplicativo Caixa TEM para consultar o benefício.');
+  assert.match(cleanRssPromotions('Segundo o g1, a Caixa informou a data.'), /Segundo o g1/);
+  assert.equal(cleanRssPromotions(cleaned), cleaned);
+});
+
+test('repair the recorded Bolsa/FGTS consolidation without changing unrelated paragraphs or metadata', () => {
+  const original = { rssOriginalTitle: 'Bolsa Família 2026: veja calendário', title: 'Bolsa Família 2026: o que muda para os próximos jogos?', content: 'Os beneficiários recebem pelo Caixa TEM. Saque-aniversário FGTS novembro.\n\nOutro assunto.', sourceUrls: ['https://g1.globo.com/bolsa', 'https://g1.globo.com/fgts'], id: '1', slug: 'old' };
+  const repaired = sanitizeRssPost(original);
+  assert.equal(repaired.content, 'Os beneficiários recebem pelo Caixa TEM.');
+  assert.deepEqual(repaired.sourceUrls, original.sourceUrls);
+  assert.deepEqual(sanitizeRssPost(repaired), repaired);
+  assert.match(sanitizeRssPost({ ...original, sourceUrls: ['https://g1.globo.com/bolsa'] }).content, /FGTS/);
+});
+
+test('rotate publishers, not G1 sections; fall back when only one eligible publisher is available', () => {
+  const candidate = (url, score) => ({ item: { link: url }, feed: { url }, compositeScore: score });
+  const economy = candidate('https://g1.globo.com/economia/a', 50);
+  const technology = candidate('https://g1.globo.com/tecnologia/b', 60);
+  const camara = candidate('https://www.camara.leg.br/noticias/c', 20);
+  const agencia = candidate('https://agenciabrasil.ebc.com.br/economia/d', 25);
+  const history = [{ status: 'published', date: '2026-11-01', sourceUrl: economy.item.link }];
+  assert.deepEqual(rankRssCandidates([economy, technology, camara, agencia], history).slice(0, 2), [agencia, camara]);
+  assert.equal(rankRssCandidates([economy, technology], history)[0], technology);
+  const updatedHistory = [{ status: 'published', date: '2026-11-02', sourceUrl: agencia.item.link }, ...history];
+  assert.equal(rankRssCandidates([economy, technology, camara, agencia], updatedHistory)[0], camara);
+  assert.equal(rssPublisherKey('https://www12.senado.leg.br/noticias'), 'senado.leg.br');
+  assert.deepEqual(history, [{ status: 'published', date: '2026-11-01', sourceUrl: economy.item.link }]);
+});
+
+test('add official feeds once and respect disabled configured feeds', () => {
+  const configured = [{ id: 'custom', url: 'https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml', status: 'inactive' }];
+  const feeds = withSupplementalRssFeeds(configured);
+  assert.equal(feeds.length, 2);
+  assert.equal(feeds[0].status, 'inactive');
+  assert.equal(configured.length, 1);
+  assert.deepEqual(withSupplementalRssFeeds(feeds), feeds);
+});
 
 test('Honda sales in the US are business; diplomacy requires a real geopolitical subject', () => {
   assert.equal(isAutomotiveMarket('Por que o Honda CR-V é um sucesso nos EUA, mas quase não vende no Brasil?'), true);

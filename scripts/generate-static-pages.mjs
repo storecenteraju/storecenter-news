@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { sanitizeRssPost } from '../src/lib/rss-editorial.ts';
 
 const rootDir = process.cwd();
 const distDir = path.join(rootDir, 'dist');
@@ -104,6 +105,7 @@ function articleSeo(post, slug) {
 }
 
 const posts = (Array.isArray(database.posts) ? database.posts : [])
+  .map(sanitizeRssPost)
   .filter(isPublished)
   .map(post => ({ ...post, resolvedSlug: String(post.slug || slugify(post.title)) }))
   .filter(post => post.resolvedSlug);

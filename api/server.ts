@@ -1,4 +1,5 @@
-import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext } from "../src/lib/rss-editorial.js";
+import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssTitle, cleanRssOpening, rssArticleParagraphs, automotiveContext, buildRssHeadline, isSportsTopic, cleanRssPromotions, sanitizeRssPost } from "../src/lib/rss-editorial.js";
+import { withSupplementalRssFeeds, rankRssCandidates } from "../src/lib/rss-sources.js";
 import express from "express";
 import path from "path";
 import fs from "fs";
@@ -571,6 +572,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
   const sourceCategory = inferCategoryFromSourceUrl(sourceUrl);
 
   // A section in the source URL is a stronger signal than a stale feed label.
+  if (/\b(?:bolsa fam[ií]lia|bpc|inss|fgts)\b/i.test(title)) return "Economia";
   if (isAutomotiveMarket(`${title} ${content.slice(0, 1200)}`)) return "Negócios";
   if (sourceCategory) return sourceCategory;
 
@@ -2068,14 +2070,14 @@ const cleanText = (txt: string) => {
 
 const sanitizeStoredPost = (post: any) => {
   if (!post || typeof post !== "object") return post;
-  return {
+  return sanitizeRssPost({
     ...post,
     title: cleanText(post.title),
     subtitle: cleanText(post.subtitle),
     seoTitle: cleanText(post.seoTitle),
     seoDescription: cleanText(post.seoDescription),
     content: cleanArticleContent(post.content)
-  };
+  });
 };
 
 function mergeNewLocalPosts(remotePosts: any[]) {
@@ -2456,6 +2458,8 @@ Abra com um resumo concreto do contexto do assunto. Em matérias automotivas, si
 Depois desenvolva os fatos disponíveis, comparações, números e atribuições relevantes. O tamanho deve acompanhar a informação disponível: uma fonte curta pede uma matéria curta, sem preenchimento para atingir contagem de palavras.
 Não acrescente comentários sobre o processo de redação, leitura conjunta de resumos, linguagem humana, limites desta edição ou promessas de acompanhamento.
 Não termine com perguntas genéricas, FAQ, “o que observar agora” ou “esta matéria foi elaborada a partir de...”. A procedência ficará registrada nos metadados da publicação.
+O título deve ter no máximo 100 caracteres, preservar o fato central e não receber perguntas genéricas ou esportivas por categoria.
+Remova chamadas para baixar aplicativos de portais, seguir canais e ler outras notícias. Preserve orientações úteis sobre aplicativos oficiais, como Caixa TEM.
 Remova créditos fotográficos grudados no texto, duplicações como “Honda O Honda”, chamadas como “o g1 testou”, “clique”, “leia também” e marcadores [Fonte 1]/[Fonte 2] da versão publicada. Preserve atribuições factuais específicas, como “segundo a associação”, e não alegue que o Store Center realizou testes ou entrevistas feitos por terceiros.
 Classifique pelo tema central: vendas, comparação de modelos, preço e lançamento de carros são Negócios. Mencionar EUA, China ou outro país não transforma a matéria em Geopolítica; essa categoria exige que diplomacia, conflitos ou relações entre Estados sejam o assunto principal.
 
@@ -3220,7 +3224,9 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
   const maxPosts = Math.min(2, Math.max(1, Number.isFinite(configuredLimit) ? Math.floor(configuredLimit) : 1));
   console.log("[CRON] Executando rotina de coleta automatizada de feeds RSS com priorização e diversidade de categorias...");
   const db = readDatabase();
-  const activeFeeds = (db.feeds || []).filter((f: any) => f.status === "active");
+  db.feeds = withSupplementalRssFeeds(db.feeds || []);
+  const activeFeeds = db.feeds.filter((f: any) => f.status === "active");
+  const feedDiagnostics: any[] = [];
 
   if (activeFeeds.length === 0) {
     console.log("[CRON] Nenhum feed RSS ativo cadastrado no banco.");
@@ -3314,10 +3320,13 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
   const candidates: any[] = [];
 
   for (const feed of activeFeeds) {
+    const diagnostic: any = { feed: feed.name, url: feed.url, status: "pending", items: 0, candidates: 0 };
+    feedDiagnostics.push(diagnostic);
+    let timeoutId: ReturnType<typeof setTimeout> | undefined;
     try {
       console.log(`[CRON] Coletando candidatos do feed "${feed.name}" para avaliação de diversidade...`);
       const controller = new AbortController();
-      const timeoutId = setTimeout(() => controller.abort(), 12000);
+      timeoutId = setTimeout(() => controller.abort(), 12000);
       
       const response = await fetch(feed.url, {
         headers: {
@@ -3325,26 +3334,28 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
         },
         signal: controller.signal
       });
-      clearTimeout(timeoutId);
 
       if (!response.ok) {
+        diagnostic.status = "error";
+        diagnostic.error = `HTTP ${response.status}`;
         console.error(`[CRON] Erro HTTP ${response.status} ao obter feed: ${feed.url}`);
         continue;
       }
 
       const xmlText = await response.text();
+      clearTimeout(timeoutId);
       const items: any[] = [];
 
       const normalizeRssItemCategory = (rawCategory: string, sourceUrl: string) => {
         const text = `${rawCategory || ""} ${sourceUrl || ""}`.toLowerCase();
 
         if (text.includes("/saude/") || text.includes("saúde") || text.includes("saude")) return "Saúde";
-        if (text.includes("/justica/") || text.includes("justiça") || text.includes("justica") || text.includes("direito")) return "Direito";
+        if (text.includes("/justica/") || text.includes("justiça") || text.includes("justica") || text.includes("direito")) return "Judiciário";
         if (text.includes("/politica/") || text.includes("política") || text.includes("politica")) return "Política";
         if (text.includes("/economia/") || text.includes("economia")) return "Economia";
         if (text.includes("/internacional/") || text.includes("internacional") || text.includes("mundo")) return "Geopolítica";
         if (text.includes("/esportes/") || text.includes("/esporte/") || text.includes("esporte")) return "Esporte";
-        if (text.includes("/cultura/") || text.includes("cultura")) return "Cultura";
+        if (text.includes("/cultura/") || text.includes("cultura")) return "Entretenimento";
         if (text.includes("/geral/") || text.includes("geral") || text.includes("brasil")) return "Nacional";
         if (text.includes("/educacao/") || text.includes("educação") || text.includes("educacao")) return "Nacional";
         if (text.includes("/tecnologia/") || text.includes("tecnologia")) return "Tecnologia";
@@ -3365,7 +3376,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
 
         const descMatch = itemXml.match(/<description[^>]*>([\s\S]*?)<\/description>/i);
         let description = descMatch ? descMatch[1].trim() : "";
-        description = cleanCdataAndHtml(description);
+        description = cleanRssPromotions(cleanCdataAndHtml(description));
 
         // Alguns feeds oficiais (como a Agência Câmara) distribuem a matéria
         // completa em content:encoded e deixam apenas uma linha no description.
@@ -3376,7 +3387,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
           const encodedArticle = encodedMatch[1]
             .replace(/<div[^>]+class=["'][^"']*(?:midia-creditos|midia-legenda)[^"']*["'][^>]*>[\s\S]*?<\/div>/gi, " ")
             .replace(/<(?:img|iframe)\b[^>]*>/gi, " ");
-          const fullDescription = cleanCdataAndHtml(encodedArticle);
+          const fullDescription = cleanRssPromotions(cleanCdataAndHtml(encodedArticle));
           if (fullDescription.length > description.length + 120) {
             description = fullDescription;
           }
@@ -3414,7 +3425,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
 
           const descMatch = entryXml.match(/<summary[^>]*>([\s\S]*?)<\/summary>/i) || entryXml.match(/<content[^>]*>([\s\S]*?)<\/content>/i);
           let description = descMatch ? descMatch[1].trim() : "";
-          description = cleanCdataAndHtml(description);
+          description = cleanRssPromotions(cleanCdataAndHtml(description));
 
           if (title && link) {
             items.push({ title, link, description });
@@ -3423,6 +3434,8 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       }
 
       // Filter duplicates before adding to candidate list
+      diagnostic.items = items.length;
+      diagnostic.status = items.length ? "ok" : "empty";
       const feedCandidateItems = items.filter(item => {
         const titleLower = item.title.trim().toLowerCase();
         const urlLower = item.link.trim().toLowerCase();
@@ -3468,6 +3481,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       });
 
       // Grade feedCandidateItems and push to global pool
+      diagnostic.candidates = feedCandidateItems.length;
       feedCandidateItems.forEach((item, index) => {
         const cat = item.sourceCategory || normalizeRssItemCategory(item.rawCategory || "", item.link || "") || feed.category || "Economia";
         
@@ -3528,13 +3542,17 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       feed.lastScraped = new Date().toISOString();
 
     } catch (feedErr) {
+      diagnostic.status = "error";
+      diagnostic.error = feedErr instanceof Error ? feedErr.message : String(feedErr);
       console.error(`[CRON] Falha lendo o feed RSS do "${feed.name}":`, feedErr);
+    } finally {
+      clearTimeout(timeoutId);
     }
   }
 
   // 2. Filter, Sort and Resolve Winners
-  const eligible = candidates.filter(c => !c.blocked);
-  eligible.sort((a, b) => b.compositeScore - a.compositeScore);
+  const eligible = rankRssCandidates(candidates.filter(c => !c.blocked), db.posts || []);
+  console.log("[CRON] Diagnóstico dos feeds:", JSON.stringify(feedDiagnostics));
 
   console.log(`[CRON] Total candidatos inéditos elegíveis: ${eligible.length} de ${candidates.length} brutos.`);
 
@@ -3566,28 +3584,13 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
   // 3. Process and write posts
   for (const winner of chosenWinners) {
     const { feed, item } = winner;
-    // Sempre que houver uma segunda pauta inédita na mesma categoria, o RSS
-    // consolida as duas fontes em uma única matéria. Isso amplia o contexto
-    // sem publicar dez textos quase iguais e mantém cada afirmação atribuída
-    // ao respectivo resumo de origem.
-    const companion = eligible.find(candidate =>
-      candidate !== winner &&
-      candidate.category === winner.category &&
-      candidate.item?.link !== item.link
-    );
-    const sourceLabel = companion
-      ? `${feed.name} + ${companion.feed.name}`
-      : feed.name;
-    const sourceTitle = companion
-      ? `[Fonte 1] ${item.title}\n[Fonte 2] ${companion.item.title}`
-      : item.title;
-    const sourceDescription = companion
-      ? `[Fonte 1 — ${feed.name}] ${item.description || "N/A"}\n[Fonte 2 — ${companion.feed.name}] ${companion.item.description || "N/A"}`
-      : (item.description || "Tendência e inovação estratégica no mercado corporativo.");
-    const rewriteItem = companion
-      ? { ...item, title: sourceTitle, description: sourceDescription }
-      : item;
-    const rewriteFeed = companion ? { ...feed, name: sourceLabel } : feed;
+    // A shared category does not establish a shared event. Never merge an
+    // unrelated story (for example, FGTS) into this article (Bolsa Família).
+    const sourceLabel = feed.name;
+    const sourceTitle = item.title;
+    const sourceDescription = cleanRssPromotions(item.description || "");
+    const rewriteItem = { ...item, description: sourceDescription };
+    const rewriteFeed = feed;
     console.log(`[CRON] Importando vencedor: "${item.title}" em [${winner.category}] com ${winner.compositeScore} pontos.`);
 
     let rewritten: any = null;
@@ -3629,7 +3632,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       rewritten.editorialAngle = editorialAngle;
     }
 
-    const sanitizedTitle = cleanRssTitle(cleanText(rewritten.title || item.title));
+    const sanitizedTitle = buildRssHeadline(cleanText(rewritten.title || item.title), item.title);
     const finalSlug = sanitizedTitle
       .toLowerCase()
       .normalize("NFD")
@@ -3637,7 +3640,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       .replace(/[^a-z0-9]+/g, "-")
       .replace(/(^-|-$)+/g, "");
 
-    const sanitizedSubtitle = cleanText(rewritten.subtitle || item.description || "Inovação setorial agregada automaticamente.");
+    const sanitizedSubtitle = cleanRssPromotions(cleanText(rewritten.subtitle || item.description || ""));
     const sanitizedSeoTitle = cleanText(rewritten.seoTitle || sanitizedTitle);
     const sanitizedSeoDescription = cleanText(rewritten.seoDescription || sanitizedSubtitle);
     const sanitizedContent = rssArticleParagraphs(cleanArticleContent(rewritten.content || "")).join("\n\n");
@@ -3653,7 +3656,9 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     // corrigem casos inequívocos (saúde, esporte, tecnologia etc.).
     let correctedFinalCategory = inferCategoryFromSourceUrl(item.link || '') || winner.category || scraperCategory || rewritten.category || "Economia";
 
-    if (
+    if (/\b(?:bolsa fam[ií]lia|bpc|inss|fgts)\b/i.test(item.title || "")) {
+      correctedFinalCategory = "Economia";
+    } else if (
       finalClassifierText.includes("saúde") ||
       finalClassifierText.includes("saude") ||
       finalClassifierText.includes("secretaria de saúde") ||
@@ -4127,13 +4132,9 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
       keyword: rewritten.keyword || "",
       imagePrompt: finalImagePrompt || rewritten.imagePrompt || "",
       sourceUrl: item.link,
-      sourceName: companion
-        ? `${getSourceDisplayName(feed.name || "Fonte RSS", item.link || "")} + ${getSourceDisplayName(companion.feed.name || "Fonte RSS", companion.item.link || "")}`
-        : getSourceDisplayName(feed.name || "Fonte RSS", item.link || ""),
-      sourceUrls: companion ? [item.link, companion.item.link] : [item.link],
-      sourceNames: companion
-        ? [getSourceDisplayName(feed.name || "Fonte RSS", item.link || ""), getSourceDisplayName(companion.feed.name || "Fonte RSS", companion.item.link || "")]
-        : [getSourceDisplayName(feed.name || "Fonte RSS", item.link || "")],
+      sourceName: getSourceDisplayName(feed.name || "Fonte RSS", item.link || ""),
+      sourceUrls: [item.link],
+      sourceNames: [getSourceDisplayName(feed.name || "Fonte RSS", item.link || "")],
       rssOriginalTitle: item.title,
       isAiGenerated: Boolean(rewritten.isAiGenerated ?? ai),
       visualTheme: chosenTheme,
@@ -4157,6 +4158,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
           slug: finalSlug
         }],
         previewPost: newPost,
+        feedDiagnostics,
         message: "DRY RUN: teste local sem publicar e sem salvar no banco."
       };
     }
@@ -4229,7 +4231,7 @@ async function cronRssAuto(options: { dryRun?: boolean; maxPosts?: number } = {}
     console.log(`[CRON] ${totalImported} nova(s) matéria(s) publicada(s) e ${upgradedLegacyPosts.length} matéria(s) legada(s) corrigida(s).`);
   }
 
-  return { success: true, totalImported, importedPosts, importedDetails, upgradedLegacyPosts };
+  return { success: true, totalImported, importedPosts, importedDetails, upgradedLegacyPosts, feedDiagnostics };
 }
 
 let activeRssCron: Promise<any> | null = null;
@@ -4309,55 +4311,8 @@ function buildCompleteExcerpt(value: string, maxLength = 260): string {
   return excerpt;
 }
 
-function buildCuriosityTitle(originalTitle: string, category: string): string {
-  let base = cleanText(originalTitle || "Atualização do RSS")
-    .replace(/\s*[;,:\-–—]\s*(saiba|veja|entenda|confira)\b[\s\S]*$/i, "")
-    .replace(/\s+(saiba|veja|entenda|confira)\s+(mais|o que|como|por que|os detalhes)[\s\S]*$/i, "")
-    .replace(/[\s;,:\-–—]+$/, "")
-    .trim();
-
-  const sportsFinal = category === "Esporte"
-    ? base.match(/^(.{2,45}?)\s+bate\s+.+?\s+e\s+está\s+na\s+final\s+(.+)$/i)
-    : null;
-  if (sportsFinal) {
-    const team = sportsFinal[1].trim();
-    const competition = truncateAtWord(sportsFinal[2], 42);
-    return `${team} está na final ${competition}: quem será o adversário?`;
-  }
-
-  if (category === "Esporte" && /\b(fórmula\s*1|formula\s*1|gp\s+d[ao]|pole position|faz a pole)\b/i.test(base)) {
-    return `${truncateAtWord(base, 88)}: o que esperar da corrida?`;
-  }
-
-  const acquisitionOpportunity = base.match(/^(.{2,60}?)\s+dizem\s+que\s+(?:a\s+)?aquisição\s+d[ao]\s+(.{2,45}?)\s+é\s+["'“”‘’]?oportunidade["'“”‘’]?\s+de\s+entrar\s+(?:nos?|nas?)\s+(.+)$/i);
-  if (acquisitionOpportunity) {
-    const people = acquisitionOpportunity[1].replace(/^os\s+/i, "").trim();
-    const target = acquisitionOpportunity[2].trim();
-    const sectors = truncateAtWord(acquisitionOpportunity[3].replace(/^setores?\s+de\s+/i, ""), 45);
-    return truncateAtWord(`Por que ${people} veem a compra da ${target} como oportunidade em ${sectors}?`, 118);
-  }
-
-  if (base.endsWith("?")) return truncateAtWord(base, 118);
-  if (/^(como|por que|o que|quem|quando|onde|qual|quais)\b/i.test(base)) {
-    return `${truncateAtWord(base, 117)}?`;
-  }
-
-  const suffixByCategory: Record<string, string> = {
-    "Economia": "por que isso importa para a economia?",
-    "Negócios": "o que está em jogo no mercado?",
-    "Política": "o que pode mudar agora?",
-    "Judiciário": "qual pode ser o próximo passo?",
-    "Direito": "o que ainda precisa ser esclarecido?",
-    "Tecnologia": "o que muda para usuários e empresas?",
-    "Geopolítica": "por que esse movimento importa?",
-    "Esporte": "o que muda para os próximos jogos?",
-    "Saúde": "o que a população precisa saber?",
-    "Nacional": "como isso afeta a população?"
-  };
-  const suffix = suffixByCategory[category] || "por que esse assunto merece atenção?";
-  const roomForBase = Math.max(55, 118 - suffix.length - 2);
-  base = truncateAtWord(base, roomForBase);
-  return `${base}: ${suffix}`;
+function buildCuriosityTitle(originalTitle: string, _category: string): string {
+  return buildRssHeadline(originalTitle);
 }
 
 function buildSpecificQuestion(title: string, summary: string, category: string): string {
@@ -4423,7 +4378,7 @@ function fallbackRewrite(item: any, feed: any) {
     item.content ||
     "";
 
-  let summary = cleanCdataAndHtml(String(rawSummary)).replace(/\[Fonte\s*\d+(?:\s*[—–-][^\]]*)?\]/gi, " ").trim();
+  let summary = cleanRssPromotions(cleanCdataAndHtml(String(rawSummary))).replace(/\[Fonte\s*\d+(?:\s*[—–-][^\]]*)?\]/gi, " ").trim();
 
   // Remove chamadas e ruídos comuns vindos dos portais de origem
   summary = summary
@@ -4451,21 +4406,7 @@ function fallbackRewrite(item: any, feed: any) {
   const primaryTopicText = `${originalTitle} ${summary.slice(0, 450)}`.toLowerCase();
   if (isGeopoliticalTopic(primaryTopicText)) category = "Geopolítica";
 
-  const sportsText = primaryTopicText;
-  if (
-    sportsText.includes("copa do mundo") ||
-    sportsText.includes("fifa") ||
-    sportsText.includes("futebol") ||
-    sportsText.includes("gol") ||
-    sportsText.includes("gols") ||
-    sportsText.includes("seleção") ||
-    sportsText.includes("selecao") ||
-    sportsText.includes("campeonato") ||
-    sportsText.includes("jogador") ||
-    sportsText.includes("partida")
-  ) {
-    category = "Esporte";
-  }
+  if (isSportsTopic(primaryTopicText)) category = "Esporte";
 
   const jobsText = primaryTopicText;
   if (
@@ -4589,13 +4530,7 @@ function fallbackRewrite(item: any, feed: any) {
     imageText.includes("feminino a3")
   ) {
     imageTopic = "Brazilian women's football championship stadium match";
-  } else if (
-    imageText.includes("copa do mundo") ||
-    imageText.includes("fifa") ||
-    imageText.includes("futebol") ||
-    imageText.includes("gol") ||
-    imageText.includes("gols")
-  ) {
+  } else if (isSportsTopic(imageText)) {
     imageTopic = "soccer stadium football match fans world cup";
   } else if (
     imageText.includes("eua") ||

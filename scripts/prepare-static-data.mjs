@@ -1,5 +1,6 @@
 import fs from "node:fs";
 import path from "node:path";
+import { sanitizeRssPost } from "../src/lib/rss-editorial.ts";
 
 const rootDir = process.cwd();
 const databasePath = path.join(rootDir, "db.json");
@@ -9,7 +10,7 @@ const outputPath = path.join(outputDir, "site-data.json");
 const database = JSON.parse(fs.readFileSync(databasePath, "utf8"));
 const publicData = {
   generatedAt: new Date().toISOString(),
-  posts: Array.isArray(database.posts) ? database.posts : [],
+  posts: Array.isArray(database.posts) ? database.posts.map(sanitizeRssPost) : [],
   feeds: Array.isArray(database.feeds) ? database.feeds : [],
   ads: Array.isArray(database.ads) ? database.ads : [],
   settings: database.settings && typeof database.settings === "object" ? database.settings : {}

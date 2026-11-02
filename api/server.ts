@@ -4250,7 +4250,7 @@ function runRssCronOnce(options: { dryRun?: boolean; maxPosts?: number } = {}) {
 
 function cleanCdataAndHtml(str: string): string {
   if (!str) return "";
-  let cleaned = str.replace(/<!\[CDATA\[([\s\S]*?)]]>/g, "$1");
+  let cleaned = cleanRssPromotions(str).replace(/<!\[CDATA\[([\s\S]*?)]]>/g, "$1");
   cleaned = cleaned.replace(/<\/?[^>]+(>|$)/g, "");
   cleaned = cleaned
     .replace(/&amp;/g, "&")

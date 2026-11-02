@@ -40,6 +40,9 @@ export function isSportsTopic(text: string): boolean {
 
 export function cleanRssPromotions(text: string): string {
   return String(text || '')
+    .replace(/<figcaption\b[^>]*>[\s\S]*?<\/figcaption>/gi, ' ')
+    .replace(/<(div|p|span)\b[^>]*class=["'][^"']*\bcontent-media__(?:description|credit)\b[^"']*["'][^>]*>[\s\S]*?<\/\1>/gi, ' ')
+    .replace(/\bBolsa Fam[ií]lia\s+Luis Lima Jr\s*\/\s*FotoArena\s*\/\s*/gi, ' ')
     .replace(/\bBaixe\s+o\s+app\s+do\s+g1\s+para\s+ver\s+not[ií]cias\s+em\s+tempo\s+real\s+e\s+de\s+gra[cç]a[.!]?/gi, ' ')
     .replace(/\b(?:Siga|Acompanhe)\s+(?:o\s+)?(?:canal\s+do\s+)?g1\s+no\s+(?:WhatsApp|Telegram)[.!]?/gi, ' ')
     .replace(/\b(?:Agora\s+no\s+g1|Clique\s+(?:aqui\s+)?para\s+(?:ler|ver|acessar)\s+(?:a\s+)?(?:mat[eé]ria|not[ií]cia)\s+(?:completa\s+)?no\s+g1)[.!]?/gi, ' ')

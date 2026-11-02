@@ -4,6 +4,21 @@ import { normalizePost } from '../src/types.ts';
 import { isAutomotiveMarket, isGeopoliticalTopic, cleanRssOpening, cleanRssTitle, rssArticleParagraphs, automotiveContext, buildRssHeadline, isSportsTopic, cleanRssPromotions, sanitizeRssPost } from '../src/lib/rss-editorial.ts';
 import { rankRssCandidates, withSupplementalRssFeeds, rssPublisherKey } from '../src/lib/rss-sources.ts';
 
+test('remove the detached photo caption, preserving the eligibility paragraph and actual image credit', () => {
+  const question = 'Quem pode receber o Bolsa Família? A principal regra para receber o benefício é ter renda mensal familiar de até R$ 218 por pessoa.';
+  const original = { rssOriginalTitle: 'Bolsa Família 2026', title: 'Bolsa Família 2026', content: `Pagamentos começam em novembro.\n\nBolsa Família Luis Lima Jr/FotoArena/${question}`, imageCredit: 'Arte editorial: Store Center', sourceUrl: 'https://g1.globo.com/economia/bolsa', id: 'caption', slug: 'mesma-url' };
+  const result = sanitizeRssPost(original);
+  assert.equal(result.content, `Pagamentos começam em novembro.\n\n${question}`);
+  assert.equal(result.imageCredit, original.imageCredit);
+  assert.equal(result.sourceUrl, original.sourceUrl);
+  assert.equal(result.slug, original.slug);
+  assert.equal(result.id, original.id);
+  assert.equal(cleanRssPromotions(`<figcaption>Outra legenda Fulano/FotoArena</figcaption>${question}`), question);
+  assert.equal(cleanRssPromotions(`<div class="content-media__description">Outra legenda <span class="content-media__credit">Fulano/FotoArena</span></div>${question}`), question);
+  assert.equal(cleanRssPromotions('Segundo Luis Lima Jr, fotógrafo da FotoArena, o evento ocorreu em novembro.'), 'Segundo Luis Lima Jr, fotógrafo da FotoArena, o evento ocorreu em novembro.');
+  assert.deepEqual(sanitizeRssPost(result), result);
+});
+
 test('Bolsa Família keeps its payment subject, including existing bad sports headlines and SEO', () => {
   const original = { id: 'bolsa', title: 'Bolsa Família 2026: o que muda para os próximos jogos?', seoTitle: 'Bolsa Família: jogos?', rssOriginalTitle: 'Bolsa Família 2026: veja calendário de pagamentos em novembro', content: 'As contrapartidas incluem vacinação. Os valores dependem da composição familiar.', category: 'Economia', slug: 'url-antiga', image: 'capa.svg', sourceUrl: 'https://g1.globo.com/economia/bolsa', sourceNames: ['G1'], tags: ['Economia'], date: '2026-11-01T12:00:00Z' };
   const repaired = normalizePost(original);

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_737dcc7f",
+      "views": 0,
+      "date": "2026-11-03T10:29:11.945Z",
+      "title": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os 47 pontos",
+      "subtitle": "Na partida que abriu a 34ª rodada do Campeonato Brasileiro, na noite desta segunda-feira (2), melhor para o Red Bull Bragantino.",
+      "slug": "com-gols-no-1-tempo-massa-bruta-faz-2-a-1-e-iguala-os-47-pontos",
+      "content": "Na partida que abriu a 34ª rodada do Campeonato Brasileiro, na noite desta segunda-feira (2), melhor para o Red Bull Bragantino. O Massa Bruta derrotou o Santos por 2 a 1 no Estádio Cícero de Souza Marques, em Bragança Paulista (SP).\n\nO time da casa chegou aos mesmos 47 pontos do Peixe, ultrapassando o rival na classificação, assumindo o oitavo lugar, por ter uma vitória a mais (13 a 12). O Alvinegro Praiano, em nono, pode terminar a rodada a dez pontos da zona de classificação à próxima Libertadores, que engloba os cinco primeiros colocados (G-5).\n\nO Bragantino não ganhava dois jogos seguidos desde maio. O Santos, por sua vez, chega à terceira partida sem vencer.\n\nO atacante Neymar, suspenso, desfalcou a equipe da Vila Belmiro. O placar foi alterado logo aos três minutos, em uma infelicidade de Rodinei.\n\nO santista se antecipou na marcação do atacante Henry Mosquera, mas acabou escorando de cabeça, para a própria meta, o cruzamento pela direita do também lateral Ryan. Bragantino vence Santos na abertura da 34ª rodada do Brasileirão.\n\nO atacante Everton Cebolinha finalizou para o gol o cruzamento de Álvaro Barreal que veio da esquerda. A bola, porém, saiu pela linha de fundo antes que o meia - improvisado na lateral - a alcançasse, levando a árbitra Edina Alves Batista a impugnar a jogada.\n\nAos 36, enfim, o Santos tirou o zero do marcador. Após tabelar com o atacante Gabriel, o meia Philippe Coutinho invadiu a área, tirou a marcação do zagueiro Gustavo Marques e fez um golaço, deixando tudo igual.\n\nA comemoração dos visitantes, porém, durou apenas quatro minutos. Aos 40, Mosquera cruzou pela esquerda e o atacante Wallace Yan, quase na pequena área, mandou para a rede de cabeça, recolocando o Bragantino na frente.\n\nNa segunda etapa, o Santos se lançou ao ataque e reclamou de um pênalti não marcado de Ryan sobre o atacante Rony, aos 35 minutos. O goleiro Thiago Volpi foi seguro quando necessário e ajudou a garantir os três pontos para o Massa Bruta.\n\nOs demais jogos da 34ª rodada ocorrem entre terça (3) e sexta-feira (6). Nesta quarta-feira (4), a Rádio Nacional transmite a partida entre Botafogo e Atlético-MG, que se enfrentam no Estádio Nilton Santos, no Rio de Janeiro, às 21h30 (horário de Brasília).",
+      "category": "Esporte",
+      "author": "Redação Store Center",
+      "tags": [
+        "Esporte",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os Store Center",
+      "seoDescription": "Na partida que abriu a 34ª rodada do Campeonato Brasileiro, na noite desta segunda-feira (2), melhor para o Red Bull Bragantino.",
+      "keyword": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os 47 pontos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/com-gols-no-primeiro-tempo-massa-bruta-faz-2-1-e-iguala-os-47-ponto",
+      "sourceName": "Agência Brasil - Últimas notícias",
+      "sourceUrls": [
+        "https://agenciabrasil.ebc.com.br/esportes/noticia/2026-11/com-gols-no-primeiro-tempo-massa-bruta-faz-2-1-e-iguala-os-47-ponto"
+      ],
+      "sourceNames": [
+        "Agência Brasil - Últimas notícias"
+      ],
+      "rssOriginalTitle": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os 47 pontos",
+      "isAiGenerated": false,
+      "visualTheme": "pessoas",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_28e64404",
       "views": 0,
       "date": "2026-11-02T10:35:54.211Z",
@@ -29046,7 +29085,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-02T10:35:49.643Z",
+      "lastScraped": "2026-11-03T10:29:08.640Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29054,7 +29093,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-02T10:35:50.196Z",
+      "lastScraped": "2026-11-03T10:29:09.195Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29067,7 +29106,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-02T10:35:51.577Z",
+      "lastScraped": "2026-11-03T10:29:10.321Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29078,7 +29117,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-02T10:35:52.317Z"
+      "lastScraped": "2026-11-03T10:29:10.716Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29087,7 +29126,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-02T10:35:54.194Z"
+      "lastScraped": "2026-11-03T10:29:11.925Z"
     }
   ],
   "ads": [
@@ -29142,6 +29181,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793701795340",
+      "feedName": "Agência Brasil - Últimas notícias",
+      "feedUrl": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+      "originalTitle": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os 47 pontos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/esporte.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: beekeeping honey bees hive artisan honey production small business Brazil, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Com gols no 1º tempo, Massa Bruta faz 2 a 1 e iguala os 47 pontos",
+      "postId": "rss-hash_737dcc7f",
+      "timestamp": "2026-11-03T10:29:11.946Z",
+      "chosenCategory": "Esporte",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 592.0h (+8), Sem postagem há 592.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Economia",
+        "Nacional",
+        "Tecnologia",
+        "Política",
+        "Geopolítica",
+        "Judiciário",
+        "Saúde"
+      ]
+    },
     {
       "id": "1793615786720",
       "feedName": "Agência Senado - Últimas notícias",

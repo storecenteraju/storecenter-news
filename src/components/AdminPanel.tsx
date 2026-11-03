@@ -31,6 +31,9 @@ export default function AdminPanel({
   const [password, setPassword] = useState('');
   const [loginError, setLoginError] = useState('');
   const [isLoggingIn, setIsLoggingIn] = useState(false);
+  const [checkingSession, setCheckingSession] = useState(true);
+  const [isSavingPost, setIsSavingPost] = useState(false);
+  const savingPost = React.useRef(false);
   const [resetNotice, setResetNotice] = useState('');
   const resetToken = new URLSearchParams(window.location.search).get('reset');
   const [isResetMode, setIsResetMode] = useState(Boolean(resetToken));
@@ -175,6 +178,33 @@ export default function AdminPanel({
     const hor = pad(d.getHours());
     const min = pad(d.getMinutes());
     return `${day}/${month}/${year} ${hor}:${min}`;
+  };
+
+  useEffect(() => {
+    let active = true;
+    const restoreSession = async () => {
+      try {
+        const response = await fetch('/api/session', { cache: 'no-store' });
+        const data = await response.json();
+        if (active && response.ok && data.authenticated) {
+          setIsAuthenticated(true);
+          setUsername(data.username || '');
+        }
+      } catch { /* Allow a fresh login if the server is unavailable. */ }
+      finally { if (active) setCheckingSession(false); }
+    };
+    restoreSession();
+    const interval = window.setInterval(restoreSession, 60 * 60 * 1000);
+    return () => { active = false; window.clearInterval(interval); };
+  }, []);
+
+  const handleLogout = async () => {
+    try {
+      const response = await fetch('/api/logout', { method: 'POST' });
+      if (!response.ok) throw new Error('logout');
+      setIsAuthenticated(false);
+      setPassword('');
+    } catch { alert('Não foi possível sair. Tente novamente.'); }
   };
 
   // Handle Administrative Login via backend API
@@ -337,6 +367,7 @@ export default function AdminPanel({
   // Create or Update Manual news post
   const handleSavePost = async (e: React.FormEvent) => {
     e.preventDefault();
+    if (savingPost.current) return;
     if (!postTitle || !postContent) {
       alert("Por favor, informe pelo menos o Título e o Conteúdo.");
       return;
@@ -365,25 +396,31 @@ export default function AdminPanel({
       return;
     }
 
+    savingPost.current = true;
+    setIsSavingPost(true);
+    setFormSuccessMsg('');
     try {
       let response;
       if (editingPostId) {
         response = await fetch(`/api/posts/${editingPostId}`, {
           method: 'PUT',
+          signal: AbortSignal.timeout(20000),
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(updates)
         });
       } else {
         response = await fetch('/api/posts', {
           method: 'POST',
+          signal: AbortSignal.timeout(20000),
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
         });
       }
 
       if (response.ok) {
-        setFormSuccessMsg(editingPostId ? "Notícia atualizada com sucesso!" : "Notícia criada com sucesso!");
+        const message = editingPostId ? "Notícia atualizada com sucesso!" : "Notícia criada com sucesso!";
         clearPostForm();
+        setFormSuccessMsg(message);
         onRefreshData();
       } else {
         let detail = "";
@@ -393,11 +430,14 @@ export default function AdminPanel({
         } catch {
           // Mantém uma mensagem útil mesmo quando a resposta não é JSON.
         }
-        alert(detail ? `Erro ao salvar notícia: ${detail}` : `Erro ao salvar notícia (HTTP ${response.status}).`);
+        alert(detail ? `Erro ao salvar notícia: ${detail}` : `Não foi possível confirmar o salvamento (HTTP ${response.status}). Suas alterações continuam no formulário. Tente novamente.`);
       }
     } catch (err) {
       console.error(err);
-      alert("Erro conectando ao servidor.");
+      alert("Não foi possível confirmar o salvamento. Suas alterações continuam no formulário. Tente novamente.");
+    } finally {
+      savingPost.current = false;
+      setIsSavingPost(false);
     }
   };
 
@@ -715,6 +755,8 @@ export default function AdminPanel({
   const draftCount = nonTestPostsSummary.filter(p => p.status === 'draft').length;
 
   // Render Login Screen if not authenticated
+  if (checkingSession) return <div className="p-8 text-center" role="status">Verificando login…</div>;
+
   if (!isAuthenticated) {
     return (
       <div className="bg-slate-50 min-h-[80vh] flex items-center justify-center p-4">
@@ -805,6 +847,7 @@ export default function AdminPanel({
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
       
+      <div className="flex justify-end mb-4"><button type="button" onClick={handleLogout} className="px-4 py-2 rounded bg-slate-200 font-bold">Sair</button></div>
       {/* HEADER DESK STATISTICS */}
       <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8 select-none">
         
@@ -1219,15 +1262,18 @@ export default function AdminPanel({
 
               <div className="flex gap-2">
                 <button 
-                  type="submit" 
+                  type="submit"
+                  disabled={isSavingPost}
+                  aria-busy={isSavingPost}
                   className="flex-1 py-3 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded shadow transition-all cursor-pointer select-none text-center"
                 >
-                  {editingPostId ? 'Salvar Edições' : 'Publicar Agora'}
+                  {isSavingPost ? 'Salvando…' : editingPostId ? 'Salvar Edições' : 'Publicar Agora'}
                 </button>
                 {editingPostId && (
                   <button 
                     type="button" 
                     onClick={clearPostForm}
+                    disabled={isSavingPost}
                     className="px-3 bg-slate-100 hover:bg-slate-200 text-slate-700 font-bold rounded border border-slate-200 uppercase tracking-wide cursor-pointer"
                   >
                     Cancelar

@@ -56,12 +56,13 @@ app.use(async (req, res, next) => {
   const pathStr = String(req.path || req.url || "").toLowerCase();
   
   const isApiRoute = pathStr.startsWith("/api/") || pathStr.includes("/api/");
-  const isLoginRoute = pathStr.includes("login") || pathStr.includes("/login");
+  const isLoginRoute = ["/api/login", "/api/session", "/api/logout"].includes(pathStr);
+  const isManualSaveRoute = req.method === "PUT" && /^\/api\/posts\/[^/]+$/.test(pathStr);
   const isAssetRoute = pathStr.startsWith("/assets/") || pathStr.includes("/assets/");
   const isHealthRoute = pathStr === "/api/health";
   const isPortalDataRoute = pathStr === "/api/portal-data" || pathStr === "/api/manual-edits";
   
-  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute && !isPortalDataRoute;
+  const needsDB = isApiRoute && !isLoginRoute && !isAssetRoute && !isHealthRoute && !isPortalDataRoute && !isManualSaveRoute;
 
   if (needsDB) {
     try {
@@ -738,7 +739,7 @@ function autoCategorizeNews(title: string, content: string, origCategory: string
 // API Routes
 
 const ADMIN_SESSION_COOKIE = "storecenter_admin_session";
-const ADMIN_SESSION_MAX_AGE_SECONDS = 8 * 60 * 60;
+const ADMIN_SESSION_MAX_AGE_SECONDS = 400 * 24 * 60 * 60;
 
 function safeStringEquals(left: string, right: string): boolean {
   const leftBuffer = Buffer.from(String(left));
@@ -912,14 +913,7 @@ app.post("/api/login", (req, res) => {
       });
     }
 
-    res.setHeader("Set-Cookie", [
-      `${ADMIN_SESSION_COOKIE}=${session}`,
-      "Path=/",
-      "HttpOnly",
-      "SameSite=Strict",
-      process.env.NODE_ENV === "production" ? "Secure" : "",
-      `Max-Age=${ADMIN_SESSION_MAX_AGE_SECONDS}`
-    ].filter(Boolean).join("; "));
+    setAdminSessionCookie(res, session);
 
     res.json({ 
       success: true, 
@@ -932,6 +926,31 @@ app.post("/api/login", (req, res) => {
       error: `Servidor de autenticação indisponível: ${error.message}` 
     });
   }
+});
+
+function setAdminSessionCookie(res: express.Response, session: string, maxAge = ADMIN_SESSION_MAX_AGE_SECONDS) {
+  res.setHeader("Cache-Control", "no-store");
+  res.setHeader("Set-Cookie", [
+    `${ADMIN_SESSION_COOKIE}=${session}`, "Path=/", "HttpOnly", "SameSite=Strict",
+    process.env.VERCEL || process.env.NODE_ENV === "production" ? "Secure" : "",
+    `Max-Age=${maxAge}`
+  ].filter(Boolean).join("; "));
+}
+
+app.get("/api/session", (req, res) => {
+  res.setHeader("Cache-Control", "no-store");
+  if (!isAuthorizedAdminSession(req)) return res.status(401).json({ authenticated: false });
+  // Renew the persistent cookie without reading the editorial database.
+  const raw = String(req.headers.cookie || "").split(";").find(part => part.trim().startsWith(`${ADMIN_SESSION_COOKIE}=`));
+  const payload = raw!.trim().slice(ADMIN_SESSION_COOKIE.length + 1).split(".")[0];
+  const session = JSON.parse(Buffer.from(payload, "base64url").toString("utf8"));
+  setAdminSessionCookie(res, createAdminSession(session.sub)!);
+  return res.json({ authenticated: true, username: session.sub });
+});
+
+app.post("/api/logout", (_req, res) => {
+  setAdminSessionCookie(res, "", 0);
+  return res.json({ success: true });
 });
 
 // All state-changing API routes below require an authenticated admin session,
@@ -1175,7 +1194,10 @@ app.put("/api/posts/:id", async (req, res) => {
         writeDatabase(db);
         portalDataLoadedAt = 0;
       } catch (saveError: any) {
-        return res.status(503).json({ error: saveError.message || "O salvamento permanente não foi confirmado." });
+        const message = Number(saveError.code) === 8 || /RESOURCE_EXHAUSTED/.test(saveError.message || "")
+          ? "A cota gratuita do banco foi esgotada. O salvamento não foi confirmado. Mantenha suas alterações no formulário para tentar novamente."
+          : saveError.message || "O salvamento permanente não foi confirmado.";
+        return res.status(503).json({ error: message });
       }
       return res.json(db.posts[index]);
     }

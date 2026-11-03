@@ -29,7 +29,17 @@ export async function persistManualUpdate(store: any, post: any, changes: any, t
   const update = prepareManualUpdate(post, changes, timestamp);
   // Sparse merge: a title edit never sends the cached image/category back to
   // Firestore. Wait for persistence before exposing the result in the cache.
-  await store.collection('posts').doc(String(post.id)).set(update, { merge: true });
+  let timer: ReturnType<typeof setTimeout> | undefined;
+  try {
+    await Promise.race([
+      store.collection('posts').doc(String(post.id)).set(update, { merge: true }),
+      new Promise<never>((_, reject) => {
+        timer = setTimeout(() => reject(new Error('O banco demorou a responder. Não foi possível confirmar o salvamento; mantenha o formulário aberto e tente novamente.')), 8000);
+      })
+    ]);
+  } finally {
+    if (timer) clearTimeout(timer);
+  }
   return { ...post, ...update };
 }
 

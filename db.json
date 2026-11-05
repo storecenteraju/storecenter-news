@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_64a0c1ae",
+      "views": 0,
+      "date": "2026-11-05T10:23:48.651Z",
+      "title": "SUS e Einstein desenvolvem IA para identificação de doenças de pele",
+      "subtitle": "Uma parceria entre o Ministério da Saúde e o Einstein Hospital Israelita desenvolveu um sistema com inteligência artificial para apoiar profissionais de saúde pública na triagem e identificação de doenças de pele.",
+      "slug": "sus-e-einstein-desenvolvem-ia-para-identificacao-de-doencas-de-pele",
+      "content": "Uma parceria entre o Ministério da Saúde e o Einstein Hospital Israelita desenvolveu um sistema com inteligência artificial para apoiar profissionais de saúde pública na triagem e identificação de doenças de pele. A iniciativa, chamada CUTIS-AI, utiliza como base imagens da lesão da pele do paciente e dados clínicos, epidemiológicos e sociodemográficos que refletem a realidade brasileira.\n\nNovembro Roxo alerta para cuidados com prematuros após alta. Entre as doenças que podem ser identificadas estão esporotricose, leishmaniose cutânea, hanseníase, cromoblastomicose, lobomicose, tuberculose cutânea, além de lesões decorrentes de acidentes loxoscélicos (picada de aranha marrom).\n\nO aplicativo que viabiliza o uso da IA, que ainda está em estudo, foi desenvolvido a partir de entrevistas com profissionais de saúde da atenção básica. O app pode ser utilizado mesmo em locais em que não há conexão com a internet.\n\nA taxa de acerto do aplicativo já é de cerca de 80%. A proposta do CUTIS-AI, no entanto, é utilizar a inteligência artificial como ferramenta de apoio, sem substituir a avaliação clínica realizada pelos profissionais de saúde.\n\n“O CUTIS-AI foi criado para ampliar a capacidade de identificação dessas doenças, que ainda podem representar um desafio para os profissionais de saúde, especialmente em regiões com menor disponibilidade de especialistas. Ao reunir imagens das lesões, estamos construindo uma base de dados robusta, que contribuirá para o desenvolvimento de uma tecnologia útil na ponta, principalmente para a Atenção Primária à Saúde”, destacou a cientista de dados do Einstein Hospital Israelita, Isabelle Carvalho.\n\nO estudo com o aplicativo já analisou cerca de 1,4 mil pacientes e conta com mais de 4 mil imagens de lesões. A diversidade de pacientes ajuda a treinar a inteligência artificial com exemplos variados, tornando o modelo mais preparado para identificar as características das lesões.\n\n“Quando falamos em inteligência artificial aplicada à saúde, a qualidade e a diversidade dos dados são fundamentais. Uma tecnologia desenvolvida a partir de uma população específica pode não apresentar o mesmo desempenho quando aplicada a outros grupos.\n\nPor isso, construir uma base brasileira, com diferentes fototipos de pele, regiões, condições de vida e perfis epidemiológicos é essencial” ressaltou o secretário de Vigilância em Saúde e Ambiente do Ministério da Saúde, Fabiano Geraldo Pimenta Junior.",
+      "category": "Saúde",
+      "author": "Redação Store Center",
+      "tags": [
+        "Saúde",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "SUS e Einstein desenvolvem IA para identificação de Store Center",
+      "seoDescription": "Uma parceria entre o Ministério da Saúde e o Einstein Hospital Israelita desenvolveu um sistema com inteligência artificial para apoiar profissionais",
+      "keyword": "SUS e Einstein desenvolvem IA para identificação de doenças de pele",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/sus-e-einstein-desenvolvem-ia-para-identificacao-de-doencas-de-pele",
+      "sourceName": "Agência Brasil - Últimas notícias",
+      "sourceUrls": [
+        "https://agenciabrasil.ebc.com.br/saude/noticia/2026-11/sus-e-einstein-desenvolvem-ia-para-identificacao-de-doencas-de-pele"
+      ],
+      "sourceNames": [
+        "Agência Brasil - Últimas notícias"
+      ],
+      "rssOriginalTitle": "SUS e Einstein desenvolvem IA para identificação de doenças de pele",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_3576d98a",
       "views": 0,
       "date": "2026-11-04T13:08:16.213Z",
@@ -29130,7 +29169,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-04T13:08:12.944Z",
+      "lastScraped": "2026-11-05T10:23:45.920Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29138,7 +29177,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-04T13:08:13.486Z",
+      "lastScraped": "2026-11-05T10:23:46.204Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29151,7 +29190,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-04T13:08:14.432Z",
+      "lastScraped": "2026-11-05T10:23:47.122Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29162,7 +29201,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-04T13:08:14.855Z"
+      "lastScraped": "2026-11-05T10:23:47.444Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29171,7 +29210,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-04T13:08:16.193Z"
+      "lastScraped": "2026-11-05T10:23:48.637Z"
     }
   ],
   "ads": [
@@ -29226,6 +29265,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793874273749",
+      "feedName": "Agência Brasil - Últimas notícias",
+      "feedUrl": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+      "originalTitle": "SUS e Einstein desenvolvem IA para identificação de doenças de pele",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian public health hospital doctors medical team clinic SUS patients epidemiology laboratory, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "SUS e Einstein desenvolvem IA para identificação de doenças de pele",
+      "postId": "rss-hash_64a0c1ae",
+      "timestamp": "2026-11-05T10:23:48.652Z",
+      "chosenCategory": "Saúde",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 132.8h (+8), Sem postagem há 132.8h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 38",
+      "discardedCategories": [
+        "Geopolítica",
+        "Economia",
+        "Tecnologia",
+        "Nacional",
+        "Política",
+        "Judiciário",
+        "Esporte"
+      ]
+    },
     {
       "id": "1793797788743",
       "feedName": "Agência Senado - Últimas notícias",

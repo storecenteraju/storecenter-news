@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_22b622ea",
+      "views": 0,
+      "date": "2026-11-06T10:25:57.050Z",
+      "title": "Projeto cria portal para eleitor consultar posições dos partidos políticos",
+      "subtitle": "O Projeto de Lei 3321/26 cria a Declaração Pública de Posicionamento Partidário (DPPP), documento em que os partidos políticos deverão registrar suas posições sobre temas estruturantes da vida nacional.",
+      "slug": "projeto-cria-portal-para-eleitor-consultar-posicoes-dos-partidos-politicos",
+      "content": "O Projeto de Lei 3321/26 cria a Declaração Pública de Posicionamento Partidário (DPPP), documento em que os partidos políticos deverão registrar suas posições sobre temas estruturantes da vida nacional. A proposta também institui o Portal Nacional de Transparência Partidária, mantido pelo Tribunal Superior Eleitoral (TSE), para divulgar as informações e permitir a comparação entre as legendas.\n\nPelo texto, todos os partidos com registro definitivo no TSE deverão elaborar e publicar a declaração, que será anexada ao programa partidário. O preenchimento será feito por meio de formulário eletrônico padronizado, disponibilizado pelo tribunal.\n\nA proposta prevê declaração obrigatória sobre temas nacionais e exige que candidatos assinem termo de adesão ao programa da legenda. Os temas serão organizados em seis blocos: segurança pública; direitos civis e costumes; economia e desenvolvimento; liberdades fundamentais; organização do Estado; e política externa e soberania nacional.\n\nPara cada tema, o partido deverá indicar uma das três opções: favorável, contrário ou sem posição oficial definida. A legenda poderá incluir uma justificativa de até 300 caracteres, mas não poderá deixar nenhum item sem preenchimento.\n\nA opção de não ter posição definida também deverá ser publicada no portal. Prazo Os partidos criados depois que a lei entrar em vigor terão 180 dias, contados da obtenção do registro definitivo, para entregar a declaração ao TSE.\n\nAs legendas já registradas deverão apresentar o documento até 31 de março do segundo ano seguinte à entrada em vigor da norma. A proposta permite que os partidos atualizem a declaração a qualquer momento, desde que haja aprovação do órgão de direção nacional.\n\nA nova versão deverá ser encaminhada ao TSE e publicada no portal, com indicação da data de vigência e manutenção do histórico das versões anteriores. Termo de adesão O projeto também estabelece que o pré-candidato que solicitar registro por um partido com declaração arquivada no TSE deverá apresentar um Termo de Adesão Programática (TAP), assinado junto à documentação de registro da candidatura.\n\nO projeto prevê que o documento identifique o candidato e o partido, reproduza a declaração da legenda e contenha a confirmação de que o candidato leu e compreendeu as posições partidárias. Também deverá incluir uma declaração expressa de que ele se identifica com o programa e os posicionamentos do partido pelo qual pretende concorrer.\n\nO termo será um documento público, arquivado pelo TSE e disponível para consulta no portal. Comparação O Portal Nacional de Transparência Partidária deverá oferecer acesso gratuito às declarações de todos os partidos com registro definitivo, em formato de fácil leitura e consulta.\n\nA plataforma também deverá disponibilizar o histórico das versões de cada documento, com as respectivas datas de vigência. O projeto ressalta que a medida não restringe a autonomia partidária garantida pela Constituição.\n\nO deputado Capitão Augusto (PL-SP), autor do texto, explica que não se trata de impor posições, mas de garantir ao eleitor o direito de acesso à informação sobre aqueles que pretendem representá-lo. “O projeto fundamenta-se nos mandamentos constitucionais que preveem o direito de acesso à informação; a soberania popular exercida pelo voto e o dever de os partidos publicarem seus programas”, defendeu.\n\nTramitação O projeto será analisado pelas comissões de Comunicação; de Cultura e de Constituição e Justiça e de Cidadania. Depois, deve ser votado pelo Plenário.\n\nPara virar lei, precisa ser aprovado também pelo Senado. Saiba mais sobre a tramitação de projetos de lei.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Projeto cria portal para eleitor consultar posições dos Store Center",
+      "seoDescription": "O Projeto de Lei 3321/26 cria a Declaração Pública de Posicionamento Partidário (DPPP), documento em que os partidos políticos deverão registrar suas",
+      "keyword": "Projeto cria portal para eleitor consultar posições dos partidos políticos",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1311454-projeto-cria-portal-para-eleitor-consultar-posicoes-dos-partidos-politicos",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1311454-projeto-cria-portal-para-eleitor-consultar-posicoes-dos-partidos-politicos"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Projeto cria portal para eleitor consultar posições dos partidos políticos",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Perspectiva humana e inclusão social (líderes comunitários, rotina operacional dos envolvidos e impacto no bolso do cidadão comum)"
+    },
+    {
       "id": "rss-hash_64a0c1ae",
       "views": 0,
       "date": "2026-11-05T10:23:48.651Z",
@@ -29169,7 +29208,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-05T10:23:45.920Z",
+      "lastScraped": "2026-11-06T10:25:53.746Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29177,7 +29216,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-05T10:23:46.204Z",
+      "lastScraped": "2026-11-06T10:25:54.223Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29190,7 +29229,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-05T10:23:47.122Z",
+      "lastScraped": "2026-11-06T10:25:55.036Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29201,7 +29240,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-05T10:23:47.444Z"
+      "lastScraped": "2026-11-06T10:25:55.614Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29210,7 +29249,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-05T10:23:48.637Z"
+      "lastScraped": "2026-11-06T10:25:57.024Z"
     }
   ],
   "ads": [
@@ -29265,6 +29304,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1793960839917",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Projeto cria portal para eleitor consultar posições dos partidos políticos",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Projeto cria portal para eleitor consultar posições dos partidos políticos",
+      "postId": "rss-hash_22b622ea",
+      "timestamp": "2026-11-06T10:25:57.051Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 45.3h (+8), Sem postagem há 45.3h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Nacional",
+        "Judiciário",
+        "Esporte"
+      ]
+    },
     {
       "id": "1793874273749",
       "feedName": "Agência Brasil - Últimas notícias",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_1d0e2ae3",
+      "views": 0,
+      "date": "2026-11-07T09:39:10.433Z",
+      "title": "Áudio: Senado participará da COP 31, que começa nesta segunda-feira",
+      "subtitle": "A COP 31, conferência do clima da ONU, começa na segunda-feira (9), em Antália, na Turquia, e terá a participação de três senadores: Fabiano Contarato (PT-ES), Soraya Thronicke (PSB-MS) e Leany Lemos (PSB-DF).",
+      "slug": "audio-senado-participara-da-cop-31-que-comeca-nesta-segunda-feira",
+      "content": "A COP 31, conferência do clima da ONU, começa na segunda-feira (9), em Antália, na Turquia, e terá a participação de três senadores: Fabiano Contarato (PT-ES), Soraya Thronicke (PSB-MS) e Leany Lemos (PSB-DF). O presidente do Senado, Davi Alcolumbre, foi convidado pelo presidente da República, Luiz Inácio Lula da Silva, para acompanhar a comitiva presidencial, mas não confirmou presença.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Áudio: Senado participará da COP 31, que começa nesta Store Center",
+      "seoDescription": "A COP 31, conferência do clima da ONU, começa na segunda-feira (9), em Antália, na Turquia, e terá a participação de três senadores: Fabiano Contarato",
+      "keyword": "Áudio: Senado participará da COP 31, que começa nesta segunda-feira",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www12.senado.leg.br/noticias/audios/2026/11/senado-participara-da-cop-31-que-comeca-segunda-feira-na-turquia",
+      "sourceName": "Agência Senado - Últimas notícias",
+      "sourceUrls": [
+        "https://www12.senado.leg.br/noticias/audios/2026/11/senado-participara-da-cop-31-que-comeca-segunda-feira-na-turquia"
+      ],
+      "sourceNames": [
+        "Agência Senado - Últimas notícias"
+      ],
+      "rssOriginalTitle": "Áudio: Senado participará da COP 31, que começa nesta segunda-feira",
+      "isAiGenerated": false,
+      "visualTheme": "comércio",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_22b622ea",
       "views": 0,
       "date": "2026-11-06T10:25:57.050Z",
@@ -29208,7 +29247,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-06T10:25:53.746Z",
+      "lastScraped": "2026-11-07T09:39:07.208Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29216,7 +29255,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-06T10:25:54.223Z",
+      "lastScraped": "2026-11-07T09:39:07.514Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29229,7 +29268,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-06T10:25:55.036Z",
+      "lastScraped": "2026-11-07T09:39:08.526Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29240,7 +29279,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-06T10:25:55.614Z"
+      "lastScraped": "2026-11-07T09:39:09.284Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29249,7 +29288,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-06T10:25:57.024Z"
+      "lastScraped": "2026-11-07T09:39:10.414Z"
     }
   ],
   "ads": [
@@ -29304,6 +29343,32 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794044367393",
+      "feedName": "Agência Senado - Últimas notícias",
+      "feedUrl": "https://www12.senado.leg.br/noticias/RSS",
+      "originalTitle": "Áudio: Senado participará da COP 31, que começa nesta segunda-feira",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Áudio: Senado participará da COP 31, que começa nesta segunda-feira",
+      "postId": "rss-hash_1d0e2ae3",
+      "timestamp": "2026-11-07T09:39:10.434Z",
+      "chosenCategory": "Política",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 23.2h (+8), Sem postagem há 23.2h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Geopolítica",
+        "Nacional",
+        "Judiciário",
+        "Saúde"
+      ]
+    },
     {
       "id": "1793960839917",
       "feedName": "Agência Câmara - Política",

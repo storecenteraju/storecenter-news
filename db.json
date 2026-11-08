@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_3e572cb7",
+      "views": 0,
+      "date": "2026-11-08T09:54:08.622Z",
+      "title": "Frente fria provoca queda de temperatura e risco de tempestades",
+      "subtitle": "A passagem de uma frente fria pela região Centro-Sul pode provocar chuvas, trovoadas e ventos fortes na maior parte do país nos próximos dias.",
+      "slug": "frente-fria-provoca-queda-de-temperatura-e-risco-de-tempestades",
+      "content": "A passagem de uma frente fria pela região Centro-Sul pode provocar chuvas, trovoadas e ventos fortes na maior parte do país nos próximos dias. De acordo com a previsão do tempo divulgada pelo Instituto Nacional de Meteorologia (Inmet), a passagem de uma massa de ar frio deve provocar o declínio acentuado das temperaturas na Região Sul, no Centro-Oeste e em parte do Sudeste.\n\nTeto de loja de roupas desaba no Brás, em São Paulo. Neste domingo (8), o Inmet alerta para perigo potencial de tempestades no Rio de Janeiro, em Minas Gerais, no Espírito Santo e nas regiões norte e leste de São Paulo.\n\nNo Sul, a previsão é de temperaturas baixas em toda a região. O Inmet alerta para a possibilidade de ventos costeiros fortes no litoral do Paraná e do Rio Grande do Sul.\n\nEm Curitiba, a temperatura mínima deve chegar a 10 C. Em Porto Alegre, os termômetros devem ficar entre 15 C e 20 C.\n\nEm Florianópolis, a máxima não deve passar dos 21 C. O tempo deve permanecer chuvoso no Centro-Oeste, com risco de tempestades e queda de temperatura.\n\nHá previsão de granizo no leste e nordeste de Mato Grosso do Sul e no sul de Goiás. No Nordeste, o tempo deve permanecer estável, sem chuva e com temperaturas elevadas.\n\nNo Norte, não há previsão de chuva. Em Boa Vista, por exemplo, a temperatura máxima pode chegar a 38 C.",
+      "category": "Nacional",
+      "author": "Redação Store Center",
+      "tags": [
+        "Nacional",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Frente fria provoca queda de temperatura e risco de Store Center",
+      "seoDescription": "A passagem de uma frente fria pela região Centro-Sul pode provocar chuvas, trovoadas e ventos fortes na maior parte do país nos próximos dias.",
+      "keyword": "Frente fria provoca queda de temperatura e risco de tempestades",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/frente-fria-provoca-queda-de-temperatura-e-risco-de-tempestades",
+      "sourceName": "Agência Brasil - Últimas notícias",
+      "sourceUrls": [
+        "https://agenciabrasil.ebc.com.br/geral/noticia/2026-11/frente-fria-provoca-queda-de-temperatura-e-risco-de-tempestades"
+      ],
+      "sourceNames": [
+        "Agência Brasil - Últimas notícias"
+      ],
+      "rssOriginalTitle": "Frente fria provoca queda de temperatura e risco de tempestades",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_1d0e2ae3",
       "views": 0,
       "date": "2026-11-07T09:39:10.433Z",
@@ -29247,7 +29286,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-07T09:39:07.208Z",
+      "lastScraped": "2026-11-08T09:54:04.319Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29255,7 +29294,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-07T09:39:07.514Z",
+      "lastScraped": "2026-11-08T09:54:04.682Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29268,7 +29307,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-07T09:39:08.526Z",
+      "lastScraped": "2026-11-08T09:54:05.835Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29279,7 +29318,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-07T09:39:09.284Z"
+      "lastScraped": "2026-11-08T09:54:06.782Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29288,7 +29327,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-07T09:39:10.414Z"
+      "lastScraped": "2026-11-08T09:54:08.605Z"
     }
   ],
   "ads": [
@@ -29343,6 +29382,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794131737379",
+      "feedName": "Agência Brasil - Últimas notícias",
+      "feedUrl": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+      "originalTitle": "Frente fria provoca queda de temperatura e risco de tempestades",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Frente fria provoca queda de temperatura e risco de tempestades",
+      "postId": "rss-hash_3e572cb7",
+      "timestamp": "2026-11-08T09:54:08.622Z",
+      "chosenCategory": "Nacional",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 551.9h (+8), Sem postagem há 551.9h (+5). Recência: Posição 1 (+10). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 41",
+      "discardedCategories": [
+        "Economia",
+        "Geopolítica",
+        "Tecnologia",
+        "Política",
+        "Esporte",
+        "Saúde",
+        "Judiciário"
+      ]
+    },
     {
       "id": "1794044367393",
       "feedName": "Agência Senado - Últimas notícias",

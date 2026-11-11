@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_2960f7b9",
+      "views": 0,
+      "date": "2026-11-11T10:23:41.963Z",
+      "title": "Deputada defende proteção para mulheres que atuem em posição de liderança; assista",
+      "subtitle": "nbsp; Em entrevista ao programa Me Conta+, transmitido nas redes sociais da Câmara dos Deputados, a deputada Natália Bonavides (PT-RN) relatou ameaças que já sofreu e falou sobre um projeto em discussão na Casa que amplia a proteção a mulheres que ocupam.",
+      "slug": "deputada-defende-protecao-para-mulheres-que-atuem-em-posicao-de-lideranca-assista",
+      "content": "nbsp; Em entrevista ao programa Me Conta+, transmitido nas redes sociais da Câmara dos Deputados, a deputada Natália Bonavides (PT-RN) relatou ameaças que já sofreu e falou sobre um projeto em discussão na Casa que amplia a proteção a mulheres que ocupam espaços de liderança. Natália Bonavides é relatora do Projeto de Lei 68/25, da deputada Daiana Santos (PCdoB-RS), que cria medidas específicas de apoio a mulheres que ocupam espaços de poder e sofrem violência política de gênero.\n\n\"Hoje, já existe o crime de violência política de gênero\", afirma Natália. O projeto, explica ela, amplia essa proteção para outras mulheres em posições de liderança política.\n\nA proposta, que tramita em regime de prioridade, será analisada pelas comissões de Direitos Humanos, Minorias e Igualdade Racial; de Defesa dos Direitos da Mulher; de Finanças e Tributação; e de Constituição e Justiça e de Cidadania. Depois, o texto segue para o Plenário da Câmara.\n\nPara se tornar lei, a proposta precisa ser aprovada pela Câmara e pelo Senado. Saiba mais sobre a tramitação de projetos de lei.",
+      "category": "Política",
+      "author": "Redação Store Center",
+      "tags": [
+        "Política",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "group",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Deputada defende proteção para mulheres que atuem em Store Center",
+      "seoDescription": "nbsp; Em entrevista ao programa Me Conta+, transmitido nas redes sociais da Câmara dos Deputados, a deputada Natália Bonavides (PT-RN) relatou ameaça",
+      "keyword": "Deputada defende proteção para mulheres que atuem em posição de liderança; assista",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://www.camara.leg.br/noticias/1317695-deputada-defende-protecao-para-mulheres-que-atuem-em-posicao-de-lideranca-assista",
+      "sourceName": "Agência Câmara - Política",
+      "sourceUrls": [
+        "https://www.camara.leg.br/noticias/1317695-deputada-defende-protecao-para-mulheres-que-atuem-em-posicao-de-lideranca-assista"
+      ],
+      "sourceNames": [
+        "Agência Câmara - Política"
+      ],
+      "rssOriginalTitle": "Deputada defende proteção para mulheres que atuem em posição de liderança; assista",
+      "isAiGenerated": false,
+      "visualTheme": "agronegócio",
+      "editorialAngle": "Foco regulatório e governança (compliance, leis federais e impacto tributário sistêmico)"
+    },
+    {
       "id": "rss-hash_7a8c9b82",
       "views": 0,
       "date": "2026-11-09T10:56:50.104Z",
@@ -29364,7 +29403,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-09T10:56:46.734Z",
+      "lastScraped": "2026-11-11T10:23:38.625Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29372,7 +29411,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-09T10:56:47.356Z",
+      "lastScraped": "2026-11-11T10:23:39.629Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29385,7 +29424,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-09T10:56:48.454Z",
+      "lastScraped": "2026-11-11T10:23:40.424Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29396,7 +29435,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-09T10:56:48.812Z"
+      "lastScraped": "2026-11-11T10:23:40.761Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29405,7 +29444,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-09T10:56:50.077Z"
+      "lastScraped": "2026-11-11T10:23:41.941Z"
     }
   ],
   "ads": [
@@ -29460,6 +29499,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794392632273",
+      "feedName": "Agência Câmara - Política",
+      "feedUrl": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
+      "originalTitle": "Deputada defende proteção para mulheres que atuem em posição de liderança; assista",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/politica.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Deputada defende proteção para mulheres que atuem em posição de liderança; assista",
+      "postId": "rss-hash_2960f7b9",
+      "timestamp": "2026-11-11T10:23:41.964Z",
+      "chosenCategory": "Política",
+      "categoryScore": -12,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 51.4h (+8), Sem postagem há 51.4h (+5), Dominante com 40% na Home (-10), Redução de prioridade por representação excessiva (-15). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 8",
+      "discardedCategories": [
+        "Economia",
+        "Tecnologia",
+        "Saúde",
+        "Judiciário",
+        "Geopolítica",
+        "Nacional",
+        "Esporte"
+      ]
+    },
     {
       "id": "1794221850775",
       "feedName": "G1 - Economia",

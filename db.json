@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_21c20ab8",
+      "views": 0,
+      "date": "2026-11-13T10:35:32.765Z",
+      "title": "Áudio: Projeto de ajuste fiscal prevê economia de até R$ 60 bilhões em 2027",
+      "subtitle": "O projeto de ajuste fiscal (PLP 299/2026), que está em análise no Senado, prevê uma economia estimada de até R$ 60 bilhões em 2027.",
+      "slug": "audio-projeto-de-ajuste-fiscal-preve-economia-de-ate-r-60-bilhoes-em-2027",
+      "content": "O projeto de ajuste fiscal (PLP 299/2026), que está em análise no Senado, prevê uma economia estimada de até R$ 60 bilhões em 2027. Ouça o áudio.",
+      "category": "Economia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Economia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Áudio: Projeto de ajuste fiscal prevê economia de até Store Center",
+      "seoDescription": "O projeto de ajuste fiscal (PLP 299/2026), que está em análise no Senado, prevê uma economia estimada de até R$ 60 bilhões em 2027.",
+      "keyword": "Áudio: Projeto de ajuste fiscal prevê economia de até R$ 60 bilhões em 2027",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "sourceUrl": "https://www12.senado.leg.br/noticias/audios/2026/11/projeto-de-ajuste-fiscal-preve-economia-de-ate-r-60-bilhoes-em-2027",
+      "sourceName": "Agência Senado - Últimas notícias",
+      "sourceUrls": [
+        "https://www12.senado.leg.br/noticias/audios/2026/11/projeto-de-ajuste-fiscal-preve-economia-de-ate-r-60-bilhoes-em-2027"
+      ],
+      "sourceNames": [
+        "Agência Senado - Últimas notícias"
+      ],
+      "rssOriginalTitle": "Áudio: Projeto de ajuste fiscal prevê economia de até R$ 60 bilhões em 2027",
+      "isAiGenerated": false,
+      "visualTheme": "tecnologia",
+      "editorialAngle": "Visão técnica minuciosa e engenharia avançada (equipamentos, novos marcos de software, maquinário automatizado e eficiência operacional)"
+    },
+    {
       "id": "rss-hash_1e8eec7a",
       "views": 0,
       "date": "2026-11-12T20:22:17.686Z",
@@ -29442,7 +29481,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-12T20:22:05.568Z",
+      "lastScraped": "2026-11-13T10:35:28.983Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29450,7 +29489,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-12T20:22:05.865Z",
+      "lastScraped": "2026-11-13T10:35:30.000Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29463,7 +29502,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-11T10:23:40.424Z",
+      "lastScraped": "2026-11-13T10:35:31.019Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29474,7 +29513,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-12T20:22:16.523Z"
+      "lastScraped": "2026-11-13T10:35:31.392Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29483,7 +29522,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-12T20:22:17.668Z"
+      "lastScraped": "2026-11-13T10:35:32.741Z"
     }
   ],
   "ads": [
@@ -29538,6 +29577,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794566173470",
+      "feedName": "Agência Senado - Últimas notícias",
+      "feedUrl": "https://www12.senado.leg.br/noticias/RSS",
+      "originalTitle": "Áudio: Projeto de ajuste fiscal prevê economia de até R$ 60 bilhões em 2027",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/economia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian economy finance market business documents city commerce, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Áudio: Projeto de ajuste fiscal prevê economia de até R$ 60 bilhões em 2027",
+      "postId": "rss-hash_21c20ab8",
+      "timestamp": "2026-11-13T10:35:32.765Z",
+      "chosenCategory": "Economia",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem há 275.5h (+8), Sem postagem há 275.5h (+5). Recência: Posição 3 (+5). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 36",
+      "discardedCategories": [
+        "Tecnologia",
+        "Saúde",
+        "Judiciário",
+        "Política",
+        "Nacional",
+        "Geopolítica",
+        "Entretenimento"
+      ]
+    },
     {
       "id": "1794515008674",
       "feedName": "G1 - Economia",

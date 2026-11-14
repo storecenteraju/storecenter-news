@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_6abfa13a",
+      "views": 0,
+      "date": "2026-11-14T21:37:22.713Z",
+      "title": "REC 039;n 039;Play: rede social sem território não vira voto, diz deputado",
+      "subtitle": "As últimas eleições presidenciais no país demonstraram a força e a importância da mobilização pelas redes sociais – que ajudaram a construir uma virada histórica para o presidente Luiz Inácio Lula da Silva, no segundo turno, algo que nunca havia ocorrido no.",
+      "slug": "rec-039-n-039-play-rede-social-sem-territorio-nao-vira-voto-diz-deputado",
+      "content": "As últimas eleições presidenciais no país demonstraram a força e a importância da mobilização pelas redes sociais – que ajudaram a construir uma virada histórica para o presidente Luiz Inácio Lula da Silva, no segundo turno, algo que nunca havia ocorrido no país desde a redemocratização. Para o ativista e deputado estadual recém-eleito por Pernambuco Vinicius Castello, essa virada, no entanto, não pode ser creditada unicamente a essa mobilização construída na internet.\n\n“Rede sem território não vira voto”, reforçou ele na palestra O Poder das Redes na Mobilização Popular, ocorrida durante o festival REC’n’Play, que termina neste sábado (14) em Recife. Para ele, apesar das redes sociais agora desempenharem um papel fundamental na constituição política do país, a mobilização ainda precisa ser construída dentro dos territórios, em um contato direto com a população.\n\n“O presidente Lula não teria virado e ganhado o segundo turno se ele não tivesse inserido no pensamento social e consolidado suas políticas dentro do território. E isso só é construído por política territorial.\n\n” “Algo muito maior do que a própria mobilização é a credibilidade construída dentro do território”, ressaltou. Segundo Castello, é inegável que as redes sociais estão modificando a forma de se fazer política no mundo e até criando desafios como o enfrentamento à influência das Big Techs e de seus algoritmos nas eleições.\n\nDeputado estadual recém-eleito por Pernambuco Vinicius Castello - Deputado Vinicius Castello/Istagagram Apesar dessa força das redes, no entanto, ele reforça que ainda é preciso lembrar que “a política vai ser sempre conduzida pelas pessoas”. Diante disso, Castello defende que haja um grande debate na sociedade, principalmente em relação à regulamentação das Big Techs, para que “a comercialização dessa impulsão de dados, de plataformas e de conteúdos não estejam acima da própria instituição e da própria democracia”.\n\n“Esse é um debate que precisa ser feito com muita seriedade, porque a gente sabe muito bem que ter a oportunidade de fazer com que as redes interfiram no debate social pode ser fundamental, mas a decisão sempre vai ser da população. É a população que decide para onde a política vai”.\n\nREC’n’Play O REC’n’Play é o maior evento de tecnologia e inovação do país. Organizado pelo Porto Digital e pelo Sebrae Pernambuco, o festival é realizado no Bairro do Recife.\n\nMais informações sobre o evento podem ser obtidas no site. A repórter viajou a convite da organização do REC’n’Play.",
+      "category": "Entretenimento",
+      "author": "Redação Store Center",
+      "tags": [
+        "Entretenimento",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "person",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "REC 039;n 039;Play: rede social sem território não vira Store Center",
+      "seoDescription": "As últimas eleições presidenciais no país demonstraram a força e a importância da mobilização pelas redes sociais – que ajudaram a construir uma virad",
+      "keyword": "REC 039;n 039;Play: rede social sem território não vira voto, diz deputado",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "sourceUrl": "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/recnplay-rede-social-sem-territorio-nao-vira-voto-diz-deputado",
+      "sourceName": "Agência Brasil - Últimas notícias",
+      "sourceUrls": [
+        "https://agenciabrasil.ebc.com.br/cultura/noticia/2026-11/recnplay-rede-social-sem-territorio-nao-vira-voto-diz-deputado"
+      ],
+      "sourceNames": [
+        "Agência Brasil - Últimas notícias"
+      ],
+      "rssOriginalTitle": "REC&#039;n&#039;Play: rede social sem território não vira voto, diz deputado",
+      "isAiGenerated": false,
+      "visualTheme": "energia",
+      "editorialAngle": "Análise microeconômica e competitividade (lucratividade de novos negócios locais, cadeia de suprimentos nacional e fusões setoriais)"
+    },
+    {
       "id": "rss-hash_21c20ab8",
       "views": 0,
       "date": "2026-11-13T10:35:32.765Z",
@@ -29481,7 +29520,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-13T10:35:28.983Z",
+      "lastScraped": "2026-11-14T21:37:20.194Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29489,7 +29528,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-13T10:35:30.000Z",
+      "lastScraped": "2026-11-14T21:37:20.670Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29502,7 +29541,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-13T10:35:31.019Z",
+      "lastScraped": "2026-11-14T21:37:21.559Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29513,7 +29552,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-13T10:35:31.392Z"
+      "lastScraped": "2026-11-14T21:37:21.829Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29522,7 +29561,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-13T10:35:32.741Z"
+      "lastScraped": "2026-11-14T21:37:22.692Z"
     }
   ],
   "ads": [
@@ -29577,6 +29616,34 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794692303137",
+      "feedName": "Agência Brasil - Últimas notícias",
+      "feedUrl": "https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml",
+      "originalTitle": "REC&#039;n&#039;Play: rede social sem território não vira voto, diz deputado",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/geral.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: Brazilian news editorial scene economy society government, realistic photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "REC 039;n 039;Play: rede social sem território não vira voto, diz deputado",
+      "postId": "rss-hash_6abfa13a",
+      "timestamp": "2026-11-14T21:37:22.713Z",
+      "chosenCategory": "Entretenimento",
+      "categoryScore": 23,
+      "choiceReason": "Prioridade Categoria: Ausente na Home (+10), Sem postagem histórica (+8), Sem postagem histórica (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5), Gatilho de relevância (+3) | Pontuação Total do Candidato: 46",
+      "discardedCategories": [
+        "Tecnologia",
+        "Política",
+        "Economia",
+        "Saúde",
+        "Judiciário",
+        "Nacional",
+        "Geopolítica",
+        "Esporte"
+      ]
+    },
     {
       "id": "1794566173470",
       "feedName": "Agência Senado - Últimas notícias",

@@ -1,6 +1,45 @@
 {
   "posts": [
     {
+      "id": "rss-hash_42413eaa",
+      "views": 0,
+      "date": "2026-11-14T23:25:13.616Z",
+      "title": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+      "subtitle": "O secretário de Transportes dos EUA, Sean Duffy, classificou o sistema americano como \"muito velho\".",
+      "slug": "controle-de-trafego-aereo-dos-eua-ainda-opera-com-disquetes-veja-como-eles-funcionam",
+      "content": "O secretário de Transportes dos EUA, Sean Duffy, classificou o sistema americano como \"muito velho\". Duffy tem defendido um aumento no financiamento para modernizar a infraestrutura dos EUA.\n\nNo país, controladores de mais de 400 centros de controle de tráfego aéreo ainda usam informações salvas em disquetes, uma tecnologia dos anos 1970. Disquetes são dispositivos de armazenamento de dados com um disco magnético interno e um acabamento em plástico.\n\nEles surgiram antes dos CDs, pen drives e serviços de armazenamento em nuvem. O modelo mais popular, de 3,5 polegadas, só tinha 1,44 megabyte de armazenamento.\n\nApesar de serem antigos, os disquetes não foram a causa do problema. Segundo o secretário de Transportes dos EUA, o incidente pode ter sido causado por um erro na troca de cabos de cobre por fibra óptica em um sistema de controle de tráfego.\n\nOs disquetes ainda usados por controladores de voo nos EUA permitem armazenar e atualizar dados meteorológicos, avisos aos pilotos e informações sobre aeroportos, por exemplo. No início de novembro, a Administração Federal de Aviação dos EUA (FAA) anunciou que deixaria de usar os disquetes até 2028.\n\nQuatro ferramentas criadas na década de 1980 serão substituídas pelo chamado Sistema de Exibição de Informações Empresariais (E-IDS, na sigla em inglês). A nova interface vai reunir dados operacionais em apenas um local para ajudar controladores de voo a visualizarem atualizações rapidamente.\n\nO administrador da FAA, Bryan Bedford, afirmou que o novo sistema permite aos controladores de voo compartilhar rapidamente alertas críticos, horários de espaço aéreo restrito e relatórios de pilotos. \"Estamos abandonando processos manuais e ultrapassados e substituindo a tecnologia que antes dependia de disquetes por um sistema moderno\", afirmou Bedford, no início de novembro.\n\nO Congresso dos EUA aprovou em 2025 um investimento de US$ 12,5 bilhões (R$ 68,7 bilhões) para modernizar o sistema americano de tráfego aéreo. A expectativa do secretário de Transportes é conseguir mais US$ 30 bilhões (R$ 109 bilhões) para realizar outras melhorias.",
+      "category": "Tecnologia",
+      "author": "Redação Store Center",
+      "tags": [
+        "Tecnologia",
+        "RSS",
+        "Store Center"
+      ],
+      "status": "published",
+      "image": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imageStrategy": "editorial-template",
+      "imageSubjectType": "generic",
+      "imageCredit": "Arte editorial: Store Center",
+      "imageLicense": "Criação própria",
+      "seoTitle": "Controle de tráfego aéreo dos EUA ainda opera com Store Center",
+      "seoDescription": "O secretário de Transportes dos EUA, Sean Duffy, classificou o sistema americano como \"muito velho\".",
+      "keyword": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "sourceUrl": "https://g1.globo.com/tecnologia/noticia/2026/11/14/controle-de-trafego-aereo-dos-eua-ainda-opera-com-disquetes-veja-como-eles-funcionam.ghtml",
+      "sourceName": "G1 - Tecnologia",
+      "sourceUrls": [
+        "https://g1.globo.com/tecnologia/noticia/2026/11/14/controle-de-trafego-aereo-dos-eua-ainda-opera-com-disquetes-veja-como-eles-funcionam.ghtml"
+      ],
+      "sourceNames": [
+        "G1 - Tecnologia"
+      ],
+      "rssOriginalTitle": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+      "isAiGenerated": false,
+      "visualTheme": "infraestrutura",
+      "editorialAngle": "Sustentabilidade estratégica e fatores ESG (descarbonização profunda, conservação regional e transição de matriz limpa)"
+    },
+    {
       "id": "rss-hash_6abfa13a",
       "views": 0,
       "date": "2026-11-14T21:37:22.713Z",
@@ -29520,7 +29559,7 @@
   ],
   "feeds": [
     {
-      "lastScraped": "2026-11-14T21:37:20.194Z",
+      "lastScraped": "2026-11-14T23:25:10.946Z",
       "status": "active",
       "category": "Economia",
       "url": "https://g1.globo.com/dynamo/economia/rss2.xml",
@@ -29528,7 +29567,7 @@
       "id": "feed-1"
     },
     {
-      "lastScraped": "2026-11-14T21:37:20.670Z",
+      "lastScraped": "2026-11-14T23:25:11.457Z",
       "status": "active",
       "url": "https://g1.globo.com/dynamo/tecnologia-e-games/rss2.xml",
       "category": "Tecnologia",
@@ -29541,7 +29580,7 @@
       "url": "https://www.camara.leg.br/noticias/rss/dinamico/POLITICA",
       "name": "Agência Câmara - Política",
       "status": "active",
-      "lastScraped": "2026-11-14T21:37:21.559Z",
+      "lastScraped": "2026-11-14T23:25:12.172Z",
       "imagePolicy": "reference_only",
       "lockCategory": true
     },
@@ -29552,7 +29591,7 @@
       "category": "Nacional",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-14T21:37:21.829Z"
+      "lastScraped": "2026-11-14T23:25:12.503Z"
     },
     {
       "id": "feed-agencia-senado",
@@ -29561,7 +29600,7 @@
       "category": "Política",
       "status": "active",
       "imagePolicy": "reference_only",
-      "lastScraped": "2026-11-14T21:37:22.692Z"
+      "lastScraped": "2026-11-14T23:25:13.591Z"
     }
   ],
   "ads": [
@@ -29616,6 +29655,33 @@
     "siteDescription": "Líder regional em jornalismo independente. Economia, Política, Negócios, Geração AI, Tecnologia e Geopolítica."
   },
   "automationLogs": [
+    {
+      "id": "1794698766262",
+      "feedName": "G1 - Economia",
+      "feedUrl": "https://g1.globo.com/dynamo/economia/rss2.xml",
+      "originalTitle": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+      "imageGenerated": "Store Center Editorial",
+      "imageUrl": "/assets/editorial/tecnologia.svg",
+      "imageSource": "Store Center Editorial",
+      "imagePrompt": "FORCE_DYNAMIC_RSS: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "antiRepetitionResult": "Capa editorial própria selecionada por assunto: digital technology cybersecurity servers smartphone app, realistic editorial photo, no text",
+      "imageStatus": "Nova",
+      "publishedTitle": "Controle de tráfego aéreo dos EUA ainda opera com disquetes; veja como eles funcionam",
+      "postId": "rss-hash_42413eaa",
+      "timestamp": "2026-11-14T23:25:13.617Z",
+      "chosenCategory": "Tecnologia",
+      "categoryScore": 13,
+      "choiceReason": "Prioridade Categoria: Sem postagem há 51.0h (+8), Sem postagem há 51.0h (+5). Recência: Posição 0 (+15). Relevância: Descrição rica (+5) | Pontuação Total do Candidato: 33",
+      "discardedCategories": [
+        "Política",
+        "Economia",
+        "Saúde",
+        "Judiciário",
+        "Nacional",
+        "Geopolítica",
+        "Entretenimento"
+      ]
+    },
     {
       "id": "1794692303137",
       "feedName": "Agência Brasil - Últimas notícias",
